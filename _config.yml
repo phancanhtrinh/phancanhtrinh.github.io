@@ -1,6 +1,6 @@
-name: Bedford Lab Research
-description: Science updates on evolution, epidemiology and immunology from the Bedford lab at the Fred Hutch
-url: http://bedford.io
+name: Trinh Phan 
+description: Persional website of Trinh Phan
+url: http://phancanhtrinh.github.io
 
 markdown: kramdown
 permalink: /:categories/:title/
@@ -9,6 +9,10 @@ sass:
   sass_dir: css
 
 plugins: ['jekyll-twitter-plugin']
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : phancanhtrinh/phancanhtrinh.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+
 
 exclude:
   - "*.branches"
@@ -63,54 +67,3 @@ exclude:
   - "projects/h5n1-cambodia/data/tree-jsons/*"
   - "projects/zika-colombia/supplemental-analysis/rarefaction-curves/*"
 
-projects:
-  - alvason/infectious-pulse
-  - blab/chikv
-  - blab/dengue-antigenic-dynamics
-  - blab/flu-forecasting
-  - blab/genomic-horizon
-  - blab/global-migration
-  - blab/h3n2-reassortment
-  - blab/h5n1-cambodia
-  - blab/mers-structure
-  - blab/mitii
-  - blab/mumps-seq
-  - blab/mumps-wa-phylodynamics
-  - blab/ncov-cryptic-transmission
-  - blab/ncov-phylodynamics
-  - blab/ncov-wa-d614g
-  - blab/ncov-wa-phylodynamics
-  - blab/nextflu
-  - blab/roka
-  - blab/seasonal-cov-adaptive-evolution
-  - blab/siv-cst
-  - blab/unsampled
-  - blab/yellow-fever
-  - blab/zika-colombia
-  - blab/zika-seq
-  - blab/zika-usvi
-  - evogytis/baltic
-  - nextstrain/augur
-  - nextstrain/auspice
-  - nextstrain/cli
-  - nextstrain/fauna
-  - nextstrain/janus
-  - nextstrain/ncov
-  - nextstrain/nextstrain.org
-  - nextstrain/sacra
-  - seattleflu/id3c
-  - seattleflu/id3c-customizations
-  - trvrb/ancestry
-  - trvrb/antigen
-  - trvrb/coaltrace
-  - trvrb/divergence
-  - trvrb/dynamics-practical
-  - trvrb/flutrace
-  - trvrb/gs541-phylodynamics
-  - trvrb/haplotypes
-  - trvrb/medium-data
-  - trvrb/PACT
-  - trvrb/phylodynamics-lecture
-  - trvrb/sctrace
-  - trvrb/sismid
-  - trvrb/stem

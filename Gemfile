@@ -12,3 +12,8 @@ gem 'netrc'
 
 # Twitter
 gem 'jekyll-twitter-plugin'
+
+gem 'therubyracer'
+
+gem 'jekyll-admin', group: :jekyll_plugins
+
