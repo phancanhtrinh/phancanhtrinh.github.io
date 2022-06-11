@@ -4,13 +4,30 @@ url: http://phancanhtrinh.github.io
 
 markdown: kramdown
 permalink: /:categories/:title/
+repository: phancanhtrinh/phancanhtrinh.github.io    
+
+title : TrinhPHAN
+tagline: Molecular basis of fungal virulence and drug resistance
+institution:
+  url: https://www.maxperutzlabs.ac.at/
+  name: Medical University of Vienna
+department:
+  url: https://www.maxperutzlabs.ac.at/
+  name: Medical Biochemistry
+author :
+  name : TrinhPHAN
+  email : phancanht99@univie.ac.at
+  github : phancanhtrinh
+  twitter : phancanhtrinh
+
+
+
 future: true
 sass:
   sass_dir: css
 
 plugins: ['jekyll-twitter-plugin']
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : phancanhtrinh/phancanhtrinh.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
