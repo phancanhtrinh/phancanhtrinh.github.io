@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Trinh Canh Phan
-position: PhD Student at Kuchler lab
+position: PhD Student at Kuchler lab, Max Perutz Labs Vienna, Vienna BioCenter
 twitter: phancanhtrinh
 github: phancanhtrinh
 scholar: vQmr9WEAAAAJ
@@ -9,6 +9,10 @@ image: /images/team/trinhphan.jpg
 cv: /pdfs/team/PCT_CV.pdf
 ---
 
-TRINH Phan-Canh is currently a PhD Student at Max Perutz Labs Vienna, Medical University of Vienna. Trinh does research in host-pathogen interactions and molecular mechanisms of antifungal resistance under the supervision of Prof. Karl Kuchler. He has studied secondary compounds from Actinobacteria and Myxobacteria as a lecturer in microbiology at the University of Medicine and Pharmacy at Ho Chi Minh City for 4 years from 2016. You can find his portfolio at phancanhtrinh.com.
+I have been studying clinical fungal infections for 4 years in Vietnam before starting research in fungal pathogenesis and drug-resistance mechanisms in Vienna. My PhD project focuses on *Candida auris*, an emerging human fungal pathogen causing invasive infections in immunosuppressed patients with a high rate of pan-antifungal drug resistance. In addition to proteomics data, we have evidence that morphogenetic changes play a critical role in *C. auris* pathogenesis, during host-fungal interplay and antifungal drug stress. We hypothesize that phenotypic switching controls virulence traits to promote host colonization, immune evasion, and drug resistance in *Candida auris*. 
 
-TRINH is a Pharmacist but an IT lover, which motivated him to get a second bachelor’s degree in IT. He loves bioinformatics, but he dives into a wet lab where TRINH can find the truth of nature.
+I apply integrated omics datasets (RNA-seq, ATAC-seq, proteomics, metabolomics) and tools of reverse genetics (targeted gene disruption, insertions of reporter genes) to 
+* dissect dynamics of regulatory networks and chromatin alterations in morphogenetic switching, host-fungal interaction, and drug response; 
+* identify virulence factors and antifungal drug resistance genes. 
+
+The long-term goal is discovering the major mechanisms of virulence and drug resistance of *C. auris *to develop better therapeutic strategies.
