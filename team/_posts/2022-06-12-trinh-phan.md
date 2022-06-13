@@ -15,4 +15,4 @@ I apply integrated omics datasets (RNA-seq, ATAC-seq, proteomics, metabolomics) 
 * dissect dynamics of regulatory networks and chromatin alterations in morphogenetic switching, host-fungal interaction, and drug response; 
 * identify virulence factors and antifungal drug resistance genes. 
 
-The long-term goal is discovering the major mechanisms of virulence and drug resistance of *C. auris *to develop better therapeutic strategies.
+The long-term goal is discovering the major mechanisms of virulence and drug resistance of *C. auris* to develop better therapeutic strategies.
