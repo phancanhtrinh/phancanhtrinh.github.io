@@ -5,25 +5,24 @@ author: TrinhPHAN
 link: 
 ---
 
-Hi every one,
 
-If you are working in microbiology and usually do growth curve, this is a topic for you.
+If you are working in microbiology and usually do growth curves, this is a topic for you.
 
-I worked with growth curves during my working times. I have done this on 96-well plates and gotten a lots of data points. I saw some people copy and process those data types with Excel and GraphPad. It is terrible for me!
+I worked with growth curves during my working time. I have done this on 96-well plates and gotten a lot of data points. I saw some people copy and process those data types with Excel and GraphPad. It is terrible for me!
 
-For *Candida auris*, I measured every hours in at least 2 days which is not able to plot manually with MS Excel or GraphPad.Therefore, preparing some R scripts for data processing and visualizing is make sense.
+For *Candida auris*, I measured every hour for at least 2 days which is not able to plot manually with MS Excel or GraphPad. Therefore, preparing some R scripts for data processing and visualizing is make sense.
 
 1.  Prepare your data:
 
-When you get data from plate reader, it is in csv or excel formats. You need to name your file by the same pattern with different time points, we will extract the number for plotting later. All data files put in the same folder.
+When you get data from the plate reader, it is in CSV or excel formats. You need to name your files by the same pattern with different time points, we will extract the number for plotting later. All data files are put in the same folder.
 
 ![](/images/eng_tut/growthcurve/datagr.png)
 
-I guest your data from plate reader will be look like below with 96 data points.
+I guest your data from the plate reader will look like below with 96 data points.
 
 ![](/images/eng_tut/growthcurve/dataformat.png)
 
-2.  Import your data into R and transform into long format
+2.  Import your data into R and transform it into the long format
 
 ```{r}
 #call library
@@ -62,9 +61,9 @@ Your final result should look like below
 
 ![](/images/eng_tut/growthcurve/ldat.png)
 
-3.  Load meta data
+3.  Load metadata
 
-Prepare meta data for your 96-well plates. It looks like below:
+Prepare metadata for your 96-well plates.
 
 -   for medium
 
@@ -89,7 +88,7 @@ meta_strains <- melt(meta_strains, id.vars = c("row"), value.name = "strains")
 meta_strains$ID <- str_c(meta_strains$row, meta_strains$variable)
 meta_strains <- meta_strains[,c(4,3)]
 
-#merge meta data from strains and mediums
+#merge metadata from strains and mediums
 meta <- merge(meta_medium, meta_strains)
 ```
 
@@ -129,6 +128,6 @@ dev.off()
 
 ```
 
-Your result should look like below:
+Your result should look like the figure below
 
 ![](/images/eng_tut/growthcurve/plot.png)
