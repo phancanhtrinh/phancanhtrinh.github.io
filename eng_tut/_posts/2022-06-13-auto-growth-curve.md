@@ -12,7 +12,7 @@ I worked with growth curves during my working time. I have done this on 96-well 
 
 For *Candida auris*, I measured every hour for at least 2 days which is not able to plot manually with MS Excel or GraphPad. Therefore, preparing some R scripts for data processing and visualizing is make sense.
 
-1.  Prepare your data:
+### 1.  Prepare your data
 
 When you get data from the plate reader, it is in CSV or excel formats. You need to name your files by the same pattern with different time points, we will extract the number for plotting later. All data files are put in the same folder.
 
@@ -22,7 +22,7 @@ I guest your data from the plate reader will look like below with 96 data points
 
 ![](/images/eng_tut/growthcurve/dataformat.png)
 
-2.  Import your data into R and transform it into the long format
+### 2.  Import your data into R and transform it into the long format
 
 ```{r}
 #call library
@@ -61,7 +61,7 @@ Your final result should look like below
 
 ![](/images/eng_tut/growthcurve/ldat.png)
 
-3.  Load metadata
+### 3.  Load metadata
 
 Prepare metadata for your 96-well plates.
 
@@ -92,7 +92,7 @@ meta_strains <- meta_strains[,c(4,3)]
 meta <- merge(meta_medium, meta_strains)
 ```
 
-4.  Join your data with meta
+### 4.  Join your data with meta
 
 ```{r}
 
@@ -100,9 +100,13 @@ meta <- merge(meta_medium, meta_strains)
 pdat <- merge(ldat, meta, all= T)
 ```
 
-4.  Visualize data
+### 5.  Visualize data
 
 ```{r}
+#call library
+library(ggplot2)
+library("ggsci")
+
 #check your data structure first to make sure numeric value of time and OD
 str(pdat)
 
