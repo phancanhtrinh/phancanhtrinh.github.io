@@ -95,13 +95,13 @@ meta <- merge(meta_medium, meta_strains)
 
 4.  Join your data with meta
 
-    ```{r}
+```{r}
 
-    #Join data
-    pdat <- merge(ldat, meta, all= T)
-    ```
+#Join data
+pdat <- merge(ldat, meta, all= T)
+```
 
-5.  Visualize data
+4.  Visualize data
 
 ```{r}
 #check your data structure first to make sure numeric value of time and OD
