@@ -92,3 +92,43 @@ meta_strains <- meta_strains[,c(4,3)]
 #merge meta data from strains and mediums
 meta <- merge(meta_medium, meta_strains)
 ```
+
+4.  Join your data with meta
+
+    ```{r}
+
+    #Join data
+    pdat <- merge(ldat, meta, all= T)
+    ```
+
+5.  Visualize data
+
+```{r}
+#check your data structure first to make sure numeric value of time and OD
+str(pdat)
+
+#convert to numeric
+pdat$time <- as.numeric(as.character(pdat$time))
+
+###plot for each medium
+p <- ggplot(data = pdat[pdat$medium=="YPD"&pdat$strains!="control",],
+       aes(time, OD600, col = strains)) + 
+  geom_point() + 
+  geom_smooth(se = FALSE,alpha=0.5, span = 0.3) +
+  theme_bw() + 
+  scale_color_npg()  + #set nature journal colors
+  theme(text = element_text(size = 20), legend.position=c(0.8, 0.4))
+
+#Saving as svg
+svg("YPD.svg",                      # File name
+    width = 8, height = 7)          # Paper size
+#plot name
+p
+# Closing the graphical device
+dev.off() 
+
+```
+
+Your result should look like below:
+
+![](images/plot.png){width="331"}
