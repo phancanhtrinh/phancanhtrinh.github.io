@@ -17,11 +17,11 @@ For *Candida auris*, I measured every hours in at least 2 days which is not able
 
 When you get data from plate reader, it is in csv or excel formats. You need to name your file by the same pattern with different time points, we will extract the number for plotting later. All data files put in the same folder.
 
-![](images/datagr.png)
+![](images/eng_tut/growthcurve/datagr.png)
 
 I guest your data from plate reader will be look like below with 96 data points.
 
-![](images/dataformat.png)
+![](images/eng_tut/growthcurve/dataformat.png)
 
 2.  Import your data into R and transform into long format
 
@@ -56,11 +56,11 @@ dat <- Reduce(function(x,y) merge(x=x, y=y, by="ID", all=T), listData)
 ldat <- melt(dat, variable.name = "time", value.name = "OD600")
 ```
 
-![](images/datastr.png)
+![](images/eng_tut/growthcurve/datastr.png)
 
 Your final result should look like below
 
-![](images/ldat.png)
+![](iimages/eng_tut/growthcurve/ldat.png)
 
 3.  Load meta data
 
@@ -68,11 +68,11 @@ Prepare meta data for your 96-well plates. It looks like below:
 
 -   for medium
 
-![](images/metamedium.png)
+![](images/eng_tut/growthcurve/metamedium.png)
 
 -   for strain list
 
-![](images/strains.png)
+![](iimages/eng_tut/growthcurve/strains.png)
 
 ```{r}
 #load metadata into R and anotate
@@ -131,4 +131,4 @@ dev.off()
 
 Your result should look like below:
 
-![](images/plot.png){width="331"}
+![](images/eng_tut/growthcurve/plot.png){width="331"}
