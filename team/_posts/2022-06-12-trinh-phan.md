@@ -9,7 +9,7 @@ image: /images/team/trinhphan.jpg
 cv: /pdfs/team/PCT_CV.pdf
 ---
 
-I have been studying clinical fungal infections for 4 years in Vietnam before starting research in fungal pathogenesis and drug-resistance mechanisms in Vienna. My PhD project focuses on *Candida auris*, an emerging human fungal pathogen causing invasive infections in immunosuppressed patients with a high rate of pan-antifungal drug resistance. In addition to proteomics data, we have evidence that morphogenetic changes play a critical role in *C. auris* pathogenesis, during host-fungal interplay and antifungal drug stress. We hypothesize that phenotypic switching controls virulence traits to promote host colonization, immune evasion, and drug resistance in *Candida auris*. 
+I have been studying clinical fungal infections for 4 years in Vietnam before starting research in fungal pathogenesis and drug-resistance mechanisms in Vienna. My PhD project focuses on *Candida auris*, an emerging human fungal pathogen causing invasive infections in immunosuppressed patients with a high rate of pan-antifungal drug resistance.  
 
 I apply integrated omics datasets (RNA-seq, ATAC-seq, proteomics, metabolomics) and tools of reverse genetics (targeted gene disruption, insertions of reporter genes) to 
 * dissect dynamics of regulatory networks and chromatin alterations in morphogenetic switching, host-fungal interaction, and drug response; 
