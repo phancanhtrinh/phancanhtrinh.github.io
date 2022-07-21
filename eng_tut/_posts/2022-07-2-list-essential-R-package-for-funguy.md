@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Essential R packages for fungal guys
-author: TrinhPHAN
+author: TrinhPHAN 
 link: 
 ---
 
