@@ -44,6 +44,9 @@
 	<!-- Bootstrap -->
 	<script src="/js/bootstrap.min.js"></script>
 
+ {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
 
 <body>
