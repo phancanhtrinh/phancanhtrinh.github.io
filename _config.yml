@@ -29,7 +29,8 @@ sass:
 plugins: ['jekyll-twitter-plugin']
 
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
-
+# Google Analytics
+google_analytics: G-HRMVH10FQZ
 
 exclude:
   - "*.branches"
