@@ -1,6 +1,7 @@
 ---
 layout: paper
 title: A Proteomic Approach for the Quantification of Posttranslational Protein Lysine Acetylation in Candida albicans
+image: /images/blog/candidaspiciesbook.png
 authors: Raju Shivarathri, Manju Chauhan, Rounik Mazumdar, Phan Canh Trinh, Wolfgang Reiter, Markus Hartl, Karl Kuchler & Neeraj Chauhan  
 year: 2022
 ref: Shivarathri et al. 2022. Candida Species.
