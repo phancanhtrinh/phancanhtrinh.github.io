@@ -7,6 +7,6 @@ link:
 
 This month, our mBio paper and a book chapter for Candida species were released. Check it out at: <https://phancanhtrinh.github.io/papers/>
 
-![A book chapter in Candida species](images/candidaspiciesbook.png)
+![A book chapter in Candida species](/images/candidaspiciesbook.png)
 
-![A mBio paper](images/Transcriptomics%20and%20Phenotyping%20Define%20Genetic%20Signatures%20Associated%20with%20Echino%20mbio-01.png)
+![A mBio paper](/images/Transcriptomics%20and%20Phenotyping%20Define%20Genetic%20Signatures%20Associated%20with%20Echino%20mbio-01.png)
