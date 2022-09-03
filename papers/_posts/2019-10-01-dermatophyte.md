@@ -12,7 +12,7 @@ doi:
 
 # Abstract
 
-Introduction: Dermatophytosis is common in hot and moist climates like Vietnam, although the infection is normally limited to superficial skin but seriously affects the quality of human life. Long duration of treatment impacts gradually on patients’ adherence, which is an opportunity to develop antifungal resistance. 
+Introduction: Dermatophytosis is common in hot and moist climates like Vietnam, although the infection is normally limited to superficial skin but seriously affects the quality of human life. Long duration of treatment impacts gradually on patients adherence, which is an opportunity to develop antifungal resistance. 
 
 Objectives: Determinating species composition and susceptibility of isolates from clinical specimens at Hospital of Dermatovenereology in Ho Chi Minh city (11/2017-12/2017) to ketoconazole and terbinafine. 
 
