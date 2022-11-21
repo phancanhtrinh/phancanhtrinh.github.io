@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Two collaboration works were released in August
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

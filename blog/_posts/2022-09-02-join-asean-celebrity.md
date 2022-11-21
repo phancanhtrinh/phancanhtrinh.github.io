@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trinh participated in the ASEAN's 55th year founding anniversary at the United Nations office in Vienna 
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 
