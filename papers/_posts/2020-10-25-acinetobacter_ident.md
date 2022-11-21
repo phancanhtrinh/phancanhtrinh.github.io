@@ -2,7 +2,7 @@
 layout: paper
 title: Identification of Acinetobacter baumannii and detection of ß – lactam antibiotic resistance genes in clinical samples by multiplex PCR
 image: /images/papers/acinetobacterident.png
-authors: Trinh Phan-Canh, Thao Le-Thi-Thanh, Thuy Ngo-Thi-Bich, Thanh Nguyen-Thi-Thanh, Linh Ho-Le-Truc, Tu-Anh Nguyen
+authors: Phan-Canh Trinh, Thao Le-Thi-Thanh, Thuy Ngo-Thi-Bich, Thanh Nguyen-Thi-Thanh, Linh Ho-Le-Truc, Tu-Anh Nguyen
 year: 2020
 ref: Trinh et al. 2020. biorxiv.
 journal: "biorxiv 2020."

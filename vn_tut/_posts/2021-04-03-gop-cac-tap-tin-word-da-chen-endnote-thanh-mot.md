@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: Gộp các tập tin Word đã chèn Endnote thành một
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

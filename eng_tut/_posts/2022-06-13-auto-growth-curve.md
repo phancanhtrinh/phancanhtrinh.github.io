@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Growth curve - automatic data processing and visualization by R
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

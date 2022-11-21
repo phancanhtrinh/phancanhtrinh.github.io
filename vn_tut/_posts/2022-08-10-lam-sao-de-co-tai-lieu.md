@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: Làm sao để có tài liệu?
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

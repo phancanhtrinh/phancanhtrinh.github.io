@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: Hiện file ẩn do virus
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

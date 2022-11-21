@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: Phân chia tài liệu Tiếng Việt riêng, tài liệu Tiếng Anh riêng trong EndNote
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: 3 công cụ đơn giản để nâng cao chất lượng hình ảnh trong bài báo cáo
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

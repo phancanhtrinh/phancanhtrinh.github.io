@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: Heading trong Word bị mảng đen biết phải làm sao?
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

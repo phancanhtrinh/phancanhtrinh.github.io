@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: Định dạng Endnote Style theo yêu cầu
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

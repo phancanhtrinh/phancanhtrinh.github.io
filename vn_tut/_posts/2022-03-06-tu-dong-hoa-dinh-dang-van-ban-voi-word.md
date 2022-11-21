@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: Tự động hóa định dạng văn bản với Word
-author: TrinhPHAN
+author: Phan-Canh Trinh 
 link: 
 ---
 

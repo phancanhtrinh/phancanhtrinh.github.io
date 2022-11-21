@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: Một vài việc hay làm trước khi in slide PowerPoint
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 

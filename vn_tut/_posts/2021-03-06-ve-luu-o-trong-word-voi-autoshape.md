@@ -2,7 +2,7 @@
 layout: post
 lang: vn
 title: Làm thế nào để sơ đồ trong MS Word không bị lệch vị trí
-author: TrinhPHAN
+author: Phan-Canh Trinh
 link: 
 ---
 
