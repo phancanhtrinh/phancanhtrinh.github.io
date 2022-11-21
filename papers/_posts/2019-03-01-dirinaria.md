@@ -2,7 +2,7 @@
 layout: paper
 title: Dirinaria applanata - morphology, chemical composition and antimicrobial activity
 image: /images/papers/dirinaria.png
-authors: Phan Canh Trinh, Vo Le Cong Trang, Duong Nguyen Phi Long, and Nguyen Dinh Nga
+authors: Phan-Canh Trinh, Vo Le Cong Trang, Duong Nguyen Phi Long, and Nguyen Dinh Nga
 year: 2019
 ref: Trinh et al. 2019. Ho Chi Minh City Journal of Medicine.
 journal: "Ho Chi Minh City Journal of Medicine 23:2."

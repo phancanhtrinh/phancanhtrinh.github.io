@@ -2,7 +2,7 @@
 layout: paper
 title: Isolation and screening antimicrobial activity of soil actinobacteria
 image: /images/papers/soil_actinomyces.png
-authors: Nguyen Xuan Loc, Dinh Thi Thuy Linh, Tran Quoc Vuong, Nguyen Thi Ngoc Yen, Le Thi Thanh Thao, Nguyen Tu Anh, and Phan Canh Trinh
+authors: Nguyen Xuan Loc, Dinh Thi Thuy Linh, Tran Quoc Vuong, Nguyen Thi Ngoc Yen, Le Thi Thanh Thao, Nguyen Tu Anh, and Phan-Canh Trinh
 year: 2019
 ref: Loc et al. 2019. Pharmaceutical Journal (Vietnam) 59:524.
 journal: "Pharmaceutical Journal (Vietnam) 59:524."

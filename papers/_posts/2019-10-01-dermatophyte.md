@@ -2,7 +2,7 @@
 layout: paper
 title: In vitro susceptibility testing of dermatophytes isolated from hospital of dermatovenereology in Ho Chi Minh city to ketoconazole and terbinafine
 image: /images/papers/dermatophyte.png
-authors: Nguyen Thi Ngoc Yen, Phan Canh Trinh, Ton Hoang Dieu, and Nguyen Le Phuong Uyen
+authors: Nguyen Thi Ngoc Yen, Phan-Canh Trinh, Ton Hoang Dieu, and Nguyen Le Phuong Uyen
 year: 2019
 ref: Yen et al. 2019. Ho Chi Minh City Journal of Medicine 23:3.
 journal: "Ho Chi Minh City Journal of Medicine 23:3."

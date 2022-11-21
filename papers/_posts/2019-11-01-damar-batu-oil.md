@@ -2,7 +2,7 @@
 layout: paper
 title: Damar Batu Essential Oil - In Vitro Antimicrobial Activities and Perspectives
 image: /images/papers/damar_batu.png
-authors: Phan Canh Trinh and Duong Thi Thanh Mai
+authors: Phan-Canh Trinh and Duong Thi Thanh Mai
 year: 2019
 ref: Trinh et al. 2019. Project Report TRAC Sweden/Vietnam.
 journal: "Project Report TRAC Sweden/Vietnam."
