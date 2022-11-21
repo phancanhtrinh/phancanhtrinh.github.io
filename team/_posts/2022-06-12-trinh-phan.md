@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Trinh Canh Phan
+title: Phan-Canh Trinh
 position: PhD Student at Kuchler lab, Max Perutz Labs Vienna, Vienna BioCenter
 twitter: phancanhtrinh
 github: phancanhtrinh
