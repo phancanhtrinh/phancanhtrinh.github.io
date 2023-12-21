@@ -6,7 +6,7 @@ twitter: phancanhtrinh
 github: phancanhtrinh
 scholar: vQmr9WEAAAAJ
 image: /images/team/trinhphan.jpg
-cv: /pdfs/team/PCT_CV.pdf
+cv: /pdfs/papers/PCT_CV.pdf
 ---
 
 I have been studying clinical fungal infections for 4 years in Vietnam before starting research in fungal pathogenesis and drug-resistance mechanisms in Vienna. My PhD project focuses on *Candida auris*, an emerging human fungal pathogen causing invasive infections in immunosuppressed patients with a high rate of pan-antifungal drug resistance.  
