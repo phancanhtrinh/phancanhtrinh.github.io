@@ -3,8 +3,8 @@ layout: paper
 title: Native human and mouse skin infection models to study Candida auris-host interactions
 authors: Saskia Seiser, Hossein Arzani, Tanya Ayub, Trinh Phan-Canh, Clement Staud, Christof Worda, Karl Kuchler, Adelheid Elbe-Bürger 
 image: /images/blog/seisermicrobeinfection23.png
-year: 2023
-ref: Seiser et al. 2023. Microbes and Infection.
+year: 2024
+ref: Seiser et al. 2024. Microbes and Infection.
 journal: "Microbes and Infection j.micinf.2023.105234."
 pdf: https://doi.org/10.1016/j.micinf.2023.105234
 doi: 10.1016/j.micinf.2023.105234
