@@ -4,7 +4,7 @@ title: Carbon dioxide controls fungal fitness and skin tropism of Candida auris
 authors: Trinh Phan-Canh, Philipp Penninger, Saskia Seiser, Narakorn Khunweeraphong, Doris Moser, Tamires Bitencourt, Hossein Arzani, Weiqiang Chen, Lisa-Maria Zenz, Andrej Knarr, Diana Cerbu, Sabrina Jenull, Christoph Müller, Michaela Lackner, Giuseppe Ianiri, Anuradha Chowdhary, Markus Hartl, Adelheid Elbe-Bürger, Karl Kuchler 
 image: /images/blog/csp_preprint2024.png
 year: 2024
-ref: Seiser et al. 2024. Microbes and Infection.
+ref: Phan-Canh et al. 2024. BioRxiv.
 journal: "BioRxiv 2024.04.12.589292."
 pdf: https://doi.org/10.1101/2024.04.12.589292
 doi: 10.1101/2024.04.12.589292
