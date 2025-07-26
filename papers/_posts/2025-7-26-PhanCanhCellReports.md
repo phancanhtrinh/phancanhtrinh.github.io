@@ -7,7 +7,7 @@ year: 2025
 ref: Phan-Canh. 2025. Cell Reports.
 journal: "Cell Reports 115976."
 pdf: https://doi.org/10.1016/j.celrep.2025.115976
-doi: doi.org/10.1016/j.celrep.2025.115976
+doi: 10.1016/j.celrep.2025.115976
 ---
 
 # Highlights
