@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: DPPH-Scavenging and Antimicrobial Activities of Asteraceae Medicinal Plants on Uropathogenic Bacteria
-image: https://static-02.hindawi.com/articles/ecam/volume-2020/7807026/figures/7807026.fig.001.svgz
+image: /images/papers/ecam.jpg
 authors: Phan-Canh Trinh, Le-Thi-Thanh Thao, Hoang-Tran-Viet Ha, and TuAnh Nguyen
 year: 2020
 ref: Trinh et al. 2020. ECam.
