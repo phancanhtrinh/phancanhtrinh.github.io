@@ -8,7 +8,7 @@ link: https://www.youtube.com/watch?v=ZbwX0jQgW0I&t
 ⏳  It was a pleasure presenting my recent work on antifungal drug resistance and skin tropism in Candida auris to the Innovative BioScience Group last Sundayy.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZbwX0jQgW0I?si=gn2XMKHSznuAM7ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="562.5" src="https://www.youtube.com/embed/ZbwX0jQgW0I?si=gn2XMKHSznuAM7ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Link to papers:
 
