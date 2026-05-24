@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I received the MDPI Biology Young Investigator Award 2026 
+title: I received the MDPI Pathogens Young Investigator Award 2026 
 author: Trinh Phan-Canh
 link: https://www.mdpi.com/journal/pathogens/awards/3381
 ---
