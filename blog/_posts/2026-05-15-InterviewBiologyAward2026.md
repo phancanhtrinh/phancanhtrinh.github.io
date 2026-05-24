@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interview with Biology Journal – Young Investigator Award 2026
+title: Interview with Biology Journal - Young Investigator Award 2026
 author: Trinh Phan-Canh
 link: https://www.mdpi.com/about/announcements/16421
 ---
