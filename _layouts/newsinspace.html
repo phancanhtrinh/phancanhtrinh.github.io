@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+{% assign nis = site.data.newsinspace %}
+
+<div class="nis-header">
+	<div class="nis-title-row">
+		<i class="fa fa-space-shuttle fa-fw"></i>
+		<span class="nis-title">NewsInSpace</span>
+	</div>
+	<div class="nis-tagline">
+		A daily-updated feed of new papers on spatial multi-omics, cancer biology, virus-driven cancer, spatial biotechnology, and AI-driven biology — pulled automatically from Nature, Cell, Science, Cancer Discovery, bioRxiv, and arXiv.
+	</div>
+	{% if nis %}
+	<div class="nis-meta">
+		{{ nis.count }} papers from the last {{ nis.window_days }} days &middot; last updated {{ nis.generated_at | date: "%-d %b %Y, %H:%M UTC" }}
+	</div>
+	{% endif %}
+</div>
+
+<div class="bigspacer"></div>
+
+{% if nis and nis.papers.size > 0 %}
+<div class="nis-list">
+	{% for p in nis.papers %}
+	<div class="nis-item">
+		<div class="nis-item-top">
+			{% if p.source == "journal" %}
+			<span class="nis-badge nis-badge-journal">Journal</span>
+			{% else %}
+			<span class="nis-badge nis-badge-preprint">Preprint</span>
+			{% endif %}
+			<span class="nis-journal">{{ p.journal }}</span>
+			<span class="nis-date">{{ p.date }}</span>
+		</div>
+		<div class="nis-item-title">
+			{% if p.url and p.url != "" %}
+			<a class="off" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+			{% else %}
+			{{ p.title }}
+			{% endif %}
+		</div>
+		{% if p.authors and p.authors != "" %}
+		<div class="nis-item-authors">{{ p.authors | truncate: 160 }}</div>
+		{% endif %}
+		{% if p.abstract and p.abstract != "" %}
+		<div class="nis-item-abstract">{{ p.abstract }}{% unless p.abstract contains "." %}…{% endunless %}</div>
+		{% endif %}
+	</div>
+	{% endfor %}
+</div>
+{% else %}
+<p class="note">No papers collected yet — the daily fetch runs automatically; check back soon.</p>
+{% endif %}
