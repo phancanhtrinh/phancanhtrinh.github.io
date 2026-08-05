@@ -399,3 +399,248 @@ blockquote {
     opacity: 0;
   }
 }
+
+/* ---------------------------------------------------------
+   CV page (al-folio-style timeline)
+--------------------------------------------------------- */
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.cv-name {
+  font-family: Times, serif;
+  font-size: ceil($font-size-base * 2.0);
+  font-weight: bold;
+  color: #262626;
+}
+
+.cv-tagline {
+  color: $gray-light;
+  margin-top: 4px;
+  font-size: ceil($font-size-base * 1.1);
+}
+
+.cv-contact {
+  margin-top: 14px;
+}
+
+.cv-contact-item {
+  display: inline-block;
+  margin: 0 12px;
+  color: $gray !important;
+}
+
+.cv-contact-item:hover {
+  color: $primary !important;
+}
+
+.cv-section {
+  margin-bottom: 36px;
+}
+
+.cv-section-title {
+  font-family: Times, serif;
+  font-size: ceil($font-size-base * 1.5);
+  font-weight: bold;
+  color: #262626;
+  border-bottom: 2px solid $primary;
+  padding-bottom: 6px;
+  margin-bottom: 18px;
+}
+
+.cv-section-title i {
+  color: $primary;
+  margin-right: 4px;
+}
+
+/* timeline */
+.cv-timeline {
+  position: relative;
+}
+
+.cv-entry {
+  position: relative;
+  display: flex;
+  padding-left: 20px;
+  margin-bottom: 18px;
+  border-left: 2px solid #e7e7e7;
+}
+
+.cv-entry:before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: $primary;
+}
+
+.cv-entry-date {
+  flex: 0 0 150px;
+  color: $gray-light;
+  font-size: ceil($font-size-base * 0.9);
+  padding-top: 1px;
+}
+
+.cv-entry-body {
+  flex: 1;
+}
+
+.cv-entry-title {
+  font-weight: bold;
+  color: #262626;
+}
+
+.cv-entry-place {
+  font-style: italic;
+  color: $gray;
+  margin-bottom: 4px;
+}
+
+.cv-entry-details {
+  margin: 4px 0 0 0;
+  padding-left: 18px;
+}
+
+.cv-entry-details li {
+  margin-bottom: 2px;
+}
+
+.cv-talk-type {
+  font-weight: bold;
+  color: $primary;
+}
+
+/* flat lists (awards, skills, leadership, reviewing) */
+.cv-flat-list {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.cv-flat-list li {
+  margin-bottom: 6px;
+}
+
+.cv-highlight {
+  color: $primary;
+  font-weight: normal;
+}
+
+/* publications */
+.cv-pub {
+  margin-bottom: 16px;
+}
+
+.cv-pub-featured {
+  padding: 14px 16px;
+  background: $well-bg;
+  border-left: 3px solid $primary;
+  border-radius: 2px;
+}
+
+.cv-pub-title {
+  font-weight: bold;
+  color: #262626;
+}
+
+.cv-pub-title a {
+  color: #262626;
+}
+
+.cv-pub-title a:hover {
+  color: $primary;
+}
+
+.cv-pub-authors {
+  color: $gray;
+  font-size: ceil($font-size-base * 0.95);
+}
+
+.cv-pub-venue {
+  color: $gray-light;
+  font-size: ceil($font-size-base * 0.9);
+}
+
+.cv-status {
+  color: $primary;
+  font-style: italic;
+}
+
+.cv-pub-notes {
+  margin: 6px 0 0 0;
+  padding-left: 18px;
+  color: $primary;
+  font-size: ceil($font-size-base * 0.9);
+}
+
+.cv-pub-notes li {
+  margin-bottom: 2px;
+}
+
+ol.cv-pub-list {
+  padding-left: 22px;
+}
+
+/* mentoring */
+.cv-mentoring-intro {
+  font-style: italic;
+  color: $gray;
+  margin-bottom: 10px;
+}
+
+.cv-mentees {
+  color: $gray-light;
+  font-size: ceil($font-size-base * 0.9);
+}
+
+/* references */
+.cv-references {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.cv-reference {
+  flex: 1 1 240px;
+}
+
+.cv-reference-name {
+  font-weight: bold;
+  color: #262626;
+}
+
+.cv-reference-title {
+  color: $gray;
+  font-size: ceil($font-size-base * 0.9);
+}
+
+.cv-reference-email {
+  color: $gray-light;
+  font-size: ceil($font-size-base * 0.9);
+}
+
+@media (max-width: 576px) {
+  .cv-entry {
+    flex-direction: column;
+  }
+  .cv-entry-date {
+    flex: none;
+    margin-bottom: 4px;
+  }
+}
+
+@media print {
+  #header, #footer {
+    display: none !important;
+  }
+  .cv-pub-featured {
+    background: none;
+    border-left: 3px solid #000;
+  }
+}
