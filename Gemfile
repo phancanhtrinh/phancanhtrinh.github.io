@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 # jekyll
-gem "jekyll", "4.2.0"
+gem "jekyll", "~> 4.3"
+gem "webrick"
 
 # katex
 gem "execjs"
@@ -13,7 +14,7 @@ gem 'netrc'
 # Twitter
 gem 'jekyll-twitter-plugin'
 
-gem 'therubyracer'
+gem 'mini_racer'
 
 gem 'jekyll-admin', group: :jekyll_plugins
 
