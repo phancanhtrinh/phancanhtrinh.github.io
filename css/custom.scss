@@ -438,6 +438,21 @@ blockquote {
   color: $primary !important;
 }
 
+.cv-download {
+  margin-top: 10px;
+}
+
+.cv-download a {
+  color: $primary !important;
+  font-weight: bold;
+}
+
+@media print {
+  .cv-download {
+    display: none;
+  }
+}
+
 .cv-section {
   margin-bottom: 36px;
 }
