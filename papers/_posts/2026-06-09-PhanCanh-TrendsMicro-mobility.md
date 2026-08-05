@@ -2,7 +2,7 @@
 layout: paper
 title: Scientific mobility in microbiology – 19
 authors: Trinh Phan-Canh
-image: /images/papers/trendsmicro2026.gif
+image: /images/papers/trendsmicro-v34i7-2026.jpg
 year: 2026
 ref: Phan-Canh. 2026. Trends in Microbiology.
 journal: "Trends in Microbiology."

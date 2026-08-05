@@ -2,7 +2,7 @@
 layout: paper
 title: Innate lymphoid cells integrate sensing and plasticity to control fungal infections
 authors: Irina Tsymala, Philipp Penninger, Filomena Nogueira, Sabrina Jenull, Trinh Phan-Canh, Helena Brezovec, Magdalena Teufl, Sara Miranda, Wilfried Ellmeier, Nicole Boucheron, Birgit Strobl, Dagmar Gotthardt, Veronika Sexl, Karl Kuchler
-image: /images/papers/cellreports-ilc2026.gif
+image: /images/papers/cellreports-v45i4-2026.jpg
 year: 2026
 ref: Tsymala et al. 2026. Cell Reports.
 journal: "Cell Reports 117140."

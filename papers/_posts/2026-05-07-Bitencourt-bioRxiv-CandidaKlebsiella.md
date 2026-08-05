@@ -2,7 +2,7 @@
 layout: paper
 title: Candida-Klebsiella interactions rewire fungal morphogenesis to create a host environment favoring pathogen survival with enhanced tissue pathology
 authors: Tamires Bitencourt, Irina Tsymala, Rafael de Freitas Silva, Nicholas Wedige, Celine Prakash, Trinh Phan-Canh, Sabrina Villar Pazos, Filomena Nogueira, S. Högler, Theodora Ziu, Philipp Penninger, D. Coraça-Huber, Michaela Lackner, Wilfried Ellmeier, Thomas Lion, Karl Kuchler
-image: /images/papers/candidaklebsiella2026.png
+image: /images/blog/csp_preprint2024.png
 year: 2026
 ref: Bitencourt et al. 2026. bioRxiv.
 journal: "bioRxiv 2026.05.06.723213."
