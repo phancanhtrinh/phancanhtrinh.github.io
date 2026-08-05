@@ -412,7 +412,7 @@ blockquote {
 }
 
 .cv-name {
-  font-family: Times, serif;
+  font-family: museo-sans, sans-serif;
   font-size: ceil($font-size-base * 2.0);
   font-weight: bold;
   color: #262626;
@@ -458,7 +458,7 @@ blockquote {
 }
 
 .cv-section-title {
-  font-family: Times, serif;
+  font-family: museo-sans, sans-serif;
   font-size: ceil($font-size-base * 1.5);
   font-weight: bold;
   color: #262626;
@@ -658,4 +658,21 @@ ol.cv-pub-list {
     background: none;
     border-left: 3px solid #000;
   }
+}
+
+/* ---------------------------------------------------------
+   Vietnamese content font fallback
+
+   The site's Typekit fonts (museo-sans for headings, jaf-facitweb
+   for body) both render the Vietnamese letter Đ/đ (U+0110/U+0111)
+   as a malformed glyph. Since the character technically exists in
+   both fonts, the browser won't auto-fallback per-glyph, so any
+   element marked lang="vn" (or nested inside one) is switched to a
+   system font stack that renders Vietnamese correctly.
+--------------------------------------------------------- */
+
+$vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+:lang(vn) {
+  font-family: $vn-safe-fonts !important;
 }
