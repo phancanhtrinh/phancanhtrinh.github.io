@@ -413,15 +413,18 @@ blockquote {
 
 .cv-name {
   font-family: museo-sans, sans-serif;
-  font-size: ceil($font-size-base * 2.0);
-  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 100;
   color: #262626;
 }
 
 .cv-tagline {
+  font-family: museo-sans, sans-serif;
   color: $gray-light;
-  margin-top: 4px;
-  font-size: ceil($font-size-base * 1.1);
+  margin-top: 6px;
+  font-size: 19px;
+  font-weight: 300;
 }
 
 .cv-contact {
@@ -459,8 +462,9 @@ blockquote {
 
 .cv-section-title {
   font-family: museo-sans, sans-serif;
-  font-size: ceil($font-size-base * 1.5);
-  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 300;
   color: #262626;
   border-bottom: 2px solid $primary;
   padding-bottom: 6px;
@@ -498,9 +502,11 @@ blockquote {
 
 .cv-entry-date {
   flex: 0 0 150px;
+  font-family: museo-sans, sans-serif;
   color: $gray-light;
-  font-size: ceil($font-size-base * 0.9);
-  padding-top: 1px;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 3px;
 }
 
 .cv-entry-body {
@@ -508,11 +514,17 @@ blockquote {
 }
 
 .cv-entry-title {
-  font-weight: bold;
+  font-family: museo-sans, sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 300;
   color: #262626;
 }
 
 .cv-entry-place {
+  font-family: museo-sans, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
   font-style: italic;
   color: $gray;
   margin-bottom: 4px;
@@ -560,7 +572,10 @@ blockquote {
 }
 
 .cv-pub-title {
-  font-weight: bold;
+  font-family: museo-sans, sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 300;
   color: #262626;
 }
 
@@ -573,13 +588,17 @@ blockquote {
 }
 
 .cv-pub-authors {
+  font-family: museo-sans, sans-serif;
   color: $gray;
-  font-size: ceil($font-size-base * 0.95);
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .cv-pub-venue {
+  font-family: museo-sans, sans-serif;
   color: $gray-light;
-  font-size: ceil($font-size-base * 0.9);
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .cv-status {
@@ -590,8 +609,10 @@ blockquote {
 .cv-pub-notes {
   margin: 6px 0 0 0;
   padding-left: 18px;
+  font-family: museo-sans, sans-serif;
   color: $primary;
-  font-size: ceil($font-size-base * 0.9);
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .cv-pub-notes li {
@@ -604,14 +625,19 @@ ol.cv-pub-list {
 
 /* mentoring */
 .cv-mentoring-intro {
+  font-family: museo-sans, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
   font-style: italic;
   color: $gray;
   margin-bottom: 10px;
 }
 
 .cv-mentees {
+  font-family: museo-sans, sans-serif;
   color: $gray-light;
-  font-size: ceil($font-size-base * 0.9);
+  font-size: 15px;
+  font-weight: 300;
 }
 
 /* references */
@@ -626,18 +652,24 @@ ol.cv-pub-list {
 }
 
 .cv-reference-name {
-  font-weight: bold;
+  font-family: museo-sans, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
   color: #262626;
 }
 
 .cv-reference-title {
+  font-family: museo-sans, sans-serif;
   color: $gray;
-  font-size: ceil($font-size-base * 0.9);
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .cv-reference-email {
+  font-family: museo-sans, sans-serif;
   color: $gray-light;
-  font-size: ceil($font-size-base * 0.9);
+  font-size: 15px;
+  font-weight: 300;
 }
 
 @media (max-width: 576px) {
@@ -694,25 +726,31 @@ $vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetic
 
 .nis-title-row i {
   color: $primary;
-  font-size: ceil($font-size-base * 1.6);
+  font-size: 28px;
 }
 
 .nis-title {
   font-family: museo-sans, sans-serif;
-  font-size: ceil($font-size-base * 2.0);
-  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 100;
   color: #262626;
 }
 
 .nis-tagline {
+  font-family: museo-sans, sans-serif;
   color: $gray;
   margin-top: 8px;
   max-width: 760px;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .nis-meta {
+  font-family: museo-sans, sans-serif;
   color: $gray-light;
-  font-size: ceil($font-size-base * 0.9);
+  font-size: 15px;
+  font-weight: 300;
   margin-top: 10px;
 }
 
@@ -737,8 +775,9 @@ $vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetic
 
 .nis-badge {
   display: inline-block;
-  font-size: ceil($font-size-base * 0.75);
-  font-weight: bold;
+  font-family: museo-sans, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   padding: 2px 8px;
@@ -756,19 +795,24 @@ $vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetic
 }
 
 .nis-journal {
-  font-weight: bold;
+  font-family: museo-sans, sans-serif;
+  font-weight: 300;
   color: $gray;
-  font-size: ceil($font-size-base * 0.9);
+  font-size: 15px;
 }
 
 .nis-date {
+  font-family: museo-sans, sans-serif;
   color: $gray-light;
-  font-size: ceil($font-size-base * 0.85);
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .nis-item-title {
-  font-weight: bold;
-  font-size: ceil($font-size-base * 1.1);
+  font-family: museo-sans, sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 300;
 }
 
 .nis-item-title a {
@@ -780,8 +824,10 @@ $vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetic
 }
 
 .nis-item-authors {
+  font-family: museo-sans, sans-serif;
   color: $gray-light;
-  font-size: ceil($font-size-base * 0.85);
+  font-size: 15px;
+  font-weight: 300;
   font-style: italic;
   margin-top: 2px;
 }
@@ -789,5 +835,5 @@ $vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetic
 .nis-item-abstract {
   color: $gray;
   margin-top: 6px;
-  font-size: ceil($font-size-base * 0.95);
+  font-size: 14px;
 }
