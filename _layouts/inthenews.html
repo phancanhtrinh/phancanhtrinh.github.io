@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% assign nm = site.data.mediamentions %}
+
+<div class="nis-header">
+	<div class="nis-title-row">
+		<i class="fa fa-newspaper-o fa-fw"></i>
+		<span class="nis-title">InTheNews</span>
+	</div>
+	<div class="nis-tagline">
+		Press and media coverage mentioning Trinh Phan-Canh — collected automatically from news outlets, institutional press releases, and publisher announcements worldwide.
+	</div>
+	{% if nm %}
+	<div class="nis-meta">
+		{{ nm.count }} mentions found &middot; last checked {{ nm.generated_at | date: "%-d %b %Y, %H:%M UTC" }}
+	</div>
+	{% endif %}
+</div>
+
+<div class="bigspacer"></div>
+
+{% if nm and nm.mentions.size > 0 %}
+<div class="nis-list">
+	{% for m in nm.mentions %}
+	<div class="nis-item">
+		<div class="nis-item-top">
+			<span class="nis-journal">{{ m.source }}</span>
+			<span class="nis-date">{{ m.date }}</span>
+		</div>
+		<div class="nis-item-title">
+			<a class="off" href="{{ m.url }}" target="_blank" rel="noopener">{{ m.title }}</a>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% else %}
+<p class="note">No mentions collected yet — the daily search runs automatically; check back soon.</p>
+{% endif %}

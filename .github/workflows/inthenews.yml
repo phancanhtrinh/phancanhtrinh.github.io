@@ -1,0 +1,36 @@
+name: InTheNews daily update
+
+on:
+  schedule:
+    - cron: "15 11 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest media mentions
+        run: python3 scripts/fetch_media_mentions.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- _data/mediamentions.json; then
+            echo "No changes to mediamentions.json, skipping commit."
+            exit 0
+          fi
+          git add _data/mediamentions.json
+          git commit -m "InTheNews: daily update ($(date -u +%Y-%m-%d))"
+          git push
