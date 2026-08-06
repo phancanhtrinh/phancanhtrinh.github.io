@@ -401,14 +401,18 @@ blockquote {
 }
 
 /* ---------------------------------------------------------
-   CV page (al-folio-style timeline)
+   CV page (flat, editorial layout)
 --------------------------------------------------------- */
+
+$cv-primary: #B84B24;
+$cv-primary-muted: mix($cv-primary, $gray, 55%);
+$cv-rule: #e2e2e2;
 
 .cv-header {
   text-align: center;
-  margin-bottom: 40px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 48px;
+  padding-bottom: 26px;
+  border-bottom: 2px solid $cv-primary;
 }
 
 .cv-name {
@@ -438,7 +442,7 @@ blockquote {
 }
 
 .cv-contact-item:hover {
-  color: $primary !important;
+  color: $cv-primary !important;
 }
 
 .cv-download {
@@ -446,7 +450,7 @@ blockquote {
 }
 
 .cv-download a {
-  color: $primary !important;
+  color: $cv-primary !important;
   font-weight: bold;
 }
 
@@ -457,52 +461,33 @@ blockquote {
 }
 
 .cv-section {
-  margin-bottom: 32px;
-  padding: 28px 32px;
-  background: #fff;
-  border: 1px solid #ececec;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  margin-bottom: 40px;
 }
 
 .cv-section-title {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
   font-family: museo-sans, sans-serif;
-  font-size: 28px;
-  line-height: 32px;
-  font-weight: 300;
-  color: #262626;
-  border-bottom: 2px solid $primary;
-  padding-bottom: 14px;
-  margin-bottom: 22px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $cv-primary;
+  border-bottom: 3px solid $cv-primary;
+  padding-bottom: 10px;
+  margin-bottom: 24px;
 }
 
 .cv-section-title i {
   flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: rgba(221, 45, 45, 0.09);
-  color: $primary;
-  font-size: 18px;
-}
-
-@media (max-width: 576px) {
-  .cv-section {
-    padding: 20px 18px;
-  }
+  color: $cv-primary;
+  font-size: 16px;
 }
 
 @media print {
   .cv-section {
-    border: none;
-    box-shadow: none;
-    padding: 0;
     margin-bottom: 24px;
   }
 }
@@ -515,32 +500,22 @@ blockquote {
 .cv-entry {
   position: relative;
   display: flex;
-  padding-left: 22px;
-  padding-bottom: 4px;
-  margin-bottom: 24px;
-  border-left: 2px solid #e7e7e7;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid $cv-rule;
 }
 
 .cv-timeline .cv-entry:last-child {
-  margin-bottom: 4px;
-}
-
-.cv-entry:before {
-  content: "";
-  position: absolute;
-  left: -6px;
-  top: 4px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: $primary;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .cv-entry-date {
   flex: 0 0 150px;
   font-family: museo-sans, sans-serif;
   color: $gray-light;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   padding-top: 3px;
 }
@@ -553,16 +528,16 @@ blockquote {
   font-family: museo-sans, sans-serif;
   font-size: 19px;
   line-height: 23px;
-  font-weight: 300;
+  font-weight: 400;
   color: #262626;
 }
 
 .cv-entry-place {
   font-family: museo-sans, sans-serif;
   font-size: 15px;
-  font-weight: 300;
-  font-style: italic;
-  color: $gray;
+  font-weight: 400;
+  font-style: normal;
+  color: $cv-primary-muted;
   margin-bottom: 4px;
 }
 
@@ -577,7 +552,7 @@ blockquote {
 
 .cv-talk-type {
   font-weight: bold;
-  color: $primary;
+  color: $cv-primary;
 }
 
 /* flat lists (awards, skills, leadership, reviewing) */
@@ -595,27 +570,32 @@ blockquote {
 }
 
 .cv-highlight {
-  color: $primary;
+  color: $cv-primary;
   font-weight: normal;
 }
 
 /* publications */
 .cv-pub {
+  padding-bottom: 16px;
   margin-bottom: 16px;
+  border-bottom: 1px solid $cv-rule;
 }
 
-.cv-pub-featured {
-  padding: 14px 16px;
-  background: $well-bg;
-  border-left: 3px solid $primary;
-  border-radius: 2px;
+.cv-pub:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.cv-pub-featured .cv-pub-title {
+  font-weight: 600;
 }
 
 .cv-pub-title {
   font-family: museo-sans, sans-serif;
   font-size: 19px;
   line-height: 23px;
-  font-weight: 300;
+  font-weight: 400;
   color: #262626;
 }
 
@@ -624,7 +604,7 @@ blockquote {
 }
 
 .cv-pub-title a:hover {
-  color: $primary;
+  color: $cv-primary;
 }
 
 .cv-pub-authors {
@@ -642,7 +622,7 @@ blockquote {
 }
 
 .cv-status {
-  color: $primary;
+  color: $cv-primary;
   font-style: italic;
 }
 
@@ -650,7 +630,7 @@ blockquote {
   margin: 6px 0 0 0;
   padding-left: 18px;
   font-family: museo-sans, sans-serif;
-  color: $primary;
+  color: $cv-primary;
   font-size: 15px;
   font-weight: 300;
 }
@@ -725,10 +705,6 @@ ol.cv-pub-list {
 @media print {
   #header, #footer {
     display: none !important;
-  }
-  .cv-pub-featured {
-    background: none;
-    border-left: 3px solid #000;
   }
 }
 
