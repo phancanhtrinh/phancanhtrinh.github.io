@@ -1,16 +1,36 @@
 #!/usr/bin/env python3
 """
-Collects press/media mentions of Trinh Phan-Canh (in any name variant, any
-language) from Google News RSS, filters out coincidental name-collision
-noise (a common Vietnamese name/word), and maintains a persistent, growing
-archive at _data/mediamentions.json for the /press/ Jekyll page.
+Collects press/media mentions of Trinh Phan-Canh from three sources, and
+maintains a persistent, growing archive at _data/mediamentions.json for the
+/inthenews/ Jekyll page.
 
 Unlike NewsInSpace (a rolling window of new papers), this accumulates: press
 coverage of one person is rare enough that a "last N days" window would
 leave the page empty most days. Each run merges newly found items into the
 existing archive rather than replacing it.
+
+Sources:
+  1. Google News RSS, searched across name variants and locales. Requires a
+     science/award context keyword match to reject name-collision false
+     positives (a common Vietnamese name/word), and excludes known
+     scholarly publisher/journal source names so his own paper pages
+     (Google indexes those as "articles" too) don't show up here duplicating
+     what's already on /papers/.
+  2. Altmetric's free per-paper "news" page (resolved from each paper's DOI
+     via Altmetric's public redirect gateway, since the direct API now
+     requires a paid key). This is far more complete than name search for
+     coverage of a specific paper: dozens of outlets can pick up the same
+     press release under headlines that never mention his name at all.
+  3. His home institutions' own news listings (Vienna BioCenter, Max Perutz
+     Labs), which Google News/Altmetric often don't index. Coverage there is
+     frequently framed around the science ("Unnatural Selection") rather
+     than his name, so titles/teasers are checked first and the full
+     article body is fetched as a fallback. Already-checked listing URLs
+     are remembered across runs so old non-matching articles aren't
+     re-fetched every day.
 """
 
+import glob
 import json
 import os
 import re
@@ -22,14 +42,18 @@ from email.utils import parsedate_to_datetime
 
 REQUEST_TIMEOUT = 20
 OUTPUT_PATH = "_data/mediamentions.json"
-MAX_ITEMS = 200
+PAPERS_DIR = "papers/_posts"
+MAX_ITEMS = 300
+INSTITUTIONAL_CHECK_LIMIT = 15  # newest listing items to consider per site, per run
 
 NAME_VARIANTS = ["Trinh Phan-Canh", "Phan Cảnh Trình", "Phan Canh Trinh"]
+NAME_MATCH_PATTERNS = [
+    "trinh phan-canh", "trinh phan canh", "phan-canh trinh", "phan canh trinh",
+    "phan cảnh trình", "t. phan-canh", "t phan-canh",
+]
 
 # Google News indexes journal paper pages as "articles" too, so his own
 # publications keep surfacing here (they already have a home on /papers/).
-# Exclude known scholarly publisher/journal brands by source name so this
-# page stays actual third-party press coverage, not a duplicate paper list.
 PUBLISHER_SOURCES = [
     "nature", "cell press", "cell reports", "cell ", "science", "sciencedirect",
     "asm journals", "plos", "wiley", "springer", "elsevier", "frontiers",
@@ -61,6 +85,27 @@ CONTEXT_KEYWORDS = [
 # "nghiên cứu"/"researcher"/"nhà khoa học" (match nearly any science
 # article regardless of whether it's actually about this specific person).
 
+INSTITUTIONAL_SOURCES = [
+    {
+        "name": "Vienna BioCenter",
+        "listing_url": "https://www.viennabiocenter.org/about/news/",
+        "base_url": "https://www.viennabiocenter.org",
+        "item_pattern": re.compile(
+            r'<a title="([^"]+)" href="(/about/news/[^"]+)">.*?datetime="([^"]*)"',
+            re.DOTALL,
+        ),
+    },
+    {
+        "name": "Max Perutz Labs",
+        "listing_url": "https://www.maxperutzlabs.ac.at/news/latest-news",
+        "base_url": "https://www.maxperutzlabs.ac.at",
+        "item_pattern": re.compile(
+            r'<a href="(/news/latest-news/l/[^"]+)">\s*<h6>[^<]*</h6>\s*<p[^>]*><b>([^<]+)</b>.*?<h5>([^<]*)</h5>',
+            re.DOTALL,
+        ),
+    },
+]
+
 
 def http_get_text(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; InTheNewsBot/1.0)"})
@@ -68,10 +113,17 @@ def http_get_text(url):
         return resp.read().decode("utf-8", errors="replace")
 
 
+def text_mentions_name(text):
+    blob = text.lower()
+    return any(p in blob for p in NAME_MATCH_PATTERNS)
+
+
+# --- Source 1: Google News RSS -------------------------------------------
+
 def parse_rss_items(xml_text):
     items = []
     for block in re.findall(r"<item>(.*?)</item>", xml_text, re.DOTALL):
-        def field(tag, attr_pattern=None):
+        def field(tag):
             m = re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", block, re.DOTALL)
             return m.group(1).strip() if m else ""
 
@@ -82,7 +134,6 @@ def parse_rss_items(xml_text):
         source_name = source_m.group(2).strip() if source_m else ""
         source_url = source_m.group(1).strip() if source_m else ""
 
-        # Titles come as "Article Title - Source Name"; strip the duplicate suffix.
         if source_name and title.endswith(f" - {source_name}"):
             title = title[: -(len(source_name) + 3)]
 
@@ -98,33 +149,180 @@ def parse_rss_items(xml_text):
                 "url": link,
                 "source": source_name or source_url,
                 "date": date_iso,
+                "via": "google_news",
             }
         )
     return items
 
 
-def fetch_query(name_variant, hl, gl, ceid):
-    q = urllib.parse.quote(f'"{name_variant}"')
-    url = f"https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
+def fetch_google_news():
+    print("[google_news] searching name variants...")
+    candidates = []
+    for name in NAME_VARIANTS:
+        for hl, gl, ceid in LOCALES:
+            q = urllib.parse.quote(f'"{name}"')
+            url = f"https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
+            try:
+                candidates += parse_rss_items(http_get_text(url))
+            except Exception as e:
+                print(f"[warn][google_news] fetch failed for {name!r} ({hl}): {e}", file=sys.stderr)
+
+    def is_publisher_source(item):
+        source = item.get("source", "").lower()
+        return any(pub in source for pub in PUBLISHER_SOURCES)
+
+    def is_relevant(item):
+        if is_publisher_source(item):
+            return False
+        blob = (item.get("title", "") + " " + item.get("source", "")).lower()
+        return any(kw in blob for kw in CONTEXT_KEYWORDS)
+
+    candidates = [it for it in candidates if it.get("title") and it.get("url")]
+    return [it for it in candidates if is_relevant(it)]
+
+
+# --- Source 2: Altmetric per-paper news -----------------------------------
+
+def get_paper_dois():
+    dois = []
+    for path in glob.glob(os.path.join(PAPERS_DIR, "*.md")):
+        try:
+            with open(path, encoding="utf-8") as f:
+                content = f.read()
+            m = re.search(r"^doi:\s*(\S+)\s*$", content, re.MULTILINE)
+            if m:
+                dois.append(m.group(1).strip())
+        except Exception:
+            continue
+    return sorted(set(dois))
+
+
+def resolve_altmetric_id(doi):
+    url = f"https://www.altmetric.com/details.php?doi={urllib.parse.quote(doi)}"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
-        xml_text = http_get_text(url)
-        return parse_rss_items(xml_text)
+        with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
+            final_url = resp.geturl()
+        m = re.search(r"/details/(\d+)", final_url)
+        return m.group(1) if m else None
+    except Exception:
+        return None
+
+
+def fetch_altmetric_news(altmetric_id, paper_title):
+    url = f"https://nature.altmetric.com/details/{altmetric_id}/news"
+    try:
+        html = http_get_text(url)
     except Exception as e:
-        print(f"[warn] Google News fetch failed for {name_variant!r} ({hl}): {e}", file=sys.stderr)
+        print(f"[warn][altmetric] news fetch failed for id {altmetric_id}: {e}", file=sys.stderr)
         return []
 
+    items = []
+    for block in re.findall(r"<article class=\"post[^\"]*\">(.*?)</article>", html, re.DOTALL):
+        title_m = re.search(r"<h3>(.*?)</h3>", block, re.DOTALL)
+        source_m = re.search(r'alt="([^"]+)"', block)
+        date_m = re.search(r'datetime="([^"]*)"', block)
+        href_m = re.search(r'<a[^>]+class="block_link"[^>]+href="([^"]+)"', block)
 
-def is_publisher_source(item):
-    source = item.get("source", "").lower()
-    return any(pub in source for pub in PUBLISHER_SOURCES)
+        if not title_m or not source_m:
+            continue
+
+        title = re.sub(r"<[^>]+>", "", title_m.group(1)).strip()
+        title = title.replace("&#39;", "'").replace("&amp;", "&").replace("&quot;", '"')
+        source = source_m.group(1).strip()
+        date_iso = ""
+        if date_m and date_m.group(1):
+            try:
+                date_iso = date_m.group(1)[:10]
+            except Exception:
+                pass
+        link = href_m.group(1) if href_m else url  # fall back to the Altmetric page itself
+
+        items.append(
+            {
+                "title": title or f"Coverage of: {paper_title}",
+                "url": link,
+                "source": source,
+                "date": date_iso,
+                "via": "altmetric",
+            }
+        )
+    return items
 
 
-def is_relevant(item):
-    if is_publisher_source(item):
-        return False
-    blob = (item.get("title", "") + " " + item.get("source", "")).lower()
-    return any(kw in blob for kw in CONTEXT_KEYWORDS)
+def fetch_altmetric_sources():
+    dois = get_paper_dois()
+    print(f"[altmetric] checking {len(dois)} papers for news coverage...")
+    candidates = []
+    for doi in dois:
+        altmetric_id = resolve_altmetric_id(doi)
+        if not altmetric_id:
+            continue
+        candidates += fetch_altmetric_news(altmetric_id, doi)
+    return candidates
 
+
+# --- Source 3: Institutional news listings ---------------------------------
+
+def fetch_institutional_sources(already_checked):
+    candidates = []
+    newly_checked = set()
+
+    for site in INSTITUTIONAL_SOURCES:
+        print(f"[institutional] checking {site['name']}...")
+        try:
+            html = http_get_text(site["listing_url"])
+        except Exception as e:
+            print(f"[warn][institutional] listing fetch failed for {site['name']}: {e}", file=sys.stderr)
+            continue
+
+        matches = site["item_pattern"].findall(html)[:INSTITUTIONAL_CHECK_LIMIT]
+        for match in matches:
+            if site["name"] == "Vienna BioCenter":
+                title, href, date_raw = match
+            else:
+                href, title, date_raw = match
+
+            full_url = site["base_url"] + href
+            if full_url in already_checked:
+                continue
+            newly_checked.add(full_url)
+
+            date_iso = ""
+            m = re.search(r"\d{4}-\d{2}-\d{2}", date_raw)
+            if m:
+                date_iso = m.group(0)
+
+            title_clean = re.sub(r"<[^>]+>", "", title).strip()
+
+            # Titles are often topic-based ("Unnatural Selection") rather
+            # than name-based, so check the title first and fall back to
+            # fetching the full article body.
+            found_in_title = text_mentions_name(title_clean)
+            found_in_body = False
+            if not found_in_title:
+                try:
+                    article_html = http_get_text(site["base_url"] + href)
+                    body_text = re.sub(r"<[^>]+>", " ", article_html)
+                    found_in_body = text_mentions_name(body_text)
+                except Exception as e:
+                    print(f"[warn][institutional] article fetch failed for {full_url}: {e}", file=sys.stderr)
+
+            if found_in_title or found_in_body:
+                candidates.append(
+                    {
+                        "title": title_clean,
+                        "url": full_url,
+                        "source": site["name"],
+                        "date": date_iso,
+                        "via": "institutional",
+                    }
+                )
+
+    return candidates, newly_checked
+
+
+# --- Merge & persist --------------------------------------------------------
 
 def dedupe(items):
     seen = set()
@@ -138,32 +336,41 @@ def dedupe(items):
     return out
 
 
-def load_existing():
+def load_existing_state():
     if os.path.exists(OUTPUT_PATH):
         try:
             with open(OUTPUT_PATH) as f:
                 data = json.load(f)
-            return data.get("mentions", [])
+            return data.get("mentions", []), set(data.get("checked_institutional_urls", []))
         except Exception:
-            return []
-    return []
+            return [], set()
+    return [], set()
+
+
+def is_google_news_still_valid(item):
+    """Re-applies the Google News publisher/context filter to previously
+    saved Google-News-sourced items, so a tightened rule retroactively
+    cleans the archive. Non-Google-News items are always kept."""
+    if item.get("via") != "google_news":
+        return True
+    source = item.get("source", "").lower()
+    if any(pub in source for pub in PUBLISHER_SOURCES):
+        return False
+    blob = (item.get("title", "") + " " + item.get("source", "")).lower()
+    return any(kw in blob for kw in CONTEXT_KEYWORDS)
 
 
 def main():
-    print("Searching Google News for name-variant mentions...")
-    candidates = []
-    for name in NAME_VARIANTS:
-        for hl, gl, ceid in LOCALES:
-            candidates += fetch_query(name, hl, gl, ceid)
+    existing, checked_urls = load_existing_state()
+    existing = [it for it in existing if is_google_news_still_valid(it)]
 
-    candidates = [it for it in candidates if it.get("title") and it.get("url")]
-    candidates = [it for it in candidates if is_relevant(it)]
+    google_items = fetch_google_news()
+    altmetric_items = fetch_altmetric_sources()
+    institutional_items, newly_checked = fetch_institutional_sources(checked_urls)
+    checked_urls |= newly_checked
 
-    # Re-apply the current filter to previously saved items too, so a
-    # tightened rule (e.g. a newly excluded publisher name) retroactively
-    # cleans the persistent archive instead of only blocking new entries.
-    existing = [it for it in load_existing() if is_relevant(it)]
-    merged = dedupe(existing + candidates)
+    all_new = google_items + altmetric_items + institutional_items
+    merged = dedupe(existing + all_new)
     merged.sort(key=lambda it: it.get("date", ""), reverse=True)
     merged = merged[:MAX_ITEMS]
 
@@ -171,6 +378,7 @@ def main():
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "count": len(merged),
         "mentions": merged,
+        "checked_institutional_urls": sorted(checked_urls),
     }
 
     with open(OUTPUT_PATH, "w") as f:
