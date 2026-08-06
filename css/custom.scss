@@ -548,10 +548,14 @@ blockquote {
 .cv-flat-list {
   padding-left: 20px;
   margin-bottom: 0;
+  font-family: museo-sans, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .cv-flat-list li {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .cv-highlight {
