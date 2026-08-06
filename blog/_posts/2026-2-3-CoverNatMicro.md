@@ -3,6 +3,7 @@ layout: post
 title: Our work is featured on the cover of Nature Microbiology (February 2026 issue)
 author: Phan-Canh Trinh
 link: https://www.nature.com/nmicrobiol/volumes/11/issues/2
+image: /images/blog/naturemicrocoverfeb26.jpg
 ---
 
 🎉🎉🎉 I still can’t believe this is real. I got the cover of the February issue of Nature Microbiology — what an honor. This feels especially wonderful right before the Lunar New Year holiday.

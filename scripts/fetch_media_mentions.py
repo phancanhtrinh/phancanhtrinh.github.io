@@ -31,6 +31,7 @@ Sources:
 """
 
 import glob
+import html
 import json
 import os
 import re
@@ -118,6 +119,96 @@ def text_mentions_name(text):
     return any(p in blob for p in NAME_MATCH_PATTERNS)
 
 
+BARE_DOMAIN_RE = re.compile(r"^https?://[^/]+/?$")
+
+
+def extract_og_image(html):
+    """Best-effort <meta property="og:image" content="..."> extraction.
+    Attribute order varies by site, so both orderings are checked. Some
+    sites default og:image to their own homepage URL when no real image
+    is set -- that's not a picture, so it's rejected."""
+    m = re.search(
+        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+        html, re.IGNORECASE,
+    )
+    if not m:
+        m = re.search(
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+            html, re.IGNORECASE,
+        )
+    if not m:
+        return None
+    image_url = m.group(1)
+    return None if BARE_DOMAIN_RE.match(image_url) else image_url
+
+
+def fetch_og_image(url):
+    """Best-effort: follow a mention's link and grab its og:image, without
+    downloading or hosting the image ourselves -- we just store the
+    outlet's own image URL. Any failure (dead link, bot-blocked, no
+    og:image, slow host) is swallowed and simply means no thumbnail;
+    links naturally go stale over time and that's fine."""
+    if not url:
+        return None
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; InTheNewsBot/1.0)"})
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            html = resp.read(400_000).decode("utf-8", errors="replace")
+        return extract_og_image(html)
+    except Exception:
+        return None
+
+
+def resolve_google_news_url(redirect_url):
+    """Google News RSS links (the CBMi... tokens) aren't real redirects --
+    the destination is only resolvable via Google's internal batchexecute
+    endpoint (reverse-engineered, undocumented, and could break if Google
+    changes it -- fails silently like everything else here). Only used to
+    find an og:image; the RSS link shown to visitors is left untouched."""
+    try:
+        page_html = http_get_text(redirect_url)
+        id_m = re.search(r'data-n-a-id="([^"]+)"', page_html)
+        sg_m = re.search(r'data-n-a-sg="([^"]+)"', page_html)
+        ts_m = re.search(r'data-n-a-ts="([^"]+)"', page_html)
+        if not (id_m and sg_m and ts_m):
+            return None
+
+        inner = json.dumps([
+            "garturlreq",
+            [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+              None, None, None, None, None, 0, 1],
+             "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+            id_m.group(1), int(ts_m.group(1)), sg_m.group(1),
+        ])
+        freq = json.dumps([[["Fbv4je", inner, None, "generic"]]])
+        data = urllib.parse.urlencode({"f.req": freq}).encode()
+        req = urllib.request.Request(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
+            data=data,
+            headers={
+                "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+                "User-Agent": "Mozilla/5.0 (compatible; InTheNewsBot/1.0)",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            body = resp.read().decode("utf-8", errors="replace")
+        # The URL sits inside a JSON-encoded string nested in the outer
+        # response, so its quotes come through backslash-escaped.
+        m = re.search(r'garturlres\\?",\\?"(https?://[^"\\]+)', body)
+        return m.group(1) if m else None
+    except Exception:
+        return None
+
+
+def image_for_mention(via, url):
+    """Dispatches to the right resolution path per source before grabbing
+    an og:image; still just a best-effort link, never downloaded."""
+    if via == "google_news":
+        real_url = resolve_google_news_url(url)
+        return fetch_og_image(real_url) if real_url else None
+    return fetch_og_image(url)
+
+
 # --- Source 1: Google News RSS -------------------------------------------
 
 def parse_rss_items(xml_text):
@@ -178,7 +269,10 @@ def fetch_google_news():
         return any(kw in blob for kw in CONTEXT_KEYWORDS)
 
     candidates = [it for it in candidates if it.get("title") and it.get("url")]
-    return [it for it in candidates if is_relevant(it)]
+    relevant = [it for it in candidates if is_relevant(it)]
+    for it in relevant:
+        it["image"] = image_for_mention("google_news", it["url"])
+    return relevant
 
 
 # --- Source 2: Altmetric per-paper news -----------------------------------
@@ -212,13 +306,13 @@ def resolve_altmetric_id(doi):
 def fetch_altmetric_news(altmetric_id, paper_title):
     url = f"https://nature.altmetric.com/details/{altmetric_id}/news"
     try:
-        html = http_get_text(url)
+        page_html = http_get_text(url)
     except Exception as e:
         print(f"[warn][altmetric] news fetch failed for id {altmetric_id}: {e}", file=sys.stderr)
         return []
 
     items = []
-    for block in re.findall(r"<article class=\"post[^\"]*\">(.*?)</article>", html, re.DOTALL):
+    for block in re.findall(r"<article class=\"post[^\"]*\">(.*?)</article>", page_html, re.DOTALL):
         title_m = re.search(r"<h3>(.*?)</h3>", block, re.DOTALL)
         source_m = re.search(r'alt="([^"]+)"', block)
         date_m = re.search(r'datetime="([^"]*)"', block)
@@ -236,7 +330,7 @@ def fetch_altmetric_news(altmetric_id, paper_title):
                 date_iso = date_m.group(1)[:10]
             except Exception:
                 pass
-        link = href_m.group(1) if href_m else url  # fall back to the Altmetric page itself
+        link = html.unescape(href_m.group(1)) if href_m else url  # fall back to the Altmetric page itself
 
         items.append(
             {
@@ -245,6 +339,7 @@ def fetch_altmetric_news(altmetric_id, paper_title):
                 "source": source,
                 "date": date_iso,
                 "via": "altmetric",
+                "image": fetch_og_image(link),
             }
         )
     return items
@@ -300,6 +395,7 @@ def fetch_institutional_sources(already_checked):
             # fetching the full article body.
             found_in_title = text_mentions_name(title_clean)
             found_in_body = False
+            article_html = None
             if not found_in_title:
                 try:
                     article_html = http_get_text(site["base_url"] + href)
@@ -309,6 +405,16 @@ def fetch_institutional_sources(already_checked):
                     print(f"[warn][institutional] article fetch failed for {full_url}: {e}", file=sys.stderr)
 
             if found_in_title or found_in_body:
+                # Fetch the article page for its hero image if we don't
+                # already have it from the name-matching fallback above.
+                if article_html is None:
+                    try:
+                        article_html = http_get_text(site["base_url"] + href)
+                    except Exception as e:
+                        print(f"[warn][institutional] article fetch failed for {full_url}: {e}", file=sys.stderr)
+
+                image = extract_og_image(article_html) if article_html else None
+
                 candidates.append(
                     {
                         "title": title_clean,
@@ -316,6 +422,7 @@ def fetch_institutional_sources(already_checked):
                         "source": site["name"],
                         "date": date_iso,
                         "via": "institutional",
+                        "image": image,
                     }
                 )
 
@@ -360,9 +467,23 @@ def is_google_news_still_valid(item):
     return any(kw in blob for kw in CONTEXT_KEYWORDS)
 
 
+def backfill_images(items):
+    """One-time, per-item: older archive entries collected before image
+    support existed won't have an "image" key at all. Attempt it once and
+    record the outcome (even None) so we don't keep re-fetching a
+    permanently-dead link on every future run."""
+    for it in items:
+        if "image" in it:
+            continue
+        if it.get("via") in ("google_news", "altmetric", "manual_seed"):
+            it["image"] = image_for_mention(it.get("via"), it.get("url"))
+    return items
+
+
 def main():
     existing, checked_urls = load_existing_state()
     existing = [it for it in existing if is_google_news_still_valid(it)]
+    existing = backfill_images(existing)
 
     google_items = fetch_google_news()
     altmetric_items = fetch_altmetric_sources()

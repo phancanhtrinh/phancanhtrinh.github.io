@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TrinhPHAN / blog
+title: TrinhPHAN / news
 categories:
  - blog
 category: blog
@@ -26,107 +26,57 @@ category: blog
 	</div>
 </div>
 
-<div class="post-list">
+<div class="nis-header">
+	<div class="nis-title-row">
+		<i class="fa fa-rss fa-fw"></i>
+		<span class="nis-title">News</span>
+	</div>
+	<div class="nis-tagline">
+		Updates from Trinh — announcements, press coverage, and outreach writing.
+	</div>
+</div>
 
-{% for post in site.categories.blog limit: 8 %}
+<div class="bigspacer"></div>
 
-	<div class="blog-post">
-		<div class="row">
-			<div class="col-lg-1"></div>
-			<div class="col-lg-10">
-				<div class="media">
-					<div class="media-body">
-						<div class="title media-heading">
-							<a href="{{ post.url }}" class="off">{{ post.title }}</a>
-						</div>
-						<p>
-						<div class="smallhead">
-							{{ post.date | date: "%-d %b %Y" }}
-							{% if post.author %}
-							by <a class="off" href="
-                {% for member in site.categories.team %}
-                  {% if member.title == post.author %}
-                    {{ member.url }}
-                  {% endif %}
-                {% endfor %}
-              ">
-              {{ post.author }}
-              </a>
-							{% endif %}
-              {% if post.authors %}
-              by
-              <a class="off" href="
-                {% for member in site.categories.team %}
-                  {% if member.title == post.authors.first %}
-                    {{ member.url }}
-                  {% endif %}
-                {% endfor %}
-              ">
-              {{ post.authors.first }}
-              </a>
-              and
-              <a class="off" href="
-                {% for member in site.categories.team %}
-                  {% if member.title == post.authors.last %}
-                    {{ member.url }}
-                  {% endif %}
-                {% endfor %}
-              ">
-              {{ post.authors.last }}
-              </a>
-              {% endif %}
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-1"></div>
-		</div>
-
-		<div class="bigspacer"></div>
-
-		<div class="row">
-			<div class="col-lg-1"></div>
-			<div class="col-lg-10">
-				{% if post.image %}
-				{% if post.link %}
-				<a href="{{ post.link }}">
-					<img class="offset" src="{{ post.image }}">
-				</a>
+<div class="nis-list">
+	{% for item in site.data.news_feed %}
+	<div class="nis-item{% if item.image %} nis-item-thumb-row{% endif %}">
+		<div class="nis-thumb-body">
+			<div class="nis-item-top">
+				{% if item.type == 'press' %}
+				<span class="nis-badge nis-badge-journal">{{ item.badge }}</span>
 				{% else %}
-				<img class="offset" src="{{ post.image }}">
+				<span class="nis-badge nis-badge-preprint">{{ item.badge }}</span>
 				{% endif %}
+				{% if item.source %}
+				<span class="nis-journal">{{ item.source }}</span>
 				{% endif %}
-				<div class="post">
-					{{ post.content }}
-				</div>
+				<span class="nis-date">
+				{% if item.type == 'outreach' %}
+					{{ item.display_year }}
+				{% else %}
+					{{ item.date | date: "%-d %b %Y" }}
+				{% endif %}
+				</span>
 			</div>
-			<div class="col-lg-1"></div>
+			{% if item.type == 'update' %}
+			<div class="nis-item-title">
+				<a class="off" href="{{ item.post.url }}">{{ item.post.title }}</a>
+			</div>
+			{% if item.post.excerpt %}
+			<div class="nis-item-abstract">{{ item.post.excerpt | strip_html | strip_newlines | truncate: 220 }}</div>
+			{% endif %}
+			{% else %}
+			<div class="nis-item-title">
+				<a class="off" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+			</div>
+			{% endif %}
 		</div>
-
-		<div class="bigspacer"></div>
-		<div class="spacer"></div>
-
+		{% if item.image %}
+		<a class="nis-thumb-link" href="{% if item.type == 'update' %}{{ item.post.url }}{% else %}{{ item.url }}{% endif %}"{% unless item.type == 'update' %} target="_blank" rel="noopener"{% endunless %}>
+			<img class="nis-thumb" src="{{ item.image }}">
+		</a>
+		{% endif %}
 	</div>
-
-{% endfor %}
-
+	{% endfor %}
 </div>
-
-<div class="infinite-spinner"></div>
-
-<div class="row">
-	<div class="col-lg-12">
-		<div id="scroll" class="centered-pills">
-			<ul class="nav nav-pills note">
-				<li role="presentation">
-					<a class="off" href="/blog/">
-						<i class="fa fa-chevron-up fa-fw"></i> Back to top
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
-
-<!-- Infinite scroll -->
-<script async src="/js/infinite-scroll.js"></script>
