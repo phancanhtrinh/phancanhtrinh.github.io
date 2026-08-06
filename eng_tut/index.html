@@ -29,7 +29,8 @@ category: eng_tut
 
 <div class="post-list">
 
-{% for post in site.categories.eng_tut limit: 8 %}
+{% assign all_tutorials = site.categories.eng_tut | concat: site.categories.vn_tut | sort: "date" | reverse %}
+{% for post in all_tutorials limit: 8 %}
 
 	<div class="blog-post">
 		<div class="row">
@@ -38,7 +39,9 @@ category: eng_tut
 				<div class="media">
 					<div class="media-body">
 						<div class="title media-heading">
-							<a href="{{ post.url }}" class="off">{{ post.title }}</a>
+							<a href="{{ post.url }}" class="off">
+							{% if post.categories contains "vn_tut" %}<span lang="vn">{{ post.title }}</span>{% else %}{{ post.title }}{% endif %}
+							</a>
 						</div>
 						<p>
 						<div class="smallhead">

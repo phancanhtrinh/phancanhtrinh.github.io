@@ -26,12 +26,15 @@ categories:
 	</div>
 </div>
 
-{% for post in site.categories.eng_tut %}
+{% assign all_tutorials = site.categories.eng_tut | concat: site.categories.vn_tut | sort: "date" | reverse %}
+{% for post in all_tutorials %}
 
     {% cycle 'add rows': '<div class="row">', '', '' %}
 		<div class="col-lg-4 postbox">
 			<div class="smallhead">
-				<a href="{{ post.url }}" class="off">{{ post.title }}</a>
+				<a href="{{ post.url }}" class="off">
+				{% if post.categories contains "vn_tut" %}<span lang="vn">{{ post.title }}</span>{% else %}{{ post.title }}{% endif %}
+				</a>
 			</div>
 			<div class="smallspacer"></div>
 			<div class="smallnote">
