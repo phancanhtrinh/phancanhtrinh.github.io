@@ -401,7 +401,7 @@ blockquote {
 }
 
 /* ---------------------------------------------------------
-   CV page (flat, editorial layout)
+   CV page (al-folio style: card sections + sidebar nav)
 --------------------------------------------------------- */
 
 $cv-primary: #B84B24;
@@ -410,9 +410,9 @@ $cv-rule: #e2e2e2;
 
 .cv-header {
   text-align: center;
-  margin-bottom: 48px;
-  padding-bottom: 26px;
-  border-bottom: 2px solid $cv-primary;
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .cv-name {
@@ -445,49 +445,80 @@ $cv-rule: #e2e2e2;
   color: $cv-primary !important;
 }
 
-.cv-download {
-  margin-top: 10px;
+.cv-layout {
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.cv-download a {
-  color: $cv-primary !important;
-  font-weight: bold;
+/* sidebar */
+.cv-sidebar {
+  position: sticky;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 30px;
+  padding-right: 20px;
 }
 
-@media print {
-  .cv-download {
-    display: none;
+.cv-sidebar-link {
+  font-family: museo-sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: $gray;
+  padding: 6px 0 6px 12px;
+  border-left: 2px solid $cv-rule;
+}
+
+.cv-sidebar-link:hover {
+  color: $cv-primary;
+  border-left-color: $cv-primary;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .cv-sidebar {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    padding-right: 0;
+  }
+  .cv-sidebar-link {
+    padding: 2px 0;
   }
 }
 
+/* card sections */
 .cv-section {
-  margin-bottom: 40px;
+  margin-bottom: 28px;
+  padding: 26px 30px;
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
 }
 
 .cv-section-title {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   font-family: museo-sans, sans-serif;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: $cv-primary;
-  border-bottom: 3px solid $cv-primary;
-  padding-bottom: 10px;
-  margin-bottom: 24px;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #262626;
+  margin-bottom: 20px;
 }
 
-.cv-section-title i {
-  flex: 0 0 auto;
-  color: $cv-primary;
-  font-size: 16px;
+@media (max-width: 576px) {
+  .cv-section {
+    padding: 20px 18px;
+  }
 }
 
 @media print {
   .cv-section {
+    border: none;
+    box-shadow: none;
+    padding: 0;
     margin-bottom: 24px;
   }
 }
@@ -498,35 +529,59 @@ $cv-rule: #e2e2e2;
 }
 
 .cv-entry {
-  position: relative;
-  padding-bottom: 18px;
-  margin-bottom: 18px;
-  border-bottom: 1px solid $cv-rule;
+  display: flex;
+  align-items: flex-start;
 }
 
-.cv-timeline .cv-entry:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-  margin-bottom: 0;
+.cv-entry-date-col {
+  flex: 0 0 130px;
+  width: 130px;
+  max-width: 130px;
+  padding-right: 16px;
+  padding-top: 2px;
+  text-align: right;
 }
 
-.cv-entry-meta {
+.cv-entry-badge {
+  display: inline-block;
+  max-width: 100%;
+  background: $cv-primary;
+  color: #fff;
   font-family: museo-sans, sans-serif;
-  color: $gray-light;
-  font-size: 14px;
-  font-weight: 300;
-  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+  padding: 3px 9px;
+  border-radius: 4px;
+  white-space: normal;
 }
 
-.cv-entry-meta i {
-  color: $cv-primary-muted;
-  margin-right: 4px;
+.cv-entry-body {
+  position: relative;
+  flex: 1;
+  padding: 0 0 24px 20px;
+  border-left: 2px solid $cv-rule;
+}
+
+.cv-entry:last-child .cv-entry-body {
+  padding-bottom: 2px;
+}
+
+.cv-entry-body:before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: $cv-primary;
 }
 
 .cv-entry-title {
   font-family: museo-sans, sans-serif;
-  font-size: 19px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: 400;
   color: #262626;
 }
@@ -534,9 +589,9 @@ $cv-rule: #e2e2e2;
 .cv-entry-place {
   font-family: museo-sans, sans-serif;
   font-size: 15px;
-  font-weight: 400;
-  font-style: normal;
-  color: $cv-primary-muted;
+  font-weight: 300;
+  font-style: italic;
+  color: $gray;
   margin-bottom: 4px;
 }
 
@@ -552,6 +607,19 @@ $cv-rule: #e2e2e2;
 .cv-talk-type {
   font-weight: bold;
   color: $cv-primary;
+}
+
+@media (max-width: 576px) {
+  .cv-entry {
+    flex-direction: column;
+  }
+  .cv-entry-date-col {
+    flex: none;
+    text-align: left;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 6px;
+  }
 }
 
 /* flat lists (awards, skills, leadership, reviewing) */
@@ -575,25 +643,20 @@ $cv-rule: #e2e2e2;
 
 /* publications */
 .cv-pub {
-  padding-bottom: 16px;
   margin-bottom: 16px;
-  border-bottom: 1px solid $cv-rule;
 }
 
-.cv-pub:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-.cv-pub-featured .cv-pub-title {
-  font-weight: 600;
+.cv-pub-featured {
+  padding: 14px 16px;
+  background: $well-bg;
+  border-left: 3px solid $cv-primary;
+  border-radius: 2px;
 }
 
 .cv-pub-title {
   font-family: museo-sans, sans-serif;
-  font-size: 19px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: 400;
   color: #262626;
 }
@@ -694,6 +757,13 @@ ol.cv-pub-list {
 @media print {
   #header, #footer {
     display: none !important;
+  }
+  .cv-sidebar {
+    display: none;
+  }
+  .cv-pub-featured {
+    background: none;
+    border-left: 3px solid #000;
   }
 }
 
@@ -841,4 +911,37 @@ $vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetic
   color: $gray;
   margin-top: 6px;
   font-size: 14px;
+}
+
+.nis-item-thumb-row {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.nis-thumb-link {
+  flex: 0 0 auto;
+}
+
+.nis-thumb {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.nis-thumb-body {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 576px) {
+  .nis-item-thumb-row {
+    flex-direction: column;
+  }
+  .nis-thumb {
+    width: 100%;
+    height: auto;
+    max-height: 160px;
+  }
 }

@@ -12,163 +12,187 @@ layout: default
 		<a class="cv-contact-item off" href="{{ c.url }}"><i class="fa {{ c.icon }} fa-fw"></i> {{ c.label }}</a>
 		{% endfor %}
 	</div>
-	<div class="cv-download">
-		<a class="off" href="/pdfs/papers/PCT_CV.pdf"><i class="fa fa-download fa-fw"></i> Download PDF</a>
-	</div>
 </div>
 
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-graduation-cap fa-fw"></i> Education</div>
-	<div class="cv-timeline">
-		{% for e in cv.education %}
-		<div class="cv-entry">
-			<div class="cv-entry-title">{{ e.degree }}</div>
-			<div class="cv-entry-place">{{ e.place }}</div>
-			<div class="cv-entry-meta"><i class="fa fa-calendar fa-fw"></i> {{ e.date }}</div>
-			<ul class="cv-entry-details">
-				{% for d in e.details %}
-				<li>{{ d }}</li>
+<div class="row cv-layout">
+	<div class="col-lg-3">
+		<nav class="cv-sidebar">
+			<a class="cv-sidebar-link" href="#education">Education</a>
+			<a class="cv-sidebar-link" href="#awards">Awards and Distinctions</a>
+			<a class="cv-sidebar-link" href="#featured-publications">Featured Publications</a>
+			<a class="cv-sidebar-link" href="#publications">Publications</a>
+			<a class="cv-sidebar-link" href="#outreach-publications">Outreach Publications</a>
+			<a class="cv-sidebar-link" href="#talks">Abstracts, Posters, and Presentations</a>
+			<a class="cv-sidebar-link" href="#experience">Professional Experience</a>
+			<a class="cv-sidebar-link" href="#skills">Other Technical Skills</a>
+			<a class="cv-sidebar-link" href="#reviewing">Reviewing Experience</a>
+			<a class="cv-sidebar-link" href="#mentoring">Mentoring and Teaching</a>
+			<a class="cv-sidebar-link" href="#leadership">Leadership and Outreach</a>
+			<a class="cv-sidebar-link" href="#references">References</a>
+		</nav>
+	</div>
+
+	<div class="col-lg-9">
+		<div class="cv-section" id="education">
+			<div class="cv-section-title">Education</div>
+			<div class="cv-timeline">
+				{% for e in cv.education %}
+				<div class="cv-entry">
+					<div class="cv-entry-date-col"><span class="cv-entry-badge">{{ e.date }}</span></div>
+					<div class="cv-entry-body">
+						<div class="cv-entry-title">{{ e.degree }}</div>
+						<div class="cv-entry-place">{{ e.place }}</div>
+						<ul class="cv-entry-details">
+							{% for d in e.details %}
+							<li>{{ d }}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
 				{% endfor %}
-			</ul>
-		</div>
-		{% endfor %}
-	</div>
-</div>
-
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-trophy fa-fw"></i> Awards and Distinctions</div>
-	<ul class="cv-flat-list">
-		{% for a in cv.awards %}
-		<li>{{ a }}</li>
-		{% endfor %}
-	</ul>
-</div>
-
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-star fa-fw"></i> Featured Publications</div>
-	{% for p in cv.publications_featured %}
-	<div class="cv-pub cv-pub-featured">
-		<div class="cv-pub-title">
-			{% if p.url %}<a class="off" href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
-		</div>
-		<div class="cv-pub-authors">{{ p.authors }}</div>
-		<div class="cv-pub-venue"><em>{{ p.journal }}</em>, {{ p.year }}{% if p.status %} &middot; <span class="cv-status">{{ p.status }}</span>{% endif %}</div>
-		{% if p.notes %}
-		<ul class="cv-pub-notes">
-			{% for n in p.notes %}
-			<li>{{ n }}</li>
-			{% endfor %}
-		</ul>
-		{% endif %}
-	</div>
-	{% endfor %}
-</div>
-
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-file-text-o fa-fw"></i> Publications</div>
-	<ol class="cv-pub-list">
-		{% for p in cv.publications %}
-		<li class="cv-pub">
-			<div class="cv-pub-authors">{{ p.authors }}</div>
-			<div class="cv-pub-title">
-				{% if p.url %}<a class="off" href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
 			</div>
-			<div class="cv-pub-venue"><em>{{ p.journal }}</em>, {{ p.year }}{% if p.status %} &middot; <span class="cv-status">{{ p.status }}</span>{% endif %}</div>
-		</li>
-		{% endfor %}
-	</ol>
-</div>
-
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-bullhorn fa-fw"></i> Outreach Publications</div>
-	<ol class="cv-pub-list">
-		{% for p in cv.outreach %}
-		<li class="cv-pub">
-			<div class="cv-pub-authors">{{ p.authors }}</div>
-			<div class="cv-pub-title"><a class="off" href="{{ p.url }}">{{ p.title }}</a></div>
-			<div class="cv-pub-venue"><em>{{ p.journal }}</em>, {{ p.year }}</div>
-		</li>
-		{% endfor %}
-	</ol>
-</div>
-
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-microphone fa-fw"></i> Abstracts, Posters, and Presentations</div>
-	<div class="cv-timeline">
-		{% for t in cv.talks %}
-		<div class="cv-entry">
-			<div class="cv-entry-title"><span class="cv-talk-type">{{ t.type }}</span> — <em>{{ t.title }}</em></div>
-			<div class="cv-entry-place">{{ t.place }}</div>
-			<div class="cv-entry-meta"><i class="fa fa-calendar fa-fw"></i> {{ t.date }}</div>
 		</div>
-		{% endfor %}
-	</div>
-</div>
 
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-briefcase fa-fw"></i> Professional Experience</div>
-	<div class="cv-timeline">
-		{% for x in cv.experience %}
-		<div class="cv-entry">
-			<div class="cv-entry-title">{{ x.title }}</div>
-			<div class="cv-entry-place">{{ x.place }}</div>
-			<div class="cv-entry-meta"><i class="fa fa-calendar fa-fw"></i> {{ x.date }}</div>
-			<ul class="cv-entry-details">
-				{% for d in x.details %}
-				<li>{{ d }}</li>
+		<div class="cv-section" id="awards">
+			<div class="cv-section-title">Awards and Distinctions</div>
+			<ul class="cv-flat-list">
+				{% for a in cv.awards %}
+				<li>{{ a }}</li>
 				{% endfor %}
 			</ul>
 		</div>
-		{% endfor %}
-	</div>
-</div>
 
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-flask fa-fw"></i> Other Technical Skills</div>
-	<ul class="cv-flat-list">
-		{% for s in cv.skills %}
-		<li>{{ s }}</li>
-		{% endfor %}
-	</ul>
-</div>
-
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-check-square-o fa-fw"></i> Reviewing Experience</div>
-	<ul class="cv-flat-list">
-		{% for r in cv.reviewing %}
-		<li>{{ r }}</li>
-		{% endfor %}
-	</ul>
-</div>
-
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-users fa-fw"></i> Mentoring and Teaching</div>
-	<p class="cv-mentoring-intro">{{ cv.mentoring.intro }}</p>
-	<ul class="cv-flat-list">
-		{% for m in cv.mentoring.items %}
-		<li><strong>{{ m.award }}</strong>{% if m.mentees != "" %}<br><span class="cv-mentees">Mentee{% if m.mentees contains ',' %}s{% endif %}: {{ m.mentees }}</span>{% endif %}</li>
-		{% endfor %}
-	</ul>
-</div>
-
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-flag fa-fw"></i> Leadership and Outreach</div>
-	<ul class="cv-flat-list">
-		{% for l in cv.leadership %}
-		<li>{{ l }}</li>
-		{% endfor %}
-	</ul>
-</div>
-
-<div class="cv-section">
-	<div class="cv-section-title"><i class="fa fa-address-book-o fa-fw"></i> References</div>
-	<div class="cv-references">
-		{% for r in cv.references %}
-		<div class="cv-reference">
-			<div class="cv-reference-name">{{ r.name }}</div>
-			<div class="cv-reference-title">{{ r.title }}</div>
-			<div class="cv-reference-email">{{ r.email }}</div>
+		<div class="cv-section" id="featured-publications">
+			<div class="cv-section-title">Featured Publications</div>
+			{% for p in cv.publications_featured %}
+			<div class="cv-pub cv-pub-featured">
+				<div class="cv-pub-title">
+					{% if p.url %}<a class="off" href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+				</div>
+				<div class="cv-pub-authors">{{ p.authors }}</div>
+				<div class="cv-pub-venue"><em>{{ p.journal }}</em>, {{ p.year }}{% if p.status %} &middot; <span class="cv-status">{{ p.status }}</span>{% endif %}</div>
+				{% if p.notes %}
+				<ul class="cv-pub-notes">
+					{% for n in p.notes %}
+					<li>{{ n }}</li>
+					{% endfor %}
+				</ul>
+				{% endif %}
+			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
+
+		<div class="cv-section" id="publications">
+			<div class="cv-section-title">Publications</div>
+			<ol class="cv-pub-list">
+				{% for p in cv.publications %}
+				<li class="cv-pub">
+					<div class="cv-pub-authors">{{ p.authors }}</div>
+					<div class="cv-pub-title">
+						{% if p.url %}<a class="off" href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+					</div>
+					<div class="cv-pub-venue"><em>{{ p.journal }}</em>, {{ p.year }}{% if p.status %} &middot; <span class="cv-status">{{ p.status }}</span>{% endif %}</div>
+				</li>
+				{% endfor %}
+			</ol>
+		</div>
+
+		<div class="cv-section" id="outreach-publications">
+			<div class="cv-section-title">Outreach Publications</div>
+			<ol class="cv-pub-list">
+				{% for p in cv.outreach %}
+				<li class="cv-pub">
+					<div class="cv-pub-authors">{{ p.authors }}</div>
+					<div class="cv-pub-title"><a class="off" href="{{ p.url }}">{{ p.title }}</a></div>
+					<div class="cv-pub-venue"><em>{{ p.journal }}</em>, {{ p.year }}</div>
+				</li>
+				{% endfor %}
+			</ol>
+		</div>
+
+		<div class="cv-section" id="talks">
+			<div class="cv-section-title">Abstracts, Posters, and Presentations</div>
+			<div class="cv-timeline">
+				{% for t in cv.talks %}
+				<div class="cv-entry">
+					<div class="cv-entry-date-col"><span class="cv-entry-badge">{{ t.date }}</span></div>
+					<div class="cv-entry-body">
+						<div class="cv-entry-title"><span class="cv-talk-type">{{ t.type }}</span> — <em>{{ t.title }}</em></div>
+						<div class="cv-entry-place">{{ t.place }}</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="cv-section" id="experience">
+			<div class="cv-section-title">Professional Experience</div>
+			<div class="cv-timeline">
+				{% for x in cv.experience %}
+				<div class="cv-entry">
+					<div class="cv-entry-date-col"><span class="cv-entry-badge">{{ x.date }}</span></div>
+					<div class="cv-entry-body">
+						<div class="cv-entry-title">{{ x.title }}</div>
+						<div class="cv-entry-place">{{ x.place }}</div>
+						<ul class="cv-entry-details">
+							{% for d in x.details %}
+							<li>{{ d }}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="cv-section" id="skills">
+			<div class="cv-section-title">Other Technical Skills</div>
+			<ul class="cv-flat-list">
+				{% for s in cv.skills %}
+				<li>{{ s }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="cv-section" id="reviewing">
+			<div class="cv-section-title">Reviewing Experience</div>
+			<ul class="cv-flat-list">
+				{% for r in cv.reviewing %}
+				<li>{{ r }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="cv-section" id="mentoring">
+			<div class="cv-section-title">Mentoring and Teaching</div>
+			<p class="cv-mentoring-intro">{{ cv.mentoring.intro }}</p>
+			<ul class="cv-flat-list">
+				{% for m in cv.mentoring.items %}
+				<li><strong>{{ m.award }}</strong>{% if m.mentees != "" %}<br><span class="cv-mentees">Mentee{% if m.mentees contains ',' %}s{% endif %}: {{ m.mentees }}</span>{% endif %}</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="cv-section" id="leadership">
+			<div class="cv-section-title">Leadership and Outreach</div>
+			<ul class="cv-flat-list">
+				{% for l in cv.leadership %}
+				<li>{{ l }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="cv-section" id="references">
+			<div class="cv-section-title">References</div>
+			<div class="cv-references">
+				{% for r in cv.references %}
+				<div class="cv-reference">
+					<div class="cv-reference-name">{{ r.name }}</div>
+					<div class="cv-reference-title">{{ r.title }}</div>
+					<div class="cv-reference-email">{{ r.email }}</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
 	</div>
 </div>
