@@ -7,6 +7,7 @@ year: 2026
 ref: Phan-Canh. 2026. Trends in Microbiology.
 journal: "Trends in Microbiology."
 doi: 10.1016/j.tim.2026.05.014
+homepage_exclude: true
 ---
 
 # About
