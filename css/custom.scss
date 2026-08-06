@@ -499,7 +499,6 @@ $cv-rule: #e2e2e2;
 
 .cv-entry {
   position: relative;
-  display: flex;
   padding-bottom: 18px;
   margin-bottom: 18px;
   border-bottom: 1px solid $cv-rule;
@@ -511,17 +510,17 @@ $cv-rule: #e2e2e2;
   margin-bottom: 0;
 }
 
-.cv-entry-date {
-  flex: 0 0 150px;
+.cv-entry-meta {
   font-family: museo-sans, sans-serif;
   color: $gray-light;
   font-size: 14px;
   font-weight: 300;
-  padding-top: 3px;
+  margin-bottom: 6px;
 }
 
-.cv-entry-body {
-  flex: 1;
+.cv-entry-meta i {
+  color: $cv-primary-muted;
+  margin-right: 4px;
 }
 
 .cv-entry-title {
@@ -690,16 +689,6 @@ ol.cv-pub-list {
   color: $gray-light;
   font-size: 15px;
   font-weight: 300;
-}
-
-@media (max-width: 576px) {
-  .cv-entry {
-    flex-direction: column;
-  }
-  .cv-entry-date {
-    flex: none;
-    margin-bottom: 4px;
-  }
 }
 
 @media print {

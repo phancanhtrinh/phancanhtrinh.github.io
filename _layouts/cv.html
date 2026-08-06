@@ -22,16 +22,14 @@ layout: default
 	<div class="cv-timeline">
 		{% for e in cv.education %}
 		<div class="cv-entry">
-			<div class="cv-entry-date">{{ e.date }}</div>
-			<div class="cv-entry-body">
-				<div class="cv-entry-title">{{ e.degree }}</div>
-				<div class="cv-entry-place">{{ e.place }}</div>
-				<ul class="cv-entry-details">
-					{% for d in e.details %}
-					<li>{{ d }}</li>
-					{% endfor %}
-				</ul>
-			</div>
+			<div class="cv-entry-title">{{ e.degree }}</div>
+			<div class="cv-entry-place">{{ e.place }}</div>
+			<div class="cv-entry-meta"><i class="fa fa-calendar fa-fw"></i> {{ e.date }}</div>
+			<ul class="cv-entry-details">
+				{% for d in e.details %}
+				<li>{{ d }}</li>
+				{% endfor %}
+			</ul>
 		</div>
 		{% endfor %}
 	</div>
@@ -99,10 +97,9 @@ layout: default
 	<div class="cv-timeline">
 		{% for t in cv.talks %}
 		<div class="cv-entry">
-			<div class="cv-entry-date">{{ t.date }}</div>
-			<div class="cv-entry-body">
-				<span class="cv-talk-type">{{ t.type }}</span> — <em>{{ t.title }}</em>, {{ t.place }}
-			</div>
+			<div class="cv-entry-title"><span class="cv-talk-type">{{ t.type }}</span> — <em>{{ t.title }}</em></div>
+			<div class="cv-entry-place">{{ t.place }}</div>
+			<div class="cv-entry-meta"><i class="fa fa-calendar fa-fw"></i> {{ t.date }}</div>
 		</div>
 		{% endfor %}
 	</div>
@@ -113,16 +110,14 @@ layout: default
 	<div class="cv-timeline">
 		{% for x in cv.experience %}
 		<div class="cv-entry">
-			<div class="cv-entry-date">{{ x.date }}</div>
-			<div class="cv-entry-body">
-				<div class="cv-entry-title">{{ x.title }}</div>
-				<div class="cv-entry-place">{{ x.place }}</div>
-				<ul class="cv-entry-details">
-					{% for d in x.details %}
-					<li>{{ d }}</li>
-					{% endfor %}
-				</ul>
-			</div>
+			<div class="cv-entry-title">{{ x.title }}</div>
+			<div class="cv-entry-place">{{ x.place }}</div>
+			<div class="cv-entry-meta"><i class="fa fa-calendar fa-fw"></i> {{ x.date }}</div>
+			<ul class="cv-entry-details">
+				{% for d in x.details %}
+				<li>{{ d }}</li>
+				{% endfor %}
+			</ul>
 		</div>
 		{% endfor %}
 	</div>

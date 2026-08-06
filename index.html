@@ -148,6 +148,24 @@ categories:
 		</div>
 	</div>
 	{% endfor %}
+
+	{% for o in site.data.cv.outreach %}
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-bullhorn fa-fw"></i>
+				<a class="off" href="{{ o.url }}" target="_blank" rel="noopener">
+				{{ o.title }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				{{ o.journal }} &middot; {{ o.year }}
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}
 </div>
 
 <div class="spacer"></div>
@@ -155,14 +173,14 @@ categories:
 <div class="row">
 	<div class="col-lg-12">
 		<div class="head">
-			<a class="off" href="/papers/">Papers</a>
+			<a class="off" href="/papers/">Publications</a>
 		</div>
 		<div class="spacer"></div>
 	</div>
 </div>
 
 <div class="row">
-	{% for paper in site.categories.papers limit:2 %}
+	{% for paper in site.categories.papers limit:4 %}
 	<div class="col-lg-3 reduced-gutter">
 		<div class="pad-left">
 			<div class="note">
@@ -175,24 +193,6 @@ categories:
 			<div class="smallnote">
 				Posted
 				{{ paper.date | date: "%-d %b %Y" }}
-			</div>
-			<div class="bigspacer"></div>
-		</div>
-	</div>
-	{% endfor %}
-
-	{% for paper in site.data.newsinspace.papers limit:2 %}
-	<div class="col-lg-3 reduced-gutter">
-		<div class="pad-left">
-			<div class="note">
-				<i class="fa fa-space-shuttle fa-fw"></i>
-				<a class="off" href="{{ paper.url }}" target="_blank" rel="noopener">
-				{{ paper.title }}
-				</a>
-			</div>
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				{{ paper.journal }} &middot; {{ paper.date | date: "%-d %b %Y" }}
 			</div>
 			<div class="bigspacer"></div>
 		</div>
