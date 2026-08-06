@@ -137,6 +137,37 @@ categories:
 <div class="row">
 	<div class="col-lg-12">
 		<div class="head">
+			<a class="off" href="/inthenews/">InTheNews</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	{% for mention in site.data.mediamentions.mentions limit:4 %}
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-newspaper-o fa-fw"></i>
+				<a class="off" href="{{ mention.url }}" target="_blank" rel="noopener">
+				{{ mention.title }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				{{ mention.source }} &middot; {{ mention.date | date: "%-d %b %Y" }}
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
 			<a class="off" href="/papers/">Recent papers</a>
 		</div>
 		<div class="spacer"></div>
@@ -169,7 +200,38 @@ categories:
 <div class="row">
 	<div class="col-lg-12">
 		<div class="head">
-			<a class="off" href="/eng_tut/archive">Lab Tips</a>
+			<a class="off" href="/newsinspace/">NewsInSpace</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	{% for paper in site.data.newsinspace.papers limit:4 %}
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-space-shuttle fa-fw"></i>
+				<a class="off" href="{{ paper.url }}" target="_blank" rel="noopener">
+				{{ paper.title }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				{{ paper.journal }} &middot; {{ paper.date | date: "%-d %b %Y" }}
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			<a class="off" href="/eng_tut/">Lab Tips</a>
 		</div>
 		<div class="spacer"></div>
 	</div>
@@ -313,46 +375,6 @@ categories:
 </div>
 
 <div class="spacer"></div>
-
-<div class="row">
-	<div class="col-lg-12">
-		<div class="head">
-			<a class="off" href="/projects/">Active projects</a>
-		</div>
-		<div class="spacer"></div>
-	</div>
-</div>
-
-<div class="row">
-	{% for project in site.data.projects limit:4 %}
-	<div class="col-lg-3 reduced-gutter">
-		<div class="pad-left">
-			<div class="note">
-				<i class="fa fa-edit fa-fw"></i>
-				<a class="off" href="{{ project.url }}">
-				{{ project.title }} - {{ project.description }}
-				</a>
-			</div>
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				Updated
-				<a class="off" href="{{ project.commits.first.url }}">
-				{{ project.commits.first.date | date: "%-d %b %Y" }}
-				</a>
-				by
-				<a class="off" href="{{ project.commits.first.author_url }}">
-				{{ project.commits.first.author_login }}
-				</a>
-			</div>
-			<div class="bigspacer"></div>
-		</div>
-	</div>
-	{% endfor %}
-</div>
-
-<div class="spacer"></div>
-
-
 
 <div class="row">
 	<div class="col-lg-12">
