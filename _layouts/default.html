@@ -49,7 +49,7 @@
   {% endif %}
 </head>
 
-<body>
+<body{% if page.categories contains 'eng_tut' or page.categories contains 'vn_tut' %} class="tutorial-page"{% endif %}>
 
 	<div id="header">
 		<nav class="navbar navbar-expand-md navbar-light bg-navbar">

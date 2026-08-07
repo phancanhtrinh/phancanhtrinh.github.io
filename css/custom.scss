@@ -282,6 +282,57 @@ img.avatar {
   padding-bottom: 20px;
 }
 
+/* ---------------------------------------------------------
+   Tutorials (eng_tut / vn_tut): larger, more readable body copy
+--------------------------------------------------------- */
+
+.tutorial-page .title {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.tutorial-page .post {
+  font-family: jaf-facitweb, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #333;
+}
+
+.tutorial-page .post p,
+.tutorial-page .post li {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.tutorial-page .post strong,
+.tutorial-page .post b {
+  font-weight: 700;
+}
+
+.tutorial-page .post h1,
+.tutorial-page .post h2,
+.tutorial-page .post h3,
+.tutorial-page .post h4 {
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.tutorial-page .post code {
+  font-size: 15px;
+  background: $well-bg;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.tutorial-page .post pre code {
+  background: none;
+  padding: 0;
+}
+
 blockquote {
 	@extend .text-gray;
   border-left: 5px solid #e7e7e7;
