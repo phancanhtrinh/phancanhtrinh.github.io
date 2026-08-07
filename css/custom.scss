@@ -1,3 +1,11 @@
+/* Always reserve the vertical scrollbar's width, even on short pages
+   (e.g. /contact/) that don't need to scroll -- otherwise the whole
+   layout shifts a few pixels sideways when navigating from a short
+   page to a tall one. */
+html {
+  overflow-y: scroll;
+}
+
 $primary: #DD2D2D;
 $gray: #555;
 $gray-light: #777;
