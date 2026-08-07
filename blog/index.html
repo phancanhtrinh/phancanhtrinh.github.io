@@ -45,6 +45,8 @@ category: blog
 			<div class="nis-item-top">
 				{% if item.type == 'press' %}
 				<span class="nis-badge nis-badge-journal">{{ item.badge }}</span>
+				{% elsif item.type == 'update' %}
+				<span class="nis-badge nis-badge-update">{{ item.badge }}</span>
 				{% else %}
 				<span class="nis-badge nis-badge-preprint">{{ item.badge }}</span>
 				{% endif %}

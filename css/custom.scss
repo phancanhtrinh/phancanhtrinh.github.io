@@ -286,13 +286,20 @@ img.avatar {
    Tutorials (eng_tut / vn_tut): larger, more readable body copy
 --------------------------------------------------------- */
 
+$tutorial-font: Arial, Helvetica, sans-serif;
+
 .tutorial-page .title {
+  font-family: $tutorial-font;
   font-size: 30px;
   line-height: 36px;
 }
 
+.tutorial-page .smallhead {
+  font-family: $tutorial-font;
+}
+
 .tutorial-page .post {
-  font-family: jaf-facitweb, sans-serif;
+  font-family: $tutorial-font;
   font-size: 17px;
   font-weight: 400;
   line-height: 1.7;
@@ -301,6 +308,7 @@ img.avatar {
 
 .tutorial-page .post p,
 .tutorial-page .post li {
+  font-family: $tutorial-font;
   font-size: 17px;
   font-weight: 400;
   line-height: 1.7;
@@ -315,8 +323,8 @@ img.avatar {
 .tutorial-page .post h2,
 .tutorial-page .post h3,
 .tutorial-page .post h4 {
-  font-family: museo-sans, sans-serif;
-  font-weight: 500;
+  font-family: $tutorial-font;
+  font-weight: 700;
   margin-top: 1.2em;
   margin-bottom: 0.5em;
 }
