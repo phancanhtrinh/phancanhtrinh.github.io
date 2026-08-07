@@ -12,6 +12,7 @@ snapshot rather than an ever-growing archive.
 """
 
 import json
+import os
 import sys
 import time
 import urllib.parse
@@ -23,6 +24,15 @@ MAX_JOURNAL_ITEMS = 40    # cap for Nature/Cell/Science/Cancer Discovery family
 MAX_PREPRINT_ITEMS = 30   # cap for bioRxiv + arXiv combined
 REQUEST_TIMEOUT = 30
 OUTPUT_PATH = "_data/newsinspace.json"
+
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
+SUMMARY_PROMPT = (
+    "Summarize this paper's key finding as 2-3 short bullet points (take-home "
+    "message for a fellow researcher skimming a feed, each bullet under ~20 "
+    "words). Return ONLY the bullets, one per line, each starting with \"- \". "
+    "No preamble, no closing remarks.\n\nTitle: {title}\n\nAbstract: {abstract}"
+)
 
 TOPIC_PHRASES = [
     "spatial multiomics", "spatial multi-omics", "spatial transcriptomics",
@@ -216,6 +226,65 @@ def fetch_arxiv(start_date, end_date):
     return items
 
 
+def summarize_paper(title, abstract):
+    """Best-effort: ask Claude for a 2-3 bullet take-home-message summary.
+    Returns None (silently, like everything else in this script) if no API
+    key is configured, the request fails, or the abstract is too short to
+    summarize meaningfully -- the page just falls back to the raw abstract."""
+    if not ANTHROPIC_API_KEY or not abstract or len(abstract) < 40:
+        return None
+    try:
+        payload = json.dumps({
+            "model": ANTHROPIC_MODEL,
+            "max_tokens": 200,
+            "messages": [
+                {"role": "user", "content": SUMMARY_PROMPT.format(title=title, abstract=abstract)}
+            ],
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://api.anthropic.com/v1/messages",
+            data=payload,
+            headers={
+                "x-api-key": ANTHROPIC_API_KEY,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        text = "".join(block.get("text", "") for block in data.get("content", []))
+        bullets = [
+            line.strip().lstrip("-•").strip()
+            for line in text.splitlines()
+            if line.strip().startswith(("-", "•"))
+        ]
+        return bullets[:3] or None
+    except Exception as e:
+        print(f"[warn] summarization failed for {title!r}: {e}", file=sys.stderr)
+        return None
+
+
+def load_previous_summaries():
+    """Carries forward summaries from the last run's output so unchanged
+    papers (this is a rolling-window snapshot, re-fetched fresh every run,
+    not an accumulating archive) aren't re-summarized -- and thus re-billed
+    -- every single day for as long as they stay in the window."""
+    if not os.path.exists(OUTPUT_PATH):
+        return {}
+    try:
+        with open(OUTPUT_PATH) as f:
+            data = json.load(f)
+        out = {}
+        for p in data.get("papers", []):
+            bullets = p.get("summary_bullets")
+            if bullets:
+                key = p.get("doi") or p.get("title", "").strip().lower()
+                out[key] = bullets
+        return out
+    except Exception:
+        return {}
+
+
 def dedupe(items):
     seen = set()
     out = []
@@ -245,6 +314,22 @@ def main():
 
     all_items = dedupe(journal_items + preprint_items)
     all_items.sort(key=lambda it: it.get("date", ""), reverse=True)
+
+    previous_summaries = load_previous_summaries()
+    new_summaries = 0
+    for it in all_items:
+        key = it.get("doi") or it.get("title", "").strip().lower()
+        bullets = previous_summaries.get(key)
+        if bullets is None:
+            bullets = summarize_paper(it.get("title", ""), it.get("abstract", ""))
+            if bullets:
+                new_summaries += 1
+        if bullets:
+            it["summary_bullets"] = bullets
+    if ANTHROPIC_API_KEY:
+        print(f"Summarized {new_summaries} new paper(s), reused {len(all_items) - new_summaries} from the previous run")
+    else:
+        print("[info] ANTHROPIC_API_KEY not set, skipping summarization (falls back to raw abstract)")
 
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

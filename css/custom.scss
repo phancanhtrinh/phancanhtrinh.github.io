@@ -977,6 +977,18 @@ $vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetic
   font-size: 14px;
 }
 
+.nis-item-summary {
+  color: $gray;
+  margin: 6px 0 0 0;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.nis-item-summary li {
+  margin-bottom: 2px;
+}
+
 .nis-item-thumb-row {
   display: flex;
   gap: 16px;

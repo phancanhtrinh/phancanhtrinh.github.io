@@ -44,7 +44,13 @@ layout: default
 		{% if p.authors and p.authors != "" %}
 		<div class="nis-item-authors">{{ p.authors | truncate: 160 }}</div>
 		{% endif %}
-		{% if p.abstract and p.abstract != "" %}
+		{% if p.summary_bullets and p.summary_bullets.size > 0 %}
+		<ul class="nis-item-summary">
+			{% for b in p.summary_bullets %}
+			<li>{{ b }}</li>
+			{% endfor %}
+		</ul>
+		{% elsif p.abstract and p.abstract != "" %}
 		<div class="nis-item-abstract">{{ p.abstract }}{% unless p.abstract contains "." %}…{% endunless %}</div>
 		{% endif %}
 	</div>
