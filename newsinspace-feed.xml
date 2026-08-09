@@ -15,8 +15,8 @@
 				{% if p.summary_bullets and p.summary_bullets.size > 0 %}{{ p.summary_bullets | join: " " | xml_escape }}{% else %}{{ p.abstract | xml_escape }}{% endif %}
 			</description>
 			<pubDate>{{ p.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-			<link>{{ p.url }}</link>
-			<guid isPermaLink="false">{{ p.url }}</guid>
+			<link>{{ p.url | xml_escape }}</link>
+			<guid isPermaLink="false">{{ p.url | xml_escape }}</guid>
 		</item>
 		{% endfor %}
 	</channel>

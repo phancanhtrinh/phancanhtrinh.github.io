@@ -19,8 +19,8 @@
 			<title>{{ item.title | xml_escape }}</title>
 			<description>{% if item.source %}{{ item.source | xml_escape }}{% endif %}</description>
 			<pubDate>{{ item.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-			<link>{{ item.url }}</link>
-			<guid isPermaLink="false">{{ item.url }}-{{ item.date | date: "%Y%m%d" }}</guid>
+			<link>{{ item.url | xml_escape }}</link>
+			<guid isPermaLink="false">{{ item.url | xml_escape }}-{{ item.date | date: "%Y%m%d" }}</guid>
 			{% endif %}
 		</item>
 		{% endfor %}
