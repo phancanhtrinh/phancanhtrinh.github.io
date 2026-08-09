@@ -1015,7 +1015,11 @@ ol.cv-pub-list {
   background: $cv-primary;
   border-color: $cv-primary;
   color: #fff;
-  cursor: default;
+}
+
+.nis-like-btn.busy {
+  opacity: 0.7;
+  pointer-events: none;
 }
 
 .nis-journal {
