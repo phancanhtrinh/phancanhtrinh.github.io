@@ -26,13 +26,27 @@ category: blog
 	</div>
 </div>
 
+{% assign news_feed_url = site.url | append: "/news-feed.xml" %}
+
 <div class="nis-header">
-	<div class="nis-title-row">
-		<i class="fa fa-rss fa-fw"></i>
-		<span class="nis-title">News</span>
-	</div>
-	<div class="nis-tagline">
-		Updates from Trinh — announcements, press coverage, and outreach writing.
+	<div class="nis-header-row">
+		<div>
+			<div class="nis-title-row">
+				<i class="fa fa-rss fa-fw"></i>
+				<span class="nis-title">News</span>
+			</div>
+			<div class="nis-tagline">
+				Updates from Trinh — announcements, press coverage, and outreach writing.
+			</div>
+		</div>
+		<div class="nis-header-actions">
+			<button class="nis-like-btn nis-page-like-btn" data-like-key="news" data-like-ns="phancanhtrinh-pages" aria-label="Like this page">
+				<i class="fa fa-heart-o fa-fw"></i>
+				<span class="nis-like-label">Like this page</span>
+				<span class="nis-like-count">&ndash;</span>
+			</button>
+			{% include subscribe-email.html feed_url=news_feed_url %}
+		</div>
 	</div>
 </div>
 
@@ -82,3 +96,5 @@ category: blog
 	</div>
 	{% endfor %}
 </div>
+
+{% include like-script.html %}

@@ -1,6 +1,6 @@
 name: Trinh Phan 
 description: Persional website of Trinh Phan
-url: http://phancanhtrinh.github.io
+url: https://www.phancanhtrinh.com
 
 markdown: kramdown
 permalink: /:categories/:title/
@@ -25,6 +25,12 @@ sass:
   sass_dir: css
 
 plugins: ['jekyll-twitter-plugin']
+
+# The blanket "*.xml" exclude below would otherwise drop these RSS feeds from the build
+include:
+  - feed.xml
+  - news-feed.xml
+  - newsinspace-feed.xml
 
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 # Google Analytics

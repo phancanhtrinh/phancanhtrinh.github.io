@@ -1,0 +1,23 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ site.name | xml_escape }} - NewsInSpace</title>
+		<description>A daily-updated feed of new papers on spatial multi-omics, cancer biology, virus-driven cancer, spatial biotechnology, and AI-driven biology.</description>
+		<link>{{ site.url }}/newsinspace/</link>
+		<atom:link href="{{ site.url }}/newsinspace-feed.xml" rel="self" type="application/rss+xml" />
+		{% assign nis = site.data.newsinspace %}
+		{% for p in nis.papers limit:60 %}
+		<item>
+			<title>{{ p.title | xml_escape }}</title>
+			<description>
+				{% if p.summary_bullets and p.summary_bullets.size > 0 %}{{ p.summary_bullets | join: " " | xml_escape }}{% else %}{{ p.abstract | xml_escape }}{% endif %}
+			</description>
+			<pubDate>{{ p.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<link>{{ p.url }}</link>
+			<guid isPermaLink="false">{{ p.url }}</guid>
+		</item>
+		{% endfor %}
+	</channel>
+</rss>

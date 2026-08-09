@@ -3,20 +3,33 @@ layout: default
 ---
 
 {% assign nis = site.data.newsinspace %}
+{% assign nis_feed_url = site.url | append: "/newsinspace-feed.xml" %}
 
 <div class="nis-header">
-	<div class="nis-title-row">
-		<i class="fa fa-space-shuttle fa-fw"></i>
-		<span class="nis-title">NewsInSpace</span>
+	<div class="nis-header-row">
+		<div>
+			<div class="nis-title-row">
+				<i class="fa fa-space-shuttle fa-fw"></i>
+				<span class="nis-title">NewsInSpace</span>
+			</div>
+			<div class="nis-tagline">
+				A daily-updated feed of new papers on spatial multi-omics, cancer biology, virus-driven cancer, spatial biotechnology, and AI-driven biology — pulled automatically from Nature, Cell, Science, Cancer Discovery, bioRxiv, and arXiv.
+			</div>
+			{% if nis %}
+			<div class="nis-meta">
+				{{ nis.count }} papers from the last {{ nis.window_days }} days &middot; last updated {{ nis.generated_at | date: "%-d %b %Y, %H:%M UTC" }}
+			</div>
+			{% endif %}
+		</div>
+		<div class="nis-header-actions">
+			<button class="nis-like-btn nis-page-like-btn" data-like-key="newsinspace" data-like-ns="phancanhtrinh-pages" aria-label="Like this page">
+				<i class="fa fa-heart-o fa-fw"></i>
+				<span class="nis-like-label">Like this page</span>
+				<span class="nis-like-count">&ndash;</span>
+			</button>
+			{% include subscribe-email.html feed_url=nis_feed_url %}
+		</div>
 	</div>
-	<div class="nis-tagline">
-		A daily-updated feed of new papers on spatial multi-omics, cancer biology, virus-driven cancer, spatial biotechnology, and AI-driven biology — pulled automatically from Nature, Cell, Science, Cancer Discovery, bioRxiv, and arXiv.
-	</div>
-	{% if nis %}
-	<div class="nis-meta">
-		{{ nis.count }} papers from the last {{ nis.window_days }} days &middot; last updated {{ nis.generated_at | date: "%-d %b %Y, %H:%M UTC" }}
-	</div>
-	{% endif %}
 </div>
 
 <div class="bigspacer"></div>
@@ -24,6 +37,8 @@ layout: default
 {% if nis and nis.papers.size > 0 %}
 <div class="nis-list">
 	{% for p in nis.papers %}
+	{% assign like_key = p.doi | default: p.url | default: p.title %}
+	{% assign like_key = like_key | slugify %}
 	<div class="nis-item">
 		<div class="nis-item-top">
 			{% if p.source == "journal" %}
@@ -33,6 +48,10 @@ layout: default
 			{% endif %}
 			<span class="nis-journal">{{ p.journal }}</span>
 			<span class="nis-date">{{ p.date }}</span>
+			<button class="nis-like-btn" data-like-key="{{ like_key }}" aria-label="Like this paper">
+				<i class="fa fa-heart-o fa-fw"></i>
+				<span class="nis-like-count">&ndash;</span>
+			</button>
 		</div>
 		<div class="nis-item-title">
 			{% if p.url and p.url != "" %}
@@ -59,3 +78,5 @@ layout: default
 {% else %}
 <p class="note">No papers collected yet — the daily fetch runs automatically; check back soon.</p>
 {% endif %}
+
+{% include like-script.html %}

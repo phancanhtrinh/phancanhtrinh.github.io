@@ -1,0 +1,40 @@
+<script>
+(function () {
+	var DEFAULT_NAMESPACE = 'phancanhtrinh-newsinspace';
+	var buttons = document.querySelectorAll('.nis-like-btn');
+
+	function setLiked(btn) {
+		btn.classList.add('liked');
+		var icon = btn.querySelector('i');
+		icon.classList.remove('fa-heart-o');
+		icon.classList.add('fa-heart');
+	}
+
+	buttons.forEach(function (btn) {
+		var key = btn.getAttribute('data-like-key');
+		if (!key) return;
+		var namespace = btn.getAttribute('data-like-ns') || DEFAULT_NAMESPACE;
+		var countEl = btn.querySelector('.nis-like-count');
+		var storageKey = 'nis_liked_' + namespace + '_' + key;
+
+		if (localStorage.getItem(storageKey) === '1') {
+			setLiked(btn);
+		}
+
+		fetch('https://abacus.jasoncameron.dev/get/' + namespace + '/' + key)
+			.then(function (r) { return r.json(); })
+			.then(function (data) { countEl.textContent = data.value; })
+			.catch(function () { countEl.textContent = '0'; });
+
+		btn.addEventListener('click', function () {
+			if (btn.classList.contains('liked')) return;
+			setLiked(btn);
+			localStorage.setItem(storageKey, '1');
+			fetch('https://abacus.jasoncameron.dev/hit/' + namespace + '/' + key)
+				.then(function (r) { return r.json(); })
+				.then(function (data) { countEl.textContent = data.value; })
+				.catch(function () {});
+		});
+	});
+})();
+</script>

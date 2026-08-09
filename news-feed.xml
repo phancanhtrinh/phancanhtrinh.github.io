@@ -1,0 +1,28 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ site.name | xml_escape }} - News</title>
+		<description>Updates from Trinh — announcements, press coverage, and outreach writing.</description>
+		<link>{{ site.url }}/blog/</link>
+		<atom:link href="{{ site.url }}/news-feed.xml" rel="self" type="application/rss+xml" />
+		{% for item in site.data.news_feed limit:40 %}
+		<item>
+			{% if item.type == 'update' %}
+			<title>{{ item.post.title | xml_escape }}</title>
+			<description>{{ item.post.excerpt | strip_html | xml_escape }}</description>
+			<pubDate>{{ item.post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<link>{{ site.url }}{{ item.post.url }}</link>
+			<guid isPermaLink="true">{{ site.url }}{{ item.post.url }}</guid>
+			{% else %}
+			<title>{{ item.title | xml_escape }}</title>
+			<description>{% if item.source %}{{ item.source | xml_escape }}{% endif %}</description>
+			<pubDate>{{ item.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<link>{{ item.url }}</link>
+			<guid isPermaLink="false">{{ item.url }}-{{ item.date | date: "%Y%m%d" }}</guid>
+			{% endif %}
+		</item>
+		{% endfor %}
+	</channel>
+</rss>
