@@ -6,6 +6,32 @@ categories:
 category: eng_tut
 ---
 
+{% assign tutorials_feed_url = site.url | append: "/tutorials-feed.xml" %}
+
+<div class="nis-header">
+	<div class="nis-header-row">
+		<div>
+			<div class="nis-title-row">
+				<i class="fa fa-graduation-cap fa-fw"></i>
+				<span class="nis-title">Tutorials</span>
+			</div>
+			<div class="nis-tagline">
+				How-tos and guides from Trinh — bioinformatics, lab techniques, and more, in English and Vietnamese.
+			</div>
+		</div>
+		<div class="nis-header-actions">
+			<button class="nis-like-btn nis-page-like-btn" data-like-key="tutorials" data-like-ns="phancanhtrinh-pages" aria-label="Like this page">
+				<i class="fa fa-heart-o fa-fw"></i>
+				<span class="nis-like-label">Like this page</span>
+				<span class="nis-like-count">&ndash;</span>
+			</button>
+			{% include subscribe-email.html feed_url=tutorials_feed_url %}
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
 <div class="row">
 	<div class="col-lg-12">
 		<div class="centered-pills">
@@ -20,7 +46,7 @@ category: eng_tut
 						<i class="fa fa-refresh fa-fw"></i> Timeline
 					</a>
 				</li>
-				
+
 			</ul>
 		</div>
 		<div class="bigspacer"></div>
@@ -133,6 +159,8 @@ category: eng_tut
 </div>
 
 
+
+{% include like-script.html %}
 
 <!-- Infinite scroll -->
 

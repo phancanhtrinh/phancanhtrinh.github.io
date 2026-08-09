@@ -65,7 +65,7 @@ category: blog
 				<span class="nis-badge nis-badge-preprint">{{ item.badge }}</span>
 				{% endif %}
 				{% if item.source %}
-				<span class="nis-journal">{{ item.source }}</span>
+				<span class="nis-journal">{% if item.vietnamese %}<span lang="vn">{{ item.source }}</span>{% else %}{{ item.source }}{% endif %}</span>
 				{% endif %}
 				<span class="nis-date">
 				{% if item.type == 'outreach' %}
@@ -84,7 +84,7 @@ category: blog
 			{% endif %}
 			{% else %}
 			<div class="nis-item-title">
-				<a class="off" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+				<a class="off" href="{{ item.url }}" target="_blank" rel="noopener">{% if item.vietnamese %}<span lang="vn">{{ item.title }}</span>{% else %}{{ item.title }}{% endif %}</a>
 			</div>
 			{% endif %}
 		</div>

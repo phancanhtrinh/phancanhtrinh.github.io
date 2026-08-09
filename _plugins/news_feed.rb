@@ -38,6 +38,7 @@ module Jekyll
           'date' => date,
           'display_date' => date,
           'image' => m['image'],
+          'vietnamese' => vietnamese?(m['title']) || vietnamese?(m['source']),
         }
       end
 
@@ -59,6 +60,7 @@ module Jekyll
           'date' => date,
           'display_year' => o['year'],
           'image' => image,
+          'vietnamese' => vietnamese?(o['title']) || vietnamese?(o['journal']),
         }
       end
 
@@ -69,6 +71,15 @@ module Jekyll
     end
 
     private
+
+    # Matches Vietnamese-only letters/tone marks (not used by German/French/
+    # English), so this never false-positives on the site's other non-English
+    # sources (e.g. German press mentions from meduniwien.ac.at).
+    VIETNAMESE_RE = /[\u{0102}\u{0103}\u{0110}\u{0111}\u{01A0}\u{01A1}\u{01AF}\u{01B0}\u{1EA0}-\u{1EF9}]/.freeze
+
+    def vietnamese?(text)
+      !text.to_s.empty? && VIETNAMESE_RE.match?(text)
+    end
 
     def update_image(post)
       image = post.data['image']

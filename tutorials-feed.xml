@@ -1,0 +1,21 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ site.name | xml_escape }} - Tutorials</title>
+		<description>Tutorials and how-tos from Trinh, in English and Vietnamese.</description>
+		<link>{{ site.url }}/eng_tut/</link>
+		<atom:link href="{{ site.url }}/tutorials-feed.xml" rel="self" type="application/rss+xml" />
+		{% assign all_tutorials = site.categories.eng_tut | concat: site.categories.vn_tut | sort: "date" | reverse %}
+		{% for post in all_tutorials limit:40 %}
+		<item>
+			<title>{{ post.title | xml_escape }}</title>
+			<description>{{ post.excerpt | strip_html | xml_escape }}</description>
+			<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<link>{{ site.url }}{{ post.url | xml_escape }}</link>
+			<guid isPermaLink="true">{{ site.url }}{{ post.url | xml_escape }}</guid>
+		</item>
+		{% endfor %}
+	</channel>
+</rss>
