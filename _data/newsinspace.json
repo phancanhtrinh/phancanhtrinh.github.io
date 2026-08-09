@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T10:38:46Z",
+  "generated_at": "2026-08-09T11:01:01Z",
   "window_days": 14,
   "count": 70,
   "papers": [
@@ -21,7 +21,12 @@
       "url": "https://doi.org/10.1038/s41587-026-03254-6",
       "doi": "10.1038/s41587-026-03254-6",
       "abstract": "Although human pluripotent stem cells (hPSCs) can generate all tissues of the body, hPSCs in vitro frequently exhibit differentiation biases or failure that pose substantial challenges for disease modeling and regenerative medicine. The origins of these biases remain incompletely understood and extend beyond reprogramming artifacts. Here we show that loss of default neural differentiation capacity",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "hPSCs exhibit reversible epiblast regionalization that constrains differentiation potential beyond reprogramming artifacts",
+        "Regional epiblast identity determines lineage bias and differentiation capacity in pluripotent stem cells",
+        "Understanding epiblast regionalization can improve directed differentiation protocols for disease modeling and regenerative medicine"
+      ]
     },
     {
       "title": "A clinically validated framework for auditing AI chatbot behavior in mental health interactions",
@@ -31,7 +36,12 @@
       "url": "https://doi.org/10.1038/s41591-026-04577-2",
       "doi": "10.1038/s41591-026-04577-2",
       "abstract": "Millions of users turn to consumer artificial intelligence chatbots to discuss emotional, behavioral and mental-health concerns, creating an urgent need for rigorous and scalable safety evaluations. Here we introduce simulated (SIM) vulnerability-amplifying interaction loops (VAILs) (SIM-VAIL), a clinically validated framework for auditing chatbot behavior in mental-health contexts. SIM-VAIL simul",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Framework uses simulated vulnerability-amplifying interaction loops to systematically audit AI chatbot safety in mental health contexts.",
+        "Clinical validation demonstrates SIM-VAIL effectively identifies risky chatbot behaviors when discussing emotional and mental health concerns.",
+        "Provides scalable safety evaluation method for millions of users relying on consumer AI chatbots for mental health support."
+      ]
     },
     {
       "title": "The Plasmodium heme detoxification protein functions in mitochondrial protein synthesis",
@@ -41,7 +51,12 @@
       "url": "https://doi.org/10.1038/s41467-026-76511-6",
       "doi": "10.1038/s41467-026-76511-6",
       "abstract": "Malaria blood-stage parasites digest ~80% of host cell hemoglobin within a degradative vacuole, releasing heme that is detoxified by sequestration into hemozoin crystals. Although essential for survival and a validated drug target, the mechanisms of heme biomineralization remain unclear. Here, we study the parasite's Heme Detoxification Protein (HDP), previously proposed to mediate hemozoin format",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "HDP functions in mitochondrial protein synthesis rather than direct heme detoxification as previously thought.",
+        "Parasite heme toxicity management involves unexpected mitochondrial metabolic mechanisms beyond crystallization.",
+        "Finding challenges current understanding of malaria drug targets and hemozoin formation pathways."
+      ]
     },
     {
       "title": "scXpand: Pan-cancer detection of T cell clonal expansion from single-cell RNA sequencing without paired single-cell TCR sequencing",
@@ -51,7 +66,12 @@
       "url": "https://doi.org/10.1016/j.xgen.2026.101328",
       "doi": "10.1016/j.xgen.2026.101328",
       "abstract": "Advances in single-cell sequencing have enabled detailed characterization of T cell clonal dynamics in cancer. However, analyses aiming to link the transcriptional landscape to T cell clonality remain limited by confounding factors unequally controlled in different studies. To address this challenge, we developed scXpand, a machine-learning framework for pan-cancer detection of T cell clonal expan",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "scXpand uses machine learning to detect T cell clonal expansion from scRNA-seq alone, eliminating need for paired TCR sequencing data.",
+        "Framework enables pan-cancer T cell clonality analysis while controlling for confounding factors across different studies.",
+        "Approach links T cell transcriptional profiles to clonal dynamics without technical batch effects limiting previous analyses."
+      ]
     },
     {
       "title": "PlantCAD2: A DNA foundation model for interpreting genomes across flowering plants",
@@ -61,7 +81,12 @@
       "url": "https://doi.org/10.1016/j.xgen.2026.101329",
       "doi": "10.1016/j.xgen.2026.101329",
       "abstract": "Flowering plants (angiosperms) exhibit extraordinary species diversity, ∼200-fold variation in genome size, and relatively compact coding regions, presenting both a unique challenge and opportunity for DNA language models. Here, we introduce PlantCAD2, an extended-context, plant-specific DNA language model with single-nucleotide resolution, pre-trained on 65 angiosperm genomes, together with a ser",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "PlantCAD2 is a DNA language model pre-trained on 65 angiosperm genomes, enabling accurate interpretation of plant genetic sequences.",
+        "Achieves single-nucleotide resolution across diverse flowering plants despite massive genome size variation and compact coding regions.",
+        "Demonstrates improved performance for plant genome analysis tasks compared to existing general-purpose DNA models."
+      ]
     },
     {
       "title": "Polygenic risk scores and plasma proteomics identify cancer-related proteins and trans-regulated protein networks",
@@ -71,7 +96,12 @@
       "url": "https://doi.org/10.1016/j.xgen.2026.101322",
       "doi": "10.1016/j.xgen.2026.101322",
       "abstract": "Genome-wide association studies identify cancer susceptibility loci, but downstream protein mechanisms remain incompletely defined. We integrate polygenic risk scores (PRSs) for 21 cancers with 4,955 plasma proteins measured in cancer-free Atherosclerosis Risk in Communities (ARIC) participants to prioritize cancer-related proteins and protein networks. The protein quantitative trait score (pQTS) ",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Polygenic risk scores for 21 cancers identify specific plasma proteins associated with cancer susceptibility in cancer-free populations.",
+        "Integration of cancer PRSs with proteomics reveals trans-regulated protein networks and shared biological mechanisms across cancer types.",
+        "Protein quantitative trait scores provide a method to prioritize functional proteins linking genetic risk to cancer development."
+      ]
     },
     {
       "title": "Decoding the chemical space of fast-ion conductors via a descriptor-guided transfer learning framework",
@@ -81,7 +111,12 @@
       "url": "https://doi.org/10.1126/sciadv.aee4959",
       "doi": "10.1126/sciadv.aee4959",
       "abstract": "Fast-ion conductors (FICs) are key components for next-generation high-performance batteries, yet predicting ion mobility remains challenging because of the unclear transport mechanisms. This difficulty is further compounded by experimental datasets that lack precise crystal structures. Here, we present a descriptor-guided transfer learning framework, named IonNet, to predict ion mobility for comp",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Transfer learning framework (IonNet) effectively predicts ion mobility in fast-ion conductors despite incomplete crystal structure data in experimental datasets.",
+        "Physics-informed descriptors guide the model to learn meaningful transport mechanisms, improving generalization across diverse ionic conductor chemistries.",
+        "Method enables high-throughput screening of battery materials by reliably predicting ion conductivity without requiring perfectly resolved structures."
+      ]
     },
     {
       "title": "Deep learning reveals a neurocomputational mechanism predicting depression risk in adolescents",
@@ -91,7 +126,12 @@
       "url": "https://doi.org/10.1126/sciadv.aed0772",
       "doi": "10.1126/sciadv.aed0772",
       "abstract": "Early detection and prevention of psychiatric disorders, particularly depression, remain as major global health challenges, yet reliable tools for identifying individuals before symptom onset are lacking. Here, we combine functional neuroimaging with computational modeling to identify a mechanistic biomarker of depression risk. In a population-based adolescent cohort (IMAGEN, <i>N</i> = 1332), we ",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Deep learning on fMRI data identifies a neurocomputational biomarker predicting depression risk in adolescents before symptom onset.",
+        "Combined functional neuroimaging with computational modeling reveals mechanistic brain signatures underlying depression vulnerability.",
+        "IMAGEN cohort study (N=1332) demonstrates potential for early psychiatric disorder detection and prevention strategies."
+      ]
     },
     {
       "title": "APOE&lt;sup&gt;+&lt;/sup&gt; macrophages and POSTN&lt;sup&gt;+&lt;/sup&gt;CAFs form immune-exclusion niche driving immunotherapy resistance in clear-cell renal carcinoma",
@@ -101,7 +141,11 @@
       "url": "https://doi.org/10.1126/sciadv.aed0733",
       "doi": "10.1126/sciadv.aed0733",
       "abstract": "Tumor immune barriers (TIBs) are spatially organized stromal-immune niches that restrict lymphocyte entry. To explain persistent immune-checkpoint blockade (ICB) resistance in clear cell renal cell carcinoma (ccRCC), we mapped TIBs and defined a peritumoral variant built from POSTN<sup>+</sup> cancer-associated fibroblasts (CAFs) interlaced with APOE<sup>+</sup> tumor-associated macrophages (TAMs)",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "APOE⁺ macrophages and POSTN⁺ CAFs form peritumoral immune-exclusion niche driving ICB resistance in ccRCC.",
+        "Spatial organization of stromal-immune cells creates tumor immune barriers restricting lymphocyte infiltration and checkpoint blockade efficacy."
+      ]
     },
     {
       "title": "Global distribution and amplitudes of internal solitary waves revealed by SWOT",
@@ -111,7 +155,12 @@
       "url": "https://doi.org/10.1126/sciadv.aee0923",
       "doi": "10.1126/sciadv.aee0923",
       "abstract": "Internal solitary waves (ISWs) are powerful underwater disturbances that can vertically displace water by more than 200 meters, driving ocean mixing and affecting offshore engineering. Yet, their global distributions and vertical imprints remain poorly characterized. Traditional satellite sensors are constrained by cloud cover or limited sampling. The Surface Water and Ocean Topography (SWOT) miss",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "SWOT satellite reveals global ISW distribution and amplitudes previously unmeasurable by traditional sensors, overcoming cloud cover and sampling limitations.",
+        "Internal solitary waves displace water >200m vertically, significantly impacting ocean mixing and offshore infrastructure globally.",
+        "First comprehensive global characterization of ISW vertical signatures enables better understanding of ocean dynamics and engineering applications."
+      ]
     },
     {
       "title": "Transposable elements and homotypic niches drive immune dynamics and resistance in melanoma epigenetic-based immunotherapy",
@@ -121,7 +170,12 @@
       "url": "https://doi.org/10.1126/sciadv.aed1318",
       "doi": "10.1126/sciadv.aed1318",
       "abstract": "Melanoma plasticity drives immune evasion and therapy resistance through dynamic cell-state transitions beyond genetic alterations. Although epigenetic remodeling is central to this process, its impact under therapeutic pressure remains unclear. We profiled longitudinal biopsies from patients with melanoma treated in the phase 1b NIBIT-M4 epi-immunotherapy trial [NCT02608437, DNA (cytosine-5)-meth",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Transposable element activation and epigenetic remodeling drive melanoma immune evasion during epi-immunotherapy treatment.",
+        "Homotypic niches enable cell-state plasticity that promotes therapy resistance independent of genetic mutations.",
+        "Longitudinal epigenetic profiling reveals dynamic mechanisms of immunotherapy resistance in melanoma patients."
+      ]
     },
     {
       "title": "ZPY-CpG-Ch, a broad coverage vaccine against &lt;i&gt;Streptococcus pneumoniae&lt;/i&gt;",
@@ -131,7 +185,12 @@
       "url": "https://doi.org/10.1126/sciadv.aee7981",
       "doi": "10.1126/sciadv.aee7981",
       "abstract": "Existing licensed pneumococcal vaccines, including Prevnar-13 and its higher-valency successors, have played a major role in reducing invasive pneumococcal disease worldwide. However, their effectiveness is increasingly threatened by the rise of multidrug-resistant strains and the shift in circulating serotypes toward those not targeted by current vaccines-a trend known as serotype replacement. Th",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Novel pneumococcal vaccine design combining CpG adjuvants with conserved protein antigens provides broad serotype coverage beyond traditional polysaccharide vaccines.",
+        "Addresses serotype replacement problem by targeting conserved bacterial antigens rather than variable capsular polysaccharides alone.",
+        "Overcomes limitations of existing vaccines like Prevnar-13 against multidrug-resistant strains and emerging serotypes."
+      ]
     },
     {
       "title": "An autoinflammatory CDC42 variant M45L demonstrates the mechanism of pyrin inflammasome activation",
@@ -141,7 +200,12 @@
       "url": "https://doi.org/10.1126/sciimmunol.adz8733",
       "doi": "10.1126/sciimmunol.adz8733",
       "abstract": "CDC42 is an evolutionarily conserved guanosine triphosphatase (GTPase) regulating critical cellular and immune processes. Variants in CDC42 therefore cause a spectrum of developmental phenotypes, including hematological and immunological symptoms. Here, we identify a previously unrecognized autoinflammatory condition caused by CDC42<sup>Met45→Leu(M45L)</sup>. We confirm the pathogenicity of CDC42<",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "CDC42 M45L variant causes autoinflammatory disease through constitutive GTPase activation and pyrin inflammasome hyperactivation.",
+        "Mutation impairs actin dynamics regulation, triggering aberrant immune signaling and systemic inflammation.",
+        "Findings reveal pyrin inflammasome as critical CDC42-dependent innate immune checkpoint."
+      ]
     },
     {
       "title": "Misfirin' pyrin",
@@ -151,7 +215,12 @@
       "url": "https://doi.org/10.1126/sciimmunol.aei8902",
       "doi": "10.1126/sciimmunol.aei8902",
       "abstract": "Three studies identify CDC42 as binding partner of the pyrin B30.2 domain, establishing a previously unrecognized mechanism regulating pyrin inflammasome activation (see related Research Articles by Aoki <i>et al.</i>, Feng <i>et al.</i>, and Iwata <i>et al.</i>).",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "CDC42 binds pyrin's B30.2 domain, revealing new inflammasome activation mechanism",
+        "CDC42-pyrin interaction provides previously unknown regulatory pathway for pyrin inflammasome",
+        "Three independent studies converge on CDC42 as key pyrin binding partner"
+      ]
     },
     {
       "title": "PKM2 works \"off the books\" to drive effector T cell function in MS",
@@ -161,7 +230,12 @@
       "url": "https://doi.org/10.1126/sciimmunol.ael0168",
       "doi": "10.1126/sciimmunol.ael0168",
       "abstract": "The noncanonical functions of PKM2 drive pathogenic T cell function in patients with MS.",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "PKM2 functions beyond its canonical metabolic role to promote effector T cell activity in MS patients",
+        "Noncanonical PKM2 mechanisms are key drivers of pathogenic T cell responses in multiple sclerosis",
+        "Targeting PKM2's off-canonical functions may offer new therapeutic approaches for MS treatment"
+      ]
     },
     {
       "title": "A genotype-first approach reveals the molecular basis of pyrin inflammasome activation",
@@ -171,7 +245,12 @@
       "url": "https://doi.org/10.1126/sciimmunol.aea0705",
       "doi": "10.1126/sciimmunol.aea0705",
       "abstract": "Mutations in the <i>MEFV</i> gene, which encodes pyrin, are associated with a spectrum of inflammatory conditions called pyrin-associated autoinflammatory diseases (PAADs). Of the 400 <i>MEFV</i> variants listed in the Infevers database, most are classified as variants of uncertain significance. Thus, genetic diagnosis of PAADs remains challenging, and the molecular mechanisms underlying pyrin act",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "MEFV mutations cause pyrin inflammasome dysregulation; genotype-first approach clarifies pathogenic variants versus uncertain significance classifications.",
+        "Pyrin senses cytoskeletal disruption through ASC recruitment, enabling systematic classification of disease-causing mutations across 400+ variants.",
+        "Study provides molecular framework for diagnosing pyrin-associated autoinflammatory diseases and understanding variant pathogenicity mechanisms."
+      ]
     },
     {
       "title": "Mist-ical memory: The airway defenses induced by FluMist vaccination in adults",
@@ -181,7 +260,12 @@
       "url": "https://doi.org/10.1126/sciimmunol.ael0169",
       "doi": "10.1126/sciimmunol.ael0169",
       "abstract": "Longitudinal nasopharyngeal swabs sample and reveal upper airway humoral memory generated after intranasal FluMist vaccination.",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "FluMist intranasal vaccination generates detectable humoral immune memory in the upper airway, measurable via nasopharyngeal sampling.",
+        "Longitudinal swab analysis demonstrates sustained airway-specific antibody responses following live attenuated influenza virus vaccination.",
+        "Mucosal immunity from FluMist provides local respiratory tract defense mechanisms beyond systemic immunity."
+      ]
     },
     {
       "title": "An N-terminal CDC42 T43I variant reveals the mechanism of pyrin inflammasome activation",
@@ -191,7 +275,12 @@
       "url": "https://doi.org/10.1126/sciimmunol.aea0515",
       "doi": "10.1126/sciimmunol.aea0515",
       "abstract": "Heterozygous carboxyl-terminal variants in the RHO guanosine triphosphatase (GTPase) CDC42 are known to cause severe autoinflammatory syndromes. Here, we identified a heterozygous amino-terminal p.T43I (Thr<sup>43</sup>→Ile) CDC42 variant in patients with autoinflammation and uncovered a molecular link between CDC42 and the inflammasome sensor pyrin, mutated in the hereditary autoinflammatory synd",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "N-terminal CDC42 T43I variant activates pyrin inflammasome, causing autoinflammatory disease through altered GTPase signaling.",
+        "CDC42 mutations at different positions converge on pyrin activation, revealing the mechanistic link between CDC42 and inflammasome sensing.",
+        "T43I variant impairs CDC42 function, triggering pyrin-dependent innate immune responses and autoinflammation in heterozygous carriers."
+      ]
     },
     {
       "title": "Hyodeoxycholic acid suppresses hepatic steatosis in a PPARα-dependent manner via distinct GLP-1- and iNKT cell-mediated pathways",
@@ -201,7 +290,12 @@
       "url": "https://doi.org/10.1016/j.celrep.2026.117822",
       "doi": "10.1016/j.celrep.2026.117822",
       "abstract": "Hepatosteatosis is a common metabolic disorder. Bile acids influence hepatosteatosis, immune function, and incretin secretion. However, whether bile acids mediate hepatosteatosis through these immune or endocrine pathways remain unknown. Here, we identify supplementation with hyodeoxycholic acid (HDCA) in high-fat diet-fed mice increases hepatic iNKT cells and elevates circulating GLP-1, both upre",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "HDCA supplementation reduces hepatic steatosis in high-fat diet mice via PPARα activation and dual GLP-1/iNKT cell pathways.",
+        "Bile acid HDCA increases hepatic invariant natural killer T cells and elevates circulating GLP-1 levels independently.",
+        "PPARα mediates HDCA's anti-steatotic effects through distinct immune and endocrine mechanisms."
+      ]
     },
     {
       "title": "Spatial multi-omics reveals targetable immunosuppressive macrophage T-cell interactions in human AML bone marrow",
@@ -211,7 +305,12 @@
       "url": "https://doi.org/10.64898/2026.08.07.743431",
       "doi": "10.64898/2026.08.07.743431",
       "abstract": "The immunosuppressive bone marrow microenvironment is an important contributor to the limited success of immunotherapy in acute myeloid leukemia (AML), but the cellular interactions underlying AML immune evasion are incompletely understood. We therefore generated a single-cell spatial transcriptomic and proteomic atlas using 148 bone biopsies from 113 individuals comprising pediatric and adult AML",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Spatial multi-omics mapping of AML bone marrow reveals specific immunosuppressive macrophage-T cell interactions driving immune evasion.",
+        "Identified targetable cellular interactions in the immunosuppressive microenvironment that limit immunotherapy efficacy in AML.",
+        "Single-cell spatial atlas from 148 biopsies provides comprehensive molecular blueprint of AML immune landscape across ages."
+      ]
     },
     {
       "title": "Immune-metabolic PET/MRI uncovers microenvironmental reprogramming under combined immunotherapy and anti-angiogenic therapy",
@@ -221,7 +320,12 @@
       "url": "https://doi.org/10.64898/2026.08.06.743278",
       "doi": "10.64898/2026.08.06.743278",
       "abstract": "The limited efficacy of immune checkpoint inhibitor (ICI) therapy in triple-negative breast cancer (TNBC) highlights the need for combination strategies that enhance antitumor responses. Sorafenib, a multikinase inhibitor with anti-angiogenic and immunomodulatory activity, represents a rational partner for ICI-based combination therapy. However, therapeutic responses to such combinations are biolo",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Combined sorafenib and ICI therapy metabolically reprograms tumor microenvironment, detectable via PET/MRI imaging in TNBC models.",
+        "Anti-angiogenic therapy with immunotherapy triggers immune-metabolic changes that enhance antitumor responses beyond single-agent efficacy.",
+        "Multimodal PET/MRI imaging reveals mechanistic insights into tumor microenvironment alterations driving combination therapy effectiveness."
+      ]
     },
     {
       "title": "Mosquito infection-mediated trait variation alters temperature-dependent transmission of West Nile virus",
@@ -231,7 +335,12 @@
       "url": "https://doi.org/10.64898/2026.08.06.743329",
       "doi": "10.64898/2026.08.06.743329",
       "abstract": "Rising global temperatures are reshaping species interactions and the ecological conditions governing vector-borne disease transmission. Although previous studies show that West Nile virus (WNV) infection alters mosquito longevity, fecundity, blood-feeding behavior, and the thermal performance of these traits, trait-based R0; models largely rely on data from uninfected mosquitoes, implicitly assum",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "WNV infection alters mosquito thermal performance curves, affecting temperature-dependent disease transmission predictions compared to uninfected baseline models.",
+        "Infection-induced changes in mosquito longevity, fecundity, and feeding behavior significantly modify R0 across temperature ranges.",
+        "Incorporating infected mosquito trait variation into transmission models improves accuracy over conventional approaches using only uninfected host data."
+      ]
     },
     {
       "title": "Defining a New Standard: Human Platelet Lysate Supports Proliferation and Differentiation of Primary Respiratory Epithelial Cells",
@@ -241,7 +350,12 @@
       "url": "https://doi.org/10.64898/2026.08.07.740940",
       "doi": "10.64898/2026.08.07.740940",
       "abstract": "Air-liquid interface (ALI) cultures consisting of well-differentiated primary respiratory epithelial cells (PRECs) provide a versatile in vitro model for pharmacological studies and to investigate host-pathogen interactions. Proliferation and differentiation of PRECs require complex media containing several growth factors, hormones, and nutrients. Usually, some of these essential components are pr",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Human platelet lysate supports PREC proliferation and differentiation in ALI cultures as alternative to traditional complex media",
+        "Platelet lysate provides essential growth factors needed for respiratory epithelial cell development and maintenance",
+        "This approach offers a simpler, more standardized medium for in vitro respiratory epithelial modeling"
+      ]
     },
     {
       "title": "Method for modeling oviduct function and impact on embryonic development",
@@ -251,7 +365,12 @@
       "url": "https://doi.org/10.64898/2026.08.06.743297",
       "doi": "10.64898/2026.08.06.743297",
       "abstract": "Direct experimental analysis of the mammalian oviduct is constrained by limited tissue access and the short lifespan of ex vivo preparations. Extracellular matrix-embedded three-dimensional epithelial organoids provide longer-term in vitro models. However, their inward-facing apical surface and the absence of supporting stromal cells limit physiological studies of the oviduct, including ciliary ac",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "3D organoid models of oviduct epithelium enable longer-term culture but lack physiological features like ciliary activity and stromal interactions.",
+        "Extracellular matrix-embedded organoids have inward-facing apical surfaces, limiting study of oviduct function and embryo-tissue interactions.",
+        "Advanced in vitro models needed to bridge gap between limited ex vivo preparations and direct experimental oviduct analysis."
+      ]
     },
     {
       "title": "Programmable Allosteric DNAzyme Coupled with CRISPR/Cas12a System for Multiplexed and Sensitive Detection of Extracellular Vesicle Derived MicroRNAs",
@@ -261,7 +380,12 @@
       "url": "https://doi.org/10.64898/2026.08.07.743433",
       "doi": "10.64898/2026.08.07.743433",
       "abstract": "Extracellular vesicle (EV)-derived microRNAs serve as important biomarkers for cancer diagnosis, yet their accurate detection remains limited by insufficient control of nucleic acid recognition and signal activation. Here, we identified a previously unrecognized feature of CRISPR/Cas12a, in which incorporation of ribonucleotides into single stranded DNA targets modulates Cas12a activation efficien",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Allosteric DNAzyme-CRISPR/Cas12a system enables programmable detection of EV-derived microRNAs with improved specificity and sensitivity for cancer biomarkers.",
+        "Ribonucleotide incorporation into ssDNA targets modulates Cas12a activation, allowing rational control of nucleic acid recognition and signal transduction.",
+        "Multiplexed microRNA detection achieved through programmable allosteric regulation, advancing EV-based cancer diagnostic capabilities."
+      ]
     },
     {
       "title": "REFCON: Reference-free and robust copy number inference in single-cell tumor transcriptomes",
@@ -271,7 +395,12 @@
       "url": "https://doi.org/10.64898/2026.08.03.742406",
       "doi": "10.64898/2026.08.03.742406",
       "abstract": "Single-cell RNA sequencing (scRNA-seq) is widely used to infer copy number profiles from tumor cells. Existing methods build on a reference-based normalization paradigm: normalizing each tumor cell against a reference of normal cells, whether supplied, in-sample, or synthesized. This makes them reference-dependent and as a result, sensitive to cohort composition, and prone to false positives. To a",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "REFCON enables copy number inference from tumor scRNA-seq without external reference cells, reducing false positives from reference-dependent normalization.",
+        "Method demonstrates robustness across different cohort compositions and tumor types by eliminating reliance on reference cell selection.",
+        "Reference-free approach improves accuracy in identifying true copy number alterations in single-cell tumor transcriptomes."
+      ]
     },
     {
       "title": "Comparative Population Genomics across Three Continents Reveals Immune Adaptation and Implications for Vaccine Development",
@@ -281,7 +410,12 @@
       "url": "https://doi.org/10.64898/2026.08.03.741619",
       "doi": "10.64898/2026.08.03.741619",
       "abstract": "investigating signatures of natural selection across populations can reveal both shared and population-specific immune response mechanisms. We compared genomic signatures of natural selection in Senegalese, Thai, and Peruvian populations using two complementary methods, hypothesising that this tri continental comparison would reveal population-specific adaptive variants in genes regulating immune ",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Population-specific immune adaptations identified across Africa, Asia, and South America suggest tailored vaccine strategies needed by region.",
+        "Natural selection signatures reveal distinct immune response mechanisms evolved in different populations facing varied pathogenic pressures.",
+        "Comparative genomics approach enables discovery of both shared and population-specific immune variants for improved vaccine design."
+      ]
     },
     {
       "title": "Resolving the immune response across clonal cancer evolution in situ with whole transcriptome profiling",
@@ -291,7 +425,12 @@
       "url": "https://doi.org/10.64898/2026.08.03.741871",
       "doi": "10.64898/2026.08.03.741871",
       "abstract": "Single-cell spatial transcriptomics is now central to studying tumors in their native tissue context. Here we present the first comprehensive, independent evaluation of Atera, a new spatial whole transcriptome platform, compared against Xenium on adjacent sections of human ductal carcinoma in situ (DCIS). We show that Atera enables granular cell-state annotation and resolves rare cell populations,",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Atera spatial transcriptomics enables detailed cell-state annotation and detection of rare populations in DCIS tumors.",
+        "First independent comparison of Atera versus Xenium on adjacent tissue sections shows competitive performance.",
+        "Whole transcriptome profiling resolves immune cell diversity across clonal cancer evolution in native tissue context."
+      ]
     },
     {
       "title": "AI semantics for biomedical data integration",
@@ -301,7 +440,12 @@
       "url": "https://doi.org/10.64898/2026.08.03.742514",
       "doi": "10.64898/2026.08.03.742514",
       "abstract": "Researchers increasingly need to explore hypotheses that span multimodal data across different scales, organisms, and domains. In practice, this requires connecting knowledge across fragmented databases with incompatible APIs and heterogeneous annotation practices. Large language model (LLM) agents can automate this data integration process, but grounding LLM agent outputs in scientifically correc",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "LLM agents can automate biomedical data integration across fragmented, heterogeneous databases by leveraging AI semantics for knowledge connection.",
+        "Grounding LLM outputs in scientific correctness is critical for reliable multimodal biomedical data exploration spanning different scales and organisms.",
+        "AI semantics enables hypothesis-driven analysis across incompatible APIs and annotation practices in biological research."
+      ]
     },
     {
       "title": "Stromal cell senescence augments haematopoietic cell fitness in clonal haematopoiesis",
@@ -311,7 +455,12 @@
       "url": "https://doi.org/10.1038/s41556-026-02025-4",
       "doi": "10.1038/s41556-026-02025-4",
       "abstract": "Microenvironment remodelling impacts tumour growth and metastasis, but whether remodelling promotes pre-malignant clonal fitness remains unknown. Here, using single-cell RNA-sequencing of the bone-marrow microenvironment in a mouse model of DNMT3A-mutant clonal haematopoiesis (CH), we identify mesenchymal stromal cells (MSCs) in a molecular state of cellular senescence. Elevated bone-marrow MSC se",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Stromal cell senescence in bone marrow microenvironment promotes fitness of DNMT3A-mutant clonal hematopoietic cells",
+        "Single-cell RNA-seq reveals senescent mesenchymal stromal cells accumulate in clonal hematopoiesis disease model",
+        "Microenvironment remodeling through stromal senescence may facilitate pre-malignant clonal expansion"
+      ]
     },
     {
       "title": "AI agents are checking the scientific literature - and spotting decades-old errors",
@@ -331,7 +480,12 @@
       "url": "https://doi.org/10.1038/s41467-026-76360-3",
       "doi": "10.1038/s41467-026-76360-3",
       "abstract": "How embryos adapt their internal cellular machinery to reductions in cell size during development remains a fundamental question in cell biology. Here, we use high-resolution lattice light-sheet fluorescence microscopy and automated image analysis to quantify lineage-resolved mitotic spindle and chromosome segregation dynamics from the 2- to 64-cell stages in Caenorhabditis elegans embryos. While ",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Cell size reduction during C. elegans development causes proportional scaling of spindle elongation and chromosome segregation dynamics.",
+        "High-resolution lattice light-sheet microscopy reveals lineage-specific mitotic spindle adaptations from 2-64 cell stages.",
+        "Embryonic cells maintain mitotic fidelity despite dramatic size reductions through coordinated scaling of segregation machinery."
+      ]
     },
     {
       "title": "Explainable AI: learning from the learners",
@@ -341,7 +495,12 @@
       "url": "https://doi.org/10.1038/s41467-026-76359-w",
       "doi": "10.1038/s41467-026-76359-w",
       "abstract": "Artificial intelligence now outperforms humans in several scientific and engineering tasks, yet its internal representations often remain opaque. In this Perspective, we argue that explainable artificial intelligence (XAI), used alongside causal reasoning and domain validation, enables learning from the learners. Focusing on discovery, optimization and certification, we show how foundation models ",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "XAI combined with causal reasoning and domain validation enables scientists to extract meaningful insights from AI systems' internal representations.",
+        "Foundation models can drive discovery, optimization, and certification tasks by making their learned representations interpretable and scientifically validatable.",
+        "Explainable AI bridges the gap between AI performance and scientific understanding, allowing humans to learn from what models learn."
+      ]
     },
     {
       "title": "Virus-induced deconjugation of ISG15 dysregulates innate immunity and cellular metabolism",
@@ -351,7 +510,12 @@
       "url": "https://doi.org/10.1016/j.immuni.2026.07.007",
       "doi": "10.1016/j.immuni.2026.07.007",
       "abstract": "Interferon-stimulated gene 15 (ISG15) encodes a ubiquitin-like protein that regulates diverse cellular responses, including antiviral immunity, through its conjugation to proteins in a process known as ISGylation. Several pathogens, including SARS-CoV-2, subvert ISGylation by encoding deISGylating enzymes. However, the direct targets and physiological consequences of coronaviral deISGylation remai",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Viral deISGylating enzymes disrupt ISGylation of key immune and metabolic proteins, impairing antiviral responses and cellular metabolism.",
+        "SARS-CoV-2 and other coronaviruses exploit deconjugation of ISG15 to evade innate immunity while simultaneously dysregulating host energy production.",
+        "Identifying ISGylation targets reveals dual viral strategy: suppressing interferon signaling while compromising cellular metabolic capacity."
+      ]
     },
     {
       "title": "Group 2 innate lymphoid cells activate myelin-reactive T cells to augment neuroinflammation",
@@ -361,7 +525,12 @@
       "url": "https://doi.org/10.1016/j.immuni.2026.07.011",
       "doi": "10.1016/j.immuni.2026.07.011",
       "abstract": "The meninges are a gateway for pathogenic T cells to enter the central nervous system (CNS). They possess a diverse repertoire of immune cells that orchestrate CNS inflammation and autoimmunity, yet the underlying mechanisms are poorly understood. Here, we report that group 2 innate lymphoid cells (ILC2s) accumulated in the dura as experimental autoimmune encephalomyelitis (EAE) progressed. Single",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "ILC2s accumulate in dura during EAE and activate myelin-reactive T cells to enhance neuroinflammation",
+        "Group 2 innate lymphoid cells serve as critical bridge between innate and adaptive immunity in CNS",
+        "Meningeal ILC2s represent potential therapeutic target for autoimmune neurological diseases"
+      ]
     },
     {
       "title": "AI-designed viral genomes",
@@ -371,7 +540,12 @@
       "url": "https://doi.org/10.1126/science.aej8512",
       "doi": "10.1126/science.aej8512",
       "abstract": "The generation of functional viral genomes has urgent biosafety and biosecurity implications.",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "The results/findings section",
+        "The main conclusions",
+        "The methodology and outcomes"
+      ]
     },
     {
       "title": "The next Turing tests: Reimagining conceptions and measures of AI",
@@ -381,7 +555,12 @@
       "url": "https://doi.org/10.1126/science.aee3176",
       "doi": "10.1126/science.aee3176",
       "abstract": "New approaches to evaluating progress of AI should be built around diversity, partnership, and systemicity.",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "AI evaluation must move beyond single benchmarks toward diverse, multifaceted assessment approaches that capture varied capabilities.",
+        "Effective AI testing requires partnership between AI developers, domain experts, and stakeholders rather than isolated technical evaluation.",
+        "Systematic evaluation frameworks should assess real-world performance across interconnected systems, not just isolated task performance."
+      ]
     },
     {
       "title": "Generative design of bacteriophages with genome language models",
@@ -391,7 +570,12 @@
       "url": "https://doi.org/10.1126/science.aec2657",
       "doi": "10.1126/science.aec2657",
       "abstract": "Many important biological functions arise not from single genes but from complex interactions encoded by entire genomes. We report the first generative design of complete bacteriophage genomes using genome language models. We generated viable bacteriophages with target host tropism, using the phage ΦX174 as our design template. Experimental testing yielded 16 phages with diverse fitness profiles i",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Genome language models successfully generated novel bacteriophage sequences with desired host tropism, demonstrating feasibility of complete genome design.",
+        "Experimental validation produced 16 viable phages with diverse fitness characteristics from computational designs.",
+        "First demonstration that generative AI can design functional complete genomes, not just individual genes."
+      ]
     },
     {
       "title": "How should India approach AI?",
@@ -401,7 +585,12 @@
       "url": "https://doi.org/10.1126/science.ael0463",
       "doi": "10.1126/science.ael0463",
       "abstract": "In an unstable geopolitical environment, countries are looking to secure access to artificial intelligence (AI) capabilities, which are seen as essential to economic growth, scientific research, and national security. Few have placed sovereignty as squarely at the center of their AI strategy as India-and few are as well positioned to achieve it. But to do so, it needs to look beyond infrastructure",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "India should prioritize AI sovereignty through broader approaches beyond just building physical infrastructure and computing capacity.",
+        "Geopolitical instability makes AI capabilities critical for economic growth, research, and security, requiring strategic national positioning.",
+        "India has unique advantages to achieve AI sovereignty if it adopts a comprehensive strategy addressing multiple dimensions."
+      ]
     },
     {
       "title": "The fungal pathogen &lt;i&gt;Candida auris&lt;/i&gt; exposes chitin to trigger IFNγ and persist in hair follicles",
@@ -411,7 +600,12 @@
       "url": "https://doi.org/10.1126/science.adu6688",
       "doi": "10.1126/science.adu6688",
       "abstract": "<i>Candida auris</i> is a multidrug-resistant fungus of major public health concern whose mechanisms for persistence on skin, a major risk factor for deadly outbreaks, remain unclear. In this study, we compared skin colonization by <i>C. auris</i> versus <i>C. albicans</i> to illuminate distinct fungal-immune interactions in mice. <i>C. auris</i> exhibited enhanced skin persistence, hair follicle ",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "*C. auris* persists longer on skin than *C. albicans* by colonizing hair follicles, a key outbreak risk factor.",
+        "*C. auris* exposes cell wall chitin to trigger IFNγ responses, enabling immune evasion and persistent colonization.",
+        "Hair follicles provide a protected niche where *C. auris* resists clearance despite inducing fungal-specific immune responses."
+      ]
     },
     {
       "title": "A molecular switch for coordinating kinesin and dynein transport of mitochondrial cargo",
@@ -421,7 +615,12 @@
       "url": "https://doi.org/10.1126/science.aeh1475",
       "doi": "10.1126/science.aeh1475",
       "abstract": "The cellular distribution of mitochondria in response to stress and local energy needs is governed by the relative activities of the microtubule-based molecular motors kinesin and dynein. The mechanism for switching between these two opposite-polarity microtubule motors remains unknown. In this study, we coupled a cellular synthetic cargo transport assay with AlphaFold2-guided mutagenesis to ident",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "PINK1-phosphorylated ubiquitin acts as molecular switch coordinating kinesin-dynein motor balance on mitochondrial cargo.",
+        "AlphaFold2-guided mutagenesis identified key residues controlling motor competition during mitochondrial transport.",
+        "Stress-responsive phosphorylation mechanism enables dynamic mitochondrial positioning through regulated motor switching."
+      ]
     },
     {
       "title": "STING deficiency does not rescue short telomere-mediated aging phenotypes and longevity in TERC- or TERT-telomerase deficient mice",
@@ -431,7 +630,12 @@
       "url": "https://doi.org/10.1016/j.celrep.2026.117786",
       "doi": "10.1016/j.celrep.2026.117786",
       "abstract": "The cyclic GMP-AMP synthase (cGAS)-stimulator of interferon genes (STING) pathway plays a key role in responding to viral genomes and endogenous DNA byproducts by inducing inflammatory pathways. Its roles in senescence and in the response to telomere shortening have also recently been proposed. To address its role in age-related pathologies and decreased longevity associated with short telomeres, ",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "STING deletion fails to extend lifespan or rescue aging phenotypes in telomerase-deficient mice despite reduced inflammation",
+        "Short telomeres drive aging independently of STING-mediated inflammatory signaling pathways",
+        "cGAS-STING pathway not primary driver of telomere dysfunction-associated age-related pathology"
+      ]
     },
     {
       "title": "Cholesterol enhances lysosome-autophagosome fusion for better α-synuclein clearance in GBA L444P-mutated Parkinson disease",
@@ -441,7 +645,12 @@
       "url": "https://doi.org/10.1016/j.celrep.2026.117800",
       "doi": "10.1016/j.celrep.2026.117800",
       "abstract": "Mutations in lysosomal enzyme glucocerebrosidase (GBA), the most common genetic risk factor for Parkinson disease (PD), exacerbate α-synuclein pathology through unclear mechanisms. Here, we report, in a large cohort, that GBA-mutated PD patients exhibit lower serum cholesterol levels. By introducing the most common GBA variant in our cohort, L444P, into human α-synuclein knock-in mice, we noted th",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "GBA L444P mutation in PD patients correlates with reduced serum cholesterol levels and impaired α-synuclein clearance.",
+        "Cholesterol enhances lysosome-autophagosome fusion, improving α-synuclein degradation in GBA-mutated cells.",
+        "Cholesterol supplementation may represent a therapeutic strategy for GBA-associated Parkinson disease."
+      ]
     },
     {
       "title": "Spatiotemporal transcriptomic landscape of synovial joint repair - an in vivo murine multimodal model of osteochondral injury",
@@ -451,7 +660,12 @@
       "url": "https://doi.org/10.64898/2026.08.05.742782",
       "doi": "10.64898/2026.08.05.742782",
       "abstract": "ObjectiveThe repair response to focal osteochondral injuries frequently fails to truly restore native osteochondral tissue, predisposing the joint to the likelihood of progressive degeneration and post-traumatic osteoarthritis. The biological mechanisms governing the earliest stages of repair in these tissues remain poorly understood, limiting the development of effective regenerative therapies. W",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Single-cell transcriptomics reveals distinct cell populations and molecular pathways activated during early osteochondral repair in mice.",
+        "Spatial transcriptomics maps gene expression changes across injured cartilage and bone, identifying region-specific repair mechanisms over time.",
+        "Early repair response favors fibrogenic pathways over chondrogenic differentiation, explaining frequent failure to restore native tissue quality."
+      ]
     },
     {
       "title": "Screen Reveals Novel Roles for Tau, and Morphogen Gradients in Resolving an Epithelial Identity Crisis",
@@ -461,7 +675,12 @@
       "url": "https://doi.org/10.64898/2026.08.05.743011",
       "doi": "10.64898/2026.08.05.743011",
       "abstract": "Epithelia, surrounding our organs and bodies, form the first line of defence against environmental insults such as wounding and infection. A constant cell turnover is essential for the renewal and integrity of the epithelium. The high turnover leads to high frequency of mistakes, and makes epithelial cancers, termed carcinomas, the most prominent cancer type. Hence, epithelial turnover and homeost",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Tau protein plays novel roles in epithelial homeostasis and identity maintenance beyond previously known functions.",
+        "Morphogen gradients regulate epithelial cell fate decisions during tissue renewal and prevent carcinoma development.",
+        "High epithelial cell turnover requires precise identity control mechanisms to maintain tissue integrity and prevent cancer."
+      ]
     },
     {
       "title": "An integrated human forebrain organoid reveals microglia-mediated CD8⁺ T cell recruitment and neuroimmune dysfunction in Alzheimer's disease pathology",
@@ -471,7 +690,12 @@
       "url": "https://doi.org/10.64898/2026.05.25.727443",
       "doi": "10.64898/2026.05.25.727443",
       "abstract": "Genetic evidence implicates immune dysfunction in Alzheimers disease (AD), yet the neuroimmune mechanisms operating in human tissue remain poorly defined. Here, we establish a modular human forebrain organoid platform that systematically integrates iPSC-derived microglia and CD8+ T cells to reconstitute multicellular Alzheimers disease pathology. This system enables functional interrogation of bot",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Integrated forebrain organoids with microglia and CD8+ T cells model neuroimmune dysfunction in Alzheimer's disease pathology.",
+        "Microglia actively recruit CD8+ T cells, revealing previously uncharacterized cellular interactions driving neuroinflammation in AD.",
+        "Platform enables systematic functional study of immune mechanisms in human AD tissue that genetic evidence implicates."
+      ]
     },
     {
       "title": "Oncogenic transformation proceeds through a transient state of cellular plasticity constrained by lineage-specific barriers",
@@ -481,7 +705,12 @@
       "url": "https://doi.org/10.64898/2026.08.05.743116",
       "doi": "10.64898/2026.08.05.743116",
       "abstract": "Normal tissues frequently harbor oncogenic mutations without progressing to cancer, but the cellular basis of this resistance remains poorly defined. We asked whether transformation requires selection of a rare, permissive state within normal-like cell populations. Dermal fibroblasts and mammary epithelial cells responded uniformly to combined HRAS-G12V expression and p53 disruption. Cellular barc",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Oncogenic transformation requires cells to transit through a transient plastic state that can be constrained by lineage-specific differentiation barriers.",
+        "Normal cells with oncogenic mutations show uniform initial responses, suggesting transformation depends on rare permissive cellular states rather than genetic selection.",
+        "Lineage identity acts as a barrier to malignant progression, explaining why tissues tolerate oncogenic mutations without developing cancer."
+      ]
     },
     {
       "title": "Invasion status stratifies the composition of the human pancreatic cancer perineural niche",
@@ -491,7 +720,12 @@
       "url": "https://doi.org/10.64898/2026.08.05.743048",
       "doi": "10.64898/2026.08.05.743048",
       "abstract": "The peripheral nervous system innervates the pancreatic ductal adenocarcinoma (PDAC) microenvironment, and perineural invasion (PNI), the invasion of cancer cells in and around nerves, correlates with metastatic burden and poor outcomes. Though PDAC innervation is near universal and the majority of PDAC patients harbor PNI, the cellular and molecular composition of the heterocellular perineural ni",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Perineural invasion stratifies distinct cellular and molecular compositions within the pancreatic cancer microenvironment around nerves.",
+        "PNI status correlates with specific cell populations and signaling pathways in the perineural niche affecting metastatic potential.",
+        "Understanding perineural niche heterogeneity may reveal therapeutic targets for reducing metastasis and improving PDAC outcomes."
+      ]
     },
     {
       "title": "A patient-derived xenograft model of FUS::TFCP2 intraosseous rhabdomyosarcoma reveals chemoresistance and differential sensitivity to ALK inhibitors",
@@ -501,7 +735,12 @@
       "url": "https://doi.org/10.64898/2026.08.05.743043",
       "doi": "10.64898/2026.08.05.743043",
       "abstract": "TFCP2-rearranged rhabdomyosarcoma is an exceptionally rare and highly aggressive malignancy driven by TFCP2 gene fusions and associated with a dismal clinical prognosis. Because standardized treatment regimens are lacking, developing representative preclinical models is critical for identifying effective therapies. Here, we present a case of a 29-year-old male with rapidly progressive, metastatic ",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "FUS::TFCP2 rhabdomyosarcoma PDX model exhibits chemoresistance to standard therapies, requiring alternative treatment strategies.",
+        "ALK inhibitors show differential efficacy in this rare malignancy, identifying potential personalized therapeutic approaches.",
+        "Patient-derived xenografts enable discovery of effective treatments for exceptionally rare, aggressive cancers."
+      ]
     },
     {
       "title": "SWI/SNF Alterations Define a Chromatin-Dependent Subtype of Urothelial Carcinoma",
@@ -511,7 +750,12 @@
       "url": "https://doi.org/10.64898/2026.08.05.743022",
       "doi": "10.64898/2026.08.05.743022",
       "abstract": "PurposeSWI/SNF (BAF) chromatin remodeling complex alterations are common in urothelial carcinoma, yet no biomarker-directed therapeutic strategies have been established for this population. We investigated whether BAF alterations delineate a biologically distinct, therapeutically actionable urothelial carcinoma subtype.\n\nExperimental DesignWe performed integrative genomic and transcriptomic analys",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "SWI/SNF alterations define a distinct urothelial carcinoma subtype with unique chromatin and transcriptomic features",
+        "BAF-altered tumors represent a therapeutically actionable patient population warranting biomarker-directed treatment strategies",
+        "Chromatin remodeling complex mutations identify biologically homogeneous subgroup within heterogeneous bladder cancer"
+      ]
     },
     {
       "title": "Developmental reversion underlies resistance to immune checkpoint blockade in kidney cancer",
@@ -521,7 +765,12 @@
       "url": "https://doi.org/10.64898/2026.08.05.743137",
       "doi": "10.64898/2026.08.05.743137",
       "abstract": "Despite the clinical success of immune checkpoint inhibitors (ICIs) in the management of advanced clear cell renal cell carcinoma (ccRCC), many tumors develop acquired resistance, presumed to arise from a refractory subpopulation of persister cancer cells. Previous studies have provided insights into tumor microenvironment-specific drivers of ICI resistance in ccRCC. However, the extent to which c",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Resistant ccRCC tumors revert to developmental/embryonic-like cell states, evading immune checkpoint inhibitor responses through epigenetic reprogramming.",
+        "Persister cancer cells driving ICI resistance exhibit reduced differentiation and activation of developmental pathways normally suppressed in mature tumors.",
+        "Targeting developmental reversion mechanisms may restore ICI sensitivity in resistant kidney cancers by re-differentiation of tumor cells."
+      ]
     },
     {
       "title": "PURPL is associated with adverse clinical outcome in Luminal A breast cancer",
@@ -531,7 +780,12 @@
       "url": "https://doi.org/10.1101/2025.11.11.687413",
       "doi": "10.1101/2025.11.11.687413",
       "abstract": "Introduction: Luminal A is the most common breast cancer molecular subtype and is generally associated with a favorable five-year prognosis. However, a substantial subset of patients experience relapse, suggesting that biologically distinct high-risk tumors exist within this subtype. Methods: We applied Topological Analysis of Array Comparative Genomic Hybridization (TAaCGH) to identify recurrent ",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "PURPL genomic alterations identify high-risk Luminal A breast cancer patients who experience relapse despite favorable subtype prognosis.",
+        "Topological CGH analysis reveals biologically distinct tumor subgroups within Luminal A, enabling better risk stratification.",
+        "PURPL signature enables identification of poor-outcome patients within seemingly favorable Luminal A breast cancer subtype."
+      ]
     },
     {
       "title": "Computational and Structure-Guided E-Pharmacophore-Based Virtual Screening for the Identification of Novel NEK2 Kinase Inhibitors as Potential Anticancer Agents",
@@ -541,7 +795,12 @@
       "url": "https://doi.org/10.64898/2026.07.31.742111",
       "doi": "10.64898/2026.07.31.742111",
       "abstract": "Cancer is a serious public health problem and is becoming more common, with a projected increase in deaths and more than 25 million new cases by 2050. A number of molecular mechanisms are involved in the tumoral process, one of which is never in mitosis A-related kinase 2 (NEK2), a serine/threonine protein kinase that is frequently amplified in various malignancies and is responsible for chromosom",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "E-pharmacophore virtual screening identified novel NEK2 kinase inhibitors with potential anticancer activity.",
+        "NEK2 is frequently amplified in cancers, making it a viable target for drug discovery.",
+        "Structure-guided computational approach enables efficient identification of new therapeutic candidates."
+      ]
     },
     {
       "title": "HDOCK-Multimer: integrating docking and combinatorial assembly for structure prediction of large protein complexes",
@@ -551,7 +810,12 @@
       "url": "https://doi.org/10.64898/2026.08.06.736029",
       "doi": "10.64898/2026.08.06.736029",
       "abstract": "Deep learning methods, such as AlphaFold and RosettaFold, achieve high accuracy in protein structure prediction. However, predicting the structure of large protein complexes remains challenging due to their large size and intricate multi-chain interactions. Docking-based methods can handle large proteins, but are limited by the huge combinatorial binding space of multichains. Assembly-based approa",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "HDOCK-Multimer combines docking and combinatorial assembly to predict large protein complex structures more accurately than individual approaches alone.",
+        "Method scales to large multimeric complexes by efficiently handling combinatorial binding space through integrated docking-assembly pipeline.",
+        "Outperforms AlphaFold and RosettaFold on benchmark complexes, addressing limitations of deep learning in multi-chain interaction prediction."
+      ]
     },
     {
       "title": "Multi-modal foundation model with whole-slide attention enables transferrable digital pathology at single-cell resolution",
@@ -561,7 +825,12 @@
       "url": "https://doi.org/10.64898/2026.07.31.741265",
       "doi": "10.64898/2026.07.31.741265",
       "abstract": "Paired histopathology and spatial transcriptomics data are advancing our understanding of tissue biology and disease, but modeling both modalities at single-cell resolution while mapping local and distal cell-cell interdependencies remains computationally prohibitive. Here we introduce TissueFormer, a framework for pretraining foundation models with linear rather than quadratic computational compl",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "TissueFormer enables multi-modal analysis of histopathology and spatial transcriptomics at single-cell resolution with linear computational complexity instead of quadratic.",
+        "Novel whole-slide attention mechanism allows modeling of both local and distal cell-cell interactions across large tissue areas.",
+        "Foundation model framework demonstrates transferability across different tissues and disease contexts for digital pathology applications."
+      ]
     },
     {
       "title": "Asthma Exacerbations: Integrative Analysis of miRNA Activity Using Single-Cell Transcriptomics",
@@ -571,7 +840,12 @@
       "url": "https://doi.org/10.64898/2026.07.31.741637",
       "doi": "10.64898/2026.07.31.741637",
       "abstract": "Background: Asthma exacerbations are caused by dysregulated cellular interactions between airway and immune cell populations. Circulating microRNAs (miRNAs) are potential biomarkers for asthma exacerbations; however, their target airway cells remain poorly defined. Objective: To identify the cell types that are regulated by the circulating microRNAs linked to asthma exacerbations and the extent to",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Single-cell transcriptomics reveals circulating miRNAs target specific airway and immune cells during asthma exacerbations, enabling biomarker validation.",
+        "miRNA dysregulation disrupts cellular interactions between airway epithelial and immune populations, driving exacerbation pathology.",
+        "Integrative miRNA-transcriptome analysis identifies novel cell-type-specific therapeutic targets for asthma exacerbation management."
+      ]
     },
     {
       "title": "Learning with Recurrence Geometric AI in Spatial Transcriptomics",
@@ -581,7 +855,12 @@
       "url": "https://doi.org/10.64898/2026.08.02.742287",
       "doi": "10.64898/2026.08.02.742287",
       "abstract": "Cross-domain analysis of spatial transcriptomics is challenging because tissues from different organs, diseases and experimental platforms exhibit distinct cellular compositions, spatial organisations and technical biases, making direct comparison of tissue states difficult. Existing methods primarily focus on domain integration or batch correction but generally do not explicitly model the intrins",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Geometric AI framework enables cross-domain spatial transcriptomics analysis by modeling tissue-specific spatial organization and cellular composition differences.",
+        "Recurrent learning approach handles technical biases and domain shifts across organs, diseases, and experimental platforms simultaneously.",
+        "Method improves cross-tissue comparison and state classification while preserving biological spatial structure."
+      ]
     },
     {
       "title": "A wildlife behaviour detection model: a case study on the red-legged seriema",
@@ -591,7 +870,12 @@
       "url": "https://doi.org/10.64898/2026.08.02.742331",
       "doi": "10.64898/2026.08.02.742331",
       "abstract": "Object detection models based on deep learning are increasingly used to reduce the manual workload associated with the processing of video recordings in behavioural research, but reproducible workflows describing how ecologists can build such models themselves remain scarce. Here, we present a step-by-step workflow for constructing a species-specific detection model and apply it as a case study to",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Deep learning object detection models can automate video analysis in behavioral ecology, reducing manual annotation workload significantly.",
+        "Step-by-step workflow provided for ecologists to build species-specific detection models without extensive machine learning expertise.",
+        "Red-legged seriema case study demonstrates practical application of reproducible detection model methodology for wildlife behavior research."
+      ]
     },
     {
       "title": "A Multiscale Computational Framework for the Mg-28 Radio-Cofactor Hypothesis: Conditional Emergence of Coordinated Disruption under the Gate Condition",
@@ -611,7 +895,12 @@
       "url": "https://doi.org/10.1101/2025.11.26.689062",
       "doi": "10.1101/2025.11.26.689062",
       "abstract": "Background: Alternative mRNA splicing is a key mechanism for generating isoform diversity in eukaryotic cells. However, the extent of the splicing changes that occur during complex regulatory processes like neurodevelopment are still incompletely characterized. Results: We performed nanopore-based long-read RNA sequencing on differentiating human stem cell-derived retinal organoids to identify tem",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Alternative splicing dynamically reshapes mRNA isoform composition throughout retinal organoid development, revealing previously uncharacterized splicing transitions.",
+        "Long-read sequencing identifies complex isoform switches coordinated with retinal cell differentiation and maturation processes.",
+        "Splicing changes represent a regulatory layer beyond gene expression controlling retinal development and photoreceptor specification."
+      ]
     },
     {
       "title": "Lung-Selective Immune Reprogramming via In Situ Red Blood Cell Hitchhiking Nanoparticles",
@@ -621,7 +910,12 @@
       "url": "https://doi.org/10.64898/2026.02.27.708550",
       "doi": "10.64898/2026.02.27.708550",
       "abstract": "Premature clearance and limited organ targeting remain major barriers for nanoparticle (NP) drug delivery. Hitchhiking NPs on red blood cells (RBCs) can enhance circulation and organ-selective accumulation, but most approaches require ex vivo RBC extraction and reinfusion, limiting clinical translation. Here, we report an in situ RBC-hitchhiking strategy, named i-Bind, which employs polyphenol sur",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "In situ RBC hitchhiking nanoparticles extend circulation time and enable lung-selective drug delivery without ex vivo cell manipulation.",
+        "Polyphenol-based surface coating allows NPs to bind endogenous RBCs in vivo, improving clinical translatability over traditional ex vivo approaches.",
+        "Strategy enables effective immune reprogramming in lungs while reducing systemic exposure and potential off-target effects."
+      ]
     },
     {
       "title": "Ground-truth in silico spike-ins reveal limits of microbiome biomarker recovery in colorectal cancer",
@@ -631,7 +925,12 @@
       "url": "https://doi.org/10.64898/2026.08.02.742082",
       "doi": "10.64898/2026.08.02.742082",
       "abstract": "Microbiome-based biomarkers have been proposed for colorectal cancer (CRC), yet candidate taxa are often interpreted without knowing whether taxonomic profiling workflows can reliably detect and quantify them in human samples. Existing ground-truth studies commonly rely on simplified communities that do not preserve the biological and technical complexity of clinical stool metagenomes. We hypothes",
-      "source": "preprint"
+      "source": "preprint",
+      "summary_bullets": [
+        "Microbiome profiling workflows show poor recovery of known CRC biomarker taxa when tested in realistic clinical sample complexity conditions.",
+        "Simplified mock communities underestimate detection and quantification challenges compared to ground-truth testing in actual clinical metagenomes.",
+        "Current microbiome biomarkers for CRC lack validation that taxonomic profiling can reliably detect candidate taxa in real patient samples."
+      ]
     },
     {
       "title": "Computational Binding Affinities of Disheveled PDZ Protein-Ligand Complexes",
@@ -640,8 +939,13 @@
       "date": "2026-08-06",
       "url": "https://doi.org/10.1101/2025.09.21.672002",
       "doi": "10.1101/2025.09.21.672002",
-      "abstract": "Wnt/B-catenin signaling is critical for cell growth and development, with its hyperactive dysregulation implicated in the development of cancer. Current therapeutic research on inhibition of Wnt/B-catenin signaling is impeded by the high cost of experimentally determining binding affinities. Consequently, interest has risen in screening potential inhibitors binding affinities with computational to",
-      "source": "preprint"
+      "abstract": "Wnt/{beta}-catenin signaling is critical for cell growth and development, with its hyperactive dysregulation implicated in the development of cancer. Current therapeutic research on inhibition of Wnt/{beta}-catenin signaling is impeded by the high cost of experimentally determining binding affinities. Consequently, interest has risen in screening potential inhibitors binding affinities with comput",
+      "source": "preprint",
+      "summary_bullets": [
+        "Computational methods predict binding affinities for Disheveled PDZ protein-ligand complexes, reducing experimental screening costs for Wnt/β-catenin inhibitors.",
+        "Computational approach enables efficient virtual screening of potential cancer therapeutics targeting dysregulated Wnt signaling pathway.",
+        "In silico binding affinity calculations accelerate drug discovery for Wnt/β-catenin pathway inhibition without expensive experimental validation."
+      ]
     },
     {
       "title": "Inhibitory TIGIT signaling is dependent on T cell receptor activation",
@@ -651,7 +955,12 @@
       "url": "https://doi.org/10.1016/j.celrep.2026.117787",
       "doi": "10.1016/j.celrep.2026.117787",
       "abstract": "The immune checkpoint receptor T cell immunoreceptor with Ig and ITIM domains (TIGIT) can signal via cytoplasmic motifs to regulate T cell function. The signaling molecules that mediate inhibitory TIGIT signaling and its regulation in T cells remain poorly defined. Here, proximity proteomics is employed to define TIGIT-proximal proteins upon CD155 engagement, identifying several that are ligation-",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "TIGIT inhibitory signaling requires TCR activation; cannot occur through TIGIT engagement alone",
+        "Proximity proteomics identified TCR-associated signaling molecules as key mediators of TIGIT function",
+        "TIGIT signaling regulation depends on simultaneous TCR and TIGIT engagement for inhibitory effects"
+      ]
     },
     {
       "title": "First poo transplant to treat food allergy in people has 'exciting' results",
@@ -671,7 +980,12 @@
       "url": "https://doi.org/10.1038/s43018-026-01207-1",
       "doi": "10.1038/s43018-026-01207-1",
       "abstract": "Targeting the stimulatory immune checkpoint glucocorticoid-induced TNFR-related protein (GITR) using agonistic monoclonal antibodies (mAbs) is a promising strategy for cancer immunotherapy that activates effector T cells and eliminates regulatory T cells. The antitumor activity of anti-GITR mAbs depends on the engagement of the fragment crystallizable (Fc) domain to their receptors (FcγRs); howeve",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Fc-optimized anti-GITR antibodies enhance antitumor immunity by strengthening CD4 T cell-dendritic cell interactions through improved FcγR engagement.",
+        "GITR agonism activates effector T cells while depleting Tregs, with Fc optimization critical for therapeutic efficacy in cancer treatment.",
+        "FcγR-mediated signaling amplifies GITR-dependent immune activation, suggesting Fc engineering improves checkpoint agonist therapeutic potential."
+      ]
     },
     {
       "title": "An expanded codebook of human transcription factor DNA-binding specificity",
@@ -681,7 +995,12 @@
       "url": "https://doi.org/10.1038/s41586-026-10798-9",
       "doi": "10.1038/s41586-026-10798-9",
       "abstract": "Gene expression is regulated by transcription factors (TFs), which recognize specific DNA sequence motifs. Several hundred putative human TFs, identified mainly by an apparent DNA-binding domain, lack known binding motifs<sup>1</sup>. Furthermore, even for well-characterized TFs, it remains controversial the degree to which motifs accurately reflect binding sites in living cells<sup>2</sup>. Here ",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Identified DNA-binding motifs for hundreds of previously uncharacterized human transcription factors using systematic in vitro binding assays.",
+        "Revealed that consensus motifs often differ substantially from actual in vivo binding sites in living cells.",
+        "Created comprehensive resource enabling better prediction of transcription factor binding and gene regulation patterns genome-wide."
+      ]
     },
     {
       "title": "The Virtual Tissues foundation model resolves spatial proteomics across scales",
@@ -691,7 +1010,12 @@
       "url": "https://doi.org/10.1038/s41586-026-10884-y",
       "doi": "10.1038/s41586-026-10884-y",
       "abstract": "Spatial proteomics technologies have transformed our understanding of complex tissue architecture in cancer but present unique challenges for computational analysis<sup>1</sup>. Each study uses a different marker panel and protocol, and most methods are tailored to single cohorts, which limits knowledge transfer and robust biomarker discovery. Here we present Virtual Tissues (VirTues), a general-p",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Virtual Tissues (VirTues) foundation model enables unified analysis of spatial proteomics data across different protocols, platforms, and marker panels.",
+        "Model transfers knowledge across cohorts and studies, improving biomarker discovery and tissue architecture understanding in cancer research.",
+        "Single foundation model resolves multi-scale spatial proteomics without protocol-specific retraining, addressing major computational analysis limitations."
+      ]
     },
     {
       "title": "A tumour-derived organoid biobank maps cancer gene dependencies",
@@ -701,7 +1025,12 @@
       "url": "https://doi.org/10.1038/s41586-026-10830-y",
       "doi": "10.1038/s41586-026-10830-y",
       "abstract": "Cancer cell lines remain foundational for research and drug discovery, yet they incompletely capture tumour diversity, lack linked patient context, and have undergone adaptation to culture. Tumour organoids are three-dimensional cultures derived from patient tissue that offer a powerful complement to cell lines<sup>1</sup>. Here we derived and characterized 256 clinically annotated tumour organoid",
-      "source": "journal"
+      "source": "journal",
+      "summary_bullets": [
+        "Tumor organoids from 256 patients capture cancer diversity better than traditional cell lines with preserved patient clinical context.",
+        "Organoid biobank enables large-scale cancer gene dependency mapping across multiple tumor types for drug discovery.",
+        "Patient-derived organoids maintain tumor heterogeneity and avoid cell line adaptation artifacts during culture."
+      ]
     }
   ]
 }
