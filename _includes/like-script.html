@@ -16,6 +16,9 @@
 		var namespace = btn.getAttribute('data-like-ns') || DEFAULT_NAMESPACE;
 		var countEl = btn.querySelector('.nis-like-count');
 		var storageKey = 'nis_liked_' + namespace + '_' + key;
+		// Guards against the page-load GET resolving after the click-triggered
+		// hit and clobbering the fresh count back down to its stale pre-click value.
+		var justLiked = false;
 
 		if (localStorage.getItem(storageKey) === '1') {
 			setLiked(btn);
@@ -23,13 +26,16 @@
 
 		fetch('https://abacus.jasoncameron.dev/get/' + namespace + '/' + key)
 			.then(function (r) { return r.json(); })
-			.then(function (data) { countEl.textContent = data.value; })
-			.catch(function () { countEl.textContent = '0'; });
+			.then(function (data) { if (!justLiked) countEl.textContent = data.value; })
+			.catch(function () { if (!justLiked) countEl.textContent = '0'; });
 
 		btn.addEventListener('click', function () {
 			if (btn.classList.contains('liked')) return;
+			justLiked = true;
 			setLiked(btn);
 			localStorage.setItem(storageKey, '1');
+			var current = parseInt(countEl.textContent, 10);
+			countEl.textContent = isNaN(current) ? 1 : current + 1;
 			fetch('https://abacus.jasoncameron.dev/hit/' + namespace + '/' + key)
 				.then(function (r) { return r.json(); })
 				.then(function (data) { countEl.textContent = data.value; })
