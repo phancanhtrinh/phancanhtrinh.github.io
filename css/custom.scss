@@ -6,6 +6,11 @@ html {
   overflow-y: scroll;
 }
 
+// Fonts known to carry full Vietnamese glyph coverage (incl. tone-marked
+// vowels like ê ế ắ) across macOS/Windows/Android, so accented characters
+// don't silently fall back to a mismatched-weight/size substitute font.
+$vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
 $primary: #DD2D2D;
 $gray: #555;
 $gray-light: #777;
@@ -294,7 +299,7 @@ img.avatar {
    Tutorials (eng_tut / vn_tut): larger, more readable body copy
 --------------------------------------------------------- */
 
-$tutorial-font: Arial, Helvetica, sans-serif;
+$tutorial-font: $vn-safe-fonts;
 
 .tutorial-page .title {
   font-family: $tutorial-font;
@@ -838,14 +843,13 @@ ol.cv-pub-list {
    Vietnamese content font fallback
 
    The site's Typekit fonts (museo-sans for headings, jaf-facitweb
-   for body) both render the Vietnamese letter Đ/đ (U+0110/U+0111)
-   as a malformed glyph. Since the character technically exists in
-   both fonts, the browser won't auto-fallback per-glyph, so any
-   element marked lang="vn" (or nested inside one) is switched to a
-   system font stack that renders Vietnamese correctly.
+   for body) don't reliably carry every Vietnamese tone-marked glyph
+   (Đ/đ, ê, ế, ắ...), so the browser silently falls back per-glyph to
+   a mismatched-weight/size substitute font. Any element marked
+   lang="vn" (or nested inside one) is switched to $vn-safe-fonts
+   (defined near the top of this file), a system font stack with
+   full Vietnamese coverage across macOS/Windows/Android.
 --------------------------------------------------------- */
-
-$vn-safe-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 
 :lang(vn) {
   font-family: $vn-safe-fonts !important;
