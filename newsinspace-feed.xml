@@ -4,7 +4,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>{{ site.name | xml_escape }} - NewsInSpace</title>
-		<description>A daily-updated feed of new papers on spatial multi-omics, cancer biology, virus-driven cancer, spatial biotechnology, and AI-driven biology.</description>
+		<description>A daily-updated feed of new papers on spatial multi-omics, cancer biology, virus-driven cancer, spatial biotechnology, AI-driven biology, immunology, organoids, organ-on-a-chip, and host-pathogen interactions.</description>
 		<link>{{ site.url }}/newsinspace/</link>
 		<atom:link href="{{ site.url }}/newsinspace-feed.xml" rel="self" type="application/rss+xml" />
 		{% assign nis = site.data.newsinspace %}

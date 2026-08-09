@@ -38,6 +38,7 @@ open_new_tab        : false                             # Opens external URLs in
 google_analytics: G-HRMVH10FQZ
 
 exclude:
+  - "cf-worker"
   - "*.branches"
   - "*.class"
   - "*.cpp"

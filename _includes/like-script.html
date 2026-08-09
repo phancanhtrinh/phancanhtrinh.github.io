@@ -29,6 +29,31 @@
 			.catch(function () { return null; });
 	}
 
+	// NewsInSpace alone puts ~70 like buttons on one page. Firing all their
+	// page-load GETs at once burns through Abacus's rate limit and can
+	// starve out a same-moment click's hit request (the actual like never
+	// registers server-side). Cap how many page-load reads are in flight at
+	// once; click-triggered hits below are never queued, so they always get
+	// priority bandwidth.
+	var pageLoadQueue = [];
+	var pageLoadInFlight = 0;
+	var PAGE_LOAD_CONCURRENCY = 6;
+
+	function runNextQueued() {
+		if (pageLoadInFlight >= PAGE_LOAD_CONCURRENCY || pageLoadQueue.length === 0) return;
+		pageLoadInFlight++;
+		var task = pageLoadQueue.shift();
+		task().finally(function () {
+			pageLoadInFlight--;
+			runNextQueued();
+		});
+	}
+
+	function enqueuePageLoadRead(task) {
+		pageLoadQueue.push(task);
+		runNextQueued();
+	}
+
 	buttons.forEach(function (btn) {
 		var key = btn.getAttribute('data-like-key');
 		if (!key) return;
@@ -50,12 +75,14 @@
 		var cached = localStorage.getItem(cacheKey);
 		if (cached !== null) countEl.textContent = cached;
 
-		readCount(fetch('https://abacus.jasoncameron.dev/get/' + namespace + '/' + key))
-			.then(function (value) {
-				if (justLiked || value === null) return;
-				countEl.textContent = value;
-				localStorage.setItem(cacheKey, value);
-			});
+		enqueuePageLoadRead(function () {
+			return readCount(fetch('https://abacus.jasoncameron.dev/get/' + namespace + '/' + key))
+				.then(function (value) {
+					if (justLiked || value === null) return;
+					countEl.textContent = value;
+					localStorage.setItem(cacheKey, value);
+				});
+		});
 
 		btn.addEventListener('click', function () {
 			if (btn.classList.contains('liked')) return;

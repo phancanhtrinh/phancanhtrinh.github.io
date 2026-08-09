@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Fetches recent papers relevant to spatial multi-omics, cancer biology,
-viral-driven cancer, spatial biotechnology, and AI-driven biology from:
+viral-driven cancer, spatial biotechnology, AI-driven biology, immunology,
+organoids, organ-on-a-chip, and host-pathogen interactions from:
   - Europe PMC (covers Nature-, Cell-, Science-family journals, and Cancer Discovery)
   - bioRxiv (preprints)
   - arXiv (preprints, q-bio / cs.AI / cs.LG categories)
@@ -45,6 +46,12 @@ TOPIC_PHRASES = [
     "spatial biotechnology", "single-cell spatial",
     "artificial intelligence", "machine learning", "deep learning",
     "foundation model", "large language model",
+    "immunology", "immune response", "immune cell",
+    "organoid", "organoids",
+    "organ-on-a-chip", "organ-on-chip", "organs-on-chips",
+    "microphysiological system",
+    "host-pathogen interaction", "host-pathogen interactions",
+    "host pathogen interaction",
 ]
 
 # Substrings used to keep/reject items after fetching, so results stay on-topic
@@ -68,7 +75,8 @@ EUROPEPMC_JOURNALS = [
 BIORXIV_CATEGORIES = {
     "cancer biology", "bioinformatics", "systems biology", "genomics",
     "synthetic biology", "cell biology", "genetics", "immunology",
-    "molecular biology", "microbiology",
+    "molecular biology", "microbiology", "bioengineering",
+    "developmental biology",
 }
 
 # Restricted to q-bio.* so results stay biology-scoped: arXiv's cs.AI/cs.LG

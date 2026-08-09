@@ -1,0 +1,7 @@
+name = "phancanhtrinh-likes"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+kv_namespaces = [
+  { binding = "LIKES", id = "REPLACE_WITH_KV_NAMESPACE_ID" }
+]
