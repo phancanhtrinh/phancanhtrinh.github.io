@@ -77,6 +77,12 @@
 						{% endif %}
 						<a class="mx-1" href="/blog/">news</a>
 						</li>
+						{% if page.url == '/newsinspace/' %}
+						<li class="nav-link active">
+						{% else %}
+						<li class="nav-link">
+						{% endif %}
+						<a class="mx-1" href="/newsinspace/">newsinspace</a></li>
 						{% if page.categories.first == 'papers' %}
 						<li class="nav-link active">
 						{% else %}
@@ -84,12 +90,6 @@
 						{% endif %}
 						<a class="mx-1" href="/papers/">papers</a>
 						</li>
-						{% if page.url == '/newsinspace/' %}
-						<li class="nav-link active">
-						{% else %}
-						<li class="nav-link">
-						{% endif %}
-						<a class="mx-1" href="/newsinspace/">newsinspace</a></li>
 						{% if page.url == '/cv/' %}
 						<li class="nav-link active">
 						{% else %}
