@@ -880,13 +880,6 @@ ol.cv-pub-list {
   gap: 10px;
 }
 
-.nis-page-like-btn {
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 14px;
-  font-weight: 600;
-}
-
 .nis-like-label {
   font-family: museo-sans, sans-serif;
 }
@@ -1021,6 +1014,13 @@ ol.cv-pub-list {
 .nis-like-btn.busy {
   opacity: 0.7;
   pointer-events: none;
+}
+
+.nis-page-like-btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .nis-journal {
