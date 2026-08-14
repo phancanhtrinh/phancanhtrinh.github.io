@@ -363,6 +363,9 @@ p {
 .diary-post-body video {
   max-width: 100%;
   height: auto;
+  display: block;
+  float: none !important;
+  margin: 18px auto;
 }
 
 .diary-post-body iframe {
@@ -391,6 +394,19 @@ p {
   font-family: $vn-safe-fonts;
   font-size: 18px;
   line-height: 1.8;
+}
+
+.diary-post-body p {
+  margin-bottom: 1rem;
+}
+
+.diary-post-body a {
+  word-break: break-word;
+}
+
+.diary-post-body table {
+  width: 100%;
+  margin: 18px 0;
 }
 
 .diary-post-lede {

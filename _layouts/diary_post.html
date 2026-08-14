@@ -15,7 +15,14 @@ layout: default
 	</div>
 
 	{% if page.summary %}
-	<div class="diary-post-lede">{{ page.summary }}</div>
+	<div class="diary-post-lede">
+		<div class="diary-entry-badge">AI summary</div>
+		{{ page.summary }}
+		{% if page.source_url %}
+		<div class="smallspacer"></div>
+		<a class="off" href="{{ page.source_url }}" target="_blank" rel="noopener">Original Blogspot post</a>
+		{% endif %}
+	</div>
 	{% endif %}
 
 	{% if page.thumbnail %}

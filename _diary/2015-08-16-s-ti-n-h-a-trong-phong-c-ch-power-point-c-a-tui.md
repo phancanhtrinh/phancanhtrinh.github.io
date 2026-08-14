@@ -56,10 +56,10 @@ Bây giờ, tôi cảm nhận được giá trị của các nguyên tắc đó,
 4. Tối thiểu hóa chữ, tuy nhiên lúc cần cung cấp thông tin hoặc slide handout không nên quá kiệm chữ <br>
 5. Cấu trúc tiêu đề không được quá phức tạp
 
-<br>
+ <br>
 <br>
 
-<br>
+ <br>
 
 Ngày nay, không còn là những slide màu mè, nhiều ảnh động, clip art.
 

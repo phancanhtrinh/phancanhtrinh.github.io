@@ -42,7 +42,6 @@ class DiaryHTMLCleaner(HTMLParser):
         "h6",
         "hr",
         "img",
-        "iframe",
         "li",
         "ol",
         "p",
@@ -112,7 +111,7 @@ class DiaryHTMLCleaner(HTMLParser):
 
 def clean_html(raw: str) -> str:
     raw = html.unescape(raw)
-    raw = re.sub(r"(?is)<(script|style|iframe|object|embed)[^>]*>.*?</\1>", "", raw)
+    raw = re.sub(r"(?is)<(script|style|object|embed)[^>]*>.*?</\1>", "", raw)
     raw = re.sub(r"(?is)<noscript[^>]*>.*?</noscript>", "", raw)
     raw = re.sub(r"(?is)<span[^>]*font-family[^>]*>", "", raw)
     raw = re.sub(r"(?is)</span>", "", raw)
@@ -125,6 +124,9 @@ def clean_html(raw: str) -> str:
     raw = re.sub(r"(?is)font-size\s*:\s*[^;>]+;?", "", raw)
     raw = re.sub(r"(?is)line-height\s*:\s*[^;>]+;?", "", raw)
     raw = re.sub(r"(?is)color\s*:\s*[^;>]+;?", "", raw)
+    raw = raw.replace("https://www.phancanhtrinh.com", "https://phancanhtrinh.blogspot.com")
+    raw = raw.replace("https://phancanhtrinh.com", "https://phancanhtrinh.blogspot.com")
+    raw = raw.replace('href="/p/', 'href="https://phancanhtrinh.blogspot.com/p/')
     raw = raw.replace("<a name='more'></a>", "")
     raw = raw.replace('<a name="more"></a>', "")
     cleaner = DiaryHTMLCleaner()
