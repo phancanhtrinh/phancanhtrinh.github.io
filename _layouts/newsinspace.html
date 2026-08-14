@@ -34,6 +34,39 @@ layout: default
 
 <div class="bigspacer"></div>
 
+{% if nis and nis.weekly_top and nis.weekly_top.size > 0 %}
+<section class="nis-weekly" aria-labelledby="nis-weekly-title">
+	<div class="nis-weekly-header">
+		<div>
+			<div class="nis-weekly-kicker">Reader trends</div>
+			<h2 id="nis-weekly-title">Most opened this week</h2>
+		</div>
+		<span class="nis-weekly-period">{{ nis.engagement_week }}</span>
+	</div>
+	<ol class="nis-weekly-list">
+		{% for p in nis.weekly_top %}
+		<li class="nis-weekly-item">
+			<span class="nis-weekly-rank">{{ forloop.index }}</span>
+			<div class="nis-weekly-body">
+				{% if p.url and p.url != "" %}
+				<a class="off nis-paper-link" href="{{ p.url }}" target="_blank" rel="noopener" data-track-key="{{ p.engagement_key }}" data-track-week="{{ nis.engagement_week }}">{{ p.title }}</a>
+				{% else %}
+				<span>{{ p.title }}</span>
+				{% endif %}
+				<div class="nis-weekly-meta">
+					{{ p.journal }} &middot; {{ p.date }}
+					{% if p.weekly_opens > 0 %}&middot; {{ p.weekly_opens }} open{% if p.weekly_opens != 1 %}s{% endif %}{% endif %}
+				</div>
+			</div>
+		</li>
+		{% endfor %}
+	</ol>
+	<p class="nis-weekly-note">Ranked by paper links opened from NewsInSpace since Monday (UTC). While the new tracker gathers activity, ties favor spatial papers and then recency.</p>
+</section>
+
+<div class="bigspacer"></div>
+{% endif %}
+
 {% if nis and nis.papers.size > 0 %}
 <div class="nis-list">
 	{% for p in nis.papers %}
@@ -64,7 +97,7 @@ layout: default
 		</div>
 		<div class="nis-item-title">
 			{% if p.url and p.url != "" %}
-			<a class="off" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+			<a class="off nis-paper-link" href="{{ p.url }}" target="_blank" rel="noopener" data-track-key="{{ p.engagement_key }}" data-track-week="{{ nis.engagement_week }}">{{ p.title }}</a>
 			{% else %}
 			{{ p.title }}
 			{% endif %}

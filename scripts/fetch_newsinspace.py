@@ -14,8 +14,10 @@ snapshot rather than an ever-growing archive.
 
 import json
 import os
+import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -28,6 +30,8 @@ MAX_PREPRINT_ITEMS = 40   # cap for bioRxiv + arXiv combined
 MAX_NEW_SUMMARIES = 20    # keep daily AI usage predictable
 REQUEST_TIMEOUT = 30
 OUTPUT_PATH = "_data/newsinspace.json"
+ENGAGEMENT_API = "https://phancanhtrinh-likes.rubic992.workers.dev"
+ENGAGEMENT_ORIGIN = "https://www.phancanhtrinh.com"
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
@@ -311,8 +315,6 @@ def fetch_arxiv(start_date, end_date):
         with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
             xml = resp.read().decode("utf-8")
 
-        import re
-
         entries = re.findall(r"<entry>(.*?)</entry>", xml, re.DOTALL)
         for e in entries:
             def field(tag):
@@ -475,6 +477,64 @@ def select_journal_items(items, limit):
     return selected
 
 
+def engagement_slug(item):
+    raw = item.get("doi") or item.get("url") or item.get("title", "")
+    ascii_text = unicodedata.normalize("NFKD", raw).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", ascii_text.lower()).strip("-")
+
+
+def iso_week_id(now=None):
+    now = now or datetime.now(timezone.utc)
+    year, week, _ = now.isocalendar()
+    return f"{year}-W{week:02d}"
+
+
+def fetch_weekly_open_count(item, week_id):
+    params = urllib.parse.urlencode({
+        "ns": f"phancanhtrinh-newsinspace-opens-{week_id}",
+        "key": item["engagement_key"],
+    })
+    req = urllib.request.Request(
+        f"{ENGAGEMENT_API}/stats?{params}",
+        headers={"Origin": ENGAGEMENT_ORIGIN, "User-Agent": "NewsInSpace/1.0"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            return max(0, int(json.loads(resp.read().decode("utf-8")).get("likes", 0)))
+    except Exception as e:
+        print(f"[warn] weekly engagement fetch failed for {item['engagement_key']}: {e}", file=sys.stderr)
+        return 0
+
+
+def build_weekly_top(items, week_id, limit=10):
+    """Rank weekly NewsInSpace paper opens; topical recency breaks ties."""
+    counts = {}
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures = {
+            pool.submit(fetch_weekly_open_count, item, week_id): item
+            for item in items
+        }
+        for future in as_completed(futures):
+            item = futures[future]
+            counts[item["engagement_key"]] = future.result()
+
+    ranked = sorted(
+        items,
+        key=lambda item: (
+            counts.get(item["engagement_key"], 0),
+            TOPIC_PRIORITY.get(item.get("topic"), 0),
+            item.get("date", ""),
+        ),
+        reverse=True,
+    )
+    top = []
+    for item in ranked[:limit]:
+        entry = dict(item)
+        entry["weekly_opens"] = counts.get(item["engagement_key"], 0)
+        top.append(entry)
+    return top
+
+
 def main():
     end = datetime.now(timezone.utc).date()
     start = end - timedelta(days=WINDOW_DAYS)
@@ -490,6 +550,11 @@ def main():
 
     all_items = dedupe(journal_items + preprint_items)
     all_items.sort(key=item_sort_key, reverse=True)
+    for item in all_items:
+        item["engagement_key"] = engagement_slug(item)
+
+    engagement_week = iso_week_id()
+    weekly_top = build_weekly_top(all_items, engagement_week)
 
     previous_summaries = load_previous_summaries()
     new_summaries = 0
@@ -527,6 +592,8 @@ def main():
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "window_days": WINDOW_DAYS,
         "count": len(all_items),
+        "engagement_week": engagement_week,
+        "weekly_top": weekly_top,
         "topic_counts": {
             topic: sum(it.get("topic") == topic for it in all_items)
             for topic in TOPIC_PRIORITY

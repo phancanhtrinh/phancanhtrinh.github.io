@@ -939,6 +939,101 @@ ol.cv-pub-list {
   margin-top: 10px;
 }
 
+.nis-weekly {
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 22px 24px 18px;
+  background: #fafafa;
+}
+
+.nis-weekly-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.nis-weekly-kicker {
+  font-family: museo-sans, sans-serif;
+  color: $primary;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.nis-weekly h2 {
+  font-family: museo-sans, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 2px 0 0;
+}
+
+.nis-weekly-period {
+  font-family: museo-sans, sans-serif;
+  color: $gray-light;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.nis-weekly-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 28px;
+}
+
+.nis-weekly-item {
+  display: flex;
+  gap: 11px;
+  padding: 10px 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+.nis-weekly-rank {
+  flex: 0 0 24px;
+  font-family: museo-sans, sans-serif;
+  color: $primary;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.nis-weekly-body {
+  min-width: 0;
+  font-family: museo-sans, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.nis-weekly-body a {
+  color: #262626;
+}
+
+.nis-weekly-body a:hover {
+  color: $primary;
+}
+
+.nis-weekly-meta,
+.nis-weekly-note {
+  color: $gray-light;
+  font-family: museo-sans, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.nis-weekly-meta {
+  margin-top: 3px;
+}
+
+.nis-weekly-note {
+  margin: 10px 0 0;
+}
+
 .nis-list {
   display: flex;
   flex-direction: column;
@@ -1136,6 +1231,12 @@ ol.cv-pub-list {
 }
 
 @media (max-width: 576px) {
+  .nis-weekly {
+    padding: 18px;
+  }
+  .nis-weekly-list {
+    grid-template-columns: 1fr;
+  }
   .nis-item-thumb-row {
     flex-direction: column;
   }
