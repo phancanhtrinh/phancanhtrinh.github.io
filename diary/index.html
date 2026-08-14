@@ -38,30 +38,28 @@ categories:
 <div class="bigspacer"></div>
 
 {% assign diary_posts = site.diary | sort: "date" | reverse %}
-<div class="row diary-grid">
+<div class="diary-list">
 	{% for post in diary_posts %}
-	<div class="col-lg-6">
-		<article class="diary-entry diary-card">
-			<div class="diary-entry-head">
-				<div>
-					<div class="smallhead"><a class="off" href="{{ post.url }}">{{ post.title }}</a></div>
-					<div class="smallnote">{{ post.date | date: "%-d %b %Y" }}</div>
-				</div>
-				<div class="diary-entry-badge">Blogger</div>
+	<article class="diary-entry diary-card diary-list-item">
+		<div class="diary-entry-head">
+			<div>
+				<div class="smallhead"><a class="off" href="{{ post.url }}">{{ post.title }}</a></div>
+				<div class="smallnote">{{ post.date | date: "%-d %b %Y" }}</div>
 			</div>
-			{% if post.thumbnail %}
-			<a class="diary-card-thumb-link" href="{{ post.url }}">
-				<img class="diary-card-thumb" src="{{ post.thumbnail }}" alt="">
-			</a>
-			{% endif %}
-			<div class="diary-entry-body">
-				{{ post.excerpt | strip_html | strip_newlines | normalize_whitespace | truncatewords: 42 }}
-			</div>
-			<div class="smallspacer"></div>
-			<a class="off contact-map-link" href="{{ post.url }}">
-				<i class="fa fa-arrow-right fa-fw"></i> Read full entry
-			</a>
-		</article>
-	</div>
+			<div class="diary-entry-badge">Blogger</div>
+		</div>
+		{% if post.thumbnail %}
+		<a class="diary-card-thumb-link" href="{{ post.url }}">
+			<img class="diary-card-thumb" src="{{ post.thumbnail }}" alt="">
+		</a>
+		{% endif %}
+		<div class="diary-entry-body">
+			{{ post.excerpt | strip_html | strip_newlines | normalize_whitespace | truncatewords: 55 }}
+		</div>
+		<div class="smallspacer"></div>
+		<a class="off contact-map-link" href="{{ post.url }}">
+			<i class="fa fa-arrow-right fa-fw"></i> Read full entry
+		</a>
+	</article>
 	{% endfor %}
 </div>

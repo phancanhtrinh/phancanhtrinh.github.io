@@ -6,12 +6,8 @@ categories:
   - diary
 permalink: /diary/2021/01/24/phd-interview/
 source_url: "https://phancanhtrinh.blogspot.com/2021/01/phd-interview.html"
-summary: "<div><span style=\"font-family: courier;\">1. My master thesis </span>\n\n</div>\n\n<div><span>"
+summary: "1. My master thesis 2. Critical thinking on a paper"
 ---
-<div><span style="font-family: courier;">1. My master thesis </span>
+1. My master thesis 
 
-</div>
-
-<div><span><a name='more'></a></span><div><span style="font-family: courier;">2. Critical thinking on a paper</span>
-
-</div></div>
+2. Critical thinking on a paper

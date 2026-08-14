@@ -9,8 +9,8 @@ import re
 import shutil
 import urllib.request
 from datetime import datetime
+from html.parser import HTMLParser
 from pathlib import Path
-from xml.etree import ElementTree as ET
 
 
 BLOG_FEED = "https://phancanhtrinh.blogspot.com/feeds/posts/default?alt=json&max-results=500"
@@ -26,12 +26,104 @@ def slugify(text: str) -> str:
     return text or "entry"
 
 
+class DiaryHTMLCleaner(HTMLParser):
+    allowed_tags = {
+        "a",
+        "b",
+        "blockquote",
+        "br",
+        "code",
+        "em",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "hr",
+        "img",
+        "iframe",
+        "li",
+        "ol",
+        "p",
+        "pre",
+        "strong",
+        "table",
+        "tbody",
+        "td",
+        "th",
+        "thead",
+        "tr",
+        "ul",
+    }
+    block_tags = {"div", "span", "font"}
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.parts: list[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        tag = tag.lower()
+        if tag in self.block_tags:
+            return
+        if tag not in self.allowed_tags:
+            return
+        attrs_dict = dict(attrs)
+        attrs_out = []
+        if tag == "a":
+            for key in ("href", "title", "target", "rel"):
+                if attrs_dict.get(key):
+                    attrs_out.append((key, attrs_dict[key]))
+            if attrs_dict.get("target") == "_blank" and not attrs_dict.get("rel"):
+                attrs_out.append(("rel", "noopener"))
+        elif tag == "img":
+            for key in ("src", "alt", "title", "width", "height"):
+                if attrs_dict.get(key):
+                    attrs_out.append((key, attrs_dict[key]))
+        elif tag == "iframe":
+            for key in ("src", "title", "width", "height", "allow", "allowfullscreen", "frameborder"):
+                if attrs_dict.get(key):
+                    attrs_out.append((key, attrs_dict[key]))
+        attr_str = "".join(f' {k}="{html.escape(v, quote=True)}"' for k, v in attrs_out)
+        self.parts.append(f"<{tag}{attr_str}>")
+
+    def handle_endtag(self, tag):
+        tag = tag.lower()
+        if tag in self.block_tags:
+            self.parts.append("\n")
+            return
+        if tag in self.allowed_tags and tag not in {"br", "img", "hr"}:
+            self.parts.append(f"</{tag}>")
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+    def handle_entityref(self, name):
+        self.parts.append(f"&{name};")
+
+    def handle_charref(self, name):
+        self.parts.append(f"&#{name};")
+
+    def get_html(self) -> str:
+        text = "".join(self.parts)
+        text = re.sub(r"\n\s*\n\s*\n+", "\n\n", text)
+        return text.strip()
+
+
 def clean_html(raw: str) -> str:
     raw = html.unescape(raw)
     raw = re.sub(r"(?is)<(script|style|iframe|object|embed)[^>]*>.*?</\1>", "", raw)
     raw = re.sub(r"(?is)<noscript[^>]*>.*?</noscript>", "", raw)
-    raw = raw.replace('target="_blank"', 'target="_blank" rel="noopener"')
-    return raw.strip()
+    raw = re.sub(r'(?is)\sstyle=(\"[^\"]*\"|\'[^\']*\'|[^\s>]+)', '', raw)
+    raw = re.sub(r'(?is)\sclass=(\"[^\"]*\"|\'[^\']*\'|[^\s>]+)', '', raw)
+    raw = re.sub(r'(?is)\sface=(\"[^\"]*\"|\'[^\']*\'|[^\s>]+)', '', raw)
+    raw = raw.replace("<a name='more'></a>", "")
+    raw = raw.replace('<a name="more"></a>', "")
+    cleaner = DiaryHTMLCleaner()
+    cleaner.feed(raw)
+    cleaned = cleaner.get_html()
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
 
 
 def fetch_feed() -> dict:
@@ -45,13 +137,10 @@ def extract_content(entry: dict) -> str:
 
 
 def extract_excerpt(content: str) -> str:
-    marker = "<a name='more'></a>"
-    if marker in content:
-        return content.split(marker, 1)[0].strip()
-    marker = '<a name="more"></a>'
-    if marker in content:
-        return content.split(marker, 1)[0].strip()
-    return content.strip()
+    text = re.sub(r"(?is)<[^>]+>", " ", content)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 
 def extract_thumbnail(content: str) -> str:

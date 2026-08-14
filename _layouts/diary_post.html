@@ -3,43 +3,32 @@ layout: default
 ---
 
 <article class="diary-post">
-	<div class="row">
-		<div class="col-lg-8">
-			<div class="diary-post-kicker">
-				<a class="off" href="/diary/"><i class="fa fa-book fa-fw"></i> Diary archive</a>
-			</div>
-			<h1 class="diary-post-title">{{ page.title }}</h1>
-			<div class="diary-post-meta">
-				<span>{{ page.date | date: "%-d %b %Y" }}</span>
-				{% if page.source_url %}
-				<span>From <a class="off" href="{{ page.source_url }}" target="_blank" rel="noopener">Blogspot</a></span>
-				{% endif %}
-			</div>
-		</div>
-		<div class="col-lg-4">
-			<div class="diary-post-card">
-				<div class="diary-entry-badge">Reading notes</div>
-				{% if page.summary %}
-				<div class="diary-post-summary">{{ page.summary }}</div>
-				{% endif %}
-				{% if page.thumbnail %}
-				<img class="diary-post-thumb" src="{{ page.thumbnail }}" alt="">
-				{% endif %}
-				<div class="smallspacer"></div>
-				<a class="off contact-map-link" href="#diary-full">
-					<i class="fa fa-arrow-down fa-fw"></i> Jump to the full post
-				</a>
-			</div>
-		</div>
+	<div class="diary-post-kicker">
+		<a class="off" href="/diary/"><i class="fa fa-book fa-fw"></i> Diary archive</a>
 	</div>
+	<h1 class="diary-post-title">{{ page.title }}</h1>
+	<div class="diary-post-meta">
+		<span>{{ page.date | date: "%-d %b %Y" }}</span>
+		{% if page.source_url %}
+		<span>From <a class="off" href="{{ page.source_url }}" target="_blank" rel="noopener">Blogspot</a></span>
+		{% endif %}
+	</div>
+
+	{% if page.summary or page.thumbnail %}
+	<div class="diary-post-card diary-post-intro">
+		<div class="diary-entry-badge">Reading notes</div>
+		{% if page.thumbnail %}
+		<img class="diary-post-thumb" src="{{ page.thumbnail }}" alt="">
+		{% endif %}
+		{% if page.summary %}
+		<div class="diary-post-summary">{{ page.summary }}</div>
+		{% endif %}
+	</div>
+	{% endif %}
 
 	<div class="bigspacer"></div>
 
-	<div class="row" id="diary-full">
-		<div class="col-lg-10">
-			<div class="diary-post-body post">
-				{{ content }}
-			</div>
-		</div>
+	<div id="diary-full" class="diary-post-body post">
+		{{ content }}
 	</div>
 </article>
