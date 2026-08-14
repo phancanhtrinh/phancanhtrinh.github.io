@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign nis = site.data.newsinspace %}
+{% assign popular = site.data.newsinspace_popular %}
 {% assign nis_feed_url = site.url | append: "/newsinspace-feed.xml" %}
 
 <div class="nis-header">
@@ -34,34 +35,34 @@ layout: default
 
 <div class="bigspacer"></div>
 
-{% if nis and nis.weekly_top and nis.weekly_top.size > 0 %}
+{% if popular and popular.papers and popular.papers.size > 0 %}
 <section class="nis-weekly" aria-labelledby="nis-weekly-title">
 	<div class="nis-weekly-header">
 		<div>
-			<div class="nis-weekly-kicker">Reader trends</div>
-			<h2 id="nis-weekly-title">Most opened this week</h2>
+			<div class="nis-weekly-kicker">Official publisher signals</div>
+			<h2 id="nis-weekly-title">Publisher-popular papers</h2>
 		</div>
-		<span class="nis-weekly-period">{{ nis.engagement_week }}</span>
+		<span class="nis-weekly-period">Checked {{ popular.checked_at | date: "%d %b %Y" }}</span>
 	</div>
 	<ol class="nis-weekly-list">
-		{% for p in nis.weekly_top %}
+		{% for p in popular.papers %}
 		<li class="nis-weekly-item">
 			<span class="nis-weekly-rank">{{ forloop.index }}</span>
 			<div class="nis-weekly-body">
 				{% if p.url and p.url != "" %}
-				<a class="off nis-paper-link" href="{{ p.url }}" target="_blank" rel="noopener" data-track-key="{{ p.engagement_key }}" data-track-week="{{ nis.engagement_week }}">{{ p.title }}</a>
+				<a class="off" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
 				{% else %}
 				<span>{{ p.title }}</span>
 				{% endif %}
 				<div class="nis-weekly-meta">
 					{{ p.journal }} &middot; {{ p.date }}
-					{% if p.weekly_opens > 0 %}&middot; {{ p.weekly_opens }} open{% if p.weekly_opens != 1 %}s{% endif %}{% endif %}
+					&middot; {{ p.publisher_signal }}
 				</div>
 			</div>
 		</li>
 		{% endfor %}
 	</ol>
-	<p class="nis-weekly-note">Ranked by paper links opened from NewsInSpace since Monday (UTC). While the new tracker gathers activity, ties favor spatial papers and then recency.</p>
+	<p class="nis-weekly-note">Ten already-published life-science papers selected from the official Nature, Cell, and Science websites, with spatial and related biology prioritized. Nature Accesses and Science download totals are cumulative; Cell's Most read list covers the last 30 days; Science does not publish a time window for Trending Now. These publisher signals are not directly comparable, so the displayed order is editorial rather than a combined numerical ranking. Preprints are excluded.</p>
 </section>
 
 <div class="bigspacer"></div>
@@ -97,7 +98,7 @@ layout: default
 		</div>
 		<div class="nis-item-title">
 			{% if p.url and p.url != "" %}
-			<a class="off nis-paper-link" href="{{ p.url }}" target="_blank" rel="noopener" data-track-key="{{ p.engagement_key }}" data-track-week="{{ nis.engagement_week }}">{{ p.title }}</a>
+			<a class="off" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
 			{% else %}
 			{{ p.title }}
 			{% endif %}

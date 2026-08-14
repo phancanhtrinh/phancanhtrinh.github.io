@@ -52,19 +52,5 @@
 				.finally(function () { btn.classList.remove('busy'); });
 		});
 	});
-
-	// Count outbound paper opens in an ISO-week namespace. The same tiny
-	// counter service used for likes gives us a publisher-neutral popularity
-	// signal without cookies or personal identifiers.
-	document.querySelectorAll('.nis-paper-link').forEach(function (link) {
-		link.addEventListener('click', function () {
-			var key = link.getAttribute('data-track-key');
-			var week = link.getAttribute('data-track-week');
-			if (!key || !week) return;
-			var ns = 'phancanhtrinh-newsinspace-opens-' + week;
-			var qs = 'ns=' + encodeURIComponent(ns) + '&key=' + encodeURIComponent(key);
-			fetch(API + '/like?' + qs, { method: 'POST', keepalive: true }).catch(function () {});
-		});
-	});
 })();
 </script>
