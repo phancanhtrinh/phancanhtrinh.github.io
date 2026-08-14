@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/03/01/s-i-g-n-n-t-i-tr-l-i/
 source_url: "https://phancanhtrinh.blogspot.com/2015/03/sai-gon-on-toi-tro-lai.html"
-summary: "Sài Gòn đón tôi đầu ngày mới bằng lời giới thiệu từ loa phát thanh tàu SE3 - Quý khách đã đến Sài Gòn - Hòn Ngọc Viễn Đông. Sài Gòn hôm nay đã chuyển sang thời của cái nóng bức bối da thịt, của bộn bề tấp nập, dường chừng nhịp sống SG đã trở lại như cái chất vốn có sau một mùa \"Tết vội\". Ừ thì \"Tết vội\"! Cái Tết vội vàng của những đứa con xa quê. Vội vàng về và vội vàng đi, tranh thủ từng giây bên gia đình thân yêu nhưng rồi vẫn chao ơi sao quá ngắn. Rời Huế giữa lúc bắt đầu vào hạ, Huế chẳng cò"
+summary: "Trong bài này, Trình kể về sài Gòn đón tôi đầu ngày mới bằng lời giới thiệu từ loa phát thanh tàu SE3 - Quý khách đã đến Sài Gòn - Hòn Ngọc Viễn Đông."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv8v4W1Hqjz9788ci1VNc-X47Txi-oJx7vrdh7ZyyeMXlugWEMwpDJV2MzG7BADu5nK3jjUH1KebVspBNE-OHNHdQvACamsl2x_u0MxZ6wJbrFVDbu5EQCmjzg_z0Ftvhzxyuy3fstqn4/s1600/up1.jpg"
 ---
 Sài Gòn đón tôi đầu ngày mới bằng lời giới thiệu từ loa phát thanh tàu SE3 - Quý khách đã đến Sài Gòn - Hòn Ngọc Viễn Đông. Sài Gòn hôm nay đã chuyển sang thời của cái nóng bức bối da thịt, của bộn bề tấp nập, dường chừng nhịp sống SG đã trở lại như cái chất vốn có sau một mùa "Tết vội".

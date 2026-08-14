@@ -153,6 +153,67 @@ def extract_excerpt(content: str) -> str:
     return text
 
 
+def is_vietnamese(text: str) -> bool:
+    return bool(re.search(r"[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]", text.lower()))
+
+
+def sentence_split(text: str) -> list[str]:
+    parts = re.split(r"(?<=[.!?])\s+", text)
+    return [part.strip() for part in parts if part.strip()]
+
+
+def generate_summary(title: str, content: str) -> str:
+    plain = extract_excerpt(content)
+    if not plain:
+        return ""
+
+    title_stripped = title.strip()
+    if title_stripped.lower().startswith("đường đến "):
+        destination = title_stripped[len("Đường đến "):].strip().rstrip(".")
+        return f"Trong bài này, Trình kể về hành trình đến {destination}."
+    if re.search(r"(?i)\b(phd interview|phỏng vấn|interview)\b", title_stripped):
+        return "Trong bài này, Trình kể về buổi phỏng vấn PhD và những câu hỏi về luận văn cũng như tư duy phản biện."
+
+    sentences = sentence_split(plain)
+    sentence = ""
+    skip_prefixes = (
+        "chào mừng",
+        "xin chào",
+        "hello",
+        "welcome",
+        "dear",
+    )
+    for candidate in sentences or [plain]:
+        lowered = candidate.lstrip("“\"' ").lower()
+        if lowered.startswith(skip_prefixes):
+            continue
+        if len(candidate.split()) < 5 and len(sentences) > 1:
+            continue
+        sentence = candidate
+        break
+    if not sentence:
+        sentence = sentences[0] if sentences else plain
+
+    short_phrases = re.findall(r"(?m)^\s*(?:\d+\.\s*|\-\s*|\*\s*)(.+)$", plain)
+    if short_phrases:
+        phrase = "; ".join(p.strip() for p in short_phrases[:2] if p.strip())
+    else:
+        phrase = sentence
+
+    phrase = phrase.strip()
+    if len(phrase) > 180:
+        phrase = phrase[:177].rsplit(" ", 1)[0].rstrip(" ,;:") + "..."
+
+    if is_vietnamese(title + " " + plain):
+        lead = f"Trong bài này, Trình kể về {phrase[0].lower() + phrase[1:] if phrase else plain.lower()}."
+    else:
+        lead = f"In this post, Trinh writes about {phrase[0].lower() + phrase[1:] if phrase else plain.lower()}."
+
+    lead = re.sub(r"\s+", " ", lead).strip()
+    lead = lead.replace("..", ".")
+    return lead
+
+
 def extract_thumbnail(content: str) -> str:
     match = re.search(r'<img[^>]+src="([^"]+)"', content, flags=re.I)
     if match:
@@ -226,6 +287,7 @@ def main() -> None:
         filename = f"{date:%Y-%m-%d}-{slug}.md"
         content = extract_content(entry)
         excerpt = extract_excerpt(content)
+        summary = generate_summary(title, content)
         thumbnail = extract_thumbnail(content)
         source_url = entry_permalink(entry)
         permalink = f"/diary/{date:%Y/%m/%d}/{slug}/"
@@ -234,7 +296,7 @@ def main() -> None:
             date=date,
             permalink=permalink,
             source_url=source_url,
-            summary=excerpt[:500] if excerpt else "",
+            summary=summary,
             thumbnail=thumbnail,
         )
         body = fm + content + "\n"

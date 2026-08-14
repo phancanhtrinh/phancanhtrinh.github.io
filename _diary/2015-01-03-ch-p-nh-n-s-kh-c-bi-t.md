@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/01/03/ch-p-nh-n-s-kh-c-bi-t/
 source_url: "https://phancanhtrinh.blogspot.com/2015/01/chap-nhan-su-khac-biet.html"
-summary: "Vài tháng trước đây, mình đã đọc một câu chuyện kể về người thầy dạy học trò cách bảo vệ thành quả lao động của mình. Ừ, có lẽ mình phải học điều đó. Quăng mọi lo nghĩ về bài báo cáo sang một bên và tập trung vào những mục tiêu khác của bản thân. Mình đã công tác tại nhiều tổ chức, hoạt động đoàn từ hồi mới vào trường; ở môi trường này có lẽ chỉ có hoạt động đoàn là cái lý tưởng của một nhóm làm việc, đơn giản chúng ta khao khát thành công của chương trình, cùng chung một mục tiêu để phẩn đấu. Ở"
+summary: "Trong bài này, Trình kể về vài tháng trước đây, mình đã đọc một câu chuyện kể về người thầy dạy học trò cách bảo vệ thành quả lao động của mình."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfnqsuANoUDfAkfCjLAAOniEdQynzg9gpNAUx6CbGaqmbm_GgnqUTG0dLoFVzpgM_TpLacHGte9r4huePMzuoSOUTRIWJEDSQ45CoCjzZgE5U9OKkuoCfc3crNyoSe6_bDiwUPoYGkN5Y/s1600/20141102170941-khacbiet2.jpg"
 ---
 Vài tháng trước đây, mình đã đọc một câu chuyện kể về người thầy dạy học trò cách bảo vệ thành quả lao động của mình. Ừ, có lẽ mình phải học điều đó. Quăng mọi lo nghĩ về bài báo cáo sang một bên và tập trung vào những mục tiêu khác của bản thân.

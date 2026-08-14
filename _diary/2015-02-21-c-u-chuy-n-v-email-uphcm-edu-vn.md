@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/02/21/c-u-chuy-n-v-email-uphcm-edu-vn/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/cau-chuyen-ve-email-uphcmeduvn.html"
-summary: "Các trường đại học thường cấp một Email với tên miền .edu cho sinh viên của họ. Sinh viên dược chúng ta cũng không ngoại lệ. Từ lúc bước chân vào trường mỗi chúng ta có trong tay mình một email với phần đuôi @uphcm.edu.vn . Có lẽ chúng ta nên tự hào khi sử dụng một email như vậy; nó khẳng định bạn là sinh viên Dược 41 Đinh Tiên Hoàng phải không nào? Ban đầu chúng ta được giới thiệu rằng các thông tin nhà trường sẽ cập nhật cho từng cá nhân qua email này; tuy nhiên thông tin chủ yếu đã có trên we"
+summary: "Trong bài này, Trình kể về các trường đại học thường cấp một Email với tên miền .edu cho sinh viên của họ."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0nIfkejzHuklml_l15DHzt-C7IesqFbNC0M6goIJ7RsdOgNpuKUXkHIW9g5NjOISergCrlF__7xK-LnmgMRluPVO44viOeQqqBYh-JuYspfEsZGCA-T6B3vb3AfT_1FghyphenhyphenXcw6b22BSs/s1600/tao_email.jpg"
 ---
 Các trường đại học thường cấp một Email với tên miền <b>.edu </b>cho sinh viên của họ. Sinh viên dược chúng ta cũng không ngoại lệ. Từ lúc bước chân vào trường mỗi chúng ta có trong tay mình một email với phần đuôi<b> @uphcm.edu.vn</b>. Có lẽ chúng ta nên tự hào khi sử dụng một email như vậy; nó khẳng định bạn là sinh viên Dược 41 Đinh Tiên Hoàng phải không nào? 

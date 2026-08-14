@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2018/12/02/slide-5-n-m-tr-ng-d-c-c-d-y-v-t-h-c-nh-ng-g/
 source_url: "https://phancanhtrinh.blogspot.com/2018/12/5namotruongduoc.html"
-summary: "Thật sự đã nói rất nhiều lần một vài nội dung tương tự, nhưng đây là lần đầu mình ở vai trò một người xa thế hệ các bạn một chút chút, và đứng nói ở Đại Giảng đường. Cảm ơn các bạn đã dành 40 phút quý giá cuối cùng của ngày cuối tuần để nghe mình nói một slide siêu dài, bắn liên thanh không kịp nghỉ! Trong slide này, mình muốn đề cập đến nội dung kiến thức các bạn sẽ được học tại trường trong 5 năm. Cụ thể hơn, chúng ta sẽ đi qua ba mảng chính của ngành dược là khoa học kỹ thuật dược, quản lý cu"
+summary: "Trong bài này, Trình kể về thật sự đã nói rất nhiều lần một vài nội dung tương tự, nhưng đây là lần đầu mình ở vai trò một người xa thế hệ các bạn một chút chút, và đứng nói ở Đại Giảng đường."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFaq9oox7d5K22ATH2IYCP2QLvHwrItcsX_A9HrzBJ7s2AUaR0OTvs8HaaFt5APFqAnEdSv9i0mbQrBAmVhJZuQ-4ohI4zI3J_d_efCi2kZlQUPk5jLqrhp_PzTcmXI5_HTL_Dy0wdFik/s640/Screen+Shot+2018-12-02+at+11.51.44+PM.png"
 ---
 Thật sự đã nói rất nhiều lần một vài nội dung tương tự, nhưng đây là lần đầu mình ở vai trò một người xa thế hệ các bạn một chút chút, và đứng nói ở Đại Giảng đường. Cảm ơn các bạn đã dành 40 phút quý giá cuối cùng của ngày cuối tuần để nghe mình nói một slide siêu dài, bắn liên thanh không kịp nghỉ!<br>

@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/05/17/t-p-t-nh-d-ch-thu-t-u-i-m-c-a-l-i-khu-n-lactobacillus-fermentum/
 source_url: "https://phancanhtrinh.blogspot.com/2015/05/tap-tanh-dich-thuat-uu-iem-cua-loi.html"
-summary: "(Bài viết đại giải tuần 2 cuộc thi \"Viết bài hay - Nhận ngay nhuận bút\" Eagle.vn) Các vi khuẩn thuộc chi Lactobacillus từ lâu đã được sử dụng phổ biến trong các chế phẩm probiotic nhằm phòng ngừa và điều trị các bệnh lý đường ruột như tiêu chảy do Rotavirus, hội chứng ruột kích thích, viêm đại tràng, xơ nang, tiêu chảy du lịch, cải thiện chứng loạn khuẩn ruột do kháng sinh, sử dụng cho bệnh nhân thiếu men thủy phân lactose, dự phòng ung thư. Lactobacillus fermentum là là một thành viên của chi L"
+summary: "Trong bài này, Trình kể về (Bài viết đại giải tuần 2 cuộc thi \"Viết bài hay - Nhận ngay nhuận bút\" Eagle.vn) Các vi khuẩn thuộc chi Lactobacillus từ lâu đã được sử dụng phổ biến trong các chế phẩm.."
 ---
 (Bài viết đại giải tuần 2 cuộc thi "Viết bài hay - Nhận ngay nhuận bút" Eagle.vn)
 

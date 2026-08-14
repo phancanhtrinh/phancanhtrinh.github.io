@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2018/07/12/heading-trong-word-b-m-ng-en-bi-t-ph-i-l-m-sao/
 source_url: "https://phancanhtrinh.blogspot.com/2018/07/heading-trong-word-bi-mang-en-biet-phai.html"
-summary: "Một ngày đẹp trời Khoá luận của bạn mở lên và Heading bị đen lại. Tốt nhất đập đi làm lại... Lần 1. OK Lần khác mở lên, đen tiếp... Đập làm lại... Đã bị thì nó sẽ bị hoài... Cách giải quyết như sau: Bước 1: Lưu lại 1 file mới cho chắc ăn Bước 2: Trên file mới đang mở tạo Macro như sau: Chọn tiếp Dấu cộng(+) Cửa sổ mới như sau: Dán đoạn code sau vào: Sub RemoveBlackBox() ' ' RemoveBlackBox Macro ' ' For Each templ In ActiveDocument.ListTemplates For Each lev In templ.ListLevels lev.Font.Reset Nex"
+summary: "Trong bài này, Trình kể về một ngày đẹp trời Khoá luận của bạn mở lên và Heading bị đen lại."
 thumbnail: "http://social.technet.microsoft.com/Forums/getfile/174029"
 ---
 Một ngày đẹp trời Khoá luận của bạn mở lên và Heading bị đen lại.

@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2018/07/26/m-a-kho-lu-n-th-2/
 source_url: "https://phancanhtrinh.blogspot.com/2018/07/mua-khoa-luan-thu-2.html"
-summary: "Sài gòn, một sáng bình yên cuối tháng 7, ngồi một mình ngấu nghiến chút riêng tư ở góc Sài gòn nhỏ... Sáng hiếm hoi trong chuỗi ngày dài sống vội, nay là lúc suy nghĩ và viết chút gì đó cho những ngày tháng thanh xuân tất bật với đam mê. Một chút hụt hẫng như mọi lần sau chuỗi dài những thí nghiệm, sửa bài, ở lại lab đến 9-10 giờ đêm. Có lẽ mấy đứa cũng có cảm giác này... 5 năm mòn các góc trường Dược, và nhân duyên nào đó đã để các em dừng chân vài tháng ở lab KST, cùng nhau làm việc, lâu thành"
+summary: "Trong bài này, Trình kể về sài gòn, một sáng bình yên cuối tháng 7, ngồi một mình ngấu nghiến chút riêng tư ở góc Sài gòn nhỏ.."
 ---
 <br>
 

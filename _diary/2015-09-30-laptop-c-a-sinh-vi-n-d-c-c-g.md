@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/09/30/laptop-c-a-sinh-vi-n-d-c-c-g/
 source_url: "https://phancanhtrinh.blogspot.com/2015/09/laptop-cua-sinh-vien-duoc-co-gi.html"
-summary: "Câu hỏi này chính là chủ đề của buổi đầu tiên Thực tập sinh kỹ thuật lần 2. Thắc mắc này định hướng trong 5 năm học tập tại Dược khoa, bạn cần tích lũy những kỹ năng gì để không phải bơi ngộp ngộp khi ra trường và cả những ngày tháng còn là sinh viên. Vì slide không trình bày chi tiết, nên mình viết lại một bài chia sẻ những điều mình tích lũy được chỉ về các kỹ năng tin học ứng dụng trong học tập và cuộc sống. 1. Kỹ năng tìm kiếm, tra cứu tài liệu Đây là kỹ năng quan trọng nhất mà đứa sinh viên"
+summary: "Trong bài này, Trình kể về câu hỏi này chính là chủ đề của buổi đầu tiên Thực tập sinh kỹ thuật lần 2."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixBZoXCdhQdSNeXsYdd7MgLhDarsm6lGVGw1MyAZRJKhmlKesbhzNatTu8E1xRHNEb2O-xa3TXlCMaBnX776brHYHkUd8v77BCZZPCcKdgEBnNlmDNYqKbQiYPQbpuRHz_jUa_7d_84UM/s640/Picture1.png"
 ---
 Câu hỏi này chính là chủ đề của buổi đầu tiên Thực tập sinh kỹ thuật lần 2. Thắc mắc này định hướng trong 5 năm học tập tại Dược khoa, bạn cần tích lũy những kỹ năng gì để không phải bơi ngộp ngộp khi ra trường và cả những ngày tháng còn là sinh viên.

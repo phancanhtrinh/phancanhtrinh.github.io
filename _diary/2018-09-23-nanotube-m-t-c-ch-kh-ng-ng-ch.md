@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2018/09/23/nanotube-m-t-c-ch-kh-ng-ng-ch/
 source_url: "https://phancanhtrinh.blogspot.com/2018/09/nanotube-mot-co-che-e-khang.html"
-summary: "Bài này mình nhặt được từ 1 khái niệm nghe ở MOH-VN 2018. Rảnh rỗi lật ra đọc, chỉ có thời gian đọc được một số hình, không đọc hết bài được, chắc sẽ còn nhiều thiếu sót... Cảm ơn mọi người!"
+summary: "Trong bài này, Trình kể về bài này mình nhặt được từ 1 khái niệm nghe ở MOH-VN 2018."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuW8O9UNE9I9DRC0lwGSIFZaO0NLCslnp5zCTM0qijjKXkJ58MptTXmTfgHFn5xUX4rYzLcjPWE0vcSaYU6vbNgbugO-gTZIAy-gs56rOuu7__8BXrvc6P0wOIalT8JZ62uccHMkTXvcR8/s640/Untitled.001.tiff"
 ---
 Bài này mình nhặt được từ 1 khái niệm nghe ở MOH-VN 2018. Rảnh rỗi lật ra đọc, chỉ có thời gian đọc được một số hình, không đọc hết bài được, chắc sẽ còn nhiều thiếu sót... Cảm ơn mọi người!

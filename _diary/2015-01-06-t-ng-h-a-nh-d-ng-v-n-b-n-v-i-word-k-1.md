@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/01/06/t-ng-h-a-nh-d-ng-v-n-b-n-v-i-word-k-1/
 source_url: "https://phancanhtrinh.blogspot.com/2015/01/tu-ong-hoa-viec-inh-dang-van-ban-voi.html"
-summary: "Có lẽ một số bạn rất ghét các tính năng tự động của MS. Word; nhiều khi nó tỏ ra thật phiền toái. Đại loại như tự động đặt Bullet, tự động xuống dòng, tự động thêm dấu cách… Tuy nhiên, khi thiết kế phần mềm hẳn là nhà sản xuất đã có dụng ý, nghiên cứu kỹ nhu cầu người dùng để đưa ra chúng. Vậy tại sao chúng ta không nghĩ sẽ làm chủ tính năng tự động đó để phục vụ mình một cách tối ưu. Bài viết sau sẽ trình bày một số thủ thuật để tự động hóa quá trình định dạng văn bản trong MS Word 2013. Sẽ hoà"
+summary: "Trong bài này, Trình kể về có lẽ một số bạn rất ghét các tính năng tự động của MS."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX_Ao5xbyKQ4m2X4XkOahNM6m31Gxe5yCDliR_kp90OmqN7NPNYxcSZND66anlrC4CFLTuemoafl1-lv9CJNBenEGdrgpoWLy5VPmoUjHty_sHgkbcYcjG291eHnjPrVv9XN3i3LZEFx8/s1600/Picture1.png"
 ---
 Có lẽ một số bạn rất ghét các tính năng tự động của MS. Word; nhiều khi nó tỏ ra thật phiền toái. Đại loại như tự động đặt Bullet, tự động xuống dòng, tự động thêm dấu cách…

@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/08/16/s-ti-n-h-a-trong-phong-c-ch-power-point-c-a-tui/
 source_url: "https://phancanhtrinh.blogspot.com/2015/08/su-tien-hoa-trong-phong-cach-power.html"
-summary: "Tôi được làm quen với tin học từ lớp 7 và chống chịu với bộ môn này một cách quằng quại trong suốt 3 năm cấp 2. Không có công cụ thực hành, mỗi giờ tin học với tôi là cả đống tra tấn, sợ hãi. Để đối phó với kỳ thi và những bài kiểm tra, tôi đành phải thực hành bằng cách nhớ và vẽ lại các cửa sổ làm việc. Ngày qua ngày, vào Quốc học, tôi được sắm một cái máy tính, nhưng lúc đó trình độ vẫn là thằng gà từ làng lên thôi. Những bài báo cáo, thuyết trình liên tục trong năm lớp 10 là lúc tôi tự trau d"
+summary: "Trong bài này, Trình kể về tôi được làm quen với tin học từ lớp 7 và chống chịu với bộ môn này một cách quằng quại trong suốt 3 năm cấp 2."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMr-eCL5hNXiUIyen9_HJG__73VmF3D-I_aTy0uo3qIlvXJGeaqixpU3l7xc9U-YuzeFLh18o6gDI_9sbvxFRon9d6Hnx2y196m05NR9bidcKY0QxDEyNbcwN6vt4BTQsGFtS4ZHBuB_U/s400/Slide1.JPG"
 ---
 Tôi được làm quen với tin học từ lớp 7 và chống chịu với bộ môn này một cách quằng quại trong suốt 3 năm cấp 2. Không có công cụ thực hành, mỗi giờ tin học với tôi là cả đống tra tấn, sợ hãi. Để đối phó với kỳ thi và những bài kiểm tra, tôi đành phải thực hành bằng cách nhớ và vẽ lại các cửa sổ làm việc. Ngày qua ngày, vào Quốc học, tôi được sắm một cái máy tính, nhưng lúc đó trình độ vẫn là thằng gà từ làng lên thôi.

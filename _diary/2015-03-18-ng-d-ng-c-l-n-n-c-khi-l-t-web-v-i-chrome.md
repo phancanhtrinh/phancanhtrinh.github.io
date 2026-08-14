@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/03/18/ng-d-ng-c-l-n-n-c-khi-l-t-web-v-i-chrome/
 source_url: "https://phancanhtrinh.blogspot.com/2015/03/ung-dung-co-le-nen-co-khi-luot-web-voi.html"
-summary: "Lướt web để tránh phiền toái chúng ta nên có Adblock điều này là đương nhiên trong thời đại quảng cáo tràn lan, quảng cáo bằng mọi giá. Hãy làm cho tầm mắt của chúng ta sạch sẽ, không gian nhìn trên màn hình thoáng đảng. Điều quan trọng, khóa quảng cáo còn giúp máy chạy nhanh hơn, đỡ tốn Ram, đỡ tốn đường truyền, lướt web lẹ hơn. Sử dụng nó là một lựa chọn khôn ngoan của thời đại cần năng suất làm việc. [ Tải tại đây ] Tiếng Anh! Không phải từ nào bạn cũng biết, và tất nhiên cần một thứ dịch thu"
+summary: "Trong bài này, Trình kể về lướt web để tránh phiền toái chúng ta nên có Adblock điều này là đương nhiên trong thời đại quảng cáo tràn lan, quảng cáo bằng mọi giá."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4HwqQK5QsjX4QBwqqbdp4f0yUgtV7KCrGiyoHOZsb53YHkRFeA4hF3q7PPFxe63_Z5Q8PRBeJJ_Ak3onmCyODtKNM4RwKGU7VUvLa7C3lbGf3sRnIPlLvrUhaGcz7coD7ugt-qjk5GJQ/s1600/unnamed.webp"
 ---
 Lướt web để tránh phiền toái chúng ta nên có <b>Adblock </b>điều này là đương nhiên trong thời đại quảng cáo tràn lan, quảng cáo bằng mọi giá. Hãy làm cho tầm mắt của chúng ta sạch sẽ, không gian nhìn trên màn hình thoáng đảng. Điều quan trọng, khóa quảng cáo còn giúp máy chạy nhanh hơn, đỡ tốn Ram, đỡ tốn đường truyền, lướt web lẹ hơn. Sử dụng nó là một lựa chọn khôn ngoan của thời đại cần năng suất làm việc. [<a href="https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb" target="_blank" rel="noopener">Tải tại đây</a>]

@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2018/01/16/the-mmtn-vietnam-conference-2017/
 source_url: "https://phancanhtrinh.blogspot.com/2018/01/the-mmtn-vietnam-conference-2017.html"
-summary: "The Medical Mycology Training Network (MMTN) Conferences have always been a rich opportunity for clinicians and microbiologists to stay on top of their practice and to learn from renowned experts in the field of fungal infections. The AFWG convened the latest MMTN Conference in Ho Chi Minh City, Vietnam, on December 1–3, 2017. The conference was a resounding success, attracting more than 60 delegates from Vietnam and Malaysia. Supported by a faculty of international mycology experts, the MMTN pr"
+summary: "In this post, Trinh writes about the Medical Mycology Training Network (MMTN) Conferences have always been a rich opportunity for clinicians and microbiologists to stay on top of their practice and to learn.."
 ---
 <br>
 

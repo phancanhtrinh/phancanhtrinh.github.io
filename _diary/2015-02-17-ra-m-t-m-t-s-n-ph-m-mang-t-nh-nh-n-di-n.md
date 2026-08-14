@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/02/17/ra-m-t-m-t-s-n-ph-m-mang-t-nh-nh-n-di-n/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/nhandienthuonghieu2015.html"
-summary: "Ngày 29 Tết! Chuẩn bị từ những ngày cuối năm, tích cực, tích cực lắm cho một diện mạo mới của Tôi 2.0. Khoác một màu áo mới đón TẾT Ất Mùi - 2015 nào. Chưa định Public nhưng mà kích thích quá! :) Avarta - Icon Personal PowerPoint Template Nền Slide tiêu đề - Thiết kế bằng Photoshop Bố cục mẫu thiết kế bằng Powerpoint 2013 - Slide Master Nếu không có gì thay đổi, mẫu sẽ được sử dụng trong năm 2015+ :D"
+summary: "Trong bài này, Trình kể về chuẩn bị từ những ngày cuối năm, tích cực, tích cực lắm cho một diện mạo mới của Tôi 2.0."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrgoHgHj0RRKkqMVJqP79UYz7G5cLu0ZZUqE58UoJIUNwlr5WqEKQ_dP4kDNO-glZRtWjJIuwvgobLPnF6w1vdITBvDXjUWtfWUdMi8ItVLireAtbenXCxYJ576DHrWRJZU8FD57CdPyg/s1600/lo.png"
 ---
 Ngày 29 Tết!<br>

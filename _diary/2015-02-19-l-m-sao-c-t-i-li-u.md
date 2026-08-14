@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/02/19/l-m-sao-c-t-i-li-u/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/lam-sao-e-co-tai-lieu.html"
-summary: "Tải tài liệu! Vấn đề chung của cả cá nhân mình và khá nhiều bạn. Mình may mắn nhận ra vấn đề này sớm từ năm thứ 2 đại học khi bắt đầu tham gia quản trị diễn đàn sinhvienduoc.com. Một mảng hoạt động của diễn đàn là chia sẻ, tìm kiếm tài liệu học thuật, lúc ấy chỉ có anh Toàn Dược 2007 phụ trách chính. Lúc đó cũng không biết cái khái niệm tài liệu học thuật là thứ gì hết, chỉ đơn giản cái bản tính tò mò với vấn đề mới làm mình phải tìm tòi. Hồi đầu năm thứ nhất đại học, BQT diễn đàn cũng đã từng m"
+summary: "Trong bài này, Trình kể về vấn đề chung của cả cá nhân mình và khá nhiều bạn."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDc35N_7iE7YN1i4HL-i2q828G6SSTkxu1tZi7-QnT_2h4gEhAqn9CRE5O-J6n1LZLaDp5ZhHuO9bUkuDwXGmEA17_SeMIcNqkQbiUlvo9JMaPk4NpXfTCANm-PWefdgYucMtoYdBxDvY/s1600/adsgads.png"
 ---
 Tải tài liệu! Vấn đề chung của cả cá nhân mình và khá nhiều bạn. Mình may mắn nhận ra vấn đề này sớm từ năm thứ 2 đại học khi bắt đầu tham gia quản trị diễn đàn sinhvienduoc.com. Một mảng hoạt động của diễn đàn là chia sẻ, tìm kiếm tài liệu học thuật, lúc ấy chỉ có anh Toàn Dược 2007 phụ trách chính. Lúc đó cũng không biết cái khái niệm tài liệu học thuật là thứ gì hết, chỉ đơn giản cái bản tính tò mò với vấn đề mới làm mình phải tìm tòi.

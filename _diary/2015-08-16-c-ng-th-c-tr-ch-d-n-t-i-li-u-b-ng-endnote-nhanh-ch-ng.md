@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/08/16/c-ng-th-c-tr-ch-d-n-t-i-li-u-b-ng-endnote-nhanh-ch-ng/
 source_url: "https://phancanhtrinh.blogspot.com/2015/08/cong-thuc-trich-dan-tai-lieu-bang.html"
-summary: "Tùy thuộc vào thói quen mà mỗi người có một trình tự thao tác để trích dẫn tài liệu riêng. Kinh nghiệm cá nhân mình thấy cách sau đây dễ sử dụng và nhanh chóng nhất nên muốn giới thiệu cùng các bạn! Bước 1: Chuẩn bị công cụ - EndNote : các bạn có thể tìm kiếm, cài đặt công cụ theo các chỉ dẫn từ Youtube hoặc Google . - Google Scholar Button Bước 2: Tạo CSDL EndNote File/ New để tạo CSDL mới trong EndNote. Bước 3: Lấy trích dẫn Trong lúc tìm kiếm tài liệu, bạn thực hiện luôn bước này. Ví dụ: Tìm "
+summary: "Trong bài này, Trình kể về tùy thuộc vào thói quen mà mỗi người có một trình tự thao tác để trích dẫn tài liệu riêng."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTRfl1rLtuK-dgAc400VyC6ORnoLoEFMEZ-XNfL2-5Ojbu-RjD3RtY2658nzYhqKpJ_zPph_tVN2E_lkkT4jd7LfPXmX3DakYkIStBa94gHVDkbQu3ps7BRQNOK_z7RFhXJDvpkPyEgcU/s640/Picture3.png"
 ---
 Tùy thuộc vào thói quen mà mỗi người có một trình tự thao tác để trích dẫn tài liệu riêng. Kinh nghiệm cá nhân mình thấy cách sau đây dễ sử dụng và nhanh chóng nhất nên muốn giới thiệu cùng các bạn!

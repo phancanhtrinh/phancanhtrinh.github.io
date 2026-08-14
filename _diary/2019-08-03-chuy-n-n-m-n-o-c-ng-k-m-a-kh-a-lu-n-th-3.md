@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2019/08/03/chuy-n-n-m-n-o-c-ng-k-m-a-kh-a-lu-n-th-3/
 source_url: "https://phancanhtrinh.blogspot.com/2019/08/ChuyenNamNaoCungKe2019.html"
-summary: "Sài Gòn, ngày... tháng... năm... Mùa của 2019! Một ngày SÀIGÒN mưa dầm như chân đèo Hải Vân MÙA ĐÔNG. Một ngày sau khi chúng nó báo cáo Khóa luận, tôi lại trở về với guồng quay công việc. Con đường khoa học phải dài hơi và bền sức lắm! Mùa này lại có 3-4 đứa học trò, dù 99% thời gian tụi nó rất lỳ nhưng cơ bản cũng ngoan và giỏi hơn mọi lần. Tính mình hay la, hay nhăn nhó, khó chịu, có lẽ mùa khóa luận nào rồi sinh viên cũng sẽ áp lực như vậy thôi; mình cũng cố gắng tiết chế lắm rồi. Dẫu biết ch"
+summary: "Trong bài này, Trình kể về một ngày SÀIGÒN mưa dầm như chân đèo Hải Vân MÙA ĐÔNG."
 ---
 Sài Gòn, ngày... tháng... năm... <br>
 <br>

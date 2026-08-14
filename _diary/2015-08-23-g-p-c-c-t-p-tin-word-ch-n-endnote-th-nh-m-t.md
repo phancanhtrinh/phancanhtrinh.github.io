@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/08/23/g-p-c-c-t-p-tin-word-ch-n-endnote-th-nh-m-t/
 source_url: "https://phancanhtrinh.blogspot.com/2015/08/gop-cac-tap-tin-word-chen-endnote-thanh.html"
-summary: "Các bạn có nhiều file Word đã chèn sẵn Endnote, làm sao để gộp chúng lại mà phần Endnote đã chèn vẫn được cập nhật. Bước 1. Tạo một cơ sở dữ liệu Endnote mới nhé. Các bạn vào File/ New để tạo CSDL mới, chọn lưu nó ở vị trí thích hợp trên ổ đĩa. Có thể xem thêm một số thao tác cụ thể của Endnote tại đây . Bước 2. Mở file Word, copy nội dung vào chung một file như bạn muốn. Bước 3. Cập nhật dữ liệu vào Endnote. Chọn Export Traveling Library như mô tả bên dưới. Hộp thoại hiển thị hỏi rằng, bạn muốn"
+summary: "Trong bài này, Trình kể về các bạn có nhiều file Word đã chèn sẵn Endnote, làm sao để gộp chúng lại mà phần Endnote đã chèn vẫn được cập nhật."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVz-yjWC_irbM1rPN8TXAr4g7ctMxPEJ6PzUPPYkaF6fNQFluCIrq2csIer9EVdY-Z7E1jHN3qOgrivGBQdMK9GrFGdR-IVUVA5_ZsCjPIkc_SemkdgWJ774vruMojYYgCrE_hMfxlo8o/s640/Picture1.png"
 ---
 Các bạn có nhiều file Word đã chèn sẵn Endnote, làm sao để gộp chúng lại mà phần Endnote đã chèn vẫn được cập nhật.<br>

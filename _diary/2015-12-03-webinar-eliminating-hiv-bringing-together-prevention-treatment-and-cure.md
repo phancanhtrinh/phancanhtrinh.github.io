@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/12/03/webinar-eliminating-hiv-bringing-together-prevention-treatment-and-cure/
 source_url: "https://phancanhtrinh.blogspot.com/2015/12/webinar-eliminating-hiv-bringing.html"
-summary: "Nhân ngày thế giới phòng chống HIV/AIDS 1/12/2015, hội thảo trực tuyến về phòng ngừa, điều trị và loại bỏ HIV đã được tổ chức bởi tạp chí nature. Hội nghị hiện tại được phát lại tại địa chỉ: http://www.nature.com/collections/qdtpvmnnqj/webinar Tổng quan hội nghị Có gần 37 triệu người trên thế giới đang sống chung với HIV. Kể từ lúc đại dịch bùng nổ khoảng 30 năm về trước, cộng đồng khoa học và y tế thế giới đã lao vào công cuộc nghiên cứu nhằm xác định và mô tả loại virus này. Nhiều thuốc kháng "
+summary: "Trong bài này, Trình kể về nhân ngày thế giới phòng chống HIV/AIDS 1/12/2015, hội thảo trực tuyến về phòng ngừa, điều trị và loại bỏ HIV đã được tổ chức bởi tạp chí nature."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnwr8oF6Ws-d6DamjEZvK_YdwiVNZBDDDwT2XGT3rHs_yRdBmjdGn_ED0oW9kAy9RKGdwG229ghcHDw1E5HXJYMDCBNl8INJOOvYwV_zmV6_6iGhu4x2CQWRSK7xYln8Zs9jgNSTgmEg/s640/CVIrW-DVEAAjrYq.jpg"
 ---
 Nhân ngày thế giới phòng chống HIV/AIDS 1/12/2015, hội thảo trực tuyến về phòng ngừa, điều trị và loại bỏ HIV đã được tổ chức bởi tạp chí nature.

@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/02/20/nh-d-ng-endnote-style-theo-y-u-c-u/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/inh-dang-endnote-style-theo-yeu-cau.html"
-summary: "Ghi chú 22.07.2016. Cập nhật cách sửa lỗi định dạng sai danh mục tài liệu 08.01.2016. Cập nhật trả lời thắc mắc bạn đọc: Câu 1. Sau khi chỉnh sửa, Style tự động lưu lại ở đâu? Sau khi bạn chỉnh sửa, Style lưu lại dạng file .ens không nằm ở thư mục cũ mà nằm tại thư mục Endnote mới trong Document C:\\Users\\[Tên User]\\Documents\\EndNote\\Styles. Câu 2. Cách sắp xếp danh mục tài liệu theo thứ tự chèn vào? Vào Edit\\ Output Styles để chỉnh sửa lại Sort Order như hình ảnh: 13.07.2015. Cập nhật sửa lỗi th"
+summary: "Trong bài này, Trình kể về cập nhật cách sửa lỗi định dạng sai danh mục tài liệu 08.01.2016."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSSdUciXvPHKP5aive5DMqPNVsNf-xAYh-a8JwV4lnJQOp3-lnI-Y0eSn8gQhHwxTgwTO1EnKCwxP1QcDFYyQJmbSpTyoy_s4XQ0hgFb5dVf5nwVmbT2bOVnpwfpLW4QtyoTcHjOFG1nU/s640/ssa.png"
 ---
 <b>Ghi chú</b><br>

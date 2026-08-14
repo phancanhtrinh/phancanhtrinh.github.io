@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/03/08/slide-tr-ch-d-n-t-i-li-u-tham-kh-o/
 source_url: "https://phancanhtrinh.blogspot.com/2015/03/slide-trich-dan-tai-lieu.html"
-summary: "Nội dung slide lấy từ buổi hướng dẫn tìm kiếm tài liệu, trích dẫn tài liệu năm 2014, có bổ sung chỉnh lý. Tài liệu cũ có thể xem thêm tại đây . Nội dung slide gồm: Lý do trích dẫn tài liệu So sánh lựa chọn phần mềm quản lý trích dẫn tài liệu thích hợp Giới thiệu, hướng dẫn EndNote X7"
+summary: "Trong bài này, Trình kể về nội dung slide lấy từ buổi hướng dẫn tìm kiếm tài liệu, trích dẫn tài liệu năm 2014, có bổ sung chỉnh lý."
 ---
 Nội dung slide lấy từ buổi hướng dẫn tìm kiếm tài liệu, trích dẫn tài liệu năm 2014, có bổ sung chỉnh lý. Tài liệu cũ có thể xem thêm tại <b><a href="https://www.facebook.com/events/131880890318778/" target="_blank" rel="noopener">đây</a></b>.<br>
 <b>Nội dung slide gồm:</b><br>

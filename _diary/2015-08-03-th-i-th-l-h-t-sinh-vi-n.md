@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/08/03/th-i-th-l-h-t-sinh-vi-n/
 source_url: "https://phancanhtrinh.blogspot.com/2015/08/thoi-la-het-sinh-vien.html"
-summary: "Tự sự về những ngày đã qua tại Khoa Dược... Bao nhiêu tất bật của mùa khóa luận đã kết thúc với những gì làm được tôi tạm thưởng cho mình một chút niềm vui của thành công. Những ngày làm việc với Bacillus đã qua thay thế bằng nhiều thứ cảm xúc lẫn lộn... Có vui, có buồn pha thêm chút hụt hẫng! Dù sao sau những ngày làm việc nghiêm túc, tôi nghĩ mình đã gặt hái được chút thành công! Mấy hôm nay lại được thưởng thức không khí của những buổi chiều sớm... Ừ lâu rồi mới được như vậy! Nhưng hình như c"
+summary: "Trong bài này, Trình kể về tự sự về những ngày đã qua tại Khoa Dược.."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQrxFPihI_kpvolZqyM-66-sz6Go_XtZZf1K1p3ygANo9Efu4Q92X0mGpD2KLPHcAM9L1VfpGOZMtj-nv05GpDFyfWLhFMwYfm5i5SYGOvIV0lDitZ22FAPjBCWBfFN7_18gvuazP5WVA/s640/Picture1.png"
 ---
 Tự sự về những ngày đã qua tại Khoa Dược...

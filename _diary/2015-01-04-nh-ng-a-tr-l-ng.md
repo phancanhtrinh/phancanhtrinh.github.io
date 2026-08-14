@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/01/04/nh-ng-a-tr-l-ng/
 source_url: "https://phancanhtrinh.blogspot.com/2015/01/nhung-ua-tre-o-lang.html"
-summary: "Chúng ta chung nhau một đoạn dài tuổi thơ có lẽ vì thế mà những điều dành cho nhau luôn thuần khiết và thơ ngây đến lạ lùng. Dù cho bao nhiêu bão giông cuộc đời, khi ngồi lại bên nhau vẫn ấm áp thương yêu. Chúng ta luôn gặp gỡ nhau theo cách khác người, chẳng giống ai trong thế hệ chúng ta – thế hệ 9x. Chẳng phải là bàn nhậu say sưa chè chén, không phải một quán cà kê lê lết nào đó. Khác đi, ta vẫn thường “ngồi lại bên nhau, kể chuyện nhau nghe” ở một góc trời nào đó, đủ bình yên để cho nhau một"
+summary: "Trong bài này, Trình kể về chúng ta chung nhau một đoạn dài tuổi thơ có lẽ vì thế mà những điều dành cho nhau luôn thuần khiết và thơ ngây đến lạ lùng."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3t3UHAtDsTw_x5CiAHAm3e40Aa17TdqgrvZgqmubId_d63yJ7dzY5hWGF_JB_Q5xFGffMcWJR4xE8Y-U5GEVA2uO34g4S46dJSD4Ze5f-TD3q5SM67elEOvAmVyU0qzd5IMAlc067sTQ/s1600/314657_581767208506692_1268101335_n.jpg"
 ---
 Chúng ta chung nhau một đoạn dài tuổi thơ có lẽ vì thế mà những điều dành cho nhau luôn thuần khiết và thơ ngây đến lạ lùng. Dù cho bao nhiêu bão giông cuộc đời, khi ngồi lại bên nhau vẫn ấm áp thương yêu.<br>

@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/02/22/ng-k-research-gate/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/lach-luat-e-ang-ky-research-gate.html"
-summary: "Sáng mồng 4 Tết, loay hoay một hồi với cái Modem mới vào mạng được, hi vọng bạn ADSL sẽ trơn tru cho mình viết bài này. Vừa nhận được một yêu cầu của bà chị, em lấy lại cái email Khoa Dược giúp chị được không. Ngồi tùm lum tà la một lúc không được, mình mới ngộ ra. À, bây giờ rốt cuộc kiếm cái email .edu cũng với mục đích trước mắt là đăng ký ResearchGate thôi, vậy mình dùng một email đăng ký nhiều tài khoản biết đâu nó cũng được. Rồi vào ResearchGate tìm hiểu lại chính sách của anh này thôi! Và"
+summary: "Trong bài này, Trình kể về sáng mồng 4 Tết, loay hoay một hồi với cái Modem mới vào mạng được, hi vọng bạn ADSL sẽ trơn tru cho mình viết bài này."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1KKkimi406QONCH_KmBobyoy_nwJsyBVbLGcbnpkAgWE9HnaYis0oEGCbxRrydl0M0Zd2RyMH4D-CTk2-IbzcCZ4BRpQmCJUvdqbuHTYyj_W9Iw5pqzDnXn6u6lqPvkm8h_4_HUAXREQ/s1600/22-02-2015+9-49-54+SA.jpg"
 ---
 Sáng mồng 4 Tết, loay hoay một hồi với cái Modem mới vào mạng được, hi vọng bạn ADSL sẽ trơn tru cho mình viết bài này. Vừa nhận được một yêu cầu của bà chị, em lấy lại cái email Khoa Dược giúp chị được không. Ngồi tùm lum tà la một lúc không được, mình mới ngộ ra. À, bây giờ rốt cuộc kiếm cái email .edu cũng với mục đích trước mắt là đăng ký ResearchGate thôi, vậy mình dùng một email đăng ký nhiều tài khoản biết đâu nó cũng được.

@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2015/01/13/t-ng-h-a-nh-d-ng-v-n-b-n-v-i-word-k-2/
 source_url: "https://phancanhtrinh.blogspot.com/2015/01/tu-ong-hoa-inh-dang-van-ban-voi-word-ky.html"
-summary: "1. Thiết lập lại một số mặc định cơ bản 1.3. Làm chủ các định dạng mẫu 1.3.2. Tự động tạo mục lục hình ảnh, bảng biểu Để mục lục hình ảnh và bảng biểu được tạo một cách tự động, đòi hỏi chúng ta phải làm đúng từ thao tác nhập liệu. Tạo tên bảng, tên hình kèm số thứ tự Chúng ta có tài liệu gồm bảng và hình như sau, trước hết chúng ta thực hiện thao tác đặt tên hình, bảng ( Lưu ý: thao tác này giúp số thứ tự hình, bảng tự động cập nhật về sau). Kích chuột phải, chọn Insert Caption/ New Label, đặt "
+summary: "Trong bài này, Trình kể về thiết lập lại một số mặc định cơ bản 1.3. Làm chủ các định dạng mẫu 1.3.2. Tự động tạo mục lục hình ảnh, bảng biểu Để mục lục hình ảnh và bảng biểu được tạo một cách tự động.."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge7QaIXjMC46l7w4JOR2ktyOdOAnE0mzu7Nmzlmqgrn8DJbG1tyqFaxiWgzvRyy60p_cJeV9bJfHz75j8c8ApbNUusz5lP1c6VSCkv6jl37UwG7T-lhUKsmNr17egC4pRWCty9PdQweD0/s1600/Picture6.png"
 ---
 1. <b>Thiết lập lại một số mặc định cơ bản</b>

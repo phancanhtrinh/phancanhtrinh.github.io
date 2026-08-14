@@ -6,7 +6,7 @@ categories:
   - diary
 permalink: /diary/2021/01/16/ng-n-vienna-biocenter/
 source_url: "https://phancanhtrinh.blogspot.com/2021/01/duongdenVBC.html"
-summary: "Chào mừng bạn đã đặt chân đến Áo! Bạn đang ở thành phố Kinh đô nghệ thuật, thành phố đáng sống nhất thế giới, Wien! Vậy là ước mơ bấy lâu của mình đã thành hiện thực, mình còn chưa tin được mình đang ở châu Âu! Cuối cùng giấc mơ chạm đến môi trường học thuật với các nghiên cứu đột phá đã bắt đầu trở thành hiện thực. Mình thật sự hạnh phúc vô cùng! Ngồi trên xe về ký túc xá, mình như đứa trẻ lạc vào thiên đường cổ tích, Wien đẹp quá, đẹp choáng ngợp bởi sự cổ kính, trật tự và bình yên. Mình trầm "
+summary: "Trong bài này, Trình kể về hành trình đến Vienna BioCenter."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2FX2x3dQxxyxYPI5LN1IBEqvyhuUsxflEL7XtgZX7C-c7chaeqRAxysxHl-JdhwjdQTKKgBxB3GRmzxF2cSG7Uzdu65Ew83zp71eOUlivuy9uhXqa2HXtRa6c95Arb-Y758YujlyEw0w/w640-h398/VBC+campus.jpg"
 ---
 <p>Chào mừng bạn đã đặt chân đến Áo! Bạn đang ở thành phố Kinh đô nghệ thuật, thành phố đáng sống nhất thế giới, Wien!</p><p></p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2FX2x3dQxxyxYPI5LN1IBEqvyhuUsxflEL7XtgZX7C-c7chaeqRAxysxHl-JdhwjdQTKKgBxB3GRmzxF2cSG7Uzdu65Ew83zp71eOUlivuy9uhXqa2HXtRa6c95Arb-Y758YujlyEw0w/s2048/VBC+campus.jpg"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2FX2x3dQxxyxYPI5LN1IBEqvyhuUsxflEL7XtgZX7C-c7chaeqRAxysxHl-JdhwjdQTKKgBxB3GRmzxF2cSG7Uzdu65Ew83zp71eOUlivuy9uhXqa2HXtRa6c95Arb-Y758YujlyEw0w/w640-h398/VBC+campus.jpg" width="640" height="398"></a>
