@@ -1,0 +1,54 @@
+---
+layout: default
+title: TrinhPHAN / diary
+categories:
+  - diary
+---
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="centered-pills">
+			<ul class="nav nav-pills note">
+				<li role="presentation" class="nav-item">
+					<a class="nav-link active" href="/diary/">
+						<i class="fa fa-book fa-fw"></i> Archive
+					</a>
+				</li>
+				<li role="presentation" class="nav-item">
+					<a class="nav-link off" href="https://phancanhtrinh.blogspot.com/" target="_blank" rel="noopener">
+						<i class="fa fa-external-link fa-fw"></i> Original blog
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="bigspacer"></div>
+	</div>
+</div>
+
+<div class="nis-header">
+	<div class="nis-title-row">
+		<i class="fa fa-book fa-fw"></i>
+		<span class="nis-title">Field Notes from an Earlier Chapter</span>
+	</div>
+	<div class="nis-tagline">
+		The old Blogger diary, reorganized as a searchable archive of personal notes, stories, and teaching pieces.
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+{% assign diary_posts = site.diary | sort: "date" | reverse %}
+{% for post in diary_posts %}
+<article class="diary-entry">
+	<div class="diary-entry-head">
+		<div>
+			<div class="smallhead"><a class="off" href="{{ post.url }}">{{ post.title }}</a></div>
+			<div class="smallnote">{{ post.date | date: "%-d %b %Y" }}</div>
+		</div>
+		<div class="diary-entry-badge">Blogger</div>
+	</div>
+	<div class="diary-entry-body">
+		{{ post.content }}
+	</div>
+</article>
+{% endfor %}

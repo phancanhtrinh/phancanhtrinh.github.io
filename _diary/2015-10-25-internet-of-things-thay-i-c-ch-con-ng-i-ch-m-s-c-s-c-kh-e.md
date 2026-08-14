@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Internet of Things đã thay đổi cách con người chăm sóc sức khỏe'
+date: 2015-10-25T21:00:00+07:00
+categories:
+  - diary
+permalink: /diary/2015/10/25/internet-of-things-thay-i-c-ch-con-ng-i-ch-m-s-c-s-c-kh-e/
+source_url: https://phancanhtrinh.blogspot.com/2015/10/internet-of-things-thay-oi-cach-con.html
+---
+<div style="text-align: justify;">
+<b><span style="color: orange;">"Internet of Things" (IoT)</span> </b><span style="color: #444444;">là một xu hướng công nghệ táo bạo trong những năm trở lại đây. Với mong muốn kết nối vạn vật vào một hệ thống chung có khả năng truyền tải, chia sẻ thông tin an toàn các nhà khoa học đã và đang tích cực biến những điều trong phim khoa học viễn tưởng thành hiện thực.</span></div>
+<div style="text-align: justify;">
+<div class="separator" style="clear: both; text-align: center;">
+<span style="color: #444444;"><img border="0" height="252" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8RIxVCjhk8rrS2ZeiQM_C1Lm4G7WGUJCCEdUov_PhQpCIBPblRl7VYGKvGE62gG5G49EtplhqrbRcbSd2q5RSfntY_9LjAsHEU8urYL1jHLXzB-V6X33qklgj5dkT-JW8ab2qws2AA6Y/s400/How-Big-Will-The-Internet-of-Things-Be-header.jpg" width="400" /></span></div>
+<span style="color: #444444;">IoT được đặt kỳ vọng cao trong việc đem đến cuộc cách mạng trong lĩnh vực chăm sóc sức khỏe, hứa hẹn thay đổi lớn cách thức con người tiếp cận các dịch vụ chăm sóc sức khỏe. Bài viết sẽ điểm qua khái quát về những công nghệ đầy hứa hẹn của IoT trong thời gian gần đây.</span><br />
+<span style="color: #444444;">IoT trong chăm sóc sức khỏe cơ bản dựa trên nguyên tắc chung của IoT, là một mạng lưới các thiết bị kết nối trực tiếp với nhau để nắm bắt và chia sẻ dữ liệu thông qua giao thức an toàn (SSL - Secure Sockets Layer) dưới sự điều khiển của máy chủ trung tâm kết hợp với công nghệ điện toán đám mây</span><span style="color: #444444;">. </span><br />
+<span style="color: #444444;">Kevin Ashton lần đầu tiên đề cập thuật ngữ IoT trong một bài thuyết trình năm 1999, những ý tưởng của ông lúc đó đã được chứng minh trong hiện tại, lúc Internet khẳng định tầm ảnh hưởng trong đời sống xã hội.</span><br />
+<a name='more'></a><span style="color: #444444;">Những tiến bộ trong công nghệ cảm biến và kết nối cho phép các thiết bị điện tử dễ dàng thu thập và phân tích dữ liệu. Trong ngành y tế, điều này càng quan trọng khi những bệnh mãn tính, khởi phát biến chứng đột ngột, khó phòng ngừa như tim mạch, đột quỵ ngày càng tăng. Riêng tại Hoa Kỳ, mỗi năm có 735.000 người có biến cố tim mạch, 610.000 trường hợp tử vong chiếm 1/4 số người tử vong trong năm. Đứng trước thách thức đó, ngành y tế mong sao cứu chữa được nhiều bệnh nhân bằng những chế độ chăm sóc y tế dự phòng, chẩn đoán kịp thời biến chứng cấp tính, tăng cường hiểu biết của bệnh nhân về liệu pháp điều trị. Tất cả điều đó chỉ có thể thực hiện được bằng công nghệ thông tin.</span><br />
+<span style="color: #444444;">Điều mà IoT muốn hướng đến là giải quyết vấn đề thu thập dữ liệu bệnh nhân. Đã đến lúc các cơ sở chăm sóc sức khỏe xóa bỏ phương thức thu thập thủ công, thay vào đó là quá trình tự động hóa ghi nhận của các thiết bị điện tử. Điều này sẽ tối thiểu hóa nguy cơ lỗi, đồng nghĩa với tăng hiệu quả, giảm chi phí và cải thiện chất lượng. </span><br />
+<span style="color: #444444;">Ngày nay, tình trạng lâm sàng được theo dõi liên tục ở các bệnh nhân nhập viện bằng các giám sát không xâm lấn. Các cảm biến sẽ thu thập thông tin về tình trạng sinh lý được gắn trên bệnh nhân, thu thập thông tin 24/7. Thông tin này được lưu trữ qua điện toán đám mây, phân tích dữ liệu, gửi kết quả cho nhân viên y tế để đánh giá tình trạng bệnh. Bằng cách này, chúng ta loại bỏ được việc nhân viên y tế định kỳ theo dõi, giảm được chi phí, mặc khác bệnh nhân được theo dõi sát sao trong suốt quá trình điều trị.</span><br />
+<span style="color: #444444;">Một ví dụ của loại hệ thống này là </span><b><span style="color: #0c343d;"><a href="http://www.masimo.com/index.htm" target="_blank" rel="noopener">Masimo Radical</a></span></b><span style="color: #444444;">, một thiết bị theo dõi thu thập sinh hiệu của bệnh nhân và truyền tải dữ liệu liên tục về trung tâm thông qua mạng không dây, cảnh báo tức thời khi có bất thường xảy ra. Dữ liệu được biểu diễn dưới dạng hình ảnh trực quan giúp nhân viên y tế nắm bắt vấn đề nhanh chóng.</span><br />
+<span style="color: #444444;">Một số thiết bị khác ra đời nhằm đáp ứng nhu cầu dự phòng bệnh tật. Giờ đây, mỗi gia đình có thể sắm cho mình một bộ thiết bị giám sát sức khỏe. Điều này đặc biệt quan trọng đối với người già, phụ nữ có thai, vận động viên leo núi, thể hình...</span><br />
+<span style="color: #444444;">Tại Việt Nam, xu hướng IoT đang dần tiến sân vào lĩnh vực chăm sóc y tế, tiêu biểu gần đây là sự ra đời của <a href="http://zinmed.com/he-thong-website-quan-ly-3/" target="_blank" rel="noopener">Zinmed </a>trong giám sát điều trị Đái tháo đường.</span><br />
+<span style="color: #444444;">Cùng đón chờ những sản phẩm IoT của Việt Nam trong thời gian tới nào!</span><br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="507" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja66yZKdDmWE5W-PAIaySxMrCQH__6FqKgoQNvHoRQxsvpRRIiU00_nT4VLttZ37FVTeyRqGfyKOQrcHKlbLfvDKGUjB4GEHfuYBB3F7wQxRRA8P35w8TLL4_vmcUC5GQrZYOpH0h9xBs/s640/ZinmedWebsiteChucNang.png" width="640" /></div>
+<span style="color: #444444;"><br /></span></div>

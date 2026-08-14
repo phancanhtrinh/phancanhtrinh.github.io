@@ -26,6 +26,11 @@ sass:
 
 plugins: ['jekyll-twitter-plugin']
 
+collections:
+  diary:
+    output: true
+    permalink: /diary/:path/
+
 # The blanket "*.xml" exclude below would otherwise drop these RSS feeds from the build
 include:
   - feed.xml
