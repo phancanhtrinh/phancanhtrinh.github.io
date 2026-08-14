@@ -14,7 +14,7 @@ layout: default
 	</div>
 	{% if nm %}
 	<div class="nis-meta">
-		{{ nm.count }} mentions found &middot; last checked {{ nm.generated_at | date: "%-d %b %Y, %H:%M UTC" }}
+		{{ nm.count }} mentions found{% if nm.outlet_domains_checked %} across {{ nm.outlet_domains_checked }} monitored outlet domains{% endif %} &middot; last checked {{ nm.generated_at | date: "%-d %b %Y, %H:%M UTC" }}
 	</div>
 	{% endif %}
 </div>

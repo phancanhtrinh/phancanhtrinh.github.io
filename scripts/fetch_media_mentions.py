@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Collects press/media mentions of Trinh Phan-Canh from three sources, and
+Collects press/media mentions of Trinh Phan-Canh from public web sources, and
 maintains a persistent, growing archive at _data/mediamentions.json for the
 /inthenews/ Jekyll page.
 
@@ -28,6 +28,9 @@ Sources:
      article body is fetched as a fallback. Already-checked listing URLs
      are remembered across runs so old non-matching articles aren't
      re-fetched every day.
+  4. Targeted Google News searches and official RSS feeds for Vietnamese,
+     Austrian/German-language, Harvard/BIDMC, and scientific-society sites.
+     These searches catch smaller outlets that a general name query misses.
 """
 
 import glob
@@ -47,10 +50,95 @@ PAPERS_DIR = "papers/_posts"
 MAX_ITEMS = 300
 INSTITUTIONAL_CHECK_LIMIT = 15  # newest listing items to consider per site, per run
 
-NAME_VARIANTS = ["Trinh Phan-Canh", "Phan Cảnh Trình", "Phan Canh Trinh"]
+NAME_VARIANTS = [
+    "Trinh Phan-Canh",
+    "Trinh Phan Canh",
+    "Trinh Phan-Can",
+    "Phan Cảnh Trình",
+    "Phan Canh Trinh",
+]
 NAME_MATCH_PATTERNS = [
     "trinh phan-canh", "trinh phan canh", "phan-canh trinh", "phan canh trinh",
-    "phan cảnh trình", "t. phan-canh", "t phan-canh",
+    "phan cảnh trình", "trinh phan-can", "t. phan-canh", "t phan-canh",
+]
+
+GOOGLE_NAME_QUERY = "(" + " OR ".join(f'\"{name}\"' for name in NAME_VARIANTS) + ")"
+
+# Domain-focused searches are deliberately grouped by region and language so
+# Google News receives a manageable number of requests. They complement the
+# broad name search; results must still pass the strict headline relevance
+# check below because search indexes sometimes surface profiles or databases.
+OUTLET_SEARCH_GROUPS = [
+    {
+        "name": "Vietnamese national outlets",
+        "locale": ("vi-VN", "VN", "VN:vi"),
+        "domains": [
+            "tuoitre.vn", "thanhnien.vn", "vnexpress.net", "vietnamnet.vn",
+            "dantri.com.vn", "tienphong.vn", "vtv.vn", "vov.vn",
+            "nhandan.vn", "vietnamplus.vn", "laodong.vn", "qdnd.vn",
+        ],
+    },
+    {
+        "name": "Vietnamese science and health outlets",
+        "locale": ("vi-VN", "VN", "VN:vi"),
+        "domains": [
+            "tiasang.com.vn", "vjst.vn", "khoahocphattrien.vn", "vista.gov.vn",
+            "mst.gov.vn", "vast.gov.vn", "suckhoedoisong.vn", "baochinhphu.vn",
+            "khoahoc.tv", "vnexpress.net",
+        ],
+    },
+    {
+        "name": "Austrian and German-language outlets",
+        "locale": ("de-AT", "AT", "AT:de"),
+        "domains": [
+            "myscience.at", "science.apa.at", "apa.at", "orf.at",
+            "derstandard.at", "diepresse.com", "kurier.at", "profil.at",
+            "ots.at", "futurezone.at", "scilog.fwf.ac.at",
+        ],
+    },
+    {
+        "name": "Austrian institutions and life-science societies",
+        "locale": ("de-AT", "AT", "AT:de"),
+        "domains": [
+            "meduniwien.ac.at", "viennabiocenter.org", "maxperutzlabs.ac.at",
+            "oeghmp.at", "oegmbt.at", "oegmm.at", "myk.univie.ac.at",
+            "univie.ac.at", "vetmeduni.ac.at", "oeaw.ac.at", "fwf.ac.at",
+            "austrianbiologist.at",
+        ],
+    },
+    {
+        "name": "Harvard, BIDMC, and Boston biomedical outlets",
+        "locale": ("en-US", "US", "US:en"),
+        "domains": [
+            "bidmc.org", "research.bidmc.org", "hms.harvard.edu",
+            "news.harvard.edu", "harvard.edu", "broadinstitute.org",
+            "wyss.harvard.edu", "dana-farber.org", "statnews.com",
+            "bostonglobe.com",
+        ],
+    },
+    {
+        "name": "Microbiology and mycology societies",
+        "locale": ("en-US", "US", "US:en"),
+        "domains": [
+            "microbiologysociety.org", "asm.org", "isham.org", "ecmm.info",
+            "fems-microbiology.org", "dghm.org", "dgfm-ev.de", "oegmm.at",
+            "oeghmp.at", "oegmbt.at",
+        ],
+    },
+]
+
+OFFICIAL_RSS_SOURCES = [
+    ("ÖGMBT", "https://oegmbt.at/index.php/services/news/itemlist/category/31-allgemeine-news?format=feed"),
+    ("Austrian Mycological Society", "https://myk.univie.ac.at/feed/"),
+    ("BIDMC Core Facilities", "https://research.bidmc.org/core-facilities/news.rss"),
+]
+
+OFFICIAL_FEATURE_PAGES = [
+    (
+        "ÖGHMP",
+        "https://www.oeghmp.at/",
+        "Austrian Microbiology Prize 2026 — Trinh Phan-Canh",
+    ),
 ]
 
 # Google News indexes journal paper pages as "articles" too, so his own
@@ -60,7 +148,7 @@ PUBLISHER_SOURCES = [
     "asm journals", "plos", "wiley", "springer", "elsevier", "frontiers",
     "oxford academic", "taylor & francis", "biorxiv", "medrxiv", "pnas",
     "jama", "the lancet", "bmj", "acs publications", "onlinelibrary",
-    "journals.asm.org", "pubmed", "europe pmc",
+    "journals.asm.org", "pubmed", "europe pmc", "sti.vista.gov.vn",
 ]
 
 LOCALES = [
@@ -218,11 +306,11 @@ def parse_rss_items(xml_text):
             m = re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", block, re.DOTALL)
             return m.group(1).strip() if m else ""
 
-        title = field("title")
-        link = field("link")
+        title = html.unescape(re.sub(r"<!\[CDATA\[(.*?)\]\]>", r"\1", field("title"), flags=re.DOTALL))
+        link = html.unescape(field("link"))
         pub_date = field("pubDate")
         source_m = re.search(r'<source url="([^"]*)">(.*?)</source>', block)
-        source_name = source_m.group(2).strip() if source_m else ""
+        source_name = html.unescape(source_m.group(2).strip()) if source_m else ""
         source_url = source_m.group(1).strip() if source_m else ""
 
         if source_name and title.endswith(f" - {source_name}"):
@@ -247,16 +335,26 @@ def parse_rss_items(xml_text):
 
 
 def fetch_google_news():
-    print("[google_news] searching name variants...")
+    print("[google_news] searching broad and outlet-targeted name queries...")
     candidates = []
-    for name in NAME_VARIANTS:
-        for hl, gl, ceid in LOCALES:
-            q = urllib.parse.quote(f'"{name}"')
-            url = f"https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
-            try:
-                candidates += parse_rss_items(http_get_text(url))
-            except Exception as e:
-                print(f"[warn][google_news] fetch failed for {name!r} ({hl}): {e}", file=sys.stderr)
+    queries = [(GOOGLE_NAME_QUERY, locale, "broad") for locale in LOCALES]
+    for group in OUTLET_SEARCH_GROUPS:
+        site_clause = " OR ".join(f"site:{domain}" for domain in group["domains"])
+        queries.append((
+            f"{GOOGLE_NAME_QUERY} ({site_clause})",
+            group["locale"],
+            group["name"],
+        ))
+
+    for query, (hl, gl, ceid), label in queries:
+        params = urllib.parse.urlencode({"q": query, "hl": hl, "gl": gl, "ceid": ceid})
+        url = "https://news.google.com/rss/search?" + params
+        try:
+            found = parse_rss_items(http_get_text(url))
+            candidates += found
+            print(f"[google_news] {label}: {len(found)} result(s)")
+        except Exception as e:
+            print(f"[warn][google_news] fetch failed for {label!r} ({hl}): {e}", file=sys.stderr)
 
     def is_publisher_source(item):
         source = item.get("source", "").lower()
@@ -265,14 +363,72 @@ def fetch_google_news():
     def is_relevant(item):
         if is_publisher_source(item):
             return False
-        blob = (item.get("title", "") + " " + item.get("source", "")).lower()
-        return any(kw in blob for kw in CONTEXT_KEYWORDS)
+        title = item.get("title", "")
+        title_blob = title.lower()
+        # Search engines can return directory/profile pages whose site name
+        # happens to contain a science keyword. Requiring the headline itself
+        # to carry the person's name or a relevant context keeps those out.
+        return text_mentions_name(title) or any(kw in title_blob for kw in CONTEXT_KEYWORDS)
 
     candidates = [it for it in candidates if it.get("title") and it.get("url")]
-    relevant = [it for it in candidates if is_relevant(it)]
+    # The same article often appears in several locale and outlet queries.
+    # Deduplicate before resolving thumbnails, which is the expensive step.
+    relevant = dedupe([it for it in candidates if is_relevant(it)])
     for it in relevant:
         it["image"] = image_for_mention("google_news", it["url"])
     return relevant
+
+
+def fetch_official_feeds():
+    """Check official society/institution RSS plus a small number of pages."""
+    candidates = []
+    for source_name, url in OFFICIAL_RSS_SOURCES:
+        print(f"[official_feed] checking {source_name}...")
+        try:
+            xml = http_get_text(url)
+        except Exception as e:
+            print(f"[warn][official_feed] fetch failed for {source_name}: {e}", file=sys.stderr)
+            continue
+        for block in re.findall(r"<item>(.*?)</item>", xml, re.DOTALL):
+            def field(tag):
+                match = re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", block, re.DOTALL)
+                return match.group(1).strip() if match else ""
+
+            title = html.unescape(re.sub(r"<!\[CDATA\[(.*?)\]\]>", r"\1", field("title"), flags=re.DOTALL))
+            description = html.unescape(re.sub(r"<[^>]+>", " ", field("description")))
+            if not text_mentions_name(title + " " + description):
+                continue
+            link = html.unescape(field("link"))
+            try:
+                date_iso = parsedate_to_datetime(field("pubDate")).astimezone(timezone.utc).strftime("%Y-%m-%d")
+            except Exception:
+                date_iso = ""
+            candidates.append({
+                "title": re.sub(r"<[^>]+>", "", title).strip(),
+                "url": link or url,
+                "source": source_name,
+                "date": date_iso,
+                "via": "institutional",
+                "image": fetch_og_image(link),
+            })
+
+    for source_name, url, mention_title in OFFICIAL_FEATURE_PAGES:
+        print(f"[official_page] checking {source_name}...")
+        try:
+            page_html = http_get_text(url)
+        except Exception as e:
+            print(f"[warn][official_page] fetch failed for {source_name}: {e}", file=sys.stderr)
+            continue
+        if text_mentions_name(re.sub(r"<[^>]+>", " ", page_html)):
+            candidates.append({
+                "title": mention_title,
+                "url": url,
+                "source": source_name,
+                "date": "",
+                "via": "institutional",
+                "image": extract_og_image(page_html),
+            })
+    return candidates
 
 
 # --- Source 2: Altmetric per-paper news -----------------------------------
@@ -463,8 +619,9 @@ def is_google_news_still_valid(item):
     source = item.get("source", "").lower()
     if any(pub in source for pub in PUBLISHER_SOURCES):
         return False
-    blob = (item.get("title", "") + " " + item.get("source", "")).lower()
-    return any(kw in blob for kw in CONTEXT_KEYWORDS)
+    title = item.get("title", "")
+    title_blob = title.lower()
+    return text_mentions_name(title) or any(kw in title_blob for kw in CONTEXT_KEYWORDS)
 
 
 def backfill_images(items):
@@ -488,16 +645,20 @@ def main():
     google_items = fetch_google_news()
     altmetric_items = fetch_altmetric_sources()
     institutional_items, newly_checked = fetch_institutional_sources(checked_urls)
+    official_feed_items = fetch_official_feeds()
     checked_urls |= newly_checked
 
-    all_new = google_items + altmetric_items + institutional_items
-    merged = dedupe(existing + all_new)
+    all_new = google_items + altmetric_items + institutional_items + official_feed_items
+    # Prefer freshly fetched metadata for a URL (corrected titles, images, or
+    # source labels), then retain every older archive-only mention.
+    merged = dedupe(all_new + existing)
     merged.sort(key=lambda it: it.get("date", ""), reverse=True)
     merged = merged[:MAX_ITEMS]
 
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "count": len(merged),
+        "outlet_domains_checked": sum(len(group["domains"]) for group in OUTLET_SEARCH_GROUPS),
         "mentions": merged,
         "checked_institutional_urls": sorted(checked_urls),
     }
