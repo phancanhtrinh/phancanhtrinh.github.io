@@ -3,6 +3,11 @@ name: Build and deploy site
 on:
   push:
     branches: ["master"]
+  # Commits created with the repository's GITHUB_TOKEN do not trigger other
+  # workflows. Rebuild after the daily NewsInSpace and InTheNews jobs so their
+  # bot-authored data commits are published to the live site.
+  schedule:
+    - cron: "30 12 * * *"
   workflow_dispatch: {}
 
 permissions:
