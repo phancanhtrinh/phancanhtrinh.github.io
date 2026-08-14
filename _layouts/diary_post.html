@@ -14,16 +14,12 @@ layout: default
 		{% endif %}
 	</div>
 
-	{% if page.summary or page.thumbnail %}
-	<div class="diary-post-card diary-post-intro">
-		<div class="diary-entry-badge">Reading notes</div>
-		{% if page.thumbnail %}
-		<img class="diary-post-thumb" src="{{ page.thumbnail }}" alt="">
-		{% endif %}
-		{% if page.summary %}
-		<div class="diary-post-summary">{{ page.summary }}</div>
-		{% endif %}
-	</div>
+	{% if page.summary %}
+	<div class="diary-post-lede">{{ page.summary }}</div>
+	{% endif %}
+
+	{% if page.thumbnail %}
+	<img class="diary-post-thumb diary-post-thumb-main" src="{{ page.thumbnail }}" alt="">
 	{% endif %}
 
 	<div class="bigspacer"></div>

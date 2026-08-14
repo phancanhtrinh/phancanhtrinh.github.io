@@ -372,17 +372,41 @@ p {
 
 .diary-post-body {
   font-family: $vn-safe-fonts;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   color: #2c2c2c;
+}
+
+.diary-post-body,
+.diary-post-body * {
+  font-family: $vn-safe-fonts !important;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 0;
 }
 
 .diary-post-body p,
 .diary-post-body div,
 .diary-post-body li {
   font-family: $vn-safe-fonts;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
+}
+
+.diary-post-lede {
+  margin-top: 18px;
+  padding: 18px 22px;
+  border-left: 4px solid $primary;
+  background: #fafafa;
+  border-radius: 8px;
+  color: #4b4b4b;
+  font-family: $vn-safe-fonts;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.diary-post-thumb-main {
+  margin-top: 18px;
 }
 
 a.off {
