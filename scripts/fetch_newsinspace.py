@@ -12,8 +12,9 @@ Each run queries a rolling recent window, so the output is always a fresh
 snapshot rather than an ever-growing archive.
 """
 
-import json
 import html
+import json
+import math
 import os
 import re
 import sys
@@ -23,6 +24,7 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
+from xml.etree import ElementTree
 
 WINDOW_DAYS = 14          # how far back to search
 MAX_JOURNAL_ITEMS = 100   # flagship papers plus spatially weighted family journals
@@ -30,7 +32,13 @@ MAX_PREPRINT_ITEMS = 40   # cap for bioRxiv + arXiv combined
 MAX_NEW_SUMMARIES = 20    # keep daily AI usage predictable
 REQUEST_TIMEOUT = 30
 OUTPUT_PATH = "_data/newsinspace.json"
+ATTENTION_HISTORY_PATH = "_data/newsinspace_attention_history.json"
+ATTENTION_WINDOW_DAYS = 15
+ATTENTION_MOMENTUM_DAYS = 7
+MAX_ATTENTION_CANDIDATES = 50
+MAX_MEDIA_CANDIDATES = 30
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+ALTMETRIC_API_KEY = os.environ.get("ALTMETRIC_API_KEY", "")
 ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
 SUMMARY_PROMPT = (
     "Summarize this paper's key finding as 2-3 short bullet points (take-home "
@@ -207,6 +215,7 @@ def fetch_europepmc(start_date, end_date):
                     "url": url_out,
                     "doi": doi or "",
                     "abstract": (r.get("abstractText") or "")[:400],
+                    "citation_count": int(r.get("citedByCount") or 0),
                     "source": "journal",
                     "journal_family": family,
                 }
@@ -415,6 +424,259 @@ def fallback_summary(title, abstract):
     return bullets[:3]
 
 
+def fetch_bluesky_attention(item, cutoff):
+    """Public Bluesky mentions and engagement during the momentum window."""
+    doi = item.get("doi", "")
+    if not doi:
+        return {"bluesky_mentions": 0, "bluesky_engagement": 0}
+    params = urllib.parse.urlencode({"q": doi, "limit": 100, "sort": "latest"})
+    try:
+        data = http_get_json(
+            "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?" + params,
+            headers={"User-Agent": "NewsInSpace/1.0 (phancanhtrinh.com)"},
+        )
+        posts = []
+        for post in data.get("posts", []):
+            created = post.get("record", {}).get("createdAt") or post.get("indexedAt", "")
+            try:
+                created_at = datetime.fromisoformat(created.replace("Z", "+00:00"))
+            except (TypeError, ValueError):
+                continue
+            if created_at >= cutoff:
+                posts.append(post)
+        return {
+            "bluesky_mentions": len({post.get("uri") for post in posts}),
+            "bluesky_engagement": sum(
+                int(post.get("likeCount") or 0)
+                + int(post.get("repostCount") or 0)
+                + int(post.get("quoteCount") or 0)
+                for post in posts
+            ),
+        }
+    except Exception as e:
+        print(f"[warn] Bluesky attention failed for {doi}: {e}", file=sys.stderr)
+        return {"bluesky_mentions": 0, "bluesky_engagement": 0}
+
+
+def fetch_media_attention(item):
+    """Count recent matching stories from the public Google News RSS search."""
+    title = html.unescape(re.sub(r"<[^>]+>", " ", item.get("title", "")))
+    title = re.sub(r"\s+", " ", title).strip()
+    if not title:
+        return {"media_mentions": 0}
+    query = f'"{title}" when:{ATTENTION_WINDOW_DAYS}d'
+    params = urllib.parse.urlencode({
+        "q": query,
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en",
+    })
+    req = urllib.request.Request(
+        "https://news.google.com/rss/search?" + params,
+        headers={"User-Agent": "NewsInSpace/1.0 (phancanhtrinh.com)"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            root = ElementTree.fromstring(resp.read())
+        return {"media_mentions": len(root.findall("./channel/item"))}
+    except Exception as e:
+        print(f"[warn] media attention failed for {item.get('doi')}: {e}", file=sys.stderr)
+        return {"media_mentions": 0}
+
+
+def fetch_altmetric_attention(item):
+    """Optional richer attention counts when an Altmetric API key is configured."""
+    doi = item.get("doi", "")
+    empty = {
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "altmetric_news_mentions": 0,
+        "altmetric_bluesky_mentions": 0,
+    }
+    if not ALTMETRIC_API_KEY or not doi:
+        return empty
+    url = (
+        "https://api.altmetric.com/v1/doi/"
+        + urllib.parse.quote(doi, safe="")
+        + "?"
+        + urllib.parse.urlencode({"key": ALTMETRIC_API_KEY})
+    )
+    try:
+        data = http_get_json(url)
+        return {
+            "altmetric_score": float(data.get("score") or 0),
+            "x_mentions": int(data.get("cited_by_tweeters_count") or 0),
+            "altmetric_news_mentions": int(data.get("cited_by_msm_count") or 0),
+            "altmetric_bluesky_mentions": int(data.get("cited_by_bluesky_count") or 0),
+        }
+    except urllib.error.HTTPError as e:
+        if e.code not in {403, 404}:
+            print(f"[warn] Altmetric failed for {doi}: {e}", file=sys.stderr)
+        return empty
+    except Exception as e:
+        print(f"[warn] Altmetric failed for {doi}: {e}", file=sys.stderr)
+        return empty
+
+
+def load_attention_history():
+    try:
+        with open(ATTENTION_HISTORY_PATH) as f:
+            data = json.load(f)
+        return data if isinstance(data.get("snapshots"), list) else {"snapshots": []}
+    except (OSError, ValueError, TypeError):
+        return {"snapshots": []}
+
+
+def build_attention(items, now=None, limit=10):
+    """Build a transparent daily ranking from recent attention and momentum."""
+    now = now or datetime.now(timezone.utc)
+    today = now.date()
+    window_start = today - timedelta(days=ATTENTION_WINDOW_DAYS - 1)
+    momentum_cutoff = now - timedelta(days=ATTENTION_MOMENTUM_DAYS)
+
+    candidates = []
+    for item in items:
+        if item.get("source") != "journal" or not item.get("doi"):
+            continue
+        try:
+            published = datetime.strptime(item.get("date", ""), "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if published >= window_start and is_eligible_item(item):
+            candidates.append(item)
+    candidates.sort(
+        key=lambda item: (
+            TOPIC_PRIORITY.get(item.get("topic"), 0),
+            bool(item.get("flagship")),
+            item.get("date", ""),
+        ),
+        reverse=True,
+    )
+    candidates = candidates[:MAX_ATTENTION_CANDIDATES]
+
+    metrics = {
+        item["doi"]: {
+            "citation_count": int(item.get("citation_count") or 0),
+            "bluesky_mentions": 0,
+            "bluesky_engagement": 0,
+            "media_mentions": 0,
+            "altmetric_score": 0,
+            "x_mentions": 0,
+        }
+        for item in candidates
+    }
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = {}
+        for item in candidates:
+            futures[pool.submit(fetch_bluesky_attention, item, momentum_cutoff)] = item
+            if ALTMETRIC_API_KEY:
+                futures[pool.submit(fetch_altmetric_attention, item)] = item
+        for item in candidates[:MAX_MEDIA_CANDIDATES]:
+            futures[pool.submit(fetch_media_attention, item)] = item
+        for future in as_completed(futures):
+            item = futures[future]
+            try:
+                result = future.result()
+            except Exception as e:
+                print(f"[warn] attention worker failed for {item.get('doi')}: {e}", file=sys.stderr)
+                continue
+            metric = metrics[item["doi"]]
+            metric["media_mentions"] = max(
+                metric.get("media_mentions", 0),
+                int(result.get("media_mentions", 0)),
+                int(result.get("altmetric_news_mentions", 0)),
+            )
+            metric["bluesky_mentions"] = max(
+                metric.get("bluesky_mentions", 0),
+                int(result.get("bluesky_mentions", 0)),
+                int(result.get("altmetric_bluesky_mentions", 0)),
+            )
+            for key in ("bluesky_engagement", "altmetric_score", "x_mentions"):
+                if key in result:
+                    metric[key] = max(metric.get(key, 0), result[key])
+
+    history = load_attention_history()
+    baseline_target = today - timedelta(days=ATTENTION_MOMENTUM_DAYS)
+    baseline = {}
+    for snapshot in sorted(history["snapshots"], key=lambda s: s.get("date", "")):
+        try:
+            snapshot_date = datetime.strptime(snapshot.get("date", ""), "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if snapshot_date <= baseline_target:
+            baseline = snapshot.get("metrics", {})
+
+    ranked = []
+    for item in candidates:
+        metric = metrics[item["doi"]]
+        old = baseline.get(item["doi"], {})
+        metric["citation_growth"] = max(
+            0, metric["citation_count"] - int(old.get("citation_count") or 0)
+        ) if old else 0
+        metric["x_growth"] = max(
+            0, metric["x_mentions"] - int(old.get("x_mentions") or 0)
+        ) if old else metric["x_mentions"]
+        metric["altmetric_growth"] = max(
+            0, metric["altmetric_score"] - float(old.get("altmetric_score") or 0)
+        ) if old else metric["altmetric_score"]
+        age_days = max(0, (today - datetime.strptime(item["date"], "%Y-%m-%d").date()).days)
+        topic_boost = {"spatial": 8, "synthetic": 5, "focus": 2}.get(item.get("topic"), 0)
+        metric["attention_score"] = round(
+            metric["media_mentions"] * 8
+            + metric["bluesky_mentions"] * 3
+            + math.log1p(metric["bluesky_engagement"]) * 2
+            + metric["citation_growth"] * 6
+            + metric["x_growth"] * 2
+            + metric["altmetric_growth"] * 1.5
+            + topic_boost
+            + max(0, ATTENTION_WINDOW_DAYS - age_days) * 0.15,
+            1,
+        )
+        entry = dict(item)
+        entry.update(metric)
+        ranked.append(entry)
+    ranked.sort(
+        key=lambda item: (
+            item["attention_score"],
+            TOPIC_PRIORITY.get(item.get("topic"), 0),
+            item.get("date", ""),
+        ),
+        reverse=True,
+    )
+
+    history_fields = (
+        "citation_count",
+        "bluesky_mentions",
+        "bluesky_engagement",
+        "media_mentions",
+        "altmetric_score",
+        "x_mentions",
+    )
+    snapshot_metrics = {
+        doi: {key: metric[key] for key in history_fields}
+        for doi, metric in metrics.items()
+    }
+    today_snapshot = {"date": today.isoformat(), "metrics": snapshot_metrics}
+    snapshots = [s for s in history["snapshots"] if s.get("date") != today.isoformat()]
+    snapshots.append(today_snapshot)
+    keep_after = today - timedelta(days=ATTENTION_WINDOW_DAYS + ATTENTION_MOMENTUM_DAYS)
+    snapshots = [
+        s for s in snapshots
+        if s.get("date", "") >= keep_after.isoformat()
+    ]
+    with open(ATTENTION_HISTORY_PATH, "w") as f:
+        json.dump({"snapshots": snapshots}, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+    return {
+        "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "window_days": ATTENTION_WINDOW_DAYS,
+        "momentum_days": ATTENTION_MOMENTUM_DAYS,
+        "altmetric_enabled": bool(ALTMETRIC_API_KEY),
+        "top": ranked[:limit],
+    }
+
+
 def load_previous_summaries():
     """Carries forward summaries from the last run's output so unchanged
     papers (this is a rolling-window snapshot, re-fetched fresh every run,
@@ -565,6 +827,9 @@ def main():
     else:
         print("[info] ANTHROPIC_API_KEY not set; using source-grounded fallback bullets")
 
+    attention = build_attention(all_items)
+    print(f"Selected {len(attention['top'])} rising-attention paper(s)")
+
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "window_days": WINDOW_DAYS,
@@ -573,6 +838,7 @@ def main():
             topic: sum(it.get("topic") == topic for it in all_items)
             for topic in TOPIC_PRIORITY
         },
+        "attention": attention,
         "papers": all_items,
     }
 

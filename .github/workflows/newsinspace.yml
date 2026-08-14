@@ -24,15 +24,16 @@ jobs:
         run: python3 scripts/fetch_newsinspace.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ALTMETRIC_API_KEY: ${{ secrets.ALTMETRIC_API_KEY }}
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- _data/newsinspace.json; then
-            echo "No changes to newsinspace.json, skipping commit."
+          if git diff --quiet -- _data/newsinspace.json _data/newsinspace_attention_history.json; then
+            echo "No NewsInSpace changes, skipping commit."
             exit 0
           fi
-          git add _data/newsinspace.json
+          git add _data/newsinspace.json _data/newsinspace_attention_history.json
           git commit -m "NewsInSpace: daily update ($(date -u +%Y-%m-%d))"
           git push

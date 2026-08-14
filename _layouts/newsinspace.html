@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% assign nis = site.data.newsinspace %}
-{% assign popular = site.data.newsinspace_popular %}
 {% assign nis_feed_url = site.url | append: "/newsinspace-feed.xml" %}
 
 <div class="nis-header">
@@ -35,17 +34,17 @@ layout: default
 
 <div class="bigspacer"></div>
 
-{% if popular and popular.papers and popular.papers.size > 0 %}
+{% if nis and nis.attention and nis.attention.top and nis.attention.top.size > 0 %}
 <section class="nis-weekly" aria-labelledby="nis-weekly-title">
 	<div class="nis-weekly-header">
 		<div>
-			<div class="nis-weekly-kicker">Official publisher signals</div>
-			<h2 id="nis-weekly-title">Publisher-popular papers</h2>
+			<div class="nis-weekly-kicker">Daily attention monitor</div>
+			<h2 id="nis-weekly-title">Rising attention</h2>
 		</div>
-		<span class="nis-weekly-period">Checked {{ popular.checked_at | date: "%d %b %Y" }}</span>
+		<span class="nis-weekly-period">Published in the last {{ nis.attention.window_days }} days</span>
 	</div>
 	<ol class="nis-weekly-list">
-		{% for p in popular.papers %}
+		{% for p in nis.attention.top %}
 		<li class="nis-weekly-item">
 			<span class="nis-weekly-rank">{{ forloop.index }}</span>
 			<div class="nis-weekly-body">
@@ -56,7 +55,12 @@ layout: default
 				{% endif %}
 				<div class="nis-weekly-meta">
 					{{ p.journal }} &middot; {{ p.date }}
-					&middot; {{ p.publisher_signal }}
+					{% if p.media_mentions > 0 %}&middot; {{ p.media_mentions }} media mention{% if p.media_mentions != 1 %}s{% endif %}{% endif %}
+					{% if p.bluesky_mentions > 0 %}&middot; {{ p.bluesky_mentions }} Bluesky post{% if p.bluesky_mentions != 1 %}s{% endif %}{% endif %}
+					{% if p.bluesky_engagement > 0 %}&middot; {{ p.bluesky_engagement }} Bluesky interactions{% endif %}
+					{% if p.x_growth > 0 %}&middot; +{{ p.x_growth }} X mentions{% endif %}
+					{% if p.citation_growth > 0 %}&middot; +{{ p.citation_growth }} citations{% endif %}
+					{% if p.altmetric_score > 0 %}&middot; Altmetric {{ p.altmetric_score | round: 1 }}{% endif %}
 				</div>
 				{% if p.summary_bullets and p.summary_bullets.size > 0 %}
 				<ul class="nis-item-summary">
@@ -69,7 +73,7 @@ layout: default
 		</li>
 		{% endfor %}
 	</ol>
-	<p class="nis-weekly-note">Ten already-published life-science papers selected from the official Nature, Cell, and Science websites, with spatial and related biology prioritized. Nature Accesses and Science download totals are cumulative; Cell's Most read list covers the last 30 days; Science does not publish a time window for Trending Now. These publisher signals are not directly comparable, so the displayed order is editorial rather than a combined numerical ranking. Preprints are excluded.</p>
+	<p class="nis-weekly-note">Updated daily from published papers in the feed; preprints are excluded. Candidates come from the last {{ nis.attention.window_days }} days and are ranked using recent Google News coverage plus {{ nis.attention.momentum_days }}-day public Bluesky activity and citation growth reported by Europe PMC, with spatial biology prioritized. {% if nis.attention.altmetric_enabled %}Altmetric adds licensed X and broader media signals.{% else %}X and LinkedIn are not counted because reliable public paper-level data are unavailable.{% endif %} Attention indicates current interest, not research quality.</p>
 </section>
 
 <div class="bigspacer"></div>
