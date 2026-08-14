@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/02/06/c-m-ch-nh-v-nh/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/uoc-mo-chenh-venh.html"
-summary: "Trong bài này, Trình kể về cuộc đời sao cứ chênh vênh thế mày nhỉ!."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkjBBXmALL_NBX4ZAnujObwkiw23awYofxYRPZd_zbaPX4Koe033lq8mcvrV587GtedwG-yi7HFzJWFnpeDxdXaZDJMTMCKArL8k2r6dXGVqOwIuKUc3sQv6qo8FBL1YuIEJqxvDBKmmk/s1600/40242627.jpg"
 ---
 Cuộc đời sao cứ chênh vênh thế mày nhỉ!<br>

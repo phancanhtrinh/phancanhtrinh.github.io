@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/01/13/k-thu-t-khi-tr-nh-chi-u-trong-c-c-s-ki-n-sinh-vi-n/
 source_url: "https://phancanhtrinh.blogspot.com/2015/01/ky-thuat-khi-trinh-chieu-trong-cac-su.html"
-summary: "Trong bài này, Trình kể về hôm trước vừa dự một sự kiện của trường, tự nhiên thấy hình như lâu rồi mình ít chú ý tới tính chuyện nghiệp của một chương trình, ít soi mói hơn những lỗi kỹ thuật xảy ra.."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1oJzXejl2ZSfnPmGue_-WYozXUUMpTaQ0sy9ZqdM1Oq2_6jD8ad-fJpYKktY02QC1KY93fehZwq27biFIKs_HkO_-0xBCH5sx9sy9guGbixIZA_z75dEDnHBnE5hkNKCno7rwN2NmD1Y/s1600/Picture1.png"
 ---
 Hôm trước vừa dự một sự kiện của trường, tự nhiên thấy hình như lâu rồi mình ít chú ý tới tính chuyện nghiệp của một chương trình, ít soi mói hơn những lỗi kỹ thuật xảy ra trong các sự kiện. Có lẽ soi nhiều quá giờ thấy mệt rồi, nên đành kệ người ta!

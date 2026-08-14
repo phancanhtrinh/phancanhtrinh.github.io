@@ -6,6 +6,5 @@ categories:
   - diary
 permalink: /diary/2020/07/04/b-i-gi-ng-vi-sinh/
 source_url: "https://phancanhtrinh.blogspot.com/2020/07/bai-giang-vi-sinh.html"
-summary: "Trong bài này, Trình kể về mấy em xem bài giảng tại: https://phancanhtrinh.blogspot.com/p/bai-giang.html."
 ---
 Mấy em xem bài giảng tại: <a href="https://phancanhtrinh.blogspot.com/p/bai-giang.html">https://phancanhtrinh.blogspot.com/p/bai-giang.html</a>

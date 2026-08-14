@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/08/03/th-i-th-l-h-t-sinh-vi-n/
 source_url: "https://phancanhtrinh.blogspot.com/2015/08/thoi-la-het-sinh-vien.html"
-summary: "Trong bài này, Trình kể về tự sự về những ngày đã qua tại Khoa Dược.."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQrxFPihI_kpvolZqyM-66-sz6Go_XtZZf1K1p3ygANo9Efu4Q92X0mGpD2KLPHcAM9L1VfpGOZMtj-nv05GpDFyfWLhFMwYfm5i5SYGOvIV0lDitZ22FAPjBCWBfFN7_18gvuazP5WVA/s640/Picture1.png"
 ---
 Tự sự về những ngày đã qua tại Khoa Dược...

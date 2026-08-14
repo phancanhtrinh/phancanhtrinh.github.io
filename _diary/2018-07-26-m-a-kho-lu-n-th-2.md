@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2018/07/26/m-a-kho-lu-n-th-2/
 source_url: "https://phancanhtrinh.blogspot.com/2018/07/mua-khoa-luan-thu-2.html"
-summary: "Trong bài này, Trình kể về sài gòn, một sáng bình yên cuối tháng 7, ngồi một mình ngấu nghiến chút riêng tư ở góc Sài gòn nhỏ.."
 ---
 <br>
 

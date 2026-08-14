@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2019/03/13/sinh-ra-n-l-c/
 source_url: "https://phancanhtrinh.blogspot.com/2019/03/sinh-ra-e-no-luc.html"
-summary: "Trong bài này, Trình kể về dược Khoa Đại học Đường Sài Gòn - một đêm hè tháng 3."
 ---
 Dược Khoa Đại học Đường Sài Gòn - một đêm  hè tháng 3. Mùa thanh niên.
 

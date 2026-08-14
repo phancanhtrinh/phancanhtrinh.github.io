@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/01/04/nh-ng-a-tr-l-ng/
 source_url: "https://phancanhtrinh.blogspot.com/2015/01/nhung-ua-tre-o-lang.html"
-summary: "Trong bài này, Trình kể về chúng ta chung nhau một đoạn dài tuổi thơ có lẽ vì thế mà những điều dành cho nhau luôn thuần khiết và thơ ngây đến lạ lùng."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3t3UHAtDsTw_x5CiAHAm3e40Aa17TdqgrvZgqmubId_d63yJ7dzY5hWGF_JB_Q5xFGffMcWJR4xE8Y-U5GEVA2uO34g4S46dJSD4Ze5f-TD3q5SM67elEOvAmVyU0qzd5IMAlc067sTQ/s1600/314657_581767208506692_1268101335_n.jpg"
 ---
 Chúng ta chung nhau một đoạn dài tuổi thơ có lẽ vì thế mà những điều dành cho nhau luôn thuần khiết và thơ ngây đến lạ lùng. Dù cho bao nhiêu bão giông cuộc đời, khi ngồi lại bên nhau vẫn ấm áp thương yêu.<br>
@@ -15,7 +14,7 @@ Chúng ta chung nhau một đoạn dài tuổi thơ có lẽ vì thế mà nhữ
 
 Chúng ta luôn gặp gỡ nhau theo cách khác người, chẳng giống ai trong thế hệ chúng ta – thế hệ 9x. Chẳng phải là bàn nhậu say sưa chè chén, không phải một quán cà kê lê lết nào đó. Khác đi, ta vẫn thường “ngồi lại bên nhau, kể chuyện nhau nghe” ở một góc trời nào đó, đủ bình yên để cho nhau một vé đi tuổi thơ. Đắm mình miên man trong những giai điệu, gắn bó cả thời trẻ trâu, rồi ta ru nhau bằng tiếng tàu đi về miền xa xôi ấy.
 
-<br>
+<iframe src="http://mp3.zing.vn/embed/song/IWZ96970?autostart=false" width="610" height="80" allowfullscreen="false" frameborder="0"></iframe><br>
 
 Nhiều lúc chiêm nghiệm cái khoảng trời bình yên chi lạ đó, phải may mắn lắm mới có được ở chốn đất khách. Nơi con người chen chân nhau giữa bao nhiêu xô bồ, sóng gió, nhiều lúc chẳng đủ chậm để thấy được cuộc đời đáng giá đến bao nhiêu. <br>
 

@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2019/08/03/chuy-n-n-m-n-o-c-ng-k-m-a-kh-a-lu-n-th-3/
 source_url: "https://phancanhtrinh.blogspot.com/2019/08/ChuyenNamNaoCungKe2019.html"
-summary: "Trong bài này, Trình kể về một ngày SÀIGÒN mưa dầm như chân đèo Hải Vân MÙA ĐÔNG."
 ---
 Sài Gòn, ngày... tháng... năm... <br>
 <br>

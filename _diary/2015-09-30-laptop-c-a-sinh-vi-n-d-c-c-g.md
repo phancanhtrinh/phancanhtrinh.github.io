@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/09/30/laptop-c-a-sinh-vi-n-d-c-c-g/
 source_url: "https://phancanhtrinh.blogspot.com/2015/09/laptop-cua-sinh-vien-duoc-co-gi.html"
-summary: "Trong bài này, Trình kể về câu hỏi này chính là chủ đề của buổi đầu tiên Thực tập sinh kỹ thuật lần 2."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixBZoXCdhQdSNeXsYdd7MgLhDarsm6lGVGw1MyAZRJKhmlKesbhzNatTu8E1xRHNEb2O-xa3TXlCMaBnX776brHYHkUd8v77BCZZPCcKdgEBnNlmDNYqKbQiYPQbpuRHz_jUa_7d_84UM/s640/Picture1.png"
 ---
 Câu hỏi này chính là chủ đề của buổi đầu tiên Thực tập sinh kỹ thuật lần 2. Thắc mắc này định hướng trong 5 năm học tập tại Dược khoa, bạn cần tích lũy những kỹ năng gì để không phải bơi ngộp ngộp khi ra trường và cả những ngày tháng còn là sinh viên.
@@ -40,6 +39,8 @@ Các bạn nên hình thành cho mình một phong cách slide đơn giản, đ�
 Các bạn có thể tham khảo clip sau nói về 5 nguyên tắc trong thực hiện 1 bài thuyết trình, clip được thực hiện hoàn toàn bằng powerpoint nhé:<br>
 <br>
 
+<iframe src="https://www.youtube.com/embed/hT9GGmundag" width="420" height="315" frameborder="0"></iframe>
+
 Có thật nhiều thứ nguyên tắc ABC nào đó đầy rẫy trên mạng nhưng chẳng có thứ nào bạn bắt buộc phải tuân thủ trong thiết kế slide cả; quan trọng ở cá nhân, trải nghiệm, quan điểm thẩm mỹ của bạn. Tuy nhiên, bạn nên hướng đến tính hiệu quả, hãy tự hỏi: Thông điệp tôi muốn nói ở đây là gì? Khi chiếu lên tôi muốn người ta chú ý vào phần nào? Làm thế nào để nhìn vào đây, người ta thấy tôi chuyên nghiệp?
 
 <b>4. Kỹ năng xử lý hình ảnh</b>
@@ -56,5 +57,7 @@ Xử lý máy tính bị Virus?<br>
 Cách tổ chức dữ liệu trong máy tính cho khoa học, hiệu quả?<br>
 Và còn nhiều những sự cố máy tính khác mà bạn chỉ cần gõ cụm từ trên vào google là sẽ ra hàng loạt.<br>
 Một vài dòng khó mà khái quát hết những kỹ năng tin học sinh viên cần trang bị trong 5 năm học đại học. Quan trọng là bản thân bạn trải nghiệm, suy nghĩ về nó, tự trả lời cho câu hỏi bạn cần.<br>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/2exdqO9VoPeVw7" width="595" height="485" frameborder="0"> </iframe> 
 
 Chúc các bạn thành công

@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2016/02/21/3-c-ng-c-n-gi-n-n-ng-cao-ch-t-l-ng-h-nh-nh-trong-b-i-b-o-c-o/
 source_url: "https://phancanhtrinh.blogspot.com/2016/02/3congcuxulyhinhanhchoduocsi.html"
-summary: "Trong bài này, Trình kể về chào các bạn, có lẽ khá lâu rồi mình mới bắt đầu trở lại với một bài viết mới."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUHVXCXc8yBSfO3M024mUSMs5oNCM-o9cH1pG3sn6sDalzte9MXApi_fkDQyGl8py1bCdxZ_s5SZ8i1G-Ppq8OL42AJru3URA9bl2CDuVouoOTkQv_RClp8q-lz9vAJ-ILduY73Tk9la2-/s320/2016-02-21_16-56-39.png"
 ---
 Chào các bạn, có lẽ khá lâu rồi mình mới bắt đầu trở lại với một bài viết mới. Lần này chúng ta cùng tìm hiểu một vài thủ thuật, kỹ năng mà các bạn có thể sử dụng trong những bài báo cáo. Trong bài viết này tôi xin trình bày bộ 3 công cụ mà chúng ta nên biết khi cần biên tập, xử lý hình ảnh cho các báo cáo tại cơ quan cũng như trong học tập, nghiên cứu khoa học.

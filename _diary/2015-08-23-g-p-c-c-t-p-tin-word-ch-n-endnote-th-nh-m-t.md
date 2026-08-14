@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/08/23/g-p-c-c-t-p-tin-word-ch-n-endnote-th-nh-m-t/
 source_url: "https://phancanhtrinh.blogspot.com/2015/08/gop-cac-tap-tin-word-chen-endnote-thanh.html"
-summary: "Trong bài này, Trình kể về các bạn có nhiều file Word đã chèn sẵn Endnote, làm sao để gộp chúng lại mà phần Endnote đã chèn vẫn được cập nhật."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVz-yjWC_irbM1rPN8TXAr4g7ctMxPEJ6PzUPPYkaF6fNQFluCIrq2csIer9EVdY-Z7E1jHN3qOgrivGBQdMK9GrFGdR-IVUVA5_ZsCjPIkc_SemkdgWJ774vruMojYYgCrE_hMfxlo8o/s640/Picture1.png"
 ---
 Các bạn có nhiều file Word đã chèn sẵn Endnote, làm sao để gộp chúng lại mà phần Endnote đã chèn vẫn được cập nhật.<br>

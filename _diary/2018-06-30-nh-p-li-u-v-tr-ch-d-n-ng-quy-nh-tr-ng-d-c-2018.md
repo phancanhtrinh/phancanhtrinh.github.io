@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2018/06/30/nh-p-li-u-v-tr-ch-d-n-ng-quy-nh-tr-ng-d-c-2018/
 source_url: "https://phancanhtrinh.blogspot.com/2018/06/nhap-lieu-va-trich-dan-ung-quy-inh.html"
-summary: "Trong bài này, Trình kể về cập nhật 24/07/2018 Lưu ý: Mỗi định dạng trong Endnote chỉ áp dụng cho Tiếng Anh hoặc Tiếng Việt, không thể cùng lúc đáp ứng hai yêu cầu."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKmUYZBgCypkFgFfsUMg5DXDPdUpSn771BIid8dVLJkMvJ_E8yL6r8iqTkh6DbEWbQbtI-Fy40Xwd-KMnvs-ARBfLJ0W4M69Lau40jt6gDa6_yx9vfS1FYa4fVVOIoNSj-TP8wxiqHTCY/s640/Screen+Shot+2018-06-30+at+10.17.52+PM.png"
 ---
 <b>Cập nhật 24/07/2018</b><br>

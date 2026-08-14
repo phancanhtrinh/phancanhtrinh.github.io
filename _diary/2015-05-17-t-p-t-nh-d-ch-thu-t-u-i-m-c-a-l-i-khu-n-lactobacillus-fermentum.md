@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/05/17/t-p-t-nh-d-ch-thu-t-u-i-m-c-a-l-i-khu-n-lactobacillus-fermentum/
 source_url: "https://phancanhtrinh.blogspot.com/2015/05/tap-tanh-dich-thuat-uu-iem-cua-loi.html"
-summary: "Trong bài này, Trình kể về (Bài viết đại giải tuần 2 cuộc thi \"Viết bài hay - Nhận ngay nhuận bút\" Eagle.vn) Các vi khuẩn thuộc chi Lactobacillus từ lâu đã được sử dụng phổ biến trong các chế phẩm.."
 ---
 (Bài viết đại giải tuần 2 cuộc thi "Viết bài hay - Nhận ngay nhuận bút" Eagle.vn)
 

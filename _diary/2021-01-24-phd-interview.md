@@ -6,8 +6,9 @@ categories:
   - diary
 permalink: /diary/2021/01/24/phd-interview/
 source_url: "https://phancanhtrinh.blogspot.com/2021/01/phd-interview.html"
-summary: "Trong bài này, Trình kể về buổi phỏng vấn PhD và những câu hỏi về luận văn cũng như tư duy phản biện."
 ---
 1. My master thesis 
+<iframe src="https://drive.google.com/file/d/1iIBSiRQWcBDvL_D5di2-lF-s2YWRGI9k/preview" width="100%" height="480"></iframe>
 
 2. Critical thinking on a paper
+<iframe src="https://drive.google.com/file/d/1iImcjOySs41lSBMJFd25e-_Vqcsp2gqh/preview" width="100%" height="480"></iframe>

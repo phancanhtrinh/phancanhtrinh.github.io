@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/05/17/google-scholar-button-c-ng-c-l-y-tr-ch-d-n-t-i-li-u-t-c-th-i-t-gg-scholar/
 source_url: "https://phancanhtrinh.blogspot.com/2015/05/google-scholar-button-cong-cu-lay-trich.html"
-summary: "Trong bài này, Trình kể về google vừa ra mắt ứng dụng mới tích hợp vào trình duyệt nhằm dưới dạng một nút lệnh giúp dễ dàng truy cập Google Scholar từ bất kỳ trang web nào."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmtftO0ziBTpxWLeVBJ7hzjXikTTFW3JLXFtokS8OK5JQpRazEP8xLG4Eoe_mRLS7hTPkpUV46iR7l0MfOG0kMfk9h8abTulo3UDAiKMl3KiNPyYXXJDaYhVIzLio0HIgsMs1PrAy90Ac/s640/unnamed+(3).webp"
 ---
 Google vừa ra mắt ứng dụng mới tích hợp vào trình duyệt nhằm dưới dạng một nút lệnh giúp dễ dàng truy cập Google Scholar từ bất kỳ trang web nào.<br>

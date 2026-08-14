@@ -41,6 +41,7 @@ class DiaryHTMLCleaner(HTMLParser):
         "h5",
         "h6",
         "hr",
+        "iframe",
         "img",
         "li",
         "ol",
@@ -245,7 +246,6 @@ def make_front_matter(
     date: datetime,
     permalink: str,
     source_url: str,
-    summary: str = "",
     thumbnail: str = "",
 ) -> str:
     lines = [
@@ -258,8 +258,6 @@ def make_front_matter(
         f"permalink: {permalink}",
         f"source_url: {q(source_url)}",
     ]
-    if summary:
-        lines.append(f"summary: {q(summary)}")
     if thumbnail:
         lines.append(f"thumbnail: {q(thumbnail)}")
     lines += [
@@ -287,7 +285,6 @@ def main() -> None:
         filename = f"{date:%Y-%m-%d}-{slug}.md"
         content = extract_content(entry)
         excerpt = extract_excerpt(content)
-        summary = generate_summary(title, content)
         thumbnail = extract_thumbnail(content)
         source_url = entry_permalink(entry)
         permalink = f"/diary/{date:%Y/%m/%d}/{slug}/"
@@ -296,7 +293,6 @@ def main() -> None:
             date=date,
             permalink=permalink,
             source_url=source_url,
-            summary=summary,
             thumbnail=thumbnail,
         )
         body = fm + content + "\n"

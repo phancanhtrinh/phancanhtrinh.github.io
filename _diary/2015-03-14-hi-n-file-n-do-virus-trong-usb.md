@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/03/14/hi-n-file-n-do-virus-trong-usb/
 source_url: "https://phancanhtrinh.blogspot.com/2015/03/hien-file-do-virus-trong-usb.html"
-summary: "Trong bài này, Trình kể về virus là một trong những phiền toái lớn của người dùng máy tính; những nỗi khốn đốn này thường đi kèm với anh bạn không thể không nhắc tới là chiếc USB."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgADy2Iw6PGMrnYFBXEaxfKbqHYyABjMzXLG4N7HbZx4kZ-iju_cmeDjCyBG1bSxE_WHA8126ZuP69jzIaB4bY5s9ZwuaBmoSJlfJ7ZTjsz-Zghm6BY-sf1-5yHfd7x0fm8U8sctapUtDI/s1600/13-03-2015+10-28-46+CH.jpg"
 ---
 Virus là một trong những phiền toái lớn của người dùng máy tính; những nỗi khốn đốn này thường đi kèm với anh bạn không thể không nhắc tới là chiếc USB. Lỗi thường gặp nhất là các file trong USB bị sau khi nhiễm virus, nhiều người tá hỏa lên với vấn đề này vì tưởng rằng dữ liệu của họ đã bị gặm nhấm hết. Thật ra các dữ liệu này vẫn còn ở đó chỉ là bị ẩn đi thôi. Đặc điểm các virus này thường khóa luôn chức năng hiện file trong <b>Folder Option</b> nên khó lòng lấy lại được dễ dàng. Những trường hợp cấp bách như vậy chúng ta có thể áp dụng một số cách sau:

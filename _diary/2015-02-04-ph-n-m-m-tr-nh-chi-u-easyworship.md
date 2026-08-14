@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/02/04/ph-n-m-m-tr-nh-chi-u-easyworship/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/phan-mem-trinh-chieu-easyworship.html"
-summary: "Trong bài này, Trình kể về như đã hứa với các bạn ở bài Kỹ thuật khi trình chiếu trong các sự kiện sinh viên , hôm nay mình sẽ giới thiệu một phần mềm giúp chúng ta thực hiện những thao tác tạo kịch bản.."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTeewD0EWOHE3UjZqY4ToOk1wgmAnxXlR-GQHvda1EN3UC3dgDfGQIk_xwxSeuA8I_W_6rGyWgpSFFoO-ZRVIW3NRQ76ik6R1PtfVSua53K9OU-3vSKFsDZQ_yrwOJL5Py3l7YiTczLxI/s1600/feature_Overview.png"
 ---
 Như đã hứa với các bạn ở bài <a href="http://www.phancanhtrinh.com/2015/01/ky-thuat-khi-trinh-chieu-trong-cac-su.html">Kỹ thuật khi trình chiếu trong các sự kiện sinh viên</a>, hôm nay mình sẽ giới thiệu một phần mềm giúp chúng ta thực hiện những thao tác tạo kịch bản và điều khiển các sự kiện theo kịch bản.

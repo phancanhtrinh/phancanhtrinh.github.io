@@ -54,9 +54,6 @@ categories:
 				</div>
 				<div class="diary-entry-badge">Blogger</div>
 			</div>
-			<div class="diary-entry-body">
-				{{ post.summary | strip_html | strip_newlines | normalize_whitespace | truncatewords: 42 }}
-			</div>
 			<div class="smallspacer"></div>
 			<a class="off contact-map-link" href="{{ post.url }}">
 				<i class="fa fa-arrow-right fa-fw"></i> Read full entry

@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/06/19/ph-n-chia-t-i-li-u-ti-ng-vi-t-ri-ng-t-i-li-u-ti-ng-anh-ri-ng-trong-endnote/
 source_url: "https://phancanhtrinh.blogspot.com/2015/06/phan-chia-tai-lieu-tieng-viet-rieng-tai.html"
-summary: "Trong bài này, Trình kể về đối với các định dạng trích dẫn Việt Nam yêu cầu phân chia tài liệu Tiếng Việt riêng, tài liệu tiếng nước ngoài riêng."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsuI3IdjDCPuhxwV-ZDNZpNl-ouM6nhFHVZnO4l6J4TALU6vNw46_TPyX1CZ5KrJ4v_DiTUYk40AqdGDNETXFAUFQMT_PoQYarvKMZ1qRgqX2HMHwWSwoiFS5tQ2m_yNYQwvKuqvImFPM/s640/Picture1.png"
 ---
 Đối với các định dạng trích dẫn Việt Nam yêu cầu phân chia tài liệu Tiếng Việt riêng, tài liệu tiếng nước ngoài riêng. Để thực hiện việc này, chúng ta bắt đầu từ bước nhập dữ liệu trong EndNote. 

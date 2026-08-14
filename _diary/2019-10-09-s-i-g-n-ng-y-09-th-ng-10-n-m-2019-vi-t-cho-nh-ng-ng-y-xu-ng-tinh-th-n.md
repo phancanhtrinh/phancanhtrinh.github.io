@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2019/10/09/s-i-g-n-ng-y-09-th-ng-10-n-m-2019-vi-t-cho-nh-ng-ng-y-xu-ng-tinh-th-n/
 source_url: "https://phancanhtrinh.blogspot.com/2019/10/sai-gon-ngay-09-thang-10-nam-2019-viet.html"
-summary: "Trong bài này, Trình kể về giờ mình hiểu được rồi, Làm chuyên môn có lẽ là điều dễ dàng nhất và cũng là điều mình hạnh phúc nhất."
 ---
 Giờ mình hiểu được rồi,
 

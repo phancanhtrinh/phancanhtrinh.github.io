@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/11/11/ng-i-tr-c-a-h-n-n-a-th-k-tr-c/
 source_url: "https://phancanhtrinh.blogspot.com/2015/11/nguoi-tre-cua-hon-nua-ky-truoc.html"
-summary: "Trong bài này, Trình kể về vô tình gặp cuốn sách \"Đường vào khoa học của tôi\" - Cố GS."
 ---
 Vô tình gặp cuốn sách "Đường vào khoa học của tôi" - Cố GS. Tôn Thất Tùng do một bạn đọc đánh máy lại. Tôi đã đọc ngấu nghiên hơn trăm trang sách ấy, hơn trăm trang tái hiện cả bao nhiêu ẩn ức của gần một đời người làm khoa học.
 

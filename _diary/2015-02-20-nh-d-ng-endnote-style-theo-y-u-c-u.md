@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/02/20/nh-d-ng-endnote-style-theo-y-u-c-u/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/inh-dang-endnote-style-theo-yeu-cau.html"
-summary: "Trong bài này, Trình kể về cập nhật cách sửa lỗi định dạng sai danh mục tài liệu 08.01.2016."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSSdUciXvPHKP5aive5DMqPNVsNf-xAYh-a8JwV4lnJQOp3-lnI-Y0eSn8gQhHwxTgwTO1EnKCwxP1QcDFYyQJmbSpTyoy_s4XQ0hgFb5dVf5nwVmbT2bOVnpwfpLW4QtyoTcHjOFG1nU/s640/ssa.png"
 ---
 <b>Ghi chú</b><br>

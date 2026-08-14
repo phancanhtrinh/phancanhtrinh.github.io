@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/02/24/m-t-v-i-vi-c-hay-l-m-tr-c-khi-in-slide-powerpoint/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/mot-vai-viec-hay-lam-truoc-khi-in-slide.html"
-summary: "Trong bài này, Trình kể về hầu hết các tài liệu sử dụng cho học tập đều dưới dạng slide bài giảng của các thầy cô, tuy nhiên trong một tài liệu powerpoint gồm cả chữ, hình ảnh màu sắc khác nhau, đậm nhạt.."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzM0yjMoSBDGRBOk73Kfl_ztvba8xOp8XuhpYrmQtpE5lay_z9LivT9rrj2Ta2lRCRwAMRlkv0fcdoZlwh2J88rAbReP0p5Ni9F3O7lcpSoJmmPXqp_RdhXHQQEZ9R5P1L1clTkPiXvgk/s1600/24-02-2015+8-06-02+CH.jpg"
 ---
 Hầu hết các tài liệu sử dụng cho học tập đều dưới dạng slide bài giảng của các thầy cô, tuy nhiên trong một tài liệu powerpoint gồm cả chữ, hình ảnh màu sắc khác nhau, đậm nhạt khác nhau, thậm chí một số hình ảnh màu tối. Nếu chúng ta in nguyên trạng thì hẳn là cầm trên tay một slide với những mảng đen khó chịu, chữ thì có chữ được chữ mất. Do đó, trước khi in nó ra, hãy chăm chút một tí để đạt hiệu quả về sau.

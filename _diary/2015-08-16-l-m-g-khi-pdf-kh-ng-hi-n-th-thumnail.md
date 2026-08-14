@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/08/16/l-m-g-khi-pdf-kh-ng-hi-n-th-thumnail/
 source_url: "https://phancanhtrinh.blogspot.com/2015/08/lam-gi-khi-pdf-khong-hien-thi-thumnail.html"
-summary: "Trong bài này, Trình kể về lưu ý: Nội dung bài viết áp dụng cho window 32 bit Một ngày nào đó vì lý do ngựa, bạn đã vọc máy tính bằng việc cài lại phần mềm, cài lại hệ điều hành.."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3P0g-p_huNudrDXu2eCsavjQfn4_hrTyrf8NrY8oARRZgKhaNL18TzMypQ51JL0S86z1O0N_PL8fxMWTELRUgrzcUYv0vBIMgcKoosdw-qkeo5YmxfbuX99eUGS3m_mjkLVSTkNJVIRQ/s640/Picture1.png"
 ---
 <b>Lưu ý: Nội dung bài viết áp dụng cho window 32 bit</b>

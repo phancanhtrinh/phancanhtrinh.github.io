@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2016/01/29/d-c-s-ch-n-prezi-sway-hay-powerpoint/
 source_url: "https://phancanhtrinh.blogspot.com/2016/01/duoc-si-chon-prezi-sway-hay-powerpoint.html"
-summary: "Trong bài này, Trình kể về dược sĩ chúng ta ra trường dù làm trong bất cứ lĩnh vực nào đi chăng nữa cũng không ít lần cần phải thuyết trình."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCnP-tCQN0L9k5-EbfOB1pqXh1NwUFn26RnDAFzDJ4IXXoB4CrYGpWaizlM86Atm17nq1EKAvgYwSlA-Pj0k8eu_ctwso8QNM8hGb3dO9XmAepk_f9uCzJ1ETKfy9AN6cVqa8cXfUrndU/s640/maxresdefault.jpg"
 ---
 Dược sĩ chúng ta ra trường dù làm trong bất cứ lĩnh vực nào đi chăng nữa cũng không ít lần cần phải thuyết trình. Đặc biệt là các anh chị đang hoạt động trong mảng Dược bệnh viện, Dược lâm sàng, Nghiên cứu giảng dạy thì kỹ năng thiết kế, trình bày một bài thuyết trình cần hơn bao giờ hết. Hiện tại nổi lên khá nhiều ứng dụng cho phép chúng ta tạo một bài trình chiếu; trong đó nổi bật với Prezi, Sway và PowerPoint. Đầu tiên tôi xin phép điểm qua ba cái tên này.

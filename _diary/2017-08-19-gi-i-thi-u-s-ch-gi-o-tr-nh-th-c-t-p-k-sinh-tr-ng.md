@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2017/08/19/gi-i-thi-u-s-ch-gi-o-tr-nh-th-c-t-p-k-sinh-tr-ng/
 source_url: "https://phancanhtrinh.blogspot.com/2017/08/gioi-thieu-sach-giao-trinh-thuc-tap-ky.html"
-summary: "Trong bài này, Trình kể về đây là cuốn sách được tổng hợp từ kinh nghiệm giảng dạy và nghiên cứu nhiều năm về Ký sinh trùng và Vi nấm học của Bộ môn Vi sinh - Ký sinh, Khoa Dược - Đại học Y Dược TP."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijM9HD9XYTL04AgiSHmyhOwqfKqQYB0-BPJyvPpcugyC7jpLGXquNw1iNOrG6MEk4CmJcEZyevoznUWaSrjR_CJaewcYq4ryx0f1GBDw26MzWxNO3SnafvMC73cRCnMVra52G5B6z4fmRH/s640/Giao+trinh+TT+KST+2017.jpg"
 ---
 Đây là cuốn sách được tổng hợp từ kinh nghiệm giảng dạy và nghiên cứu nhiều năm về Ký sinh trùng và Vi nấm học của Bộ môn Vi sinh - Ký sinh, Khoa Dược - Đại học Y Dược TP. Hồ Chí Minh, thiết kế phù hợp cho nội dung giảng dạy ngành Dược.

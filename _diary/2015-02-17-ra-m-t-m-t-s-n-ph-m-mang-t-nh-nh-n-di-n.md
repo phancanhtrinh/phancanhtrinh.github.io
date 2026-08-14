@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/02/17/ra-m-t-m-t-s-n-ph-m-mang-t-nh-nh-n-di-n/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/nhandienthuonghieu2015.html"
-summary: "Trong bài này, Trình kể về chuẩn bị từ những ngày cuối năm, tích cực, tích cực lắm cho một diện mạo mới của Tôi 2.0."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrgoHgHj0RRKkqMVJqP79UYz7G5cLu0ZZUqE58UoJIUNwlr5WqEKQ_dP4kDNO-glZRtWjJIuwvgobLPnF6w1vdITBvDXjUWtfWUdMi8ItVLireAtbenXCxYJ576DHrWRJZU8FD57CdPyg/s1600/lo.png"
 ---
 Ngày 29 Tết!<br>

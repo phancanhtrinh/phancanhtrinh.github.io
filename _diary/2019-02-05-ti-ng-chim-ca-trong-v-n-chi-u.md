@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2019/02/05/ti-ng-chim-ca-trong-v-n-chi-u/
 source_url: "https://phancanhtrinh.blogspot.com/2019/02/tieng-chim-ca-trong-vuon-chieu.html"
-summary: "Trong bài này, Trình kể về #29Tết Chim ca trong vườn chiều gọi nó mở cánh cửa nhỏ nơi gác xép."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLQMQMb7qV2wrJiotD2zB_iVFldKu5D1weYeXP_u-xQ3FiWLozW_yYug8bg76gejWCJgWM3sM3HQfQMy8zGGcgnMn6bO_waKxqjw5EwpsGTQxqk6B-OspYprIKctVU6Jk2Frz2HMXaVQgZ/s640/D90FA07B-D39D-4AF5-922F-616A6CE739DE.jpeg"
 ---
 #29Tết<br>

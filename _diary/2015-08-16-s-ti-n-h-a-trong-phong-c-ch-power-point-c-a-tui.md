@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/08/16/s-ti-n-h-a-trong-phong-c-ch-power-point-c-a-tui/
 source_url: "https://phancanhtrinh.blogspot.com/2015/08/su-tien-hoa-trong-phong-cach-power.html"
-summary: "Trong bài này, Trình kể về tôi được làm quen với tin học từ lớp 7 và chống chịu với bộ môn này một cách quằng quại trong suốt 3 năm cấp 2."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMr-eCL5hNXiUIyen9_HJG__73VmF3D-I_aTy0uo3qIlvXJGeaqixpU3l7xc9U-YuzeFLh18o6gDI_9sbvxFRon9d6Hnx2y196m05NR9bidcKY0QxDEyNbcwN6vt4BTQsGFtS4ZHBuB_U/s400/Slide1.JPG"
 ---
 Tôi được làm quen với tin học từ lớp 7 và chống chịu với bộ môn này một cách quằng quại trong suốt 3 năm cấp 2. Không có công cụ thực hành, mỗi giờ tin học với tôi là cả đống tra tấn, sợ hãi. Để đối phó với kỳ thi và những bài kiểm tra, tôi đành phải thực hành bằng cách nhớ và vẽ lại các cửa sổ làm việc. Ngày qua ngày, vào Quốc học, tôi được sắm một cái máy tính, nhưng lúc đó trình độ vẫn là thằng gà từ làng lên thôi.
@@ -33,21 +32,27 @@ Thời này tôi còn sử dụng những thứ kỹ thuật tân thời hơn, P
 
 Phải nói là một bài Slide lúc này nó lên gần 40-50 MB. Một con số khủng của thời USB 128 MB đang thịnh.
 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/46MljECdOSXYtE" width="425" height="355" frameborder="0"> </iframe> 
+
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCFHMMlmwE3nmxuR9EMEVPUJ_tQhuxZIKINm6TLj3kI5Np8zNej9QCChgySlm36K65WewUkcaQoWnhI_FK3Nqd_hQZsOArF0Us8p3BOE6uT9c1BhUTSR1tuzCa5aACLOlyhZ5DSbjhbok/s640/Picture1.png" width="640" height="400">
 
 <b>Phiên bản Office 2010:</b>
 
 Không có nhiều thay đổi đáng kể, chỉ bổ sung thêm một số animation, transition mới, themplate mới, tất nhiên là tôi khai thác triệt để các tính năng này. Bài thuyết trình vẫn màu mè sến súa, nhưng nhìn chuyên nghiệp hơn.
 
-<br>
+<iframe src="https://www.youtube.com/embed/rG_bgXGVDSY" width="420" height="315" frameborder="0"></iframe><br>
 
 <br>
+
+<iframe src="https://www.youtube.com/embed/U42G-qVQi-s" width="420" height="315" frameborder="0"></iframe>
 
 <b>Phiên bản 2013, 2016:</b>
 
 Bước sang một phiên bản mới, đánh dấu sự chuyên nghiệp hẳn hoi của Office về các tính năng, đồng thời cũng là giai đoạn tôi có nhiều trưởng thành trong việc thiết kế slide. Tư duy thiết kế là điều quan trọng. Tư duy này yêu cầu người thiết kế đặt tính hiệu quả của nội dung slide lên hàng đầu, sao cho slide tạo ra chuyển tải đủ, chính xác nội dung, không gây xao nhãn mà vẫn ấn tượng.
 
 Ngày xưa, tôi cũng được học những nguyên tắc trong thiết kế Power Point, nhưng chưa hề thấy được tầm quan trọng của nó, có một suy nghĩ nông cạn rằng, việc tuân thủ điều đó rất nhảm.
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/NgOmr3sRqH0WyU" width="560" height="355" frameborder="0"> </iframe> 
 
 Bây giờ, tôi cảm nhận được giá trị của các nguyên tắc đó, rút ra cái riêng cho bản thân mình:<br>
 1. Thiết kế trước Slide Master - Thường mang tính thương hiệu, không nên thay đổi tùy tiện<br>
@@ -56,10 +61,10 @@ Bây giờ, tôi cảm nhận được giá trị của các nguyên tắc đó,
 4. Tối thiểu hóa chữ, tuy nhiên lúc cần cung cấp thông tin hoặc slide handout không nên quá kiệm chữ <br>
 5. Cấu trúc tiêu đề không được quá phức tạp
 
- <br>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/2NpkLLlTQRwufh" width="560" height="355" frameborder="0"> </iframe><br>
 <br>
 
- <br>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/wrUtHHwWd8CFRI" width="560" height="355" frameborder="0"> </iframe><br>
 
 Ngày nay, không còn là những slide màu mè, nhiều ảnh động, clip art.
 

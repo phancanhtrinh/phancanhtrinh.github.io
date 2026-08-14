@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/02/14/x-h-ng-ng-y-gi-p-t-t/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/xa-hang-ngay-giap-tet.html"
-summary: "Trong bài này, Trình kể về nhân những ngày cuối năm dọn dẹp máy tính, điện thoại phát hiện ra mình còn cất giữ nhiều nhiều thứ mà chưa lật ra xem lại bao giờ."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvU3YzLAl5YvAiUL-khlXxp0AHrLvUUPJADH1s-5shq-IbAMJzEZtfTKXqCV7V0Grcg1CoJjZeGKPMFnJb2zUpDAXhJj_lX-yA6pgiVV31vKn9jvLEuPDAH5C3w-FqktdzU_jWtI9eX2E/s1600/WP_001167.png"
 ---
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvU3YzLAl5YvAiUL-khlXxp0AHrLvUUPJADH1s-5shq-IbAMJzEZtfTKXqCV7V0Grcg1CoJjZeGKPMFnJb2zUpDAXhJj_lX-yA6pgiVV31vKn9jvLEuPDAH5C3w-FqktdzU_jWtI9eX2E/s1600/WP_001167.png" width="640" height="172"><br>

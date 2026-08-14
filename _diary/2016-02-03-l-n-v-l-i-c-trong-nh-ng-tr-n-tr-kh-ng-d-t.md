@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2016/02/03/l-n-v-l-i-c-trong-nh-ng-tr-n-tr-kh-ng-d-t/
 source_url: "https://phancanhtrinh.blogspot.com/2016/02/lan-ve-loi-cu-trong-nhung-tran-tro.html"
-summary: "Trong bài này, Trình kể về tôi đang ngồi trên chuyến tàu của những kẻ tha hương, mỗi năm lại có hai lần như thế này, hai lần những kẻ đồng bệnh vật vờ trên chuyến tàu chở theo chuyến đời."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRbyfQYU8ElWlHUnSzDiTZSNaEQuPoxT3iUCMIwhQ44USgJBLqCU-YJn4RRYT6T2cXmeKaM5GPBtI7AgLzTGjk5GpOe7gEcHl9-Ap6YLFbNRarhXoCm63XpgGrN3hv-qtNBG06HzdR4wg/s640/ct.jpg"
 ---
 Tôi đang ngồi trên chuyến tàu của những kẻ tha hương, mỗi năm lại có hai lần như thế này, hai lần những kẻ đồng bệnh vật vờ trên chuyến tàu chở theo chuyến đời. Ngày ra đi, ai chẳng mang trong lòng ước mơ và hoài bão, bước đi trong bộn bề những trăn trở vì lý tưởng đời mình, tôi cũng chẳng nằm ngoài dòng chảy chênh vênh đó.

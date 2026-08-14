@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/02/14/th-6-ng-y-13-v-m-t-m-x-c-su-t-th-ng-k/
 source_url: "https://phancanhtrinh.blogspot.com/2015/02/thu-6-ngay-13-va-mot-mo-xac-suat-thong.html"
-summary: "Trong bài này, Trình kể về hôm nay, thứ sáu, ngày 13."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5CrEMiNQYbTV1SqLAZIkDAY8ep52VC6VXQUbUz4dJxGlDVfmxd2NAcfHe9PwMmN6Sep_XrEACGXqXbDpY3JW4xpQGjOz3cK_eWp-d_wMlulVjwDIzWLh8T4fzUkdv51Q1YS3Q47ivYYQ/s1600/StatisticsHeader1.png"
 ---
 Hôm nay, thứ sáu, ngày 13. Một ngày tháng chạp, tính chừng 4,5 ngày nữa là Tết.

@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2018/07/12/heading-trong-word-b-m-ng-en-bi-t-ph-i-l-m-sao/
 source_url: "https://phancanhtrinh.blogspot.com/2018/07/heading-trong-word-bi-mang-en-biet-phai.html"
-summary: "Trong bài này, Trình kể về một ngày đẹp trời Khoá luận của bạn mở lên và Heading bị đen lại."
 thumbnail: "http://social.technet.microsoft.com/Forums/getfile/174029"
 ---
 Một ngày đẹp trời Khoá luận của bạn mở lên và Heading bị đen lại.

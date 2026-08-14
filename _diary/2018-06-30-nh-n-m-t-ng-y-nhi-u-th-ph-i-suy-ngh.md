@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2018/06/30/nh-n-m-t-ng-y-nhi-u-th-ph-i-suy-ngh/
 source_url: "https://phancanhtrinh.blogspot.com/2018/06/nhan-mot-ngay-nhieu-thu-phai-suy-nghi.html"
-summary: "Trong bài này, Trình kể về bước chân vào trường Dược với mình như một mối nhân duyên, và mình đã lỡ yêu nghề nhiều lúc bỏ quên cuộc sống bản thân.."
 ---
 Bước chân vào trường Dược với mình như một mối nhân duyên, và mình đã lỡ yêu nghề nhiều lúc bỏ quên cuộc sống bản thân...
 
@@ -19,6 +18,6 @@ Sài Gòn, một ngày cuối tháng 6!
 
 <br>
 
-<br>
+<iframe src="https://www.youtube.com/embed/YUAmi7Q2F0Y" width="560" height="315" allow="autoplay; encrypted-media" frameborder="0"></iframe><br>
 
 <br>

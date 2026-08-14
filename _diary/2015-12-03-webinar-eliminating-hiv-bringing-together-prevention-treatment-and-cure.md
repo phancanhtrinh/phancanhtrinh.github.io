@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/12/03/webinar-eliminating-hiv-bringing-together-prevention-treatment-and-cure/
 source_url: "https://phancanhtrinh.blogspot.com/2015/12/webinar-eliminating-hiv-bringing.html"
-summary: "Trong bài này, Trình kể về nhân ngày thế giới phòng chống HIV/AIDS 1/12/2015, hội thảo trực tuyến về phòng ngừa, điều trị và loại bỏ HIV đã được tổ chức bởi tạp chí nature."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnwr8oF6Ws-d6DamjEZvK_YdwiVNZBDDDwT2XGT3rHs_yRdBmjdGn_ED0oW9kAy9RKGdwG229ghcHDw1E5HXJYMDCBNl8INJOOvYwV_zmV6_6iGhu4x2CQWRSK7xYln8Zs9jgNSTgmEg/s640/CVIrW-DVEAAjrYq.jpg"
 ---
 Nhân ngày thế giới phòng chống HIV/AIDS 1/12/2015, hội thảo trực tuyến về phòng ngừa, điều trị và loại bỏ HIV đã được tổ chức bởi tạp chí nature.

@@ -6,7 +6,6 @@ categories:
   - diary
 permalink: /diary/2015/10/25/internet-of-things-thay-i-c-ch-con-ng-i-ch-m-s-c-s-c-kh-e/
 source_url: "https://phancanhtrinh.blogspot.com/2015/10/internet-of-things-thay-oi-cach-con.html"
-summary: "Trong bài này, Trình kể về \"Internet of Things\" (IoT) là một xu hướng công nghệ táo bạo trong những năm trở lại đây."
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8RIxVCjhk8rrS2ZeiQM_C1Lm4G7WGUJCCEdUov_PhQpCIBPblRl7VYGKvGE62gG5G49EtplhqrbRcbSd2q5RSfntY_9LjAsHEU8urYL1jHLXzB-V6X33qklgj5dkT-JW8ab2qws2AA6Y/s400/How-Big-Will-The-Internet-of-Things-Be-header.jpg"
 ---
 <b>"Internet of Things" (IoT) </b>là một xu hướng công nghệ táo bạo trong những năm trở lại đây. Với mong muốn kết nối vạn vật vào một hệ thống chung có khả năng truyền tải, chia sẻ thông tin an toàn các nhà khoa học đã và đang tích cực biến những điều trong phim khoa học viễn tưởng thành hiện thực.
