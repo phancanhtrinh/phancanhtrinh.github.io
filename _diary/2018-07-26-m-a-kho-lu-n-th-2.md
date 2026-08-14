@@ -1,11 +1,12 @@
 ---
-layout: post
-title: 'Mùa khoá luận thứ 2'
+layout: diary_post
+title: "Mùa khoá luận thứ 2"
 date: 2018-07-26T11:53:00.002000+07:00
 categories:
   - diary
 permalink: /diary/2018/07/26/m-a-kho-lu-n-th-2/
-source_url: https://phancanhtrinh.blogspot.com/2018/07/mua-khoa-luan-thu-2.html
+source_url: "https://phancanhtrinh.blogspot.com/2018/07/mua-khoa-luan-thu-2.html"
+summary: "<div style=\"text-align: justify;\">\n\n\n\n<br />\n<div class=\"p1\">\n<span class=\"s1\"><span style=\"font-size: small;\">Sài gòn, một sáng bình yên cuối tháng 7, ngồi một mình ngấu nghiến chút riêng tư ở góc Sài gòn nhỏ... Sáng hiếm hoi trong chuỗi ngày dài sống vội, nay là lúc suy nghĩ và viết chút gì đó cho những ngày tháng thanh xuân tất bật với đam mê.<br />\n</span></span></div>\n<div class=\"p1\">\n<span class=\"s1\"><span style=\"font-size: small;\"><br /></span></span></div>\n<div class=\"p1\">\n<span class=\"s"
 ---
 <div style="text-align: justify;">
 

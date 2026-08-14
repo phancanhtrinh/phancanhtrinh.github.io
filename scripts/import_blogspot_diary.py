@@ -44,6 +44,26 @@ def extract_content(entry: dict) -> str:
     return clean_html(content)
 
 
+def extract_excerpt(content: str) -> str:
+    marker = "<a name='more'></a>"
+    if marker in content:
+        return content.split(marker, 1)[0].strip()
+    marker = '<a name="more"></a>'
+    if marker in content:
+        return content.split(marker, 1)[0].strip()
+    return content.strip()
+
+
+def extract_thumbnail(content: str) -> str:
+    match = re.search(r'<img[^>]+src="([^"]+)"', content, flags=re.I)
+    if match:
+        return match.group(1)
+    match = re.search(r"<img[^>]+src='([^']+)'", content, flags=re.I)
+    if match:
+        return match.group(1)
+    return ""
+
+
 def entry_date(entry: dict) -> datetime:
     published = entry.get("published", {}).get("$t") or entry.get("updated", {}).get("$t")
     return datetime.fromisoformat(published.replace("Z", "+00:00"))
@@ -56,21 +76,37 @@ def entry_permalink(entry: dict) -> str:
     return ""
 
 
-def make_front_matter(title: str, date: datetime, permalink: str, source_url: str) -> str:
-    return "\n".join(
-        [
-            "---",
-            "layout: post",
-            f"title: {title!r}",
-            f"date: {date.isoformat()}",
-            "categories:",
-            "  - diary",
-            f"permalink: {permalink}",
-            f"source_url: {source_url}",
-            "---",
-            "",
-        ]
-    )
+def q(value: str) -> str:
+    return json.dumps(value, ensure_ascii=False)
+
+
+def make_front_matter(
+    title: str,
+    date: datetime,
+    permalink: str,
+    source_url: str,
+    summary: str = "",
+    thumbnail: str = "",
+) -> str:
+    lines = [
+        "---",
+        "layout: diary_post",
+        f"title: {q(title)}",
+        f"date: {date.isoformat()}",
+        "categories:",
+        "  - diary",
+        f"permalink: {permalink}",
+        f"source_url: {q(source_url)}",
+    ]
+    if summary:
+        lines.append(f"summary: {q(summary)}")
+    if thumbnail:
+        lines.append(f"thumbnail: {q(thumbnail)}")
+    lines += [
+        "---",
+        "",
+    ]
+    return "\n".join(lines)
 
 
 def main() -> None:
@@ -90,9 +126,19 @@ def main() -> None:
         slug = slugify(title)
         filename = f"{date:%Y-%m-%d}-{slug}.md"
         content = extract_content(entry)
+        excerpt = extract_excerpt(content)
+        thumbnail = extract_thumbnail(content)
         source_url = entry_permalink(entry)
         permalink = f"/diary/{date:%Y/%m/%d}/{slug}/"
-        body = make_front_matter(title, date, permalink, source_url) + content + "\n"
+        fm = make_front_matter(
+            title=title,
+            date=date,
+            permalink=permalink,
+            source_url=source_url,
+            summary=excerpt[:500] if excerpt else "",
+            thumbnail=thumbnail,
+        )
+        body = fm + content + "\n"
         (DIARY_DIR / filename).write_text(body, encoding="utf-8")
 
 

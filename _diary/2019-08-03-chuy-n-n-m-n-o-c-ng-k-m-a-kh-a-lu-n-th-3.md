@@ -1,11 +1,12 @@
 ---
-layout: post
-title: 'Chuyện năm nào cũng kể - Mùa khóa luận thứ 3'
+layout: diary_post
+title: "Chuyện năm nào cũng kể - Mùa khóa luận thứ 3"
 date: 2019-08-03T18:47:00+07:00
 categories:
   - diary
 permalink: /diary/2019/08/03/chuy-n-n-m-n-o-c-ng-k-m-a-kh-a-lu-n-th-3/
-source_url: https://phancanhtrinh.blogspot.com/2019/08/ChuyenNamNaoCungKe2019.html
+source_url: "https://phancanhtrinh.blogspot.com/2019/08/ChuyenNamNaoCungKe2019.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"font-family: \"courier new\" , \"courier\" , monospace; font-size: large;\">Sài Gòn, ngày... tháng... năm... </span><br />\n<span style=\"font-family: \"courier new\" , \"courier\" , monospace; font-size: large;\"><br /></span>\n<span style=\"font-family: \"courier new\" , \"courier\" , monospace; font-size: large;\">Mùa của 2019! </span><br />\n<br />\n<span style=\"font-family: \"courier new\" , \"courier\" , monospace; font-size: large;\">Một ngày SÀIGÒN mưa dầm như chân "
 ---
 <div style="text-align: justify;">
 <span style="font-family: "courier new" , "courier" , monospace; font-size: large;">Sài Gòn, ngày... tháng... năm... </span><br />

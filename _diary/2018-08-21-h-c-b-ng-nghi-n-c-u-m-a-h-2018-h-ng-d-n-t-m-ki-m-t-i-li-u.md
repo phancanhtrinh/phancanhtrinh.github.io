@@ -1,11 +1,12 @@
 ---
-layout: post
-title: 'Học bổng nghiên cứu mùa hè 2018 - Hướng dẫn tìm kiếm tài liệu'
+layout: diary_post
+title: "Học bổng nghiên cứu mùa hè 2018 - Hướng dẫn tìm kiếm tài liệu"
 date: 2018-08-21T07:30:00+07:00
 categories:
   - diary
 permalink: /diary/2018/08/21/h-c-b-ng-nghi-n-c-u-m-a-h-2018-h-ng-d-n-t-m-ki-m-t-i-li-u/
-source_url: https://phancanhtrinh.blogspot.com/2018/08/hoc-bong-nghien-cuu-mua-he-2018-huong.html
+source_url: "https://phancanhtrinh.blogspot.com/2018/08/hoc-bong-nghien-cuu-mua-he-2018-huong.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"font-family: Courier New, Courier, monospace;\">Slide này cập nhật phiên bản 2017 và bổ sung tài liệu của WHO, Research4Life cuối slide.</span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-family: Courier New, Courier, monospace;\"><br /></span></div>\n<div style=\"text-align: center;\">\n<span style=\"font-family: Courier New, Courier, monospace;\"> </span></div>\n<div style=\"margin-bottom: 5px;\">\n<div style=\"text-align: justify;\">\n<span styl"
 ---
 <div style="text-align: justify;">
 <span style="font-family: Courier New, Courier, monospace;">Slide này cập nhật phiên bản 2017 và bổ sung tài liệu của WHO, Research4Life cuối slide.</span></div>

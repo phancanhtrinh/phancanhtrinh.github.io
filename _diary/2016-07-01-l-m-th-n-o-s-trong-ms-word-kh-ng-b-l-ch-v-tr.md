@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Làm thế nào để sơ đồ trong MS Word không bị lệch vị trí'
+layout: diary_post
+title: "Làm thế nào để sơ đồ trong MS Word không bị lệch vị trí"
 date: 2016-07-01T19:18:00.004000+07:00
 categories:
   - diary
 permalink: /diary/2016/07/01/l-m-th-n-o-s-trong-ms-word-kh-ng-b-l-ch-v-tr/
-source_url: https://phancanhtrinh.blogspot.com/2016/07/ve-luu-o-trong-word-voi-autoshape.html
+source_url: "https://phancanhtrinh.blogspot.com/2016/07/ve-luu-o-trong-word-voi-autoshape.html"
+summary: "<div style=\"text-align: justify;\">\nLàm việc với Autoshape trong MS Word để thiết kế một lưu đồ thường khá khó khăn vì chúng ta không cố định được dễ dàng các đối tượng. Với các phiên bản cũ từ Office 2007 trở về trước MS cung cấp cho chúng ta công cụ đi kèm để biên tập các đối tượng hình ảnh dưới dạng chèn Object. Các phiên bản sau này MS đã bỏ tính năng này và thay vào đó chức năng Canvas để tạo ra một khu làm việc tùy biến cho hình ảnh và shapes. Hãy cùng tìm hiểu chức năng này qua bài viết sa"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5vs_h6NeqtPCkhSjtETPqcTafIZvuZH_qcw6imcOBXOiENxWbavbkIV2ICKf2KghdOIs7JQrYQd7YkqFjFt7o34six0Ho9bXoTkTWSFYdW98EWTiRyDGshYg2_9Ecw_WS3D9HvBVNI7Y/s1600/2016-07-01_15-48-48.png"
 ---
 <div style="text-align: justify;">
 Làm việc với Autoshape trong MS Word để thiết kế một lưu đồ thường khá khó khăn vì chúng ta không cố định được dễ dàng các đối tượng. Với các phiên bản cũ từ Office 2007 trở về trước MS cung cấp cho chúng ta công cụ đi kèm để biên tập các đối tượng hình ảnh dưới dạng chèn Object. Các phiên bản sau này MS đã bỏ tính năng này và thay vào đó chức năng Canvas để tạo ra một khu làm việc tùy biến cho hình ảnh và shapes. Hãy cùng tìm hiểu chức năng này qua bài viết sau nhé.<br />

@@ -299,6 +299,76 @@ p {
   height: auto;
 }
 
+.diary-grid {
+  row-gap: 22px;
+}
+
+.diary-card {
+  height: 100%;
+}
+
+.diary-card-thumb-link {
+  display: block;
+  margin: 12px 0;
+}
+
+.diary-card-thumb,
+.diary-post-thumb {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+}
+
+.diary-post {
+  padding-bottom: 20px;
+}
+
+.diary-post-kicker {
+  margin-bottom: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.diary-post-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.diary-post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  color: $gray-light;
+  font-size: 13px;
+}
+
+.diary-post-card {
+  border: 1px solid #e4e4e4;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #fff, #fbfbfb);
+  padding: 18px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.03);
+}
+
+.diary-post-summary {
+  color: $gray;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.diary-post-body img,
+.diary-post-body iframe,
+.diary-post-body video {
+  max-width: 100%;
+}
+
+.diary-post-body iframe {
+  width: 100%;
+  min-height: 360px;
+}
+
 a.off {
 	color: inherit;
 }

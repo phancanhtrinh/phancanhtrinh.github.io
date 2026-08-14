@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Chấp nhận sự khác biệt'
+layout: diary_post
+title: "Chấp nhận sự khác biệt"
 date: 2015-01-03T16:58:00+07:00
 categories:
   - diary
 permalink: /diary/2015/01/03/ch-p-nh-n-s-kh-c-bi-t/
-source_url: https://phancanhtrinh.blogspot.com/2015/01/chap-nhan-su-khac-biet.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/01/chap-nhan-su-khac-biet.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;\">Vài tháng trước đây, mình đã đọc một câu chuyện kể về người thầy dạy học trò cách bảo vệ thành quả lao động của mình. Ừ, có lẽ mình phải học điều đó. Quăng mọi lo nghĩ về bài báo cáo sang một bên và tập trung vào những mục tiêu khác của bản thân.</span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-family: Helvetica Neue, Arial, Helvetica, sans-serif;\">Mình đã công tác tại n"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfnqsuANoUDfAkfCjLAAOniEdQynzg9gpNAUx6CbGaqmbm_GgnqUTG0dLoFVzpgM_TpLacHGte9r4huePMzuoSOUTRIWJEDSQ45CoCjzZgE5U9OKkuoCfc3crNyoSe6_bDiwUPoYGkN5Y/s1600/20141102170941-khacbiet2.jpg"
 ---
 <div style="text-align: justify;">
 <span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Vài tháng trước đây, mình đã đọc một câu chuyện kể về người thầy dạy học trò cách bảo vệ thành quả lao động của mình. Ừ, có lẽ mình phải học điều đó. Quăng mọi lo nghĩ về bài báo cáo sang một bên và tập trung vào những mục tiêu khác của bản thân.</span></div>

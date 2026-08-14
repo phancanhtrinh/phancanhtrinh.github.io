@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Tự động hóa định dạng văn bản với Word [Kỳ 2]'
+layout: diary_post
+title: "Tự động hóa định dạng văn bản với Word [Kỳ 2]"
 date: 2015-01-13T01:27:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/01/13/t-ng-h-a-nh-d-ng-v-n-b-n-v-i-word-k-2/
-source_url: https://phancanhtrinh.blogspot.com/2015/01/tu-ong-hoa-inh-dang-van-ban-voi-word-ky.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/01/tu-ong-hoa-inh-dang-van-ban-voi-word-ky.html"
+summary: "<div class=\"MsoNormal\">\n<span style=\"color: #0b5394; font-family: Helvetica Neue, Arial, Helvetica, sans-serif;\"><span style=\"text-indent: -18pt;\"><span style=\"font-weight: bold; line-height: 20px;\">1.</span> </span><b style=\"text-indent: -18pt;\"><span style=\"line-height: 20px;\">Thiết lập lại một số mặc định cơ bản</span></b></span></div>\n<div class=\"MsoNormal\">\n<div class=\"MsoNormal\">\n<b><span style=\"color: #0b5394; font-family: Helvetica Neue, Arial, Helvetica, sans-serif;\">1.3. Làm chủ các đị"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge7QaIXjMC46l7w4JOR2ktyOdOAnE0mzu7Nmzlmqgrn8DJbG1tyqFaxiWgzvRyy60p_cJeV9bJfHz75j8c8ApbNUusz5lP1c6VSCkv6jl37UwG7T-lhUKsmNr17egC4pRWCty9PdQweD0/s1600/Picture6.png"
 ---
 <div class="MsoNormal">
 <span style="color: #0b5394; font-family: Helvetica Neue, Arial, Helvetica, sans-serif;"><span style="text-indent: -18pt;"><span style="font-weight: bold; line-height: 20px;">1.</span> </span><b style="text-indent: -18pt;"><span style="line-height: 20px;">Thiết lập lại một số mặc định cơ bản</span></b></span></div>

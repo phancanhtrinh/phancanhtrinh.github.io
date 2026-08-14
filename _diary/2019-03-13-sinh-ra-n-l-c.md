@@ -1,11 +1,12 @@
 ---
-layout: post
-title: 'Sinh ra để nổ lực'
+layout: diary_post
+title: "Sinh ra để nổ lực"
 date: 2019-03-13T23:33:00+07:00
 categories:
   - diary
 permalink: /diary/2019/03/13/sinh-ra-n-l-c/
-source_url: https://phancanhtrinh.blogspot.com/2019/03/sinh-ra-e-no-luc.html
+source_url: "https://phancanhtrinh.blogspot.com/2019/03/sinh-ra-e-no-luc.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"font-family: \"courier new\" , \"courier\" , monospace; font-size: large;\">Dược Khoa Đại học Đường Sài Gòn - một đêm  hè tháng 3. Mùa thanh niên.</span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-family: \"courier new\" , \"courier\" , monospace; font-size: large;\">Trên đời này có một loại người, sinh ra để cố gắng. Có lẽ họ sẽ chẳng bao giờ là người thông minh và giỏi giang nhất, nhưng họ vẫn luôn chạy bền trong quãng dài của đời sống. Nhi"
 ---
 <div style="text-align: justify;">
 <span style="font-family: "courier new" , "courier" , monospace; font-size: large;">Dược Khoa Đại học Đường Sài Gòn - một đêm  hè tháng 3. Mùa thanh niên.</span></div>

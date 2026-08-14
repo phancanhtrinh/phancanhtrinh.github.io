@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Giới thiệu sách Giáo trình thực tập Ký sinh trùng'
+layout: diary_post
+title: "Giới thiệu sách Giáo trình thực tập Ký sinh trùng"
 date: 2017-08-19T21:21:00+07:00
 categories:
   - diary
 permalink: /diary/2017/08/19/gi-i-thi-u-s-ch-gi-o-tr-nh-th-c-t-p-k-sinh-tr-ng/
-source_url: https://phancanhtrinh.blogspot.com/2017/08/gioi-thieu-sach-giao-trinh-thuc-tap-ky.html
+source_url: "https://phancanhtrinh.blogspot.com/2017/08/gioi-thieu-sach-giao-trinh-thuc-tap-ky.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"font-family: Verdana, sans-serif;\">Đây là cuốn sách được tổng hợp từ kinh nghiệm giảng dạy và nghiên cứu nhiều năm về Ký sinh trùng và Vi nấm học của Bộ môn Vi sinh - Ký sinh, Khoa Dược - Đại học Y Dược TP. Hồ Chí Minh, thiết kế phù hợp cho nội dung giảng dạy ngành Dược.</span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-family: Verdana, sans-serif;\"><br /></span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-family: Ver"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijM9HD9XYTL04AgiSHmyhOwqfKqQYB0-BPJyvPpcugyC7jpLGXquNw1iNOrG6MEk4CmJcEZyevoznUWaSrjR_CJaewcYq4ryx0f1GBDw26MzWxNO3SnafvMC73cRCnMVra52G5B6z4fmRH/s640/Giao+trinh+TT+KST+2017.jpg"
 ---
 <div style="text-align: justify;">
 <span style="font-family: Verdana, sans-serif;">Đây là cuốn sách được tổng hợp từ kinh nghiệm giảng dạy và nghiên cứu nhiều năm về Ký sinh trùng và Vi nấm học của Bộ môn Vi sinh - Ký sinh, Khoa Dược - Đại học Y Dược TP. Hồ Chí Minh, thiết kế phù hợp cho nội dung giảng dạy ngành Dược.</span></div>

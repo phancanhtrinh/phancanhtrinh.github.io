@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Heading trong Word bị mảng đen biết phải làm sao?'
+layout: diary_post
+title: "Heading trong Word bị mảng đen biết phải làm sao?"
 date: 2018-07-12T16:18:00+07:00
 categories:
   - diary
 permalink: /diary/2018/07/12/heading-trong-word-b-m-ng-en-bi-t-ph-i-l-m-sao/
-source_url: https://phancanhtrinh.blogspot.com/2018/07/heading-trong-word-bi-mang-en-biet-phai.html
+source_url: "https://phancanhtrinh.blogspot.com/2018/07/heading-trong-word-bi-mang-en-biet-phai.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"font-family: \"courier new\" , \"courier\" , monospace; font-size: large;\">Một ngày đẹp trời Khoá luận của bạn mở lên và Heading bị đen lại.</span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-size: large;\"><img alt=\"Káº¿t quáº£ hÃ¬nh áº£nh cho Numbering in MS word turned into black boxes\" src=\"http://social.technet.microsoft.com/Forums/getfile/174029\" height=\"360\" width=\"640\" /></span></div>\n<div style=\"text-align: justify;\">\n<span style"
+thumbnail: "http://social.technet.microsoft.com/Forums/getfile/174029"
 ---
 <div style="text-align: justify;">
 <span style="font-family: "courier new" , "courier" , monospace; font-size: large;">Một ngày đẹp trời Khoá luận của bạn mở lên và Heading bị đen lại.</span></div>

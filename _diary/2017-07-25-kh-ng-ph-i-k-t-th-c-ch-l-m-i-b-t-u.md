@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Không phải kết thúc, chỉ là mới bắt đầu'
+layout: diary_post
+title: "Không phải kết thúc, chỉ là mới bắt đầu"
 date: 2017-07-25T22:29:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2017/07/25/kh-ng-ph-i-k-t-th-c-ch-l-m-i-b-t-u/
-source_url: https://phancanhtrinh.blogspot.com/2017/07/khong-phai-ket-thuc-chi-la-moi-bat-au.html
+source_url: "https://phancanhtrinh.blogspot.com/2017/07/khong-phai-ket-thuc-chi-la-moi-bat-au.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"font-family: \"courier new\" , \"courier\" , monospace;\">Vậy là những ngày tháng các em mài ghế giảng đường, mài đường PTN cũng qua rồi. Có lẽ giờ mấy đứa đang hụt hẫng, phòng chăm sóc sinh vật huyền bí sẽ vắng vẻ một thời gian dài để đợi lứa tiếp theo.</span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-family: \"courier new\" , \"courier\" , monospace;\"><br /></span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-family: \"courie"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIDGa7pe2kTh3wWb3O4hc8UqiKwHH76IzPZNmGdEWLybNkvjjD3_CA3NlTMs67ZXp_OWV4x7F86VL-bcwXWyQf5HJ3KSmklyTH164i-WzDJvbFQ_ov0BGdRYcxAbU5cP13cl1V0cMHsIfr/s400/z693040038195_cd03f684d8dbfa5a3d2837af45704738.jpg"
 ---
 <div style="text-align: justify;">
 <span style="font-family: "courier new" , "courier" , monospace;">Vậy là những ngày tháng các em mài ghế giảng đường, mài đường PTN cũng qua rồi. Có lẽ giờ mấy đứa đang hụt hẫng, phòng chăm sóc sinh vật huyền bí sẽ vắng vẻ một thời gian dài để đợi lứa tiếp theo.</span></div>

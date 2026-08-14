@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Đăng ký Research Gate'
+layout: diary_post
+title: "Đăng ký Research Gate"
 date: 2015-02-22T13:11:00.002000+07:00
 categories:
   - diary
 permalink: /diary/2015/02/22/ng-k-research-gate/
-source_url: https://phancanhtrinh.blogspot.com/2015/02/lach-luat-e-ang-ky-research-gate.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/02/lach-luat-e-ang-ky-research-gate.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"color: #444444;\">Sáng mồng 4 Tết, loay hoay một hồi với cái Modem mới vào mạng được, hi vọng bạn ADSL sẽ trơn tru cho mình viết bài này. Vừa nhận được một yêu cầu của bà chị, em lấy lại cái email Khoa Dược giúp chị được không. Ngồi tùm lum tà la một lúc không được, mình mới ngộ ra. À, bây giờ rốt cuộc kiếm cái email .edu cũng với mục đích trước mắt là đăng ký ResearchGate thôi, vậy mình dùng một email đăng ký nhiều tài khoản biết đâu nó cũng được.<"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1KKkimi406QONCH_KmBobyoy_nwJsyBVbLGcbnpkAgWE9HnaYis0oEGCbxRrydl0M0Zd2RyMH4D-CTk2-IbzcCZ4BRpQmCJUvdqbuHTYyj_W9Iw5pqzDnXn6u6lqPvkm8h_4_HUAXREQ/s1600/22-02-2015+9-49-54+SA.jpg"
 ---
 <div style="text-align: justify;">
 <span style="color: #444444;">Sáng mồng 4 Tết, loay hoay một hồi với cái Modem mới vào mạng được, hi vọng bạn ADSL sẽ trơn tru cho mình viết bài này. Vừa nhận được một yêu cầu của bà chị, em lấy lại cái email Khoa Dược giúp chị được không. Ngồi tùm lum tà la một lúc không được, mình mới ngộ ra. À, bây giờ rốt cuộc kiếm cái email .edu cũng với mục đích trước mắt là đăng ký ResearchGate thôi, vậy mình dùng một email đăng ký nhiều tài khoản biết đâu nó cũng được.</span></div>

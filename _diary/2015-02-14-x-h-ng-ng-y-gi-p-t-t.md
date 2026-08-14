@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Xả hàng ngày giáp Tết!'
+layout: diary_post
+title: "Xả hàng ngày giáp Tết!"
 date: 2015-02-14T15:38:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/02/14/x-h-ng-ng-y-gi-p-t-t/
-source_url: https://phancanhtrinh.blogspot.com/2015/02/xa-hang-ngay-giap-tet.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/02/xa-hang-ngay-giap-tet.html"
+summary: "<img border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvU3YzLAl5YvAiUL-khlXxp0AHrLvUUPJADH1s-5shq-IbAMJzEZtfTKXqCV7V0Grcg1CoJjZeGKPMFnJb2zUpDAXhJj_lX-yA6pgiVV31vKn9jvLEuPDAH5C3w-FqktdzU_jWtI9eX2E/s1600/WP_001167.png\" height=\"172\" width=\"640\" /><br />\n<div style=\"text-align: justify;\">\nNhân những ngày cuối năm dọn dẹp máy tính, điện thoại phát hiện ra mình còn cất giữ nhiều nhiều thứ mà chưa lật ra xem lại bao giờ. Lướt qua facebook thấy đâu đâu cũng rần rần không khí đó"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvU3YzLAl5YvAiUL-khlXxp0AHrLvUUPJADH1s-5shq-IbAMJzEZtfTKXqCV7V0Grcg1CoJjZeGKPMFnJb2zUpDAXhJj_lX-yA6pgiVV31vKn9jvLEuPDAH5C3w-FqktdzU_jWtI9eX2E/s1600/WP_001167.png"
 ---
 <img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvU3YzLAl5YvAiUL-khlXxp0AHrLvUUPJADH1s-5shq-IbAMJzEZtfTKXqCV7V0Grcg1CoJjZeGKPMFnJb2zUpDAXhJj_lX-yA6pgiVV31vKn9jvLEuPDAH5C3w-FqktdzU_jWtI9eX2E/s1600/WP_001167.png" height="172" width="640" /><br />
 <div style="text-align: justify;">

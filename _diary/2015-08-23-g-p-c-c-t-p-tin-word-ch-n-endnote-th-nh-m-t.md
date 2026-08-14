@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Gộp các tập tin Word đã chèn Endnote thành một'
+layout: diary_post
+title: "Gộp các tập tin Word đã chèn Endnote thành một"
 date: 2015-08-23T18:13:00+07:00
 categories:
   - diary
 permalink: /diary/2015/08/23/g-p-c-c-t-p-tin-word-ch-n-endnote-th-nh-m-t/
-source_url: https://phancanhtrinh.blogspot.com/2015/08/gop-cac-tap-tin-word-chen-endnote-thanh.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/08/gop-cac-tap-tin-word-chen-endnote-thanh.html"
+summary: "<span style=\"color: #444444;\">Các bạn có nhiều file Word đã chèn sẵn Endnote, làm sao để gộp chúng lại mà phần Endnote đã chèn vẫn được cập nhật.</span><br />\n<b><span style=\"color: #3d85c6;\">Bước 1. Tạo một cơ sở dữ liệu Endnote mới nhé.</span></b><br />\n<span style=\"color: #444444;\">Các bạn vào File/ New để tạo CSDL mới, chọn lưu nó ở vị trí thích hợp trên ổ đĩa. Có thể xem thêm một số thao tác cụ thể của Endnote <a href=\"http://www.phancanhtrinh.com/search/label/EndNote\" target=\"_blank\" rel=\""
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVz-yjWC_irbM1rPN8TXAr4g7ctMxPEJ6PzUPPYkaF6fNQFluCIrq2csIer9EVdY-Z7E1jHN3qOgrivGBQdMK9GrFGdR-IVUVA5_ZsCjPIkc_SemkdgWJ774vruMojYYgCrE_hMfxlo8o/s640/Picture1.png"
 ---
 <span style="color: #444444;">Các bạn có nhiều file Word đã chèn sẵn Endnote, làm sao để gộp chúng lại mà phần Endnote đã chèn vẫn được cập nhật.</span><br />
 <b><span style="color: #3d85c6;">Bước 1. Tạo một cơ sở dữ liệu Endnote mới nhé.</span></b><br />

@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Nanotube - một cơ chế đề kháng đáng chú ý!'
+layout: diary_post
+title: "Nanotube - một cơ chế đề kháng đáng chú ý!"
 date: 2018-09-23T19:51:00+07:00
 categories:
   - diary
 permalink: /diary/2018/09/23/nanotube-m-t-c-ch-kh-ng-ng-ch/
-source_url: https://phancanhtrinh.blogspot.com/2018/09/nanotube-mot-co-che-e-khang.html
+source_url: "https://phancanhtrinh.blogspot.com/2018/09/nanotube-mot-co-che-e-khang.html"
+summary: "<div class=\"separator\" style=\"clear: both; text-align: justify;\">\n<span style=\"font-family: \"helvetica neue\" , \"arial\" , \"helvetica\" , sans-serif;\">Bài này mình nhặt được từ 1 khái niệm nghe ở MOH-VN 2018. Rảnh rỗi lật ra đọc, chỉ có thời gian đọc được một số hình, không đọc hết bài được, chắc sẽ còn nhiều thiếu sót... Cảm ơn mọi người!</span></div>\n<div class=\"separator\" style=\"clear: both; text-align: justify;\">\n<br /></div>\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a h"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuW8O9UNE9I9DRC0lwGSIFZaO0NLCslnp5zCTM0qijjKXkJ58MptTXmTfgHFn5xUX4rYzLcjPWE0vcSaYU6vbNgbugO-gTZIAy-gs56rOuu7__8BXrvc6P0wOIalT8JZ62uccHMkTXvcR8/s640/Untitled.001.tiff"
 ---
 <div class="separator" style="clear: both; text-align: justify;">
 <span style="font-family: "helvetica neue" , "arial" , "helvetica" , sans-serif;">Bài này mình nhặt được từ 1 khái niệm nghe ở MOH-VN 2018. Rảnh rỗi lật ra đọc, chỉ có thời gian đọc được một số hình, không đọc hết bài được, chắc sẽ còn nhiều thiếu sót... Cảm ơn mọi người!</span></div>

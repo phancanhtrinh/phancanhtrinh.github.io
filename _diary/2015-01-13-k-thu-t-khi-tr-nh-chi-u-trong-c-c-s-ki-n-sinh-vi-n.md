@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Kỹ thuật khi trình chiếu trong các sự kiện sinh viên'
+layout: diary_post
+title: "Kỹ thuật khi trình chiếu trong các sự kiện sinh viên"
 date: 2015-01-13T18:00:00+07:00
 categories:
   - diary
 permalink: /diary/2015/01/13/k-thu-t-khi-tr-nh-chi-u-trong-c-c-s-ki-n-sinh-vi-n/
-source_url: https://phancanhtrinh.blogspot.com/2015/01/ky-thuat-khi-trinh-chieu-trong-cac-su.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/01/ky-thuat-khi-trinh-chieu-trong-cac-su.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"font-family: Helvetica Neue, Arial, Helvetica, sans-serif;\">Hôm trước vừa dự một sự kiện của trường, tự nhiên thấy hình như lâu rồi mình ít chú ý tới tính chuyện nghiệp của một chương trình, ít soi mói hơn những lỗi kỹ thuật xảy ra trong các sự kiện. Có lẽ soi nhiều quá giờ thấy mệt rồi, nên đành kệ người ta!</span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-family: Helvetica Neue, Arial, Helvetica, sans-serif;\">Tình cờ là buổi đó m"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1oJzXejl2ZSfnPmGue_-WYozXUUMpTaQ0sy9ZqdM1Oq2_6jD8ad-fJpYKktY02QC1KY93fehZwq27biFIKs_HkO_-0xBCH5sx9sy9guGbixIZA_z75dEDnHBnE5hkNKCno7rwN2NmD1Y/s1600/Picture1.png"
 ---
 <div style="text-align: justify;">
 <span style="font-family: Helvetica Neue, Arial, Helvetica, sans-serif;">Hôm trước vừa dự một sự kiện của trường, tự nhiên thấy hình như lâu rồi mình ít chú ý tới tính chuyện nghiệp của một chương trình, ít soi mói hơn những lỗi kỹ thuật xảy ra trong các sự kiện. Có lẽ soi nhiều quá giờ thấy mệt rồi, nên đành kệ người ta!</span></div>

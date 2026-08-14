@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Thôi thế là hết Sinh viên!'
+layout: diary_post
+title: "Thôi thế là hết Sinh viên!"
 date: 2015-08-03T16:23:00+07:00
 categories:
   - diary
 permalink: /diary/2015/08/03/th-i-th-l-h-t-sinh-vi-n/
-source_url: https://phancanhtrinh.blogspot.com/2015/08/thoi-la-het-sinh-vien.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/08/thoi-la-het-sinh-vien.html"
+summary: "<div style=\"text-align: right;\"><i>Tự sự về những ngày đã qua tại Khoa Dược...</i></div><div style=\"text-align: right;\"><i><br />\n</i></div><div style=\"text-align: justify;\">Bao nhiêu tất bật của mùa khóa luận đã kết thúc với những gì làm được tôi tạm thưởng cho mình một chút niềm vui của thành công.</div><div style=\"text-align: justify;\">Những ngày làm việc với <i>Bacillus </i>đã qua thay thế bằng nhiều thứ cảm xúc lẫn lộn... Có vui, có buồn pha thêm chút hụt hẫng!</div><div style=\"text-align: "
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQrxFPihI_kpvolZqyM-66-sz6Go_XtZZf1K1p3ygANo9Efu4Q92X0mGpD2KLPHcAM9L1VfpGOZMtj-nv05GpDFyfWLhFMwYfm5i5SYGOvIV0lDitZ22FAPjBCWBfFN7_18gvuazP5WVA/s640/Picture1.png"
 ---
 <div style="text-align: right;"><i>Tự sự về những ngày đã qua tại Khoa Dược...</i></div><div style="text-align: right;"><i><br />
 </i></div><div style="text-align: justify;">Bao nhiêu tất bật của mùa khóa luận đã kết thúc với những gì làm được tôi tạm thưởng cho mình một chút niềm vui của thành công.</div><div style="text-align: justify;">Những ngày làm việc với <i>Bacillus </i>đã qua thay thế bằng nhiều thứ cảm xúc lẫn lộn... Có vui, có buồn pha thêm chút hụt hẫng!</div><div style="text-align: justify;">Dù sao sau những ngày làm việc nghiêm túc, tôi nghĩ mình đã gặt hái được chút thành công!</div><div style="text-align: justify;"><br />

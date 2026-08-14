@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Định dạng Endnote Style theo yêu cầu'
+layout: diary_post
+title: "Định dạng Endnote Style theo yêu cầu"
 date: 2015-02-20T22:55:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/02/20/nh-d-ng-endnote-style-theo-y-u-c-u/
-source_url: https://phancanhtrinh.blogspot.com/2015/02/inh-dang-endnote-style-theo-yeu-cau.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/02/inh-dang-endnote-style-theo-yeu-cau.html"
+summary: "<div style=\"text-align: justify;\">\n<div style=\"text-align: center;\">\n<b><span style=\"color: #0b5394;\">Ghi chú</span></b><br />\n<div style=\"text-align: left;\">\n<span style=\"color: #0b5394;\"><b>22.07.2016. </b>Cập nhật cách sửa lỗi định dạng sai danh mục tài liệu</span><br />\n<span style=\"color: #0b5394;\"><b>08.01.2016. </b>Cập nhật trả lời thắc mắc bạn đọc:</span><br />\n<b><span style=\"color: orange;\">Câu 1. Sau khi chỉnh sửa, Style tự động lưu lại ở đâu?</span></b><br />\n<span style=\"color: #0b5"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSSdUciXvPHKP5aive5DMqPNVsNf-xAYh-a8JwV4lnJQOp3-lnI-Y0eSn8gQhHwxTgwTO1EnKCwxP1QcDFYyQJmbSpTyoy_s4XQ0hgFb5dVf5nwVmbT2bOVnpwfpLW4QtyoTcHjOFG1nU/s640/ssa.png"
 ---
 <div style="text-align: justify;">
 <div style="text-align: center;">

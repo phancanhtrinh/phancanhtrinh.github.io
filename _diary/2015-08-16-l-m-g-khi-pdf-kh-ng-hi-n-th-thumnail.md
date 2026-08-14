@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Làm gì khi PDF không hiển thị thumnail'
+layout: diary_post
+title: "Làm gì khi PDF không hiển thị thumnail"
 date: 2015-08-16T21:24:00.004000+07:00
 categories:
   - diary
 permalink: /diary/2015/08/16/l-m-g-khi-pdf-kh-ng-hi-n-th-thumnail/
-source_url: https://phancanhtrinh.blogspot.com/2015/08/lam-gi-khi-pdf-khong-hien-thi-thumnail.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/08/lam-gi-khi-pdf-khong-hien-thi-thumnail.html"
+summary: "<div style=\"text-align: justify;\">\n<b><span style=\"color: #0b5394; font-family: inherit;\">Lưu ý: Nội dung bài viết áp dụng cho window 32 bit</span></b></div>\n<div style=\"text-align: justify;\">\n<span style=\"color: #444444;\">Một ngày nào đó vì lý do ngựa, bạn đã vọc máy tính bằng việc cài lại phần mềm, cài lại hệ điều hành... Và kết quả là PDF tự dưng mất luôn thumnail. Làm sao với tình huống này? Mình xin hướng dẫn cách khôi phục thumnail với Adobe Acrobat hoặc Adobe Reader.</span></div>\n<div sty"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3P0g-p_huNudrDXu2eCsavjQfn4_hrTyrf8NrY8oARRZgKhaNL18TzMypQ51JL0S86z1O0N_PL8fxMWTELRUgrzcUYv0vBIMgcKoosdw-qkeo5YmxfbuX99eUGS3m_mjkLVSTkNJVIRQ/s640/Picture1.png"
 ---
 <div style="text-align: justify;">
 <b><span style="color: #0b5394; font-family: inherit;">Lưu ý: Nội dung bài viết áp dụng cho window 32 bit</span></b></div>

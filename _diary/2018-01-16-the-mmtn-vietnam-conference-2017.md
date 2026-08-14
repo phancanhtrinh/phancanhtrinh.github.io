@@ -1,11 +1,12 @@
 ---
-layout: post
-title: 'The MMTN Vietnam Conference 2017'
+layout: diary_post
+title: "The MMTN Vietnam Conference 2017"
 date: 2018-01-16T19:34:00.002000+07:00
 categories:
   - diary
 permalink: /diary/2018/01/16/the-mmtn-vietnam-conference-2017/
-source_url: https://phancanhtrinh.blogspot.com/2018/01/the-mmtn-vietnam-conference-2017.html
+source_url: "https://phancanhtrinh.blogspot.com/2018/01/the-mmtn-vietnam-conference-2017.html"
+summary: "<div style=\"text-align: center;\">\n\n</div>\n<div style=\"text-align: center;\">\n<br /></div>\n<div style=\"color: #5c2580; font-family: \"Lucida Grande\"; font-size: 16px; line-height: 23px; margin-bottom: 30px; outline: 0px; padding: 0px; text-align: justify;\">\nThe Medical Mycology Training Network (MMTN) Conferences have always been a rich opportunity for clinicians and microbiologists to stay on top of their practice and to learn from renowned experts in the field of fungal infections. The AFWG conve"
 ---
 <div style="text-align: center;">
 

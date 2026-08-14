@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Thứ 6 ngày 13 và một mớ xác suất thống kê'
+layout: diary_post
+title: "Thứ 6 ngày 13 và một mớ xác suất thống kê"
 date: 2015-02-14T15:35:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/02/14/th-6-ng-y-13-v-m-t-m-x-c-su-t-th-ng-k/
-source_url: https://phancanhtrinh.blogspot.com/2015/02/thu-6-ngay-13-va-mot-mo-xac-suat-thong.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/02/thu-6-ngay-13-va-mot-mo-xac-suat-thong.html"
+summary: "<div style=\"text-align: justify;\">\nHôm nay, thứ sáu, ngày 13. Một ngày tháng chạp, tính chừng 4,5 ngày nữa là Tết.</div>\n<div style=\"text-align: justify;\">\nCả đất nước buồn ngó hoài về khúc ruột miền Trung, oằn mình tiễn một đấng anh tài. Đó là chuyện buồn của dân tộc. Nó cũng buồn lắm!</div>\n<div style=\"text-align: justify;\">\nMột ngày thứ 6, nó tất bật lăn lộn, ăn ngủ với thứ mà nó dự định cho mùa Tết này! Xác suất thống kê - nó chọn thứ đó bởi nó không chịu nổi những điều nó đọc, nó làm cứ mơ "
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5CrEMiNQYbTV1SqLAZIkDAY8ep52VC6VXQUbUz4dJxGlDVfmxd2NAcfHe9PwMmN6Sep_XrEACGXqXbDpY3JW4xpQGjOz3cK_eWp-d_wMlulVjwDIzWLh8T4fzUkdv51Q1YS3Q47ivYYQ/s1600/StatisticsHeader1.png"
 ---
 <div style="text-align: justify;">
 Hôm nay, thứ sáu, ngày 13. Một ngày tháng chạp, tính chừng 4,5 ngày nữa là Tết.</div>

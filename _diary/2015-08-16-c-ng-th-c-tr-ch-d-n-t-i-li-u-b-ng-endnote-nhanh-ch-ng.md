@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Công thức trích dẫn tài liệu bằng EndNote nhanh chóng'
+layout: diary_post
+title: "Công thức trích dẫn tài liệu bằng EndNote nhanh chóng"
 date: 2015-08-16T19:54:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/08/16/c-ng-th-c-tr-ch-d-n-t-i-li-u-b-ng-endnote-nhanh-ch-ng/
-source_url: https://phancanhtrinh.blogspot.com/2015/08/cong-thuc-trich-dan-tai-lieu-bang.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/08/cong-thuc-trich-dan-tai-lieu-bang.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"color: #444444;\">Tùy thuộc vào thói quen mà mỗi người có một trình tự thao tác để trích dẫn tài liệu riêng. Kinh nghiệm cá nhân mình thấy cách sau đây dễ sử dụng và nhanh chóng nhất nên muốn giới thiệu cùng các bạn!</span></div>\n<div style=\"text-align: justify;\">\n<b><span style=\"color: orange;\">Bước 1: Chuẩn bị công cụ</span></b></div>\n<div style=\"text-align: justify;\">\n<span style=\"color: #444444;\">- <b><a href=\"http://www.phancanhtrinh.com/search"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTRfl1rLtuK-dgAc400VyC6ORnoLoEFMEZ-XNfL2-5Ojbu-RjD3RtY2658nzYhqKpJ_zPph_tVN2E_lkkT4jd7LfPXmX3DakYkIStBa94gHVDkbQu3ps7BRQNOK_z7RFhXJDvpkPyEgcU/s640/Picture3.png"
 ---
 <div style="text-align: justify;">
 <span style="color: #444444;">Tùy thuộc vào thói quen mà mỗi người có một trình tự thao tác để trích dẫn tài liệu riêng. Kinh nghiệm cá nhân mình thấy cách sau đây dễ sử dụng và nhanh chóng nhất nên muốn giới thiệu cùng các bạn!</span></div>

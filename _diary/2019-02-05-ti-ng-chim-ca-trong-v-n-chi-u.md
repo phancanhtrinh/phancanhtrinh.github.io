@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Tiếng chim ca trong vườn chiều'
+layout: diary_post
+title: "Tiếng chim ca trong vườn chiều"
 date: 2019-02-05T12:28:00.002000+07:00
 categories:
   - diary
 permalink: /diary/2019/02/05/ti-ng-chim-ca-trong-v-n-chi-u/
-source_url: https://phancanhtrinh.blogspot.com/2019/02/tieng-chim-ca-trong-vuon-chieu.html
+source_url: "https://phancanhtrinh.blogspot.com/2019/02/tieng-chim-ca-trong-vuon-chieu.html"
+summary: "#29Tết<br />\nChim ca trong vườn chiều gọi nó mở cánh cửa nhỏ nơi gác xép. Bao nhiêu năm rồi thằng bé lại hồi tưởng về khu vườn đi dọc dài tuổi thơ mình.<br />\nKhu vườn nhà bên cạnh, dãy vườn đầy cây trái của một danh gia bậc nhất cái bãi bồi sông Bồ thời ấy. Đất đai bạt ngàn, cây trái xum xuê trải khắp ba bên bốn bề; nhà nó ở đậu một góc trên vườn nhà ông. Hồi ấy, còn nhớ chủ nhà là cụ đồ tóc bạc phơ, biết chữ nho, chiều chiều thằng bé vẫn thấy ông chấm mực tàu lên tờ giấy trắng mỏng mà thích th"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLQMQMb7qV2wrJiotD2zB_iVFldKu5D1weYeXP_u-xQ3FiWLozW_yYug8bg76gejWCJgWM3sM3HQfQMy8zGGcgnMn6bO_waKxqjw5EwpsGTQxqk6B-OspYprIKctVU6Jk2Frz2HMXaVQgZ/s640/D90FA07B-D39D-4AF5-922F-616A6CE739DE.jpeg"
 ---
 #29Tết<br />
 Chim ca trong vườn chiều gọi nó mở cánh cửa nhỏ nơi gác xép. Bao nhiêu năm rồi thằng bé lại hồi tưởng về khu vườn đi dọc dài tuổi thơ mình.<br />

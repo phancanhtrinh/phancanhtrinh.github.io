@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Làm sao để có tài liệu?'
+layout: diary_post
+title: "Làm sao để có tài liệu?"
 date: 2015-02-19T19:32:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/02/19/l-m-sao-c-t-i-li-u/
-source_url: https://phancanhtrinh.blogspot.com/2015/02/lam-sao-e-co-tai-lieu.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/02/lam-sao-e-co-tai-lieu.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"color: #444444;\">Tải tài liệu! Vấn đề chung của cả cá nhân mình và khá nhiều bạn. Mình may mắn nhận ra vấn đề này sớm từ năm thứ 2 đại học khi bắt đầu tham gia quản trị diễn đàn sinhvienduoc.com. Một mảng hoạt động của diễn đàn là chia sẻ, tìm kiếm tài liệu học thuật, lúc ấy chỉ có anh Toàn Dược 2007 phụ trách chính. Lúc đó cũng không biết cái khái niệm tài liệu học thuật là thứ gì hết, chỉ đơn giản cái bản tính tò mò với vấn đề mới làm mình phải t"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDc35N_7iE7YN1i4HL-i2q828G6SSTkxu1tZi7-QnT_2h4gEhAqn9CRE5O-J6n1LZLaDp5ZhHuO9bUkuDwXGmEA17_SeMIcNqkQbiUlvo9JMaPk4NpXfTCANm-PWefdgYucMtoYdBxDvY/s1600/adsgads.png"
 ---
 <div style="text-align: justify;">
 <span style="color: #444444;">Tải tài liệu! Vấn đề chung của cả cá nhân mình và khá nhiều bạn. Mình may mắn nhận ra vấn đề này sớm từ năm thứ 2 đại học khi bắt đầu tham gia quản trị diễn đàn sinhvienduoc.com. Một mảng hoạt động của diễn đàn là chia sẻ, tìm kiếm tài liệu học thuật, lúc ấy chỉ có anh Toàn Dược 2007 phụ trách chính. Lúc đó cũng không biết cái khái niệm tài liệu học thuật là thứ gì hết, chỉ đơn giản cái bản tính tò mò với vấn đề mới làm mình phải tìm tòi.</span></div>

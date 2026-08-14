@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Tự động hóa định dạng văn bản với Word [Kỳ 1]'
+layout: diary_post
+title: "Tự động hóa định dạng văn bản với Word [Kỳ 1]"
 date: 2015-01-06T23:28:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/01/06/t-ng-h-a-nh-d-ng-v-n-b-n-v-i-word-k-1/
-source_url: https://phancanhtrinh.blogspot.com/2015/01/tu-ong-hoa-viec-inh-dang-van-ban-voi.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/01/tu-ong-hoa-viec-inh-dang-van-ban-voi.html"
+summary: "<div class=\"separator\" style=\"clear: both; text-align: center;\">\n</div>\n<div class=\"MsoNormal\">\n<span style=\"line-height: 125%;\"><span style=\"font-family: Helvetica Neue, Arial, Helvetica, sans-serif;\">Có lẽ một số bạn rất ghét các tính năng tự động của MS. Word; nhiều khi nó tỏ ra thật phiền toái. Đại loại như tự động đặt Bullet, tự động xuống dòng, tự động thêm dấu cách…<o:p></o:p></span></span></div>\n<div class=\"MsoNormal\">\n<span style=\"line-height: 125%;\"><span style=\"font-family: Helvetica "
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX_Ao5xbyKQ4m2X4XkOahNM6m31Gxe5yCDliR_kp90OmqN7NPNYxcSZND66anlrC4CFLTuemoafl1-lv9CJNBenEGdrgpoWLy5VPmoUjHty_sHgkbcYcjG291eHnjPrVv9XN3i3LZEFx8/s1600/Picture1.png"
 ---
 <div class="separator" style="clear: both; text-align: center;">
 </div>

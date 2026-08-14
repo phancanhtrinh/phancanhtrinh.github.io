@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Câu chuyện về Email @uphcm.edu.vn'
+layout: diary_post
+title: "Câu chuyện về Email @uphcm.edu.vn"
 date: 2015-02-21T22:28:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/02/21/c-u-chuy-n-v-email-uphcm-edu-vn/
-source_url: https://phancanhtrinh.blogspot.com/2015/02/cau-chuyen-ve-email-uphcmeduvn.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/02/cau-chuyen-ve-email-uphcmeduvn.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"color: #444444;\">Các trường đại học thường cấp một Email với tên miền </span><b style=\"color: #444444;\">.edu </b><span style=\"color: #444444;\">cho sinh viên của họ. Sinh viên dược chúng ta cũng không ngoại lệ. Từ lúc bước chân vào trường mỗi chúng ta có trong tay mình một email với phần đuôi</span><b style=\"background-color: white;\"><span style=\"color: #38761d;\"> @uphcm.edu.vn</span></b><span style=\"color: #444444;\">. Có lẽ chúng ta nên tự hào khi "
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0nIfkejzHuklml_l15DHzt-C7IesqFbNC0M6goIJ7RsdOgNpuKUXkHIW9g5NjOISergCrlF__7xK-LnmgMRluPVO44viOeQqqBYh-JuYspfEsZGCA-T6B3vb3AfT_1FghyphenhyphenXcw6b22BSs/s1600/tao_email.jpg"
 ---
 <div style="text-align: justify;">
 <span style="color: #444444;">Các trường đại học thường cấp một Email với tên miền </span><b style="color: #444444;">.edu </b><span style="color: #444444;">cho sinh viên của họ. Sinh viên dược chúng ta cũng không ngoại lệ. Từ lúc bước chân vào trường mỗi chúng ta có trong tay mình một email với phần đuôi</span><b style="background-color: white;"><span style="color: #38761d;"> @uphcm.edu.vn</span></b><span style="color: #444444;">. Có lẽ chúng ta nên tự hào khi sử dụng một email như vậy; nó khẳng định bạn là sinh viên Dược 41 Đinh Tiên Hoàng phải không nào? </span></div>

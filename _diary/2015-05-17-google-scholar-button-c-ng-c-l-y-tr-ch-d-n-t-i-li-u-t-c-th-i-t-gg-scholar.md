@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Google Scholar Button - Công cụ lấy trích dẫn tài liệu tức thời từ GG Scholar '
+layout: diary_post
+title: "Google Scholar Button - Công cụ lấy trích dẫn tài liệu tức thời từ GG Scholar "
 date: 2015-05-17T16:31:00+07:00
 categories:
   - diary
 permalink: /diary/2015/05/17/google-scholar-button-c-ng-c-l-y-tr-ch-d-n-t-i-li-u-t-c-th-i-t-gg-scholar/
-source_url: https://phancanhtrinh.blogspot.com/2015/05/google-scholar-button-cong-cu-lay-trich.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/05/google-scholar-button-cong-cu-lay-trich.html"
+summary: "Google vừa ra mắt ứng dụng mới tích hợp vào trình duyệt nhằm dưới dạng một nút lệnh giúp dễ dàng truy cập Google Scholar từ bất kỳ trang web nào.<br />\n<div style=\"text-align: center;\"><b><i>Các chức năng của Google Scholar Button</i></b></div><div style=\"text-align: justify;\"><span style=\"text-align: left;\">- Chọn tiêu đề của bài báo trên trang bạn đang đọc, và nhấp vào nút Scholar để tìm thấy nó. Chọn dạng trích dẫn cần xuất để tải về (BibTex, EndNote, RefMan, RefWorks).</span></div><div style"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmtftO0ziBTpxWLeVBJ7hzjXikTTFW3JLXFtokS8OK5JQpRazEP8xLG4Eoe_mRLS7hTPkpUV46iR7l0MfOG0kMfk9h8abTulo3UDAiKMl3KiNPyYXXJDaYhVIzLio0HIgsMs1PrAy90Ac/s640/unnamed+(3).webp"
 ---
 Google vừa ra mắt ứng dụng mới tích hợp vào trình duyệt nhằm dưới dạng một nút lệnh giúp dễ dàng truy cập Google Scholar từ bất kỳ trang web nào.<br />
 <div style="text-align: center;"><b><i>Các chức năng của Google Scholar Button</i></b></div><div style="text-align: justify;"><span style="text-align: left;">- Chọn tiêu đề của bài báo trên trang bạn đang đọc, và nhấp vào nút Scholar để tìm thấy nó. Chọn dạng trích dẫn cần xuất để tải về (BibTex, EndNote, RefMan, RefWorks).</span></div><div style="text-align: left;"><img border="0" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmtftO0ziBTpxWLeVBJ7hzjXikTTFW3JLXFtokS8OK5JQpRazEP8xLG4Eoe_mRLS7hTPkpUV46iR7l0MfOG0kMfk9h8abTulo3UDAiKMl3KiNPyYXXJDaYhVIzLio0HIgsMs1PrAy90Ac/s640/unnamed+(3).webp" width="640" /><br />

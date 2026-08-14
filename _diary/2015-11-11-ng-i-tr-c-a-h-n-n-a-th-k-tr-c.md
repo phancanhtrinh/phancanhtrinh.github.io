@@ -1,11 +1,12 @@
 ---
-layout: post
-title: 'Người trẻ của hơn nữa thế kỷ trước'
+layout: diary_post
+title: "Người trẻ của hơn nữa thế kỷ trước"
 date: 2015-11-11T22:18:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/11/11/ng-i-tr-c-a-h-n-n-a-th-k-tr-c/
-source_url: https://phancanhtrinh.blogspot.com/2015/11/nguoi-tre-cua-hon-nua-ky-truoc.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/11/nguoi-tre-cua-hon-nua-ky-truoc.html"
+summary: "<div style=\"text-align: justify;\">\nVô tình gặp cuốn sách \"Đường vào khoa học của tôi\" - Cố GS. Tôn Thất Tùng do một bạn đọc đánh máy lại. Tôi đã đọc ngấu nghiên hơn trăm trang sách ấy, hơn trăm trang tái hiện cả bao nhiêu ẩn ức của gần một đời người làm khoa học.</div>\n<div style=\"text-align: justify;\">\nĐọc để nhận ra rằng, những người trẻ như tôi, sao dám phút nào thờ ơ với tổ quốc đang chật vật trong bao nhiêu khó khăn. Ai đó nhiều lúc có thao thức một nổi niềm, dân tộc ta, đất nước ta còn ngh"
 ---
 <div style="text-align: justify;">
 Vô tình gặp cuốn sách "Đường vào khoa học của tôi" - Cố GS. Tôn Thất Tùng do một bạn đọc đánh máy lại. Tôi đã đọc ngấu nghiên hơn trăm trang sách ấy, hơn trăm trang tái hiện cả bao nhiêu ẩn ức của gần một đời người làm khoa học.</div>

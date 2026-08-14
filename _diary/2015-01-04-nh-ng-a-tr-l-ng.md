@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Những đứa trẻ ở làng'
+layout: diary_post
+title: "Những đứa trẻ ở làng"
 date: 2015-01-04T00:23:00+07:00
 categories:
   - diary
 permalink: /diary/2015/01/04/nh-ng-a-tr-l-ng/
-source_url: https://phancanhtrinh.blogspot.com/2015/01/nhung-ua-tre-o-lang.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/01/nhung-ua-tre-o-lang.html"
+summary: "<div class=\"MsoNormal\" style=\"text-align: justify;\">\n<span style=\"font-family: Helvetica Neue, Arial, Helvetica, sans-serif;\">Chúng ta chung nhau một đoạn dài tuổi thơ có lẽ vì thế mà những điều dành cho nhau luôn thuần khiết và thơ ngây đến lạ lùng. Dù cho bao nhiêu bão giông cuộc đời, khi ngồi lại bên nhau vẫn ấm áp thương yêu.<o:p></o:p></span><br />\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3t3UHAtDsT"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3t3UHAtDsTw_x5CiAHAm3e40Aa17TdqgrvZgqmubId_d63yJ7dzY5hWGF_JB_Q5xFGffMcWJR4xE8Y-U5GEVA2uO34g4S46dJSD4Ze5f-TD3q5SM67elEOvAmVyU0qzd5IMAlc067sTQ/s1600/314657_581767208506692_1268101335_n.jpg"
 ---
 <div class="MsoNormal" style="text-align: justify;">
 <span style="font-family: Helvetica Neue, Arial, Helvetica, sans-serif;">Chúng ta chung nhau một đoạn dài tuổi thơ có lẽ vì thế mà những điều dành cho nhau luôn thuần khiết và thơ ngây đến lạ lùng. Dù cho bao nhiêu bão giông cuộc đời, khi ngồi lại bên nhau vẫn ấm áp thương yêu.<o:p></o:p></span><br />

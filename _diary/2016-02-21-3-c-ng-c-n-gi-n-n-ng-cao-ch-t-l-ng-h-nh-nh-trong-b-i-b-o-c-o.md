@@ -1,11 +1,13 @@
 ---
-layout: post
-title: '3 công cụ đơn giản để nâng cao chất lượng hình ảnh trong bài báo cáo'
+layout: diary_post
+title: "3 công cụ đơn giản để nâng cao chất lượng hình ảnh trong bài báo cáo"
 date: 2016-02-21T21:11:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2016/02/21/3-c-ng-c-n-gi-n-n-ng-cao-ch-t-l-ng-h-nh-nh-trong-b-i-b-o-c-o/
-source_url: https://phancanhtrinh.blogspot.com/2016/02/3congcuxulyhinhanhchoduocsi.html
+source_url: "https://phancanhtrinh.blogspot.com/2016/02/3congcuxulyhinhanhchoduocsi.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"color: #444444;\">Chào các bạn, có lẽ khá lâu rồi mình mới bắt đầu trở lại với một bài viết mới. Lần này chúng ta cùng tìm hiểu một vài thủ thuật, kỹ năng mà các bạn có thể sử dụng trong những bài báo cáo. Trong bài viết này tôi xin trình bày bộ 3 công cụ mà chúng ta nên biết khi cần biên tập, xử lý hình ảnh cho các báo cáo tại cơ quan cũng như trong học tập, nghiên cứu khoa học.</span></div>\n<div style=\"text-align: justify;\">\n<b><span style=\"color:"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUHVXCXc8yBSfO3M024mUSMs5oNCM-o9cH1pG3sn6sDalzte9MXApi_fkDQyGl8py1bCdxZ_s5SZ8i1G-Ppq8OL42AJru3URA9bl2CDuVouoOTkQv_RClp8q-lz9vAJ-ILduY73Tk9la2-/s320/2016-02-21_16-56-39.png"
 ---
 <div style="text-align: justify;">
 <span style="color: #444444;">Chào các bạn, có lẽ khá lâu rồi mình mới bắt đầu trở lại với một bài viết mới. Lần này chúng ta cùng tìm hiểu một vài thủ thuật, kỹ năng mà các bạn có thể sử dụng trong những bài báo cáo. Trong bài viết này tôi xin trình bày bộ 3 công cụ mà chúng ta nên biết khi cần biên tập, xử lý hình ảnh cho các báo cáo tại cơ quan cũng như trong học tập, nghiên cứu khoa học.</span></div>

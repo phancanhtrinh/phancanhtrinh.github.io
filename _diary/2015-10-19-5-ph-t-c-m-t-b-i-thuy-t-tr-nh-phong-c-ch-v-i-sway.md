@@ -1,11 +1,13 @@
 ---
-layout: post
-title: '5 phút để có một bài thuyết trình phong cách với Sway'
+layout: diary_post
+title: "5 phút để có một bài thuyết trình phong cách với Sway"
 date: 2015-10-19T19:29:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/10/19/5-ph-t-c-m-t-b-i-thuy-t-tr-nh-phong-c-ch-v-i-sway/
-source_url: https://phancanhtrinh.blogspot.com/2015/10/5-phut-e-co-mot-bai-thuyet-trinh-phong.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/10/5-phut-e-co-mot-bai-thuyet-trinh-phong.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"color: #444444;\">Vừa qua, Microsoft vừa chính thức trình làng công cụ tạo bài trình chiếu trên nền web tại địa chỉ sway.com. Giờ đây, bạn có thể tạo một bài thuyết trình nhanh chóng, ở bất cứ nơi đâu, chia sẻ và trình chiếu ngay lập tức mà không cần cài đặt thêm bất kỳ ứng dụng nào ngoài trình duyệt web. Sway hiện tại khả dụng trên nền Web, IOS, Window 10 và cả trong bộ Office 2016. Điều mà nhà sản xuất đặc biệt ưu ái người dùng là Sway hoàn toàn m"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvxV8MVoXbarGAdrwCojfKP36gliG7fqfAt2PdcGYzRbZUUeIF48CUkeIHBfugsHTTMPllwlsXLE0r_TD_cR3BbKOTlZ2ps6C-BckHmhs8wkejebOCeu1-edRAPqlK_wEei0t4hunYXMA/s640/Picture1.png"
 ---
 <div style="text-align: justify;">
 <span style="color: #444444;">Vừa qua, Microsoft vừa chính thức trình làng công cụ tạo bài trình chiếu trên nền web tại địa chỉ sway.com. Giờ đây, bạn có thể tạo một bài thuyết trình nhanh chóng, ở bất cứ nơi đâu, chia sẻ và trình chiếu ngay lập tức mà không cần cài đặt thêm bất kỳ ứng dụng nào ngoài trình duyệt web. Sway hiện tại khả dụng trên nền Web, IOS, Window 10 và cả trong bộ Office 2016. Điều mà nhà sản xuất đặc biệt ưu ái người dùng là Sway hoàn toàn miễn phí. Bây giờ, chúng ta hãy cùng nhau dành ra 5 phút để khám phá Sway nhé!</span><br />

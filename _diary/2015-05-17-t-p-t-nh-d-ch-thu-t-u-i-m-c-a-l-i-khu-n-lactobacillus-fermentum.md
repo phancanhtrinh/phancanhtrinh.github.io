@@ -1,11 +1,12 @@
 ---
-layout: post
-title: 'Tập tành dịch thuật: Ưu điểm của lợi khuẩn Lactobacillus fermentum'
+layout: diary_post
+title: "Tập tành dịch thuật: Ưu điểm của lợi khuẩn Lactobacillus fermentum"
 date: 2015-05-17T16:44:00.002000+07:00
 categories:
   - diary
 permalink: /diary/2015/05/17/t-p-t-nh-d-ch-thu-t-u-i-m-c-a-l-i-khu-n-lactobacillus-fermentum/
-source_url: https://phancanhtrinh.blogspot.com/2015/05/tap-tanh-dich-thuat-uu-iem-cua-loi.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/05/tap-tanh-dich-thuat-uu-iem-cua-loi.html"
+summary: "<div style=\"text-align: center;\">\n<i>(Bài viết đại giải tuần 2 cuộc thi \"Viết bài hay - Nhận ngay nhuận bút\" Eagle.vn)</i></div>\n<div style=\"text-align: justify;\">\nCác vi khuẩn thuộc chi <i>Lactobacillus</i> từ lâu đã được sử dụng phổ biến trong các chế phẩm probiotic nhằm phòng ngừa và điều trị các bệnh lý đường ruột như tiêu chảy do Rotavirus, hội chứng ruột kích thích, viêm đại tràng, xơ nang, tiêu chảy du lịch, cải thiện chứng loạn khuẩn ruột do kháng sinh, sử dụng cho bệnh nhân thiếu men th"
 ---
 <div style="text-align: center;">
 <i>(Bài viết đại giải tuần 2 cuộc thi "Viết bài hay - Nhận ngay nhuận bút" Eagle.vn)</i></div>

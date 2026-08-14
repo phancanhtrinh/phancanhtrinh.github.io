@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Ra mắt một số ấn phẩm mang tính nhận diện'
+layout: diary_post
+title: "Ra mắt một số ấn phẩm mang tính nhận diện"
 date: 2015-02-17T16:13:00.002000+07:00
 categories:
   - diary
 permalink: /diary/2015/02/17/ra-m-t-m-t-s-n-ph-m-mang-t-nh-nh-n-di-n/
-source_url: https://phancanhtrinh.blogspot.com/2015/02/nhandienthuonghieu2015.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/02/nhandienthuonghieu2015.html"
+summary: "<span style=\"color: #0b5394;\">Ngày 29 Tết!</span><br />\n<div style=\"text-align: justify;\">\n<span style=\"color: #0b5394;\">Chuẩn bị từ những ngày cuối năm, tích cực, tích cực lắm cho một diện mạo mới của Tôi 2.0. Khoác một màu áo mới đón <b>TẾT</b> <b>Ất Mùi - 2015 </b>nào. </span></div>\n<span style=\"color: #0b5394;\">Chưa định Public nhưng mà kích thích quá! :)</span><br />\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<b><span style=\"color: #0b5394;\">Avarta - Icon</span></b></d"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrgoHgHj0RRKkqMVJqP79UYz7G5cLu0ZZUqE58UoJIUNwlr5WqEKQ_dP4kDNO-glZRtWjJIuwvgobLPnF6w1vdITBvDXjUWtfWUdMi8ItVLireAtbenXCxYJ576DHrWRJZU8FD57CdPyg/s1600/lo.png"
 ---
 <span style="color: #0b5394;">Ngày 29 Tết!</span><br />
 <div style="text-align: justify;">

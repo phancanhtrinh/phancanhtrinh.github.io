@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'One Health trong thời kỳ biến đổi khí hậu và nguy cơ bệnh nhiễm mới nổi'
+layout: diary_post
+title: "One Health trong thời kỳ biến đổi khí hậu và nguy cơ bệnh nhiễm mới nổi"
 date: 2018-11-04T09:13:00+07:00
 categories:
   - diary
 permalink: /diary/2018/11/04/one-health-trong-th-i-k-bi-n-i-kh-h-u-v-nguy-c-b-nh-nhi-m-m-i-n-i/
-source_url: https://phancanhtrinh.blogspot.com/2018/11/one-health-trong-thoi-ky-bien-oi-khi.html
+source_url: "https://phancanhtrinh.blogspot.com/2018/11/one-health-trong-thoi-ky-bien-oi-khi.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"font-family: \"arial\" , \"helvetica\" , sans-serif;\">\"One Health\" là một khái niệm cho thấy mối liên quan giữa sức khỏe con người với động vật và môi trường; tiếp cận việc chăm sóc sức khỏe đa ngành với sự phối hợp giữa bác sĩ, bác sĩ thú y, nhà sinh thái học và các theo dõi, kiểm soát nguy cơ dịch tễ, nghiên cứu về sự lan truyền bệnh giữa người, động vật và môi trường. </span></div>\n<div style=\"text-align: justify;\">\n<span style=\"font-family: \"arial\""
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-V8FZyRckk_M9r3f4imRylzygm7ZvVq2z2HU_OrmJaiVWa2ZRTfwL06373E-O8-5dxidsW4W0YEPfOpEuSB_tf-rJdHlpBLW0nVa0hBnaKHhlewrLf1fNIYtba0SJ-7VaYwWHz4FHAvo/s640/Screen+Shot+2018-11-04+at+9.20.58+AM.png"
 ---
 <div style="text-align: justify;">
 <span style="font-family: "arial" , "helvetica" , sans-serif;">"One Health" là một khái niệm cho thấy mối liên quan giữa sức khỏe con người với động vật và môi trường; tiếp cận việc chăm sóc sức khỏe đa ngành với sự phối hợp giữa bác sĩ, bác sĩ thú y, nhà sinh thái học và các theo dõi, kiểm soát nguy cơ dịch tễ, nghiên cứu về sự lan truyền bệnh giữa người, động vật và môi trường. </span></div>

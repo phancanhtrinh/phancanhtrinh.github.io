@@ -1,11 +1,13 @@
 ---
-layout: post
-title: '[Webinar] Eliminating HIV: bringing together prevention, treatment and cure'
+layout: diary_post
+title: "[Webinar] Eliminating HIV: bringing together prevention, treatment and cure"
 date: 2015-12-03T07:41:00.001000+07:00
 categories:
   - diary
 permalink: /diary/2015/12/03/webinar-eliminating-hiv-bringing-together-prevention-treatment-and-cure/
-source_url: https://phancanhtrinh.blogspot.com/2015/12/webinar-eliminating-hiv-bringing.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/12/webinar-eliminating-hiv-bringing.html"
+summary: "<div style=\"text-align: center;\">\n<div style=\"text-align: left;\">\n<span style=\"color: #444444; text-align: justify;\">Nhân ngày thế giới phòng chống HIV/AIDS 1/12/2015, hội thảo trực tuyến về phòng ngừa, điều trị và loại bỏ HIV đã được tổ chức bởi tạp chí nature.</span></div>\n</div>\n<div style=\"text-align: justify;\">\n<span style=\"color: #444444;\"><b>Hội nghị hiện tại được phát lại tại địa chỉ:</b></span><span style=\"color: orange;\"> <a href=\"http://www.nature.com/collections/qdtpvmnnqj/webinar\">h"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnwr8oF6Ws-d6DamjEZvK_YdwiVNZBDDDwT2XGT3rHs_yRdBmjdGn_ED0oW9kAy9RKGdwG229ghcHDw1E5HXJYMDCBNl8INJOOvYwV_zmV6_6iGhu4x2CQWRSK7xYln8Zs9jgNSTgmEg/s640/CVIrW-DVEAAjrYq.jpg"
 ---
 <div style="text-align: center;">
 <div style="text-align: left;">

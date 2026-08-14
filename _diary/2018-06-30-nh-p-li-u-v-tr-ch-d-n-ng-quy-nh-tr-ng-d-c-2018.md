@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Nhập liệu và trích dẫn đúng quy định trường Dược - 2018'
+layout: diary_post
+title: "Nhập liệu và trích dẫn đúng quy định trường Dược - 2018"
 date: 2018-06-30T23:25:00+07:00
 categories:
   - diary
 permalink: /diary/2018/06/30/nh-p-li-u-v-tr-ch-d-n-ng-quy-nh-tr-ng-d-c-2018/
-source_url: https://phancanhtrinh.blogspot.com/2018/06/nhap-lieu-va-trich-dan-ung-quy-inh.html
+source_url: "https://phancanhtrinh.blogspot.com/2018/06/nhap-lieu-va-trich-dan-ung-quy-inh.html"
+summary: "<div style=\"text-align: justify;\">\n<span style=\"color: orange; font-family: \"arial\" , \"helvetica\" , sans-serif; font-size: medium;\"><b><i>Cập nhật 24/07/2018</i></b></span><br />\n<span style=\"color: #0b5394; font-family: \"arial\" , \"helvetica\" , sans-serif; font-size: medium;\">Lưu ý: Mỗi định dạng trong Endnote chỉ áp dụng cho Tiếng Anh hoặc Tiếng Việt, không thể cùng lúc đáp ứng hai yêu cầu. Do đó, làm theo Tiếng Anh, phần Tiếng Việt sẽ sửa thủ công một số chỗ.</span></div>\n<div style=\"text-alig"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKmUYZBgCypkFgFfsUMg5DXDPdUpSn771BIid8dVLJkMvJ_E8yL6r8iqTkh6DbEWbQbtI-Fy40Xwd-KMnvs-ARBfLJ0W4M69Lau40jt6gDa6_yx9vfS1FYa4fVVOIoNSj-TP8wxiqHTCY/s640/Screen+Shot+2018-06-30+at+10.17.52+PM.png"
 ---
 <div style="text-align: justify;">
 <span style="color: orange; font-family: "arial" , "helvetica" , sans-serif; font-size: medium;"><b><i>Cập nhật 24/07/2018</i></b></span><br />

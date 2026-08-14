@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 'Internet of Things đã thay đổi cách con người chăm sóc sức khỏe'
+layout: diary_post
+title: "Internet of Things đã thay đổi cách con người chăm sóc sức khỏe"
 date: 2015-10-25T21:00:00+07:00
 categories:
   - diary
 permalink: /diary/2015/10/25/internet-of-things-thay-i-c-ch-con-ng-i-ch-m-s-c-s-c-kh-e/
-source_url: https://phancanhtrinh.blogspot.com/2015/10/internet-of-things-thay-oi-cach-con.html
+source_url: "https://phancanhtrinh.blogspot.com/2015/10/internet-of-things-thay-oi-cach-con.html"
+summary: "<div style=\"text-align: justify;\">\n<b><span style=\"color: orange;\">\"Internet of Things\" (IoT)</span> </b><span style=\"color: #444444;\">là một xu hướng công nghệ táo bạo trong những năm trở lại đây. Với mong muốn kết nối vạn vật vào một hệ thống chung có khả năng truyền tải, chia sẻ thông tin an toàn các nhà khoa học đã và đang tích cực biến những điều trong phim khoa học viễn tưởng thành hiện thực.</span></div>\n<div style=\"text-align: justify;\">\n<div class=\"separator\" style=\"clear: both; text-al"
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8RIxVCjhk8rrS2ZeiQM_C1Lm4G7WGUJCCEdUov_PhQpCIBPblRl7VYGKvGE62gG5G49EtplhqrbRcbSd2q5RSfntY_9LjAsHEU8urYL1jHLXzB-V6X33qklgj5dkT-JW8ab2qws2AA6Y/s400/How-Big-Will-The-Internet-of-Things-Be-header.jpg"
 ---
 <div style="text-align: justify;">
 <b><span style="color: orange;">"Internet of Things" (IoT)</span> </b><span style="color: #444444;">là một xu hướng công nghệ táo bạo trong những năm trở lại đây. Với mong muốn kết nối vạn vật vào một hệ thống chung có khả năng truyền tải, chia sẻ thông tin an toàn các nhà khoa học đã và đang tích cực biến những điều trong phim khoa học viễn tưởng thành hiện thực.</span></div>
