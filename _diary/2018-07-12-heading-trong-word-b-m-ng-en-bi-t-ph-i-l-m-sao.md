@@ -25,21 +25,17 @@ Cách giải quyết như sau:
 
 <b>Bước 2:</b> Trên file mới đang mở tạo Macro như sau:
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidAIMz9GMTkiSqHWYxVAWjalVRX8YEn0Wa8uPBYW2R_Fr-gDT6b7tR6kV6M7xPaXlS5hpjt2yrKcRE-pw3mFPGxExISYCdzExqfb01HOj7XlxupKVsFuwJRZshcW9DnIMfH5e8NTt8Apo/s1600/Screen+Shot+2018-07-12+at+4.10.10+PM.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidAIMz9GMTkiSqHWYxVAWjalVRX8YEn0Wa8uPBYW2R_Fr-gDT6b7tR6kV6M7xPaXlS5hpjt2yrKcRE-pw3mFPGxExISYCdzExqfb01HOj7XlxupKVsFuwJRZshcW9DnIMfH5e8NTt8Apo/s640/Screen+Shot+2018-07-12+at+4.10.10+PM.png" width="564" height="640">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidAIMz9GMTkiSqHWYxVAWjalVRX8YEn0Wa8uPBYW2R_Fr-gDT6b7tR6kV6M7xPaXlS5hpjt2yrKcRE-pw3mFPGxExISYCdzExqfb01HOj7XlxupKVsFuwJRZshcW9DnIMfH5e8NTt8Apo/s1600/Screen+Shot+2018-07-12+at+4.10.10+PM.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidAIMz9GMTkiSqHWYxVAWjalVRX8YEn0Wa8uPBYW2R_Fr-gDT6b7tR6kV6M7xPaXlS5hpjt2yrKcRE-pw3mFPGxExISYCdzExqfb01HOj7XlxupKVsFuwJRZshcW9DnIMfH5e8NTt8Apo/s640/Screen+Shot+2018-07-12+at+4.10.10+PM.png" width="564" height="640"></a>
 
 Chọn tiếp Dấu cộng(+) 
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY4-ysjVthNtZ8R-5SM2rngDEx_JDk0CXebz2eHWvyFIsM8v3zUCOB7bBAbetVJHusqWmVOQ_u1VLKWDhAPpVuxmSx30AJDx7ci34u3PMKS8sEV_Z0Ts0WyL_qH4QkGDHHaNG2Xq2l8v8/s1600/Screen+Shot+2018-07-12+at+4.10.25+PM.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY4-ysjVthNtZ8R-5SM2rngDEx_JDk0CXebz2eHWvyFIsM8v3zUCOB7bBAbetVJHusqWmVOQ_u1VLKWDhAPpVuxmSx30AJDx7ci34u3PMKS8sEV_Z0Ts0WyL_qH4QkGDHHaNG2Xq2l8v8/s640/Screen+Shot+2018-07-12+at+4.10.25+PM.png" width="634" height="640">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY4-ysjVthNtZ8R-5SM2rngDEx_JDk0CXebz2eHWvyFIsM8v3zUCOB7bBAbetVJHusqWmVOQ_u1VLKWDhAPpVuxmSx30AJDx7ci34u3PMKS8sEV_Z0Ts0WyL_qH4QkGDHHaNG2Xq2l8v8/s1600/Screen+Shot+2018-07-12+at+4.10.25+PM.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY4-ysjVthNtZ8R-5SM2rngDEx_JDk0CXebz2eHWvyFIsM8v3zUCOB7bBAbetVJHusqWmVOQ_u1VLKWDhAPpVuxmSx30AJDx7ci34u3PMKS8sEV_Z0Ts0WyL_qH4QkGDHHaNG2Xq2l8v8/s640/Screen+Shot+2018-07-12+at+4.10.25+PM.png" width="634" height="640"></a>
 
  Cửa sổ mới như sau:
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXcTXyo7Kis5L1v3U8h5IPzJLzzoXsfQrpDCRARi3hFZQSlLkUZQ8qjkYIST9zGeoNuuyeYFPXvcR5lKix5C_A2S6xnvBcr4H8YxMeM92gIgMtpx394afHkguZE5vUKmr-PSa2B-koaWg/s1600/Screen+Shot+2018-07-12+at+4.10.37+PM.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXcTXyo7Kis5L1v3U8h5IPzJLzzoXsfQrpDCRARi3hFZQSlLkUZQ8qjkYIST9zGeoNuuyeYFPXvcR5lKix5C_A2S6xnvBcr4H8YxMeM92gIgMtpx394afHkguZE5vUKmr-PSa2B-koaWg/s640/Screen+Shot+2018-07-12+at+4.10.37+PM.png" width="640" height="286">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXcTXyo7Kis5L1v3U8h5IPzJLzzoXsfQrpDCRARi3hFZQSlLkUZQ8qjkYIST9zGeoNuuyeYFPXvcR5lKix5C_A2S6xnvBcr4H8YxMeM92gIgMtpx394afHkguZE5vUKmr-PSa2B-koaWg/s1600/Screen+Shot+2018-07-12+at+4.10.37+PM.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXcTXyo7Kis5L1v3U8h5IPzJLzzoXsfQrpDCRARi3hFZQSlLkUZQ8qjkYIST9zGeoNuuyeYFPXvcR5lKix5C_A2S6xnvBcr4H8YxMeM92gIgMtpx394afHkguZE5vUKmr-PSa2B-koaWg/s640/Screen+Shot+2018-07-12+at+4.10.37+PM.png" width="640" height="286"></a>
 
- Dán đoạn code sau vào:
-<br>
+ Dán đoạn code sau vào:<br>
 <blockquote>
 
 Sub RemoveBlackBox()

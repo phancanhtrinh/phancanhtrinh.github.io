@@ -9,24 +9,17 @@ source_url: "https://phancanhtrinh.blogspot.com/2015/03/hien-file-do-virus-trong
 summary: "Virus là một trong những phiền toái lớn của người dùng máy tính; những nỗi khốn đốn này thường đi kèm với anh bạn không thể không nhắc tới là chiếc USB. Lỗi thường gặp nhất là các file trong USB bị sau khi nhiễm virus, nhiều người tá hỏa lên với vấn đề này vì tưởng rằng dữ liệu của họ đã bị gặm nhấm hết. Thật ra các dữ liệu này vẫn còn ở đó chỉ là bị ẩn đi thôi. Đặc điểm các virus này thường khóa luôn chức năng hiện file trong Folder Option nên khó lòng lấy lại được dễ dàng. Những trường hợp cấp"
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgADy2Iw6PGMrnYFBXEaxfKbqHYyABjMzXLG4N7HbZx4kZ-iju_cmeDjCyBG1bSxE_WHA8126ZuP69jzIaB4bY5s9ZwuaBmoSJlfJ7ZTjsz-Zghm6BY-sf1-5yHfd7x0fm8U8sctapUtDI/s1600/13-03-2015+10-28-46+CH.jpg"
 ---
-Virus là một trong những phiền toái lớn của người dùng máy tính; những nỗi khốn đốn này thường đi kèm với anh bạn không thể không nhắc tới là chiếc USB. Lỗi thường gặp nhất là các file trong USB bị sau khi nhiễm virus, nhiều người tá hỏa lên với vấn đề này vì tưởng rằng dữ liệu của họ đã bị gặm nhấm hết. Thật ra các dữ liệu này vẫn còn ở đó chỉ là bị ẩn đi thôi. Đặc điểm các virus này thường khóa luôn chức năng hiện file trong 
-<b>Folder Option
-</b> nên khó lòng lấy lại được dễ dàng. Những trường hợp cấp bách như vậy chúng ta có thể áp dụng một số cách sau:
+Virus là một trong những phiền toái lớn của người dùng máy tính; những nỗi khốn đốn này thường đi kèm với anh bạn không thể không nhắc tới là chiếc USB. Lỗi thường gặp nhất là các file trong USB bị sau khi nhiễm virus, nhiều người tá hỏa lên với vấn đề này vì tưởng rằng dữ liệu của họ đã bị gặm nhấm hết. Thật ra các dữ liệu này vẫn còn ở đó chỉ là bị ẩn đi thôi. Đặc điểm các virus này thường khóa luôn chức năng hiện file trong <b>Folder Option</b> nên khó lòng lấy lại được dễ dàng. Những trường hợp cấp bách như vậy chúng ta có thể áp dụng một số cách sau:
 
-<b>Cách 1. Thử hiện file trong Folder Option
-</b>
+<b>Cách 1. Thử hiện file trong Folder Option</b>
 
-Đặt các thuộc tính như hình bên dưới, lưu ý mục 
-<b>Hide protected operating system files... 
-</b>không được chọn. Cuối cùng nhấn OK và xem kết quả.
+Đặt các thuộc tính như hình bên dưới, lưu ý mục <b>Hide protected operating system files... </b>không được chọn. Cuối cùng nhấn OK và xem kết quả.
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgADy2Iw6PGMrnYFBXEaxfKbqHYyABjMzXLG4N7HbZx4kZ-iju_cmeDjCyBG1bSxE_WHA8126ZuP69jzIaB4bY5s9ZwuaBmoSJlfJ7ZTjsz-Zghm6BY-sf1-5yHfd7x0fm8U8sctapUtDI/s1600/13-03-2015+10-28-46+CH.jpg" width="305" height="400"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5oVfDNaLQNIyYPgXDNc6-oDuyQHdMlqV7BGdSW_UilZJ-crPIJdmauidrYqfpSuV1PEhhbAW0_kUa0Qwl0NOzivB-HVtLY9_Z-pVRcl5YxCPGG3jKpocwgM_VbNB7U5ncPFxw8fv3wo0/s1600/13-03-2015+10-32-37+CH.jpg" width="328" height="400">
 
-<b>
-</b>
+<b></b>
 
-<b>Cách 2. Gõ lệnh hiện file vào cmd
-</b><br>
+<b>Cách 2. Gõ lệnh hiện file vào cmd</b><br>
 
 Bấm Window + R để mở lệnh Run...
 
@@ -34,16 +27,11 @@ Nhập cmd. Bấm Enter.
 
 <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPBI06lSQov-9dDv4OE8eMMC5lIUBE5uyX4vfY9oX23K7lE08hs1og3W0ppQx1F5BrNCb47aT8cV9JTNqVYkkHO7TrsRBmP9zKAhc3knpLgsyQ3rysVFboA42PhoGMxs2gECfkbLUupMg/s1600/14-03-2015+7-19-30+SA.jpg"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPBI06lSQov-9dDv4OE8eMMC5lIUBE5uyX4vfY9oX23K7lE08hs1og3W0ppQx1F5BrNCb47aT8cV9JTNqVYkkHO7TrsRBmP9zKAhc3knpLgsyQ3rysVFboA42PhoGMxs2gECfkbLUupMg/s1600/14-03-2015+7-19-30+SA.jpg" width="400" height="220"></a>
 
-Cửa sổ 
-<b>Command Prompt </b>hiện ra. Tiếp đến gõ lệnh 
-<b>F:</b> (lưu ý F là ổ USB của bạn) và nhấn Enter để chuyển dấu nhắc sang ổ USB.
+Cửa sổ <b>Command Prompt </b>hiện ra. Tiếp đến gõ lệnh <b>F:</b> (lưu ý F là ổ USB của bạn) và nhấn Enter để chuyển dấu nhắc sang ổ USB.
 
-Gõ lệnh 
-<b>attrib -S -H /S /D 
-</b>và nhấn Enter là xong.
+Gõ lệnh <b>attrib -S -H /S /D </b>và nhấn Enter là xong.
 
-<b>Lưu ý:
-</b>
+<b>Lưu ý:</b>
 
 -S để bỏ đi thuộc tính hệ thống bị khóa.
 
@@ -51,11 +39,9 @@ Gõ lệnh
 
 /S, /D có chức năng thay đổi thuộc tính cho tất cả file, thư mục trong ổ USB.
 
-<b>Cách 3. Sử dụng phần mềm Bkav FixAttrb hoặc USB Show
-</b>
+<b>Cách 3. Sử dụng phần mềm Bkav FixAttrb hoặc USB Show</b>
 
-<b><a href="https://drive.google.com/file/d/0B8Hrctiq-vGRUTdFZnhBQjdxc0U/view?usp=sharing" target="_blank" rel="noopener">Download</a>
-</b>
+<b><a href="https://drive.google.com/file/d/0B8Hrctiq-vGRUTdFZnhBQjdxc0U/view?usp=sharing" target="_blank" rel="noopener">Download</a></b>
 
 Sau khi tải về các bạn chạy file lên và sử dụng, giao diện phần mềm cực kỳ đơn giản như sau:
 

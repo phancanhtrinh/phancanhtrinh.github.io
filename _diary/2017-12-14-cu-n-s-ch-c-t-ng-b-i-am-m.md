@@ -17,7 +17,6 @@ Sách có bản online mình đã đọc kha khá, nhưng cầm trên tay bản 
 
 <br>
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieicPlO9NL2nk9aF5BEwebtmEdf0PkXkBR78rugaISkR5i4FOP_u8zBkOLBK-w013PAxGiqMRsWXYvSeJpmgNqF-cuVeDV2rEHhG1dRq8t557CEX8wr08OzxO-NIPC7Lq78pwESi6aQHCj/s1600/25182135_1742672202412640_4373357127602831791_o.jpg"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieicPlO9NL2nk9aF5BEwebtmEdf0PkXkBR78rugaISkR5i4FOP_u8zBkOLBK-w013PAxGiqMRsWXYvSeJpmgNqF-cuVeDV2rEHhG1dRq8t557CEX8wr08OzxO-NIPC7Lq78pwESi6aQHCj/s640/25182135_1742672202412640_4373357127602831791_o.jpg" width="456" height="640">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieicPlO9NL2nk9aF5BEwebtmEdf0PkXkBR78rugaISkR5i4FOP_u8zBkOLBK-w013PAxGiqMRsWXYvSeJpmgNqF-cuVeDV2rEHhG1dRq8t557CEX8wr08OzxO-NIPC7Lq78pwESi6aQHCj/s1600/25182135_1742672202412640_4373357127602831791_o.jpg"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieicPlO9NL2nk9aF5BEwebtmEdf0PkXkBR78rugaISkR5i4FOP_u8zBkOLBK-w013PAxGiqMRsWXYvSeJpmgNqF-cuVeDV2rEHhG1dRq8t557CEX8wr08OzxO-NIPC7Lq78pwESi6aQHCj/s640/25182135_1742672202412640_4373357127602831791_o.jpg" width="456" height="640"></a>
 
 <br>

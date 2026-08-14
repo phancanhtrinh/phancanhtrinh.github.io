@@ -18,8 +18,7 @@ Nhiều nghiên cứu trong những năm gần đây tập trung vào loài vi k
 
 Vậy thì những hướng ứng dụng và ưu điểm nào của loài vi khuẩn này khiến giới chuyên môn quan tâm?
 
-<b>1. Khả năng kháng khuẩn
-</b><br>
+<b>1. Khả năng kháng khuẩn</b><br>
 
 L. fermentum thể hiện đầy đủ khả năng tác động như một lợi khuẩn nội tại của hệ tiêu hóa. Được ứng dụng chủ yếu trong điều trị, hỗ trợ điều trị các bệnh lý về tiêu hóa.
 
@@ -27,23 +26,19 @@ Hiệu quả kháng khuẩn được chứng minh dựa trên mô hình đối k
 
 Ngoài ra, các vi khuẩn chi Lactobacillus nói chung và L. fermentum nói riêng dần được biết đến các ứng dụng trên những vị trí khác ngoài đường uống, một trong những ứng dụng đó là điều trị nhiễm trùng âm đạo nhờ khả năng sản xuất hydro peroxyd và polymer biosurfactant có hiệu lực kháng khuẩn, kháng nấm trong đó có cả Candia albican. Hiện tại, người ta còn tính đến khả năng phòng ngừa các bệnh lý nhiễm trùng sinh dục bằng cách tẩm các L. fermentum lên bao cao su.
 
-<b>2. Tăng cường hệ miễn dịch
-</b><br>
+<b>2. Tăng cường hệ miễn dịch</b><br>
 
 Khả năng tăng cường đáp ứng miễn dịch được chứng minh bởi Olivares, Díaz-Ropero trong một nghiên cứu mù đôi trên 50 người tình nguyện tiêm chủng vacxin cúm anti-influenza. Kết quả cho thấy khi sử dụng thêm L. fermentum bổ sung cho người tình nguyện bằng đường uống trước và sau khi tiêm cho thấy sự thay đổi đáng kể về thông số miễn dịch so với nhóm chứng, cụ thể ở sự tăng nồng độ kháng thể IgM và IgA. Tiếp tục theo dõi nhóm bệnh nhân trong 5 tháng sau tiêm chủng cho thấy tỷ lệ mắc cúm thấp hơn ở nhóm sử dụng L. fermentum.
 
-<b>3. Khả năng chống oxy hóa
-</b>
+<b>3. Khả năng chống oxy hóa</b>
 
 Năm 1996, các thử nghiệm invitro về khả năng chống oxy hóa bắt đầu được thực hiện bởi một công trình hợp tác nghiên cứu tại châu Âu. Khả năng chống oxy hóa tiếp tục được thử nghiệm lâm sàng kéo dài 12 năm trên L. fermentum cho thấy tính khả năng cải thiện hiệu quả hoạt động chống oxy hóa của huyết thanh, hiệu quả trong hoạt động cải thiện lipid huyết.
 
 Tiềm năng ứng dụng của L. fermentum ngày càng được làm rõ, chứng tỏ một số khả năng vượt trội trong kháng khuẩn, hạ lipid huyết, tăng cường miễn dịch, chống oxy hóa. Nhiều nghiên cứu vẫn đang được tiến hành trên vi khuẩn này nhằm làm rõ cơ chế tác động và những khả năng khác của L. fermentum trong dự phòng và điều trị bệnh.
 
-<b>--------------------------------------------------------------------------------------------------------------------------------------------------------
-</b>
+<b>--------------------------------------------------------------------------------------------------------------------------------------------------------</b>
 
-<b>TÀI LIỆU THAM KHẢO
-</b>
+<b>TÀI LIỆU THAM KHẢO</b>
 
 1. Singh VP, Sharma J, Babu S, Rizwanulla SA, Singla A. Role of probiotics in health and disease: a review. J Pak Med Assoc. 2013;63(2):253-7.
 
@@ -61,8 +56,6 @@ Tiềm năng ứng dụng của L. fermentum ngày càng được làm rõ, ch�
 
 8. Hsin C, Wuchiuan C, Yu S, Wuchiuan C, Chih H, Wuchiuan W. Condom coated with Lactobacillus compositions. Google Patents; 2005.
 
-9. 
-Gan BS, Kim J, Reid G, Cadieux P, Howard JC. Lactobacillus fermentum RC-14 inhibits Staphylococcus aureus infection of surgical implants in rats. Journal of infectious Diseases. 2002;185(9):1369-72.
+9. Gan BS, Kim J, Reid G, Cadieux P, Howard JC. Lactobacillus fermentum RC-14 inhibits Staphylococcus aureus infection of surgical implants in rats. Journal of infectious Diseases. 2002;185(9):1369-72.
 
-10. 
-Olivares M, Díaz-Ropero MP, Sierra S, Lara-Villoslada F, Fonollá J, Navas M, et al. Oral intake of Lactobacillus fermentum CECT5716 enhances the effects of influenza vaccination. Nutrition. 2007;23(3):254-60.
+10. Olivares M, Díaz-Ropero MP, Sierra S, Lara-Villoslada F, Fonollá J, Navas M, et al. Oral intake of Lactobacillus fermentum CECT5716 enhances the effects of influenza vaccination. Nutrition. 2007;23(3):254-60.

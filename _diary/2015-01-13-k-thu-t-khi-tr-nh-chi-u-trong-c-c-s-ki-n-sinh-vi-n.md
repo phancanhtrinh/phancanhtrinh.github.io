@@ -29,8 +29,7 @@ Thông thường mình dùng PPT cho việc thiết lập kịch bản, các ho�
 
 Bước 2. Điều chỉnh chế độ chiếu phù hợp
 
-<b>1. Kỹ thuật chiếu 2 màn hình
-</b>
+<b>1. Kỹ thuật chiếu 2 màn hình</b>
 
 Việc trình chiếu trong các sự kiện điểm mấu chốt là chỉ để người xem thấy những gì cần thấy, tất cả mọi thao tác, hình ảnh, biểu tượng không cần thiết không được phép xuất hiện. Để thực hiện điều đó chúng ta sử dụng chế độ chiếu 2 màn hình <b>(Extend)</b> để trích xuất thông tin cần chiếu lên Projector/ LED. Các thao tác của người điều khiển được thực hiện ở màn hình 1 (màn hình máy tính).
 
@@ -54,8 +53,7 @@ Hiện tại, phiên bản Office 2013 cung cấp chức năng Presenter View kh
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBtBCz7EWEu3rgboXJmgZQ8cWyQHapAnH1CPPXd8PsmMq-zX6Si89j3aUKhgywh88XWGADlTeinELQEVRsiLS686dL83vBy3oB6BMD0zTXI7a_ypMgFILmvngXLXVsefqiwlOFfix6sKs/s1600/Picture4.png" width="640" height="386">
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcPAoAWL0SfL2KeF7gL3Oi_0z7ZNUU2GY7lIH_zYobrJd8oSEp36WVnXeYe8WiXdrlE_st1Q1VK5thtA944HArZj6rrW7wOuuPfFBgV4mWvfqZiwFjW8V62DX1BYtITRuKqCQ-MMvR6Z8/s1600/Picture3.png">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcPAoAWL0SfL2KeF7gL3Oi_0z7ZNUU2GY7lIH_zYobrJd8oSEp36WVnXeYe8WiXdrlE_st1Q1VK5thtA944HArZj6rrW7wOuuPfFBgV4mWvfqZiwFjW8V62DX1BYtITRuKqCQ-MMvR6Z8/s1600/Picture3.png"></a>
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcPAoAWL0SfL2KeF7gL3Oi_0z7ZNUU2GY7lIH_zYobrJd8oSEp36WVnXeYe8WiXdrlE_st1Q1VK5thtA944HArZj6rrW7wOuuPfFBgV4mWvfqZiwFjW8V62DX1BYtITRuKqCQ-MMvR6Z8/s1600/Picture3.png" width="640" height="206">
 
@@ -67,28 +65,23 @@ Các chức năng chính như sau:
 
 Khung Note: Khung này hiển thị những ghi chú, và hình ảnh slide kế tiếp.
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTfTiIlWtLkgOVLQH1GfuF8Its6jbjCd7fQKLU2hwviAx0LWJDTSBcATwwqHs26z_HEakRWQOcsmtHzfJHhM_IGja8QguOaY-v6H2uZWFqY7qasBKv5THbKScVLw4Xh0oN7_1dTl4eVn4/s1600/Picture6.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTfTiIlWtLkgOVLQH1GfuF8Its6jbjCd7fQKLU2hwviAx0LWJDTSBcATwwqHs26z_HEakRWQOcsmtHzfJHhM_IGja8QguOaY-v6H2uZWFqY7qasBKv5THbKScVLw4Xh0oN7_1dTl4eVn4/s1600/Picture6.png" width="320" height="312">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTfTiIlWtLkgOVLQH1GfuF8Its6jbjCd7fQKLU2hwviAx0LWJDTSBcATwwqHs26z_HEakRWQOcsmtHzfJHhM_IGja8QguOaY-v6H2uZWFqY7qasBKv5THbKScVLw4Xh0oN7_1dTl4eVn4/s1600/Picture6.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTfTiIlWtLkgOVLQH1GfuF8Its6jbjCd7fQKLU2hwviAx0LWJDTSBcATwwqHs26z_HEakRWQOcsmtHzfJHhM_IGja8QguOaY-v6H2uZWFqY7qasBKv5THbKScVLw4Xh0oN7_1dTl4eVn4/s1600/Picture6.png" width="320" height="312"></a>
 
 Một số nút lệnh:
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhU2xvChHbZkyQfHERH0Zd2QJNEDEcDCeTIYCHzYwM_as5iYJvg7oKEJnOlpQx6V_YtxmN_qcqvieAbAbEmm25PZXX2Ky5y1vCxLVFPLo49-EyLQiPRqrehrImoR3f7EUPbbbq2W-sWho/s1600/Picture7.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhU2xvChHbZkyQfHERH0Zd2QJNEDEcDCeTIYCHzYwM_as5iYJvg7oKEJnOlpQx6V_YtxmN_qcqvieAbAbEmm25PZXX2Ky5y1vCxLVFPLo49-EyLQiPRqrehrImoR3f7EUPbbbq2W-sWho/s1600/Picture7.png" width="400" height="50">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhU2xvChHbZkyQfHERH0Zd2QJNEDEcDCeTIYCHzYwM_as5iYJvg7oKEJnOlpQx6V_YtxmN_qcqvieAbAbEmm25PZXX2Ky5y1vCxLVFPLo49-EyLQiPRqrehrImoR3f7EUPbbbq2W-sWho/s1600/Picture7.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhU2xvChHbZkyQfHERH0Zd2QJNEDEcDCeTIYCHzYwM_as5iYJvg7oKEJnOlpQx6V_YtxmN_qcqvieAbAbEmm25PZXX2Ky5y1vCxLVFPLo49-EyLQiPRqrehrImoR3f7EUPbbbq2W-sWho/s1600/Picture7.png" width="400" height="50"></a>
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv_LibRawsploFP0JpgxsyDFI0t9v50pvcVXbG_aQmV3TSue4hsM-ZqBvTdehF4YRH-KCSm6LnCu_8VGpkfZoh8sdQL1_S-ANz8Yzl4sU8RCc7WY-UGIiRjkyePzFdTl6VoYnhBBx3p5I/s1600/Picture8.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv_LibRawsploFP0JpgxsyDFI0t9v50pvcVXbG_aQmV3TSue4hsM-ZqBvTdehF4YRH-KCSm6LnCu_8VGpkfZoh8sdQL1_S-ANz8Yzl4sU8RCc7WY-UGIiRjkyePzFdTl6VoYnhBBx3p5I/s1600/Picture8.png" width="400" height="273">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv_LibRawsploFP0JpgxsyDFI0t9v50pvcVXbG_aQmV3TSue4hsM-ZqBvTdehF4YRH-KCSm6LnCu_8VGpkfZoh8sdQL1_S-ANz8Yzl4sU8RCc7WY-UGIiRjkyePzFdTl6VoYnhBBx3p5I/s1600/Picture8.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv_LibRawsploFP0JpgxsyDFI0t9v50pvcVXbG_aQmV3TSue4hsM-ZqBvTdehF4YRH-KCSm6LnCu_8VGpkfZoh8sdQL1_S-ANz8Yzl4sU8RCc7WY-UGIiRjkyePzFdTl6VoYnhBBx3p5I/s1600/Picture8.png" width="400" height="273"></a>
 
 - Cần chú ý các chức năng: Bút (lazer, dạ quang), Xem tất cả các slide (Giúp chọn slide cần chiếu nhanh chóng), Phóng to slide, Tắt slide theo thứ tự như bên dưới.
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvWDHs3nj8RLRxvM7yJm1eziUcPhheYLVEfpWDtlHn7OrsGtpjXKbPAKP-Q4_wt9_4WqVvG7qTR13bZR6blWLxiyLL2wwqwHN24ycys6lRXV_Fb1h6RRmBKNWSrTtmWY_YJcA1X5CULaA/s1600/Picture10.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvWDHs3nj8RLRxvM7yJm1eziUcPhheYLVEfpWDtlHn7OrsGtpjXKbPAKP-Q4_wt9_4WqVvG7qTR13bZR6blWLxiyLL2wwqwHN24ycys6lRXV_Fb1h6RRmBKNWSrTtmWY_YJcA1X5CULaA/s1600/Picture10.png" width="320" height="61">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvWDHs3nj8RLRxvM7yJm1eziUcPhheYLVEfpWDtlHn7OrsGtpjXKbPAKP-Q4_wt9_4WqVvG7qTR13bZR6blWLxiyLL2wwqwHN24ycys6lRXV_Fb1h6RRmBKNWSrTtmWY_YJcA1X5CULaA/s1600/Picture10.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvWDHs3nj8RLRxvM7yJm1eziUcPhheYLVEfpWDtlHn7OrsGtpjXKbPAKP-Q4_wt9_4WqVvG7qTR13bZR6blWLxiyLL2wwqwHN24ycys6lRXV_Fb1h6RRmBKNWSrTtmWY_YJcA1X5CULaA/s1600/Picture10.png" width="320" height="61"></a>
 
 2.2. Giải pháp cho hình ảnh và thông tin
 
 - Các hình ảnh nếu là hình nền sử dụng cố định từ đầu đến cuối chương trình nên đặt thành <b>Desktop Background</b>.
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk6JzdUuqxXgUwdePtDkCwEXCymRlubWPITRdopXwbTGuGby-hmBX7ewQ-FVdGAjD3UgfJoCbRY-i_XONxgF0pimA3cVHWR4ay2Gp3Vv_SjKck8SREXKxD3foqoQOFhNo8Me90B7s2C9w/s1600/Picture2.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk6JzdUuqxXgUwdePtDkCwEXCymRlubWPITRdopXwbTGuGby-hmBX7ewQ-FVdGAjD3UgfJoCbRY-i_XONxgF0pimA3cVHWR4ay2Gp3Vv_SjKck8SREXKxD3foqoQOFhNo8Me90B7s2C9w/s1600/Picture2.png" width="296" height="400">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk6JzdUuqxXgUwdePtDkCwEXCymRlubWPITRdopXwbTGuGby-hmBX7ewQ-FVdGAjD3UgfJoCbRY-i_XONxgF0pimA3cVHWR4ay2Gp3Vv_SjKck8SREXKxD3foqoQOFhNo8Me90B7s2C9w/s1600/Picture2.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk6JzdUuqxXgUwdePtDkCwEXCymRlubWPITRdopXwbTGuGby-hmBX7ewQ-FVdGAjD3UgfJoCbRY-i_XONxgF0pimA3cVHWR4ay2Gp3Vv_SjKck8SREXKxD3foqoQOFhNo8Me90B7s2C9w/s1600/Picture2.png" width="296" height="400"></a>
 
 - Hình ảnh chiếu lưu động đưa vào slide Power point chiếu khi cần.
 
@@ -110,13 +103,11 @@ Window Media Player Classic theo mình là thích hợp cho công việc này nh
 
 Để chuyển WMP sang màng hình 2 chúng ta mở phần mềm lên bấm phím <b>O </b>hoặc<b> View/ Options... </b>thiết lập các tùy chọn như sau:
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR6r9JojHuN4Nl3dILlvWgfiSwSjpnquxEEd2rL9BbQZUDBVeJ-_vS7rva-lY9Gq5Vkp0wbtZdewR0Gne-iRCiTxl1_2X1xaZMJ7T4HmGntZhjFpgQYGeH_sMXuAZ2k85iZuRgSeepzA0/s1600/Picture11.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR6r9JojHuN4Nl3dILlvWgfiSwSjpnquxEEd2rL9BbQZUDBVeJ-_vS7rva-lY9Gq5Vkp0wbtZdewR0Gne-iRCiTxl1_2X1xaZMJ7T4HmGntZhjFpgQYGeH_sMXuAZ2k85iZuRgSeepzA0/s1600/Picture11.png" width="400" height="300">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR6r9JojHuN4Nl3dILlvWgfiSwSjpnquxEEd2rL9BbQZUDBVeJ-_vS7rva-lY9Gq5Vkp0wbtZdewR0Gne-iRCiTxl1_2X1xaZMJ7T4HmGntZhjFpgQYGeH_sMXuAZ2k85iZuRgSeepzA0/s1600/Picture11.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR6r9JojHuN4Nl3dILlvWgfiSwSjpnquxEEd2rL9BbQZUDBVeJ-_vS7rva-lY9Gq5Vkp0wbtZdewR0Gne-iRCiTxl1_2X1xaZMJ7T4HmGntZhjFpgQYGeH_sMXuAZ2k85iZuRgSeepzA0/s1600/Picture11.png" width="400" height="300"></a>
 
 Kích mũi tên ở mục <b>Internal </b>cho đến khi logo không màu như hình, mục đích xóa logo mặc định của WMP.
 
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKD9Y1SPQg6vsn9uMGNEuWJ7Y42FB8lY6nRewnBPAZ5tXc3oMnY_0MhhzbVbUyAV9hOgLpI8QBWrhNx3245sJe29ySR3edCXdSb4Pe8LD9E_1SldJx7Mi-e6nwgxUUrqxBIcCGz3iCv44/s1600/Picture12.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKD9Y1SPQg6vsn9uMGNEuWJ7Y42FB8lY6nRewnBPAZ5tXc3oMnY_0MhhzbVbUyAV9hOgLpI8QBWrhNx3245sJe29ySR3edCXdSb4Pe8LD9E_1SldJx7Mi-e6nwgxUUrqxBIcCGz3iCv44/s1600/Picture12.png" width="400" height="300">
-</a>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKD9Y1SPQg6vsn9uMGNEuWJ7Y42FB8lY6nRewnBPAZ5tXc3oMnY_0MhhzbVbUyAV9hOgLpI8QBWrhNx3245sJe29ySR3edCXdSb4Pe8LD9E_1SldJx7Mi-e6nwgxUUrqxBIcCGz3iCv44/s1600/Picture12.png"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKD9Y1SPQg6vsn9uMGNEuWJ7Y42FB8lY6nRewnBPAZ5tXc3oMnY_0MhhzbVbUyAV9hOgLpI8QBWrhNx3245sJe29ySR3edCXdSb4Pe8LD9E_1SldJx7Mi-e6nwgxUUrqxBIcCGz3iCv44/s1600/Picture12.png" width="400" height="300"></a>
 
 Chon chiếu Fullscreen khi hiển thị file, chọn màn hình hiển thị là màn hình 2, chọn Never show đối với thanh điều khiển.
 

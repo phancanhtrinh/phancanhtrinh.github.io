@@ -15,17 +15,13 @@ One Health được xác định như một mối hợp tác, đa lĩnh vực tr
 
 Có nhiều ví dụ cho thấy mối liên hệ này, ví dụ các bệnh lây truyền từ động vật sang người như bệnh dại, thương hàn, sốt Tây sông Nile, sốt Q. Động vật cũng có thể mắc bệnh lây truyền từ người và môi trường. Vì vậy, việc theo dõi trên tiếp cận One Health có thể dự báo sớm một số dịch bệnh trên người. Ví dụ, khi chim chết thường xuyên do virus Tây Nile trước khi dịch xảy ra ở người. 
 
-Khái niệm One Health không mới, nhưng trong tình hình mới, nhiều biến đổi về khí hậu, môi trường, băng tan dẫn đến các bệnh mới nổi hoặc tái xuất hiện. One Health trở thành một vấn đề quan trọng trong thời gian gần đây.
-
+Khái niệm One Health không mới, nhưng trong tình hình mới, nhiều biến đổi về khí hậu, môi trường, băng tan dẫn đến các bệnh mới nổi hoặc tái xuất hiện. One Health trở thành một vấn đề quan trọng trong thời gian gần đây.<br>
 <br>
-<br>
-
 <br>
 
 <table><tbody>
 <tr><td></td><td>
 <br>
-
  <br>
 
 <br>

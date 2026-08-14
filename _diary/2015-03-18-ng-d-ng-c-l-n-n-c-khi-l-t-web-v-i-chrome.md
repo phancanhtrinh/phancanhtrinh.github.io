@@ -13,10 +13,7 @@ Lướt web để tránh phiền toái chúng ta nên có <b>Adblock </b>điều
 
 <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4HwqQK5QsjX4QBwqqbdp4f0yUgtV7KCrGiyoHOZsb53YHkRFeA4hF3q7PPFxe63_Z5Q8PRBeJJ_Ak3onmCyODtKNM4RwKGU7VUvLa7C3lbGf3sRnIPlLvrUhaGcz7coD7ugt-qjk5GJQ/s1600/unnamed.webp"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4HwqQK5QsjX4QBwqqbdp4f0yUgtV7KCrGiyoHOZsb53YHkRFeA4hF3q7PPFxe63_Z5Q8PRBeJJ_Ak3onmCyODtKNM4RwKGU7VUvLa7C3lbGf3sRnIPlLvrUhaGcz7coD7ugt-qjk5GJQ/s1600/unnamed.webp" width="400" height="250"></a>
 
-Tiếng Anh! Không phải từ nào bạn cũng biết, và tất nhiên cần một thứ dịch thuật tức thời, mau chóng. Tất nhiên, google sẽ đem tới những thứ công cụ tương thích với phần mềm của nó hơn là ba thứ hàng tạp nham khác nhan nhản trên thị trường extension. Vậy thì tôi chọn 
-<b>Google translate extension </b>[
-<a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb" target="_blank" rel="noopener">Tải tại đây</a>].
-<br>
+Tiếng Anh! Không phải từ nào bạn cũng biết, và tất nhiên cần một thứ dịch thuật tức thời, mau chóng. Tất nhiên, google sẽ đem tới những thứ công cụ tương thích với phần mềm của nó hơn là ba thứ hàng tạp nham khác nhan nhản trên thị trường extension. Vậy thì tôi chọn <b>Google translate extension </b>[<a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb" target="_blank" rel="noopener">Tải tại đây</a>].<br>
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBRogORhOlKyJu174XFzFg-Wt1uoyZ8Yo70sHZMa7VjBcHBe7jTCkj-1AdwkCPBU1VuorBzgBMdZLAIR7LJ95GOEFGi7rk2Ne50qBgEMeItp1m-0PdqEKff6xNcZ1bzb_p4jgCkU6VPe4/s1600/unnamed.jpg" width="400" height="250">
 

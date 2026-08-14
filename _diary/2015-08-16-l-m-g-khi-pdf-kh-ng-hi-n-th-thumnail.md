@@ -9,20 +9,17 @@ source_url: "https://phancanhtrinh.blogspot.com/2015/08/lam-gi-khi-pdf-khong-hie
 summary: "Lưu ý: Nội dung bài viết áp dụng cho window 32 bit Một ngày nào đó vì lý do ngựa, bạn đã vọc máy tính bằng việc cài lại phần mềm, cài lại hệ điều hành... Và kết quả là PDF tự dưng mất luôn thumnail. Làm sao với tình huống này? Mình xin hướng dẫn cách khôi phục thumnail với Adobe Acrobat hoặc Adobe Reader. Bước 1. Mở Adobe Acrobat lên. Chọn Edit\\ Preferences\\ Tab General\\ Select Default PDF handler\\ OK Nếu Thumnails hiển thị bạn kết thúc công việc tại đây. Nếu không thực hiện bước 2. Bước 2. Cont"
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3P0g-p_huNudrDXu2eCsavjQfn4_hrTyrf8NrY8oARRZgKhaNL18TzMypQ51JL0S86z1O0N_PL8fxMWTELRUgrzcUYv0vBIMgcKoosdw-qkeo5YmxfbuX99eUGS3m_mjkLVSTkNJVIRQ/s640/Picture1.png"
 ---
-<b>Lưu ý: Nội dung bài viết áp dụng cho window 32 bit
-</b>
+<b>Lưu ý: Nội dung bài viết áp dụng cho window 32 bit</b>
 
 Một ngày nào đó vì lý do ngựa, bạn đã vọc máy tính bằng việc cài lại phần mềm, cài lại hệ điều hành... Và kết quả là PDF tự dưng mất luôn thumnail. Làm sao với tình huống này? Mình xin hướng dẫn cách khôi phục thumnail với Adobe Acrobat hoặc Adobe Reader.
 
-<b>Bước 1.
-</b>
+<b>Bước 1.</b>
 
 Mở Adobe Acrobat lên. Chọn Edit\ Preferences\ Tab General\ Select Default PDF handler\ OK 
 
 Nếu Thumnails hiển thị bạn kết thúc công việc tại đây. Nếu không thực hiện bước 2.
 
-<b>Bước 2. 
-</b>
+<b>Bước 2. </b>
 
 Control Panel\ Programs\ Default Programs\ Associate a file type or protocol with a program. Chờ window tìm kiếm.
 
@@ -37,7 +34,6 @@ Bây giờ mở Adobe Acrobat lên, nhấn Crtl + O (mở tập tin) và điều
 Mở tệp bất kỳ và kiểm tra kết quả.
 
 <br>
-
 <br>
 
 <br>

@@ -11,17 +11,14 @@ thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnwr8oF6
 ---
 Nhân ngày thế giới phòng chống HIV/AIDS 1/12/2015, hội thảo trực tuyến về phòng ngừa, điều trị và loại bỏ HIV đã được tổ chức bởi tạp chí nature.
 
-<b>Hội nghị hiện tại được phát lại tại địa chỉ:</b>
- <a href="http://www.nature.com/collections/qdtpvmnnqj/webinar">http://www.nature.com/collections/qdtpvmnnqj/webinar</a>
-<br>
+<b>Hội nghị hiện tại được phát lại tại địa chỉ:</b> <a href="http://www.nature.com/collections/qdtpvmnnqj/webinar">http://www.nature.com/collections/qdtpvmnnqj/webinar</a><br>
 <br>
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnwr8oF6Ws-d6DamjEZvK_YdwiVNZBDDDwT2XGT3rHs_yRdBmjdGn_ED0oW9kAy9RKGdwG229ghcHDw1E5HXJYMDCBNl8INJOOvYwV_zmV6_6iGhu4x2CQWRSK7xYln8Zs9jgNSTgmEg/s640/CVIrW-DVEAAjrYq.jpg" width="640" height="320">
 
 <br>
 
-<b>Tổng quan hội nghị
-</b>
+<b>Tổng quan hội nghị</b>
 
 Có gần 37 triệu người trên thế giới đang sống chung với HIV. Kể từ lúc đại dịch bùng nổ khoảng 30 năm về trước, cộng đồng khoa học và y tế thế giới đã lao vào công cuộc nghiên cứu nhằm xác định và mô tả loại virus này. Nhiều thuốc kháng retrovirus lần lượt ra đời với cơ chế ngăn chặn sao chép, hạn chế sự phát triển bệnh, lựa chọn điều trị nhắm đến mục tiêu lây nhiễm tiền ẩn. Các hoạt động giáo dục cộng đồng về khả năng lây nhiễm và biện pháp phòng ngừa được thực hiện mạnh mẽ.
 
@@ -33,14 +30,10 @@ Susan Buchbinder sẽ lên dàn ý về các chiến lược sử dụng gần �
 
 Steven Deeks sẽ giải thích cơ chế tác động của một số liệu pháp kháng retrovirus, mô tả cách thức kháng thuốc, một rào cản trong điều trị. Do khả năng tích hợp vào gen của virus, một điều quan trọng khác là làm sao để xác định và loại bỏ các ổ nhiễm của tế bào.
 
-Robert Siliciano sẽ trình bày các chiến lược khác nhau hiện nay trong việc
- thử nghiệm để loại trừ nhiễm trùng dai dẳng, tập trung vào khả năng ứng dụng lâm sàng của các thử nghiệm này trong tương lai gần.
-
-<br>
+Robert Siliciano sẽ trình bày các chiến lược khác nhau hiện nay trong việc thử nghiệm để loại trừ nhiễm trùng dai dẳng, tập trung vào khả năng ứng dụng lâm sàng của các thử nghiệm này trong tương lai gần.<br>
 
 <b>
-<b>Speaker
-</b>
+<b>Speaker</b>
 
 </b>
 Susan Buchbinder, M.D., University of California, San Francisco

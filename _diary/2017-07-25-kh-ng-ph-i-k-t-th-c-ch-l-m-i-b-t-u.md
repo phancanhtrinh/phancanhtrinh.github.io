@@ -33,16 +33,12 @@ Ngoài kia cuộc sống sẽ bộn bề lắm, sẽ chẳng êm đềm trôi nh
 
 <br>
 
-Vẫn luôn tự hào về các em! Anh biết mấy đứa rất giỏi!
+Vẫn luôn tự hào về các em! Anh biết mấy đứa rất giỏi!<br>
 <br>
-<br>
-
 <table><tbody>
 <tr><td><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIDGa7pe2kTh3wWb3O4hc8UqiKwHH76IzPZNmGdEWLybNkvjjD3_CA3NlTMs67ZXp_OWV4x7F86VL-bcwXWyQf5HJ3KSmklyTH164i-WzDJvbFQ_ov0BGdRYcxAbU5cP13cl1V0cMHsIfr/s1600/z693040038195_cd03f684d8dbfa5a3d2837af45704738.jpg"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIDGa7pe2kTh3wWb3O4hc8UqiKwHH76IzPZNmGdEWLybNkvjjD3_CA3NlTMs67ZXp_OWV4x7F86VL-bcwXWyQf5HJ3KSmklyTH164i-WzDJvbFQ_ov0BGdRYcxAbU5cP13cl1V0cMHsIfr/s400/z693040038195_cd03f684d8dbfa5a3d2837af45704738.jpg" width="400" height="223"></a></td></tr>
-<tr><td>Tác phẩm xuất sắc nhất của Duyên và Khoa
-</td></tr>
+<tr><td>Tác phẩm xuất sắc nhất của Duyên và Khoa</td></tr>
 </tbody></table>
 
 <br>
-
 Sài Gòn, 25 tháng 7 năm 2017.

@@ -9,16 +9,13 @@ source_url: "https://phancanhtrinh.blogspot.com/2015/02/nhandienthuonghieu2015.h
 summary: "Ngày 29 Tết! Chuẩn bị từ những ngày cuối năm, tích cực, tích cực lắm cho một diện mạo mới của Tôi 2.0. Khoác một màu áo mới đón TẾT Ất Mùi - 2015 nào. Chưa định Public nhưng mà kích thích quá! :) Avarta - Icon Personal PowerPoint Template Nền Slide tiêu đề - Thiết kế bằng Photoshop Bố cục mẫu thiết kế bằng Powerpoint 2013 - Slide Master Nếu không có gì thay đổi, mẫu sẽ được sử dụng trong năm 2015+ :D"
 thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrgoHgHj0RRKkqMVJqP79UYz7G5cLu0ZZUqE58UoJIUNwlr5WqEKQ_dP4kDNO-glZRtWjJIuwvgobLPnF6w1vdITBvDXjUWtfWUdMi8ItVLireAtbenXCxYJ576DHrWRJZU8FD57CdPyg/s1600/lo.png"
 ---
-Ngày 29 Tết!
-<br>
+Ngày 29 Tết!<br>
 
 Chuẩn bị từ những ngày cuối năm, tích cực, tích cực lắm cho một diện mạo mới của Tôi 2.0. Khoác một màu áo mới đón <b>TẾT</b> <b>Ất Mùi - 2015 </b>nào. 
 
-Chưa định Public nhưng mà kích thích quá! :)
-<br>
+Chưa định Public nhưng mà kích thích quá! :)<br>
 
-<b>Avarta - Icon
-</b>
+<b>Avarta - Icon</b>
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrgoHgHj0RRKkqMVJqP79UYz7G5cLu0ZZUqE58UoJIUNwlr5WqEKQ_dP4kDNO-glZRtWjJIuwvgobLPnF6w1vdITBvDXjUWtfWUdMi8ItVLireAtbenXCxYJ576DHrWRJZU8FD57CdPyg/s1600/lo.png">
 
@@ -35,6 +32,5 @@ Nền Slide tiêu đề - Thiết kế bằng Photoshop
 
 Bố cục mẫu thiết kế bằng Powerpoint 2013 - Slide Master
 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnkvLeo_sIGCF75DD4S4CbOEBwcyTyB7Kk2Rzunbo2EHNBzXYmzLYnq6H4utsdMMhudun8gFpjz6cpmscqFjJBhnboLIdWFvyevoJLXW0B5Y_9Fkc4lz_7-xmrfO2gFmsfjJ13XrKyFoc/s1600/Nhu+c%E1%BA%A7u+v%C3%A0+%C4%91%C3%A1p+%E1%BB%A9ng+c%E1%BB%A7a+c%C3%A1c+c%C3%B4ng.png" width="640" height="480">
-<br>
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnkvLeo_sIGCF75DD4S4CbOEBwcyTyB7Kk2Rzunbo2EHNBzXYmzLYnq6H4utsdMMhudun8gFpjz6cpmscqFjJBhnboLIdWFvyevoJLXW0B5Y_9Fkc4lz_7-xmrfO2gFmsfjJ13XrKyFoc/s1600/Nhu+c%E1%BA%A7u+v%C3%A0+%C4%91%C3%A1p+%E1%BB%A9ng+c%E1%BB%A7a+c%C3%A1c+c%C3%B4ng.png" width="640" height="480"><br>
 Nếu không có gì thay đổi, mẫu sẽ được sử dụng trong năm <b>2015+</b> :D

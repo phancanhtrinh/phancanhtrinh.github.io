@@ -10,10 +10,8 @@ summary: "Bước chân vào trường Dược với mình như một mối nhâ
 ---
 Bước chân vào trường Dược với mình như một mối nhân duyên, và mình đã lỡ yêu nghề nhiều lúc bỏ quên cuộc sống bản thân...
 
-Mỗi ngày gắn bó với nghề dạy, với nghiệp nghiên cứu là niềm hạnh phúc và an yên nhất mình tìm thấy; cho nên bao nhiêu vấn vương, bon chen trần tục, chuyện đời đảo điên ngoài kia xin tạm gác. 
-<br>
-Ai làm gì mặc kệ, mỗi người một chọn lựa nên hãy để mình yên với đam mê của mình. Làm ơn đừng phán xét!
-<br>
+Mỗi ngày gắn bó với nghề dạy, với nghiệp nghiên cứu là niềm hạnh phúc và an yên nhất mình tìm thấy; cho nên bao nhiêu vấn vương, bon chen trần tục, chuyện đời đảo điên ngoài kia xin tạm gác. <br>
+Ai làm gì mặc kệ, mỗi người một chọn lựa nên hãy để mình yên với đam mê của mình. Làm ơn đừng phán xét!<br>
 
 Sài Gòn, một ngày cuối tháng 6!
 

@@ -13,8 +13,7 @@ Vài tháng trước đây, mình đã đọc một câu chuyện kể về ngư
 
 Mình đã công tác tại nhiều tổ chức, hoạt động đoàn từ hồi mới vào trường; ở môi trường này có lẽ chỉ có hoạt động đoàn là cái lý tưởng của một nhóm làm việc, đơn giản chúng ta khao khát thành công của chương trình, cùng chung một mục tiêu để phẩn đấu. Ở đó chúng ta làm không vụ lợi đơn giản vì tình yêu.
 
-Nhưng ở một mảng khác, công việc, học tập... hình như nó không đơn thuần như vậy. Mục tiêu của mỗi người một khác, tính cách một khác, trách nhiệm một khác.
-<br>
+Nhưng ở một mảng khác, công việc, học tập... hình như nó không đơn thuần như vậy. Mục tiêu của mỗi người một khác, tính cách một khác, trách nhiệm một khác.<br>
 
 <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfnqsuANoUDfAkfCjLAAOniEdQynzg9gpNAUx6CbGaqmbm_GgnqUTG0dLoFVzpgM_TpLacHGte9r4huePMzuoSOUTRIWJEDSQ45CoCjzZgE5U9OKkuoCfc3crNyoSe6_bDiwUPoYGkN5Y/s1600/20141102170941-khacbiet2.jpg"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfnqsuANoUDfAkfCjLAAOniEdQynzg9gpNAUx6CbGaqmbm_GgnqUTG0dLoFVzpgM_TpLacHGte9r4huePMzuoSOUTRIWJEDSQ45CoCjzZgE5U9OKkuoCfc3crNyoSe6_bDiwUPoYGkN5Y/s1600/20141102170941-khacbiet2.jpg" width="400" height="223"></a>
 
