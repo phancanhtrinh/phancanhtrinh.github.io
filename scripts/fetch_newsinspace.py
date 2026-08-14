@@ -23,8 +23,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 
 WINDOW_DAYS = 14          # how far back to search
-MAX_JOURNAL_ITEMS = 40    # cap for Nature/Cell/Science/Cancer Discovery family
-MAX_PREPRINT_ITEMS = 30   # cap for bioRxiv + arXiv combined
+MAX_JOURNAL_ITEMS = 100   # flagship papers plus spatially weighted family journals
+MAX_PREPRINT_ITEMS = 40   # cap for bioRxiv + arXiv combined
 MAX_NEW_SUMMARIES = 20    # keep daily AI usage predictable
 REQUEST_TIMEOUT = 30
 OUTPUT_PATH = "_data/newsinspace.json"
@@ -94,17 +94,24 @@ SYNTHETIC_KEYWORDS_LOWER = [p.lower() for p in SYNTHETIC_BIOLOGY_PHRASES]
 FOCUS_KEYWORDS_LOWER = [p.lower() for p in FOCUS_PHRASES]
 TOPIC_PRIORITY = {"spatial": 4, "synthetic": 3, "focus": 2, "life-science": 1}
 
-EUROPEPMC_JOURNALS = [
-    "Nature", "Nature Methods", "Nature Biotechnology", "Nature Medicine",
-    "Nature Cancer", "Nature Communications", "Nature Genetics",
-    "Nature Immunology", "Nature Cell Biology", "Nature Reviews Cancer",
-    "Nature Reviews Genetics",
-    "Cell", "Cell Reports", "Cancer Cell", "Immunity", "Molecular Cell",
-    "Cell Genomics", "Cell Systems",
+CELL_PRESS_JOURNALS = (
+    "Cell", "Cancer Cell", "Immunity", "Molecular Cell", "Neuron",
+    "Developmental Cell", "Current Biology", "Cell Host & Microbe",
+    "Cell Metabolism", "Cell Stem Cell", "Cell Chemical Biology",
+    "Cell Systems", "Cell Genomics", "Cell Reports", "Cell Reports Medicine",
+    "Cell Reports Methods", "iScience", "Med", "Trends in Cancer",
+    "Trends in Immunology", "Trends in Biotechnology",
+)
+SCIENCE_JOURNALS = (
     "Science", "Science Advances", "Science Immunology",
-    "Science Translational Medicine",
-    "Cancer Discovery",
-]
+    "Science Translational Medicine", "Science Signaling", "Science Robotics",
+)
+EUROPEPMC_JOURNAL_QUERIES = {
+    "nature": "JOURNAL:Nature*",
+    "cell": " OR ".join(f'JOURNAL:"{name}"' for name in CELL_PRESS_JOURNALS),
+    "science": " OR ".join(f'JOURNAL:"{name}"' for name in SCIENCE_JOURNALS),
+    "cancer-discovery": 'JOURNAL:"Cancer Discovery"',
+}
 
 BIORXIV_CATEGORIES = (
     "cancer biology", "bioinformatics", "systems biology", "genomics",
@@ -157,24 +164,35 @@ def is_eligible_item(item):
     return bool(title) and not title.startswith(EXCLUDED_TITLE_PREFIXES)
 
 
-def fetch_europepmc(start_date, end_date):
-    """Recent papers from selected journals via Europe PMC metadata search."""
-    journal_clause = " OR ".join(f'JOURNAL:"{j}"' for j in EUROPEPMC_JOURNALS)
-    query = (
-        f"({journal_clause}) "
-        f'AND FIRST_PDATE:[{start_date} TO {end_date}]'
+def normalize_journal_name(name):
+    return " ".join((name or "").lower().replace(".", "").split())
+
+
+def is_flagship_journal(name):
+    normalized = normalize_journal_name(name)
+    return (
+        normalized in {"nature", "cell", "science"}
+        or normalized.startswith("science (")
     )
-    params = {
-        "query": query,
-        "format": "json",
-        "resultType": "core",
-        "pageSize": "1000",
-        "sort": "P_PDATE_D desc",
-    }
-    url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?" + urllib.parse.urlencode(params)
-    items = []
-    try:
+
+
+def fetch_europepmc(start_date, end_date):
+    """Recent Nature, Cell, and Science-family records from Europe PMC."""
+    def fetch_family(family, journal_query):
+        query = f"({journal_query}) AND FIRST_PDATE:[{start_date} TO {end_date}]"
+        params = {
+            "query": query,
+            "format": "json",
+            "resultType": "core",
+            "pageSize": "1000",
+            "sort": "P_PDATE_D desc",
+        }
+        url = (
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/search?"
+            + urllib.parse.urlencode(params)
+        )
         data = http_get_json(url)
+        family_items = []
         for r in data.get("resultList", {}).get("result", []):
             doi = r.get("doi")
             url_out = f"https://doi.org/{doi}" if doi else r.get("fullTextUrlList", {}).get(
@@ -189,12 +207,28 @@ def fetch_europepmc(start_date, end_date):
                     "doi": doi or "",
                     "abstract": (r.get("abstractText") or "")[:400],
                     "source": "journal",
+                    "journal_family": family,
                 }
             item["topic"] = classify_topic(item["title"], item["abstract"])
+            item["flagship"] = is_flagship_journal(item["journal"])
             if looks_like_life_science(item["title"], item["abstract"]):
-                items.append(item)
-    except Exception as e:
-        print(f"[warn] Europe PMC fetch failed: {e}", file=sys.stderr)
+                family_items.append(item)
+        return family_items
+
+    items = []
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {
+            pool.submit(fetch_family, family, query): family
+            for family, query in EUROPEPMC_JOURNAL_QUERIES.items()
+        }
+        for future in as_completed(futures):
+            family = futures[future]
+            try:
+                family_items = future.result()
+                items.extend(family_items)
+                print(f"[Europe PMC] {family}: {len(family_items)} life-science item(s)")
+            except Exception as e:
+                print(f"[warn] Europe PMC {family} fetch failed: {e}", file=sys.stderr)
     return items
 
 
@@ -423,13 +457,31 @@ def select_balanced(items, limit):
     return selected
 
 
+def select_journal_items(items, limit):
+    """Keep every eligible flagship item, then balance the family-journal fill."""
+    candidates = dedupe([it for it in items if is_eligible_item(it)])
+    candidates.sort(key=item_sort_key, reverse=True)
+    flagship = [it for it in candidates if it.get("flagship")]
+    selected = flagship[:limit]
+    selected_keys = {
+        it.get("doi") or it.get("title", "").strip().lower() for it in selected
+    }
+    remaining = [
+        it for it in candidates
+        if (it.get("doi") or it.get("title", "").strip().lower()) not in selected_keys
+    ]
+    selected.extend(select_balanced(remaining, limit - len(selected)))
+    selected.sort(key=item_sort_key, reverse=True)
+    return selected
+
+
 def main():
     end = datetime.now(timezone.utc).date()
     start = end - timedelta(days=WINDOW_DAYS)
     start_s, end_s = start.isoformat(), end.isoformat()
 
     print(f"Fetching papers from {start_s} to {end_s}...")
-    journal_items = select_balanced(
+    journal_items = select_journal_items(
         fetch_europepmc(start_s, end_s), MAX_JOURNAL_ITEMS
     )
 
