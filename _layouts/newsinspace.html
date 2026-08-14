@@ -58,6 +58,13 @@ layout: default
 					{{ p.journal }} &middot; {{ p.date }}
 					&middot; {{ p.publisher_signal }}
 				</div>
+				{% if p.summary_bullets and p.summary_bullets.size > 0 %}
+				<ul class="nis-item-summary">
+					{% for b in p.summary_bullets %}
+					<li>{{ b }}</li>
+					{% endfor %}
+				</ul>
+				{% endif %}
 			</div>
 		</li>
 		{% endfor %}

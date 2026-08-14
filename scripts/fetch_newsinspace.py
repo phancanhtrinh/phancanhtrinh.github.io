@@ -13,6 +13,7 @@ snapshot rather than an ever-growing archive.
 """
 
 import json
+import html
 import os
 import re
 import sys
@@ -381,6 +382,39 @@ def summarize_paper(title, abstract):
         return None
 
 
+def clip_words(text, limit=28):
+    words = text.split()
+    if len(words) <= limit:
+        return " ".join(words).rstrip(" .") + "."
+    return " ".join(words[:limit]).rstrip(" ,;:.") + "…"
+
+
+def fallback_summary(title, abstract):
+    """Always provide three concise, source-grounded bullets when possible."""
+    clean_title = html.unescape(re.sub(r"<[^>]+>", " ", title or ""))
+    clean_title = re.sub(r"\s+", " ", clean_title).strip().rstrip(".")
+    clean_abstract = html.unescape(re.sub(r"<[^>]+>", " ", abstract or ""))
+    clean_abstract = re.sub(r"\s+", " ", clean_abstract).strip()
+
+    if len(clean_abstract) < 40:
+        return [clip_words(clean_title, 22)] if clean_title else None
+
+    bullets = [clip_words(f"Focus: {clean_title}", 26)]
+    sentences = [
+        part.strip()
+        for part in re.split(r"(?<=[.!?])\s+|;\s+", clean_abstract)
+        if len(part.strip().split()) >= 5
+    ]
+    if len(sentences) >= 2:
+        bullets.extend(clip_words(part) for part in sentences[:2])
+    else:
+        words = clean_abstract.split()
+        midpoint = max(1, len(words) // 2)
+        bullets.append(clip_words(" ".join(words[:midpoint])))
+        bullets.append(clip_words(" ".join(words[midpoint:])))
+    return bullets[:3]
+
+
 def load_previous_summaries():
     """Carries forward summaries from the last run's output so unchanged
     papers (this is a rolling-window snapshot, re-fetched fresh every run,
@@ -508,6 +542,16 @@ def main():
             bullets = summarize_paper(it.get("title", ""), it.get("abstract", ""))
             if bullets:
                 new_summaries += 1
+        fallback = fallback_summary(it.get("title", ""), it.get("abstract", ""))
+        if fallback:
+            if not bullets:
+                bullets = fallback
+            elif len(it.get("abstract", "")) >= 40 and len(bullets) < 3:
+                for candidate in fallback:
+                    if candidate not in bullets:
+                        bullets.append(candidate)
+                    if len(bullets) == 3:
+                        break
         if bullets:
             it["summary_bullets"] = bullets
             it["summary_kind"] = (
@@ -519,7 +563,7 @@ def main():
             f"{reused_summaries} from the previous run"
         )
     else:
-        print("[info] ANTHROPIC_API_KEY not set, skipping summarization (falls back to raw abstract)")
+        print("[info] ANTHROPIC_API_KEY not set; using source-grounded fallback bullets")
 
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

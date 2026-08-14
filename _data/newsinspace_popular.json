@@ -6,70 +6,120 @@
       "journal": "Nature",
       "date": "2026-08-05",
       "url": "https://www.nature.com/articles/s41586-026-10884-y",
-      "publisher_signal": "45k Nature Accesses"
+      "publisher_signal": "45k Nature Accesses",
+      "summary_bullets": [
+        "Virtual Tissues is a foundation model for analysing spatial proteomics across different marker panels and experimental protocols.",
+        "It aims to transfer tissue knowledge across cohorts instead of requiring a separate model for every study.",
+        "The framework supports tissue representation and biomarker discovery across spatial scales in cancer datasets."
+      ]
     },
     {
       "title": "A spatial code governs olfactory receptor choice and aligns sensory maps in the nose and brain",
       "journal": "Cell",
       "date": "2026-04-28",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00387-9",
-      "publisher_signal": "Cell Most read (last 30 days)"
+      "publisher_signal": "Cell Most read (last 30 days)",
+      "summary_bullets": [
+        "The study links olfactory receptor choice to the spatial organization of sensory neurons in the nose.",
+        "This spatial receptor code helps align peripheral sensory organization with corresponding maps in the brain.",
+        "The work connects cell-fate choice, tissue position, and neural circuit organization."
+      ]
     },
     {
       "title": "RegVelo: Gene-regulatory-informed dynamics of single cells",
       "journal": "Cell",
       "date": "2026-05-11",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00457-5",
-      "publisher_signal": "Cell Most read (last 30 days)"
+      "publisher_signal": "Cell Most read (last 30 days)",
+      "summary_bullets": [
+        "RegVelo combines single-cell RNA sequencing with prior gene-regulatory knowledge to infer regulatory dynamics.",
+        "It models transcription as a regulated process, capturing coupled gene behavior during cell-state transitions.",
+        "Integration with CellRank enables in-silico perturbation experiments and cell-fate prediction."
+      ]
     },
     {
       "title": "A dependency map enhanced with next-generation 3D cancer models",
       "journal": "Nature",
       "date": "2026-08-05",
       "url": "https://www.nature.com/articles/s41586-026-10843-7",
-      "publisher_signal": "60k Nature Accesses"
+      "publisher_signal": "60k Nature Accesses",
+      "summary_bullets": [
+        "The study expands the Cancer Dependency Map with next-generation three-dimensional cancer models.",
+        "The models capture vulnerabilities that conventional two-dimensional cancer cell lines can miss.",
+        "The resulting resource supports systematic target discovery and precision-oncology research."
+      ]
     },
     {
       "title": "A compendium of next-generation patient-derived models for diverse cancers",
       "journal": "Nature",
       "date": "2026-08-05",
       "url": "https://www.nature.com/articles/s41586-026-10806-y",
-      "publisher_signal": "58k Nature Accesses"
+      "publisher_signal": "58k Nature Accesses",
+      "summary_bullets": [
+        "The resource assembles next-generation patient-derived models across a broad range of cancers.",
+        "It addresses gaps in existing model collections that represent only part of human tumour diversity.",
+        "The compendium supports therapeutic testing and validation of cancer disease mechanisms."
+      ]
     },
     {
       "title": "A tumour-derived organoid biobank maps cancer gene dependencies",
       "journal": "Nature",
       "date": "2026-08-05",
       "url": "https://www.nature.com/articles/s41586-026-10830-y",
-      "publisher_signal": "46k Nature Accesses"
+      "publisher_signal": "46k Nature Accesses",
+      "summary_bullets": [
+        "The study builds a tumour-derived organoid biobank linked to patient and cancer context.",
+        "Three-dimensional organoids complement cell lines by better representing tumour diversity.",
+        "The biobank enables systematic mapping of cancer gene dependencies for research and drug discovery."
+      ]
     },
     {
       "title": "Generative design of bacteriophages with genome language models",
       "journal": "Science",
       "date": "2026-08-06",
       "url": "https://www.science.org/doi/10.1126/science.aec2657",
-      "publisher_signal": "14,471 Science total downloads; Trending Now"
+      "publisher_signal": "14,471 Science total downloads; Trending Now",
+      "summary_bullets": [
+        "Genome language models generated complete bacteriophage genomes rather than individual genes or proteins.",
+        "Experimental testing produced viable phages with diverse sequences, structures, and fitness profiles.",
+        "A mixture of generated phages overcame bacterial resistance to a natural bacteriophage."
+      ]
     },
     {
       "title": "Recovering signatures of archaic hominin introgression using ancestral recombination graphs",
       "journal": "Science",
       "date": "2026-07-30",
       "url": "https://www.science.org/doi/10.1126/science.aef8874",
-      "publisher_signal": "23,362 Science total downloads; Trending Now"
+      "publisher_signal": "23,362 Science total downloads; Trending Now",
+      "summary_bullets": [
+        "TRACE identifies archaic ancestry from ancestral recombination graphs without requiring an archaic reference or unadmixed outgroup.",
+        "It recovers known Neanderthal and Denisovan ancestry and detects signals from uncharacterized hominins.",
+        "The method enables mapping of archaic introgression even when archaic genome sequences are unavailable."
+      ]
     },
     {
       "title": "Hallmarks of cancer—Then and now, and beyond",
       "journal": "Cell",
       "date": "2026-01-29",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01498-9",
-      "publisher_signal": "Cell Most read (last 30 days)"
+      "publisher_signal": "Cell Most read (last 30 days)",
+      "summary_bullets": [
+        "The review revisits how the hallmarks-of-cancer framework has evolved since its original formulation.",
+        "It assesses established and emerging capabilities that support tumour development and progression.",
+        "The updated perspective considers how the framework can guide future cancer research and therapy."
+      ]
     },
     {
       "title": "Hallmarks of Cancer: The Next Generation",
       "journal": "Cell",
       "date": "2011-03-04",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(11)00127-9",
-      "publisher_signal": "Cell Most read (last 30 days)"
+      "publisher_signal": "Cell Most read (last 30 days)",
+      "summary_bullets": [
+        "The review organizes cancer biology around core capabilities acquired during tumour development.",
+        "It adds deregulated metabolism and immune evasion as emerging hallmarks of cancer.",
+        "Genome instability and tumour-promoting inflammation are described as enabling characteristics."
+      ]
     }
   ]
 }
