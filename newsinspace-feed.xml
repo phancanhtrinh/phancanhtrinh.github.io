@@ -4,7 +4,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>{{ site.name | xml_escape }} - NewsInSpace</title>
-		<description>A daily-updated feed of new papers on spatial multi-omics, cancer biology, virus-driven cancer, spatial biotechnology, AI-driven biology, immunology, organoids, organ-on-a-chip, and host-pathogen interactions.</description>
+		<description>A daily-updated life-science feed prioritizing spatial multi-omics and spatial biology, with synthetic biology, cancer, AI-driven biology, immunology, organoids, organ-on-a-chip, and host-pathogen research.</description>
 		<link>{{ site.url }}/newsinspace/</link>
 		<atom:link href="{{ site.url }}/newsinspace-feed.xml" rel="self" type="application/rss+xml" />
 		{% assign nis = site.data.newsinspace %}
@@ -12,7 +12,7 @@
 		<item>
 			<title>{{ p.title | xml_escape }}</title>
 			<description>
-				{% if p.summary_bullets and p.summary_bullets.size > 0 %}{{ p.summary_bullets | join: " " | xml_escape }}{% else %}{{ p.abstract | xml_escape }}{% endif %}
+				{% if p.summary_bullets and p.summary_bullets.size > 0 %}{{ p.summary_bullets | join: " " | xml_escape }}{% elsif p.abstract and p.abstract != "" %}{{ p.abstract | xml_escape }}{% else %}Headline only; abstract unavailable. {{ p.title | xml_escape }}{% endif %}
 			</description>
 			<pubDate>{{ p.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<link>{{ p.url | xml_escape }}</link>

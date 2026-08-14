@@ -13,7 +13,7 @@ layout: default
 				<span class="nis-title">NewsInSpace</span>
 			</div>
 			<div class="nis-tagline">
-				A daily-updated feed of new papers on spatial multi-omics, cancer biology, virus-driven cancer, spatial biotechnology, AI-driven biology, immunology, organoids, organ-on-a-chip, and host–pathogen interactions — pulled automatically from Nature, Cell, Science, Cancer Discovery, bioRxiv, and arXiv.
+				A daily-updated life-science feed prioritizing spatial multi-omics and spatial biology, with synthetic biology, cancer, AI-driven biology, immunology, organoids, organ-on-a-chip, and host–pathogen research — pulled automatically from Nature, Cell, Science, Cancer Discovery, bioRxiv, and arXiv.
 			</div>
 			{% if nis %}
 			<div class="nis-meta">
@@ -46,6 +46,15 @@ layout: default
 			{% else %}
 			<span class="nis-badge nis-badge-preprint">Preprint</span>
 			{% endif %}
+			{% if p.topic == "spatial" %}
+			<span class="nis-topic nis-topic-spatial">Spatial</span>
+			{% elsif p.topic == "synthetic" %}
+			<span class="nis-topic nis-topic-synthetic">Synthetic biology</span>
+			{% elsif p.topic == "focus" %}
+			<span class="nis-topic nis-topic-focus">Featured</span>
+			{% else %}
+			<span class="nis-topic nis-topic-life-science">Life science</span>
+			{% endif %}
 			<span class="nis-journal">{{ p.journal }}</span>
 			<span class="nis-date">{{ p.date }}</span>
 			<button class="nis-like-btn" data-like-key="{{ like_key }}" aria-label="Like this paper">
@@ -63,7 +72,9 @@ layout: default
 		{% if p.authors and p.authors != "" %}
 		<div class="nis-item-authors">{{ p.authors | truncate: 160 }}</div>
 		{% endif %}
-		{% if p.summary_bullets and p.summary_bullets.size > 0 %}
+		{% if p.summary_kind == "headline" and p.summary_bullets.size > 0 %}
+		<div class="nis-item-headline-note"><strong>Headline only:</strong> {{ p.summary_bullets.first }}</div>
+		{% elsif p.summary_bullets and p.summary_bullets.size > 0 %}
 		<ul class="nis-item-summary">
 			{% for b in p.summary_bullets %}
 			<li>{{ b }}</li>
@@ -71,6 +82,8 @@ layout: default
 		</ul>
 		{% elsif p.abstract and p.abstract != "" %}
 		<div class="nis-item-abstract">{{ p.abstract }}{% unless p.abstract contains "." %}…{% endunless %}</div>
+		{% else %}
+		<div class="nis-item-headline-note"><strong>Headline only:</strong> Abstract unavailable; open the paper for details.</div>
 		{% endif %}
 	</div>
 	{% endfor %}

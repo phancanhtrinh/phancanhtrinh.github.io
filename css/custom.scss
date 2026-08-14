@@ -984,6 +984,33 @@ ol.cv-pub-list {
   color: #fff;
 }
 
+.nis-topic {
+  display: inline-block;
+  font-family: museo-sans, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 2px 7px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  color: $gray;
+  background: #fff;
+}
+
+.nis-topic-spatial {
+  border-color: $primary;
+  color: $primary;
+}
+
+.nis-topic-synthetic {
+  border-color: #6f5b95;
+  color: #6f5b95;
+}
+
+.nis-topic-life-science {
+  color: $gray-light;
+}
+
 .nis-like-btn {
   display: inline-flex;
   align-items: center;
@@ -1065,6 +1092,13 @@ ol.cv-pub-list {
   color: $gray;
   margin-top: 6px;
   font-size: 14px;
+}
+
+.nis-item-headline-note {
+  color: $gray-light;
+  margin-top: 6px;
+  font-size: 14px;
+  font-style: italic;
 }
 
 .nis-item-summary {
