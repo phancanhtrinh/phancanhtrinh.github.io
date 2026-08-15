@@ -1676,7 +1676,7 @@ ol.cv-pub-list {
   border-radius: 4px 14px 14px 14px;
   font-family: museo-sans, sans-serif;
   font-size: 14px;
-  line-height: 1.55;
+  line-height: 1.45;
 }
 
 .research-assistant-thinking .research-assistant-bubble {
@@ -1696,20 +1696,21 @@ ol.cv-pub-list {
 }
 
 .research-assistant-bubble p {
-  margin: 0 0 8px;
+  margin: 0 0 5px;
 }
 
 .research-assistant-bubble p:last-child {
   margin-bottom: 0;
 }
 
-.research-assistant-bubble ul {
-  margin: 8px 0 4px;
-  padding-left: 20px;
+.research-assistant-bubble ul,
+.research-assistant-bubble ol {
+  margin: 4px 0 3px;
+  padding-left: 19px;
 }
 
 .research-assistant-bubble li {
-  margin-bottom: 6px;
+  margin-bottom: 2px;
 }
 
 .research-assistant-sources {
