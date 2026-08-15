@@ -70,9 +70,9 @@ title: TrinhPHAN / contact
 <section class="research-assistant" aria-labelledby="research-assistant-title">
 	<div class="research-assistant-header">
 		<div>
-			<div class="research-assistant-kicker"><i class="fa fa-comments-o fa-fw"></i> Free AI research guide</div>
+			<div class="research-assistant-kicker"><i class="fa fa-comments-o fa-fw"></i> Free research guide</div>
 			<h2 id="research-assistant-title">Ask about me and my research</h2>
-			<p>Explore my scientific contributions, publications, career, and recent coverage. Answers are grounded in this website, my published papers, and verified public sources.</p>
+			<p>Explore my scientific contributions, publications, career, diary, and verified public coverage. Answers are grounded in the information published on this website and link directly to the underlying sources.</p>
 		</div>
 		<span class="research-assistant-local"><i class="fa fa-shield fa-fw"></i> Runs in your browser</span>
 	</div>
@@ -91,7 +91,7 @@ title: TrinhPHAN / contact
 		<input id="research-assistant-input" type="text" maxlength="500" autocomplete="off" placeholder="Ask about a paper, discovery, award, or research topic…" required>
 		<button type="submit" aria-label="Send question"><i class="fa fa-arrow-up"></i></button>
 	</form>
-	<p class="research-assistant-note">No login, paid API, or question tracking. This evidence-based guide may not know information that is absent from its cited sources and does not provide medical advice.</p>
+	<p class="research-assistant-note">No login, paid API, or question tracking. This website-grounded guide may not know information that is absent from its cited sources and does not provide medical advice.</p>
 </section>
 
 <script id="research-assistant-data" type="application/json">
@@ -120,6 +120,15 @@ title: TrinhPHAN / contact
 		}{% unless forloop.last %},{% endunless %}{% endfor %}
 	],
 	"news": {{ site.data.mediamentions.mentions | jsonify | replace: "</", "<\/" }},
+	"diary": [
+		{% assign guide_diary = site.diary | sort: "date" | reverse %}
+		{% for entry in guide_diary %}{
+			"title": {{ entry.title | jsonify | replace: "</", "<\/" }},
+			"date": {{ entry.date | date: "%Y-%m-%d" | jsonify }},
+			"url": {{ entry.url | absolute_url | jsonify }},
+			"text": {{ entry.content | strip_html | strip_newlines | normalize_whitespace | truncate: 1800 | jsonify | replace: "</", "<\/" }}
+		}{% unless forloop.last %},{% endunless %}{% endfor %}
+	],
 	"papersUrl": {{ "/papers/" | absolute_url | jsonify }},
 	"newsUrl": {{ "/inthenews/" | absolute_url | jsonify }}
 }

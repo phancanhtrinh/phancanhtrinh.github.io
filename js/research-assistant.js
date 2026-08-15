@@ -33,7 +33,8 @@
     ['award', 'prize', 'honor', 'recognition'],
     ['paper', 'publication', 'article', 'study', 'research'],
     ['education', 'degree', 'phd', 'pharmacy', 'training'],
-    ['news', 'media', 'coverage', 'press']
+    ['news', 'media', 'coverage', 'press'],
+    ['diary', 'blog', 'story', 'memoir', 'village', 'vienna', 'saigon', 'student', 'teaching']
   ];
 
   var synonymMap = {};
@@ -112,6 +113,16 @@
       summary: 'Public coverage from ' + plain(item.source) + (item.date ? ', dated ' + item.date : '') + '.',
       url: item.url,
       meta: [plain(item.source), item.date].filter(Boolean).join(' · ')
+    });
+  });
+  (data.diary || []).forEach(function (item) {
+    documents.push({
+      kind: 'diary',
+      title: plain(item.title),
+      text: [item.title, item.date, item.text].join(' '),
+      summary: compact(item.text, 520),
+      url: item.url,
+      meta: item.date || ''
     });
   });
   documents.forEach(function (doc) { doc.terms = tokens(doc.text); });
@@ -210,6 +221,16 @@
     }), results.map(function (entry) { return entry.doc.title + ' — ' + entry.doc.meta; }));
   }
 
+  function diaryResponse(question) {
+    var results = rank(question, 'diary').slice(0, 5);
+    if (!results.length) return null;
+    return response(['These diary entries are the closest matches in the archive:'], results.map(function (entry) {
+      return source(entry.doc.title, entry.doc.url);
+    }), results.map(function (entry) {
+      return entry.doc.title + (entry.doc.meta ? ' (' + entry.doc.meta + ')' : '') + ': ' + compact(entry.doc.summary, 300);
+    }));
+  }
+
   function answer(question) {
     var q = normalize(question);
 
@@ -237,6 +258,10 @@
     if (/\b(news|media|press|coverage|internet)\b/.test(q)) {
       return newsResponse(question);
     }
+    if (/\b(diary|blog|story|memoir|village|vienna|saigon|student|teaching|teacher|life)\b/.test(q)) {
+      var diaryAnswer = diaryResponse(question);
+      if (diaryAnswer) return diaryAnswer;
+    }
     if (/\b(who is|about trinh|biography|background)\b/.test(q)) {
       return response([
         'Trinh Phan-Canh is a pharmacist and molecular biologist working at the intersection of fungal pathogenesis, antifungal resistance, host immunity, and spatial multi-omics. He earned his PhD at the Medical University of Vienna and Max Perutz Labs, and is now a postdoctoral researcher at BIDMC and Harvard Medical School.'
@@ -245,6 +270,9 @@
 
     var paperAnswer = paperSearchResponse(question);
     if (paperAnswer) return paperAnswer;
+
+    var diaryAnswer = diaryResponse(question);
+    if (diaryAnswer) return diaryAnswer;
 
     return response([
       'I could not verify a specific answer from the available biography, publication archive, or public coverage. Try asking about Candida auris, antifungal resistance, skin tropism, White–Brown switching, spatial multi-omics, education, awards, or a paper title.',
@@ -310,6 +338,6 @@
   });
 
   addMessage('assistant', response([
-    'Hello — I’m Trinh’s evidence-based research guide. Ask me about his scientific contributions, published papers, current work, training, awards, or verified media coverage. I will link the sources behind my answer.'
+    'Hello — I’m Trinh’s website-grounded research guide. Ask me about his scientific contributions, papers, current work, training, awards, verified coverage, or diary entries. I will link the sources behind my answer.'
   ]));
 }());
