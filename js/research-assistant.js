@@ -335,7 +335,17 @@
     if (!question) return;
     addMessage('user', question);
     input.value = '';
-    window.setTimeout(function () { addMessage('assistant', answer(question)); }, 140);
+    window.setTimeout(function () {
+      var endpoint = data.researchEndpoint;
+      if (!endpoint) { addMessage('assistant', answer(question)); return; }
+      fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question: question, context: { profile: data.profile, papers: data.papers, news: data.news, diary: data.diary, guide: data.guide } }) })
+        .then(function (res) { if (!res.ok) throw new Error('remote unavailable'); return res.json(); })
+        .then(function (result) {
+          if (!result.answer) throw new Error('empty answer');
+          addMessage('assistant', response(result.answer.split(/\n\s*\n/).filter(Boolean), [source('Ask another question', data.profile.contactUrl)]));
+        })
+        .catch(function () { addMessage('assistant', answer(question)); });
+    }, 140);
   }
 
   form.addEventListener('submit', function (event) {
