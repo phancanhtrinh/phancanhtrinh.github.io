@@ -210,38 +210,6 @@ categories:
 	{% endfor %}
 </div>
 
-<div class="spacer"></div>
-
-<div class="row">
-	<div class="col-lg-12">
-		<div class="head">
-			<a class="off" href="/diary/">Diary</a>
-		</div>
-		<div class="spacer"></div>
-	</div>
-</div>
-
-{% assign diary_with_images = site.diary | where_exp: "entry", "entry.thumbnail" | sort: "date" | reverse %}
-<div class="row homepage-diary-row">
-	{% for entry in diary_with_images limit:4 %}
-	<div class="col-lg-3 col-md-6 reduced-gutter">
-		<div class="pad-left homepage-diary-card">
-			<a class="off homepage-diary-thumb-link" href="{{ entry.url }}">
-				<img class="homepage-diary-thumb" src="{{ entry.thumbnail }}" alt="">
-			</a>
-			<div class="note">
-				<i class="fa fa-book fa-fw"></i>
-				<a class="off" href="{{ entry.url }}">{{ entry.title }}</a>
-			</div>
-			<div class="smallspacer"></div>
-			<div class="smallnote">{{ entry.date | date: "%-d %b %Y" }}</div>
-		</div>
-	</div>
-	{% endfor %}
-</div>
-
-<div class="spacer"></div>
-
 <div class="row">
 	<div class="col-lg-12">
 		<div class="head">
@@ -374,6 +342,36 @@ categories:
 <div class="spacer"></div>
 
 <div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			<a class="off" href="/diary/">Diary</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+{% assign diary_with_images = site.diary | where_exp: "entry", "entry.thumbnail" | sort: "date" | reverse %}
+<div class="row homepage-diary-row">
+	{% for entry in diary_with_images limit:4 %}
+	<div class="col-lg-3 col-md-6 reduced-gutter">
+		<div class="pad-left homepage-diary-card">
+			<a class="off homepage-diary-thumb-link" href="{{ entry.url }}">
+				<img class="homepage-diary-thumb" src="{{ entry.thumbnail }}" alt="">
+			</a>
+			<div class="note">
+				<i class="fa fa-book fa-fw"></i>
+				<a class="off" href="{{ entry.url }}">{{ entry.title }}</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">{{ entry.date | date: "%-d %b %Y" }}</div>
+		</div>
+	</div>
+	{% endfor %}
+	</div>
+
+	<div class="spacer"></div>
+
+	<div class="row">
 	<div class="col-lg-12">
 		<div class="head">
 			Misc
