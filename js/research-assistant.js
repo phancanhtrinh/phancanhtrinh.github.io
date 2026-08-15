@@ -96,6 +96,7 @@
 
   function markdown(value) {
     var text = String(value || '').replace(/\r\n/g, '\n').replace(/\s+([-*]|\d+[.)])\s+/g, '\n$1 ');
+    text = text.replace(/(^|\n)[-*]\s*\n+\s*/g, '$1- ');
     text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
     text = text.replace(/^###\s+(.+)$/gm, '<h4>$1</h4>');
