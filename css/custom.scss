@@ -1696,7 +1696,7 @@ ol.cv-pub-list {
 }
 
 .research-assistant-bubble p {
-  margin: 0 0 5px;
+  margin: 0 0 3px;
 }
 
 .research-assistant-bubble p:last-child {
@@ -1711,6 +1711,21 @@ ol.cv-pub-list {
 
 .research-assistant-bubble li {
   margin-bottom: 2px;
+}
+
+.research-assistant-bubble h3,
+.research-assistant-bubble h4 {
+  margin: 7px 0 3px;
+  font-family: museo-sans, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.research-assistant-bubble.is-vietnamese,
+.research-assistant-bubble.is-vietnamese h3,
+.research-assistant-bubble.is-vietnamese h4 {
+  font-family: Arial, "Helvetica Neue", sans-serif;
 }
 
 .research-assistant-sources {

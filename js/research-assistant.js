@@ -95,20 +95,20 @@
   }
 
   function markdown(value) {
-    var text = String(value || '').replace(/\r\n/g, '\n').replace(/\s+([-*]|\d+\.)\s+/g, '\n$1 ');
+    var text = String(value || '').replace(/\r\n/g, '\n').replace(/\s+([-*]|\d+[.)])\s+/g, '\n$1 ');
     text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
     text = text.replace(/^###\s+(.+)$/gm, '<h4>$1</h4>');
     text = text.replace(/^##\s+(.+)$/gm, '<h3>$1</h3>');
     text = text.replace(/^#\s+(.+)$/gm, '<h3>$1</h3>');
     text = text.replace(/^[-*]\s+/gm, '• ');
-    text = text.replace(/^\d+\.\s+/gm, '');
+    text = text.replace(/^\d+[.)]\s+/gm, '• ');
     text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     text = text.replace(/__([^_]+)__/g, '<strong>$1</strong>');
     text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
     text = text.replace(/\n/g, '<br>');
     // Claude sometimes returns list numbers after a heading or inline break.
-    text = text.replace(/(^|<br>)\s*\d+\.\s+/g, '$1');
+    text = text.replace(/(^|<br>)\s*\d+[.)]\s+/g, '$1• ');
     text = text.replace(/(^|<br>)\s*(Email|E-mail|Contact)\s*:\s*/gi, '$1<strong>$2:</strong><br>');
     return text;
   }
@@ -320,6 +320,9 @@
       content.paragraphs.forEach(function (paragraph) {
         var p = document.createElement('p');
         p.innerHTML = markdown(paragraph);
+        if (/[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/i.test(paragraph)) {
+          bubble.classList.add('is-vietnamese');
+        }
         bubble.appendChild(p);
       });
       if (content.bullets && content.bullets.length) bubble.appendChild(list(content.bullets));
