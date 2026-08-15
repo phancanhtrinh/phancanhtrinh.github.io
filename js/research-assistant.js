@@ -116,6 +116,12 @@
   }
 
   var documents = [];
+  if (data.evidence) {
+    documents.push({
+      kind: 'evidence', title: 'Verified research evidence', text: plain(data.evidence),
+      summary: compact(data.evidence, 900), url: '/research-evidence/', meta: 'Reviewed evidence index'
+    });
+  }
   data.papers.forEach(function (paper) {
     documents.push({
       kind: 'paper',
@@ -211,9 +217,9 @@
   function currentResearchResponse() {
     var current = (data.profile.experience || [])[0] || {};
     return response([
-      'Trinh is a postdoctoral researcher at BIDMC and Harvard Medical School. His current focus is the development of spatial multi-omics technologies to study host–disease interactions.',
+      'Trinh is currently a postdoctoral researcher in the laboratory of Sizun Jiang at Beth Israel Deaconess Medical Center (BIDMC) and Harvard Medical School. His current focus is the development of spatial multi-omics technologies to study host–disease interactions.',
       'This builds on his earlier work in fungal pathogenesis, drug resistance, host immunity, genetic engineering, and integrated transcriptomic/proteomic analysis.'
-    ], [source('Curriculum vitae', data.profile.cvUrl), source('Publication record', data.papersUrl)]);
+    ], [source('Sizun Jiang Lab', 'https://sizunjianglab.com/'), source('BIDMC', 'https://www.bidmc.org/'), source('Curriculum vitae', data.profile.cvUrl)]);
   }
 
   function educationResponse() {
