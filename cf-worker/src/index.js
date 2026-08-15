@@ -48,9 +48,9 @@ async function answerResearch(request, env, headers) {
 		const response = await fetch('https://api.anthropic.com/v1/messages', {
 			method: 'POST',
 			headers: apiHeaders,
-			body: JSON.stringify({ model: 'claude-sonnet-4-20250514', max_tokens: 1300, tools, messages }),
+			body: JSON.stringify({ model: 'claude-sonnet-4-5-20250929', max_tokens: 1300, tools, messages }),
 		});
-		if (!response.ok) return json({ error: 'upstream research service unavailable' }, 502, headers);
+		if (!response.ok) return json({ error: 'upstream research service unavailable', upstreamStatus: response.status }, 502, headers);
 		result = await response.json();
 		if (result.stop_reason !== 'pause_turn') break;
 		messages = messages.concat([{ role: 'assistant', content: result.content }]);
