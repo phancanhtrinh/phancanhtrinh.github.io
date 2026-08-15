@@ -106,7 +106,10 @@
     text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     text = text.replace(/__([^_]+)__/g, '<strong>$1</strong>');
     text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
-    return text.replace(/\n/g, '<br>');
+    text = text.replace(/\n/g, '<br>');
+    // Claude sometimes returns list numbers after a heading or inline break.
+    text = text.replace(/(^|<br>)\s*\d+\.\s+/g, '$1');
+    return text;
   }
 
   var documents = [];
