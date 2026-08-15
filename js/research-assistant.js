@@ -95,13 +95,16 @@
   }
 
   function markdown(value) {
-    var text = String(value || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    var text = String(value || '').replace(/\r\n/g, '\n').replace(/\s+([-*]|\d+\.)\s+/g, '\n$1 ');
+    text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
     text = text.replace(/^###\s+(.+)$/gm, '<h4>$1</h4>');
     text = text.replace(/^##\s+(.+)$/gm, '<h3>$1</h3>');
     text = text.replace(/^#\s+(.+)$/gm, '<h3>$1</h3>');
     text = text.replace(/^[-*]\s+(.+)$/gm, '<li>$1</li>');
     text = text.replace(/(<li>.*<\/li>\n?)+/g, function (items) { return '<ul>' + items + '</ul>'; });
+    text = text.replace(/^\d+\.\s+(.+)$/gm, '<li>$1</li>');
+    text = text.replace(/(<li>.*<\/li>\n?)+/g, function (items) { return '<ol>' + items + '</ol>'; });
     text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     text = text.replace(/__([^_]+)__/g, '<strong>$1</strong>');
     text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
@@ -342,6 +345,13 @@
     row.appendChild(bubble);
     messagesNode.appendChild(row);
     messagesNode.scrollTop = messagesNode.scrollHeight;
+    return row;
+  }
+
+  function addThinking() {
+    var row = addMessage('assistant', response(['Thinking…']));
+    row.classList.add('research-assistant-thinking');
+    return row;
   }
 
   function ask(question) {
@@ -352,13 +362,15 @@
     window.setTimeout(function () {
       var endpoint = data.researchEndpoint;
       if (!endpoint) { addMessage('assistant', answer(question)); return; }
+      var thinking = addThinking();
       fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question: question, context: { profile: data.profile, papers: data.papers, news: data.news, diary: data.diary, guide: data.guide } }) })
         .then(function (res) { if (!res.ok) throw new Error('remote unavailable'); return res.json(); })
         .then(function (result) {
           if (!result.answer) throw new Error('empty answer');
+          thinking.remove();
           addMessage('assistant', response(result.answer.split(/\n\s*\n/).filter(Boolean), [source('Ask another question', data.profile.contactUrl)]));
         })
-        .catch(function () { addMessage('assistant', answer(question)); });
+        .catch(function () { thinking.remove(); addMessage('assistant', answer(question)); });
     }, 140);
   }
 

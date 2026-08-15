@@ -1679,6 +1679,16 @@ ol.cv-pub-list {
   line-height: 1.55;
 }
 
+.research-assistant-thinking .research-assistant-bubble {
+  opacity: 0.7;
+  animation: research-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes research-pulse {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}
+
 .research-assistant-message.is-user .research-assistant-bubble {
   color: #fff;
   background: #B84B24;
