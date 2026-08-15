@@ -94,6 +94,20 @@
     }
   }
 
+  function markdown(value) {
+    var text = String(value || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    text = text.replace(/^###\s+(.+)$/gm, '<h4>$1</h4>');
+    text = text.replace(/^##\s+(.+)$/gm, '<h3>$1</h3>');
+    text = text.replace(/^#\s+(.+)$/gm, '<h3>$1</h3>');
+    text = text.replace(/^[-*]\s+(.+)$/gm, '<li>$1</li>');
+    text = text.replace(/(<li>.*<\/li>\n?)+/g, function (items) { return '<ul>' + items + '</ul>'; });
+    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    text = text.replace(/__([^_]+)__/g, '<strong>$1</strong>');
+    text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    return text.replace(/\n/g, '<br>');
+  }
+
   var documents = [];
   data.papers.forEach(function (paper) {
     documents.push({
@@ -300,7 +314,7 @@
     } else {
       content.paragraphs.forEach(function (paragraph) {
         var p = document.createElement('p');
-        p.textContent = paragraph;
+        p.innerHTML = markdown(paragraph);
         bubble.appendChild(p);
       });
       if (content.bullets && content.bullets.length) bubble.appendChild(list(content.bullets));
