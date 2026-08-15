@@ -101,7 +101,7 @@
     text = text.replace(/^###\s+(.+)$/gm, '<h4>$1</h4>');
     text = text.replace(/^##\s+(.+)$/gm, '<h3>$1</h3>');
     text = text.replace(/^#\s+(.+)$/gm, '<h3>$1</h3>');
-    text = text.replace(/^[-*]\s+/gm, '');
+    text = text.replace(/^[-*]\s+/gm, '• ');
     text = text.replace(/^\d+\.\s+/gm, '');
     text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     text = text.replace(/__([^_]+)__/g, '<strong>$1</strong>');
@@ -109,6 +109,7 @@
     text = text.replace(/\n/g, '<br>');
     // Claude sometimes returns list numbers after a heading or inline break.
     text = text.replace(/(^|<br>)\s*\d+\.\s+/g, '$1');
+    text = text.replace(/(^|<br>)\s*(Email|E-mail|Contact)\s*:\s*/gi, '$1<strong>$2:</strong><br>');
     return text;
   }
 
