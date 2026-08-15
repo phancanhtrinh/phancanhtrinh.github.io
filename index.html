@@ -350,7 +350,7 @@ categories:
 	</div>
 </div>
 
-{% assign featured_diary_titles = "Đường đến Vienna BioCenter||[Slide] 5 năm ở Trường Dược - Được dạy và tự học những gì?||Hồi ký ở làng - Kỳ 1||Những đứa trẻ ở làng||Sài Gòn đón tôi trở lại!||Tàu chợ!||Rồi! Đã lớn!||Thôi thế là hết Sinh viên!||Giới thiệu sách Giáo trình thực tập Ký sinh trùng" | split: "||" %}
+{% assign featured_diary_titles = "Đường đến Vienna BioCenter||[Slide] 5 năm ở Trường Dược - Được dạy và tự học những gì?||Hồi ký ở làng - Kỳ 1||Những đứa trẻ ở làng||Tàu chợ!||Rồi! Đã lớn!||Thôi thế là hết Sinh viên!||Giới thiệu sách Giáo trình thực tập Ký sinh trùng" | split: "||" %}
 <div class="row homepage-diary-row">
 	{% for featured_title in featured_diary_titles %}
 		{% assign entry = site.diary | where: "title", featured_title | first %}
