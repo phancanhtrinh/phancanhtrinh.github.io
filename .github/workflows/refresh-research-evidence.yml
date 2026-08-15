@@ -1,0 +1,24 @@
+name: Refresh research evidence
+
+on:
+  schedule:
+    - cron: "40 7 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh evidence index
+        run: python3 scripts/refresh_research_evidence.py
+      - name: Commit refreshed evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research-evidence.md
+          git diff --cached --quiet || git commit -m "Refresh research evidence"
+          git push
