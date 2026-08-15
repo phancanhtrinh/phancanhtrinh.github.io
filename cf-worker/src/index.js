@@ -32,13 +32,36 @@ async function bumpCount(env, storageKey, delta) {
 	return next;
 }
 
-async function answerResearch(request, env, headers) {
-	if (!env.ANTHROPIC_API_KEY) return json({ error: 'research service is not configured' }, 503, headers);
-	let body;
-	try { body = await request.json(); } catch (_) { return json({ error: 'invalid JSON' }, 400, headers); }
-	const question = typeof body.question === 'string' ? body.question.trim().slice(0, 1200) : '';
-	if (!question) return json({ error: 'question is required' }, 400, headers);
-	const prompt = `You are the public research assistant for Trinh Phan-Canh. Give a direct, specific, intellectually serious answer to the visitor's question. Treat the supplied website context as primary evidence for biographical facts, publications, awards, and research. For questions about current information, independent recognition, external publications, science beyond the supplied context, or when the context is insufficient, use web search before answering. Never say that you only have a name or ask the visitor to provide a URL when web search can resolve the question. Distinguish verified facts from interpretation and do not invent personal facts, publications, awards, or clinical advice. Format for a compact chat card: use at most three ## headings, short paragraphs, **bold** only for key terms (never insert line breaks inside bold markers), and '-' bullets only when they make a comparison or list clearer. Never use numbered lists or numbered headings. Do not add blank lines between bullet lines. Include concise sources when web search was used.\n\nWebsite context:\n${JSON.stringify(body.context || {}).slice(0, 90000)}\n\nVisitor question:\n${question}`;
+function researchPrompt(question, context) {
+	return `You are the public research assistant for Trinh Phan-Canh. Give a direct, specific, intellectually serious answer to the visitor's question. Treat the supplied website context as primary evidence for biographical facts, publications, awards, and research. For questions about current information, independent recognition, external publications, science beyond the supplied context, or when the context is insufficient, use web search before answering. Never say that you only have a name or ask the visitor to provide a URL when web search can resolve the question. Distinguish verified facts from interpretation and do not invent personal facts, publications, awards, or clinical advice. Format for a compact chat card: use at most three ## headings, short paragraphs, **bold** only for key terms (never insert line breaks inside bold markers), and '-' bullets only when they make a comparison or list clearer. Never use numbered lists or numbered headings. Do not add blank lines between bullet lines. Include concise sources when web search was used.\n\nWebsite context:\n${JSON.stringify(context || {}).slice(0, 90000)}\n\nVisitor question:\n${question}`;
+}
+
+function sourceList(urls) {
+	const unique = [...new Set(urls.filter(Boolean))].slice(0, 5);
+	return unique.length ? `\n\n## Sources\n${unique.map((url) => `- ${url}`).join('\n')}` : '';
+}
+
+async function answerWithGemini(prompt, env) {
+	const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent', {
+		method: 'POST',
+		headers: { 'content-type': 'application/json', 'x-goog-api-key': env.GEMINI_API_KEY },
+		body: JSON.stringify({
+			contents: [{ role: 'user', parts: [{ text: prompt }] }],
+			tools: [{ google_search: {} }],
+			generationConfig: { maxOutputTokens: 1300, temperature: 0.35 },
+		}),
+	});
+	if (!response.ok) throw new Error(`Gemini upstream status ${response.status}`);
+	const result = await response.json();
+	const candidate = result.candidates && result.candidates[0];
+	const text = (candidate && candidate.content && candidate.content.parts || []).map((part) => part.text || '').join('\n').trim();
+	if (!text) throw new Error('Gemini returned no answer');
+	const chunks = candidate && candidate.groundingMetadata && candidate.groundingMetadata.groundingChunks || [];
+	const sources = chunks.map((chunk) => chunk.web && chunk.web.uri).filter(Boolean);
+	return { answer: text + sourceList(sources), searchedWeb: sources.length > 0, provider: 'gemini' };
+}
+
+async function answerWithClaude(prompt, env) {
 	const apiHeaders = { 'content-type': 'application/json', 'x-api-key': env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' };
 	const tools = [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }];
 	let messages = [{ role: 'user', content: prompt }];
@@ -50,7 +73,7 @@ async function answerResearch(request, env, headers) {
 			headers: apiHeaders,
 			body: JSON.stringify({ model: 'claude-sonnet-4-5-20250929', max_tokens: 1300, tools, messages }),
 		});
-		if (!response.ok) return json({ error: 'upstream research service unavailable', upstreamStatus: response.status }, 502, headers);
+		if (!response.ok) throw new Error(`Claude upstream status ${response.status}`);
 		result = await response.json();
 		if (result.stop_reason !== 'pause_turn') break;
 		messages = messages.concat([{ role: 'assistant', content: result.content }]);
@@ -62,8 +85,27 @@ async function answerResearch(request, env, headers) {
 	textBlocks.forEach((part) => (part.citations || []).forEach((citation) => {
 		if (citation.url && !sources.includes(citation.url)) sources.push(citation.url);
 	}));
-	if (sources.length) text += `\n\n## Sources\n${sources.slice(0, 5).map((url) => `- ${url}`).join('\n')}`;
-	return json({ answer: text, searchedWeb: sources.length > 0 }, 200, headers);
+	return { answer: text + sourceList(sources), searchedWeb: sources.length > 0, provider: 'claude' };
+}
+
+async function answerResearch(request, env, headers) {
+	if (!env.GEMINI_API_KEY && !env.ANTHROPIC_API_KEY) return json({ error: 'research service is not configured' }, 503, headers);
+	let body;
+	try { body = await request.json(); } catch (_) { return json({ error: 'invalid JSON' }, 400, headers); }
+	const question = typeof body.question === 'string' ? body.question.trim().slice(0, 1200) : '';
+	if (!question) return json({ error: 'question is required' }, 400, headers);
+	const prompt = researchPrompt(question, body.context);
+
+	try {
+		if (env.GEMINI_API_KEY) return json(await answerWithGemini(prompt, env), 200, headers);
+		return json(await answerWithClaude(prompt, env), 200, headers);
+	} catch (geminiError) {
+		// Keep the public widget available if Gemini reaches a rate or billing limit.
+		if (env.GEMINI_API_KEY && env.ANTHROPIC_API_KEY) {
+			try { return json(await answerWithClaude(prompt, env), 200, headers); } catch (_) { /* handled below */ }
+		}
+		return json({ error: 'upstream research service unavailable' }, 502, headers);
+	}
 }
 
 export default {
