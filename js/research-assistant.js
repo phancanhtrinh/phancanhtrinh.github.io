@@ -125,6 +125,12 @@
       meta: item.date || ''
     });
   });
+  (data.guide && data.guide.facts || []).forEach(function (item) {
+    documents.push({
+      kind: 'guide', title: plain(item.topic), text: [item.topic, item.answer].join(' '),
+      summary: compact(item.answer, 600), url: data.profile.cvUrl, meta: 'Updated ' + (data.guide.updated || 'recently')
+    });
+  });
   documents.forEach(function (doc) { doc.terms = tokens(doc.text); });
 
   function rank(query, kind) {
@@ -273,6 +279,9 @@
 
     var diaryAnswer = diaryResponse(question);
     if (diaryAnswer) return diaryAnswer;
+
+    var guideResults = rank(question, 'guide').slice(0, 4);
+    if (guideResults.length) return response(['Here is the closest information in the daily research guide:'], guideResults.map(function (entry) { return source(entry.doc.title, entry.doc.url); }), guideResults.map(function (entry) { return entry.doc.title + ': ' + entry.doc.summary; }));
 
     return response([
       'I could not verify a specific answer from the available biography, publication archive, or public coverage. Try asking about Candida auris, antifungal resistance, skin tropism, White–Brown switching, spatial multi-omics, education, awards, or a paper title.',
