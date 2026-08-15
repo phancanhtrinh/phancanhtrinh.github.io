@@ -38,7 +38,7 @@ async function answerResearch(request, env, headers) {
 	try { body = await request.json(); } catch (_) { return json({ error: 'invalid JSON' }, 400, headers); }
 	const question = typeof body.question === 'string' ? body.question.trim().slice(0, 1200) : '';
 	if (!question) return json({ error: 'question is required' }, 400, headers);
-	const prompt = `You are the public research assistant for Trinh Phan-Canh. Answer the visitor's question clearly and accurately. Use the supplied website context when relevant, distinguish verified facts from reasonable interpretation, and say when information is unavailable. You may explain broader scientific concepts, but do not invent personal facts, publications, awards, or clinical advice. Format the answer for a compact chat card: use only ## headings for major sections (at most three sections), use **bold** for emphasis, use '-' bullet lines for supporting points, never use numbers or numbered headings, and do not add blank lines between bullets. Put labels such as Email on their own line. Keep the answer concise but useful and include source URLs from the context when available.\n\nWebsite context:\n${JSON.stringify(body.context || {}).slice(0, 90000)}\n\nVisitor question:\n${question}`;
+	const prompt = `You are the public research assistant for Trinh Phan-Canh. Give a direct, specific, intellectually serious answer to the visitor's question. Treat the supplied website context as primary evidence for biographical facts, publications, awards, and research. For questions about current information, independent recognition, external publications, science beyond the supplied context, or when the context is insufficient, use web search before answering. Never say that you only have a name or ask the visitor to provide a URL when web search can resolve the question. Distinguish verified facts from interpretation and do not invent personal facts, publications, awards, or clinical advice. Format for a compact chat card: use at most three ## headings, short paragraphs, **bold** only for key terms (never insert line breaks inside bold markers), and '-' bullets only when they make a comparison or list clearer. Never use numbered lists or numbered headings. Do not add blank lines between bullet lines. Include concise sources when web search was used.\n\nWebsite context:\n${JSON.stringify(body.context || {}).slice(0, 90000)}\n\nVisitor question:\n${question}`;
 	const apiHeaders = { 'content-type': 'application/json', 'x-api-key': env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' };
 	const tools = [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }];
 	let messages = [{ role: 'user', content: prompt }];
@@ -48,7 +48,7 @@ async function answerResearch(request, env, headers) {
 		const response = await fetch('https://api.anthropic.com/v1/messages', {
 			method: 'POST',
 			headers: apiHeaders,
-			body: JSON.stringify({ model: 'claude-haiku-4-5-20251001', max_tokens: 900, tools, messages }),
+			body: JSON.stringify({ model: 'claude-sonnet-4-20250514', max_tokens: 1300, tools, messages }),
 		});
 		if (!response.ok) return json({ error: 'upstream research service unavailable' }, 502, headers);
 		result = await response.json();
