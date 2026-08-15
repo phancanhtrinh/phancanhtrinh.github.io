@@ -1723,9 +1723,9 @@ ol.cv-pub-list {
 }
 
 .research-assistant-bubble.is-vietnamese,
-.research-assistant-bubble.is-vietnamese h3,
-.research-assistant-bubble.is-vietnamese h4 {
-  font-family: Arial, "Helvetica Neue", sans-serif;
+.research-assistant-bubble.is-vietnamese * {
+  font-family: Arial, "Helvetica Neue", sans-serif !important;
+  letter-spacing: 0 !important;
 }
 
 .research-assistant-sources {
