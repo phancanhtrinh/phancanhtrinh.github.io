@@ -303,6 +303,24 @@ p {
   height: auto;
 }
 
+.homepage-diary-card {
+  margin-bottom: 20px;
+}
+
+.homepage-diary-thumb-link {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.homepage-diary-thumb {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ececec;
+}
+
 .diary-card-thumb-link {
   display: block;
   margin: 12px 0;
