@@ -307,6 +307,17 @@ p {
   margin-bottom: 20px;
 }
 
+.homepage-diary-row {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  row-gap: 10px;
+}
+
+.homepage-diary-row > [class*="col-"] {
+  width: auto;
+  max-width: none;
+}
+
 .homepage-diary-thumb-link {
   display: block;
   margin-bottom: 12px;
@@ -319,6 +330,18 @@ p {
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid #ececec;
+}
+
+@media (max-width: 991px) {
+  .homepage-diary-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575px) {
+  .homepage-diary-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .diary-card-thumb-link {
