@@ -39,15 +39,31 @@ async function answerResearch(request, env, headers) {
 	const question = typeof body.question === 'string' ? body.question.trim().slice(0, 1200) : '';
 	if (!question) return json({ error: 'question is required' }, 400, headers);
 	const prompt = `You are the public research assistant for Trinh Phan-Canh. Answer the visitor's question clearly and accurately. Use the supplied website context when relevant, distinguish verified facts from reasonable interpretation, and say when information is unavailable. You may explain broader scientific concepts, but do not invent personal facts, publications, awards, or clinical advice. Format the answer for a compact chat card: use only ## headings for major sections (at most three sections), use **bold** for emphasis, use '-' bullet lines for supporting points, never use numbers or numbered headings, and do not add blank lines between bullets. Put labels such as Email on their own line. Keep the answer concise but useful and include source URLs from the context when available.\n\nWebsite context:\n${JSON.stringify(body.context || {}).slice(0, 90000)}\n\nVisitor question:\n${question}`;
-	const response = await fetch('https://api.anthropic.com/v1/messages', {
-		method: 'POST',
-		headers: { 'content-type': 'application/json', 'x-api-key': env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' },
-		body: JSON.stringify({ model: 'claude-haiku-4-5-20251001', max_tokens: 900, messages: [{ role: 'user', content: prompt }] }),
-	});
-	if (!response.ok) return json({ error: 'upstream research service unavailable' }, 502, headers);
-	const result = await response.json();
-	const text = (result.content || []).filter((part) => part.type === 'text').map((part) => part.text).join('\n').trim();
-	return json({ answer: text }, 200, headers);
+	const apiHeaders = { 'content-type': 'application/json', 'x-api-key': env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' };
+	const tools = [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }];
+	let messages = [{ role: 'user', content: prompt }];
+	let result;
+
+	for (let attempt = 0; attempt < 3; attempt += 1) {
+		const response = await fetch('https://api.anthropic.com/v1/messages', {
+			method: 'POST',
+			headers: apiHeaders,
+			body: JSON.stringify({ model: 'claude-haiku-4-5-20251001', max_tokens: 900, tools, messages }),
+		});
+		if (!response.ok) return json({ error: 'upstream research service unavailable' }, 502, headers);
+		result = await response.json();
+		if (result.stop_reason !== 'pause_turn') break;
+		messages = messages.concat([{ role: 'assistant', content: result.content }]);
+	}
+
+	const textBlocks = (result.content || []).filter((part) => part.type === 'text');
+	let text = textBlocks.map((part) => part.text).join('\n').trim();
+	const sources = [];
+	textBlocks.forEach((part) => (part.citations || []).forEach((citation) => {
+		if (citation.url && !sources.includes(citation.url)) sources.push(citation.url);
+	}));
+	if (sources.length) text += `\n\n## Sources\n${sources.slice(0, 5).map((url) => `- ${url}`).join('\n')}`;
+	return json({ answer: text, searchedWeb: sources.length > 0 }, 200, headers);
 }
 
 export default {
