@@ -367,6 +367,20 @@
     return row;
   }
 
+  function researchContext(question) {
+    var matches = rank(question).slice(0, 8).map(function (entry) {
+      return {
+        type: entry.doc.kind, title: entry.doc.title, text: compact(entry.doc.text, 1100),
+        url: entry.doc.url, meta: entry.doc.meta
+      };
+    });
+    return {
+      profile: { name: data.profile.name, currentRole: data.profile.currentRole, tagline: data.profile.tagline },
+      evidence: matches,
+      instruction: 'These are the most relevant website records retrieved for this question. Use them first; do not assume that unrelated website material is relevant.'
+    };
+  }
+
   function ask(question) {
     question = String(question || '').trim();
     if (!question) return;
@@ -376,7 +390,7 @@
       var endpoint = data.researchEndpoint;
       if (!endpoint) { addMessage('assistant', answer(question)); return; }
       var thinking = addThinking();
-      fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question: question, context: { profile: data.profile, papers: data.papers, news: data.news, diary: data.diary, guide: data.guide } }) })
+      fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question: question, context: researchContext(question) }) })
         .then(function (res) { if (!res.ok) throw new Error('remote unavailable'); return res.json(); })
         .then(function (result) {
           if (!result.answer) throw new Error('empty answer');
