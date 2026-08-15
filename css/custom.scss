@@ -1493,11 +1493,16 @@ ol.cv-pub-list {
   margin-bottom: 10px;
 }
 
-.contact-email {
+.contact-email,
+.contact-address {
   display: block;
   font-family: museo-sans, sans-serif;
-  font-size: 16px;
+  font-size: 16px !important;
   font-weight: 300;
+  line-height: 1.5;
+}
+
+.contact-email {
   color: #B84B24;
 }
 
