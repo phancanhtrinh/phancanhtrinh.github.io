@@ -2,7 +2,7 @@ name: Refresh research guide
 
 on:
   schedule:
-    - cron: "25 6 * * *"
+    - cron: "25 6 1 * *"
   workflow_dispatch: {}
 
 permissions:
