@@ -69,7 +69,7 @@ category: blog
 				{% endif %}
 				<span class="nis-date">
 				{% if item.type == 'outreach' %}
-					{{ item.display_year }}
+					{% if item.display_date %}{{ item.display_date | date: "%-d %b %Y" }}{% else %}{{ item.display_year }}{% endif %}
 				{% else %}
 					{{ item.date | date: "%-d %b %Y" }}
 				{% endif %}

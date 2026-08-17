@@ -44,12 +44,15 @@ module Jekyll
 
       outreach = site.data.dig('cv', 'outreach') || []
       outreach.each do |o|
-        year_match = o['year'].to_s.match(/\d{4}/)
-        next if year_match.nil?
-        date = Time.new(year_match[0].to_i, 1, 1)
-        image = nil
+        date = parse_date(o['date'])
+        if date.nil?
+          year_match = o['year'].to_s.match(/\d{4}/)
+          next if year_match.nil?
+          date = Time.new(year_match[0].to_i, 1, 1)
+        end
+        image = o['image']
         if o['url'].is_a?(String) && papers_by_url.key?(o['url'])
-          image = papers_by_url[o['url']].data['image']
+          image ||= papers_by_url[o['url']].data['image']
         end
         items << {
           'type' => 'outreach',
@@ -58,6 +61,7 @@ module Jekyll
           'url' => o['url'],
           'source' => o['journal'],
           'date' => date,
+          'display_date' => o['date'] ? date : nil,
           'display_year' => o['year'],
           'image' => image,
           'vietnamese' => vietnamese?(o['title']) || vietnamese?(o['journal']),
