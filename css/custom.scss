@@ -596,6 +596,20 @@ $tutorial-font: $vn-safe-fonts;
   line-height: 1.65;
 }
 
+.tutorial-page .post .tutorial-disclosure {
+  margin: -0.75rem 0 2rem;
+  color: var(--archive-muted);
+  font-size: 14px;
+}
+
+.tutorial-page .post .tutorial-disclosure strong {
+  margin-right: 0.35rem;
+  color: var(--archive-ink);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .tutorial-page .post .tutorial-toc {
   margin: 2rem 0;
   padding: 1.4rem 1.6rem;

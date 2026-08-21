@@ -12,6 +12,8 @@ permalink: /tutorials/email-archive-manager/
 
 <p class="tutorial-lede">Managing several email addresses with years of conversations is tricky. We need a better way to capture important information, connect related messages, and summarize decisions when we need them later.</p>
 
+<p class="tutorial-disclosure"><strong>Disclosure</strong> This tutorial was created with AI assistance and reviewed by the author.</p>
+
 Work rarely stays inside one inbox. A project may begin in Gmail, continue in an institutional Outlook account, and leave behind old PST or EML exports after a job or computer change. The same mail can appear in several sources. Attachments become detached from their context, while the decision you remember remains buried somewhere in a long thread.
 
 **Email Archive Manager** is a portable Codex skill for turning those sources into a private, local, searchable archive. It keeps messages and attachments on your computer, preserves where every item came from, and gives Codex a consistent workflow for retrieval, summaries, reports, verification, and migration.
