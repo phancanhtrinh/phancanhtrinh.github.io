@@ -577,6 +577,183 @@ $tutorial-font: $vn-safe-fonts;
   padding: 0;
 }
 
+.tutorial-page .post {
+  --archive-ink: #263238;
+  --archive-muted: #66747c;
+  --archive-accent: #b84b24;
+  --archive-wash: #f7f4f1;
+  --archive-line: #e5ddd7;
+}
+
+.tutorial-page .post .tutorial-lede {
+  margin: 0 0 2rem;
+  padding: 1.4rem 1.6rem;
+  border-left: 5px solid var(--archive-accent);
+  border-radius: 0 10px 10px 0;
+  background: var(--archive-wash);
+  color: var(--archive-ink);
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.tutorial-page .post .tutorial-toc {
+  margin: 2rem 0;
+  padding: 1.4rem 1.6rem;
+  border: 1px solid var(--archive-line);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(66, 48, 38, 0.05);
+}
+
+.tutorial-page .post .tutorial-toc strong {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: var(--archive-ink);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tutorial-page .post .tutorial-toc ol {
+  columns: 2;
+  margin-bottom: 0;
+  padding-left: 1.3rem;
+}
+
+.tutorial-page .post .tutorial-toc li {
+  break-inside: avoid;
+  margin: 0 0 0.35rem;
+}
+
+.tutorial-page .post .archive-flow,
+.tutorial-page .post .attachment-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 1.5rem 0;
+}
+
+.tutorial-page .post .archive-step,
+.tutorial-page .post .attachment-card {
+  padding: 1rem;
+  border: 1px solid var(--archive-line);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.tutorial-page .post .archive-step span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--archive-accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tutorial-page .post .archive-step strong,
+.tutorial-page .post .attachment-card strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--archive-ink);
+}
+
+.tutorial-page .post .attachment-card small {
+  display: block;
+  color: var(--archive-muted);
+  line-height: 1.5;
+}
+
+.tutorial-page .post .example-panel,
+.tutorial-page .post .security-panel {
+  margin: 1.5rem 0;
+  padding: 1.4rem 1.6rem;
+  border-radius: 12px;
+}
+
+.tutorial-page .post .example-panel {
+  border: 1px solid #dce4e7;
+  background: #f7fafb;
+}
+
+.tutorial-page .post .security-panel {
+  border: 1px solid #efd5cb;
+  background: #fff8f5;
+}
+
+.tutorial-page .post .example-question {
+  margin: 1rem 0;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #728e9b;
+  background: #fff;
+  color: var(--archive-ink);
+  font-size: 18px;
+}
+
+.tutorial-page .post .download-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin: 2rem 0;
+  padding: 1.4rem 1.6rem;
+  border-radius: 12px;
+  background: #343a40;
+  color: #fff;
+}
+
+.tutorial-page .post .download-panel p {
+  margin: 0;
+  color: #fff;
+}
+
+.tutorial-page .post .download-button {
+  flex: 0 0 auto;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  background: #fff;
+  color: #343a40;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.tutorial-page .post .download-button:hover,
+.tutorial-page .post .download-button:focus {
+  background: #f0e6df;
+  color: #272b2f;
+  text-decoration: none;
+}
+
+.tutorial-page .post table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tutorial-page .post pre {
+  max-width: 100%;
+  padding: 1rem;
+  border-color: #d8dfe2;
+  background: #f7f9fa;
+}
+
+@media (max-width: 767px) {
+  .tutorial-page .post .tutorial-toc ol {
+    columns: 1;
+  }
+
+  .tutorial-page .post .archive-flow,
+  .tutorial-page .post .attachment-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tutorial-page .post .download-panel {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
 blockquote {
 	@extend .text-gray;
   border-left: 5px solid #e7e7e7;

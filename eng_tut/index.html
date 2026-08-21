@@ -127,7 +127,12 @@ category: eng_tut
 				{% endif %}
 				{% endif %}
 				<div class="post">
+					{% if post.summary %}
+					<p>{{ post.summary }}</p>
+					<p><a href="{{ post.url }}">Read the complete tutorial <span aria-hidden="true">&rarr;</span></a></p>
+					{% else %}
 					{{ post.content }}
+					{% endif %}
 				</div>
 			</div>
 			<div class="col-lg-1"></div>

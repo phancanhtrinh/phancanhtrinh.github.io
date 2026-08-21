@@ -3,8 +3,19 @@
 
 <head>
 	<meta charset="utf-8"/>
-	<title>{{ page.title }}</title>
+	{% assign meta_title = page.meta_title | default: page.title %}
+	{% assign meta_description = page.description | default: site.description %}
+	<title>{{ meta_title }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+	<link rel="canonical" href="{{ page.url | absolute_url }}">
+	<meta property="og:title" content="{{ meta_title | escape }}">
+	<meta property="og:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+	<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+	<meta property="og:url" content="{{ page.url | absolute_url }}">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="{{ meta_title | escape }}">
+	<meta name="twitter:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
 
 	<!-- RSS feed -->
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
