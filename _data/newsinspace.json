@@ -1,152 +1,65 @@
 {
-  "generated_at": "2026-08-27T20:57:00Z",
+  "generated_at": "2026-08-28T21:21:18Z",
   "window_days": 14,
   "count": 140,
   "topic_counts": {
-    "spatial": 25,
-    "synthetic": 8,
-    "focus": 28,
-    "life-science": 79
+    "spatial": 38,
+    "synthetic": 11,
+    "focus": 37,
+    "life-science": 54
   },
   "attention": {
-    "generated_at": "2026-08-27T20:56:55Z",
+    "generated_at": "2026-08-28T21:21:13Z",
     "window_days": 15,
     "momentum_days": 7,
     "altmetric_enabled": false,
     "top": [
       {
-        "title": "Human brain organoids record the passage of time over multiple years",
-        "authors": "Faravelli I, Antón-Bolaños N, Wei A, Faits T, Kumar AS, Andreadis S, Kastli R, Crespo MM, Steiger M, Leible D, Zhang E, An B, Meirovitch Y, Silwal S, Yang SM, Kovacsovics A, Adiconis X, Kretzmer H, Levin JZ, Boyden ES, Lichtman J, Regev A, Meissner A, Arlotta P.",
-        "journal": "Nature",
-        "date": "2026-08-19",
-        "url": "https://doi.org/10.1038/s41586-026-10877-x",
-        "doi": "10.1038/s41586-026-10877-x",
-        "abstract": "The human brain develops and matures over an exceptionally prolonged period of time that spans nearly two decades of life. Processes that govern species-specific aspects of human postnatal brain development are difficult to study in animal models<sup>1</sup>. While human brain organoids offer a promising in vitro model, they have thus far been shown to largely mimic early stages of brain developme",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "focus",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Human brain organoids record the passage of time over multiple years.",
-          "The human brain develops and matures over an exceptionally prolonged period of time that spans nearly two decades of life.",
-          "Processes that govern species-specific aspects of human postnatal brain development are difficult to study in animal models 1."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 1,
-        "bluesky_engagement": 20,
-        "media_mentions": 11,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 100.1
-      },
-      {
-        "title": "Tidal tomography reveals a thermal anomaly beneath Mars's crustal dichotomy. ",
-        "authors": "Berne A, Wagner N, Matsuyama I, Goossens S, Genova A, Rovira-Navarro M, Bagheri A, Qin C, Marusiak A, Hemingway D, Lau HCP, Cheng KW, Zhong S, Nimmo F.",
+        "title": "Ultrafast and reference-free sequence discovery in single-cell data. ",
+        "authors": "León-Periñán D, Karaiskos N, Rajewsky N.",
         "journal": "Nature",
         "date": "2026-08-26",
-        "url": "https://doi.org/10.1038/s41586-026-10893-x",
-        "doi": "10.1038/s41586-026-10893-x",
-        "abstract": "Mars undergoes seasonal tidal forcing as a result of its eccentric orbit and the tilt of its rotation axis relative to the Sun1. Response to this forcing produces temporal variations in the Martian gravity field and is sensitive to the internal structure of the planet2-4. Using tracking data from the Mars Global Surveyor (MGS), Mars Odyssey (ODY) and Mars Reconnaissance Orbiter (MRO) spacecraft5-7",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "life-science",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Tidal tomography reveals a thermal anomaly beneath Mars's crustal dichotomy.",
-          "Mars undergoes seasonal tidal forcing as a result of its eccentric orbit and the tilt of its rotation axis relative to the Sun1.",
-          "Response to this forcing produces temporal variations in the Martian gravity field and is sensitive to the internal structure of the planet2-4."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 4,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 34.1
-      },
-      {
-        "title": "Insights into longevity and virus-driven adaptation from Myotis bat genomes. ",
-        "authors": "Vazquez JM, Lauterbur ME, Mottaghinia S, Gaucherand L, Maesen S, Singer M, Villa S, Bucci M, Fraser D, Gray-Sandoval G, Haidar ZR, Han M, Kohler W, Lama TM, Le Corf A, Loyer C, McMillan D, Li S, Lo J, Rey C, Capel SLR, Slocum K, Sui M, Thomas W, Tyburec JD, Brem R, Miller R, Buchalski M, Vazquez-Medina JP, Pfeffer S, Etienne L, Enard D, Sudmant PH.",
-        "journal": "Nature",
-        "date": "2026-08-26",
-        "url": "https://doi.org/10.1038/s41586-026-10932-7",
-        "doi": "10.1038/s41586-026-10932-7",
-        "abstract": "The genus Myotis is one of the largest clades of bats, and it exhibits some of the most extreme variation in lifespans among mammals, alongside unique adaptations to viral tolerance and immune defence1-3. Here, to study the evolution of these phenotypes, we generated cell lines and near-complete genome assemblies for eight closely related Myotis species. Using genome-wide screens of positive selec",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "life-science",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Insights into longevity and virus-driven adaptation from Myotis bat genomes.",
-          "The genus Myotis is one of the largest clades of bats, and it exhibits some of the most extreme variation in lifespans among mammals, alongside unique adaptations to…",
-          "Here, to study the evolution of these phenotypes, we generated cell lines and near-complete genome assemblies for eight closely related Myotis species."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 4,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 34.1
-      },
-      {
-        "title": "Functional role of skull lymphoid structures in CNS immunosurveillance",
-        "authors": "Park JH, Abramishvili D, Davanzo GG, Silva R, Gu X, Du S, Lee DD, Zinselmeyer BH, Turner JS, Randolph GJ, Smirnov I, Kipnis J.",
-        "journal": "Nature",
-        "date": "2026-08-19",
-        "url": "https://doi.org/10.1038/s41586-026-10951-4",
-        "doi": "10.1038/s41586-026-10951-4",
-        "abstract": "Accumulating evidence demonstrates that the central nervous system (CNS) is not disconnected from the peripheral immune system; however, precisely how the adaptive immune system surveils the CNS remains a critical question. Recent findings reveal that channels between the skull and the dura mater facilitate the exchange of cerebrospinal fluid and immune cells between the CNS and skull bone marrow ",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "focus",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Functional role of skull lymphoid structures in CNS immunosurveillance.",
-          "Accumulating evidence demonstrates that the central nervous system (CNS) is not disconnected from the peripheral immune system.",
-          "however, precisely how the adaptive immune system surveils the CNS remains a critical question."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 3,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 27.1
-      },
-      {
-        "title": "Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering",
-        "authors": "Sun J, Biharie K, Cai P, Müller-Bötticher N, Kiessling P, Turner MA, Dam SH, Heyl F, Kathirchelvan S, Emons M, Gunz S, Twardziok S, El-Heliebi A, Zacharias M, SpaceHack 2.0 participants, Eils R, Reinders M, Gottardo R, Kuppe C, Long B, Mahfouz A, Robinson MD, Ishaque N.",
-        "journal": "Nature methods",
-        "date": "2026-08-24",
-        "url": "https://doi.org/10.1038/s41592-026-03194-8",
-        "doi": "10.1038/s41592-026-03194-8",
-        "abstract": "Spatial omics technologies have revolutionized the study of tissue architecture and cellular heterogeneity by integrating molecular profiles with spatial localization. In spatially resolved transcriptomics, delineating higher-order anatomical structures is critical for understanding how cellular organization affects function. However, the reliability of current benchmarks of spatially aware cluste",
+        "url": "https://doi.org/10.1038/s41586-026-10975-w",
+        "doi": "10.1038/s41586-026-10975-w",
+        "abstract": "Knowledge of RNA sequences, expression, splicing, isoforms, structure and modifications is central for understanding and targeting cellular processes. Revolutionary single-cell and spatial transcriptomics technologies-for example, as deployed by consortia such as the Human Cell Atlas-partially capture this diversity and generate cellular profiles that expand at petabyte scale each year1-5. Yet res",
         "citation_count": 0,
         "source": "journal",
         "journal_family": "nature",
         "topic": "spatial",
+        "flagship": true,
+        "summary_bullets": [
+          "Focus: Ultrafast and reference-free sequence discovery in single-cell data.",
+          "Knowledge of RNA sequences, expression, splicing, isoforms, structure and modifications is central for understanding and targeting cellular processes.",
+          "Revolutionary single-cell and spatial transcriptomics technologies-for example, as deployed by consortia such as the Human Cell Atlas-partially capture this diversity and generate cellular profiles that expand at petabyte…"
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 1,
+        "bluesky_engagement": 0,
+        "media_mentions": 2,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 28.9
+      },
+      {
+        "title": "Cell-type-specific damage scores reveal kidney and liver disease trajectories in single-cell and spatial transcriptomics",
+        "authors": "Padvitski T, Unger Avila P, Chen H, Özel C, Braun F, Kroll MK, Vossen C, Wienand P, Butt L, Unnersjö-Jess D, Schumacher AL, Folz-Donahue K, Göbel H, Kuppe C, Müller RU, Westermark PO, Brinkkötter PT, Schermer B, Benzing T, Wunderlich FT, Kann M, Beyer A.",
+        "journal": "Cell genomics",
+        "date": "2026-08-20",
+        "url": "https://doi.org/10.1016/j.xgen.2026.101337",
+        "doi": "10.1016/j.xgen.2026.101337",
+        "abstract": "Degenerative diseases progress through gradual cell-intrinsic damage that is difficult to resolve with bulk transcriptomics or discrete cell-state analysis. We introduce a generalizable single-cell and spatial transcriptomics framework that quantifies continuous damage trajectories in vivo using cell-type-specific scores. Applied to chronic kidney disease and metabolic dysfunction-associated steat",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "cell",
+        "topic": "spatial",
         "flagship": false,
         "summary_bullets": [
-          "Focus: Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering.",
-          "Spatial omics technologies have revolutionized the study of tissue architecture and cellular heterogeneity by integrating molecular profiles with spatial localization.",
-          "In spatially resolved transcriptomics, delineating higher-order anatomical structures is critical for understanding how cellular organization affects function."
+          "Focus: Cell-type-specific damage scores reveal kidney and liver disease trajectories in single-cell and spatial transcriptomics.",
+          "Degenerative diseases progress through gradual cell-intrinsic damage that is difficult to resolve with bulk transcriptomics or discrete cell-state analysis.",
+          "We introduce a generalizable single-cell and spatial transcriptomics framework that quantifies continuous damage trajectories in vivo using cell-type-specific scores."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
@@ -157,7 +70,36 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 25.8
+        "attention_score": 25.1
+      },
+      {
+        "title": "PASTA: versatile tyramide-oligonucleotide amplification for multimodal spatial biology",
+        "authors": "Michel HA, McCallum P, Wu W, Qiu H, Lee JL, Luo S, Chan CN, Schaffenrath J, Yeo YY, Yiu SPT, Wang Y, Parmelee L, Wang H, Pannellini T, Burgess M, El Ahmar N, Zhang ZX, Keane C, Lim TKH, Signoretti S, Del Rincon SV, Zhao B, McIlwain DR, Bai Y, Chen F, Chiarle R, Jiang S.",
+        "journal": "Nature methods",
+        "date": "2026-08-17",
+        "url": "https://doi.org/10.1038/s41592-026-03200-z",
+        "doi": "10.1038/s41592-026-03200-z",
+        "abstract": "Spatial proteomics is limited by detection sensitivity, multiplexing and multimodal integration, leaving a gap between discovery and clinical assays. Here we present protein and nucleic acid serial tyramide amplification (PASTA), using horseradish peroxidase-mediated oligonucleotide deposition and cyclical imaging for high-plex, multimodal spatial profiling. Compatible with conjugated antibodies a",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "spatial",
+        "flagship": false,
+        "summary_bullets": [
+          "Focus: PASTA: versatile tyramide-oligonucleotide amplification for multimodal spatial biology.",
+          "Spatial proteomics is limited by detection sensitivity, multiplexing and multimodal integration, leaving a gap between discovery and clinical assays.",
+          "Here we present protein and nucleic acid serial tyramide amplification (PASTA), using horseradish peroxidase-mediated oligonucleotide deposition and cyclical imaging for high-plex, multimodal spatial profiling."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
+        "media_mentions": 2,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 24.6
       },
       {
         "title": "Autonomous biomedical research with an artificial intelligence agent",
@@ -186,52 +128,25 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 19.2
-      },
-      {
-        "title": "Artefacts in single-cell mtDNA analyses misinform phylogenies",
-        "authors": "Lareau CA, Chapman MS, Penter L, Nawy T, Pe'er D, Ludwig LS.",
-        "journal": "Nature",
-        "date": "2026-08-19",
-        "url": "https://doi.org/10.1038/s41586-026-10777-0",
-        "doi": "10.1038/s41586-026-10777-0",
-        "abstract": "",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "focus",
-        "flagship": true,
-        "summary_bullets": [
-          "Artefacts in single-cell mtDNA analyses misinform phylogenies."
-        ],
-        "summary_kind": "headline",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 2,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
         "attention_score": 19.1
       },
       {
-        "title": "Ultrafast and reference-free sequence discovery in single-cell data. ",
-        "authors": "León-Periñán D, Karaiskos N, Rajewsky N.",
-        "journal": "Nature",
-        "date": "2026-08-26",
-        "url": "https://doi.org/10.1038/s41586-026-10975-w",
-        "doi": "10.1038/s41586-026-10975-w",
-        "abstract": "Knowledge of RNA sequences, expression, splicing, isoforms, structure and modifications is central for understanding and targeting cellular processes. Revolutionary single-cell and spatial transcriptomics technologies-for example, as deployed by consortia such as the Human Cell Atlas-partially capture this diversity and generate cellular profiles that expand at petabyte scale each year1-5. Yet res",
+        "title": "Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering",
+        "authors": "Sun J, Biharie K, Cai P, Müller-Bötticher N, Kiessling P, Turner MA, Dam SH, Heyl F, Kathirchelvan S, Emons M, Gunz S, Twardziok S, El-Heliebi A, Zacharias M, SpaceHack 2.0 participants, Eils R, Reinders M, Gottardo R, Kuppe C, Long B, Mahfouz A, Robinson MD, Ishaque N.",
+        "journal": "Nature methods",
+        "date": "2026-08-24",
+        "url": "https://doi.org/10.1038/s41592-026-03194-8",
+        "doi": "10.1038/s41592-026-03194-8",
+        "abstract": "Spatial omics technologies have revolutionized the study of tissue architecture and cellular heterogeneity by integrating molecular profiles with spatial localization. In spatially resolved transcriptomics, delineating higher-order anatomical structures is critical for understanding how cellular organization affects function. However, the reliability of current benchmarks of spatially aware cluste",
         "citation_count": 0,
         "source": "journal",
         "journal_family": "nature",
         "topic": "spatial",
-        "flagship": true,
+        "flagship": false,
         "summary_bullets": [
-          "Focus: Ultrafast and reference-free sequence discovery in single-cell data.",
-          "Knowledge of RNA sequences, expression, splicing, isoforms, structure and modifications is central for understanding and targeting cellular processes.",
-          "Revolutionary single-cell and spatial transcriptomics technologies-for example, as deployed by consortia such as the Human Cell Atlas-partially capture this diversity and generate cellular profiles that expand at petabyte…"
+          "Focus: Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering.",
+          "Spatial omics technologies have revolutionized the study of tissue architecture and cellular heterogeneity by integrating molecular profiles with spatial localization.",
+          "In spatially resolved transcriptomics, delineating higher-order anatomical structures is critical for understanding how cellular organization affects function."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
@@ -242,36 +157,94 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 18.1
+        "attention_score": 17.6
       },
       {
-        "title": "Critical zone processes limit alkalinity export from natural basaltic systems. ",
-        "authors": "Derry LA, Maher K, Chadwick OA.",
-        "journal": "Nature",
-        "date": "2026-08-26",
-        "url": "https://doi.org/10.1038/s41586-026-10936-3",
-        "doi": "10.1038/s41586-026-10936-3",
-        "abstract": "Enhanced weathering (EW) of rocks is a proposed strategy for carbon dioxide removal (CDR) that relies on the dissolution of silicate minerals, typically basalt, applied to soils1. Globally, large-scale CDR by means of EW requires the generation of alkalinity during mineral dissolution in soils and preservation and transport of that alkalinity through groundwater and rivers to reach the ocean2,3. A",
+        "title": "DREAMS illuminates spatial DNA and RNA modification landscapes",
+        "authors": "Peng Y, Xue L, Zhang Y, Feng S, Lu Y, Zhang H, Dong M, Wang C, Bao M, Alam W, Li Y, Ma W, Yu S, Zhang L, Yin J, He J, Koziol MJ.",
+        "journal": "Nature cell biology",
+        "date": "2026-08-24",
+        "url": "https://doi.org/10.1038/s41556-026-02038-z",
+        "doi": "10.1038/s41556-026-02038-z",
+        "abstract": "DNA and RNA modifications regulate gene expression and RNA processing, but their spatial organization in complex tissues remains elusive. Here we developed DNA RNA Elements Areal Mass Spectrometry (DREAMS), a mass spectrometry imaging platform that spatially maps diverse nucleic acid modifications simultaneously. Applying DREAMS to TET-deficient mouse brains (Tet1<sup>Δ/Δ</sup> and triple Tet1/2/3",
         "citation_count": 0,
         "source": "journal",
         "journal_family": "nature",
-        "topic": "life-science",
-        "flagship": true,
+        "topic": "spatial",
+        "flagship": false,
         "summary_bullets": [
-          "Focus: Critical zone processes limit alkalinity export from natural basaltic systems.",
-          "Enhanced weathering (EW) of rocks is a proposed strategy for carbon dioxide removal (CDR) that relies on the dissolution of silicate minerals, typically basalt, applied to soils1.",
-          "Globally, large-scale CDR by means of EW requires the generation of alkalinity during mineral dissolution in soils and preservation and transport of that alkalinity through groundwater and rivers…"
+          "Focus: DREAMS illuminates spatial DNA and RNA modification landscapes.",
+          "DNA and RNA modifications regulate gene expression and RNA processing, but their spatial organization in complex tissues remains elusive.",
+          "Here we developed DNA RNA Elements Areal Mass Spectrometry (DREAMS), a mass spectrometry imaging platform that spatially maps diverse nucleic acid modifications simultaneously."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
         "bluesky_engagement": 0,
-        "media_mentions": 2,
+        "media_mentions": 1,
         "altmetric_score": 0,
         "x_mentions": 0,
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 18.1
+        "attention_score": 17.6
+      },
+      {
+        "title": "Signal-induced recruitment and dispatchment in reconfigurable phase-separated protocell networks",
+        "authors": "Yin Z, Sun R, Li M, Mann S.",
+        "journal": "Nature chemistry",
+        "date": "2026-08-18",
+        "url": "https://doi.org/10.1038/s41557-026-02225-3",
+        "doi": "10.1038/s41557-026-02225-3",
+        "abstract": "The construction of protocell networks with self-regulated spatial dynamics and functions is an important challenge in the emerging field of colloidal systems chemistry. Existing strategies predominantly produce protocell networks with fixed or randomly distributed spatial organization, relying on direct surface interactions or externally imposed conditions, while largely overlooking dynamic inter",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "spatial",
+        "flagship": false,
+        "summary_bullets": [
+          "Focus: Signal-induced recruitment and dispatchment in reconfigurable phase-separated protocell networks.",
+          "The construction of protocell networks with self-regulated spatial dynamics and functions is an important challenge in the emerging field of colloidal systems chemistry.",
+          "Existing strategies predominantly produce protocell networks with fixed or randomly distributed spatial organization, relying on direct surface interactions or externally imposed conditions, while largely overlooking dynamic inter."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
+        "media_mentions": 1,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 16.8
+      },
+      {
+        "title": "Heritable transgenic schistosomes as a living platform for SARS-CoV-2 neutralizing antibody secretion. ",
+        "authors": "Ittiprasert W, Smout MJ, Mann VH, Moyle M, Kinahan SM, Ackerman DN, Rivera DN, Santarpia JL, Carnes EC, Mentink-Kane MM, Costa MR, Hokke CH, Roestenberg M, Bottazzi ME, Bracken BK, Rosa BA, Djuranovic S, Pickering DA, Giacomin PR, Watterson D, Modhiran N, Moescheid MF, Grevelding CG, Mitreva M, Loukas A, Brindley PJ.",
+        "journal": "Nature communications",
+        "date": "2026-08-26",
+        "url": "https://doi.org/10.1038/s41467-026-76465-9",
+        "doi": "10.1038/s41467-026-76465-9",
+        "abstract": "We report the generation and propagation of not only the first heritable transgenic schistosome line but also a line that secretes a functional therapeutic protein in vivo. Using multiplexed CRISPR/Cas-mediated homology-directed knock-in targeted to a predicted genomic safe-harbor, we inserted a VHH-IgG1 Fc (termed C5-Fc) transgene into Schistosoma mansoni eggs. Single-miracidium infections of Bio",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "synthetic",
+        "flagship": false,
+        "summary_bullets": [
+          "Focus: Heritable transgenic schistosomes as a living platform for SARS-CoV-2 neutralizing antibody secretion.",
+          "We report the generation and propagation of not only the first heritable transgenic schistosome line but also a line that secretes a functional therapeutic protein in vivo.",
+          "Using multiplexed CRISPR/Cas-mediated homology-directed knock-in targeted to a predicted genomic safe-harbor, we inserted a VHH-IgG1 Fc (termed C5-Fc) transgene into Schistosoma mansoni eggs."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
+        "media_mentions": 1,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 14.9
       },
       {
         "title": "A binding-to-release strategy for targeted anticancer drug delivery. ",
@@ -300,11 +273,431 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 12.1
+        "attention_score": 11.9
+      },
+      {
+        "title": "Who checks what AI can do?",
+        "authors": "Holz T.",
+        "journal": "Science (New York, N.Y.)",
+        "date": "2026-08-20",
+        "url": "https://doi.org/10.1126/science.ael2161",
+        "doi": "10.1126/science.ael2161",
+        "abstract": "The most important findings about frontier artificial intelligence (AI) are also the hardest to verify. Much of the information needed to understand its capabilities and risks-including results from evaluations of prerelease models and containment experiments-remains largely inaccessible outside the labs that produce it. In recent weeks, OpenAI, Anthropic, and Meta disclosed that research models h",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "science",
+        "topic": "focus",
+        "flagship": true,
+        "summary_bullets": [
+          "Focus: Who checks what AI can do?.",
+          "The most important findings about frontier artificial intelligence (AI) are also the hardest to verify.",
+          "Much of the information needed to understand its capabilities and risks-including results from evaluations of prerelease models and containment experiments-remains largely inaccessible outside the labs that produce it."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
+        "media_mentions": 1,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 11.1
       }
     ]
   },
   "papers": [
+    {
+      "title": "G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching",
+      "authors": "Birk, S., Theis, F. J., Lotfollahi, M.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.25.746917",
+      "doi": "10.64898/2026.08.25.746917",
+      "abstract": "Single-cell RNA sequencing (scRNA-seq) profiles transcriptomes at high resolution but discards the spatial context of cells within a tissue -- information that is essential for studying intercellular mechanisms and tissue architecture. Spatial transcriptomics (ST) retains coordinates but, depending on the assay, trades this off against gene-panel breadth, spatial resolution, or cost. We present G2",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: G2T: Tissue Reconstruction from Gene Expression via Embedding-Distance Flow Matching.",
+        "Single-cell RNA sequencing (scRNA-seq) profiles transcriptomes at high resolution but discards the spatial context of cells within a tissue -- information that is essential for studying intercellular mechanisms…",
+        "Spatial transcriptomics (ST) retains coordinates but, depending on the assay, trades this off against gene-panel breadth, spatial resolution, or cost."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Functional spatial transcriptomics uncover LMO7 as a fusion-regulated and clinically relevant driver of metastasis in Ewing sarcoma",
+      "authors": "Bursic, V., Luo, H., Henon, C., Mao, L., Ehlers, A. C., Yershova, A., Lego, J.-A. M., Li, J., Carreno Gonzalez, M. J., Arndt, R., Sastre, A., Alonso, J., Dirksen, U., Hartmann, W., Kumar Jayavelu, A., Gerstung, M., Gruenewald, T. G. P., Cidre-Aranaz, F.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747513",
+      "doi": "10.64898/2026.08.27.747513",
+      "abstract": "Metastatic dissemination represents the major determinant of poor clinical outcome across cancer entities. Yet, how driver oncogenes shape transcriptional programs facilitating metastasis is poorly understood. In Ewing sarcoma (EwS) - a highly aggressive pediatric bone and soft-tissue sarcoma driven by chimeric FET::ETS transcription factors - low activity of the fusion oncoproteins is thought to ",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: Functional spatial transcriptomics uncover LMO7 as a fusion-regulated and clinically relevant driver of metastasis in Ewing sarcoma.",
+        "Metastatic dissemination represents the major determinant of poor clinical outcome across cancer entities.",
+        "Yet, how driver oncogenes shape transcriptional programs facilitating metastasis is poorly understood."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Spatially resolved transcriptional programs link fallopian tube precursor lesions to immune activation and stromal reorganization",
+      "authors": "Recouvreux, M. S., Trang, K., Smick, A. H., Kusumoto, S., Pintard, D., Raz, Y., Taylor Harding, B., Kim, J. H., Mika, R., Richardson, M. T., Furge, R., Lvovs, D., Fertig, E., Walts, A. E., Gertych, A., Karlan, , B. Y., Xu, A. M., Orsulic, S.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747392",
+      "doi": "10.64898/2026.08.27.747392",
+      "abstract": "Despite its name, high-grade serous ovarian carcinoma (HGSC) originates in the fallopian tube, not the ovary, arising from a morphologically recognizable precursor lesion, serous tubal intraepithelial carcinoma (STIC). Yet the early cellular and microenvironmental changes driving this transformation remain poorly understood, limiting progress in early detection, interception, and prevention. Here,",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: Spatially resolved transcriptional programs link fallopian tube precursor lesions to immune activation and stromal reorganization.",
+        "Despite its name, high-grade serous ovarian carcinoma (HGSC) originates in the fallopian tube, not the ovary, arising from a morphologically recognizable precursor lesion, serous tubal intraepithelial carcinoma (STIC).",
+        "Yet the early cellular and microenvironmental changes driving this transformation remain poorly understood, limiting progress in early detection, interception, and prevention."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "FOCUS-3D: Robust, generalizable volumetric cell segmentation for three-dimensional fluorescence microscopy",
+      "authors": "Zhang, Q., Mu, Z., Liu, B., Chi, Y., Li, D., Wang, W., Ni, J.-Q., Wan, Y., Yu, L., Navajas Acedo, J., Yu, G.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.25.746907",
+      "doi": "10.64898/2026.08.25.746907",
+      "abstract": "Understanding how cells establish spatial organization within tissues is a fundamental question in life sciences. While modern three-dimensional fluorescence microscopy captures large-volume tissue architecture, extracting quantitative cellular insights from complex volumetric datasets remains a major barrier. Here, we introduce FOCUS-3D, a robust, broadly generalizable volumetric cell segmentatio",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: FOCUS-3D: Robust, generalizable volumetric cell segmentation for three-dimensional fluorescence microscopy.",
+        "Understanding how cells establish spatial organization within tissues is a fundamental question in life sciences.",
+        "While modern three-dimensional fluorescence microscopy captures large-volume tissue architecture, extracting quantitative cellular insights from complex volumetric datasets remains a major barrier."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Establishing Design Principles for CRISPR-Cas Antifungals in Candida albicans",
+      "authors": "Cotter, C. J., Trinh, C. T.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747665",
+      "doi": "10.64898/2026.08.27.747665",
+      "abstract": "Drug-resistant fungal pathogens pose a growing public health threat, causing millions of infections and deaths annually. Limited antifungal drug classes and rising resistance highlight the urgent need for novel therapies. CRISPR-Cas systems offer sequence-specific antimicrobial potential, but their efficacy is influenced by organism-specific DNA repair outcomes. Here, we demonstrate that in Candid",
+      "source": "preprint",
+      "topic": "synthetic",
+      "summary_bullets": [
+        "Focus: Establishing Design Principles for CRISPR-Cas Antifungals in Candida albicans.",
+        "Drug-resistant fungal pathogens pose a growing public health threat, causing millions of infections and deaths annually.",
+        "Limited antifungal drug classes and rising resistance highlight the urgent need for novel therapies."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Knockout and re-expression system for mutant analysis in primary mouse T cells",
+      "authors": "Morfos, V., Frie, M. C., Peschkov, D., Wagner, J., Lillemeier, B. F., Brzostek, J.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.25.746944",
+      "doi": "10.64898/2026.08.25.746944",
+      "abstract": "We describe here an efficient method for gene editing in mouse T cells, based on well-established, high-efficiency retroviral transduction protocols. Our platform allows analysis of mutant phenotypes in primary murine T cells in vitro and in vivo. This approach uses a single retroviral vector to simultaneously knockout an endogenous gene and ectopically express its mutant version. This knockout/re",
+      "source": "preprint",
+      "topic": "synthetic",
+      "summary_bullets": [
+        "Focus: Knockout and re-expression system for mutant analysis in primary mouse T cells.",
+        "We describe here an efficient method for gene editing in mouse T cells, based on well-established, high-efficiency retroviral transduction protocols.",
+        "Our platform allows analysis of mutant phenotypes in primary murine T cells in vitro and in vivo."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Directed Evolution in Codon Space",
+      "authors": "Heuschkel, J., Kingsley, L., Reed, J., Li, D., Warner, M., Pefaur, N., Cramer, S.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.03.742557",
+      "doi": "10.64898/2026.08.03.742557",
+      "abstract": "Directed evolution is commonly used in protein engineering, where mature molecules are routinely improved through iterative local search of amino acid space. Here, we extend this principle to coding DNA. We developed a language-model-guided framework that iteratively refined industry-optimized coding sequences of clinical-stage therapeutics through synonymous exploration of codon space. Across 23 ",
+      "source": "preprint",
+      "topic": "synthetic",
+      "summary_bullets": [
+        "Focus: Directed Evolution in Codon Space.",
+        "Directed evolution is commonly used in protein engineering, where mature molecules are routinely improved through iterative local search of amino acid space.",
+        "Here, we extend this principle to coding DNA."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Using CarboTrace 480 to detect protoplastation in pigment deficient mutant of Chlorella sorokiniana",
+      "authors": "Thrane, S. K., Olsen, A., Sondergaard, T. E.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747479",
+      "doi": "10.64898/2026.08.27.747479",
+      "abstract": "The increasing world population necessitates new sustainable nutrient sources, making microalgae like Chlorella sorokiniana interesting due to its rich nutrient profile and sustainable cultivation methods. With genetic optimization tools like CRISPR/Cas9, microalgae as a nutrient source can be improved even further. However, degradation of the rigid cell wall of microalgae, and thereby developing ",
+      "source": "preprint",
+      "topic": "synthetic",
+      "summary_bullets": [
+        "Focus: Using CarboTrace 480 to detect protoplastation in pigment deficient mutant of Chlorella sorokiniana.",
+        "The increasing world population necessitates new sustainable nutrient sources, making microalgae like Chlorella sorokiniana interesting due to its rich nutrient profile and sustainable cultivation methods.",
+        "With genetic optimization tools like CRISPR/Cas9, microalgae as a nutrient source can be improved even further."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Cyclic tetra-adenylate triggers Cap1 membrane pore opening and depolarization during the type III CRISPR immune response",
+      "authors": "Majumder, P., Cahir, C. W., Baca, C. F., Carion, H., Roberts, C. G., Patel, D. J., Marraffini, L. A.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.1101/2025.11.13.688252",
+      "doi": "10.1101/2025.11.13.688252",
+      "abstract": "Type III CRISPR-Cas systems synthesize cyclic oligoadenylates (cOAs) signaling molecules upon RNA-guided recognition of viral (phage) transcripts. cOAs bind to and activate CARF effectors, many of which contain transmembrane domains that cause membrane depolarization to prevent phage propagation. How ligand binding induces the activity of these effectors is poorly understood at the molecular level",
+      "source": "preprint",
+      "topic": "synthetic",
+      "summary_bullets": [
+        "Focus: Cyclic tetra-adenylate triggers Cap1 membrane pore opening and depolarization during the type III CRISPR immune response.",
+        "Type III CRISPR-Cas systems synthesize cyclic oligoadenylates (cOAs) signaling molecules upon RNA-guided recognition of viral (phage) transcripts.",
+        "cOAs bind to and activate CARF effectors, many of which contain transmembrane domains that cause membrane depolarization to prevent phage propagation."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Multi-omic characterization of axolotl perilymph-cerebrospinal fluid reveals shifts in composition during limb regeneration",
+      "authors": "Lopez, N., Zhang, B., Shuken, S. R., Zhou, Y., Payzin-Dogru, D., Paoli, J. C., Striker, A. E., Wu, S. Y. C., Patel, T. S., Chan, K., Böhm, S., Singer, H. D., Juarez, A. R., Kim, R. T., Shugart, L., Chouchani, E. T., Whited, J. L.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747356",
+      "doi": "10.64898/2026.08.27.747356",
+      "abstract": "The axolotl salamander can fully regenerate amputated limbs, yet the systemic consequences underlying this process remain largely understudied. Cerebrospinal fluid is an emerging signaling medium capable of communicating with both the central and peripheral nervous systems, but its composition and potential role in salamander limb regeneration have not yet been examined using modern multi-omics te",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Multi-omic characterization of axolotl perilymph-cerebrospinal fluid reveals shifts in composition during limb regeneration.",
+        "The axolotl salamander can fully regenerate amputated limbs, yet the systemic consequences underlying this process remain largely understudied.",
+        "Cerebrospinal fluid is an emerging signaling medium capable of communicating with both the central and peripheral nervous systems, but its composition and potential role in salamander limb regeneration…"
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Confluent growth state dependent transcriptomic adaptation in A549 lung cancer cells",
+      "authors": "Sendrayakannan, A., Yadav, N., Sahoo, A., Nanda, R., Masakapalli, S. K.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747534",
+      "doi": "10.64898/2026.08.27.747534",
+      "abstract": "Cell confluency is a major determinant of cell-cell communication, protein interactions, access to nutrients, and signalling dynamics, thereby significantly impacting biological outcomes. Lung cancer cells like A549 are widely used as screening models for scientific studies wherein their growth in vitro progress from non-confluent to confluent growth. In this study, we investigated the transcripto",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Confluent growth state dependent transcriptomic adaptation in A549 lung cancer cells.",
+        "Cell confluency is a major determinant of cell-cell communication, protein interactions, access to nutrients, and signalling dynamics, thereby significantly impacting biological outcomes.",
+        "Lung cancer cells like A549 are widely used as screening models for scientific studies wherein their growth in vitro progress from non-confluent to confluent growth."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise",
+      "authors": "Czapiewski, R., Chiang, M., Ding, J., Naughton, C., Grimes, G. R., Marenduzzo, D., Gilbert, N.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.25.747056",
+      "doi": "10.64898/2026.08.25.747056",
+      "abstract": "Cell-to-cell transcriptional heterogeneity, or noise, is an intrinsic property of the transcriptome with implications for development, disease progression, and aging. Bulk RNA-seq masks this variability by averaging gene expression across cells, whereas single-cell RNA sequencing (scRNA-seq) resolves it. Nevertheless, separating biological noise from technical variance remains challenging, particu",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise.",
+        "Cell-to-cell transcriptional heterogeneity, or noise, is an intrinsic property of the transcriptome with implications for development, disease progression, and aging.",
+        "Bulk RNA-seq masks this variability by averaging gene expression across cells, whereas single-cell RNA sequencing (scRNA-seq) resolves it."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "A Measure of Transcriptional Dyscoordination for Quantifying Aging in Single Cells",
+      "authors": "Yang, Y., Hess, P. R., Chen, X. E., Huang, S., Teneche, M. G., Wang, H., Miller, K. N., Davis, A. E., Miciano, C., Li, K. Y., Mamde, S., Yip, K., Ren, B., Yang, Q., Smoot, E., Wang, A., Johnson, B., Huang, A. C., Wilson, P., Adams, P. D., Zhang, N. R.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.01.24.701460",
+      "doi": "10.64898/2026.01.24.701460",
+      "abstract": "Aging reshapes tissues through changes in cellular composition, coordinated transcriptional reprogramming, and loss of transcriptional coordination. Whereas the first two have been characterized across aging tissues, the third remains difficult to quantify. We introduce an unsupervised, first-principles framework for measuring transcriptional dyscoordination in single cells as deviation from a lea",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: A Measure of Transcriptional Dyscoordination for Quantifying Aging in Single Cells.",
+        "Aging reshapes tissues through changes in cellular composition, coordinated transcriptional reprogramming, and loss of transcriptional coordination.",
+        "Whereas the first two have been characterized across aging tissues, the third remains difficult to quantify."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Female specific erosion of allelic fidelity in aged CD8 memory T cells",
+      "authors": "Del Prete, S., Mantel Pestana, C., Panten, J., Walter, F., Palmero, D., Coraggio, F., Loda, A., Heard, E., Stegle, O., Odom, D. T.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747566",
+      "doi": "10.64898/2026.08.27.747566",
+      "abstract": "The molecular mechanisms by which sex and age remodel the mammalian immune system remain poorly understood. Here, we show at single-allele and single-cell resolution that the inactive X chromosome (Xi) is subject to cell-type-specific erosion of its transcriptional fidelity with ageing. Single-cell multiomics analysis in mice revealed this phenotype to be concentrated in aged CD8 memory T cells, w",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Female specific erosion of allelic fidelity in aged CD8 memory T cells.",
+        "The molecular mechanisms by which sex and age remodel the mammalian immune system remain poorly understood.",
+        "Here, we show at single-allele and single-cell resolution that the inactive X chromosome (Xi) is subject to cell-type-specific erosion of its transcriptional fidelity with ageing."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Mitocurcumin mediated redox disruption and metabolic rewiring induces tumor regression in Drosophila intestinal stem cell tumors",
+      "authors": "Diwate, S., Chowdhury, U., Gadewal, N., Jadhav, S., Gota, V., Khadilkar, R. J.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747455",
+      "doi": "10.64898/2026.08.27.747455",
+      "abstract": "Mitochondria-targeted modulation of redox homeostasis has emerged as a promising strategy for controlling pathological cell proliferation. Here, we investigate the effects of Mitocurcumin in a Yorkie-driven intestinal stem cell tumor model in Drosophila. Using an integrative, genetically tractable approach combining in silico molecular modelling with in vivo functional analyses, we identify thiore",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Mitocurcumin mediated redox disruption and metabolic rewiring induces tumor regression in Drosophila intestinal stem cell tumors.",
+        "Mitochondria-targeted modulation of redox homeostasis has emerged as a promising strategy for controlling pathological cell proliferation.",
+        "Here, we investigate the effects of Mitocurcumin in a Yorkie-driven intestinal stem cell tumor model in Drosophila."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Sexual Dimorphism of Cancer-Associated Fibroblasts Governs Matrix and Vascular Organisation in Breast Cancer",
+      "authors": "Liu, P., Saunders, F. R., Everest, M., Eiamampai, N., Humphries, M. P., Coulson-Gilmer, C., Conti, G., Stead, L. F., Abu-Eid, R., Speirs, V.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747484",
+      "doi": "10.64898/2026.08.27.747484",
+      "abstract": "Breast cancer (BC) shows greatest sexual diversity. Increased diagnosis and poorer outcomes in men highlights the need to better understand its biology. We hypothesised that cancer-associated fibroblasts (CAFs), the most abundant cell type in the tumour microenvironment, might define sex-related differences. Using phenotypically matched male and female CAFs generated from breast cancer tissues, we",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Sexual Dimorphism of Cancer-Associated Fibroblasts Governs Matrix and Vascular Organisation in Breast Cancer.",
+        "Breast cancer (BC) shows greatest sexual diversity.",
+        "Increased diagnosis and poorer outcomes in men highlights the need to better understand its biology."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Extracellular Vesicles Derived from L-MYC Neural Stem Cells Mediate Neuroprotection in 3D Models of Chemotherapy- and Radiation-Induced Neurotoxicity",
+      "authors": "Nunes, L. G. A., Vasquez, I., Enright, B., Chen, L., Patel, S., Rockne, R. C., Yoon, S., Gutova, M.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.26.747380",
+      "doi": "10.64898/2026.08.26.747380",
+      "abstract": "Background/Objectives: Cancer survivors frequently experience long-term neurocognitive impairments following chemotherapy and cranial irradiation, yet experimental models that enable mechanistic investigation of therapy-induced neurotoxicity at the transcriptional level remain limited. This study aimed to develop a human three-dimensional (3D) neural tissue model derived from L-Myc immortalized ne",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Extracellular Vesicles Derived from L-MYC Neural Stem Cells Mediate Neuroprotection in 3D Models of Chemotherapy- and Radiation-Induced Neurotoxicity.",
+        "Background/Objectives: Cancer survivors frequently experience long-term neurocognitive impairments following chemotherapy and cranial irradiation, yet experimental models that enable mechanistic investigation of therapy-induced neurotoxicity at the transcriptional level remain…",
+        "This study aimed to develop a human three-dimensional (3D) neural tissue model derived from L-Myc immortalized ne."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Profilin1 regulates triple negative breast cancer cells migration through stabilization of Angiomotin and thereby YAP nuclear translocation",
+      "authors": "Vipparthy, C. P., Manna, S. K.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.28.747794",
+      "doi": "10.64898/2026.08.28.747794",
+      "abstract": "The Hippo pathway effector YAP1 is a potent oncogenic driver in triple-negative breast cancer (TNBC) and its activity is restrained by the scaffold protein Angiomotin-p130 (AMOT). AMOT is itself short-lived, being targeted for proteasomal degradation by NEDD4-family E3 ubiquitin ligases that dock at its L/P-PxY motifs. Here we identify Profilin1 (PFN1), an actin-binding protein with established ac",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Profilin1 regulates triple negative breast cancer cells migration through stabilization of Angiomotin and thereby YAP nuclear translocation.",
+        "The Hippo pathway effector YAP1 is a potent oncogenic driver in triple-negative breast cancer (TNBC) and its activity is restrained by the scaffold protein Angiomotin-p130 (AMOT).",
+        "AMOT is itself short-lived, being targeted for proteasomal degradation by NEDD4-family E3 ubiquitin ligases that dock at its L/P-PxY motifs."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Transcriptional Response to Tumor Mutational Burden Is Consistent Across Cancer Types",
+      "authors": "Shih, K. Y., Brandman, O., Winslow, M. M., Petrov, D. A.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.744035",
+      "doi": "10.64898/2026.08.27.744035",
+      "abstract": "Tumor mutational burden (TMB) shapes tumor transcriptional state, but studies typically describe this response as an average effect pooled across cancer types. Whether that average reflects a consistent response present within individual cancer types, or is an artifact of merging heterogeneous, tissue-specific responses, remains unresolved. Here we analyze ~9,100 tumors across 32 TCGA cancer types",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Transcriptional Response to Tumor Mutational Burden Is Consistent Across Cancer Types.",
+        "Tumor mutational burden (TMB) shapes tumor transcriptional state, but studies typically describe this response as an average effect pooled across cancer types.",
+        "Whether that average reflects a consistent response present within individual cancer types, or is an artifact of merging heterogeneous, tissue-specific responses, remains unresolved."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Disrupting Myeloid Persistence and Replenishment Enables Sustained Control of Esophageal Squamous Cell Carcinoma",
+      "authors": "Lung, B. C.-c., Leung, A. K.-k., Liu, S., Wong, C. W.-Y., Lai, T. H., Wong, I. Y.-h., Lung, C. C. H., Lo, A. W.-i., Kam, N.-W., Ko, J. M.-Y., Dai, W., Kwong, D. L.-w., Law, S., Scodeller, P., Lung, M., Yu, V. Z.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747541",
+      "doi": "10.64898/2026.08.27.747541",
+      "abstract": "Responses to macrophage-directed therapy can be transient because tumors preserve myeloid support through complementary persistence and replenishment. In esophageal squamous cell carcinoma (ESCC), CSF1R inhibition reduced established tumor-associated macrophages but was followed by expansion of Ly6C/CCR2-positive monocytic and Ly6G-positive granulocytic populations. Low-dose decitabine preferentia",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Disrupting Myeloid Persistence and Replenishment Enables Sustained Control of Esophageal Squamous Cell Carcinoma.",
+        "Responses to macrophage-directed therapy can be transient because tumors preserve myeloid support through complementary persistence and replenishment.",
+        "In esophageal squamous cell carcinoma (ESCC), CSF1R inhibition reduced established tumor-associated macrophages but was followed by expansion of Ly6C/CCR2-positive monocytic and Ly6G-positive granulocytic populations."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Single-Cell proteomics discerns patient-specific subpopulations in pediatric B-cell acute lymphoblastic leukemia",
+      "authors": "Jayousi, F., Kraus, F., Conrrero, A., Bush, J. W., Setiadi, A., Lange, P. F.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747627",
+      "doi": "10.64898/2026.08.27.747627",
+      "abstract": "B-cell acute lymphoblastic leukemia (B-ALL) is the most common childhood cancer, representing ~30% of pediatric cancers and ~80-85% of pediatric ALL cases. Despite high remission rates, relapse remains a major challenge, often driven by therapy-resistant subpopulations, which are masked in bulk analysis, thus limiting our understanding of disease progression and optimal therapeutic intervention. P",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Single-Cell proteomics discerns patient-specific subpopulations in pediatric B-cell acute lymphoblastic leukemia.",
+        "B-cell acute lymphoblastic leukemia (B-ALL) is the most common childhood cancer, representing ~30% of pediatric cancers and ~80-85% of pediatric ALL cases.",
+        "Despite high remission rates, relapse remains a major challenge, often driven by therapy-resistant subpopulations, which are masked in bulk analysis, thus limiting our understanding of disease progression and…"
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Recurrent non-canonical proteoforms in acute myeloid leukemia identified by integrative proteogenomics",
+      "authors": "Schmalbrock, L. K., Preska Steinberg, A., Kulej, K., Zhang, J., Casalena, G., Mcpherson, A., Kentsis, A.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.747547",
+      "doi": "10.64898/2026.08.27.747547",
+      "abstract": "Reference proteomes incompletely represent proteins translated in cancer, leaving tumor-specific proteoforms outside the search space of conventional mass spectrometry (MS). Such \"dark proteome\" products may arise from genomic variation, aberrant transcription or splicing, and non-canonical translation, including microproteins encoded by small open reading frames (ORFs). To define this landscape i",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Recurrent non-canonical proteoforms in acute myeloid leukemia identified by integrative proteogenomics.",
+        "Reference proteomes incompletely represent proteins translated in cancer, leaving tumor-specific proteoforms outside the search space of conventional mass spectrometry (MS).",
+        "Such \"dark proteome\" products may arise from genomic variation, aberrant transcription or splicing, and non-canonical translation, including microproteins encoded by small open reading frames (ORFs)."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Txn-Txnrd1 system supports redox rewiring during polyaneuploid transition and protects giant cancer cell at new redox homeostasis",
+      "authors": "Kolacz-Milewska, K., Gronkowska, K., Michlewska, S., Absenger, M., Froehlich, E., Robaszkiewicz, A.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-08-28",
+      "url": "https://doi.org/10.64898/2026.08.27.746985",
+      "doi": "10.64898/2026.08.27.746985",
+      "abstract": "Polyaneuploid giant cells (PGCC), which occur more frequently in TP53-mutant tumors, are recognized as a driver of tumor recurrence and therapy resistance, but the mechanisms supporting their survival remain largely unknown. Our results indicate that polyaneuploid transition and subsequent PGCC maturation in drug-resistant phenotypes are associated with redox rewiring that shifts cellular homeosta",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Txn-Txnrd1 system supports redox rewiring during polyaneuploid transition and protects giant cancer cell at new redox homeostasis.",
+        "Polyaneuploid giant cells (PGCC), which occur more frequently in TP53-mutant tumors, are recognized as a driver of tumor recurrence and therapy resistance, but the mechanisms supporting their survival…",
+        "Our results indicate that polyaneuploid transition and subsequent PGCC maturation in drug-resistant phenotypes are associated with redox rewiring that shifts cellular homeosta."
+      ],
+      "summary_kind": "abstract"
+    },
     {
       "title": "Scalable spatial DNA sequencing from archival tissue maps copy number subclones",
       "authors": "Soitu, C., Sahin, U., Magnussen, A., Wong, A., Bonnaffe, W., Fan, M., Bilici, M., Davis, S., Fischer, R., Reese, J., House, T., Moradi, S., Teague, R., Ansorge, O., Malacrino, S., Alham, N. K., McGregor, E., Maldonado-Perez, D., Tomlinson, I., Wedge, D., Hester, J., Issa, F., Edwards, C., Bryant, R., Mills, I., Rittscher, J., Hamdy, F., Woodcock, D., Verrill, C., Rao, S.",
@@ -374,308 +767,22 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Comparative Single-Cell Profiling of CRISPR Knockout and Interference Defines Modality-Specific Strengths in Functional Genomics",
-      "authors": "Gupta, N., Sayer, A., Prater, M., Mastrokalou, C., Saeed, K., Company, C., Hart, C., Miragaia, R., Trehan, A., Functional Genomics Centre,  , McDermott, U., Strauss, M. E., Ross-Thriepland, D., Walter, D., Kalinka, A.",
-      "journal": "bioRxiv (preprint)",
+      "title": "Promoter selection reduces phenotypic heterogeneity and improves bioproduction. ",
+      "authors": "Patel D, Shabestary K, Xu J, Klemm C, Huang WE, Ledesma-Amaro R.",
+      "journal": "Trends in biotechnology",
       "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747303",
-      "doi": "10.64898/2026.08.26.747303",
-      "abstract": "Pooled CRISPR screens coupled with single-cell RNA sequencing enable high-throughput functional interrogation of gene regulatory networks, yet systematic comparisons of CRISPR knockout (CRISPRko) and CRISPR interference (CRISPRi) remain limited. We established a single-cell CRISPRko workflow and benchmarked it against CRISPRi using 87 sgRNAs targeting 29 unfolded protein response genes. CRISPRko g",
-      "source": "preprint",
-      "topic": "synthetic",
+      "url": "https://doi.org/10.1016/j.tibtech.2026.08.002",
+      "doi": "10.1016/j.tibtech.2026.08.002",
+      "abstract": "Cell-to-cell heterogeneity leads to the formation of subpopulations within an isogenic population, resulting in the coexistence of high and low producer cells. However, the impact of this phenotypic heterogeneity on bioproduction has been overlooked. Using flow cytometry to analyse commonly used yeast promoters, we found that many display macro-heterogeneity, generating multiple discrete subpopula",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "life-science",
+      "flagship": false,
       "summary_bullets": [
-        "Focus: Comparative Single-Cell Profiling of CRISPR Knockout and Interference Defines Modality-Specific Strengths in Functional Genomics.",
-        "Pooled CRISPR screens coupled with single-cell RNA sequencing enable high-throughput functional interrogation of gene regulatory networks, yet systematic comparisons of CRISPR knockout (CRISPRko) and CRISPR interference (CRISPRi) remain…",
-        "We established a single-cell CRISPRko workflow and benchmarked it against CRISPRi using 87 sgRNAs targeting 29 unfolded protein response genes."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Nuclear size is genetically controlled and influences cell fate",
-      "authors": "Moriizumi, H., Shi, R., Schraivogel, D., Reid, A. J., Steinmetz, L. M., Skotheim, J. M., Zatulovskiy, E. A.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747275",
-      "doi": "10.64898/2026.08.26.747275",
-      "abstract": "The proportional scaling between nuclear and cell size was first described more than 150 years ago and is among the most conserved features of cellular organization. Yet the mechanisms that establish this scaling and its physiological significance have remained unresolved. Here, we address both questions by combining image-enabled cell sorting with genome-wide CRISPR screening, transcriptomics and",
-      "source": "preprint",
-      "topic": "synthetic",
-      "summary_bullets": [
-        "Focus: Nuclear size is genetically controlled and influences cell fate.",
-        "The proportional scaling between nuclear and cell size was first described more than 150 years ago and is among the most conserved features of cellular organization.",
-        "Yet the mechanisms that establish this scaling and its physiological significance have remained unresolved."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "An SMN2 splicing-correcting antisense oligonucleotide promotes gene looping and transcription activation",
-      "authors": "Stigliano, J. N., Haberfeld, E., Marasco, L. E., Fiszbein, A., Proudfoot, N. J., Kornblihtt, A. R.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.1101/2025.10.10.681673",
-      "doi": "10.1101/2025.10.10.681673",
-      "abstract": "We have previously proposed a combined therapy for spinal muscular atrophy based on the upregulation of exon 7 (E7) inclusion into SMN2 mRNA by the antisense oligonucleotide nusinersen (ASO1) together with histone deacetylase inhibitors (HDACi). Using a CRISPR/deadCas-based strategy, we show here that targeting histone acetylation at the SMN2 E7 region duplicates the HDACi effect, which overcomes ",
-      "source": "preprint",
-      "topic": "synthetic",
-      "summary_bullets": [
-        "Focus: An SMN2 splicing-correcting antisense oligonucleotide promotes gene looping and transcription activation.",
-        "We have previously proposed a combined therapy for spinal muscular atrophy based on the upregulation of exon 7 (E7) inclusion into SMN2 mRNA by the antisense oligonucleotide nusinersen…",
-        "Using a CRISPR/deadCas-based strategy, we show here that targeting histone acetylation at the SMN2 E7 region duplicates the HDACi effect, which overcomes."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "LNP-mediated BCL11A Editing Corrects Sickling Phenotypes and Preserves HSPC Fitness Compared to Electroporation",
-      "authors": "Ansong-Ansongton, Y., Adanho, C. S. A., Lawanprasert, A., Vysotskiy, M., Tang, Y., Kleinhez, A. L., Wilson, R., Rivers, A., Nguyen, D. N.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747413",
-      "doi": "10.64898/2026.08.26.747413",
-      "abstract": "Hemoglobinopathies, including sickle cell disease (SCD) and thalassemia syndromes, affect millions of individuals worldwide who have limited access to curative therapies. Autologous hematopoietic stem cell transplant following ex vivo CRISPR editing of the BCL11A erythroid enhancer reactivates fetal hemoglobin (HbF) and achieves an effective cure, but the resource constraints of clinically approve",
-      "source": "preprint",
-      "topic": "synthetic",
-      "summary_bullets": [
-        "Focus: LNP-mediated BCL11A Editing Corrects Sickling Phenotypes and Preserves HSPC Fitness Compared to Electroporation.",
-        "Hemoglobinopathies, including sickle cell disease (SCD) and thalassemia syndromes, affect millions of individuals worldwide who have limited access to curative therapies.",
-        "Autologous hematopoietic stem cell transplant following ex vivo CRISPR editing of the BCL11A erythroid enhancer reactivates fetal hemoglobin (HbF) and achieves an effective cure, but the resource constraints…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "A mathematical investigation of the interplay between vasculature and intratumoral cellular heterogeneity during tumor progression",
-      "authors": "Ghosh, S., Sadhu, G., Dalal, D.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747242",
-      "doi": "10.64898/2026.08.26.747242",
-      "abstract": "Tumors consist of heterogeneous phenotypic cells, such as normoxic cells, which are highly proliferative, and hypoxic cells, which are less proliferative. Their phenotypic switching depends on tumor microenvironmental factors, such as oxygen and nutrient concentrations supplied by local blood vessels. However, during ongoing angiogenesis, the process of sprouting new blood vessels at the tumor sit",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: A mathematical investigation of the interplay between vasculature and intratumoral cellular heterogeneity during tumor progression.",
-        "Tumors consist of heterogeneous phenotypic cells, such as normoxic cells, which are highly proliferative, and hypoxic cells, which are less proliferative.",
-        "Their phenotypic switching depends on tumor microenvironmental factors, such as oxygen and nutrient concentrations supplied by local blood vessels."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Glutamatergic Neuron-Meningioma Synapse Interaction Promotes Brain-Invasive Tumor Growth",
-      "authors": "Zhao, S., Wang, P., Chen, X., Mondal, I., Xin, F., Sun, R., Huo, R., Gao, C., Yan, Z., Zhang, Q., Tie, Y., Wang, W., Ho, W. S., Wei, M., Zhang, X., Lu, R. O., Cao, Y.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747240",
-      "doi": "10.64898/2026.08.26.747240",
-      "abstract": "Meningiomas are typically extra-axial, separated from brain parenchyma by a distinct interface, but an aggressive subset breaches this boundary and invades the brain, forming a brain-tumor interface (BTI). Whether this invasion enables direct communication between meningioma cells and neurons was unknown. Here, we identified putative neuron-meningioma synapses by electron microscopy in human speci",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Glutamatergic Neuron-Meningioma Synapse Interaction Promotes Brain-Invasive Tumor Growth.",
-        "Meningiomas are typically extra-axial, separated from brain parenchyma by a distinct interface, but an aggressive subset breaches this boundary and invades the brain, forming a brain-tumor interface (BTI).",
-        "Whether this invasion enables direct communication between meningioma cells and neurons was unknown."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "GABAergic Circuit Activation Induces a Therapeutically Responsive State for anti-PD-L1 Immunotherapy in Glioblastoma",
-      "authors": "Scalera, M., De Santis, E., Rossi, F., Meneghetti, N., Nemati Fard, L. A., Miglionico, P., Raimondi, F., Flori, A., Pasqualetti, M., Menichetti, L., Sengupta, S., Vannini, E., Costa, M.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747200",
-      "doi": "10.64898/2026.08.26.747200",
-      "abstract": "Glioblastoma (GBM) disrupts cortical excitatory-inhibitory balance and establishes an immunosuppressive microenvironment that limits therapeutic efficacy. Whether restoring inhibitory signaling can restrain glioma progression and improve responsiveness to immune checkpoint blockade remains unknown. Peritumoral parvalbumin-positive (PV+) interneurons were bidirectionally manipulated by chemogenetic",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: GABAergic Circuit Activation Induces a Therapeutically Responsive State for anti-PD-L1 Immunotherapy in Glioblastoma.",
-        "Glioblastoma (GBM) disrupts cortical excitatory-inhibitory balance and establishes an immunosuppressive microenvironment that limits therapeutic efficacy.",
-        "Whether restoring inhibitory signaling can restrain glioma progression and improve responsiveness to immune checkpoint blockade remains unknown."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Novel Methylation Markers in a Prostate Cancer Cohort are Associated with Disease Development and Relapse",
-      "authors": "Lach, R. P., Pita, S., Leung, W.-K., Babbage, A., Merson, S., Hawkins, S., Luxton, H., Kay, J., Whitaker, H. C., Woodcock, D. J., Haberland, V., Kote-Jarai, Z., Milne-Clark, T., O'Neill, K., Brendler-Spaeth, T., Cheung, M., Ko, M., CRUK ICGC Prostate Cancer Group,  , Dev, H., Butler, A., Lambert, A., Hamdy, F. C., Verrill, C., Field, S., Bova, G. S., Foster, C., Neal, D. E., Wedge, D. C., Gnanapragasam, V. J., Warren, A. Y., Eeles, R. A., Cooper, C. S., Brewer, D. S., Massie, C. E., Lynch, A. G.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747370",
-      "doi": "10.64898/2026.08.26.747370",
-      "abstract": "Prostate cancer remains one of the most common cancers among men globally. While significant strides have been made in diagnosis and treatment, understanding the complex genetic and epigenetic underpinnings of the disease remains crucial for guiding intervention and developing more personalized and effective therapies. The importance of DNA methylation in prostate cancer has been known for some ti",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Novel Methylation Markers in a Prostate Cancer Cohort are Associated with Disease Development and Relapse.",
-        "Prostate cancer remains one of the most common cancers among men globally.",
-        "While significant strides have been made in diagnosis and treatment, understanding the complex genetic and epigenetic underpinnings of the disease remains crucial for guiding intervention and developing more…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Fusion-derived phospho-neoepitopes define a prioritized candidate neoantigen repertoire in MASLD-HCC",
-      "authors": "Zhao, L. N., Andersen, J.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747243",
-      "doi": "10.64898/2026.08.26.747243",
-      "abstract": "Background: The rising burden of metabolic dysfunction-associated steatotic liver disease (MASLD)-associated hepatocellular carcinoma (HCC) underscores the need for innovative therapeutic strategies. Methods: We integrated RNA-seq fusion detection, immunopeptidomics, and proteogenomics to systematically prioritize tumor-specific neoantigen candidates arising from gene fusions in MASLD-HCC. Results",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Fusion-derived phospho-neoepitopes define a prioritized candidate neoantigen repertoire in MASLD-HCC.",
-        "Background: The rising burden of metabolic dysfunction-associated steatotic liver disease (MASLD)-associated hepatocellular carcinoma (HCC) underscores the need for innovative therapeutic strategies.",
-        "Methods: We integrated RNA-seq fusion detection, immunopeptidomics, and proteogenomics to systematically prioritize tumor-specific neoantigen candidates arising from gene fusions in MASLD-HCC."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Single-cell mapping of the fallopian tube reveals a genomically unstable secretory cell state enriched in carriers of germline BRCA1/2 mutations",
-      "authors": "Eyal-Lubling, Y., Vias, M. D., Kania, K., Kaludova, D., Hall, J., Crawford, R., Nyagumbo, R., Ward, S., Khoronenkova, S., Aparicio, S., Swanton, C., Jimenez Linan, M., Brenton, J. D., Correia Martins, F.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.746998",
-      "doi": "10.64898/2026.08.26.746998",
-      "abstract": "Carriers of germline BRCA1 or BRCA2 alterations have a substantially increased lifetime risk of high-grade serous ovarian carcinoma (HGSOC), which originates from the secretory cells of the fallopian tube. However, comparative multi-omic analyses of bulk fallopian tube tissue from BRCA1/2 carriers and the general population have, to date, revealed only limited differences. New molecular biomarkers",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Single-cell mapping of the fallopian tube reveals a genomically unstable secretory cell state enriched in carriers of germline BRCA1/2 mutations.",
-        "Carriers of germline BRCA1 or BRCA2 alterations have a substantially increased lifetime risk of high-grade serous ovarian carcinoma (HGSOC), which originates from the secretory cells of the fallopian…",
-        "However, comparative multi-omic analyses of bulk fallopian tube tissue from BRCA1/2 carriers and the general population have, to date, revealed only limited differences."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Mitochondrial transfer between breast cancer cells promotes ROS-dependent proliferation",
-      "authors": "Bressler, N. M., Stevens, T. Z., Roh-Johnson, M.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747325",
-      "doi": "10.64898/2026.08.26.747325",
-      "abstract": "Previously, we showed that macrophages transfer mitochondria to breast cancer cells, promoting proliferation in acceptor cancer cells. Transferred mitochondria were depolarized and accumulated reactive oxygen species (ROS), and the mitochondrial transfer-induced proliferation was dependent upon ROS signaling (Kidwell et al. 2023). Our unexpected findings supported a model in which transferred mito",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Mitochondrial transfer between breast cancer cells promotes ROS-dependent proliferation.",
-        "Previously, we showed that macrophages transfer mitochondria to breast cancer cells, promoting proliferation in acceptor cancer cells.",
-        "Transferred mitochondria were depolarized and accumulated reactive oxygen species (ROS), and the mitochondrial transfer-induced proliferation was dependent upon ROS signaling (Kidwell et al."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Loss of NKX2-1 predisposes thyroid to neoplasm development through regulation of oxidative stress",
-      "authors": "Shirai, Y.-T., Ward, J. M., Takizawa, Y., Liu, H., Miyakoshi, M., Iwadate, M., Murata, T., Hayase, S., Yokoyama, S., Ehata, S., Kimura, S.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.746581",
-      "doi": "10.64898/2026.08.26.746581",
-      "abstract": "Many factors including ionizing radiation and iodine deficiency are known to increase thyroid carcinogenesis risk. Our dataset analysis of The Cancer Genome Atlas (TCGA) showed that lower mRNA expression of NK2 homeobox 1 (NKX2-1) transcription factor, a master regulator of genesis, homeostasis, and function of thyroid, is linked to poor prognosis of papillary thyroid cancer patients. Here we prov",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Loss of NKX2-1 predisposes thyroid to neoplasm development through regulation of oxidative stress.",
-        "Many factors including ionizing radiation and iodine deficiency are known to increase thyroid carcinogenesis risk.",
-        "Our dataset analysis of The Cancer Genome Atlas (TCGA) showed that lower mRNA expression of NK2 homeobox 1 (NKX2-1) transcription factor, a master regulator of genesis, homeostasis, and…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Pharmacologic decoupling of IRBC activation from anabolic collapse redefines ribosome biogenesis inhibition as a selective tumor suppressive strategy",
-      "authors": "Menoyo, S., Forcada, B., Mastora, Z., Bosch-i-Crespo, P., Moron-Duran, F. D., Santos, C., Salazar, R., Gentilella, A.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.24.744089",
-      "doi": "10.64898/2026.08.24.744089",
-      "abstract": "Ribosome biogenesis (Ri-Bi) is widely targeted in cancer therapy, yet its inhibition is generally viewed as a broadly anti-anabolic intervention. In colorectal cancer, frontline treatments such as FOLFOX partly disrupt Ri-Bi, eliciting two biologically distinct outputs: an early p53-dependent checkpoint activation, known as the impaired ribosome biogenesis checkpoint (IRBC), and a later global ant",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Pharmacologic decoupling of IRBC activation from anabolic collapse redefines ribosome biogenesis inhibition as a selective tumor suppressive strategy.",
-        "Ribosome biogenesis (Ri-Bi) is widely targeted in cancer therapy, yet its inhibition is generally viewed as a broadly anti-anabolic intervention.",
-        "In colorectal cancer, frontline treatments such as FOLFOX partly disrupt Ri-Bi, eliciting two biologically distinct outputs: an early p53-dependent checkpoint activation, known as the impaired ribosome biogenesis checkpoint…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Endogenous insulin mediates dynamic coordination between pancreatic cancer and systemic metabolism",
-      "authors": "Lin, J. S. H., Mohammed, A. A., Hewton, K. G., Wang, J., Chen, T. Z. Y., Guo, I. S. Y., Lam, R. S. H., Ferraz Reinaldo, M., Richard, V. R., Schaeffer, D. F., Renouf, D. J., Borchers, C. H., Parker, S. J., Penninger, J. M., Johnson, J. D., Kopp, J. L.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.745597",
-      "doi": "10.64898/2026.08.26.745597",
-      "abstract": "Pancreatic ductal adenocarcinoma (PDAC) is commonly associated with obesity, diabetes, and cachexia. The pancreatic anabolic hormone, insulin, is implicated in each of these metabolic diseases, but how insulin levels affect tumor growth and relevant host physiological factors, was unclear. To address this, we transplanted orthotopic PDAC patient-derived organoids into mice consuming a hyperinsulin",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Endogenous insulin mediates dynamic coordination between pancreatic cancer and systemic metabolism.",
-        "Pancreatic ductal adenocarcinoma (PDAC) is commonly associated with obesity, diabetes, and cachexia.",
-        "The pancreatic anabolic hormone, insulin, is implicated in each of these metabolic diseases, but how insulin levels affect tumor growth and relevant host physiological factors, was unclear."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Antibody-drug conjugate combination therapy targeting LGR5 and MET with different payloads enhances efficacy in preclinical colorectal cancer models",
-      "authors": "Subramanian, S., High, P. C., Guernsey-Biddle, C., Cappellino, M. G., Liang, Z., Aldana, A. M., Li, L., Pan, S., Carmon, K. S.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.07.18.739355",
-      "doi": "10.64898/2026.07.18.739355",
-      "abstract": "Leucine-rich repeat-containing G protein-coupled receptor 5 (LGR5) is a marker of cancer stem-like cells frequently upregulated in colorectal cancer (CRC) with lower expression in normal tissues, making it a favorable target for antibody-drug conjugates (ADCs). ADCs combine antibody specificity with potent cytotoxic payloads to enhance efficacy while minimizing systemic toxicity. LGR5-targeting AD",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Antibody-drug conjugate combination therapy targeting LGR5 and MET with different payloads enhances efficacy in preclinical colorectal cancer models.",
-        "Leucine-rich repeat-containing G protein-coupled receptor 5 (LGR5) is a marker of cancer stem-like cells frequently upregulated in colorectal cancer (CRC) with lower expression in normal tissues, making it…",
-        "ADCs combine antibody specificity with potent cytotoxic payloads to enhance efficacy while minimizing systemic toxicity."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "High-avidity TCR signaling drives an NKG2A-positive CD8 T cell exhaustion state in human tumors",
-      "authors": "Mullins, R. D., Zaretsky, J. M., Barrett, T. F., Stoller, E., Bischoff, P., Egloff, A. M., Huffman, C., Ramadan, S., Ramadan, A., Ley, J., Schwetye, K., Miller, D., De Los Santos, J., Apicelli, A. J., Rammohan, N., Thorstad, W., Oppelt, P., Knapp, B. J., Auberle, C., Peng, G., Buchman, C., Bur, A., Wahle, B., Rich, J. T., Jackson, R. S., Pipkorn, P., Zolkind, P. A., Harbison, R. A., Egawa, T., Singh, N., Mitra, R. D., Karam, S. D., Adkins, D. R., Uppaluri, R., Puram, S. V.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.05.29.728765",
-      "doi": "10.64898/2026.05.29.728765",
-      "abstract": "T cells adopt diverse states in human disease, with tumor-specific CD8 T cells serving as the quintessential example. These cells are critical for immunotherapy response, yet acquire hypofunctional states of exhaustion that impair treatment efficacy. While significant heterogeneity is observed among exhausted CD8 T cells (TEX), the mechanisms directing their unique phenotypes remain unresolved, li",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: High-avidity TCR signaling drives an NKG2A-positive CD8 T cell exhaustion state in human tumors.",
-        "T cells adopt diverse states in human disease, with tumor-specific CD8 T cells serving as the quintessential example.",
-        "These cells are critical for immunotherapy response, yet acquire hypofunctional states of exhaustion that impair treatment efficacy."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "NuclearIDTracker resolves intestinal cell identity and lineage dynamics through nuclear phenotypic signatures",
-      "authors": "Nguyen, N. T. B., Kok, R. N. U., Gevers, S., Zheng, X., Betjes, M. A., Ritter, L., Feijtel, D., Smith, M. B., van Beuningen, S. F. B., van Zon, J. S., Tans, S. J., Rodriguez Colman, M. J.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.26.747251",
-      "doi": "10.64898/2026.08.26.747251",
-      "abstract": "Organoid models have transformed our understanding of intestinal renewal. Fluorescent imaging has been extensively used to identify key cell types and their differentiation pathways, but immunofluorescence provides only static readouts, whereas live imaging requires fluorescent-reporter engineering and is constrained by limited multiplexing and spectral overlap. Here, we introduce NuclearIDTracker",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: NuclearIDTracker resolves intestinal cell identity and lineage dynamics through nuclear phenotypic signatures.",
-        "Organoid models have transformed our understanding of intestinal renewal.",
-        "Fluorescent imaging has been extensively used to identify key cell types and their differentiation pathways, but immunofluorescence provides only static readouts, whereas live imaging requires fluorescent-reporter engineering and…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Benchmarking Imputation Methods for Single-Cell RNA Sequencing Data Using Peripheral Blood Mononuclear Cells from Acute Myocardial Infarction Patients",
-      "authors": "Ramesh, P., Fyta, M.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-27",
-      "url": "https://doi.org/10.64898/2026.08.23.746230",
-      "doi": "10.64898/2026.08.23.746230",
-      "abstract": "Acute myocardial infarction (AMI) remains one of the leading causes of mortality worldwide, and the following post-effects, such as post-AMI inflammation and tissue repair, involve peripheral blood mononuclear cells playing a critical role. The influence of imputation methods in biological data is assessed with respect to high-resolution single-cell RNA sequencing (scRNAseq) data relevant to these",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Benchmarking Imputation Methods for Single-Cell RNA Sequencing Data Using Peripheral Blood Mononuclear Cells from Acute Myocardial Infarction Patients.",
-        "Acute myocardial infarction (AMI) remains one of the leading causes of mortality worldwide, and the following post-effects, such as post-AMI inflammation and tissue repair, involve peripheral blood mononuclear…",
-        "The influence of imputation methods in biological data is assessed with respect to high-resolution single-cell RNA sequencing (scRNAseq) data relevant to these."
+        "Focus: Promoter selection reduces phenotypic heterogeneity and improves bioproduction.",
+        "Cell-to-cell heterogeneity leads to the formation of subpopulations within an isogenic population, resulting in the coexistence of high and low producer cells.",
+        "However, the impact of this phenotypic heterogeneity on bioproduction has been overlooked."
       ],
       "summary_kind": "abstract"
     },
@@ -785,6 +892,23 @@
       "summary_kind": "abstract"
     },
     {
+      "title": "Learning Interpretable Tumor Microenvironment Representations by Fitting Pan-Cancer Cell State-Niche Correlation",
+      "authors": "Xiao Xiao, Jiashu He, Shiyang Zhang, Meiyi Mao",
+      "journal": "arXiv (preprint)",
+      "date": "2026-08-26",
+      "url": "http://arxiv.org/abs/2608.26208v1",
+      "doi": "",
+      "abstract": "In the tumor microenvironment, cell's state is influenced by cell-cell interactions (CCIs) with neighboring cells in its niches. Identifying dysregulated CCIs that are associated with pathogenic process pinpoints targets for drug discovery. Imaging-based spatial transcriptomics and single-cell RNA sequencing provide, respectively, single-cell spatial information and transcriptome-wide measurements",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: Learning Interpretable Tumor Microenvironment Representations by Fitting Pan-Cancer Cell State-Niche Correlation.",
+        "In the tumor microenvironment, cell's state is influenced by cell-cell interactions (CCIs) with neighboring cells in its niches.",
+        "Identifying dysregulated CCIs that are associated with pathogenic process pinpoints targets for drug discovery."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
       "title": "Development of mitochondrial mutator pigs exhibiting increased mitochondrial DNA mutations and premature aging via prime editing. ",
       "authors": "Chen F, Liang Y, Zheng W, Yao A, Wang N, Chen H, Zhuang Z, Lian M, Zhao Y, Ouyang Z, Zhou Z, Ge W, Liu Q, Ye Y, Lai L, Wang K.",
       "journal": "Science advances",
@@ -805,19 +929,62 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Unobserved Sequence Space Has Many Functional Proteins",
-      "authors": "Diplock, N., Desautels, T. A., Haque, R., Finney, M., Wackelin, D. J., Kang-Yun, C. S., Park, D. M., Leonard, S. P.",
-      "journal": "bioRxiv (preprint)",
+      "title": "FUS inactivation promotes leptomeningeal metastasis of lung cancer through the up-regulation of CD36. ",
+      "authors": "Lin S, Yin K, Zheng MM, Tu HY, Li W, Wu Z, Zheng D, Long Y, Wu Q, Li D, Wang X, Bao X, Yao Y, Duan Z, Carson G, Jiang BY, Zeng L, Chen ZH, Zhou Q, Yang JJ, Zhong WZ, Zhang XC, Chen HJ, Wang BC, Xiao FM, Liu SM, Yan LX, Thiery JP, Li YS, Wu YL, Li P.",
+      "journal": "Science translational medicine",
       "date": "2026-08-26",
-      "url": "https://doi.org/10.64898/2026.08.24.746828",
-      "doi": "10.64898/2026.08.24.746828",
-      "abstract": "The distribution of functional proteins across amino acid sequence space, and the proportion of functional space covered by existing proteins, remains unknown. Illuminating this distribution is integral to understanding protein evolution and advancing protein design. The recent explosion of AI/ML protein design tools presents an opportunity to explore protein sequence space distant from extant pro",
-      "source": "preprint",
+      "url": "https://doi.org/10.1126/scitranslmed.aee1083",
+      "doi": "10.1126/scitranslmed.aee1083",
+      "abstract": "The prognosis of non-small cell lung cancer (NSCLC) with leptomeningeal metastasis (LM) is dismal. The regulators of LM progression remain elusive, thus impeding effective clinical intervention. Here, we performed in vivo genome-wide CRISPR-based screens and found that fused in sarcoma (FUS) ablation promoted LM in both PC9 and A549 cells. FUS repressed CD36 expression by directly interacting with",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "science",
       "topic": "synthetic",
+      "flagship": false,
       "summary_bullets": [
-        "Focus: Unobserved Sequence Space Has Many Functional Proteins.",
-        "The distribution of functional proteins across amino acid sequence space, and the proportion of functional space covered by existing proteins, remains unknown.",
-        "Illuminating this distribution is integral to understanding protein evolution and advancing protein design."
+        "Focus: FUS inactivation promotes leptomeningeal metastasis of lung cancer through the up-regulation of CD36.",
+        "The prognosis of non-small cell lung cancer (NSCLC) with leptomeningeal metastasis (LM) is dismal.",
+        "The regulators of LM progression remain elusive, thus impeding effective clinical intervention."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Single-cell and in vivo profiling reveal heterogeneous and organ-specific CRISPR-Cas9 off-target and translocation outcomes. ",
+      "authors": "Madsen A, Selfjord N, Martinez-Lage M, Loyd AL, Kurgan G, Ståhlberg M, Lindgren J, Liz Touza J, Wigge L, Firth M, Nordström K, Collin J, Jachimowicz D, Schiffthaler B, Dillmann I, Antoniou P, Emmanouilidi A, Hellsten J, Forsström J, Magnell K, Jacobi A, Behlke M, Porritt M, Madeyski-Bengtson K, Maresca M, Akcakaya P.",
+      "journal": "Nature communications",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1038/s41467-026-77144-5",
+      "doi": "10.1038/s41467-026-77144-5",
+      "abstract": "CRISPR-Cas9 holds promise for treating genetic disease, but rare off-target mutations and structural variants remain as key safety concerns, especially at scales relevant to therapy. Here, we establish workflows to resolve Cas9 off-target activity in vitro at single-cell resolution and in vivo across different tissues. Using clonally expanded electroporated mouse embryos and embryonic stem cells, ",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "synthetic",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Single-cell and in vivo profiling reveal heterogeneous and organ-specific CRISPR-Cas9 off-target and translocation outcomes.",
+        "CRISPR-Cas9 holds promise for treating genetic disease, but rare off-target mutations and structural variants remain as key safety concerns, especially at scales relevant to therapy.",
+        "Here, we establish workflows to resolve Cas9 off-target activity in vitro at single-cell resolution and in vivo across different tissues."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Heritable transgenic schistosomes as a living platform for SARS-CoV-2 neutralizing antibody secretion. ",
+      "authors": "Ittiprasert W, Smout MJ, Mann VH, Moyle M, Kinahan SM, Ackerman DN, Rivera DN, Santarpia JL, Carnes EC, Mentink-Kane MM, Costa MR, Hokke CH, Roestenberg M, Bottazzi ME, Bracken BK, Rosa BA, Djuranovic S, Pickering DA, Giacomin PR, Watterson D, Modhiran N, Moescheid MF, Grevelding CG, Mitreva M, Loukas A, Brindley PJ.",
+      "journal": "Nature communications",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1038/s41467-026-76465-9",
+      "doi": "10.1038/s41467-026-76465-9",
+      "abstract": "We report the generation and propagation of not only the first heritable transgenic schistosome line but also a line that secretes a functional therapeutic protein in vivo. Using multiplexed CRISPR/Cas-mediated homology-directed knock-in targeted to a predicted genomic safe-harbor, we inserted a VHH-IgG1 Fc (termed C5-Fc) transgene into Schistosoma mansoni eggs. Single-miracidium infections of Bio",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "synthetic",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Heritable transgenic schistosomes as a living platform for SARS-CoV-2 neutralizing antibody secretion.",
+        "We report the generation and propagation of not only the first heritable transgenic schistosome line but also a line that secretes a functional therapeutic protein in vivo.",
+        "Using multiplexed CRISPR/Cas-mediated homology-directed knock-in targeted to a predicted genomic safe-harbor, we inserted a VHH-IgG1 Fc (termed C5-Fc) transgene into Schistosoma mansoni eggs."
       ],
       "summary_kind": "abstract"
     },
@@ -838,6 +1005,204 @@
         "Focus: A binding-to-release strategy for targeted anticancer drug delivery.",
         "Drug conjugates, such as antibody-drug conjugates (ADCs) and small molecule-drug conjugates (SMDCs), are often dependent on efficient receptor-mediated endocytosis for payload release1-3-supported by about 10% of targets4-7.",
         "For poorly internalizing targets, drug conjugates dissociate and clear rapidly, limiting efficacy."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Ketogenic Diet Promotes Intestinal Tumorigenesis Via Lipid Oxidation",
+      "authors": "",
+      "journal": "Cancer discovery",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1158/2159-8290.cd-rw2026-076",
+      "doi": "10.1158/2159-8290.cd-rw2026-076",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cancer-discovery",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Ketogenic Diet Promotes Intestinal Tumorigenesis Via Lipid Oxidation."
+      ],
+      "summary_kind": "headline"
+    },
+    {
+      "title": "Ingestion-activated CGRP neurons control learning but not satiety. ",
+      "authors": "Jarvie BC, Ravi A, Nanavati R, Namkung H, Qiu L, Ly T, Oh JY, Barnhill OK, Knight ZA.",
+      "journal": "Neuron",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1016/j.neuron.2026.08.001",
+      "doi": "10.1016/j.neuron.2026.08.001",
+      "abstract": "Calcitonin gene-related peptide (CGRP) neurons in the parabrachial nucleus are critical for sickness and malaise but have also been proposed to control non-aversive (rewarding) satiation. How one cell type coordinates these opposing processes has not been explained. Here, we reinvestigate the function of these cells using single-cell imaging as well as optical and chemogenetic manipulations in mic",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Ingestion-activated CGRP neurons control learning but not satiety.",
+        "Calcitonin gene-related peptide (CGRP) neurons in the parabrachial nucleus are critical for sickness and malaise but have also been proposed to control non-aversive (rewarding) satiation.",
+        "How one cell type coordinates these opposing processes has not been explained."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Long-lasting extracellular matrix modifications reshape intestinal stem cell fate and promote chronic inflammation. ",
+      "authors": "Adir I, Sochen C, Gelb S, Menachem AH, Lebon S, Toval B, Holiar V, Davidzohn N, Salame TM, Rosenhek-Goldian I, Savickas S, Sabino F, Izzi V, Ungar B, Abend A, Solomonov I, Zigmond E, Pihlajaniemi T, Auf dem Keller U, Biton M, Sagi I.",
+      "journal": "Immunity",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1016/j.immuni.2026.07.022",
+      "doi": "10.1016/j.immuni.2026.07.022",
+      "abstract": "Tissue regeneration is viewed as a return to homeostasis, but whether the extracellular matrix (ECM) reverts during recovery from gut inflammation is unclear. Using temporal multi-omics, biomechanical profiling, and spatial fate mapping in colitis models, we showed that colonic ECM underwent lasting pathological reprogramming following inflammation, which we termed modified (mod)ECM. Characterized",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Long-lasting extracellular matrix modifications reshape intestinal stem cell fate and promote chronic inflammation.",
+        "Tissue regeneration is viewed as a return to homeostasis, but whether the extracellular matrix (ECM) reverts during recovery from gut inflammation is unclear.",
+        "Using temporal multi-omics, biomechanical profiling, and spatial fate mapping in colitis models, we showed that colonic ECM underwent lasting pathological reprogramming following inflammation, which we termed modified (mod)ECM."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Surface and global proteomics identify ROR2 and other proteins as potentially actionable immunotherapeutic targets in osteosarcoma. ",
+      "authors": "Mooney B, Chu X, Negri GL, Lizardo MM, Song H, Marsh A, Delaidelli A, Huang YZ, Rouleau M, Spencer SE, Shraim R, Hamilton AK, Magesh S, Zhang W, Budhathoki Y, Cannon MV, Roberts R, Gorlick R, Sweet-Cordero A, Diskin SJ, Maris JM, Li W, Morin GB, Sorensen PH.",
+      "journal": "Cell reports",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117884",
+      "doi": "10.1016/j.celrep.2026.117884",
+      "abstract": "Osteosarcoma (OS) is the most common human primary bone cancer, primarily affecting children and young adults. While the survival rate of patients diagnosed with localized OS is ∼65%, this decreases to ∼20% for patients with metastatic disease, and recurrent disease remains largely incurable. Therefore, identifying new therapeutic strategies is urgently needed for metastatic and refractory OS. Thi",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Surface and global proteomics identify ROR2 and other proteins as potentially actionable immunotherapeutic targets in osteosarcoma.",
+        "Osteosarcoma (OS) is the most common human primary bone cancer, primarily affecting children and young adults.",
+        "While the survival rate of patients diagnosed with localized OS is ∼65%, this decreases to ∼20% for patients with metastatic disease, and recurrent disease remains largely incurable."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Rapid and robust diagnosis of bloodstream infections by single-cell analysis. ",
+      "authors": "Chin SM, Epiphaniou E, Kovtunov E, Mach KE, Liao JC, Bobenchik AM, Yang S, Wong PK.",
+      "journal": "Science advances",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1126/sciadv.aeh3580",
+      "doi": "10.1126/sciadv.aeh3580",
+      "abstract": "Sepsis, a common consequence of bloodstream infection (BSI), is a leading cause of global mortality and morbidity. Diagnosis is challenging and slow due to extremely low pathogen loads and reliance on time-consuming blood culture, necessitating empiric therapy that worsens outcomes and antimicrobial resistance. Here, we introduce sedimentation-assisted tandem rocking and enrichment for analysis an",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "science",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Rapid and robust diagnosis of bloodstream infections by single-cell analysis.",
+        "Sepsis, a common consequence of bloodstream infection (BSI), is a leading cause of global mortality and morbidity.",
+        "Diagnosis is challenging and slow due to extremely low pathogen loads and reliance on time-consuming blood culture, necessitating empiric therapy that worsens outcomes and antimicrobial resistance."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Carbon ion irradiation at a clinically used dose rewires super-enhancers to drive necroptosis and systemic immunity. ",
+      "authors": "Li C, Liu X, Zhu L, Liu M, Konishi T, Lou X, Chen L, Liao J, Hong Y, Deng Y, Xiao M, Shao C, Kong L, Guo X, Su F.",
+      "journal": "Science advances",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1126/sciadv.aec7590",
+      "doi": "10.1126/sciadv.aec7590",
+      "abstract": "Radiotherapy augments immunotherapy, yet conventional 2 Gy x-ray fractions largely induce apoptosis, whereas robust immunogenic cell death (ICD) is more commonly associated with higher-dose irradiation regimens. Here, we reveal a dose-independent, high-LET-specific paradigm: a physical dose of 2 Gy of carbon ions provokes antitumor immunity. Carbon ions redirect death wiring to MLKL-dependent necr",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "science",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Carbon ion irradiation at a clinically used dose rewires super-enhancers to drive necroptosis and systemic immunity.",
+        "Radiotherapy augments immunotherapy, yet conventional 2 Gy x-ray fractions largely induce apoptosis, whereas robust immunogenic cell death (ICD) is more commonly associated with higher-dose irradiation regimens.",
+        "Here, we reveal a dose-independent, high-LET-specific paradigm: a physical dose of 2 Gy of carbon ions provokes antitumor immunity."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Cardiac tertiary immune niches drive immune activation in immune checkpoint inhibitor myocarditis. ",
+      "authors": "Tymm CC, Paiola M, Bukhari S, Hu X, Winchester R, Mor A.",
+      "journal": "Science advances",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1126/sciadv.aed8359",
+      "doi": "10.1126/sciadv.aed8359",
+      "abstract": "Immune checkpoint inhibitor (ICI) myocarditis is a rare but frequently fatal immune-related adverse event of cancer immunotherapy. Understanding the mechanisms of this toxicity is critical to balancing treatment with maintenance of antitumor immunity. Using integrated spatial and single-cell analyses in a pharmacological murine model, we identified regional infiltration of Ly6C+ monocytes and PD-1",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "science",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Cardiac tertiary immune niches drive immune activation in immune checkpoint inhibitor myocarditis.",
+        "Immune checkpoint inhibitor (ICI) myocarditis is a rare but frequently fatal immune-related adverse event of cancer immunotherapy.",
+        "Understanding the mechanisms of this toxicity is critical to balancing treatment with maintenance of antitumor immunity."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "RIBOTAC-mediated degradation of hsa-microRNA-301a-3p suppresses TNBC bone metastasis. ",
+      "authors": "Zhou W, Jin J, Liang XH, Yan Y, Xiong Q, Lu D, Chen H, Wu Y, Zhang WD, Luan X.",
+      "journal": "Science advances",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1126/sciadv.aeh7999",
+      "doi": "10.1126/sciadv.aeh7999",
+      "abstract": "Triple-negative breast cancer (TNBC) is an aggressive subtype with a high propensity for bone metastasis and limited treatment options. Although many proteins drive metastasis, most remain inaccessible to conventional small-molecule drugs due to lack of suitable binding sites, prompting interest in upstream RNA regulators. Using integrative bioinformatics and machine learning, we identified hsa-mi",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "science",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: RIBOTAC-mediated degradation of hsa-microRNA-301a-3p suppresses TNBC bone metastasis.",
+        "Triple-negative breast cancer (TNBC) is an aggressive subtype with a high propensity for bone metastasis and limited treatment options.",
+        "Although many proteins drive metastasis, most remain inaccessible to conventional small-molecule drugs due to lack of suitable binding sites, prompting interest in upstream RNA regulators."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "LTBP4 deficiency induces MRC1<sup>+</sup>/CD44<sup>+</sup> macrophages to drive cancer progression in preclinical colorectal cancer models. ",
+      "authors": "Ji S, Du S, Miao G, Yang X, Wang H, Li X, Ma W, Wei D, Cao T, Zhou M, Yu J, Cheng X, Zhang Y, Han H, Nie Y, Li J, Qin H, Wang L, Wang X, Lu Y, Zhao X.",
+      "journal": "Science translational medicine",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1126/scitranslmed.aeb2189",
+      "doi": "10.1126/scitranslmed.aeb2189",
+      "abstract": "The tumor microenvironment is crucial for cancer progression, but the mechanisms underlying the tumor-immune cell interactions in it remain poorly understood. Here, we identified latent transforming growth factor-β (TGFβ) binding protein 4 (LTBP4) deficiency in colorectal cancer (CRC) as a critical driver that reprogrammed tumor-associated macrophages (TAMs) and induced a distinct subset, which pr",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "science",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: LTBP4 deficiency induces MRC1 + /CD44 + macrophages to drive cancer progression in preclinical colorectal cancer models.",
+        "The tumor microenvironment is crucial for cancer progression, but the mechanisms underlying the tumor-immune cell interactions in it remain poorly understood.",
+        "Here, we identified latent transforming growth factor-β (TGFβ) binding protein 4 (LTBP4) deficiency in colorectal cancer (CRC) as a critical driver that reprogrammed tumor-associated macrophages (TAMs) and induced…"
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Longitudinal alignments and syntheses of multimodal clinical data for personalized medicine with the PULSE framework. ",
+      "authors": "Wu W, Li G, Wang K, Xu H, Xiao H, Hu C, Liu S, Tang C, Liu F, Zou Z, Li B, Li J, Zhang CL, Wong H, Chong I, Lu W, Sun Z, Yin Y, Loupy A, Oermann E, Al Dajani SA, Zhu H, Gootenberg J, Abudayyeh OO, Gladyshev VN, Rasko JEJ, Zhang K, International Consortium of Digital Twins in Healthcare and Medicine.",
+      "journal": "Nature computational science",
+      "date": "2026-08-26",
+      "url": "https://doi.org/10.1038/s43588-026-01026-5",
+      "doi": "10.1038/s43588-026-01026-5",
+      "abstract": "Multimodal models capable of imputing diverse data used in single-cell biology studies provide potential foundational opportunities in clinical practice. However, patient data uniquely comprise longitudinal mosaic measurements that reflect underlying physiological dynamics and exhibit temporal covariation, demanding a specialized approach. Here we present Patient Unified Longitudinal Signal Engine",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Longitudinal alignments and syntheses of multimodal clinical data for personalized medicine with the PULSE framework.",
+        "Multimodal models capable of imputing diverse data used in single-cell biology studies provide potential foundational opportunities in clinical practice.",
+        "However, patient data uniquely comprise longitudinal mosaic measurements that reflect underlying physiological dynamics and exhibit temporal covariation, demanding a specialized approach."
       ],
       "summary_kind": "abstract"
     },
@@ -1342,6 +1707,26 @@
       "summary_kind": "abstract"
     },
     {
+      "title": "DREAMS illuminates spatial DNA and RNA modification landscapes",
+      "authors": "Peng Y, Xue L, Zhang Y, Feng S, Lu Y, Zhang H, Dong M, Wang C, Bao M, Alam W, Li Y, Ma W, Yu S, Zhang L, Yin J, He J, Koziol MJ.",
+      "journal": "Nature cell biology",
+      "date": "2026-08-24",
+      "url": "https://doi.org/10.1038/s41556-026-02038-z",
+      "doi": "10.1038/s41556-026-02038-z",
+      "abstract": "DNA and RNA modifications regulate gene expression and RNA processing, but their spatial organization in complex tissues remains elusive. Here we developed DNA RNA Elements Areal Mass Spectrometry (DREAMS), a mass spectrometry imaging platform that spatially maps diverse nucleic acid modifications simultaneously. Applying DREAMS to TET-deficient mouse brains (Tet1<sup>Δ/Δ</sup> and triple Tet1/2/3",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: DREAMS illuminates spatial DNA and RNA modification landscapes.",
+        "DNA and RNA modifications regulate gene expression and RNA processing, but their spatial organization in complex tissues remains elusive.",
+        "Here we developed DNA RNA Elements Areal Mass Spectrometry (DREAMS), a mass spectrometry imaging platform that spatially maps diverse nucleic acid modifications simultaneously."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
       "title": "Spatial immune ecosystems govern therapeutic response in HER2-low breast cancer",
       "authors": "Ogunlusi, O., Banerjee, S., Singareeka, A. R., Akanbi, S., Sarkar, M. R., Dey, P., Lin, B., Xu, Y., Tran, T., Fails, D., Mallick, B., Raso, G., Tripathy, D., Roy Sarkar, T.",
       "journal": "bioRxiv (preprint)",
@@ -1393,23 +1778,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Spatial transcriptomics reveals BMP-dependent stage-specific transcriptional programs underlying migration of cortical neurons",
-      "authors": "Agnihotri, N., Jena, A., Moorthy, M., Bhat, V., Sen, J.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-24",
-      "url": "https://doi.org/10.64898/2026.08.23.746411",
-      "doi": "10.64898/2026.08.23.746411",
-      "abstract": "The laminar architecture of the mammalian neocortex depends on precise radial migration of newborn neurons to the appropriate cortical layers. This process is governed by the integration of extracellular signals with cell-intrinsic transcriptional programs. BMP signaling has been previously demonstrated to be essential for radial migration of late-born (E15.5) upper-layer cortical neurons. However",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Spatial transcriptomics reveals BMP-dependent stage-specific transcriptional programs underlying migration of cortical neurons.",
-        "The laminar architecture of the mammalian neocortex depends on precise radial migration of newborn neurons to the appropriate cortical layers.",
-        "This process is governed by the integration of extracellular signals with cell-intrinsic transcriptional programs."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
       "title": "DDIAS shields single-stranded DNA in mitosis and promotes vertebrate brain development",
       "authors": "Tsukada K, Lototska L, Tsukada A, Sarusie MVK, Gönenç II, Sherlaw-Sturrock C, Kanade M, Palek M, Oliver AW, Jones SE, Jhujh SS, Bannister J, Ali A, Raza M, Toft M, Iqbal Z, Fatima A, Miller TCR, Larsen LA, Stewart GS, Ochs F, Blackford AN.",
       "journal": "Cell",
@@ -1448,70 +1816,22 @@
       "summary_kind": "headline"
     },
     {
-      "title": "Single-cell and spatial transcriptomics resolve airway obliteration in bronchiolitis obliterans syndrome",
-      "authors": "Ruwisch, J., Yilmaz, H., Christian, L., Neubert, L., Leiber, L. M., Brueggemann, A., Banerjee, S., Greer, M., Rackwitz, W., Giercke, L., Werlein, C., Pawlow, C. A., Engelhardt, R., Coppens, A., Ballmaier, M., Chichelnitskiy, E., Simon, S., Salman, J., Aburahma, K., Yildirim, A. O., Gote-Schniering, J., Hohlfeld, J., Vanaudenaerde, B., Jonigk, D. D., Dettmer, S., Ius, F., Hoeper, M. M., Gaedcke, S., Kaminski, N., Li, Y., Verleden, S. E., Gottlieb, J., Falk, C., Kamp, J. C., Schupp, J. C.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-23",
-      "url": "https://doi.org/10.64898/2026.08.21.746071",
-      "doi": "10.64898/2026.08.21.746071",
-      "abstract": "Background: Chronic lung allograft dysfunction (CLAD) is the leading cause of death beyond the first year after lung transplantation, and its most frequent phenotype is bronchiolitis obliterans syndrome (BOS), a fibrotic small-airway disease. Mechanistic work has focused on the immune compartment, yet intensified immunosuppression does not alter established disease. Aim: To resolve which structura",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Single-cell and spatial transcriptomics resolve airway obliteration in bronchiolitis obliterans syndrome.",
-        "Background: Chronic lung allograft dysfunction (CLAD) is the leading cause of death beyond the first year after lung transplantation, and its most frequent phenotype is bronchiolitis obliterans syndrome…",
-        "Mechanistic work has focused on the immune compartment, yet intensified immunosuppression does not alter established disease."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "CLEAR-ST: Physics-informed probabilistic decontamination of spatial transcriptomics by modeling mRNA lateral diffusion",
-      "authors": "Ma, K., Huang, Y., Ho, J. W. K.",
-      "journal": "bioRxiv (preprint)",
+      "title": "Emergent 3D genome reorganization and graded gene control from the stepwise assembly of transcriptional condensates",
+      "authors": "Chowdhary S, Paracha S, Dyer L, Pincus D.",
+      "journal": "Cell reports",
       "date": "2026-08-22",
-      "url": "https://doi.org/10.64898/2026.08.13.744615",
-      "doi": "10.64898/2026.08.13.744615",
-      "abstract": "Spatial transcriptomics is a rapidly evolving technology that allows for the measurement of gene expression in a spatially resolved manner. However, one technical problem that occurs for many sequencing-based spatial transcriptomics platforms is the presence of mRNA lateral diffusion, where mRNA from one spot can bind to probes in another spot, leading to contamination and inaccurate gene expressi",
-      "source": "preprint",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117888",
+      "doi": "10.1016/j.celrep.2026.117888",
+      "abstract": "Transcriptional condensates are clusters of transcription factors, coactivators, and RNA Pol II associated with gene activation, yet how they assemble and function within the cell remains unclear. Here, we show that transcriptional condensates form in a stepwise manner to enable both graded and three-dimensional (3D) gene control in the yeast heat shock response (HSR). First, the transcription fac",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
       "topic": "spatial",
+      "flagship": false,
       "summary_bullets": [
-        "Focus: CLEAR-ST: Physics-informed probabilistic decontamination of spatial transcriptomics by modeling mRNA lateral diffusion.",
-        "Spatial transcriptomics is a rapidly evolving technology that allows for the measurement of gene expression in a spatially resolved manner.",
-        "However, one technical problem that occurs for many sequencing-based spatial transcriptomics platforms is the presence of mRNA lateral diffusion, where mRNA from one spot can bind to probes…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Label free multimodal optical imaging of metabolic heterogeneity and correlation in aging by integrating SRS, MPF, FLIM, and SHG",
-      "authors": "Jang, H., Wu, S., Kim, H., Wei, T.-Y. W., Kang, J., Ataran, A., Gao, F., Skowronska-Krawczyk, D., Margulies, K. B., Javaheri, A., Sun, W., Shyy, J. Y.-J., Seker, E., Shi, L., Shi, L.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-22",
-      "url": "https://doi.org/10.64898/2026.04.11.717872",
-      "doi": "10.64898/2026.04.11.717872",
-      "abstract": "Cellular metabolism is governed by the coordinated organization of macromolecules, including lipids and proteins, together with redox-active cofactors such as NADH and FAD. However, resolving these biochemical features quantitatively and spatially at subcellular resolution remains challenging because no single imaging modality can capture molecular composition, redox state, and tissue architecture",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Label free multimodal optical imaging of metabolic heterogeneity and correlation in aging by integrating SRS, MPF, FLIM, and SHG.",
-        "Cellular metabolism is governed by the coordinated organization of macromolecules, including lipids and proteins, together with redox-active cofactors such as NADH and FAD.",
-        "However, resolving these biochemical features quantitatively and spatially at subcellular resolution remains challenging because no single imaging modality can capture molecular composition, redox state, and tissue architecture."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Spatial mapping of cellular and molecular plasticity in the maternal and postpartum mouse brain",
-      "authors": "Arbabi, K., Ghazisaeidi, S., Kim, M., Kukreja, B., Feng, M. Y., Pogue, S. D., Hudson, H., Fafouti, M. E., Crouch, E. E., Galea, L. A. M., Tripathy, S. J., Kalish, B. T.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-08-21",
-      "url": "https://doi.org/10.64898/2026.01.03.697464",
-      "doi": "10.64898/2026.01.03.697464",
-      "abstract": "Pregnancy is a critical window for neuroplasticity and maternal mental health, yet our understanding of the molecular and cellular changes underlying this adaptation remains incomplete. Here we profile the female mouse brain in nulliparous, late-pregnant and postpartum states with three single-cell spatial technologies (Slide-tags, MERFISH and Xenium). Together these assays resolve 1.5 million cel",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Spatial mapping of cellular and molecular plasticity in the maternal and postpartum mouse brain.",
-        "Pregnancy is a critical window for neuroplasticity and maternal mental health, yet our understanding of the molecular and cellular changes underlying this adaptation remains incomplete.",
-        "Here we profile the female mouse brain in nulliparous, late-pregnant and postpartum states with three single-cell spatial technologies (Slide-tags, MERFISH and Xenium)."
+        "Focus: Emergent 3D genome reorganization and graded gene control from the stepwise assembly of transcriptional condensates.",
+        "Transcriptional condensates are clusters of transcription factors, coactivators, and RNA Pol II associated with gene activation, yet how they assemble and function within the cell remains unclear.",
+        "Here, we show that transcriptional condensates form in a stepwise manner to enable both graded and three-dimensional (3D) gene control in the yeast heat shock response (HSR)."
       ],
       "summary_kind": "abstract"
     },
@@ -1550,6 +1870,46 @@
         "Briefing Chat: New narcolepsy drug could unlock host of novel brain therapies."
       ],
       "summary_kind": "headline"
+    },
+    {
+      "title": "Type I interferon-activated myeloid states are associated with less fibrotic stages in idiopathic pulmonary fibrosis",
+      "authors": "Nathwani V, Weeratunga P, Woo J, Denney L, Vuppusetty C, Hu T, Zulfikar S, Achaiah A, Baghaarabani L, Parker H, Chuang HW, Mazurczyk M, Fedorov A, Simmons A, Clelland C, Rehwinkel J, Antanaviciute A, Ho LP.",
+      "journal": "Cell reports",
+      "date": "2026-08-20",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117881",
+      "doi": "10.1016/j.celrep.2026.117881",
+      "abstract": "Early immune processes in idiopathic pulmonary fibrosis (IPF) are poorly defined. Here, we integrate single-cell transcriptomics of lung digests and bronchoalveolar-lavaged cells (n = 108 patients), subcellular-resolution tissue spatial transcriptomics, and single-cell phospho-CyTOF of blood cells to define myeloid states associated with early stages of fibrosis. Two distinct myeloid gene transcri",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Type I interferon-activated myeloid states are associated with less fibrotic stages in idiopathic pulmonary fibrosis.",
+        "Early immune processes in idiopathic pulmonary fibrosis (IPF) are poorly defined.",
+        "Here, we integrate single-cell transcriptomics of lung digests and bronchoalveolar-lavaged cells (n = 108 patients), subcellular-resolution tissue spatial transcriptomics, and single-cell phospho-CyTOF of blood cells to define myeloid…"
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Cell-type-specific damage scores reveal kidney and liver disease trajectories in single-cell and spatial transcriptomics",
+      "authors": "Padvitski T, Unger Avila P, Chen H, Özel C, Braun F, Kroll MK, Vossen C, Wienand P, Butt L, Unnersjö-Jess D, Schumacher AL, Folz-Donahue K, Göbel H, Kuppe C, Müller RU, Westermark PO, Brinkkötter PT, Schermer B, Benzing T, Wunderlich FT, Kann M, Beyer A.",
+      "journal": "Cell genomics",
+      "date": "2026-08-20",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101337",
+      "doi": "10.1016/j.xgen.2026.101337",
+      "abstract": "Degenerative diseases progress through gradual cell-intrinsic damage that is difficult to resolve with bulk transcriptomics or discrete cell-state analysis. We introduce a generalizable single-cell and spatial transcriptomics framework that quantifies continuous damage trajectories in vivo using cell-type-specific scores. Applied to chronic kidney disease and metabolic dysfunction-associated steat",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Cell-type-specific damage scores reveal kidney and liver disease trajectories in single-cell and spatial transcriptomics.",
+        "Degenerative diseases progress through gradual cell-intrinsic damage that is difficult to resolve with bulk transcriptomics or discrete cell-state analysis.",
+        "We introduce a generalizable single-cell and spatial transcriptomics framework that quantifies continuous damage trajectories in vivo using cell-type-specific scores."
+      ],
+      "summary_kind": "abstract"
     },
     {
       "title": "Virome-wide ubiquitin ligase discovery reveals diverse mechanisms of immune evasion",
@@ -2300,6 +2660,46 @@
       "summary_kind": "headline"
     },
     {
+      "title": "A cross-vertebrate single-cell and spatial atlas reveals evolutionary trajectories of gastrointestinal cellular innovation",
+      "authors": "Guo L, Tong B, Gao X, Jia X, Liu X, Li L, Xu M, Zhang Y, Wang J, Liu Q, Han K, Zhang R, Lin Z, He L, Du X, Qin Y, Song Y, Yuan Z, Liu X, Li Y, Luo J, Yang T, Chen J, Li Y, Wang X, Song Z, Seim I, Zhao L, Zhang B, Chen R, He B, Shao C, Yang H, Xu X, Sun F, Qu Q, Chen S, Fan G.",
+      "journal": "Cell genomics",
+      "date": "2026-08-18",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101335",
+      "doi": "10.1016/j.xgen.2026.101335",
+      "abstract": "The cellular innovations underlying vertebrate gastrointestinal diversification remain largely unknown. Here, we constructed a single-cell and spatial transcriptomic atlas comprising nearly 1 million cells from 10 species, spanning 500 million years of vertebrate evolution. Analysis of conserved gene co-expression modules shows that the repurposing of existing genetic programs, together with de no",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: A cross-vertebrate single-cell and spatial atlas reveals evolutionary trajectories of gastrointestinal cellular innovation.",
+        "The cellular innovations underlying vertebrate gastrointestinal diversification remain largely unknown.",
+        "Here, we constructed a single-cell and spatial transcriptomic atlas comprising nearly 1 million cells from 10 species, spanning 500 million years of vertebrate evolution."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Signal-induced recruitment and dispatchment in reconfigurable phase-separated protocell networks",
+      "authors": "Yin Z, Sun R, Li M, Mann S.",
+      "journal": "Nature chemistry",
+      "date": "2026-08-18",
+      "url": "https://doi.org/10.1038/s41557-026-02225-3",
+      "doi": "10.1038/s41557-026-02225-3",
+      "abstract": "The construction of protocell networks with self-regulated spatial dynamics and functions is an important challenge in the emerging field of colloidal systems chemistry. Existing strategies predominantly produce protocell networks with fixed or randomly distributed spatial organization, relying on direct surface interactions or externally imposed conditions, while largely overlooking dynamic inter",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Signal-induced recruitment and dispatchment in reconfigurable phase-separated protocell networks.",
+        "The construction of protocell networks with self-regulated spatial dynamics and functions is an important challenge in the emerging field of colloidal systems chemistry.",
+        "Existing strategies predominantly produce protocell networks with fixed or randomly distributed spatial organization, relying on direct surface interactions or externally imposed conditions, while largely overlooking dynamic inter."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
       "title": "Mutually beneficial interactions between bacteria and Arabidopsis promote phosphorus nutrition and growth",
       "authors": "Wang Y, Gao C, Liu F, Liu Y, Zhou Z, Wang Q, Zhang F, Cheng H, Jiang X, Wang W, Wang B, Tang Y, Zhou F, Wang G, Wang YP, Yang W, Schulze-Lefert P, Liu D, Bai Y, Zhou JM.",
       "journal": "Cell",
@@ -2316,6 +2716,86 @@
         "Focus: Mutually beneficial interactions between bacteria and Arabidopsis promote phosphorus nutrition and growth.",
         "It remains unknown whether plants establish mutualistic relationships with any bacteria to cope with phosphorus (P) limitation.",
         "We characterized root-bacterial microbiome members to show that many of them may cooperate with Arabidopsis to promote seedling P nutrition and growth."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Single-cell 3D genome imaging shows super-enhancer hubs are rare, nonspecific, and neither necessary nor sufficient for transcriptional bursting",
+      "authors": "Le DJ, Hafner A, Raja Venkatesh A, Udomlumleart T, Gaddam S, Novacic A, Wang KC, Boettiger AN.",
+      "journal": "Cell genomics",
+      "date": "2026-08-17",
+      "url": "https://doi.org/10.1016/j.xgen.2026.101331",
+      "doi": "10.1016/j.xgen.2026.101331",
+      "abstract": "Super-enhancer (SE) hubs have been proposed to coordinate gene expression through 3D genome organization and transcriptional condensates. Using multiplexed imaging, we mapped hundreds of SEs in thousands of mouse embryonic stem cells and also paired SE position with nascent transcription measurements. We found that most SEs are spatially isolated, with multiway SE hubs occurring in only a small fr",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Single-cell 3D genome imaging shows super-enhancer hubs are rare, nonspecific, and neither necessary nor sufficient for transcriptional bursting.",
+        "Super-enhancer (SE) hubs have been proposed to coordinate gene expression through 3D genome organization and transcriptional condensates.",
+        "Using multiplexed imaging, we mapped hundreds of SEs in thousands of mouse embryonic stem cells and also paired SE position with nascent transcription measurements."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Intratumoral Bacillus cereus orchestrates stem-like lymphoid niches to potentiate immunotherapy response in hepatocellular carcinoma",
+      "authors": "Hu C, You W, Huang Y, Zhang Y, Lu J, Yuan J, Shan R, Li S, Li R, Li Q, Li M, Gao Y, Teng GJ, Chen Y.",
+      "journal": "Cancer cell",
+      "date": "2026-08-17",
+      "url": "https://doi.org/10.1016/j.ccell.2026.07.016",
+      "doi": "10.1016/j.ccell.2026.07.016",
+      "abstract": "Tertiary lymphoid structures (TLSs) drive antitumor immunity, but their functional heterogeneity translates into inconsistent immunotherapy responses in hepatocellular carcinoma (HCC), raising the question of which immune niches actually predict efficacy. Using spatial multi-omics analysis, we uncover a distinct niche, the stem-like lymphoid niches (SLNs), that correlates with stronger responses t",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Intratumoral Bacillus cereus orchestrates stem-like lymphoid niches to potentiate immunotherapy response in hepatocellular carcinoma.",
+        "Tertiary lymphoid structures (TLSs) drive antitumor immunity, but their functional heterogeneity translates into inconsistent immunotherapy responses in hepatocellular carcinoma (HCC), raising the question of which immune niches actually…",
+        "Using spatial multi-omics analysis, we uncover a distinct niche, the stem-like lymphoid niches (SLNs), that correlates with stronger responses t."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Profiling maize embryonic leaf development and discovering new genes using high-resolution spatial long-read isoform sequencing",
+      "authors": "Kong WL, Wu CC, Chen YH, Li JY, Tin KX, Lee YC, Soh ZT, Wu CS, Chang YM, Li WH, Lu MJ.",
+      "journal": "Nature plants",
+      "date": "2026-08-17",
+      "url": "https://doi.org/10.1038/s41477-026-02364-y",
+      "doi": "10.1038/s41477-026-02364-y",
+      "abstract": "Profiling transcriptome isoforms in their spatial context is instrumental for deciphering plant embryogenesis. By combining high-throughput full-length isoform sequencing and spatial transcriptomics (spatial MAS-IsoSeq) in maize embryogenesis, we identified 285,639 isoforms, 72.87% of which were previously uncharacterized. Gene models based on these full-length isoforms increased short-read exon m",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Profiling maize embryonic leaf development and discovering new genes using high-resolution spatial long-read isoform sequencing.",
+        "Profiling transcriptome isoforms in their spatial context is instrumental for deciphering plant embryogenesis.",
+        "By combining high-throughput full-length isoform sequencing and spatial transcriptomics (spatial MAS-IsoSeq) in maize embryogenesis, we identified 285,639 isoforms, 72.87% of which were previously uncharacterized."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "PASTA: versatile tyramide-oligonucleotide amplification for multimodal spatial biology",
+      "authors": "Michel HA, McCallum P, Wu W, Qiu H, Lee JL, Luo S, Chan CN, Schaffenrath J, Yeo YY, Yiu SPT, Wang Y, Parmelee L, Wang H, Pannellini T, Burgess M, El Ahmar N, Zhang ZX, Keane C, Lim TKH, Signoretti S, Del Rincon SV, Zhao B, McIlwain DR, Bai Y, Chen F, Chiarle R, Jiang S.",
+      "journal": "Nature methods",
+      "date": "2026-08-17",
+      "url": "https://doi.org/10.1038/s41592-026-03200-z",
+      "doi": "10.1038/s41592-026-03200-z",
+      "abstract": "Spatial proteomics is limited by detection sensitivity, multiplexing and multimodal integration, leaving a gap between discovery and clinical assays. Here we present protein and nucleic acid serial tyramide amplification (PASTA), using horseradish peroxidase-mediated oligonucleotide deposition and cyclical imaging for high-plex, multimodal spatial profiling. Compatible with conjugated antibodies a",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: PASTA: versatile tyramide-oligonucleotide amplification for multimodal spatial biology.",
+        "Spatial proteomics is limited by detection sensitivity, multiplexing and multimodal integration, leaving a gap between discovery and clinical assays.",
+        "Here we present protein and nucleic acid serial tyramide amplification (PASTA), using horseradish peroxidase-mediated oligonucleotide deposition and cyclical imaging for high-plex, multimodal spatial profiling."
       ],
       "summary_kind": "abstract"
     },
@@ -2356,6 +2836,66 @@
         "Daily briefing: Narcolepsy drug could kick off an Ozempic-style moment for the brain."
       ],
       "summary_kind": "headline"
+    },
+    {
+      "title": "ReliST: A model-agnostic risk layer for spatial transcriptomics deconvolution",
+      "authors": "Zhang X, He L, Peng Y, Li Y, Kang J, Peng L, Xu Y, Lin S.",
+      "journal": "iScience",
+      "date": "2026-08-14",
+      "url": "https://doi.org/10.1016/j.isci.2026.117206",
+      "doi": "10.1016/j.isci.2026.117206",
+      "abstract": "Spatial transcriptomics deconvolution maps cell-type abundance across tissue, but most outputs do not indicate which local predictions can be trusted. We developed ReliST, a model-agnostic risk layer that preserves base predictions while assigning spot-level risk from output ambiguity, local inconsistency, and reference-related evidence. We evaluated ReliST with five deconvolution models across hu",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: ReliST: A model-agnostic risk layer for spatial transcriptomics deconvolution.",
+        "Spatial transcriptomics deconvolution maps cell-type abundance across tissue, but most outputs do not indicate which local predictions can be trusted.",
+        "We developed ReliST, a model-agnostic risk layer that preserves base predictions while assigning spot-level risk from output ambiguity, local inconsistency, and reference-related evidence."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "TTN&lt;sup&gt;+&lt;/sup&gt; macrophages are enriched in the human choroid plexus in Alzheimer's disease",
+      "authors": "Bhatta S, Grzybowski A, Ortiz G, DiStasio M.",
+      "journal": "Cell reports",
+      "date": "2026-08-14",
+      "url": "https://doi.org/10.1016/j.celrep.2026.117859",
+      "doi": "10.1016/j.celrep.2026.117859",
+      "abstract": "The choroid plexus (ChP) regulates cerebrospinal fluid homeostasis and immune surveillance, but its cellular organization and response to Alzheimer's disease (AD) remain incompletely defined. Here, we integrate single-nucleus RNA sequencing with spatial transcriptomics to generate a high-resolution atlas of the adult human ChP. We identify all major epithelial, stromal, and immune populations and ",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: TTN<sup>+</sup> macrophages are enriched in the human choroid plexus in Alzheimer's disease.",
+        "The choroid plexus (ChP) regulates cerebrospinal fluid homeostasis and immune surveillance, but its cellular organization and response to Alzheimer's disease (AD) remain incompletely defined.",
+        "Here, we integrate single-nucleus RNA sequencing with spatial transcriptomics to generate a high-resolution atlas of the adult human ChP."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Lineage master regulator and cancer-selective partner transcription factors rewire 3D genome topology for tumor-specific gene control",
+      "authors": "Jung N, Lopez-Pajares V, Donohue LKH, Guo MG, Srinivasan S, Siprashvili Z, Khavari PA.",
+      "journal": "Science advances",
+      "date": "2026-08-14",
+      "url": "https://doi.org/10.1126/sciadv.adz9441",
+      "doi": "10.1126/sciadv.adz9441",
+      "abstract": "Lineage-determining transcription factors (TFs), such as p63 in epithelial tissues, establish normal tissue identity but can also drive carcinogenesis. The epigenetic basis for these divergent effects, however, is unclear. Here, we show that p63 reorganizes three-dimensional (3D) chromatin topology in squamous cell carcinoma (SCC) through cooperation with the tumor-selective partner TF, FOXK1. Mul",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "science",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Lineage master regulator and cancer-selective partner transcription factors rewire 3D genome topology for tumor-specific gene control.",
+        "Lineage-determining transcription factors (TFs), such as p63 in epithelial tissues, establish normal tissue identity but can also drive carcinogenesis.",
+        "The epigenetic basis for these divergent effects, however, is unclear."
+      ],
+      "summary_kind": "abstract"
     },
     {
       "title": "Brain perivascular macrophages regulate endothelial cell function via a cMAF-dependent transcriptional program in mouse and human",
@@ -2414,538 +2954,6 @@
         "Focus: Ancient genomes reveal distinct human dispersals and social stratification in the settlement history of western Remote Oceania.",
         "The settlement of western Remote Oceania involved interactions among deeply divergent populations.",
         "Initial settlement ∼3,000 years ago by Lapita-associated, Southeast Asian-related groups was followed by Papuan-related expansions and later sea voyages from Polynesia."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "A cross-organ single-cell analysis of hypertension",
-      "authors": "Qiu Q, Liu Y, Xue H, Pandey R, Liu J, He L, Liu P, Therani B, Kumar V, Huang J, Sadri S, Guenther M, Usa K, Grzybowski M, Vanden Avond MA, Greene AS, Cowley AW, Rao S, Geurts AM, Liang M.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aea6187",
-      "doi": "10.1126/science.aea6187",
-      "abstract": "Hypertension is a leading cause of disease burden and mortality. Here, we present a single-cell analysis of hypertension and end-organ damage across six organs and tissues in angiotensin II-treated mice, Dahl salt-sensitive rats, and spontaneously hypertensive rats. We identified gene programs associated with blood pressure and renal injury, including a conserved vascular smooth muscle cell progra",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "focus",
-      "flagship": true,
-      "summary_bullets": [
-        "Single-cell analysis across six organs identifies conserved gene programs linking vascular smooth muscle cells to hypertension and organ damage.",
-        "Angiotensin II-induced hypertension shows consistent cellular and molecular signatures across multiple rodent models and tissues.",
-        "Cross-organ approach reveals shared pathogenic mechanisms underlying blood pressure elevation and end-organ injury in hypertension."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Erratum for the Report \"Epigenetic regulation of antagonistic receptors confers rice blast resistance with yield balance\"",
-      "authors": "",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.ael2764",
-      "doi": "10.1126/science.ael2764",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Correction issued for study on epigenetic regulation of antagonistic receptors in rice blast resistance and yield."
-      ],
-      "summary_kind": "headline"
-    },
-    {
-      "title": "The scales of strain on sharks",
-      "authors": "Roopnarine PD.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aek0549",
-      "doi": "10.1126/science.aek0549",
-      "abstract": "The fossil record attributes shark decline in the Caribbean to human activity.",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Shark populations in the Caribbean have declined due to human activity, as evidenced by fossil records.",
-        "Scale-based analysis reveals strain patterns in sharks that reflect environmental and anthropogenic pressures.",
-        "Focus: The scales of strain on sharks."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "A boost for chemical vaccination against malaria",
-      "authors": "Prudêncio M, Mota MM.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aek0196",
-      "doi": "10.1126/science.aek0196",
-      "abstract": "Chemical inhibition of <i>Plasmodium</i> plasmepsin proteins offers a new path for drug-based malaria vaccination.",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Chemical inhibition of Plasmodium plasmepsin proteins can be used as a novel drug-based vaccination strategy against malaria.",
-        "This approach offers a new alternative pathway for developing malaria vaccines beyond traditional immunological methods.",
-        "Focus: A boost for chemical vaccination against malaria."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Researchers struggle to improve nonopioid pain drugs",
-      "authors": "Smith JE.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.ael4190",
-      "doi": "10.1126/science.ael4190",
-      "abstract": "Studies probe the limits of new sodium channel blockers.",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Sodium channel blockers show limited potential as effective nonopioid pain treatments despite ongoing research efforts.",
-        "Current studies reveal fundamental barriers to developing safer alternatives to opioid pain medications.",
-        "New drug candidates face significant hurdles in achieving therapeutic benefits without severe side effects."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "'Mismatched' Ebola vaccine may soon be rolled out widely",
-      "authors": "Kupferschmidt K.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.ael4193",
-      "doi": "10.1126/science.ael4193",
-      "abstract": "Opinions shift after new data suggest vaccine for Ebola Zaire may also protect against Bundibugyo.",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "New data shows Ebola Zaire vaccine may provide cross-protection against Bundibugyo species, broadening vaccine utility.",
-        "Previously skeptical views changing as evidence accumulates for multi-species Ebola vaccine protection.",
-        "Potential for wider vaccine rollout if cross-protection confirmed in ongoing trials."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Eco-evolutionary feedback reshapes competitive dynamics in an orchard fly system",
-      "authors": "Leonard SJ, Huan M, Viswanathan N, Kerker A, Schmidt P, Levine JM.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aee8723",
-      "doi": "10.1126/science.aee8723",
-      "abstract": "The feedback between competition and evolution is central to hypotheses about the origin and maintenance of species diversity. Yet, whether competition-induced evolution is sufficiently rapid, consistent, and strong to maintain diversity on ecological timescales remains unresolved. We conducted an outdoor mesocosm experiment with four pairs of orchard fly species in which we manipulated species' a",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Competition-driven evolution reshapes fly species interactions rapidly enough to affect diversity maintenance on ecological timescales",
-        "Eco-evolutionary feedbacks between competition and trait evolution consistently alter competitive dynamics across multiple species pairs",
-        "Evolution during competition is strong enough to potentially maintain species coexistence that would otherwise be lost to competitive exclusion"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Fight over Colorado River water threatens ecosystems",
-      "authors": "Stokstad E.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.ael4192",
-      "doi": "10.1126/science.ael4192",
-      "abstract": "After a record-low snowpack, federal authorities canceled dam releases for managing fish and sandbars.",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Record-low snowpack forced federal authorities to cancel dam releases needed for ecosystem management in Colorado River.",
-        "Cancellation of controlled releases threatens fish populations and sandbars that depend on managed water flows.",
-        "Water scarcity prioritizes human consumption over ecosystem maintenance along the Colorado River."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "The eukaryote chromosome, a two-state system with interconversion by a volume phase transition",
-      "authors": "Beel AJ, Matteï PJ, Kornberg RD.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.adz1083",
-      "doi": "10.1126/science.adz1083",
-      "abstract": "The formation of metaphase chromosomes requires the activity of condensins, DNA translocases that reduce chromosomal length through the process of loop extrusion. Reduction of length, however, does not account for the increase in density of chromatin in condensed states. Here, we show that eukaryotic chromosomes are ionic hydrogels and that the chromosomal material is a two-state system, with inte",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Eukaryotic chromosomes function as ionic hydrogels capable of switching between two distinct physical states through volume phase transitions.",
-        "Chromatin condensation involves both loop extrusion by condensins and a density-increasing phase transition beyond simple length reduction.",
-        "The two-state hydrogel model explains how chromosomes achieve high compaction density during metaphase independent of loop extrusion alone."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Tau can wreak havoc in brain cells' energy factories",
-      "authors": "Reardon S.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.ael4194",
-      "doi": "10.1126/science.ael4194",
-      "abstract": "Study of mitochondria suggests new treatment strategy for Alzheimer's and other diseases.",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Tau protein damages mitochondria, the cell's energy-producing organelles, suggesting a key mechanism in Alzheimer's pathology.",
-        "Targeting tau-mitochondria interactions could provide new therapeutic strategies for Alzheimer's and related neurodegenerative diseases.",
-        "Focus: Tau can wreak havoc in brain cells' energy factories."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Forest canopy decline under elevated CO&lt;sub&gt;2&lt;/sub&gt; during the Paleocene-Eocene Thermal Maximum",
-      "authors": "Dunn RE, Dechesne M, Foreman BZ, Nace K, West JM, Currano ED.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aec4776",
-      "doi": "10.1126/science.aec4776",
-      "abstract": "Uncertainty remains regarding the impact of rapid anthropogenic warming on forest ecosystem structure, biodiversity, and function. As an analog, we reconstruct forest canopy density and compositional change in Wyoming, USA, through the Paleocene-Eocene Thermal Maximum (PETM), an interval of abrupt carbon increase and warming ~56 million years ago. We develop a proxy to quantify leaf area index and",
-      "citation_count": 1,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Forest canopy leaf area index declined during the PETM despite elevated CO₂, suggesting rapid warming reduces forest density.",
-        "Ancient warming analog shows ecosystem restructuring occurs faster than vegetation migration, threatening biodiversity and carbon sequestration.",
-        "PETM forest changes provide critical insights for predicting modern forest responses to anthropogenic climate change."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Xylose phosphatase activity of dystroglycan self-regulates its receptor function",
-      "authors": "Chandel I, Venzke D, Wollesen BA, Yu L, Campbell KP.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.adz7427",
-      "doi": "10.1126/science.adz7427",
-      "abstract": "Dystroglycan (DG) is an extracellular matrix receptor crucial for tissue development and pathogen entry. DG harbors a long, complex glycan called matriglycan. Loss of matriglycan or reduction in its length disrupts DG function, causing dystroglycanopathies. However, the mechanism regulating matriglycan length is unknown. In this study, we found that a xylose kinase facilitated the initiation of ma",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Xylose phosphatase activity of dystroglycan self-regulates its receptor function.",
-        "Dystroglycan (DG) is an extracellular matrix receptor crucial for tissue development and pathogen entry.",
-        "DG harbors a long, complex glycan called matriglycan."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Shark governance requires species identity",
-      "authors": "Bornatowski H, Barreto R.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aek7995",
-      "doi": "10.1126/science.aek7995",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Shark governance requires species identity."
-      ],
-      "summary_kind": "headline"
-    },
-    {
-      "title": "A joint geophysical-geochemical deep-mantle zoning map beneath East Africa and the Indian Ocean",
-      "authors": "Bao X, Dongmo Wamba M, Stracke A.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aea5466",
-      "doi": "10.1126/science.aea5466",
-      "abstract": "Geochemical signatures of hotspot lavas suggest that their mantle sources are compositionally distinct, but their source locations remain elusive. Mapping hotspots to their deep origins is complicated by the presence of interconnected, low-seismic velocity networks in the mantle, where plumelike anomalies often deviate from vertical conduits. We propose a graph theory-based framework to systematic",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: A joint geophysical-geochemical deep-mantle zoning map beneath East Africa and the Indian Ocean.",
-        "Geochemical signatures of hotspot lavas suggest that their mantle sources are compositionally distinct, but their source locations remain elusive.",
-        "Mapping hotspots to their deep origins is complicated by the presence of interconnected, low-seismic velocity networks in the mantle, where plumelike anomalies often deviate from vertical conduits."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Room-temperature multiferroicity in all-van der Waals heterostructures",
-      "authors": "Wang Q, Xin B, Liu C, Zhang H, Ma Y, Lopez M, Wu H, Tan Q, Zhang G, Chang H, Ling X, Rodriguez EE, Davydov AV, Zhang X, Wang WH, Tsymbal EY, Gong C.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.adq0420",
-      "doi": "10.1126/science.adq0420",
-      "abstract": "Multiferroics host simultaneous and coupled ferroic orders, allowing disparate external stimuli to induce abrupt transformations in their structures and properties. Creating multiferroicity in two-dimensional (2D) van der Waals (vdW) platforms would add the elements of strong quantum confinement, enhanced quasiparticle excitations, and wide tunability to the capabilities of these systems. In this ",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Room-temperature multiferroicity in all-van der Waals heterostructures.",
-        "Multiferroics host simultaneous and coupled ferroic orders, allowing disparate external stimuli to induce abrupt transformations in their structures and properties.",
-        "Creating multiferroicity in two-dimensional (2D) van der Waals (vdW) platforms would add the elements of strong quantum confinement, enhanced quasiparticle excitations, and wide tunability to the capabilities of…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Tracking the baryon number with nuclear collisions",
-      "authors": "STAR Collaboration*, Aboona BE, Adam J, Adamczyk L, Aggarwal I, Aggarwal MM, Ahammed Z, Alshammri AK, Aschenauer EC, Aslam S, Atchison J, Bairathi V, Bao X, Barik P, Barish K, Behera S, Bellwied R, Bhagat P, Bhasin A, Bhatta S, Bhosale SR, Bielcik J, Bielcikova J, Brandenburg JD, Broodo C, Cai XZ, Caines H, la Barca Sánchez MC, Cebra D, Ceska J, Chakaberia I, Chaloupka P, Chang YS, Chang Z, Chatterjee A, Chen D, Chen J, Chen JH, Chen L, Chen Q, Chen W, Chen Z, Cheng J, Cheng Y, Christie W, Chu X, Corey S, Crawford HJ, Csanad M, Dale-Gau G, Das A, De Souza Lemos D, Deppner IM, Deshpande A, Dhamija A, Dimri A, Dixit P, Dong X, Drachenberg JL, Duckworth E, Dunlop JC, El-Feky YS, Engelage J, Eppley G, Esumi S, Evdokimov O, Eyser O, Fan B, Fang Y, Fatemi R, Fazio S, Feng H, Feng Y, Finch E, Fisyak Y, Flor FA, Fu B, Fu C, Fu T, Gagliardi CA, Galatyuk T, Gao T, Gao Y, Garcia G, Geurts F, Gibson A, Giri A, Gopal K, Gou X, Grosnick D, Gu A, Gu J, Gupta A, Guryn W, Hamed A, Hamilton RJ, Han J, Han X, Harabasz S, Harasty MD, Harris JW, Harrison-Smith H, Havener LB, He XH, He Y, Herrmann N, Holub L, Hu C, Hu Q, Hu Y, Huang H, Huang HZ, Huang SL, Huang T, Huang Y, Huang Y, Huang Y, Isshiki M, Jacobs WW, Jalotra A, Jena C, Jentsch A, Ji Y, Jia J, Jiang X, Jin C, Jin Y, Jindal N, Ju X, Judd EG, Kabana S, Kalinkin D, Kang J, Kang K, Kanuganti AR, Kapukchyan D, Kauder K, Keane D, Kesler M, Khanal A, Khanal A, Khyzhniak YV, Kikoła DP, Kim J, Kincses D, Kisel I, Kiselev A, Knospe AG, Kołas J, Kong Y, Korodi B, Kosarzewski LK, Kumar L, Labonte MC, Lacey R, Landgraf JM, Larson C, Lauret J, Lebedev A, Lewis N, Lee JH, Leung YH, Li C, Li D, Li HS, Li H, Li H, Li H, Li W, Li X, Li X, Li Y, Li Y, Li Z, Li Z, Liang X, Licenik R, Lin T, Lin Y, Lisa MA, Liu C, Liu G, Liu H, Liu L, Liu L, Liu Z, Liu Z, Ljubicic T, Lomicky O, Loyd EM, Lu T, Luo J, Luo XF, Lv W, Ma L, Ma R, Ma YG, Magdy N, Mallick D, Manikandhan R, Markert C, Matonoha O, Menduli K, Mi K, Mioduszewski S, Mohanty B, Mondal B, Mondal MM, Mooney I, Mrazkova J, Nagy MI, Naim CJ, Nain AS, Nam JD, Nasim M, Nasrulloh H, Nelson JM, Nie M, Nigmatkulov G, Niida T, Nonaka T, Odyniec G, Ogawa A, Oh S, Okubo K, Page BS, Pal M, Pal S, Pandav A, Panday A, Pandey AK, Pani T, Paul A, Paul S, Pawlowska D, Perkins C, Ping S, Pluta J, Ponce Pinto ID, Posik M, Pottebaum E, Prodhan S, Protzman TL, Prozorov A, Prozorova V, Pruthi NK, Przybycien M, Putschke J, Qi Y, Qin Z, Qiu H, Racz C, Radhakrishnan SK, Rana A, Ray RL, Reed R, Robertson CW, Robotkova M, Rosales Aguilar MA, Roy D, Chowdhury PR, Ruan L, Sahoo AK, Sahoo NR, Sako H, Salur S, Sambyal SS, Samuel DT, Sandhu JK, Sato S, Schaefer BC, Schmitz N, Seck FJ, Seger J, Seto R, Seyboth P, Shah N, Shanmuganathan PV, Shao T, Sharma M, Sharma N, Sharma R, Sharma SR, Sheikh AI, Shen D, Shen DY, Shen K, Shi S, Shi Y, Shilpa, Shulga E, Si F, Singh J, Singha S, Sinha P, Skoby MJ, Smirnov N, Söhngen Y, Song Y, Stanislaus TDS, Stefaniak M, Su Y, Sumbera M, Sun X, Sun Y, Surrow B, Svoboda M, Sweger ZW, Tamis AC, Tang AH, Tang Z, Tarnowsky T, Thomas JH, Timmins AR, Tlusty D, Torres-Valladares D, Trentalange S, Tribedy P, Tripathy SK, Truhlar T, Trzeciak BA, Tsai OD, Tsang CY, Tu Z, Tyler JE, Ullrich T, Underwood DG, Van Buren G, Vanek J, Vassiliev I, Videbæk F, Voloshin SA, Wang F, Wang G, Wang G, Wang JS, Wang J, Wang K, Wang X, Wang Y, Wang Y, Wang Y, Wang Z, Wang Z, Wang Z, Wang ZY, Webb JC, Weidenkaff PC, Westfall GD, Wielanek D, Wieman H, Wilks G, Wissink SW, Witt R, Wong CP, Wu J, Wu X, Wu X, Wu X, Watroba AJ, Xi B, Xiao Y, Xiao ZG, Xie G, Xie W, Xu H, Xu N, Xu QH, Xu X, Xu Y, Xu Y, Xu Y, Xu Y, Xu Z, Xu Z, Yan G, Yan Z, Yang C, Yang Q, Yang S, Yang Y, Ye Z, Ye Z, Yi L, Yu Y, Yuan W, Zbroszczyk H, Zha W, Zhang C, Zhang D, Zhang J, Zhang K, Zhang L, Zhang S, Zhang W, Zhang X, Zhang Y, Zhang Y, Zhang Y, Zhang Y, Zhang Z, Zhang Z, Zhao F, Zhao J, Zhou S, Zhou Y, Zhu C, Zhu X, Zurek M, Zyzak M.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.ads5962",
-      "doi": "10.1126/science.ads5962",
-      "abstract": "Baryon quantum number is found to be conserved since baryogenesis in the early Universe. Conventionally, each fractionally charged valence quark is understood to carry one-third of a baryon number. An alternative hypothesis posits that baryon number is instead carried by a baryon junction-a nonperturbative, Y-shaped gluonic configuration. Neither scenario has been verified experimentally. The STAR",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Tracking the baryon number with nuclear collisions.",
-        "Baryon quantum number is found to be conserved since baryogenesis in the early Universe.",
-        "Conventionally, each fractionally charged valence quark is understood to carry one-third of a baryon number."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Fossil denticles reveal how ocean productivity shapes shark baselines and recovery potential",
-      "authors": "Dillon EM, McCauley DJ, González M, Connolly SR, de Gracia B, Cybulski JD, Norris RD, Gómez MM, García-Pérez I, Leonard ND, Zhao JX, García-Méndez K, O'Dea A.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aec2144",
-      "doi": "10.1126/science.aec2144",
-      "abstract": "Shark populations on coral reefs have declined globally, but few baselines exist to quantify natural variability before human impact. Using fossil dermal denticles preserved in reef sediments, we reconstructed shark communities across the Isthmus of Panama before substantial exploitation [~7 to 3 thousand years ago (ka)] and recently (past century). We found differences in shark baselines and resp",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Fossil denticles reveal how ocean productivity shapes shark baselines and recovery potential.",
-        "Shark populations on coral reefs have declined globally, but few baselines exist to quantify natural variability before human impact.",
-        "Using fossil dermal denticles preserved in reef sediments, we reconstructed shark communities across the Isthmus of Panama before substantial exploitation [~7 to 3 thousand years ago (ka)] and…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Magic or realism?",
-      "authors": "Piller C, Smith JE.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.ael4184",
-      "doi": "10.1126/science.ael4184",
-      "abstract": "Recently discovered genetic variants seem to protect against Alzheimer's disease, suggesting a path toward a cure. But are their powers believable?",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Magic or realism?.",
-        "Recently discovered genetic variants seem to protect against Alzheimer's disease, suggesting a path toward a cure.",
-        "But are their powers believable?."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Artificial hibernation reveals synaptic engram architecture associated with memory retention",
-      "authors": "Lin YJ, Takahashi-Nakazato A, Tsutsumi K, Takahashi T, Mercier D, Ashitomi H, Chiang MC, Haberl M, Uytiepo M, Maximov A, Makino Y, Nemoto T, Enoki R, Hirano A, Soga K, Looprasertkul S, Ohno N, Kubota Y, Sakurai T, Tanaka KZ.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aee7004",
-      "doi": "10.1126/science.aee7004",
-      "abstract": "Memories leave lasting physical changes at the synaptic level. Although stable, larger spines are thought to support memory, the high turnover of dendritic spines and the drifting of neuronal representations after memory formation suggest alternative possibilities. To elucidate the structural trace underlying memory retention, we used a mouse model of artificial hibernation. During hibernation, hi",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Artificial hibernation reveals synaptic engram architecture associated with memory retention.",
-        "Memories leave lasting physical changes at the synaptic level.",
-        "Although stable, larger spines are thought to support memory, the high turnover of dendritic spines and the drifting of neuronal representations after memory formation suggest alternative possibilities."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "In Other Journals",
-      "authors": "Lopez B, Ross SH, Hurtley SM, Wible B, Jiang D, Funk MA, Smith J.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.ael3843",
-      "doi": "10.1126/science.ael3843",
-      "abstract": "Editors' selections from the current scientific literature.",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: In Other Journals.",
-        "Editors' selections from.",
-        "the current scientific literature."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "In Science Journals",
-      "authors": "Maroso M, Hurtley SM, Lopez B, Stajic J, Szuromi P, Hessler A, Ferrarelli L, Ogle M, Jiang D, Nusinovich Y, Ross SH, Vignieri S, Fogg CN.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.ael3842",
-      "doi": "10.1126/science.ael3842",
-      "abstract": "Highlights from the <i>Science</i> family of journals.",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: In Science Journals.",
-        "Highlights from the.",
-        "Science family of journals."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Chemovaccination with a late-liver-stage antimalarial induces durable immunity against malaria",
-      "authors": "Steel RWJ, Chua YC, Abdalla WAI, McConville R, Ford A, Caiazzo S, Hesping E, Fernandez-Ruiz D, Holz LE, Heath WR, McCauley JA, Olsen DB, Boddey JA.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aea7605",
-      "doi": "10.1126/science.aea7605",
-      "abstract": "<i>Plasmodium falciparum</i> sporozoite vaccines, in which parasites are attenuated at the liver stage, provide high efficacy but require complex manufacture and intravenous administration of high sporozoite doses. We found that a single low-dose <i>P. berghei</i> sporozoite exposure (intravenous or mosquito bite) and treatment with a plasmepsin IX and X (PMIX/X) inhibitor, either WM382 or MK-7602",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Chemovaccination with a late-liver-stage antimalarial induces durable immunity against malaria.",
-        "Plasmodium falciparum sporozoite vaccines, in which parasites are attenuated at the liver stage, provide high efficacy but require complex manufacture and intravenous administration of high sporozoite doses.",
-        "We found that a single low-dose P."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Equity in pathogen genomic surveillance",
-      "authors": "Ngcobo M.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aej6968",
-      "doi": "10.1126/science.aej6968",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Pathogen genomic surveillance raises equity considerations and challenges across global health systems."
-      ],
-      "summary_kind": "headline"
-    },
-    {
-      "title": "Should humanoid robots in every household really be a top priority?",
-      "authors": "Billard AG.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aek2193",
-      "doi": "10.1126/science.aek2193",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Researchers question whether prioritizing humanoid robots for household use is a justifiable goal."
-      ],
-      "summary_kind": "headline"
-    },
-    {
-      "title": "TTF2 processes sites of incomplete DNA replication during mitosis via sister-chromatid exchanges",
-      "authors": "Fujisawa R, Labib KPM.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aeh2300",
-      "doi": "10.1126/science.aeh2300",
-      "abstract": "Mammalian cells frequently enter mitosis before DNA replication has finished, necessitating the rapid processing of unreplicated loci to facilitate chromosome segregation. The TRAIP ubiquitin ligase induces replisome disassembly during mitosis, triggering the cleavage of DNA replication forks. Until now, the mechanisms that regulate TRAIP and process cleaved DNA replication forks were unclear. In ",
-      "citation_count": 1,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: TTF2 processes sites of incomplete DNA replication during mitosis via sister-chromatid exchanges.",
-        "Mammalian cells frequently enter mitosis before DNA replication has finished, necessitating the rapid processing of unreplicated loci to facilitate chromosome segregation.",
-        "The TRAIP ubiquitin ligase induces replisome disassembly during mitosis, triggering the cleavage of DNA replication forks."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "A CDK1 phospho-switch reprograms TRAIP to unload replisomes in mitosis",
-      "authors": "Can G, Shyian M, Krishnamoorthy A, Ahmed S, Lim Y, Wu A, Pavani R, Zaher MS, Nussenzweig A, Räschle M, Wilson TE, Glover TW, Walter JC, Pellman D.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1126/science.aeh1834",
-      "doi": "10.1126/science.aeh1834",
-      "abstract": "Cells entering mitosis with incompletely replicated DNA face catastrophic chromosome segregation failure. During interphase, the replisome-associated E3 ubiquitin ligase TRAIP ubiquitylates barriers in front of the fork to allow replisome progression. In mitosis, TRAIP is reprogrammed from a trans-acting to a cis-acting ligase that can ubiquitylate the replisome itself. This enables the processing",
-      "citation_count": 1,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: A CDK1 phospho-switch reprograms TRAIP to unload replisomes in mitosis.",
-        "Cells entering mitosis with incompletely replicated DNA face catastrophic chromosome segregation failure.",
-        "During interphase, the replisome-associated E3 ubiquitin ligase TRAIP ubiquitylates barriers in front of the fork to allow replisome progression."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Functional atlas of vertebrate viral RNA elements that stabilize RNA and enhance translation",
-      "authors": "Seo JJ, Lee C, Lim D, Jeong M, Jung SJ, Narry Kim V.",
-      "journal": "Cell",
-      "date": "2026-08-13",
-      "url": "https://doi.org/10.1016/j.cell.2026.07.038",
-      "doi": "10.1016/j.cell.2026.07.038",
-      "abstract": "Viruses encode diverse regulatory elements, but their breadth and mechanisms remain poorly defined. To address this gap, we performed massively parallel reporter assays spanning ∼200,000 genomic segments from 297 vertebrate-infecting viral genera. We identified numerous viral elements that enhance RNA stability and translation through TENT4-mediated mixed tailing, distributed across 19 genera and ",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Functional atlas of vertebrate viral RNA elements that stabilize RNA and enhance translation.",
-        "Viruses encode diverse regulatory elements, but their breadth and mechanisms remain poorly defined.",
-        "To address this gap, we performed massively parallel reporter assays spanning ∼200,000 genomic segments from 297 vertebrate-infecting viral genera."
       ],
       "summary_kind": "abstract"
     }
