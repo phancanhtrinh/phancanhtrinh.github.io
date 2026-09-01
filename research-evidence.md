@@ -5,7 +5,7 @@ sitemap: false
 ---
 # Research evidence file — Trinh Phan-Canh
 
-Last reviewed: 15 August 2026. This source file is supplied to the website research assistant as an evidence index. It records claims that should be answered from primary or reputable public sources, not from model memory.
+Last reviewed: 01 September 2026. This source file is supplied to the website research assistant as an evidence index. It records claims that should be answered from primary or reputable public sources, not from model memory.
 
 ## Current position
 
