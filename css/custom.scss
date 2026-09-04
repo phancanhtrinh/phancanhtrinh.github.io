@@ -738,6 +738,169 @@ $tutorial-font: $vn-safe-fonts;
   text-decoration: none;
 }
 
+.tutorial-page .post .printer-address-card {
+  display: inline-flex;
+  min-width: 280px;
+  flex-direction: column;
+  margin: 0.5rem 0 1.5rem;
+  padding: 1.1rem 1.3rem;
+  border: 1px solid #cbdde5;
+  border-radius: 12px;
+  background: #f4f9fb;
+}
+
+.tutorial-page .post .printer-address-card span {
+  color: var(--archive-muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tutorial-page .post .printer-address-card strong {
+  margin: 0.2rem 0;
+  color: #174c67;
+  font-family: Menlo, Monaco, Consolas, monospace;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+}
+
+.tutorial-page .post .printer-address-card small {
+  color: var(--archive-muted);
+}
+
+.tutorial-page .post .printer-method-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1.25rem 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid #d8dfe2;
+  border-radius: 8px;
+  background: #f7f9fa;
+}
+
+.tutorial-page .post .printer-method-banner strong {
+  flex: 0 0 auto;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  background: #59666d;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tutorial-page .post .printer-method-banner.recommended {
+  border-color: #b8d8c6;
+  background: #f3faf6;
+}
+
+.tutorial-page .post .printer-method-banner.recommended strong {
+  background: #2f7651;
+}
+
+.tutorial-page .post .protected-article-gate {
+  max-width: 650px;
+  margin: 1rem auto 3rem;
+  padding: 2rem;
+  border: 1px solid #d8dfe2;
+  border-top: 5px solid #315f77;
+  border-radius: 12px;
+  background: #f7f9fa;
+  box-shadow: 0 16px 38px rgba(38, 50, 56, 0.08);
+}
+
+.tutorial-page .post .protected-article-icon {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background: #315f77;
+  color: #fff;
+  font-size: 21px;
+}
+
+.tutorial-page .post .protected-article-eyebrow {
+  margin-bottom: 0.3rem;
+  color: #315f77;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tutorial-page .post .protected-article-gate h2 {
+  margin-top: 0;
+}
+
+.tutorial-page .post .protected-article-gate label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--archive-ink);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tutorial-page .post .protected-article-controls {
+  display: flex;
+  gap: 0.65rem;
+}
+
+.tutorial-page .post .protected-article-controls input {
+  min-width: 0;
+  flex: 1 1 auto;
+  height: 44px;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #b8c3c8;
+  border-radius: 6px;
+  background: #fff;
+  font: inherit;
+}
+
+.tutorial-page .post .protected-article-controls input:focus {
+  border-color: #315f77;
+  box-shadow: 0 0 0 3px rgba(49, 95, 119, 0.16);
+  outline: 0;
+}
+
+.tutorial-page .post .protected-article-controls button {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 0.55rem 1rem;
+  border: 0;
+  border-radius: 6px;
+  background: #315f77;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.tutorial-page .post .protected-article-controls button:hover,
+.tutorial-page .post .protected-article-controls button:focus {
+  background: #244b60;
+}
+
+.tutorial-page .post .protected-article-controls button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.tutorial-page .post .protected-article-status {
+  min-height: 1.6em;
+  margin: 0.55rem 0 0;
+  color: var(--archive-muted);
+  font-size: 14px;
+}
+
+.tutorial-page .post .protected-article-error {
+  color: #a33a2b;
+}
+
 .tutorial-page .post table {
   display: block;
   width: 100%;
@@ -764,6 +927,24 @@ $tutorial-font: $vn-safe-fonts;
 
   .tutorial-page .post .download-panel {
     align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .tutorial-page .post .printer-address-card {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .tutorial-page .post .printer-method-banner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .tutorial-page .post .protected-article-gate {
+    padding: 1.3rem;
+  }
+
+  .tutorial-page .post .protected-article-controls {
     flex-direction: column;
   }
 }
