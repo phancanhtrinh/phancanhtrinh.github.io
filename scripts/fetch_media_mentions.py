@@ -50,6 +50,13 @@ PAPERS_DIR = "papers/_posts"
 MAX_ITEMS = 300
 INSTITUTIONAL_CHECK_LIMIT = 15  # newest listing items to consider per site, per run
 
+# Preserve corrected display titles when an upstream outlet's headline or URL
+# contains a typo. The original URL stays unchanged so the link keeps working.
+TITLE_CORRECTIONS = {
+    "Winners of Life Scinces Awards Austria 2026":
+        "Winners of Life Sciences Awards Austria 2026",
+}
+
 NAME_VARIANTS = [
     "Trinh Phan-Canh",
     "Trinh Phan Canh",
@@ -649,6 +656,8 @@ def main():
     checked_urls |= newly_checked
 
     all_new = google_items + altmetric_items + institutional_items + official_feed_items
+    for item in all_new + existing:
+        item["title"] = TITLE_CORRECTIONS.get(item.get("title"), item.get("title"))
     # Prefer freshly fetched metadata for a URL (corrected titles, images, or
     # source labels), then retain every older archive-only mention.
     merged = dedupe(all_new + existing)
