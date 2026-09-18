@@ -5,7 +5,7 @@ sitemap: false
 ---
 # Research evidence file — Trinh Phan-Canh
 
-Last reviewed: 01 September 2026. This source file is supplied to the website research assistant as an evidence index. It records claims that should be answered from primary or reputable public sources, not from model memory.
+Last reviewed: 18 September 2026. This source file is supplied to the website research assistant as an evidence index. It records claims that should be answered from primary or reputable public sources, not from model memory.
 
 ## Current position
 
@@ -45,6 +45,9 @@ Last reviewed: 01 September 2026. This source file is supplied to the website re
 
 This section is refreshed automatically from the website's monitored media index. Each item must be verified at its original outlet before being used as a factual claim.
 
+- Trinh Phan-Canh receives the Life Sciences PhD Award Austria 2026 — MyScience.at, 2026-09-16: https://www.myscience.at/news/wire/trinh_phan_canh_receives_the_life_sciences_phd_award_austria_2026-2026-meduniwien
+- Trinh Phan-Canh erhält Life Sciences PhD Award Austria 2026 — MedUni Wien, 2026-09-16: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR0JqN0c2M3JvQnpHZ3pjc3JpUjNoMzJyd1FhT1Z0clgzTXd4UnhwQXZCX2hpNWlKQnkwUUJ5RUc1U2tXaXJYRmRFWkpKY3ZoMkFsaE1URGRXX3FvUmhNSUtRRzU1LVVvX0xNY0tGWUFfc3dfR2s0eFpVeWdmN1hMc2J5SUlZeHAxYXNXeDRlVGdueFZkYWtaRGNKM2pvRXpDTlNVYklKbEdCS3VhSFpDMzNKVVA5VVRTbGpZVm9jRU1FU0RiVUZ3MlhFMFVidzhrOS1n?oc=5
+- Trinh Phan-Canh receives the Life Sciences PhD Award Austria 2026 — MedUni Wien, 2026-09-16: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPU2I1cG1DLTd2ZDk3eE9rQ3h2UGVnRFp3bWYzbVhENWFieTAwSWZKVVhwdTNmdGNNUGlZbkxXTEU1TjZRd0FES1NSVV9kd0tsXzRmTGZ6NkY4cWdNUTcxVWVMUVlFM0J3aFVWU2V0eGRDTTZyMzdxV3ZtRVFHV0dtQllrYUQ3UENETDU1ZXAwOGpFdENNU282RURVLXE1YXhwQ2NGS255ejBDdmJibVBCVHpxQk94OThIcFFCSDliSVVlRnlSR0tkZDQ4WVhnWnNoUHpzMUMwMm5HQ3dy?oc=5
 - Trinh Phan-Canh receives the 2026 Austrian Microbiology Prize — MedUni Wien, 2026-06-05: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWU0Q295cElsamdGZXEyR285dE83U0I2RXZEbzRXeExJZFV2cXhoSkhXcUFWLTk5Q0hUYWh2VmE2LUc3aFVVUlY2VmFNcXJ2eldaZnd0eGtyZXMySlp1ay0weGxQN1p6alNKRUI3VXlXa0Y5WTltWnZfYkYwcFk1ME9vT3l1Ml9FQk9YWHdjRmhMZmpaWXFNRVBmREV0Z3BKSHBxekNUY3JsVm9melcxcF9aMHZmT3kyS2FzUGJnYVFmQ1BTUkNXRmNZdHMwczAy?oc=5
 - Trinh Phan-Canh erhält Österreichischen Mikrobiologie-Preis 2026 — MedUni Wien, 2026-06-05: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcDR2OG40d3hoQ0JTRDRVYzcxMGxLQjlEQWdwbHFFelozZVRCd3B0emxzZHlZZ3ZJQkxWMnNhY0VQbW9DUl9XWWUwa0Q1Y3g1bmR1ZkNQUmVVejR6VE9zNV94NjkwaVQwZzJWZ004UFNLeEdMR1k2cWhGWmZpa3dLTmNfZHZvQm4zSjFvWW5DMnBxUVlvT20yZVNUdDNYSlhPU0hBMVBIUjdFWUJ6OTRhLTJzU184X2RVazg1UGZmX1U3QjFkM2NiWVFNTm0tUmtFS0d0Ug?oc=5
 - Interview with Dr. Trinh Phan-Canh—Winner of the Biology Young Investigator Award — MDPI, 2026-05-12: https://www.mdpi.com/about/announcements/16421
@@ -52,8 +55,5 @@ This section is refreshed automatically from the website's monitored media index
 - Phát hiện mới mở ra các đích tiềm năng cho kiểm soát dịch và phát triển thuốc điều trị nhiễm trùng do Candida auris — Tạp chí KH&CN Việt Nam, 2026-02-24: https://news.google.com/rss/articles/CBMi2gFBVV95cUxQU3pmd0xSdzJaYktHTTBhOVJ3WTVFR3pRTXhFMmI3X3JZUzdxc2VtUGxjYnV6NlpaOEFWOS0wZXRmclNKck40Ty1SeWZzbUJDclk4SkxXai04Rm9CdzdCZFZjUlRqSk03WnRWck5UYlR0d1hUNll1NEhWMVZaNml0dXZhMm5CLU0wSWttQ1NiRGM1WlhWVU96clNDa3RKSTlibDE0UV8xLXpZQzZ4cXJwYVE1a0U2SEdwaVh5djBfVXRZWG9Pa2daN1F5NkxOLTlSSlU0YV9KQ3hLUQ?oc=5
 - New findings on Candida auris open up potential targets for future therapies — The microbiologist, 2026-01-06: http://ct.moreover.com/?a=58563924844&p=1pl&v=1&x=brmf-ZYo0fySY1250U3zGA
 - Candida auris fungal infection spread in the US: Why is it considered dangerous? — The Week (India), 2026-01-01: http://ct.moreover.com/?a=58528707716&p=1pl&v=1&x=bOlG2WkDnR-5t_GgYnwnBA
-- New findings on Candida auris open up potential targets for future therapies — MedUni Wien, 2025-12-23: https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTjdKTmg1enkzMGZzZExMY1pOVnBERG4tOFNUeXhSZW1yRGxibnNxRlRIaVlSVklPUnlaUVFFYUNHLVhRRlJDSFR4OXRLdEpSbmV6QjQ1TXQtR3JZMHl4VV9HV2dOVVVnVHNIVjRiemVFMkZnN25nZEwtc3lCTG9sNGZaa09GOUxmdXFYMENlQ3NwSW1UaEItR1d5MC1aUHZUUWd6cnZ1N0lIeklrcVpMcW11Y2dfSVc3VDU4TEFVcmdxV1ZoRUd6cHpOV21vTkYyTXA3RUx2QVNDb2t4WGRVblZqTUlXaE53WGxV?oc=5
 - Neue Erkenntnisse zu Candida auris eröffnen potenzielle Angriffspunkte für künftige Therapien — MedUni Wien, 2025-12-23: https://news.google.com/rss/articles/CBMiggJBVV95cUxNU1NhV2dyMkhpN0tUbnpkUlFhbGF5YXVVUDF5R2I1TF91bV9HUGlCOXJPaUR1U29PUnpwc2lpUGxCbm92Tk9qQVdWLXUwel92YW5oVTFkeXZjVFJBeTRldXpUNUZpUklGYkkxR2RkSFBuRUFPazFDOUZzNlkxck9tOEVCZkE2bjBKY05HMHZXQmJNaDQ1NEdQcm9sWklTbUhycW9ibkh3SGpQR19EMTJoSWxBZGdSWTB4dC1iYmhEdGl0RUM0SGRpQlVrTFY5MDV6U3JMc1RuU3RUUFlXazFpZE9wRjdYNzNhNFUwRjVhZ0hheVppdGdtTHVfek5HSC1McFE?oc=5
 - Candida Auris Breakthrough Points to New Therapy Targets — Mirage News, 2025-12-23: http://ct.moreover.com/?a=58473477072&p=1pl&v=1&x=UL4ArHlvH9A0vUwiivGnOQ
-- New findings on Candida auris open up potential targets for future therapies — EurekAlert!, 2025-12-23: http://ct.moreover.com/?a=58473168705&p=1pl&v=1&x=BqEDs5N-D8Y-5lOeuJNhOQ
-- New findings on Candida auris open up potential targets for future therapies — My Science, 2025-12-23: http://ct.moreover.com/?a=58470925320&p=1pl&v=1&x=eCNjRL8AeRMaTOzopZWNTg

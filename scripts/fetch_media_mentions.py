@@ -148,6 +148,27 @@ OFFICIAL_FEATURE_PAGES = [
     ),
 ]
 
+# Direct outlet records that should remain in the archive even when a search
+# feed omits them or exposes only an indirect aggregator link.
+MANUAL_MENTIONS = [
+    {
+        "title": "Trinh Phan-Canh receives the Life Sciences PhD Award Austria 2026",
+        "url": "https://www.myscience.at/news/wire/trinh_phan_canh_receives_the_life_sciences_phd_award_austria_2026-2026-meduniwien",
+        "source": "MyScience.at",
+        "date": "2026-09-16",
+        "via": "manual_seed",
+        "image": "https://www.meduniwien.ac.at/web/fileadmin/_processed_/4/a/csm_Foto_Gewinner_Polymun_62ec596195.png",
+    },
+    {
+        "title": "MedUni Vienna: New findings on Candida auris open up potential targets for future therapies",
+        "url": "https://www.lifescienceaustria.at/resources/news/detail/meduni-vienna-new-findings-on-candida-auris-open-up-potential-targets-for-future-therapies",
+        "source": "LISA – Life Science Austria",
+        "date": "2025-12-23",
+        "via": "manual_seed",
+        "image": None,
+    },
+]
+
 # Google News indexes journal paper pages as "articles" too, so his own
 # publications keep surfacing here (they already have a home on /papers/).
 PUBLISHER_SOURCES = [
@@ -655,7 +676,7 @@ def main():
     official_feed_items = fetch_official_feeds()
     checked_urls |= newly_checked
 
-    all_new = google_items + altmetric_items + institutional_items + official_feed_items
+    all_new = MANUAL_MENTIONS + google_items + altmetric_items + institutional_items + official_feed_items
     for item in all_new + existing:
         item["title"] = TITLE_CORRECTIONS.get(item.get("title"), item.get("title"))
     # Prefer freshly fetched metadata for a URL (corrected titles, images, or
