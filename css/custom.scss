@@ -694,6 +694,50 @@ img.avatar {
   font-size: 14px;
 }
 
+.spectrum-feature-caption {
+  margin: -0.4rem 0 1.5rem;
+  color: #5e5e5e;
+  font-size: 14px;
+  text-align: center;
+}
+
+.spectrum-feature-meta,
+.spectrum-highlights,
+.spectrum-citation {
+  margin: 1.5rem 0;
+  padding: 1.15rem 1.25rem;
+  border-radius: 8px;
+}
+
+.spectrum-feature-meta {
+  border-left: 5px solid #d69b12;
+  background: #fff9e9;
+}
+
+.spectrum-feature-meta p:last-child {
+  margin-bottom: 0;
+}
+
+.spectrum-highlights {
+  border: 1px solid #ead7a6;
+  background: #fffdf7;
+}
+
+.spectrum-highlights h2 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.spectrum-highlights li + li {
+  margin-top: 0.65rem;
+}
+
+.spectrum-citation {
+  background: #f3f4f5;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
 @media (max-width: 767px) {
   .award-memory-carousel .carousel-inner,
   .award-memory-carousel .carousel-item {

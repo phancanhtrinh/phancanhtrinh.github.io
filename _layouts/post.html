@@ -62,10 +62,10 @@ layout: default
 			{% if page.image and page.carousel != true %}
 			{% if page.link %}
 			<a href="{{ page.link }}">
-				<img class="offset" src="{{ page.image }}">
+				<img class="offset" src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}">
 			</a>
 			{% else %}
-			<img class="offset" src="{{ page.image }}">
+			<img class="offset" src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}">
 			{% endif %}
 			{% endif %}
 			<div class="post">
