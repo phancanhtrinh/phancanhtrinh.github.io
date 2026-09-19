@@ -634,6 +634,66 @@ img.avatar {
   border-top: 2px solid #dedede;
 }
 
+.pdf-feature-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.pdf-feature-link {
+  display: inline-flex;
+  min-height: 42px;
+  padding: 0.65rem 1rem;
+  align-items: center;
+  border: 1px solid #9f3e22;
+  border-radius: 6px;
+  background: #b84b24;
+  color: #fff !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.pdf-feature-link:hover,
+.pdf-feature-link:focus {
+  background: #963b20;
+}
+
+.pdf-feature-link-secondary {
+  background: #fff;
+  color: #9f3e22 !important;
+}
+
+.pdf-feature-link-secondary:hover,
+.pdf-feature-link-secondary:focus {
+  background: #f8eee9;
+}
+
+.pdf-feature-frame {
+  width: 100%;
+  height: min(82vh, 920px);
+  min-height: 640px;
+  overflow: hidden;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  background: #f2f4f5;
+  box-shadow: 0 10px 30px rgba(31, 42, 48, 0.12);
+}
+
+.pdf-feature-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+}
+
+.pdf-feature-source {
+  margin-top: 0.85rem;
+  color: #666;
+  font-size: 14px;
+}
+
 @media (max-width: 767px) {
   .award-memory-carousel .carousel-inner,
   .award-memory-carousel .carousel-item {
@@ -654,6 +714,20 @@ img.avatar {
   .award-memory-carousel .carousel-control-next,
   .award-memory-carousel .carousel-indicators {
     bottom: 66px;
+  }
+
+  .pdf-feature-actions {
+    display: grid;
+  }
+
+  .pdf-feature-link {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pdf-feature-frame {
+    height: 72vh;
+    min-height: 500px;
   }
 }
 
