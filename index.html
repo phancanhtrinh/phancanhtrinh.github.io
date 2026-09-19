@@ -351,7 +351,23 @@ categories:
 </div>
 
 {% assign featured_diary_titles = "Đường đến Vienna BioCenter||[Slide] 5 năm ở Trường Dược - Được dạy và tự học những gì?||Hồi ký ở làng - Kỳ 1||Những đứa trẻ ở làng||Tàu chợ!||Rồi! Đã lớn!||Thôi thế là hết Sinh viên!||Giới thiệu sách Giáo trình thực tập Ký sinh trùng" | split: "||" %}
+{% assign featured_diary_article = site.categories.blog | where: "title", "Where My Dreams Grew a Little Bigger" | first %}
 <div class="row homepage-diary-row">
+	{% if featured_diary_article %}
+	<div class="col-lg-3 col-md-6 reduced-gutter">
+		<div class="pad-left homepage-diary-card">
+			<a class="off homepage-diary-thumb-link" href="{{ featured_diary_article.url }}">
+				<img class="homepage-diary-thumb" src="{{ featured_diary_article.image }}" alt="Trinh Phan-Canh receiving the Life Sciences PhD Award Austria 2026">
+			</a>
+			<div class="note">
+				<i class="fa fa-book fa-fw"></i>
+				<a class="off" href="{{ featured_diary_article.url }}">{{ featured_diary_article.title }}</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">{{ featured_diary_article.date | date: "%-d %b %Y" }}</div>
+		</div>
+	</div>
+	{% endif %}
 	{% for featured_title in featured_diary_titles %}
 		{% assign entry = site.diary | where: "title", featured_title | first %}
 		{% if entry %}
