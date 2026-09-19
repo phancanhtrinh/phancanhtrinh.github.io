@@ -152,6 +152,14 @@ OFFICIAL_FEATURE_PAGES = [
 # feed omits them or exposes only an indirect aggregator link.
 MANUAL_MENTIONS = [
     {
+        "title": "Trinh Phan-Canh receives the 2026 Austrian Microbiology Prize",
+        "url": "https://www.meduniwien.ac.at/web/en/about-us/news/2026/news-in-june-2026/trinh-phan-canh-receives-the-2026-austrian-microbiology-prize/",
+        "source": "MedUni Wien",
+        "date": "2026-06-05",
+        "via": "manual_seed",
+        "image": "/images/blog/austrian-microbiology-prize-2026/award-ceremony.jpg",
+    },
+    {
         "title": "Trinh Phan-Canh receives the Life Sciences PhD Award Austria 2026",
         "url": "https://www.myscience.at/news/wire/trinh_phan_canh_receives_the_life_sciences_phd_award_austria_2026-2026-meduniwien",
         "source": "MyScience.at",
@@ -619,7 +627,9 @@ def dedupe(items):
     seen = set()
     out = []
     for it in items:
-        key = it.get("url") or it.get("title", "").strip().lower()
+        title = it.get("title", "").strip().lower()
+        source = it.get("source", "").strip().lower()
+        key = (title, source) if title else it.get("url")
         if not key or key in seen:
             continue
         seen.add(key)
