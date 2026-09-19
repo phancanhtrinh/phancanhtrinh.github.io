@@ -518,12 +518,25 @@ img.avatar {
   padding-bottom: 20px;
 }
 
+.blog-post,
+.blog-post .title,
+.blog-post .smallhead,
+.blog-post .post,
+.blog-post button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .award-memory-carousel {
   margin: 1.25rem 0 2.25rem;
   overflow: hidden;
   border-radius: 10px;
   background: #eef0f1;
   box-shadow: 0 8px 28px rgba(31, 42, 48, 0.12);
+}
+
+.award-memory-carousel .carousel-inner,
+.award-memory-carousel .carousel-item {
+  height: 634px;
 }
 
 .award-memory-carousel .carousel-item {
@@ -539,8 +552,12 @@ img.avatar {
 }
 
 .award-memory-carousel figcaption {
-  min-height: 48px;
+  display: flex;
+  height: 54px;
   padding: 0.75rem 1rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
   background: #263238;
   color: #fff;
   font-size: 14px;
@@ -550,11 +567,11 @@ img.avatar {
 
 .award-memory-carousel .carousel-control-prev,
 .award-memory-carousel .carousel-control-next {
-  bottom: 48px;
+  bottom: 54px;
 }
 
 .award-memory-carousel .carousel-indicators {
-  bottom: 48px;
+  bottom: 54px;
   margin-bottom: 0.75rem;
 }
 
@@ -565,8 +582,25 @@ img.avatar {
 }
 
 @media (max-width: 767px) {
+  .award-memory-carousel .carousel-inner,
+  .award-memory-carousel .carousel-item {
+    height: 426px;
+  }
+
   .award-memory-carousel .carousel-item img {
     height: 360px;
+  }
+
+  .award-memory-carousel figcaption {
+    height: 66px;
+    padding: 0.55rem 0.75rem;
+    font-size: 13px;
+  }
+
+  .award-memory-carousel .carousel-control-prev,
+  .award-memory-carousel .carousel-control-next,
+  .award-memory-carousel .carousel-indicators {
+    bottom: 66px;
   }
 }
 
