@@ -49,7 +49,7 @@ carousel: true
 
 ## English
 
-I made a whirlwind trip back to Austria to receive the ÖGMM Publication Award 2026 from the Austrian Society for Medical Mycology and the Life Sciences PhD Award Austria 2026, one of the country’s most prestigious awards for PhD graduates.
+I made a whirlwind trip back to Austria to receive the ÖGMM Publication Award 2026 from the Austrian Society for Medical Mycology and the Life Sciences PhD Award Austria 2026, one of the most prestigious awards for PhD graduates in Austria.
 
 I feel incredibly happy, proud, and grateful for this moment.
 
@@ -66,7 +66,7 @@ But life moves forward, and so must we, toward the dreams we long to pursue.
 
 Becoming a scientist was once a very vague dream.
 
-Back in the 2000s, when I was just a kid going to school every day, I did not really know what scientists did. I only knew that they discovered many of the things I read about in textbooks. It sounded cool. But it was nothing more than the vague fascination of a child. I do not think I ever seriously considered becoming one. But I was always excited by Biology and Geography classes, and I loved exploring the garden and discovering the creatures that lived there.
+Back in the 2000s, when I was just a kid going to school every day, I did not really know what scientists did. I only knew that they discovered many of the things I read about in textbooks. It sounded cool. But it was nothing more than the vague fascination of a child. I do not think I ever seriously considered becoming one. But I was excited to be in Biology and Geography classes. I was excited to explore the many creatures in the garden.
 
 Then came university, and with it, countless possible futures. At one point, I wanted to become a marketer at a pharmaceutical company. At another, I was drawn to creative work and thought about becoming a designer. Sometimes, I even wanted to be a coder. That is what being twenty is like. You want to explore new things. You want to learn everything that seems interesting.
 
@@ -82,7 +82,7 @@ Perhaps that was when my dream of continuing in science began to take shape.
 
 After graduation, returning to the Pharmacy School seemed like the most realistic path for me. Becoming a university lecturer was considered a prestigious career, something many students dreamed of ten years ago. I was one of them.
 
-For a while, I stubbornly believed that working at University of Medicine and Pharmacy at Ho Chi Minh City was the only way I could continue doing research. I was afraid that if I chose another career, the busyness of everyday life would eventually pull me away from science.
+For a while, I stubbornly believed that working at the University of Medicine and Pharmacy at Ho Chi Minh City was the only way I could continue doing research. I was afraid that if I chose another career, the busyness of everyday life would eventually pull me away from science.
 
 So, after eight months at a big pharma company, I left a well-paid job and returned to the university. That was probably one of the most difficult periods of my life.
 
@@ -100,7 +100,7 @@ Then fortune finally smiled on me. I reached out to Professor Kuchler, received 
 
 Even today, I cannot fully express how fortunate I feel to have become Karl’s last PhD student. My life might have taken an entirely different direction had I never met him.
 
-During my first days in the lab and the TissueHome PhD Program, I felt overwhelmed because I understood almost nothing. The concepts were unfamiliar. The terminology was unfamiliar. Even everyday conversations were difficult.
+During my first days in the lab and the TissueHome PhD Program, I could barely breathe because I felt so overwhelmed and understood almost nothing. The concepts were unfamiliar. The terminology was unfamiliar. Even everyday conversations were difficult.
 
 My PhD fellows and labmates often had to repeat themselves several times when speaking with me. I remain deeply grateful for how patient and respectful they always were. I was also struck by how patiently people in the lab treated trainees. Watching them made me reflect on myself and recognize some of my own mistakes from the past, especially the times when I had been too demanding of the people around me.
 
@@ -112,7 +112,7 @@ During my first year, I felt like a child learning to speak. I spoke English sen
 
 I assumed that I might never develop the skills my peers in the program seemed to have. Many European students spoke excellent English and could navigate scientific discussions so naturally. I cannot count how many times I talked about my struggles with the Vietnamese seniors around me during those early days.
 
-But slowly, things began to change. I gradually developed different skills. I began to understand what my research field needed. I started discovering new and more fascinating dimensions of what it meant to become a scientist.
+But slowly, things began to change. I developed different skills. I began to understand what my research field needed. I started discovering new and more fascinating dimensions of what it meant to become a scientist.
 
 I learned from the stories and careers of other scientists. I gradually understood what I needed to do and what kind of scientist I wanted to become.
 
@@ -128,33 +128,33 @@ Some things had once seemed impossibly far away. But when I broke them down into
 
 And somewhere along that journey, I also began to understand that what ultimately fulfills me is not simply publishing a paper in a top journal. What matters more is what that work actually solves. What new knowledge it contributes to the field. What value it creates for the community.
 
-Of course, it is easy to say that afterward. Before reaching that realization, most of us still spend years fighting to publish our papers in top journals. :)
+Of course, it is easy to say that after the fact. Before reaching that realization, most of us still spend years fighting desperately to get our papers into top journals. :) We still need to do so; otherwise, we may struggle with our careers at some point.
 
 Perhaps this was also the moment when the childhood dream of “becoming a scientist” finally stopped being vague.
 
 Today, returning to Austria to receive one of the country’s most prestigious awards for a PhD thesis, I still find it difficult to believe how far this journey has taken me.
 
-It was here that I found the confidence to believe that I could become a professional scientist, someone who could spend a lifetime searching for truth among nature’s countless mysteries and creating knowledge that might one day improve human lives. 
+It was here that I found the confidence to believe that I could become a professional scientist, someone who spends a lifetime searching for truth among the countless mysteries of nature and inventing new things that may help improve human lives.
 
 And it was here that I began to realize that perhaps I could do more. Much more.
 
 If I dared to dream without limiting myself.
 If I learned how to plan.
-And if I was willing to give those dreams as much time and effort as I could.
+And if I was willing to give a lot of my time and effort to pursue those dreams.
 
 Of course, everything in life requires a little luck. But I have also come to believe that luck matters most when we have prepared ourselves well enough to recognize it and seize it when it arrives.
 
 My PhD research has now brought me six awards and one research grant in Austria and abroad. Five years ago, these were things I would have considered impossible dreams for someone who could barely put together a sentence in English.
 
-I remember reading the award announcements every year and quietly wondering: Could I one day see a Vietnamese name among the awardees—and could that name be mine? That desire grew stronger with time.
+I remember reading the award announcements every year and quietly wondering: Could I one day put a Vietnamese name among those awardees? That desire grew stronger with time.
 
 There were periods when difficulties seemed endless. An entire year could pass without producing meaningful new results. There was a year when four of my manuscripts were rejected.
 
-But I kept reminding myself not to fall into the trap of mediocre science. If reviewers raised constructive concerns, address them. If the data did not support the hypothesis, accept it. Most hypotheses will not turn out to be true. Solve the problem, learn from it, and keep moving.
+But I kept reminding myself not to fall into the trap of mediocre science. If reviewers raise constructive concerns, address them. If the data do not support the hypothesis, accept it. Most hypotheses will not turn out to be true. Solve the problem, learn from it, and keep moving.
 
 Living far from home brought no shortage of moments that made me want to give up. There were times when I wanted nothing more than to turn around, go home, and return to the safest and most peaceful place I knew.
 
-But I kept going. And I am still writing the story of my youth in the way I want it to be written.
+But I kept going. And I am writing the story of my youth in the way I want it to be written.
 
 In the blink of an eye, more than twelve years have passed since the first day I entered a lab as a fourth-year pharmacy student.
 
@@ -164,7 +164,7 @@ Twelve years was also long enough for me to understand more, to become more grat
 
 And the farther I go, the more I understand that whatever I have achieved today has never been mine alone. It was made possible by the support of mentors, friends, and family who believed in me. 
 
-It is also the fruit of my parents’ lifelong efforts.
+These achievements are also the fruits of my parents’ lifelong efforts.
 
 Not only the years they spent worrying about money, food, education, and everything necessary to raise us, but also all the nights they must have spent wondering how to guide us, how to respond to us, and what to teach us at every stage of our lives.
 
