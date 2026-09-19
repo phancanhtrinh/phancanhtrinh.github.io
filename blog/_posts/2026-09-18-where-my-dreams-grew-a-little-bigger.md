@@ -18,23 +18,23 @@ carousel: true
     <li data-target="#award-memory-carousel" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner">
-    <figure class="carousel-item active">
+    <figure class="carousel-item active" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/01-award-presentation.jpg')">
       <img src="/images/blog/life-sciences-phd-award-2026/01-award-presentation.jpg" alt="Trinh Phan-Canh receiving the Life Sciences PhD Award Austria 2026 with Andreas Wagner and ÖGMBT President Michael Sauer">
       <figcaption>Receiving the Life Sciences PhD Award Austria 2026 in the Applied Research category.</figcaption>
     </figure>
-    <figure class="carousel-item">
+    <figure class="carousel-item" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/02-portrait.jpg')">
       <img src="/images/blog/life-sciences-phd-award-2026/02-portrait.jpg" loading="lazy" alt="Trinh Phan-Canh holding the Life Sciences PhD Award Austria 2026 certificate">
       <figcaption>A small pause to remember a long journey.</figcaption>
     </figure>
-    <figure class="carousel-item">
+    <figure class="carousel-item" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/03-award-winners.jpg')">
       <img src="/images/blog/life-sciences-phd-award-2026/03-award-winners.jpg" loading="lazy" alt="The five Life Sciences Awards Austria 2026 recipients holding their certificates">
       <figcaption>The 2026 Life Sciences Awards Austria recipients.</figcaption>
     </figure>
-    <figure class="carousel-item">
+    <figure class="carousel-item" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/04-winners.jpg')">
       <img src="/images/blog/life-sciences-phd-award-2026/04-winners.jpg" loading="lazy" alt="Life Sciences Awards Austria 2026 recipients together after the ceremony">
       <figcaption>Together after the award ceremony in Vienna.</figcaption>
     </figure>
-    <figure class="carousel-item">
+    <figure class="carousel-item" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/05-group.jpg')">
       <img src="/images/blog/life-sciences-phd-award-2026/05-group.jpg" loading="lazy" alt="Award recipients and representatives at the Life Sciences Awards Austria 2026 ceremony">
       <figcaption>Award recipients and representatives at the 2026 ceremony.</figcaption>
     </figure>
@@ -197,7 +197,7 @@ May all the people I love always be safe and at peace.
 
 ## Tiếng Việt {#tieng-viet}
 
-Mình trở về Áo chớp nhoáng để nhận ÖGMM Publication Award 2026 từ Hiệp hội Vi nấm Y khoa Áo và Life Sciences PhD Award Austria 2026, một trong những giải thưởng danh giá nhất dành cho nghiên cứu sinh tiến sĩ ở Áo. Mình thật sự vô cùng hạnh phúc, tự hào và biết ơn về khoảnh khắc này.
+Trở về Áo trong một chuyến đi vội để nhận ÖGMM Publication Award 2026 từ Hiệp hội Vi nấm Y khoa Áo và Life Sciences PhD Award Austria 2026 (ÖGMBT), một trong những giải thưởng danh giá nhất dành cho nghiên cứu sinh tiến sĩ ở Áo. Mình thật sự vô cùng hạnh phúc, tự hào và biết ơn về khoảnh khắc này.
 
 Hơn 12 năm kể từ ngày đầu tiên bước vào phòng thí nghiệm. Sau bao trầy trật của những tháng năm chập chững với khoa học, bao lần vật vã tìm kiếm cơ hội mới, cuối cùng mình cũng gặt hái được vài quả ngọt ban đầu.
 
@@ -214,13 +214,13 @@ Lên đại học, giữa muôn vàn ngã rẽ của tương lai, có lúc mình
 
 Và rồi một ngày mùa hè năm ấy, mình bước vào phòng thí nghiệm.
 
-Mình học những kỹ thuật đầu tiên trên bàn thí nghiệm: học cách pipet, chuẩn bị môi trường, nuôi cấy vi khuẩn. Tất cả những điều xa lạ ấy khá là kích thích. Mình cảm thấy bản thân mình ở trong đó. Mình phấn khích chờ xem kết quả thí nghiệm, quan sát vi khuẩn vận động, mọc trên môi trường, nhìn cách nó biến đổi. Tất cả mọi thứ về cơ chế sinh học đều khiến mình thấy hứng thú. 
+Mình học những kỹ thuật đầu tiên trên bàn thí nghiệm: học cách pipet, chuẩn bị môi trường, nuôi cấy vi khuẩn. Tất cả những điều xa lạ ấy khá là kích thích. Mình cảm thấy bản thân mình ở trong đó. Mình phấn khích chờ xem kết quả thí nghiệm, quan sát vi khuẩn vận động, mọc trên môi trường, nhìn cách nó biến đổi. Tất cả mọi thứ về cơ chế sinh học đều khiến mình thấy hứng thú.
 
 Có lẽ từ lúc đó, ước mơ được tiếp tục làm khoa học bắt đầu trở nên rõ ràng hơn.
 
-Ra trường, xin về lại khoa Dược có lẽ là điều khả dĩ nhất với mình ở thời điểm ấy. Làm giảng viên ĐHYD là một việc danh giá mà nhiều sinh viên 10 năm trước đều ao ước. Mình cũng là một trong số đó.
+Ra trường, xin về lại khoa Dược có lẽ là điều khả dĩ nhất với mình ở thời điểm ấy. Làm giảng viên Đại học Y Dược TP.HCM là một công việc danh giá mà nhiều sinh viên 10 năm trước đều ao ước. Mình cũng là một trong số đó.
 
-Thậm chí có những lúc mình cố chấp với niềm tin rằng đó là con đường duy nhất để tiếp tục làm nghiên cứu. Mình lo rằng bản thân sẽ bị cuốn đi bởi cuộc sống tất bật nếu làm một công việc khác. Rồi mình quyết định nghỉ việc ở một công ty dược đa quốc gia với mức lương cao sau 8 tháng làm việc để xin về trường công tác. 
+Thậm chí có những lúc mình cố chấp với niềm tin rằng đó là con đường duy nhất để tiếp tục làm nghiên cứu. Mình lo rằng bản thân sẽ bị cuốn đi bởi cuộc sống tất bật nếu làm một công việc khác. Rồi mình quyết định nghỉ việc ở một công ty dược đa quốc gia với mức lương cao sau 8 tháng làm việc để xin về trường công tác.
 
 Có lẽ đó là một trong những giai đoạn khó khăn nhất của mình. Nhưng rồi mọi thứ dần ổn và đi vào quỹ đạo nhờ sự giúp đỡ của nhiều thầy cô, đồng nghiệp. Với công việc ở trường, mình từng bước phát triển năng lực qua những nghiên cứu nhỏ. Mục tiêu ngày ấy rất rõ ràng: đi du học tiến sĩ, sau đó trở về tiếp tục nghiên cứu và giảng dạy ở trường, lên phó giáo sư rồi giáo sư. Đúng lộ trình của hầu hết giảng viên ở trường. Đó có lẽ cũng sẽ là một hướng đi viên mãn.
 
@@ -230,37 +230,37 @@ Nhưng rồi đến một lúc, mình nhận ra bản thân đã có một độ
 
 Tiếng Anh của mình ở thời điểm đó cực kỳ tệ. Mình thậm chí không thể diễn tả nổi nó tệ đến mức nào. Đó là một trong những yếu tố níu mình lại phía sau, cho dù mình đã cố gắng cho mọi thứ khác đến mức nào.
 
-Mà mình lại là một đứa có tham vọng lớn. Mình luôn có những ước mơ và khao khát đến mức không dễ chấp nhận việc từ bỏ, luôn muốn thực hiện chúng đến mức đôi khi những người xung quanh cũng mệt mỏi. Nhưng rồi cuối cùng, mình vẫn phải chấp nhận một thực tế rằng tiếng Anh của mình quá tệ.
+Mà mình lại là một đứa có tham vọng. Mình luôn có những ước mơ và khao khát đến mức không dễ chấp nhận việc từ bỏ, luôn muốn thực hiện chúng đến mức đôi khi những người xung quanh cũng mệt mỏi. Nhưng rồi cuối cùng, mình vẫn phải chấp nhận một thực tế rằng tiếng Anh của mình quá tệ.
 
 Đã có lúc mình hoài nghi về tương lai, lo sợ rằng mình sẽ mãi dậm chân tại chỗ, không thể đi học được. Có lúc mình thật sự nghĩ rằng có lẽ mình không đủ năng lực để làm những điều mình muốn.
 
-May mắn rồi cũng mỉm cười khi mình tìm đến thầy Kuchler, rồi nhận học bổng Ernst Mach Grant để đến Áo làm tiến sĩ.
+May mắn rồi cũng mỉm cười khi mình tìm đến thầy Kuchler, rồi nhận học bổng #ErnstMachGrant từ ASEA-UNINET, OeAD để đến Áo làm tiến sĩ.
 
-Học bổng đã mang mình đến Vienna BioCenter. Đến tận bây giờ, mình vẫn không thể diễn tả mình may mắn đến nhường nào khi được trở thành sinh viên tiến sĩ cuối cùng của thầy Kuchler. Hành trình của mình có lẽ đã rẽ sang một con đường hoàn toàn khác nếu mình không gặp thầy.
+Học bổng đã mang mình đến Vienna Biocenter. Đến tận bây giờ, mình vẫn không thể diễn tả mình may mắn đến nhường nào khi được trở thành sinh viên tiến sĩ cuối cùng của thầy Kuchler. Hành trình của mình có lẽ đã rẽ sang một con đường hoàn toàn khác nếu mình không gặp thầy.
 
 Những ngày đầu vào lab và tham gia Tissue Home PhD Program, mình cảm thấy nghẹt thở vì gần như không hiểu bất cứ một chữ nào. Tất cả mọi khái niệm, thuật ngữ đều vô cùng xa lạ. Thậm chí những giao tiếp đời thường cũng thật sự khó khăn. Các bạn cùng khoá và trong phòng thí nghiệm luôn phải nhắc lại rất nhiều lần khi nói chuyện với mình. Mình thật sự biết ơn vì các bạn luôn bình tĩnh và lịch sự. Mình cũng rất ngưỡng mộ cách mọi người trong lab kiên nhẫn với trainee. Từ đó, mình bắt đầu nhìn lại chính mình, nhìn thấy cả những sai lầm trong quá khứ khi đôi lúc mình đã quá khắt khe với những người xung quanh.
 
 Những ngày đầu ở Áo lại đúng vào thời gian Covid. Lần đầu ra nước ngoài, không ngôn ngữ, không kinh nghiệm, mọi thứ đều mới mẻ. Mình được giúp đỡ từ những người xa lạ nơi xứ người, từ các anh chị em đi trước ở Wien trong những ngày đầu tiên. Đến giờ nghĩ lại, mình vẫn thấy bản thân thật sự rất may mắn. Sợ kể tên rồi lại thiếu một ai đó, nên mình xin không kể tên.
 
-Năm đầu tiên, mình như một đứa trẻ tập nói. Nói bập bẹ từng câu tiếng Anh, im lặng trong rất nhiều cuộc thảo luận vì không hiểu điều gì đang diễn ra. Mình từng nghĩ rằng chỉ cần kết thúc PhD với một vài bài báo nhỏ là được. Mình từng mặc định có lẽ mình sẽ không bao giờ có được những kỹ năng như các bạn khác trong chương trình. Sinh viên châu Âu thường có tiếng Anh cực tốt, các bạn dẫn dắt vấn đề nghiên cứu rất mượt. Những ngày đầu ấy, không biết bao nhiêu lần mình than vãn hàng giờ với các anh chị đi trước. 
+Năm đầu tiên, mình như một đứa trẻ tập nói. Nói bập bẹ từng câu tiếng Anh, im lặng trong rất nhiều cuộc thảo luận vì không hiểu điều gì đang diễn ra. Mình từng nghĩ rằng chỉ cần kết thúc PhD với một vài bài báo nhỏ là được. Mình từng mặc định có lẽ mình sẽ không bao giờ có được những kỹ năng như các bạn khác trong chương trình. Sinh viên châu Âu thường có tiếng Anh cực tốt, các bạn dẫn dắt vấn đề nghiên cứu rất mượt. Những ngày đầu ấy, không biết bao nhiêu lần mình than vãn hàng giờ với các anh chị đi trước.
 
 Nhưng rồi mọi thứ cũng dần đi vào quỹ đạo. Mình dần trưởng thành hơn trong nhiều kỹ năng khác nhau. Bắt đầu hiểu rõ hơn mảng nghiên cứu của mình đang cần gì, bắt đầu nhìn thấy những điều mới mẻ và hấp dẫn hơn trong việc trở thành một nhà khoa học. Mình bắt đầu học từ câu chuyện của nhiều nhà khoa học khác, nhìn nhận và định hình rõ hơn những gì mình cần làm. Những ước mơ cũng bắt đầu lớn hơn.
 
 Và lần này, mình hiểu rằng ước mơ thôi là chưa đủ. Mình cần có kế hoạch. Cần gom góp từng cơ hội từ nhỏ đến lớn, tích lũy từng chút một cho những cột mốc sự nghiệp của mình: bài báo, giải thưởng, funding… Có những thứ ngày trước nhìn vào tưởng rất xa, nhưng khi chia nhỏ nó ra thành từng bước, từng năm, từng việc cần làm, mình bắt đầu thấy con đường rõ hơn.
 
-Và sau tất cả, mình cũng dần nhận ra rằng điều cuối cùng khiến mình hài lòng không chỉ là một công trình được đăng ở top journal. Điều quan trọng hơn vẫn là công trình ấy giải quyết được gì cho lĩnh vực nghiên cứu, đóng góp được điều gì mới và đem lại bao nhiêu giá trị cho cộng đồng. Nói vậy thôi chứ trước khi thấy điều này, ai cũng phải phấn đấu để đưa bài báo của mình lên những tạp chí hàng đầu. :)
+Và sau tất cả, mình cũng dần nhận ra rằng điều cuối cùng khiến mình hài lòng không chỉ là một công trình được đăng ở top journal. Điều quan trọng hơn vẫn là công trình ấy giải quyết được gì cho lĩnh vực nghiên cứu, đóng góp được điều gì mới và đem lại bao nhiêu giá trị cho cộng đồng. Nói vậy thôi chứ trước khi thấy điều này, ai cũng phải phấn đấu để đưa bài báo của mình lên những tạp chí chất lượng. :)
 
 Có lẽ đó cũng là lúc ước mơ “trở thành nhà khoa học” của đứa trẻ năm nào không còn mơ hồ nữa.
 
-Ngày hôm nay, trở lại Áo để nhận một trong những giải thưởng danh giá nhất dành cho luận án tiến sĩ, mình vẫn cảm thấy khó tin khi nhìn lại chặng đường đã đi qua. 
+Ngày hôm nay, trở lại Áo để nhận một trong những giải thưởng danh giá nhất dành cho luận án tiến sĩ, mình vẫn cảm thấy khó tin khi nhìn lại chặng đường đã đi qua.
 
-Ở nơi này, mình đã tìm thấy niềm tin rằng bản thân có thể trở thành một nhà khoa học chuyên nghiệp, đi tìm sự thật trong muôn vàn bí ẩn của tự nhiên và tạo ra những tri thức mới có thể một ngày nào đó giúp cuộc sống con người tốt đẹp hơn. Ở nơi này, mình cũng dần nhận ra rằng bản thân có thể làm được nhiều hơn, nhiều hơn nữa, nếu mình dám ước mơ không giới hạn, biết hoạch định và cố gắng hết mình vì nó.
+Ở nơi này, mình đã tìm thấy niềm tin rằng bản thân có thể trở thành một nhà khoa học chuyên nghiệp, đi tìm sự thật trong muôn vàn bí ẩn của tự nhiên và tạo ra những tri thức mới. Ở nơi này, mình cũng dần nhận ra rằng bản thân có thể làm được nhiều hơn, nhiều hơn nữa, nếu mình dám ước mơ không giới hạn, biết hoạch định và cố gắng hết mình vì nó.
 
 Dĩ nhiên, bất cứ điều gì trong cuộc sống cũng cần một chút may mắn. Nhưng mình cũng tin rằng may mắn thật sự có ý nghĩa khi mình đã chuẩn bị đủ tốt để đón lấy nó.
 
-Những công trình PhD đã mang về cho mình sáu giải thưởng và một khoản tài trợ nghiên cứu tại Áo và quốc tế—những điều mà năm năm trước, một đứa tiếng Anh còn bập bẹ như mình chỉ dám xem là những giấc mơ xa vời. 
+Những công trình PhD đã mang về cho mình sáu giải thưởng, một khoản tài trợ nghiên cứu tại Áo và quốc tế—những điều mà năm năm trước, một đứa tiếng Anh còn bập bẹ như mình chỉ dám xem là những giấc mơ xa vời.
 
-Mình từng nhìn những thông cáo báo chí về giải thưởng hằng năm, nuôi ước mơ một ngày nào đó mình có thể ghi tên người Việt vào những giải thưởng ấy? Khát khao đó lớn dần từng ngày, có lúc những khó khăn xảy đến liên tục. Có một năm mình gần như không tạo ra được kết quả mới có ý nghĩa, và cả bốn bản thảo gửi đi đều bị từ chối. Nhưng mình vẫn tự nhủ rằng không được rơi vào bẫy khoa học trung bình, hãy giải quyết vấn đề nếu reviewer nhận xét có tính xây dựng, hãy chấp nhận thực tế đa số giả thuyết không phải sự thật để đi tiếp. 
+Mình từng nhìn những thông cáo báo chí về giải thưởng hằng năm, nuôi ước mơ một ngày nào đó mình có thể ghi tên người Việt vào những giải thưởng ấy? Khát khao đó lớn dần từng ngày, có lúc những khó khăn xảy đến liên tục. Có một năm mình gần như không tạo ra được kết quả mới có ý nghĩa, và cả bốn bản thảo gửi đi đều bị từ chối. Nhưng mình vẫn tự nhủ rằng không được rơi vào bẫy khoa học trung bình, hãy giải quyết vấn đề nếu reviewer nhận xét có tính xây dựng, hãy chấp nhận thực tế đa số giả thuyết không phải sự thật để đi tiếp.
 
 Nơi đất khách không thiếu những điều làm mình chùn bước, có những lúc mình muốn quay bước về nhà tìm nơi bình yên nhất. Nhưng rồi mình vẫn bước tiếp, và vẫn đang viết câu chuyện tuổi trẻ của mình theo cách mình muốn.
 
@@ -268,13 +268,13 @@ Chớp mắt một cái, hơn 12 năm đã trôi qua kể từ ngày đầu tiê
 
 12 năm đủ dài để rèn mình từ một đứa trẻ có thật nhiều khao khát về sự nghiệp, luôn sợ hãi và lo ngại, trở thành một đứa lì lợm hơn, dám nuôi những ước mơ lớn hơn, nhưng cũng bình tĩnh hơn trước những sóng gió của cuộc đời. 12 năm cũng đủ để mình hiểu chuyện hơn, biết ơn nhiều hơn và cảm thông hơn trước khi phán xét.
 
-Và càng đi xa, mình càng hiểu rằng những điều mình đạt được hôm nay chưa bao giờ chỉ là nỗ lực của riêng mình. Đó còn là sự nâng đỡ của những người thầy, người bạn và gia đình đã tin tưởng mình. Và đó cũng là kết quả từ những nỗ lực cả đời của ba mẹ. Không chỉ là những lo toan cơm áo gạo tiền, mà còn là bao lần phải vắt óc suy nghĩ xem nên ứng xử thế nào, chỉ bảo tụi mình ra sao trong mỗi giai đoạn của cuộc đời. Mỗi lần mình cứng đầu là những đêm mẹ mất ngủ. Ngày xưa, mỗi lần ba khoe thành tích của mình với hàng xóm, mình thường khó chịu. Còn bây giờ, mình nỗ lực cho bản thân, nhưng cũng thấy hạnh phúc khi ba mẹ có một điều gì đó để tự hào, để kể với người khác. Bởi càng lớn mình càng hiểu rằng, thành quả cả đời của ba mẹ chỉ có duy nhất tụi mình.
+Và càng đi xa, mình càng hiểu rằng những điều mình đạt được hôm nay chưa bao giờ chỉ là nỗ lực của riêng mình. Đó còn là sự nâng đỡ của những người thầy, người bạn và gia đình đã tin tưởng mình.
 
-Mình vẫn nhớ bao nhiêu gian nan, bao nhiêu lần bẽ bàng ba mẹ phải gánh, chỉ để tìm con chữ cho mấy anh em, chỉ để tụi mình được hưởng nền giáo dục tốt hơn.
+Và đó cũng là kết quả từ những nỗ lực cả đời của ba mẹ. Không chỉ là những lo toan cơm áo gạo tiền, mà còn là bao lần phải vắt óc suy nghĩ xem nên ứng xử thế nào, chỉ bảo tụi mình ra sao trong mỗi giai đoạn của cuộc đời. Mỗi lần mình cứng đầu là những đêm mẹ mất ngủ. Ngày xưa, mỗi lần ba khoe thành tích của mình với hàng xóm, mình thường khó chịu. Còn bây giờ, mình nỗ lực cho bản thân, nhưng cũng thấy hạnh phúc khi ba mẹ có một điều gì đó để tự hào, để kể với người khác. Bởi càng lớn mình càng hiểu rằng, thành quả cả đời của ba mẹ chỉ có duy nhất tụi mình. Mình vẫn nhớ bao nhiêu gian nan, bao nhiêu lần bẽ bàng ba mẹ phải gánh, chỉ để tìm con chữ cho mấy anh em, chỉ để tụi mình được hưởng nền giáo dục tốt hơn.
 
 Từ một đứa trẻ ở làng, rồi lên trấn, lên thị, rồi đi ra thế giới. Mình đã đi qua nhiều nơi, gặp nhiều người, theo đuổi nhiều giấc mơ. Có những điều từng nghĩ là quá xa thì mình đã chạm được vào một chút. Và chắc chắn phía trước vẫn còn rất nhiều giấc mơ khác để mình tiếp tục đi tìm.
 
-Nhìn lại hành trình ấy, mình thấy mình đã rất, rất may mắn. May mắn vì trên mỗi chặng đường đều gặp được những thầy cô tốt dẫn dắt, những người tốt sẵn lòng giúp đỡ và trao cho mình cơ hội vào những thời điểm mình cần nhất. Nhân những ngày đặc biệt này, mình muốn viết lại đây như một lời cảm ơn nhỏ gửi đến tất cả những người đã góp phần trên hành trình dài đã qua—ở Việt Nam, Vienna, Innsbruck và bây giờ là Boston.
+Nhìn lại hành trình ấy, mình thấy mình đã rất, rất may mắn. May mắn vì trên mỗi chặng đường đều gặp được những thầy cô tốt dẫn dắt, những người tốt sẵn lòng giúp đỡ và trao cho mình cơ hội vào những thời điểm mình cần nhất. Nhân những ngày đặc biệt này, mình muốn viết lại đây như một lời cảm ơn nhỏ gửi đến tất cả những người đã góp phần trên hành trình dài đã qua, ở Việt Nam, Vienna, Innsbruck và bây giờ là Boston.
 
 Cầu mong cho tất cả những người mình yêu thương luôn được bình an.
 
