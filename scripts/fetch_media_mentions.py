@@ -152,6 +152,14 @@ OFFICIAL_FEATURE_PAGES = [
 # feed omits them or exposes only an indirect aggregator link.
 MANUAL_MENTIONS = [
     {
+        "title": "Trinh Phan-Canh featured in MedUnique people 03/2026",
+        "url": "https://www.meduniwien.ac.at/web/fileadmin/content/kommunikation/MedUnique/2026/P26096_MedUnique_people-3_2026_screen.pdf#page=5",
+        "source": "MedUnique people · MedUni Wien",
+        "date": "2026-09-19",
+        "via": "manual_seed",
+        "image": "/images/blog/life-sciences-phd-award-2026/01-award-presentation.jpg",
+    },
+    {
         "title": "Trinh Phan-Canh receives the Life Sciences PhD Award Austria 2026",
         "url": "https://www.myscience.at/news/wire/trinh_phan_canh_receives_the_life_sciences_phd_award_austria_2026-2026-meduniwien",
         "source": "MyScience.at",
