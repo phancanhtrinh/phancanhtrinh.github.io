@@ -522,8 +522,9 @@ img.avatar {
 .blog-post .title,
 .blog-post .smallhead,
 .blog-post .post,
+.blog-post .post *,
 .blog-post button {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .award-memory-carousel {
