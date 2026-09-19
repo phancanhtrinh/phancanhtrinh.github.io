@@ -144,7 +144,7 @@ And if I was willing to give a lot of my time and effort to pursue those dreams.
 
 Of course, everything in life requires a little luck. But I have also come to believe that luck matters most when we have prepared ourselves well enough to recognize it and seize it when it arrives.
 
-My PhD research has now brought me six awards and one research grant in Austria and abroad. Five years ago, these were things I would have considered impossible dreams for someone who could barely put together a sentence in English.
+My PhD research has now brought me six awards and one research grant in Austria and internationally. Five years ago, these were things I would have considered impossible dreams for someone who could barely put together a sentence in English.
 
 I remember reading the award announcements every year and quietly wondering: Could I one day put a Vietnamese name among those awardees? That desire grew stronger with time.
 
