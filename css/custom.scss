@@ -518,6 +518,58 @@ img.avatar {
   padding-bottom: 20px;
 }
 
+.award-memory-carousel {
+  margin: 1.25rem 0 2.25rem;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #eef0f1;
+  box-shadow: 0 8px 28px rgba(31, 42, 48, 0.12);
+}
+
+.award-memory-carousel .carousel-item {
+  margin: 0;
+}
+
+.award-memory-carousel .carousel-item img {
+  display: block;
+  width: 100%;
+  height: 580px;
+  margin: 0;
+  object-fit: contain;
+}
+
+.award-memory-carousel figcaption {
+  min-height: 48px;
+  padding: 0.75rem 1rem;
+  background: #263238;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.award-memory-carousel .carousel-control-prev,
+.award-memory-carousel .carousel-control-next {
+  bottom: 48px;
+}
+
+.award-memory-carousel .carousel-indicators {
+  bottom: 48px;
+  margin-bottom: 0.75rem;
+}
+
+.language-divider {
+  margin: 3.5rem 0;
+  border: 0;
+  border-top: 2px solid #dedede;
+}
+
+@media (max-width: 767px) {
+  .award-memory-carousel .carousel-item img {
+    height: 360px;
+  }
+}
+
 /* ---------------------------------------------------------
    Tutorials (eng_tut / vn_tut): larger, more readable body copy
 --------------------------------------------------------- */

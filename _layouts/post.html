@@ -59,7 +59,7 @@ layout: default
 	<div class="row">
 		<div class="col-lg-1"></div>
 		<div class="col-lg-10">
-			{% if page.image %}
+			{% if page.image and page.carousel != true %}
 			{% if page.link %}
 			<a href="{{ page.link }}">
 				<img class="offset" src="{{ page.image }}">
