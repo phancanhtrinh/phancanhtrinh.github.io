@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-20T14:38:53Z",
+  "generated_at": "2026-09-21T16:56:05Z",
   "window_days": 14,
   "count": 140,
   "topic_counts": {
     "spatial": 24,
     "synthetic": 11,
-    "focus": 37,
-    "life-science": 68
+    "focus": 40,
+    "life-science": 65
   },
   "attention": {
-    "generated_at": "2026-09-20T14:38:50Z",
+    "generated_at": "2026-09-21T16:56:02Z",
     "window_days": 15,
     "momentum_days": 7,
     "altmetric_enabled": false,
@@ -41,65 +41,7 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 75.7
-      },
-      {
-        "title": "Germline <i>EGFR</i> T790M mutation and lung cancer risk. ",
-        "authors": "LoPiccolo J, Micheletti S, Shi J, Wang W, Saini S, Lin KH, Xu W, Fontanillas P, 23andMe Research Team3‡, Koeller DR, Yatzus H, Williamson VG, Avila JA, Liautaud RB, Fields ND, Harper A, Kotait V, Izzo E, Ciupek A, Granville CA, Collins RL, Garber JE, Christiani DC, Aslibekyan S, Granka JM, Gusev A, Jänne PA, Auton A, Bell RK, Bond KK, Cochinwala Z, Das S, de Brito K, DelloRusso E, Eijsbouts C, Elson SL, German C, Granka JM, Hicks B, Hinds DA, Jabal R, Khan A, Kmiecik MJ, Kwong A, Liang Y, Lin KH, McIntyre MH, Saini S, Shastri AJ, Shi J, Shringarpure S, Su QJ, Tran V, Tung JY, Weldon CH, Xu W.",
-        "journal": "Science (New York, N.Y.)",
-        "date": "2026-09-17",
-        "url": "https://doi.org/10.1126/science.aec0473",
-        "doi": "10.1126/science.aec0473",
-        "abstract": "Most lung cancers are tobacco related, with genetic factors influencing smoking behavior identified through genome-wide association studies. However, inherited risk in familial and non-smoking-related lung cancers, including risk in carriers of EGFR T790M, remains poorly understood. Here, in more than 3.3 million individuals, the EGFR T790M germline variant is significantly associated with lung ca",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "science",
-        "topic": "focus",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Germline EGFR T790M mutation and lung cancer risk.",
-          "Most lung cancers are tobacco related, with genetic factors influencing smoking behavior identified through genome-wide association studies.",
-          "However, inherited risk in familial and non-smoking-related lung cancers, including risk in carriers of EGFR T790M, remains poorly understood."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 5,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 43.8
-      },
-      {
-        "title": "Highly efficient base editing at PCSK9 and normal human embryo development",
-        "authors": "Jerabek S, Jung C, Kappy M, Zhao Q, Sung J, Wang N, Kim E, Kim J, Kulmann MIR, King MB, McAndrew MJ, Li M, Bhatele S, Isado M, Jang HS, Dolezal M, Prosser R, Xu S, Hwang GH, Pichova I, Xu J, Marin D, Woo JS, Bae S, Treff N, Lapinaite A, Egli D.",
-        "journal": "Nature",
-        "date": "2026-09-09",
-        "url": "https://doi.org/10.1038/s41586-026-11118-x",
-        "doi": "10.1038/s41586-026-11118-x",
-        "abstract": "Cas9-based tools enable programmable DNA lesions for studying repair outcomes, gene function, and genome correction. In human embryos, Cas9-induced DNA double-strand breaks are genotoxic, causing frequent aneuploidy and large deletions<sup>1,2</sup>. Here, we evaluate DNA repair outcomes at nicks and mismatches introduced by base editors at the PCSK9 and HBG loci in human embryos. Delivering ABE8e",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "synthetic",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Highly efficient base editing at PCSK9 and normal human embryo development.",
-          "Cas9-based tools enable programmable DNA lesions for studying repair outcomes, gene function, and genome correction.",
-          "In human embryos, Cas9-induced DNA double-strand breaks are genotoxic, causing frequent aneuploidy and large deletions 1,2."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 1,
-        "bluesky_engagement": 0,
-        "media_mentions": 4,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 40.6
+        "attention_score": 75.5
       },
       {
         "title": "Lean adipocyte oxylipin signaling restrains breast cancer through ferroptosis",
@@ -122,13 +64,42 @@
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
         "bluesky_engagement": 0,
+        "media_mentions": 5,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 42.6
+      },
+      {
+        "title": "Highly efficient base editing at PCSK9 and normal human embryo development",
+        "authors": "Jerabek S, Jung C, Kappy M, Zhao Q, Sung J, Wang N, Kim E, Kim J, Kulmann MIR, King MB, McAndrew MJ, Li M, Bhatele S, Isado M, Jang HS, Dolezal M, Prosser R, Xu S, Hwang GH, Pichova I, Xu J, Marin D, Woo JS, Bae S, Treff N, Lapinaite A, Egli D.",
+        "journal": "Nature",
+        "date": "2026-09-09",
+        "url": "https://doi.org/10.1038/s41586-026-11118-x",
+        "doi": "10.1038/s41586-026-11118-x",
+        "abstract": "Cas9-based tools enable programmable DNA lesions for studying repair outcomes, gene function, and genome correction. In human embryos, Cas9-induced DNA double-strand breaks are genotoxic, causing frequent aneuploidy and large deletions<sup>1,2</sup>. Here, we evaluate DNA repair outcomes at nicks and mismatches introduced by base editors at the PCSK9 and HBG loci in human embryos. Delivering ABE8e",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "synthetic",
+        "flagship": true,
+        "summary_bullets": [
+          "Focus: Highly efficient base editing at PCSK9 and normal human embryo development.",
+          "Cas9-based tools enable programmable DNA lesions for studying repair outcomes, gene function, and genome correction.",
+          "In human embryos, Cas9-induced DNA double-strand breaks are genotoxic, causing frequent aneuploidy and large deletions 1,2."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
         "media_mentions": 4,
         "altmetric_score": 0,
         "x_mentions": 0,
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 34.8
+        "attention_score": 37.5
       },
       {
         "title": "Reimagining research papers as interactive and reliable AI agents",
@@ -157,7 +128,65 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 27.6
+        "attention_score": 27.5
+      },
+      {
+        "title": "Evolution and heterogeneity of lethal metastatic bladder cancer subtypes",
+        "authors": "Itagi P, Schuster SL, Arora S, Persse TW, Waters JA, Yang M, Min A, Chandra P, Adil M, Galipeau PC, Rudoy D, Kreitman AS, Lin Y, Ko M, Sayar E, Patton RD, Kollath L, Meis A, Lindergren S, Ji N, Ali K, Venkatesh H, Wladyka CL, McDeed AP, Mills CB, Vashisth M, Kim JY, Nadal R, Hawley JE, Yezefski TA, Psutka SP, Gore JL, Lin DW, Nelson PS, Cheng HH, Schweizer MT, Fong L, Lee JK, Yu EY, Corey E, Morrissey C, Grivas P, Montgomery RB, Wright JL, Haffner MC, Vakar-Lopez F, Mian OY, Lam HM, Hsieh AC, Ha G.",
+        "journal": "Nature",
+        "date": "2026-09-16",
+        "url": "https://doi.org/10.1038/s41586-026-11035-z",
+        "doi": "10.1038/s41586-026-11035-z",
+        "abstract": "Histological variation is a prognostic feature of metastatic urothelial cancer<sup>1-3</sup>, but its evolutionary trajectory remains poorly defined. We developed a metastatic bladder cancer rapid autopsy programme enriched in histological subtypes<sup>4</sup> to profile individuals with terminal disease. Here by reconstructing the evolutionary histories of patient tumours, we show that metastasis",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "focus",
+        "flagship": true,
+        "summary_bullets": [
+          "Focus: Evolution and heterogeneity of lethal metastatic bladder cancer subtypes.",
+          "Histological variation is a prognostic feature of metastatic urothelial cancer1-3, but its evolutionary trajectory remains poorly defined.",
+          "We developed a metastatic bladder cancer rapid autopsy programme enriched in histological subtypes4 to profile individuals with terminal disease."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
+        "media_mentions": 3,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 27.5
+      },
+      {
+        "title": "PLA2G2D in tumour-draining lymph nodes regulates anti-tumour immunity",
+        "authors": "van Krimpen A, Huang J, Eterman M, Gerretsen V, Umetani M, Janssen JC, van Nimwegen M, Rozendaal N, van den Bosch TPP, Jiang X, Logronio K, Liu AZ, Liu YR, Nagasaki Y, Murakami M, Onrust-Van Schoonhoven A, Leliveld A, Vadgama D, Langeveld H, van Wijck R, Bindels E, von der Thüsen J, Mooyaart A, van Maldegem F, Brenis CM, Verwaerde S, Hendriks RW, Lambrecht BN, Grünhagen DJ, Verhoef C, Aerts JGJV, Lee LF, Lu KV, Stadhouders R, Dammeijer F.",
+        "journal": "Nature",
+        "date": "2026-09-09",
+        "url": "https://doi.org/10.1038/s41586-026-10954-1",
+        "doi": "10.1038/s41586-026-10954-1",
+        "abstract": "Systemic anti-tumour immunity results from T cell priming in tumour-draining lymph nodes (TDLNs)<sup>1-4</sup>. Although the suppression of T cells in tumours is well characterized<sup>5-8</sup>, whether this occurs in TDLNs-and if so, through which mechanisms-remains poorly understood. Here, using imaging mass cytometry of TDLNs from patients with melanoma, we identify a spatial neighbourhood in ",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "spatial",
+        "flagship": true,
+        "summary_bullets": [
+          "Focus: PLA2G2D in tumour-draining lymph nodes regulates anti-tumour immunity.",
+          "Systemic anti-tumour immunity results from T cell priming in tumour-draining lymph nodes (TDLNs) 1-4.",
+          "Although the suppression of T cells in tumours is well characterized 5-8 , whether this occurs in TDLNs-and if so, through which mechanisms-remains poorly understood."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
+        "media_mentions": 2,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 24.4
       },
       {
         "title": "Targeted genomic integration and rearrangement using prime assembly",
@@ -186,36 +215,36 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 22.6
+        "attention_score": 22.5
       },
       {
-        "title": "Evolution and heterogeneity of lethal metastatic bladder cancer subtypes",
-        "authors": "Itagi P, Schuster SL, Arora S, Persse TW, Waters JA, Yang M, Min A, Chandra P, Adil M, Galipeau PC, Rudoy D, Kreitman AS, Lin Y, Ko M, Sayar E, Patton RD, Kollath L, Meis A, Lindergren S, Ji N, Ali K, Venkatesh H, Wladyka CL, McDeed AP, Mills CB, Vashisth M, Kim JY, Nadal R, Hawley JE, Yezefski TA, Psutka SP, Gore JL, Lin DW, Nelson PS, Cheng HH, Schweizer MT, Fong L, Lee JK, Yu EY, Corey E, Morrissey C, Grivas P, Montgomery RB, Wright JL, Haffner MC, Vakar-Lopez F, Mian OY, Lam HM, Hsieh AC, Ha G.",
-        "journal": "Nature",
-        "date": "2026-09-16",
-        "url": "https://doi.org/10.1038/s41586-026-11035-z",
-        "doi": "10.1038/s41586-026-11035-z",
-        "abstract": "Histological variation is a prognostic feature of metastatic urothelial cancer<sup>1-3</sup>, but its evolutionary trajectory remains poorly defined. We developed a metastatic bladder cancer rapid autopsy programme enriched in histological subtypes<sup>4</sup> to profile individuals with terminal disease. Here by reconstructing the evolutionary histories of patient tumours, we show that metastasis",
+        "title": "A viral origin for RNA-guided immunity",
+        "authors": "Bravo JPK.",
+        "journal": "Science (New York, N.Y.)",
+        "date": "2026-09-17",
+        "url": "https://doi.org/10.1126/science.ael0758",
+        "doi": "10.1126/science.ael0758",
+        "abstract": "Ancient viral warfare could be at the root of modern class 1 CRISPR bacterial defense systems.",
         "citation_count": 0,
         "source": "journal",
-        "journal_family": "nature",
-        "topic": "focus",
+        "journal_family": "science",
+        "topic": "synthetic",
         "flagship": true,
         "summary_bullets": [
-          "Focus: Evolution and heterogeneity of lethal metastatic bladder cancer subtypes.",
-          "Histological variation is a prognostic feature of metastatic urothelial cancer1-3, but its evolutionary trajectory remains poorly defined.",
-          "We developed a metastatic bladder cancer rapid autopsy programme enriched in histological subtypes4 to profile individuals with terminal disease."
+          "Focus: A viral origin for RNA-guided immunity.",
+          "Ancient viral warfare could be at the root.",
+          "of modern class 1 CRISPR bacterial defense systems."
         ],
         "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 2,
+        "bluesky_mentions": 1,
+        "bluesky_engagement": 6,
+        "media_mentions": 1,
         "altmetric_score": 0,
         "x_mentions": 0,
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 19.6
+        "attention_score": 21.5
       },
       {
         "title": "Cohesin reshapes replication fork contacts to aid fork slowing and reversal",
@@ -244,25 +273,25 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 19.6
+        "attention_score": 19.5
       },
       {
-        "title": "Gliomas phenocopy an inborn error of metabolism to drive neuronal activity and tumor growth",
-        "authors": "Abdullah KG, Miki K, Edgar CK, Wu SA, Xiao Y, Huang YT, Drexler R, Krishna S, Puliyappadamba VT, Tay LWR, Yuan F, Savani MR, Ghoche MT, Kotermanski SE, Traylor JI, Guo L, Gunn K, Hicks WH, Shi DD, Yalçın B, Kilian K, Tang M, Moyer M, Levitt MM, El-Shami M, Oken S, Manoj N, Gattie LC, Smith BC, Kaphle P, Shipman T, West RE, Liang C, Eshac Y, Chia TY, Patel TR, Hatanpaa KJ, Raj P, Miska JM, Ramirez DMO, Ma S, Nolin TD, Lega BC, Zinn PO, Kuhn BJ, Clark NM, Williams C, Mani DR, Gillette MA, Calzado MA, Xu L, Zacharias LG, Cai F, Ksendzovsky A, Mathews TP, Losman JA, Levi B, Barron T, Gibson JR, Richardson TE, Khan OH, Agnihotri S, Hervey-Jumper SL, Chamberland S, Monje M, Huber KM, DeBerardinis RJ, McBrayer SK.",
-        "journal": "Cell",
-        "date": "2026-09-15",
-        "url": "https://doi.org/10.1016/j.cell.2026.08.037",
-        "doi": "10.1016/j.cell.2026.08.037",
-        "abstract": "The metabolic hallmarks of high-grade glioma (HGG) are not fully understood. Human brain tissue metabolomics revealed that the creatine synthesis pathway intermediate guanidinoacetate (GAA) accumulated ∼100-fold in HGGs relative to controls, which was caused by imbalanced activities of enzymes in this pathway. Glioma cells secreted GAA rather than using it to produce creatine, implicating an alter",
+        "title": "Identification of broadly tumour-reactive γδ TCRs from multiple myeloma",
+        "authors": "St Paul M, Hendrikse LD, Ying F, Snow BE, Luo P, Helke S, Smith LK, Hilal A, Abelman DD, Ramamurthy N, Nault H, Wei EN, Gold MJ, Tobin C, Lien SC, Liu Y, Zhou W, Zhang X, Nguyen D, Agbede O, Pedersen S, Eagles J, Saunders ME, Berger T, Wakeham A, Scott DS, Ly D, de Campos CB, Liang G, Zheng C, Wilson WV, Masih-Khan E, White D, McCurdy A, Louzada ML, Kotb R, Chu MP, Parkin S, Reece D, Gul E, Tiedemann R, Pugh TJ, Hirano N, Ohashi PS, Stewart AK, Trudel S, Mak TW.",
+        "journal": "Nature",
+        "date": "2026-09-16",
+        "url": "https://doi.org/10.1038/s41586-026-11055-9",
+        "doi": "10.1038/s41586-026-11055-9",
+        "abstract": "γδ T cells are becoming increasingly appreciated for their antitumour capacity and role in mediating responses to immune checkpoint blockade<sup>1-3</sup>. Unlike classical αβ T cells, the degree to which γδ T cells rely on their T cell receptors (TCRs) to induce antitumour responses remains unclear. The challenge of distinguishing γδ T cells with tumour-reactive TCRs from bystander γδ T cells lim",
         "citation_count": 0,
         "source": "journal",
-        "journal_family": "cell",
+        "journal_family": "nature",
         "topic": "focus",
         "flagship": true,
         "summary_bullets": [
-          "Focus: Gliomas phenocopy an inborn error of metabolism to drive neuronal activity and tumor growth.",
-          "The metabolic hallmarks of high-grade glioma (HGG) are not fully understood.",
-          "Human brain tissue metabolomics revealed that the creatine synthesis pathway intermediate guanidinoacetate (GAA) accumulated ∼100-fold in HGGs relative to controls, which was caused by imbalanced activities of enzymes…"
+          "Focus: Identification of broadly tumour-reactive γδ TCRs from multiple myeloma.",
+          "γδ T cells are becoming increasingly appreciated for their antitumour capacity and role in mediating responses to immune checkpoint blockade1-3.",
+          "Unlike classical αβ T cells, the degree to which γδ T cells rely on their T cell receptors (TCRs) to induce antitumour responses remains unclear."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
@@ -274,70 +303,364 @@
         "x_growth": 0,
         "altmetric_growth": 0,
         "attention_score": 19.5
-      },
-      {
-        "title": "Norway spruce spatiotemporal programs of conifer reproductive development",
-        "authors": "Saarenpää S, Zivi N, Masarapu Y, Mishra LS, Rouot S, Orozco A, Herrera-Foessel SA, Ahlgren Kalman T, Liva M, Yadav S, Englund M, Street NR, Sundström JF, Giacomello S.",
-        "journal": "Cell",
-        "date": "2026-09-14",
-        "url": "https://doi.org/10.1016/j.cell.2026.08.033",
-        "doi": "10.1016/j.cell.2026.08.033",
-        "abstract": "Conifers are essential components of forest ecosystems; however, their reproductive development remains largely understudied due to their genomes' complexity. Here, we present a time-resolved spatial transcriptomics (ST) atlas of 88 tissue sections across three time points from developing reproductive and vegetative shoots in wild-type Norway spruce (Picea abies), as well as transition shoots from",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "cell",
-        "topic": "spatial",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Norway spruce spatiotemporal programs of conifer reproductive development.",
-          "Conifers are essential components of forest ecosystems.",
-          "however, their reproductive development remains largely understudied due to their genomes' complexity."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 1,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 17.4
       }
     ]
   },
   "papers": [
     {
-      "title": "Identifying Putative Pathogenic Non-Coding Variants in Unresolved Rare Disease Patients Using Topologically Associated Domains",
-      "authors": "Gacita, A. M., Pahl, M., Torres, M. D., Ganesan, S., Blair, J. J., Patel, K., Ramakrishnan, R., Conlin, L., Helbig, I., Grant, S. F. A.",
+      "title": "Covariance Nonstationarity is Evident in Spatial Transcriptomics and Provides a New Categorization of Spatially Varying Genes",
+      "authors": "Velidi, P., Wei, Z., Nathoo, F.",
       "journal": "bioRxiv (preprint)",
-      "date": "2026-09-20",
-      "url": "https://doi.org/10.64898/2026.09.17.752339",
-      "doi": "10.64898/2026.09.17.752339",
-      "abstract": "Unresolved rare disease is a major public health challenge affecting ~300 million people worldwide. At least 50% of these individuals remain genetically unresolved after applying exome sequencing and/or whole genome sequencing. One source of these missing diagnoses is the presence of rare variants within the non-coding genome that are detected but not interpreted by whole genome sequencing. In ord",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.08.10.743911",
+      "doi": "10.64898/2026.08.10.743911",
+      "abstract": "Gaussian process models underlie many spatial transcriptomics tools but typically assume stationary covariance. Covariance non-stationarity has long been recognized in spatial statistics as an important feature of spatial data, yet it has received little attention in spatial transcriptomics. We show that this omission is consequential: covariance non-stationarity is substantially evident across sp",
       "source": "preprint",
-      "topic": "life-science",
+      "topic": "spatial",
       "summary_bullets": [
-        "Focus: Identifying Putative Pathogenic Non-Coding Variants in Unresolved Rare Disease Patients Using Topologically Associated Domains.",
-        "Unresolved rare disease is a major public health challenge affecting ~300 million people worldwide.",
-        "At least 50% of these individuals remain genetically unresolved after applying exome sequencing and/or whole genome sequencing."
+        "Focus: Covariance Nonstationarity is Evident in Spatial Transcriptomics and Provides a New Categorization of Spatially Varying Genes.",
+        "Gaussian process models underlie many spatial transcriptomics tools but typically assume stationary covariance.",
+        "Covariance non-stationarity has long been recognized in spatial statistics as an important feature of spatial data, yet it has received little attention in spatial transcriptomics."
       ],
       "summary_kind": "abstract"
     },
     {
-      "title": "Human-specific retrotransposons encode the regulatory logic of two lineages in a bipotent neural crest and central nervous system precursor",
-      "authors": "Nguyen, C. M. D., Mitchell, Z. H., Trizzino, M.",
+      "title": "iPS-CNM: an iPSC collection generated by base editing for centronuclear myopathy",
+      "authors": "Staecker, I., Pommerenke, C., Ellinghaus, A., Steinkirchinger, I., Hauer, V., Kallnischkies, H., Kaufmann, M., Groebe, L., Faehnrich, S., Haake, J., Steenpass, L., Wang, H.",
       "journal": "bioRxiv (preprint)",
-      "date": "2026-09-20",
-      "url": "https://doi.org/10.64898/2026.09.16.752192",
-      "doi": "10.64898/2026.09.16.752192",
-      "abstract": "Transposable elements are sources of cis-regulatory innovation, and the youngest families are particularly interesting because only recent insertions can account for species-specific regulatory divergence. SVAs (subfamilies -E, F), LTR5Hs and L1HS are human-specific retroelements. They are polymorphic, and in some cases still mobile. Regulatory activity in these families has been surveyed mainly i",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.15.751756",
+      "doi": "10.64898/2026.09.15.751756",
+      "abstract": "Centronuclear myopathy (CNM) is a rare form of inherited diseases often caused by single base mutations. Modelling CNM is challenging due to the diversity of CNM mutations and genetic background of individual patient. To address this, we used base editing to introduce CNM mutations into an induced pluripotent stem cell (iPSC) line from a healthy donor, generating a collection of iPSC lines (iPS-CN",
+      "source": "preprint",
+      "topic": "synthetic",
+      "summary_bullets": [
+        "Focus: iPS-CNM: an iPSC collection generated by base editing for centronuclear myopathy.",
+        "Centronuclear myopathy (CNM) is a rare form of inherited diseases often caused by single base mutations.",
+        "Modelling CNM is challenging due to the diversity of CNM mutations and genetic background of individual patient."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Reprogramming mRNA localization by targeted RNA-protein interference reveals roles in oncogenesis",
+      "authors": "Mason, D., Bandyopadhyay, D., Jiwnani, N., Meyer, B., Garcia Jimenez, I., Iglesias-Bartolome, R., Mili, S.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.02.27.708609",
+      "doi": "10.64898/2026.02.27.708609",
+      "abstract": "RNA binding proteins (RBPs) associate with RNAs in intricate ribonucleoprotein complexes and regulate various aspects of RNA life cycle and, by extension, cell functions. Despite their significance, elucidating the functional contributions of specific RNA-RBP binding events, particularly in long-term phenotypic assays, remains challenging. Here, we harness the specificity of CRISPR/dCas13 to inter",
+      "source": "preprint",
+      "topic": "synthetic",
+      "summary_bullets": [
+        "Focus: Reprogramming mRNA localization by targeted RNA-protein interference reveals roles in oncogenesis.",
+        "RNA binding proteins (RBPs) associate with RNAs in intricate ribonucleoprotein complexes and regulate various aspects of RNA life cycle and, by extension, cell functions.",
+        "Despite their significance, elucidating the functional contributions of specific RNA-RBP binding events, particularly in long-term phenotypic assays, remains challenging."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "The miR-615-5p/ID1 Axis Regulates Autophagy-Associated Migration in Pancreatic Ductal Adenocarcinoma",
+      "authors": "Sarkar, A., Ray, S., Ray, A., Biswas, K.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.08.27.747461",
+      "doi": "10.64898/2026.08.27.747461",
+      "abstract": "Pancreatic ductal adenocarcinoma (PDAC) is an aggressive malignancy characterized by high metastatic dissemination, therapy resistance, and poor clinical outcome. Inhibitor of differentiation 1 or ID1, is frequently overexpressed in PDAC and is associated with tumour progression and adverse clinical outcome. However, the mechanisms governing its post-transcriptional regulation remain insufficientl",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: The miR-615-5p/ID1 Axis Regulates Autophagy-Associated Migration in Pancreatic Ductal Adenocarcinoma.",
+        "Pancreatic ductal adenocarcinoma (PDAC) is an aggressive malignancy characterized by high metastatic dissemination, therapy resistance, and poor clinical outcome.",
+        "Inhibitor of differentiation 1 or ID1, is frequently overexpressed in PDAC and is associated with tumour progression and adverse clinical outcome."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Small Extracellular Vesicles from Gram-Negative Bacterial Infections Induce Myeloid Differentiation via p38 Signaling and Coordinate Antibacterial Defense Through the p38-IL-6 Axis",
+      "authors": "Fleming, A., Hobbs, H., Matulis, G., Zhou, W., Calvert, V., Mason, H., Omole, S., Gaikwad, S. A., Ellis, C. C., Petricoin, E. F., Almeida, I. C., Hakami, R. M.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2025.12.30.697125",
+      "doi": "10.64898/2025.12.30.697125",
+      "abstract": "Much still remains to understand about the underlying molecular mechanisms by which the trafficking of small extracellular vesicles (sEVs) modulates innate immune responses during infection with pathogenic Gram-negative bacteria. To address this significant gap in knowledge, we used two infection models to investigate innate immune regulation by the sEVs released from cells infected with either Ye",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Small Extracellular Vesicles from Gram-Negative Bacterial Infections Induce Myeloid Differentiation via p38 Signaling and Coordinate Antibacterial Defense Through the p38-IL-6 Axis.",
+        "Much still remains to understand about the underlying molecular mechanisms by which the trafficking of small extracellular vesicles (sEVs) modulates innate immune responses during infection with pathogenic Gram-negative…",
+        "To address this significant gap in knowledge, we used two infection models to investigate innate immune regulation by the sEVs released from cells infected with either Ye."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Mechanistic Investigation of Reversible Hibernation-Driven Immune Suppression in Thirteen-Lined Ground Squirrels",
+      "authors": "Zhao, M., Chen, J., Burrett, R., Yang, W., Mandal, S., Lohani, S. C., Zhang, C., Wickramasinghe, J., Andrews, M. T., Li, Q.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.14.750722",
+      "doi": "10.64898/2026.09.14.750722",
+      "abstract": "Torpor in mammals imposes extreme energetic constraints, yet how it reshapes the immune system remains poorly understood. Here we combined single-cell RNA sequencing with quantitative image analysis of immune cell populations in splenic tissues to define immune remodeling during torpor in a natural hibernator, 13-lined ground squirrels. The torpid spleen showed a significant contraction of white p",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Mechanistic Investigation of Reversible Hibernation-Driven Immune Suppression in Thirteen-Lined Ground Squirrels.",
+        "Torpor in mammals imposes extreme energetic constraints, yet how it reshapes the immune system remains poorly understood.",
+        "Here we combined single-cell RNA sequencing with quantitative image analysis of immune cell populations in splenic tissues to define immune remodeling during torpor in a natural hibernator, 13-lined…"
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "A cell-intrinsic steroidogenic checkpoint constrains female Th2 effector output independently of gonadal hormones",
+      "authors": "Pramanik, J., Zhao, Q., Chakraborty, S., Xie, C., Mahata, B.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.05.13.724806",
+      "doi": "10.64898/2026.05.13.724806",
+      "abstract": "T helper 2 (Th2) lymphocytes drive type-2 immunity and allergic diseases that disproportionately affect females, yet the mechanisms underlying this sexual dimorphism remain poorly understood. Current models attribute sex-biased immune differences to circulating gonadal hormones and to sex chromosome composition, leaving unresolved whether immune cells possess cell-autonomous mechanisms acting inde",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: A cell-intrinsic steroidogenic checkpoint constrains female Th2 effector output independently of gonadal hormones.",
+        "T helper 2 (Th2) lymphocytes drive type-2 immunity and allergic diseases that disproportionately affect females, yet the mechanisms underlying this sexual dimorphism remain poorly understood.",
+        "Current models attribute sex-biased immune differences to circulating gonadal hormones and to sex chromosome composition, leaving unresolved whether immune cells possess cell-autonomous mechanisms acting inde."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "CD55-CD319-CX3CR1 flow cytometry gating strategy recapitulates scRNA-seq-defined memory CD8 T cell subpopulations",
+      "authors": "Bohacova, P., Terekova, M., Shpynov, O., Francis, T., Husarcikova, K., Tsurinov, P., Kossl, J., Kleverov, M., Keppel, M., Harridge, S. D. R., Singh, N., Artyomov, M. N.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.15.751807",
+      "doi": "10.64898/2026.09.15.751807",
+      "abstract": "Human CD8 T cells have traditionally been classified into naive, central memory, effector memory, and terminal effector subsets using CCR7 and CD45RA expression, a framework that has guided immunological research and clinical immune monitoring for nearly three decades. However, recent single-cell studies have revealed transcriptionally distinct CD8 T cell populations, including GZMK-, GZMB-, and c",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: CD55-CD319-CX3CR1 flow cytometry gating strategy recapitulates scRNA-seq-defined memory CD8 T cell subpopulations.",
+        "Human CD8 T cells have traditionally been classified into naive, central memory, effector memory, and terminal effector subsets using CCR7 and CD45RA expression, a framework that has guided…",
+        "However, recent single-cell studies have revealed transcriptionally distinct CD8 T cell populations, including GZMK-, GZMB-, and c."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Structure-function profiling identifies determinants of TCR-T cell therapeutic efficacy",
+      "authors": "Oyon-Olea, L., Vercher, E., Dichiara-Rodriguez, G., Erausquin, E., Hervas-Stubbs, S., Lopez-Sagaseta, J.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.15.750028",
+      "doi": "10.64898/2026.09.15.750028",
+      "abstract": "Glypican-3 (GPC3) is a promising target in adoptive T-cell therapy for hepatocellular carcinoma (HCC). TCR-A and TCR-B are two recently identified GPC3-specific TCRs recognizing the same HLA-A*02:01-restricted epitope but displaying markedly different therapeutic efficacy. To define the determinants of productive TCR-antigen recognition, we integrated high-resolution structures of both binary pMHC",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Structure-function profiling identifies determinants of TCR-T cell therapeutic efficacy.",
+        "Glypican-3 (GPC3) is a promising target in adoptive T-cell therapy for hepatocellular carcinoma (HCC).",
+        "TCR-A and TCR-B are two recently identified GPC3-specific TCRs recognizing the same HLA-A*02:01-restricted epitope but displaying markedly different therapeutic efficacy."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome",
+      "authors": "Xiong, D., Torres, M., Murray, D., Zhang, Z., Li, L., Naravane, A. C., Fragoza, R., Honig, B., Yu, H.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.1101/2025.06.09.658393",
+      "doi": "10.1101/2025.06.09.658393",
+      "abstract": "A significant portion of disease-causing mutations occur at protein-protein interfaces however, the number of structurally resolved multi-protein complexes is extremely small. Here we present a computational pipeline, PIONEER2, that integrates 3D structural similarity with geometric deep learning to accurately predict protein binding partner-specific interfacial residues. We compare the performanc",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome.",
+        "A significant portion of disease-causing mutations occur at protein-protein interfaces however, the number of structurally resolved multi-protein complexes is extremely small.",
+        "Here we present a computational pipeline, PIONEER2, that integrates 3D structural similarity with geometric deep learning to accurately predict protein binding partner-specific interfacial residues."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "celltypeEnrich: a consensus-based scRNA-seq cluster annotation tool",
+      "authors": "Rutledge, S., Tuteja, G.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.15.751735",
+      "doi": "10.64898/2026.09.15.751735",
+      "abstract": "Motivation Single-cell RNA sequencing (scRNA-seq) cluster annotation is a critical step in data analysis. Current methods are time-consuming, difficult to reproduce, or limited in tissue or species coverage. Results We developed celltypeEnrich, a cluster-level annotation tool that uses a hypergeometric test to identify enrichment of cell-type-specific genes from input gene lists. Enrichment result",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: celltypeEnrich: a consensus-based scRNA-seq cluster annotation tool.",
+        "Motivation Single-cell RNA sequencing (scRNA-seq) cluster annotation is a critical step in data analysis.",
+        "Current methods are time-consuming, difficult to reproduce, or limited in tissue or species coverage."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Correlation-aware discovery of co-occurring mutational signatures in cancer",
+      "authors": "Jin, H., Geiger, B., Glodzik, D., Gulhan, D. C., Park, P. J.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.14.751548",
+      "doi": "10.64898/2026.09.14.751548",
+      "abstract": "Somatic mutations in cancer genomes record the activities of diverse mutational processes. Mutational signature analysis has advanced mechanistic understanding of mutagenesis and informed clinical decision-making, yet existing methods assume independence among signatures--an unrealistic assumption that can produce composite or contaminated signatures, reduce detection power, and yield inconsistent",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Correlation-aware discovery of co-occurring mutational signatures in cancer.",
+        "Somatic mutations in cancer genomes record the activities of diverse mutational processes.",
+        "Mutational signature analysis has advanced mechanistic understanding of mutagenesis and informed clinical decision-making, yet existing methods assume independence among signatures--an unrealistic assumption that can produce composite or contaminated…"
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Uniformly processed transcriptome-wide alternative splicing profiles for pediatric cancer research",
+      "authors": "Liang, C. E., Shapiro, J. A., Beale, H. C., Taroni, J. N., Vaske, O. M.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.14.750241",
+      "doi": "10.64898/2026.09.14.750241",
+      "abstract": "Alterations in regulatory processes like alternative splicing contribute to pediatric cancer development. Although splicing aberrations have been observed in pediatric leukemias, alternative splicing has yet to be studied in pediatric cancers at scale, due to a lack of uniformly processed, sample-level pediatric cancer splicing profiles with non-diseased tissue comparators. We address this need by",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Uniformly processed transcriptome-wide alternative splicing profiles for pediatric cancer research.",
+        "Alterations in regulatory processes like alternative splicing contribute to pediatric cancer development.",
+        "Although splicing aberrations have been observed in pediatric leukemias, alternative splicing has yet to be studied in pediatric cancers at scale, due to a lack of uniformly processed…"
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Gravlax: an annotation-independent molecular evidence archive for single-cell RNA-seq",
+      "authors": "Patro, R.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.18.752708",
+      "doi": "10.64898/2026.09.18.752708",
+      "abstract": "A cell-by-gene count matrix is the artifact of a single-cell RNA-seq experiment that is most often stored, shared, and reanalyzed. It is the output of a computation whose inputs are the sequenced molecules and a gene annotation, and while the molecules never change, the annotation is revised continually. Once the matrix has been produced, the evidence behind it can no longer be reinterpreted. Reco",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Gravlax: an annotation-independent molecular evidence archive for single-cell RNA-seq.",
+        "A cell-by-gene count matrix is the artifact of a single-cell RNA-seq experiment that is most often stored, shared, and reanalyzed.",
+        "It is the output of a computation whose inputs are the sequenced molecules and a gene annotation, and while the molecules never change, the annotation is revised continually."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "A transcriptional continuum from clinically normal to lesional skin: Single-cell trajectory analysis of psoriasis",
+      "authors": "Uzun, G., Konak, D., Kazan, H., Pir, P.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.15.751704",
+      "doi": "10.64898/2026.09.15.751704",
+      "abstract": "Psoriasis is a chronic inflammatory skin disease characterized by immune dysregulation and complex cellular interactions involving keratinocytes (KCs), T cells, and endothelial cells. Single-cell studies have mapped the cellular diversity of psoriatic plaques, yet most analyses treat skin as either healthy or diseased and therefore overlook the graded changes that precede a visible lesion. We aske",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: A transcriptional continuum from clinically normal to lesional skin: Single-cell trajectory analysis of psoriasis.",
+        "Psoriasis is a chronic inflammatory skin disease characterized by immune dysregulation and complex cellular interactions involving keratinocytes (KCs), T cells, and endothelial cells.",
+        "Single-cell studies have mapped the cellular diversity of psoriatic plaques, yet most analyses treat skin as either healthy or diseased and therefore overlook the graded changes that precede…"
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Discriminating rare disease cases from their controls based on observed and excluded phenotypes",
+      "authors": "Guo, Y., Yao, Y., Zhang, Y., Duan, G., Zhang, N., shan, g.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.15.751721",
+      "doi": "10.64898/2026.09.15.751721",
+      "abstract": "Rare diseases are individually uncommon but collectively prevalent. Their primary clinical challenge lies not in treatment but in diagnosis. In the early stages of clinical management, it is frequently unclear whether the observed phenotypes are associated with a rare disease. Leveraging machine learning methods to mine latent associations between these phenotypes and rare diseases for early diagn",
+      "source": "preprint",
+      "topic": "focus",
+      "summary_bullets": [
+        "Focus: Discriminating rare disease cases from their controls based on observed and excluded phenotypes.",
+        "Rare diseases are individually uncommon but collectively prevalent.",
+        "Their primary clinical challenge lies not in treatment but in diagnosis."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "High-order enhancer hubs buffer allelic regulatory variation through kinetic compensation",
+      "authors": "Tan, J., Sentmanat, M., Wu, Y., Peng, C., Fronick, C., Markovic, C., Cui, X., Fulton, R., Head, R., Wang, T., Sun, Y.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-21",
+      "url": "https://doi.org/10.64898/2026.09.14.750771",
+      "doi": "10.64898/2026.09.14.750771",
+      "abstract": "Diploid genomes carry millions of heterozygous variants in cis-regulatory DNA, yet most genes produce similar RNA output from two parental alleles. How this balance is maintained is unclear. We developed Nanopore-HiChIP, a long-read method that maps high-order enhancer hubs on each haplotype. Over half of these enhancer hubs differ in chromatin architecture and transcription-factor occupancy betwe",
       "source": "preprint",
       "topic": "life-science",
       "summary_bullets": [
-        "Focus: Human-specific retrotransposons encode the regulatory logic of two lineages in a bipotent neural crest and central nervous system precursor.",
-        "Transposable elements are sources of cis-regulatory innovation, and the youngest families are particularly interesting because only recent insertions can account for species-specific regulatory divergence.",
-        "SVAs (subfamilies -E, F), LTR5Hs and L1HS are human-specific retroelements."
+        "Focus: High-order enhancer hubs buffer allelic regulatory variation through kinetic compensation.",
+        "Diploid genomes carry millions of heterozygous variants in cis-regulatory DNA, yet most genes produce similar RNA output from two parental alleles.",
+        "How this balance is maintained is unclear."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Paired-surface spatial mechanomics links tissue stiffness maps to spatial transcriptomics",
+      "authors": "Ong, H. T., Lou, Y., Turley, J., Hengst, R. M., Ramli, M. F. H., Shen, X., Marlena, J., Zhu, J., Li, R., Chan, C. J., Young, J. L.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.64898/2026.08.29.748050",
+      "doi": "10.64898/2026.08.29.748050",
+      "abstract": "Tissue mechanics influence diverse biological processes, yet directly linking stiffness measurements to spatially resolved molecular states in intact tissues remains challenging. Here we developed a paired-surface spatial mechanomics approach to map Young's modulus by nanoindentation on a fresh tissue surface and co-register the stiffness grid with Visium HD spatial transcriptome data from the imm",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: Paired-surface spatial mechanomics links tissue stiffness maps to spatial transcriptomics.",
+        "Tissue mechanics influence diverse biological processes, yet directly linking stiffness measurements to spatially resolved molecular states in intact tissues remains challenging.",
+        "Here we developed a paired-surface spatial mechanomics approach to map Young's modulus by nanoindentation on a fresh tissue surface and co-register the stiffness grid with Visium HD spatial…"
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Mechanical cues stabilize a conserved morphometric state associated with radial glia-like competence across systems",
+      "authors": "Soriano-Esque, J. P., Borau, C., Sortino, R., Garma, L. D., Ortega, A., Asin, J., Alcantara, S.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.1101/2025.01.09.632137",
+      "doi": "10.1101/2025.01.09.632137",
+      "abstract": "Mechanical cues influence neural development, yet how tissue architecture is integrated into progenitor cell states remains poorly understood. Here, we show that defined microtopographies induce an early nuclear remodeling program associated with radial glia (RG)-like competence. Aligned microgrooves promote nuclear elongation, reduced Lamin A/C to B1 ratio, sustained {beta}-catenin activity, and ",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: Mechanical cues stabilize a conserved morphometric state associated with radial glia-like competence across systems.",
+        "Mechanical cues influence neural development, yet how tissue architecture is integrated into progenitor cell states remains poorly understood.",
+        "Here, we show that defined microtopographies induce an early nuclear remodeling program associated with radial glia (RG)-like competence."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Exploiting HSD17B11-dependent dialkynylcarbinols cytotoxicity for facile CRISPR/Cas9-based gene inactivation",
+      "authors": "Dumais, B., Bossaert, M., Seigneur, P., Rozie, A., Gasmi, S., Fontanie--Roger, L., Caroff, M., Maraval, V., Bernardes-Genisson, V., Gomez, D., Frit, P., Ballereau, S., Genisson, Y., Britton, S.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.64898/2026.05.13.724824",
+      "doi": "10.64898/2026.05.13.724824",
+      "abstract": "Several approaches have been developed to improve the efficiency of CRISPR/Cas9-based genome editing, including the co-inactivation of a gene whose loss confers resistance to a cytotoxic compound, thereby enabling enrichment of successfully edited cells. Here, we show across multiple cell lines that inactivation of HSD17B11, a non-essential member of the Short-chain Dehydrogenase/Reductase (SDR) s",
+      "source": "preprint",
+      "topic": "synthetic",
+      "summary_bullets": [
+        "Focus: Exploiting HSD17B11-dependent dialkynylcarbinols cytotoxicity for facile CRISPR/Cas9-based gene inactivation.",
+        "Several approaches have been developed to improve the efficiency of CRISPR/Cas9-based genome editing, including the co-inactivation of a gene whose loss confers resistance to a cytotoxic compound, thereby…",
+        "Here, we show across multiple cell lines that inactivation of HSD17B11, a non-essential member of the Short-chain Dehydrogenase/Reductase (SDR) s."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Language-Model-Based Detection of Genetic Editing in Bacteria",
+      "authors": "Gabay, E., Burstein, D.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-20",
+      "url": "https://doi.org/10.64898/2026.09.17.751846",
+      "doi": "10.64898/2026.09.17.751846",
+      "abstract": "Recent advances in genome editing allow easy genetic manipulation of bacteria, providing them with new traits, some of which could be hazardous, e.g. enhanced virulence or extended resistance to antibiotics. The ability to detect artificially modified bacteria is crucial for identifying potential bio-threats. However, malicious genome editing could be challenging to trace due to the natural exchan",
+      "source": "preprint",
+      "topic": "synthetic",
+      "summary_bullets": [
+        "Focus: Language-Model-Based Detection of Genetic Editing in Bacteria.",
+        "Recent advances in genome editing allow easy genetic manipulation of bacteria, providing them with new traits, some of which could be hazardous, e.g.",
+        "enhanced virulence or extended resistance to antibiotics."
       ],
       "summary_kind": "abstract"
     },
@@ -355,159 +678,6 @@
         "Focus: Plscr1 inhibits murine norovirus entry.",
         "Noroviruses are a leading cause of gastroenteritis worldwide, yet host factors that restrict norovirus replication are not well understood.",
         "By mining both CRISPR activation and CRISPR knockout genome-wide screens, we identified the interferon-stimulated gene Plscr1 as a restriction factor for murine norovirus (MNV)."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Cross-species spatial profiling links progranulin to an immune suppressive niche in brain metastasis",
-      "authors": "Eskow, N. M., Prutisto-Chang, K., Gomez-Munoz, M. A., Kang, M., Illa Bochaca, I., Ibrahim, M., Shadaloey, S. A. A., Flores Yanke, A., Geraldo, L. H., Barisano, G., Sathe, A., Nunez, P., Solomon, D. A., Karasu, E. T., Ji, H., Lund, A., Umeh Garcia, M., Hayden Gephart, M., Wang, J., Hernando, E.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-19",
-      "url": "https://doi.org/10.64898/2026.09.13.751277",
-      "doi": "10.64898/2026.09.13.751277",
-      "abstract": "Immune checkpoint inhibitors (ICI) have revolutionized the treatment of brain metastasis (BM), demonstrating intracranial response rates and durability not previously seen with other therapies. However, approximately 50% of patients do not respond to ICI, and the brain-specific interactions that shape anti-tumor immunity remain poorly understood. We profiled five syngeneic BM models using spatial ",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Cross-species spatial profiling links progranulin to an immune suppressive niche in brain metastasis.",
-        "Immune checkpoint inhibitors (ICI) have revolutionized the treatment of brain metastasis (BM), demonstrating intracranial response rates and durability not previously seen with other therapies.",
-        "However, approximately 50% of patients do not respond to ICI, and the brain-specific interactions that shape anti-tumor immunity remain poorly understood."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Single-Cell Study Designs Are Systematically Underpowered for Small-Effect Genes",
-      "authors": "Crampton, C., Fawad, S., Clark, T., Dash, H., Köver, B., Cotton, G., Lee, D., Duff, E., Bottolo, L., Matthews, P. M., Skene, N.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-19",
-      "url": "https://doi.org/10.64898/2026.09.17.752063",
-      "doi": "10.64898/2026.09.17.752063",
-      "abstract": "Single cell differential expression analysis enables biologists to make statistical conclusions about which genes are up or downregulated in a particular cell type, between two conditions, such as those with or without a disease. However, due to biological and technical noise, these differences are hard to detect reliably. Determining if an experiment has sufficient power is often derived from sim",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Single-Cell Study Designs Are Systematically Underpowered for Small-Effect Genes.",
-        "Single cell differential expression analysis enables biologists to make statistical conclusions about which genes are up or downregulated in a particular cell type, between two conditions, such as…",
-        "However, due to biological and technical noise, these differences are hard to detect reliably."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Single-cell profiling reveals disruption of cell-cycle homeostasis following JDP2 depletion in colorectal epithelial cells",
-      "authors": "Newhart, V., Gao, A., Edens, A., Flory, M., Bravo, P., Alam, A.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-19",
-      "url": "https://doi.org/10.64898/2026.09.14.751340",
-      "doi": "10.64898/2026.09.14.751340",
-      "abstract": "Intestinal epithelial cells (IECs) undergo rapid and continuous renewal to maintain gut epithelial homeostasis and barrier integrity at the interface with luminal microbiota, dietary antigens, and enteric pathogens. IEC proliferation is tightly regulated by a complex machinery of cell cycle regulators and effectors, and genetic or transcriptional dysregulation of cell-cycle regulatory pathways is ",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Single-cell profiling reveals disruption of cell-cycle homeostasis following JDP2 depletion in colorectal epithelial cells.",
-        "Intestinal epithelial cells (IECs) undergo rapid and continuous renewal to maintain gut epithelial homeostasis and barrier integrity at the interface with luminal microbiota, dietary antigens, and enteric pathogens.",
-        "IEC proliferation is tightly regulated by a complex machinery of cell cycle regulators and effectors, and genetic or transcriptional dysregulation of cell-cycle regulatory pathways is."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "HIGH DOSE GAMMAHERPESVIRUS INFECTION IN MACROPHAGES RESULTS IN INFLAMMATORY MULTIMODAL CELL DEATH",
-      "authors": "Vragel, G., Nelson-Reid, G., Kostelecky, R. E., Spear, E., Lee, M., Abbott, D. W., van Dyk, L. F., Clambey, E.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-19",
-      "url": "https://doi.org/10.64898/2026.09.16.752237",
-      "doi": "10.64898/2026.09.16.752237",
-      "abstract": "Human gammaherpesviruses (gHVs) including Epstein-Barr Virus and Kaposis sarcoma associated herpesvirus are linked to cancer and inflammatory disease development. The outcome of gHV infection is highly regulated by cell type, with macrophages identified as an important early infection target that can also serve as a latency reservoir. Here, we used the mouse gHV model, murine gammaherpesvirus (MHV",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: HIGH DOSE GAMMAHERPESVIRUS INFECTION IN MACROPHAGES RESULTS IN INFLAMMATORY MULTIMODAL CELL DEATH.",
-        "Human gammaherpesviruses (gHVs) including Epstein-Barr Virus and Kaposis sarcoma associated herpesvirus are linked to cancer and inflammatory disease development.",
-        "The outcome of gHV infection is highly regulated by cell type, with macrophages identified as an important early infection target that can also serve as a latency reservoir."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Temporal changes in platelet activation and organ dysfunction during invasive Streptococcus pyogenes infection",
-      "authors": "Bratanis, E., Karlsson, C. A. Q., Chao, Y., Prgomet, Z., Palm, F., Malmstrom, J., Shannon, O.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-19",
-      "url": "https://doi.org/10.64898/2026.09.18.752656",
-      "doi": "10.64898/2026.09.18.752656",
-      "abstract": "A key feature of sepsis is immune dysregulation caused when a local infection progresses to systemic disease. Innate immune cells, including platelets, can both contribute to immune defense but also to collateral organ damage. In this study, we characterized the molecular, cellular, and proteome responses at distinct stages of invasive Streptococcus pyogenes infection in a mouse model, from a loca",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Temporal changes in platelet activation and organ dysfunction during invasive Streptococcus pyogenes infection.",
-        "A key feature of sepsis is immune dysregulation caused when a local infection progresses to systemic disease.",
-        "Innate immune cells, including platelets, can both contribute to immune defense but also to collateral organ damage."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Multi-model biological and sequence information fusion for gene regulatory network inference from single-cell transcriptomics",
-      "authors": "zhong, l., Yan, B., Wang, J., xie, m.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-19",
-      "url": "https://doi.org/10.64898/2026.09.13.751326",
-      "doi": "10.64898/2026.09.13.751326",
-      "abstract": "Identification of transcription factor target gene interactions and construction of the gene regulatory networks (GRNs) are essential for understanding the molecular mechanisms underlying transcriptional gene regulation. Large scale single cell transcriptomics across different tissues offers unprecedented resolution of cellular diversity and regulatory dynamics by capturing gene expression heterog",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Multi-model biological and sequence information fusion for gene regulatory network inference from single-cell transcriptomics.",
-        "Identification of transcription factor target gene interactions and construction of the gene regulatory networks (GRNs) are essential for understanding the molecular mechanisms underlying transcriptional gene regulation.",
-        "Large scale single cell transcriptomics across different tissues offers unprecedented resolution of cellular diversity and regulatory dynamics by capturing gene expression heterog."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Somatic haplotype reconstruction and variant recalibration from tumor-only long-read sequencing",
-      "authors": "Chen, Z.-Y., Zheng, Z., Luo, R., Fu, H.-F., Yang, Y.-J., Huang, Y.-T.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-19",
-      "url": "https://doi.org/10.64898/2026.09.14.751225",
-      "doi": "10.64898/2026.09.14.751225",
-      "abstract": "Separating somatic from germline variants and reconstructing somatic haplotypes are the two central problems of tumor-only cancer genome analysis. Long reads carry the linkage needed to solve both, but chromosome-scale loss of heterozygosity (LOH) and an unknown degree of normal-cell admixture blur the distinction between somatic and germline haplotypes. Here we present LongPhase-TO, the first met",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Somatic haplotype reconstruction and variant recalibration from tumor-only long-read sequencing.",
-        "Separating somatic from germline variants and reconstructing somatic haplotypes are the two central problems of tumor-only cancer genome analysis.",
-        "Long reads carry the linkage needed to solve both, but chromosome-scale loss of heterozygosity (LOH) and an unknown degree of normal-cell admixture blur the distinction between somatic and…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Convergent and divergent phenotypic impacts of estradiol on neurodevelopmental disorder risk genes",
-      "authors": "Pruitt, A., Yang, L., Lee, S., Balafkan, N., Gao, S., Seah, C., Dai, Y., Davidson, E., Khan, S., Sen, A., Liu, J., Wood, I., Xu, G., Huang, X., Carlson, M., Zhao, D., Jamadagni, P., Dossou, G., Retallick-Townsley, K., Liu, X., Papademetris, X., Deans, P. J. M., Fernandez Garcia, M., Gao, H., Wang, T., Wang, Z. W., Huckins, L. M., Hoffman, E. J., Brennand, K. J.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-19",
-      "url": "https://doi.org/10.64898/2026.02.18.706588",
-      "doi": "10.64898/2026.02.18.706588",
-      "abstract": "Sex hormone signaling during neurodevelopment may act as a modulator of risk for neurodevelopmental disorders (NDDs), including autism spectrum disorders (ASDs). By conducting a systematic and multi-modal evaluation of estradiol effects across loss-of-function deletions in 36 functionally diverse, large-effect ASD/NDD genes in human induced pluripotent stem cell-derived neurons and larval zebrafis",
-      "source": "preprint",
-      "topic": "life-science",
-      "summary_bullets": [
-        "Focus: Convergent and divergent phenotypic impacts of estradiol on neurodevelopmental disorder risk genes.",
-        "Sex hormone signaling during neurodevelopment may act as a modulator of risk for neurodevelopmental disorders (NDDs), including autism spectrum disorders (ASDs).",
-        "By conducting a systematic and multi-modal evaluation of estradiol effects across loss-of-function deletions in 36 functionally diverse, large-effect ASD/NDD genes in human induced pluripotent stem cell-derived neurons and…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Updated Transposable Element Libraries for Drosophila melanogaster in Dfam 4.0",
-      "authors": "Goubert, C., Gray, A., Hubley, R., Wheeler, T. J., Smit, A. F. A.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-19",
-      "url": "https://doi.org/10.64898/2026.09.13.751287",
-      "doi": "10.64898/2026.09.13.751287",
-      "abstract": "Drosophila melanogaster repeatome, comprising roughly 20% of the genome, is characterized by a large fraction of active TE families counterbalanced by efficient purifying selection. Consequently, many TE families persist at low copy numbers and are frequently population specific. Hybridization and horizontal transfer provide new families, which can spread through natural populations within decades",
-      "source": "preprint",
-      "topic": "life-science",
-      "summary_bullets": [
-        "Focus: Updated Transposable Element Libraries for Drosophila melanogaster in Dfam 4.0.",
-        "Drosophila melanogaster repeatome, comprising roughly 20% of the genome, is characterized by a large fraction of active TE families counterbalanced by efficient purifying selection.",
-        "Consequently, many TE families persist at low copy numbers and are frequently population specific."
       ],
       "summary_kind": "abstract"
     },
@@ -614,126 +784,7 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions",
-      "authors": "Du, P., Kohno, S., Wang, M., Papanicolaou, M., Vaughan-Jackson, A., Daigh, L., Peng, Q., Spees, K., McCormick, A., Diehl, M., Bintu, L., Qiu, X., Satpathy, A., Bassik, M.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-18",
-      "url": "https://doi.org/10.64898/2026.09.16.752238",
-      "doi": "10.64898/2026.09.16.752238",
-      "abstract": "Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo remains challenging. Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting their information content and scalability. To overcome these limitations, we developed match-seq, an imaging-free, ",
-      "source": "preprint",
-      "topic": "synthetic",
-      "summary_bullets": [
-        "Focus: In vivo intercellular CRISPR screens using viral proximity barcoding reveal regulators of tumor-immune interactions.",
-        "Cell-cell interactions shape tumor growth, immune evasion, and therapeutic response, but systematically dissecting their genetic regulators in vivo remains challenging.",
-        "Existing cell-cell interaction tracing technologies rely largely on protein labels or enzymatic reactions, limiting their information content and scalability."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Predicting Neoantigen Immunogenicity from In Vivo Immune Editing",
-      "authors": "Sears, T. J., Lee, K.-h., Munoz Perez, M., Rasmussen, R., Pagadala, M. S., Tanaka, K., Subramanian, A., Moding, E. J., Zanetti, M., Carter, H.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-18",
-      "url": "https://doi.org/10.64898/2026.09.17.752425",
-      "doi": "10.64898/2026.09.17.752425",
-      "abstract": "Neoantigen immunogenicity prediction is fundamental to personalized cancer vaccines, tumor-infiltrating lymphocyte (TIL) therapy, and TCR-T cell engineering. Existing computational predictors rely primarily on in-vitro correlates of peptide presentation or models trained against assay-based reactivity, and they are typically validated within a single therapeutic setting. We reasoned that the most ",
-      "source": "preprint",
-      "topic": "synthetic",
-      "summary_bullets": [
-        "Focus: Predicting Neoantigen Immunogenicity from In Vivo Immune Editing.",
-        "Neoantigen immunogenicity prediction is fundamental to personalized cancer vaccines, tumor-infiltrating lymphocyte (TIL) therapy, and TCR-T cell engineering.",
-        "Existing computational predictors rely primarily on in-vitro correlates of peptide presentation or models trained against assay-based reactivity, and they are typically validated within a single therapeutic setting."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Latent generative search unlocks de novo design of untapped biomolecular interactions at scale",
-      "authors": "Didi, K., Reidenbach, D., Penner, M., Ravichandran, S., Case, M., Nichols, M., Swanson, E., Reis, A., Prescott, M., Qian, Y., Qian, D., Yang, J., Li, W., Li, L., Shonai, D., Gay, S., Basu Mallik, B., Chim, H. Y., Chen, L., Atienza Juanatey, M., Klein, H., Rieger, D., Schlegel, P., Macintyre, A. U., Secor, M., Granata, D., Cha, S., Cao, Z., Zhou, G., Geffner, T., Chen, X., Livne, M., Zhang, Z., Zhang, T., Gion, K., Bronstein, M. M., Steinegger, M., Deibler, K., Soderling, S., Schoeder, C. T., Khmelinskaia, A., Hollfelder, F., Dallago, C., Kucukbenli, E., Vahdat, A., Ogden, P., Kreis, K.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-18",
-      "url": "https://doi.org/10.64898/2026.09.12.751118",
-      "doi": "10.64898/2026.09.12.751118",
-      "abstract": "De novo protein design has advanced rapidly, yet designing binders to polar, solvent-exposed epitopes and small, flexible ligands remains challenging. Such hydrated surfaces and flexible molecules, including carbohydrates, provide few of the hydrophobic contacts favoured by current methods and have largely resisted de novo binders. To address this challenge, here we introduce latent generative sea",
-      "source": "preprint",
-      "topic": "synthetic",
-      "summary_bullets": [
-        "Focus: Latent generative search unlocks de novo design of untapped biomolecular interactions at scale.",
-        "De novo protein design has advanced rapidly, yet designing binders to polar, solvent-exposed epitopes and small, flexible ligands remains challenging.",
-        "Such hydrated surfaces and flexible molecules, including carbohydrates, provide few of the hydrophobic contacts favoured by current methods and have largely resisted de novo binders."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Split suppression gene drives reveal a design tradeoff between inheritance and reproductive load in Aedes aegypti",
-      "authors": "Gendron, W. A. C., Smidler, A. L., Li, M., Wise, T., Sanchez C., H. M., Bennett, J. B., Raban, R., Marshall, J. M., Akbari, O. S.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-18",
-      "url": "https://doi.org/10.64898/2026.09.17.752470",
-      "doi": "10.64898/2026.09.17.752470",
-      "abstract": "Mosquito-borne pathogens cause approximately 700,000 deaths annually, highlighting the need for effective and sustainable vector control strategies. CRISPR-based gene drives offer a potential approach for suppressing disease-vector populations, but autonomous drives may spread beyond intended populations. Split gene drives, in which the Cas9 and guide RNA components are genetically separated, prov",
-      "source": "preprint",
-      "topic": "synthetic",
-      "summary_bullets": [
-        "Focus: Split suppression gene drives reveal a design tradeoff between inheritance and reproductive load in Aedes aegypti.",
-        "Mosquito-borne pathogens cause approximately 700,000 deaths annually, highlighting the need for effective and sustainable vector control strategies.",
-        "CRISPR-based gene drives offer a potential approach for suppressing disease-vector populations, but autonomous drives may spread beyond intended populations."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Metabolic-Epigenetic Coupling in Cellular Senescence: In Silico Cristae Remodeling Depletes Alpha-Ketoglutarate to Drive KDM4/6 Inhibition and SASP Amplification",
-      "authors": "Maclos, M., Dyer, J.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-18",
-      "url": "https://doi.org/10.64898/2026.09.16.752165",
-      "doi": "10.64898/2026.09.16.752165",
-      "abstract": "Cellular senescence is governed by complex organellar cross-talk, epigenetic remodeling, and non-canonical signaling cascades that drive chronic tissue degeneration. In this work, we formulate a predictive computational systems biology framework to investigate these dynamics. Specifically, Senescence-associated mitochondrial cristae reorganization and metabolic rewiring toward aerobic glycolysis d",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Metabolic-Epigenetic Coupling in Cellular Senescence: In Silico Cristae Remodeling Depletes Alpha-Ketoglutarate to Drive KDM4/6 Inhibition and SASP Amplification.",
-        "Cellular senescence is governed by complex organellar cross-talk, epigenetic remodeling, and non-canonical signaling cascades that drive chronic tissue degeneration.",
-        "In this work, we formulate a predictive computational systems biology framework to investigate these dynamics."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Cell cycle exit is required for differentiation and cell fate diversification but not neoblast specialisation in planarians",
-      "authors": "Peron, S., Balta, O.-M., Noronha, A., Smillie, T., Mason, V., Perez-Posada, A., Solana, J.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-18",
-      "url": "https://doi.org/10.64898/2026.09.16.750956",
-      "doi": "10.64898/2026.09.16.750956",
-      "abstract": "In planarians, adult stem cells constantly proliferate and differentiate into dozens of different cell types to maintain tissue homeostasis. However, how cell fate acquisition is coordinated with cell cycle progression remains poorly understood. To address this, we generated single-cell RNA-sequencing datasets from cells enriched for 2C or 4C DNA content and from animals subjected to RNAi against ",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Cell cycle exit is required for differentiation and cell fate diversification but not neoblast specialisation in planarians.",
-        "In planarians, adult stem cells constantly proliferate and differentiate into dozens of different cell types to maintain tissue homeostasis.",
-        "However, how cell fate acquisition is coordinated with cell cycle progression remains poorly understood."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Interpretable spherical geometry of single-cell state transitions from dominant principal components",
-      "authors": "Yuan, L., Li, X., Le, M., Hicks, S. C., Deshpande, A., Taube, J. M., Szalay, A. S.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-18",
-      "url": "https://doi.org/10.64898/2026.09.11.751061",
-      "doi": "10.64898/2026.09.11.751061",
-      "abstract": "Single-cell RNA-seq atlases are commonly explored with nonlinear embeddings that preserve neighborhoods but provide limited coordinate-level interpretation. We asked whether projecting the dominant principal components (PCs) of single-cell gene expression onto a unit sphere would yield an interpretable coordinate system. SPHERE-PCA L2-normalizes the first three PC coordinates, aligns a biologicall",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Interpretable spherical geometry of single-cell state transitions from dominant principal components.",
-        "Single-cell RNA-seq atlases are commonly explored with nonlinear embeddings that preserve neighborhoods but provide limited coordinate-level interpretation.",
-        "We asked whether projecting the dominant principal components (PCs) of single-cell gene expression onto a unit sphere would yield an interpretable coordinate system."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Oligodendrocytes in central nervous system health and disease. ",
+      "title": "Oligodendrocytes in central nervous system health and disease",
       "authors": "Ryan LJ, Miron VE.",
       "journal": "Cell",
       "date": "2026-09-18",
@@ -753,7 +804,7 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "mRNA-encoding CD19-targeting T cell engager for refractory immune thrombocytopenia. ",
+      "title": "mRNA-encoding CD19-targeting T cell engager for refractory immune thrombocytopenia",
       "authors": "Wang M, Liu T, Dai Q, Teng J, Wu Y, Jia J, Meng J, Ma Y, Shi H, Cheng X, Liu H, Su Y, Ye J, Chi H, Zhou Z, Sun Y, Wu Y, Chen J, Yin W, Gao P, Song W, Lin R, Ying B, Yang C, Hu Q.",
       "journal": "Cell",
       "date": "2026-09-18",
@@ -773,7 +824,7 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "How to make a brain: new experiments challenge existing picture. ",
+      "title": "How to make a brain: new experiments challenge existing picture",
       "authors": "Peeples L.",
       "journal": "Nature",
       "date": "2026-09-18",
@@ -791,7 +842,7 @@
       "summary_kind": "headline"
     },
     {
-      "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment. ",
+      "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment",
       "authors": "Fieldhouse R.",
       "journal": "Nature",
       "date": "2026-09-18",
@@ -940,13 +991,13 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Germline <i>EGFR</i> T790M mutation and lung cancer risk. ",
+      "title": "Germline &lt;i&gt;EGFR&lt;/i&gt; T790M mutation and lung cancer risk",
       "authors": "LoPiccolo J, Micheletti S, Shi J, Wang W, Saini S, Lin KH, Xu W, Fontanillas P, 23andMe Research Team3‡, Koeller DR, Yatzus H, Williamson VG, Avila JA, Liautaud RB, Fields ND, Harper A, Kotait V, Izzo E, Ciupek A, Granville CA, Collins RL, Garber JE, Christiani DC, Aslibekyan S, Granka JM, Gusev A, Jänne PA, Auton A, Bell RK, Bond KK, Cochinwala Z, Das S, de Brito K, DelloRusso E, Eijsbouts C, Elson SL, German C, Granka JM, Hicks B, Hinds DA, Jabal R, Khan A, Kmiecik MJ, Kwong A, Liang Y, Lin KH, McIntyre MH, Saini S, Shastri AJ, Shi J, Shringarpure S, Su QJ, Tran V, Tung JY, Weldon CH, Xu W.",
       "journal": "Science (New York, N.Y.)",
       "date": "2026-09-17",
       "url": "https://doi.org/10.1126/science.aec0473",
       "doi": "10.1126/science.aec0473",
-      "abstract": "Most lung cancers are tobacco related, with genetic factors influencing smoking behavior identified through genome-wide association studies. However, inherited risk in familial and non-smoking-related lung cancers, including risk in carriers of EGFR T790M, remains poorly understood. Here, in more than 3.3 million individuals, the EGFR T790M germline variant is significantly associated with lung ca",
+      "abstract": "Most lung cancers are tobacco related, with genetic factors influencing smoking behavior identified through genome-wide association studies. However, inherited risk in familial and non-smoking-related lung cancers, including risk in carriers of <i>EGFR</i> T790M, remains poorly understood. Here, in more than 3.3 million individuals, the <i>EGFR</i> T790M germline variant is significantly associate",
       "citation_count": 0,
       "source": "journal",
       "journal_family": "science",
@@ -1313,23 +1364,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Whole-Embryo 3D Quantification Reveals Flexible Cellular Scaling and Conserved Tissue Architecture in Xenopus Species",
-      "authors": "Santos, H. M., Diakova, M., Brambach, M., Anderson, C., Petrova, K., De Araujo, C. A., Simeonova, I., Almouzni, G., Peshkin, L., Abreu, J. G.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-16",
-      "url": "https://doi.org/10.64898/2026.06.16.732511",
-      "doi": "10.64898/2026.06.16.732511",
-      "abstract": "How embryos with markedly different absolute sizes and cell numbers establish comparable tissue organization during development remains a fundamental question in developmental biology. To address this question, we compared two closely related Xenopus species that differ substantially in embryonic size, Xenopus laevis and Xenopus tropicalis. We generated a whole-embryo quantitative 3D atlas of cell",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Whole-Embryo 3D Quantification Reveals Flexible Cellular Scaling and Conserved Tissue Architecture in Xenopus Species.",
-        "How embryos with markedly different absolute sizes and cell numbers establish comparable tissue organization during development remains a fundamental question in developmental biology.",
-        "To address this question, we compared two closely related Xenopus species that differ substantially in embryonic size, Xenopus laevis and Xenopus tropicalis."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
       "title": "scACORN: Context-engineered agent orchestration of specialized small language models for single-cell transcriptomic interpretation",
       "authors": "Rasti-Meymandi, A., Nahali, S., Paramithiotis, E., Cheung, A. M., Dolatabadi, E.",
       "journal": "bioRxiv (preprint)",
@@ -1343,6 +1377,23 @@
         "Focus: scACORN: Context-engineered agent orchestration of specialized small language models for single-cell transcriptomic interpretation.",
         "Single-cell atlases now exceed 66 million cells, but turning a ranked expression profile and a free-form biological question into a reliable, evidence-grounded answer remains unsolved.",
         "Scaling a single model does not resolve this, because single-cell interpretation is a heterogeneous family of tasks whose correct answer depends on tissue, cohort, perturbation and annotation resolution."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Whole-Embryo 3D Quantification Reveals Flexible Cellular Scaling and Conserved Tissue Architecture in Xenopus Species",
+      "authors": "Santos, H. M., Diakova, M., Brambach, M., Anderson, C., Petrova, K., De Araujo, C. A., Simeonova, I., Almouzni, G., Peshkin, L., Abreu, J. G.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-16",
+      "url": "https://doi.org/10.64898/2026.06.16.732511",
+      "doi": "10.64898/2026.06.16.732511",
+      "abstract": "How embryos with markedly different absolute sizes and cell numbers establish comparable tissue organization during development remains a fundamental question in developmental biology. To address this question, we compared two closely related Xenopus species that differ substantially in embryonic size, Xenopus laevis and Xenopus tropicalis. We generated a whole-embryo quantitative 3D atlas of cell",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: Whole-Embryo 3D Quantification Reveals Flexible Cellular Scaling and Conserved Tissue Architecture in Xenopus Species.",
+        "How embryos with markedly different absolute sizes and cell numbers establish comparable tissue organization during development remains a fundamental question in developmental biology.",
+        "To address this question, we compared two closely related Xenopus species that differ substantially in embryonic size, Xenopus laevis and Xenopus tropicalis."
       ],
       "summary_kind": "abstract"
     },
@@ -1895,23 +1946,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Allele-Resolved Hybrid Embryos Reveal the Fates of Regulatory Divergence",
-      "authors": "Lei, J., Lemaire, L. A., Hashimoto, H., Rodman, L., Levine, M., Cao, C.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-15",
-      "url": "https://doi.org/10.64898/2026.09.11.750430",
-      "doi": "10.64898/2026.09.11.750430",
-      "abstract": "Developmental programs can remain conserved despite extensive regulatory divergence, but how evolved regulatory differences are transmitted through embryonic lineages remains unclear. Here we generate a time resolved, allele resolved single-cell atlas of hybrid embryogenesis between Ciona intestinalis and Ciona savignyi, enabling regulatory differences accumulated between species to be followed ac",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Allele-Resolved Hybrid Embryos Reveal the Fates of Regulatory Divergence.",
-        "Developmental programs can remain conserved despite extensive regulatory divergence, but how evolved regulatory differences are transmitted through embryonic lineages remains unclear.",
-        "Here we generate a time resolved, allele resolved single-cell atlas of hybrid embryogenesis between Ciona intestinalis and Ciona savignyi, enabling regulatory differences accumulated between species to be followed…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
       "title": "Accurate and scalable decontamination of imaging-based spatial transcriptomics via optimal transport",
       "authors": "Chen, Y., Liu, Y., Chao, Z., Han, S., Zeng, Y., Yu, B., Zhang, F., Wu, A., Wang, J., Chen, H., Xiao, J., Yang, C.",
       "journal": "bioRxiv (preprint)",
@@ -1942,6 +1976,23 @@
         "Focus: DiffGSP: reversing mRNA diffusion to unlock high-fidelity spatial transcriptomics.",
         "Spatial transcriptomics enables gene expression profiling within intact tissues while preserving spatial context, providing unprecedented insights into cellular organization and function.",
         "However, mRNA diffusion during tissue processing can cause transcripts originating from adjacent cells to be captured at a given spot."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Allele-Resolved Hybrid Embryos Reveal the Fates of Regulatory Divergence",
+      "authors": "Lei, J., Lemaire, L. A., Hashimoto, H., Rodman, L., Levine, M., Cao, C.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-09-15",
+      "url": "https://doi.org/10.64898/2026.09.11.750430",
+      "doi": "10.64898/2026.09.11.750430",
+      "abstract": "Developmental programs can remain conserved despite extensive regulatory divergence, but how evolved regulatory differences are transmitted through embryonic lineages remains unclear. Here we generate a time resolved, allele resolved single-cell atlas of hybrid embryogenesis between Ciona intestinalis and Ciona savignyi, enabling regulatory differences accumulated between species to be followed ac",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: Allele-Resolved Hybrid Embryos Reveal the Fates of Regulatory Divergence.",
+        "Developmental programs can remain conserved despite extensive regulatory divergence, but how evolved regulatory differences are transmitted through embryonic lineages remains unclear.",
+        "Here we generate a time resolved, allele resolved single-cell atlas of hybrid embryogenesis between Ciona intestinalis and Ciona savignyi, enabling regulatory differences accumulated between species to be followed…"
       ],
       "summary_kind": "abstract"
     },
@@ -2004,7 +2055,7 @@
       "summary_kind": "headline"
     },
     {
-      "title": "Daily briefing: Reading for pleasure linked to big brain benefits. ",
+      "title": "Daily briefing: Reading for pleasure linked to big brain benefits",
       "authors": "Graham F.",
       "journal": "Nature",
       "date": "2026-09-15",
@@ -2109,57 +2160,6 @@
         "Focus: H3K27me3 Drives Constricted Migration Induced 3D Genome Rewiring in Melanoma.",
         "Repeated exposure of neoplastic cells to mechanical stresses during metastasis can drive stable morphological and physiological changes.",
         "We previously showed that A375 human melanoma cells subjected to 10 rounds of constricted migration (\"Bottom-10 cells\") became significantly more migratory and exhibited H3K9me3 relocalization, transcriptional remodeling, and…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Integrated Spatial Metabolomics and Proteomics from the Same Tissue Section Using a Conductive ITO-PET Slide",
-      "authors": "wang, h., Li, Y.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-14",
-      "url": "https://doi.org/10.64898/2026.09.07.749981",
-      "doi": "10.64898/2026.09.07.749981",
-      "abstract": "Integrating spatial metabolomics and spatial proteomics on the same tissue section remains challenging because matrix-assisted laser desorption/ionization mass spectrometry imaging (MALDI-MSI) and laser capture microdissection (LCM)-based proteomics impose different requirements on sample slides. Here, we developed and systematically evaluated a conductive indium tin oxide-coated polyethylene tere",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Integrated Spatial Metabolomics and Proteomics from the Same Tissue Section Using a Conductive ITO-PET Slide.",
-        "Integrating spatial metabolomics and spatial proteomics on the same tissue section remains challenging because matrix-assisted laser desorption/ionization mass spectrometry imaging (MALDI-MSI) and laser capture microdissection (LCM)-based proteomics impose…",
-        "Here, we developed and systematically evaluated a conductive indium tin oxide-coated polyethylene tere."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Differential co-localisation analysis of multi-sample and multi-condition experiments with spatialFDA",
-      "authors": "Emons, M., Scheipl, F., Gunz, S., Purdom, E., Robinson, M. D.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-14",
-      "url": "https://doi.org/10.64898/2026.04.13.718197",
-      "doi": "10.64898/2026.04.13.718197",
-      "abstract": "Advances in spatial omics data generation have led to an explosion in new datasets that record the spatial location of transcripts and proteins. However, challenges remain in the analysis of spatial omics data. One important analysis is differential cellular co-localisation (CCoL): the quantification of the clustering, or spacing, of one or more cell types across multiple conditions. Our framework",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Differential co-localisation analysis of multi-sample and multi-condition experiments with spatialFDA.",
-        "Advances in spatial omics data generation have led to an explosion in new datasets that record the spatial location of transcripts and proteins.",
-        "However, challenges remain in the analysis of spatial omics data."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Benchmarking niche identification via domain segmentation for spatial transcriptomics data",
-      "authors": "Wang, Y., Chen, Y., Yang, L., Wang, C., Cai, J., Xin, H.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-09-14",
-      "url": "https://doi.org/10.64898/2026.02.27.708202",
-      "doi": "10.64898/2026.02.27.708202",
-      "abstract": "Tissue niches are spatially organized microenvironments in which coordinated multicellular interactions shape cellular states and biological functions. Currently, niche identification is routinely performed using domain segmentation frameworks. While interrelated, spatial domains and niches are not fundamentally equivalent. The former emphasizes intra-domain compositional consistency and transcrip",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Benchmarking niche identification via domain segmentation for spatial transcriptomics data.",
-        "Tissue niches are spatially organized microenvironments in which coordinated multicellular interactions shape cellular states and biological functions.",
-        "Currently, niche identification is routinely performed using domain segmentation frameworks."
       ],
       "summary_kind": "abstract"
     },
@@ -2703,7 +2703,7 @@
       "url": "https://doi.org/10.1126/science.adt9365",
       "doi": "10.1126/science.adt9365",
       "abstract": "T cell receptor (TCR) engagement stimulates formation of a biomolecular condensate, including the scaffold protein linker of activated T cells (LAT). We investigated whether the immune-inhibitory receptor programmed cell death protein 1 (PD-1) inhibits by impeding TCR-induced LAT condensation. In vitro reconstitutions revealed that the cytoplasmic domain of PD-1 directly inhibited LAT condensation",
-      "citation_count": 0,
+      "citation_count": 1,
       "source": "journal",
       "journal_family": "science",
       "topic": "life-science",
