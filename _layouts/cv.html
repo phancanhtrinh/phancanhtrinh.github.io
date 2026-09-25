@@ -117,7 +117,7 @@ layout: default
 				<div class="cv-entry">
 					<div class="cv-entry-date-col"><span class="cv-entry-badge">{{ t.date }}</span></div>
 					<div class="cv-entry-body">
-						<div class="cv-entry-title"><span class="cv-talk-type">{{ t.type }}</span> — <em>{{ t.title }}</em></div>
+						<div class="cv-entry-title"><span class="cv-talk-type">{{ t.type }}</span> — <em>{% if t.url %}<a class="off" href="{{ t.url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</em></div>
 						<div class="cv-entry-place">{{ t.place }}</div>
 					</div>
 				</div>
