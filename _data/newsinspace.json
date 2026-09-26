@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-25T15:46:19Z",
+  "generated_at": "2026-09-26T14:55:34Z",
   "window_days": 14,
   "count": 100,
   "topic_counts": {
     "spatial": 10,
-    "synthetic": 7,
-    "focus": 32,
-    "life-science": 51
+    "synthetic": 8,
+    "focus": 34,
+    "life-science": 48
   },
   "attention": {
-    "generated_at": "2026-09-25T15:46:15Z",
+    "generated_at": "2026-09-26T14:55:31Z",
     "window_days": 15,
     "momentum_days": 7,
     "altmetric_enabled": false,
@@ -41,36 +41,7 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 82.9
-      },
-      {
-        "title": "Targeted genomic integration and rearrangement using prime assembly",
-        "authors": "Levesque S, Kawashima N, Hwang GH, Zeng J, Toskov V, Barry T, Mannherz W, Homfeldt L, Becerra B, Schoonenberg VAC, Pinello L, Agarwal S, Bauer DE.",
-        "journal": "Nature",
-        "date": "2026-09-16",
-        "url": "https://doi.org/10.1038/s41586-026-11024-2",
-        "doi": "10.1038/s41586-026-11024-2",
-        "abstract": "Although therapeutic genome editing holds great potential to remedy diverse inherited and acquired disorders, targeted installation of medium-to-large genomic modifications in therapeutically relevant cells remains challenging<sup>1</sup>. Here we develop prime assembly, an approach that permits DNA sequence assembly and integration in human cells leveraging CRISPR-targeted dual flap synthesis. Th",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "synthetic",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Targeted genomic integration and rearrangement using prime assembly.",
-          "Although therapeutic genome editing holds great potential to remedy diverse inherited and acquired disorders, targeted installation of medium-to-large genomic modifications in therapeutically relevant cells remains challenging1.",
-          "Here we develop prime assembly, an approach that permits DNA sequence assembly and integration in human cells leveraging CRISPR-targeted dual flap synthesis."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 5,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 45.9
+        "attention_score": 82.8
       },
       {
         "title": "Reimagining research papers as interactive and reliable AI agents",
@@ -91,15 +62,42 @@
           "Paper2Agent transforms research output from passive artefacts into active systems that accelerate use and discovery."
         ],
         "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
+        "bluesky_mentions": 1,
+        "bluesky_engagement": 3,
         "media_mentions": 5,
         "altmetric_score": 0,
         "x_mentions": 0,
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 42.9
+        "attention_score": 48.5
+      },
+      {
+        "title": "Multiplexed imaging",
+        "authors": "Guo H.",
+        "journal": "Nature chemical biology",
+        "date": "2026-10-01",
+        "url": "https://doi.org/10.1038/s41589-026-02333-8",
+        "doi": "10.1038/s41589-026-02333-8",
+        "abstract": "",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "spatial",
+        "flagship": false,
+        "summary_bullets": [
+          "Multiplexed imaging."
+        ],
+        "summary_kind": "headline",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
+        "media_mentions": 4,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 42.2
       },
       {
         "title": "Combinatorial mechanisms specify cellular location and neurotransmitter identity during planarian neurogenesis",
@@ -128,63 +126,36 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 41.6
+        "attention_score": 41.5
       },
       {
-        "title": "RamanOmics decodes the spatial vibrational-molecular architecture of senescence in aging and repair",
-        "authors": "Zhang K, Chen X, Monticolo F, Sorrentino S, Huang H, Callahan C, Qiao Y, Zhou J, Brodowska S, Sapantzi S, Qi J, Wu Y, Dang TNS, Cao Y, Kang S, Viggiani F, Ho CK, Xu Y, Kobayashi-Kirschvink KJ, Mung T, Phatnani H, Dou Z, Kang JW, So PTC, Shu J.",
-        "journal": "Nature aging",
-        "date": "2026-09-21",
-        "url": "https://doi.org/10.1038/s43587-026-01219-7",
-        "doi": "10.1038/s43587-026-01219-7",
-        "abstract": "Aging and tissue repair involve heterogeneous remodeling across transcriptional, biochemical and cellular dimensions, yet prevailing definitions rely on isolated molecular markers that obscure how these states co-evolve. Here we present RamanOmics, a multimodal framework integrating label-free hyperspectral Raman imaging with single-nucleus RNA sequencing and spatial transcriptomics to link bioche",
+        "title": "Targeted genomic integration and rearrangement using prime assembly",
+        "authors": "Levesque S, Kawashima N, Hwang GH, Zeng J, Toskov V, Barry T, Mannherz W, Homfeldt L, Becerra B, Schoonenberg VAC, Pinello L, Agarwal S, Bauer DE.",
+        "journal": "Nature",
+        "date": "2026-09-16",
+        "url": "https://doi.org/10.1038/s41586-026-11024-2",
+        "doi": "10.1038/s41586-026-11024-2",
+        "abstract": "Although therapeutic genome editing holds great potential to remedy diverse inherited and acquired disorders, targeted installation of medium-to-large genomic modifications in therapeutically relevant cells remains challenging<sup>1</sup>. Here we develop prime assembly, an approach that permits DNA sequence assembly and integration in human cells leveraging CRISPR-targeted dual flap synthesis. Th",
         "citation_count": 0,
         "source": "journal",
         "journal_family": "nature",
-        "topic": "spatial",
-        "flagship": false,
+        "topic": "synthetic",
+        "flagship": true,
         "summary_bullets": [
-          "Focus: RamanOmics decodes the spatial vibrational-molecular architecture of senescence in aging and repair.",
-          "Aging and tissue repair involve heterogeneous remodeling across transcriptional, biochemical and cellular dimensions, yet prevailing definitions rely on isolated molecular markers that obscure how these states co-evolve.",
-          "Here we present RamanOmics, a multimodal framework integrating label-free hyperspectral Raman imaging with single-nucleus RNA sequencing and spatial transcriptomics to link bioche."
+          "Focus: Targeted genomic integration and rearrangement using prime assembly.",
+          "Although therapeutic genome editing holds great potential to remedy diverse inherited and acquired disorders, targeted installation of medium-to-large genomic modifications in therapeutically relevant cells remains challenging1.",
+          "Here we develop prime assembly, an approach that permits DNA sequence assembly and integration in human cells leveraging CRISPR-targeted dual flap synthesis."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
         "bluesky_engagement": 0,
-        "media_mentions": 3,
+        "media_mentions": 4,
         "altmetric_score": 0,
         "x_mentions": 0,
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 33.6
-      },
-      {
-        "title": "Multiplexed imaging",
-        "authors": "Guo H.",
-        "journal": "Nature chemical biology",
-        "date": "2026-09-14",
-        "url": "https://doi.org/10.1038/s41589-026-02333-8",
-        "doi": "10.1038/s41589-026-02333-8",
-        "abstract": "",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "spatial",
-        "flagship": false,
-        "summary_bullets": [
-          "Multiplexed imaging."
-        ],
-        "summary_kind": "headline",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 3,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 32.6
+        "attention_score": 37.8
       },
       {
         "title": "A viral origin for RNA-guided immunity",
@@ -213,7 +184,7 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 30.1
+        "attention_score": 29.9
       },
       {
         "title": "A noncontiguous code for RNA-guided DNA recognition at the origin of CRISPR-Cas",
@@ -242,7 +213,36 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 30.1
+        "attention_score": 29.9
+      },
+      {
+        "title": "RamanOmics decodes the spatial vibrational-molecular architecture of senescence in aging and repair",
+        "authors": "Zhang K, Chen X, Monticolo F, Sorrentino S, Huang H, Callahan C, Qiao Y, Zhou J, Brodowska S, Sapantzi S, Qi J, Wu Y, Dang TNS, Cao Y, Kang S, Viggiani F, Ho CK, Xu Y, Kobayashi-Kirschvink KJ, Mung T, Phatnani H, Dou Z, Kang JW, So PTC, Shu J.",
+        "journal": "Nature aging",
+        "date": "2026-09-21",
+        "url": "https://doi.org/10.1038/s43587-026-01219-7",
+        "doi": "10.1038/s43587-026-01219-7",
+        "abstract": "Aging and tissue repair involve heterogeneous remodeling across transcriptional, biochemical and cellular dimensions, yet prevailing definitions rely on isolated molecular markers that obscure how these states co-evolve. Here we present RamanOmics, a multimodal framework integrating label-free hyperspectral Raman imaging with single-nucleus RNA sequencing and spatial transcriptomics to link bioche",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "spatial",
+        "flagship": false,
+        "summary_bullets": [
+          "Focus: RamanOmics decodes the spatial vibrational-molecular architecture of senescence in aging and repair.",
+          "Aging and tissue repair involve heterogeneous remodeling across transcriptional, biochemical and cellular dimensions, yet prevailing definitions rely on isolated molecular markers that obscure how these states co-evolve.",
+          "Here we present RamanOmics, a multimodal framework integrating label-free hyperspectral Raman imaging with single-nucleus RNA sequencing and spatial transcriptomics to link bioche."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
+        "media_mentions": 2,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 25.5
       },
       {
         "title": "Evolution and heterogeneity of lethal metastatic bladder cancer subtypes",
@@ -265,46 +265,82 @@
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
         "bluesky_engagement": 0,
-        "media_mentions": 3,
+        "media_mentions": 2,
         "altmetric_score": 0,
         "x_mentions": 0,
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 26.9
+        "attention_score": 18.8
       },
       {
-        "title": "Norway spruce spatiotemporal programs of conifer reproductive development",
-        "authors": "Saarenpää S, Zivi N, Masarapu Y, Mishra LS, Rouot S, Orozco A, Herrera-Foessel SA, Ahlgren Kalman T, Liva M, Yadav S, Englund M, Street NR, Sundström JF, Giacomello S.",
-        "journal": "Cell",
-        "date": "2026-09-14",
-        "url": "https://doi.org/10.1016/j.cell.2026.08.033",
-        "doi": "10.1016/j.cell.2026.08.033",
-        "abstract": "Conifers are essential components of forest ecosystems; however, their reproductive development remains largely understudied due to their genomes' complexity. Here, we present a time-resolved spatial transcriptomics (ST) atlas of 88 tissue sections across three time points from developing reproductive and vegetative shoots in wild-type Norway spruce (Picea abies), as well as transition shoots from",
+        "title": "Cohesin reshapes replication fork contacts to aid fork slowing and reversal",
+        "authors": "González-Acosta D, Giménez-Llorente D, Rodrigues M, Aouami M, Barroso-Gomila O, Muñoz J, Cuadrado A, Losada A, Lopes M.",
+        "journal": "Nature",
+        "date": "2026-09-16",
+        "url": "https://doi.org/10.1038/s41586-026-11034-0",
+        "doi": "10.1038/s41586-026-11034-0",
+        "abstract": "DNA replication forks can be challenged by cancer chemotherapeutic treatments, leading to accumulation of single-stranded DNA and slowdown of DNA synthesis. The marked plasticity of replication forks under replication stress ensures fork stability, damage tolerance and complete genome duplication<sup>1</sup>. Initiation and progression of replication forks occur in a three-dimensionally organized ",
         "citation_count": 0,
         "source": "journal",
-        "journal_family": "cell",
-        "topic": "spatial",
+        "journal_family": "nature",
+        "topic": "focus",
         "flagship": true,
         "summary_bullets": [
-          "Focus: Norway spruce spatiotemporal programs of conifer reproductive development.",
-          "Conifers are essential components of forest ecosystems.",
-          "however, their reproductive development remains largely understudied due to their genomes' complexity."
+          "Focus: Cohesin reshapes replication fork contacts to aid fork slowing and reversal.",
+          "DNA replication forks can be challenged by cancer chemotherapeutic treatments, leading to accumulation of single-stranded DNA and slowdown of DNA synthesis.",
+          "The marked plasticity of replication forks under replication stress ensures fork stability, damage tolerance and complete genome duplication1."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
         "bluesky_engagement": 0,
-        "media_mentions": 1,
+        "media_mentions": 2,
         "altmetric_score": 0,
         "x_mentions": 0,
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 16.6
+        "attention_score": 18.8
       }
     ]
   },
   "papers": [
+    {
+      "title": "Multiplexed imaging",
+      "authors": "Guo H.",
+      "journal": "Nature chemical biology",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.1038/s41589-026-02333-8",
+      "doi": "10.1038/s41589-026-02333-8",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Multiplexed imaging."
+      ],
+      "summary_kind": "headline"
+    },
+    {
+      "title": "A prodrug glue",
+      "authors": "Song Y.",
+      "journal": "Nature chemical biology",
+      "date": "2026-10-01",
+      "url": "https://doi.org/10.1038/s41589-026-02335-6",
+      "doi": "10.1038/s41589-026-02335-6",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": false,
+      "summary_bullets": [
+        "A prodrug glue."
+      ],
+      "summary_kind": "headline"
+    },
     {
       "title": "Spatial Immune Reorganization Characterizes Immunosuppressed Skin Tumors",
       "authors": "",
@@ -420,6 +456,66 @@
         "Focus: The liver niche accelerates, while the lung niche restrains secondary spread of breast cancer.",
         "Breast cancer progression to visceral organs such as the lung and liver is associated with poor prognosis.",
         "Yet, these organs have diverse cellular microenvironments that may differentially influence cancer cell behavior."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Asking pragmatic and RAD questions about organoid intelligence",
+      "authors": "Barnhart AJ.",
+      "journal": "Trends in biotechnology",
+      "date": "2026-09-22",
+      "url": "https://doi.org/10.1016/j.tibtech.2026.09.004",
+      "doi": "10.1016/j.tibtech.2026.09.004",
+      "abstract": "Debates about whether organoid intelligence systems are conscious, or can suffer, often stall on the question of what these organoid entities and systems are. A reflexive, anticipatory, and deliberative approach, grounded in a moral principle of complexity, instead asks what they do and provides guidance on that basis. Unanswerable questions are transformed into more workable processes.",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Asking pragmatic and RAD questions about organoid intelligence.",
+        "Debates about whether organoid intelligence systems are conscious, or can suffer, often stall on the question of what these organoid entities and systems are.",
+        "A reflexive, anticipatory, and deliberative approach, grounded in a moral principle of complexity, instead asks what they do and provides guidance on that basis."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "SDCBP competes with CBL to stabilize PES1 and promote c-Myc translation in ESCC tumorigenesis",
+      "authors": "Xiao N, Luo Q, Du R, Yao N, Liu Y, Nie W, Yang R, Fan Y, Liu K, Jiang W, Dong Z, Li X.",
+      "journal": "Cell reports",
+      "date": "2026-09-22",
+      "url": "https://doi.org/10.1016/j.celrep.2026.118013",
+      "doi": "10.1016/j.celrep.2026.118013",
+      "abstract": "Syndecan-binding protein (SDCBP) has been identified as a potential prognostic biomarker in esophageal squamous cell carcinoma (ESCC) in our previous study. However, its specific interacting partners and oncogenic mechanisms remain incompletely understood. Here, we identify PES1 as a direct binding partner of SDCBP and demonstrate that SDCBP stabilizes PES1 by competitively disrupting its interact",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: SDCBP competes with CBL to stabilize PES1 and promote c-Myc translation in ESCC tumorigenesis.",
+        "Syndecan-binding protein (SDCBP) has been identified as a potential prognostic biomarker in esophageal squamous cell carcinoma (ESCC) in our previous study.",
+        "However, its specific interacting partners and oncogenic mechanisms remain incompletely understood."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "A USP28-BRD4 axis contributes to the acceleration of breast cancer growth by hyperglycemia",
+      "authors": "Li N, Zhu Z, Li Z, Hu Z, Li X, Ke Q, Chen Y, Huang Y, Sun L, Song T.",
+      "journal": "Cell reports",
+      "date": "2026-09-22",
+      "url": "https://doi.org/10.1016/j.celrep.2026.118033",
+      "doi": "10.1016/j.celrep.2026.118033",
+      "abstract": "Diabetes exacerbates breast cancer progression through incompletely understood mechanisms. BRD4, a bromodomain transcriptional coactivator recognizing histone lysine acetylation, is overexpressed in cancer and upregulates tumor-promoting genes. But its role in diabetes-promoted breast cancer growth remains unknown. Here, we report that hyperglycemia stabilizes BRD4 protein to accelerate breast can",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: A USP28-BRD4 axis contributes to the acceleration of breast cancer growth by hyperglycemia.",
+        "Diabetes exacerbates breast cancer progression through incompletely understood mechanisms.",
+        "BRD4, a bromodomain transcriptional coactivator recognizing histone lysine acetylation, is overexpressed in cancer and upregulates tumor-promoting genes."
       ],
       "summary_kind": "abstract"
     },
@@ -640,6 +736,26 @@
       "summary_kind": "abstract"
     },
     {
+      "title": "A geothermal amoeba sets a new upper temperature limit for eukaryotes",
+      "authors": "Rappaport HB, Petek-Seoane NA, Tyml T, Niblo JK, Mikus F, Gilbert NE, LaButti K, Ani G, MacVicar E, Shepherd RM, de la Higuera I, Lord SJ, Dey G, Wolfe GV, Dudin O, Katz LA, Stedman KM, Sukenik S, Skruber K, Schulz F, Dyche Mullins R, Oliverio AM.",
+      "journal": "Cell",
+      "date": "2026-09-22",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.043",
+      "doi": "10.1016/j.cell.2026.08.043",
+      "abstract": "The study of temperature limits has transformed our understanding of life's boundaries but has focused on bacteria and archaea. For decades after their discovery, no eukaryote was shown to replicate above 60°C. We isolated a geothermal amoeba, Incendiamoeba cascadensis, that divides at 63°C and is motile up to 64°C. We identified an enrichment of genes related to proteostasis and environmental sen",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Focus: A geothermal amoeba sets a new upper temperature limit for eukaryotes.",
+        "The study of temperature limits has transformed our understanding of life's boundaries but has focused on bacteria and archaea.",
+        "For decades after their discovery, no eukaryote was shown to replicate above 60°C."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
       "title": "Hundreds of 'free' academic journals have started charging fees",
       "authors": "Singh Chawla D.",
       "journal": "Nature",
@@ -658,22 +774,22 @@
       "summary_kind": "headline"
     },
     {
-      "title": "A geothermal amoeba sets a new upper temperature limit for eukaryotes",
-      "authors": "Rappaport HB, Petek-Seoane NA, Tyml T, Niblo JK, Mikus F, Gilbert NE, LaButti K, Ani G, MacVicar E, Shepherd RM, de la Higuera I, Lord SJ, Dey G, Wolfe GV, Dudin O, Katz LA, Stedman KM, Sukenik S, Skruber K, Schulz F, Dyche Mullins R, Oliverio AM.",
-      "journal": "Cell",
+      "title": "PAG supports T cell immune synapse function by binding to actin",
+      "authors": "Moore EK, Bukhari S, Zhong J, Tymm C, Paiola M, Lerrer S, Strazza M, Shannon MJ, Xie X, Mace EM, Winchester R, Mor A.",
+      "journal": "Science signaling",
       "date": "2026-09-22",
-      "url": "https://doi.org/10.1016/j.cell.2026.08.043",
-      "doi": "10.1016/j.cell.2026.08.043",
-      "abstract": "The study of temperature limits has transformed our understanding of life's boundaries but has focused on bacteria and archaea. For decades after their discovery, no eukaryote was shown to replicate above 60°C. We isolated a geothermal amoeba, Incendiamoeba cascadensis, that divides at 63°C and is motile up to 64°C. We identified an enrichment of genes related to proteostasis and environmental sen",
+      "url": "https://doi.org/10.1126/scisignal.aef0327",
+      "doi": "10.1126/scisignal.aef0327",
+      "abstract": "Immunotherapies affect T cell function by modifying the immune synapse, which forms at the interface between T cells and their targets. Phosphoprotein associated with glycosphingolipid-rich microdomains 1 (PAG) is a T cell adaptor protein within the immune synapse that mediates signaling by the inhibitory co-receptor PD-1. Because PAG undergoes palmitoylation, which positions it within plasma memb",
       "citation_count": 0,
       "source": "journal",
-      "journal_family": "cell",
+      "journal_family": "science",
       "topic": "life-science",
-      "flagship": true,
+      "flagship": false,
       "summary_bullets": [
-        "Focus: A geothermal amoeba sets a new upper temperature limit for eukaryotes.",
-        "The study of temperature limits has transformed our understanding of life's boundaries but has focused on bacteria and archaea.",
-        "For decades after their discovery, no eukaryote was shown to replicate above 60°C."
+        "Focus: PAG supports T cell immune synapse function by binding to actin.",
+        "Immunotherapies affect T cell function by modifying the immune synapse, which forms at the interface between T cells and their targets.",
+        "Phosphoprotein associated with glycosphingolipid-rich microdomains 1 (PAG) is a T cell adaptor protein within the immune synapse that mediates signaling by the inhibitory co-receptor PD-1."
       ],
       "summary_kind": "abstract"
     },
@@ -796,42 +912,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "How to make a brain: new experiments challenge existing picture",
-      "authors": "Peeples L.",
-      "journal": "Nature",
-      "date": "2026-09-18",
-      "url": "https://doi.org/10.1038/d41586-026-02943-1",
-      "doi": "10.1038/d41586-026-02943-1",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "How to make a brain: new experiments challenge existing picture."
-      ],
-      "summary_kind": "headline"
-    },
-    {
-      "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment",
-      "authors": "Fieldhouse R.",
-      "journal": "Nature",
-      "date": "2026-09-18",
-      "url": "https://doi.org/10.1038/d41586-026-02945-z",
-      "doi": "10.1038/d41586-026-02945-z",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "First for RNA therapy: man with rare motor-neuron disease improves after treatment."
-      ],
-      "summary_kind": "headline"
-    },
-    {
       "title": "Oligodendrocytes in central nervous system health and disease",
       "authors": "Ryan LJ, Miron VE.",
       "journal": "Cell",
@@ -870,6 +950,42 @@
         "ABO2203 is a lipid nanoparticle-formulated messenger RNA (mRNA) encoding a CD19-targeting TCE."
       ],
       "summary_kind": "abstract"
+    },
+    {
+      "title": "How to make a brain: new experiments challenge existing picture",
+      "authors": "Peeples L.",
+      "journal": "Nature",
+      "date": "2026-09-18",
+      "url": "https://doi.org/10.1038/d41586-026-02943-1",
+      "doi": "10.1038/d41586-026-02943-1",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "How to make a brain: new experiments challenge existing picture."
+      ],
+      "summary_kind": "headline"
+    },
+    {
+      "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment",
+      "authors": "Fieldhouse R.",
+      "journal": "Nature",
+      "date": "2026-09-18",
+      "url": "https://doi.org/10.1038/d41586-026-02945-z",
+      "doi": "10.1038/d41586-026-02945-z",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "First for RNA therapy: man with rare motor-neuron disease improves after treatment."
+      ],
+      "summary_kind": "headline"
     },
     {
       "title": "Spatiotemporal single-cell profiling reveals T cell clonal dynamics and phenotypic plasticity in human graft-versus-host disease",
@@ -932,6 +1048,26 @@
       "summary_kind": "abstract"
     },
     {
+      "title": "De novo-engineered guide RNA-directed transposition with TnpB-family proteins",
+      "authors": "Schargel RD, Chacon Machado L, Kumaran S, Thesier JE, Krishnan SS, Guarné A, Peters JE.",
+      "journal": "Molecular cell",
+      "date": "2026-09-17",
+      "url": "https://doi.org/10.1016/j.molcel.2026.08.023",
+      "doi": "10.1016/j.molcel.2026.08.023",
+      "abstract": "Programmable DNA integration using CRISPR-associated transposase elements (CASTs) offers powerful capabilities for genome engineering. The large single effector Cas12k CAST examples evolved from a minimal TnpB nuclease protein. Here, we engineer a de novo RNA-guided transposition systems in bacteria, where the single guide RNA effector components are repurposed nuclease-dead TnpB-family proteins. ",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "synthetic",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: De novo-engineered guide RNA-directed transposition with TnpB-family proteins.",
+        "Programmable DNA integration using CRISPR-associated transposase elements (CASTs) offers powerful capabilities for genome engineering.",
+        "The large single effector Cas12k CAST examples evolved from a minimal TnpB nuclease protein."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
       "title": "Gene editing using large insertions",
       "authors": "Despang A.",
       "journal": "Nature biotechnology",
@@ -948,44 +1084,6 @@
         "Gene editing using large insertions."
       ],
       "summary_kind": "headline"
-    },
-    {
-      "title": "How a team of AIs discovered a promising lung-cancer drug",
-      "authors": "Callaway E.",
-      "journal": "Nature",
-      "date": "2026-09-17",
-      "url": "https://doi.org/10.1038/d41586-026-02954-y",
-      "doi": "10.1038/d41586-026-02954-y",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "focus",
-      "flagship": true,
-      "summary_bullets": [
-        "How a team of AIs discovered a promising lung-cancer drug."
-      ],
-      "summary_kind": "headline"
-    },
-    {
-      "title": "Toward autonomous science with agentic artificial intelligence",
-      "authors": "Guo LY, Ting DSJ, Su X, Aliper A, Zhavoronkov A, Ting DSW.",
-      "journal": "Cell",
-      "date": "2026-09-17",
-      "url": "https://doi.org/10.1016/j.cell.2026.08.052",
-      "doi": "10.1016/j.cell.2026.08.052",
-      "abstract": "Artificial intelligence (AI) in biomedicine has evolved from pattern-recognition for medical image analysis to generative models like AlphaFold that predict protein structures. Tools such as Elicit, GPT-Rosalind, and Claude Science now bridge prediction and reasoning through literature synthesis, domain-tuned models, and agentic workbenches. Three recent systems (Co-Scientist, Robin, and Biomni) d",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "focus",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Toward autonomous science with agentic artificial intelligence.",
-        "Artificial intelligence (AI) in biomedicine has evolved from pattern-recognition for medical image analysis to generative models like AlphaFold that predict protein structures.",
-        "Tools such as Elicit, GPT-Rosalind, and Claude Science now bridge prediction and reasoning through literature synthesis, domain-tuned models, and agentic workbenches."
-      ],
-      "summary_kind": "abstract"
     },
     {
       "title": "The Virtual Biotech: A multi-agent AI framework for therapeutic discovery and development",
@@ -1088,42 +1186,42 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Take a risk or play it safe? Neuronal tug-of-war helps the brain decide",
-      "authors": "Naddaf M.",
+      "title": "Toward autonomous science with agentic artificial intelligence",
+      "authors": "Guo LY, Ting DSJ, Su X, Aliper A, Zhavoronkov A, Ting DSW.",
+      "journal": "Cell",
+      "date": "2026-09-17",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.052",
+      "doi": "10.1016/j.cell.2026.08.052",
+      "abstract": "Artificial intelligence (AI) in biomedicine has evolved from pattern-recognition for medical image analysis to generative models like AlphaFold that predict protein structures. Tools such as Elicit, GPT-Rosalind, and Claude Science now bridge prediction and reasoning through literature synthesis, domain-tuned models, and agentic workbenches. Three recent systems (Co-Scientist, Robin, and Biomni) d",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "focus",
+      "flagship": true,
+      "summary_bullets": [
+        "Focus: Toward autonomous science with agentic artificial intelligence.",
+        "Artificial intelligence (AI) in biomedicine has evolved from pattern-recognition for medical image analysis to generative models like AlphaFold that predict protein structures.",
+        "Tools such as Elicit, GPT-Rosalind, and Claude Science now bridge prediction and reasoning through literature synthesis, domain-tuned models, and agentic workbenches."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "How a team of AIs discovered a promising lung-cancer drug",
+      "authors": "Callaway E.",
       "journal": "Nature",
       "date": "2026-09-17",
-      "url": "https://doi.org/10.1038/d41586-026-02911-9",
-      "doi": "10.1038/d41586-026-02911-9",
+      "url": "https://doi.org/10.1038/d41586-026-02954-y",
+      "doi": "10.1038/d41586-026-02954-y",
       "abstract": "",
       "citation_count": 0,
       "source": "journal",
       "journal_family": "nature",
-      "topic": "life-science",
+      "topic": "focus",
       "flagship": true,
       "summary_bullets": [
-        "Take a risk or play it safe? Neuronal tug-of-war helps the brain decide."
+        "How a team of AIs discovered a promising lung-cancer drug."
       ],
       "summary_kind": "headline"
-    },
-    {
-      "title": "Phosphate backbone epitranscriptomics: Discovery of natural RNA phosphorothioates and their writer machinery",
-      "authors": "Maman A, Nobe Y, Fluke KA, Weidenbach K, Harte AN, Burkhart BW, Nowak J, Mukherjee P, Choudhary DK, Kustanovich A, Nir R, Vogl K, Suazo K, Radovanović D, Matzov D, Rossmanith W, Meier JL, Shalev-Benami M, Grohmann D, Allen KD, Westhof E, Glatt S, Schmitz RA, Santangelo TJ, Taoka M, Schwartz S.",
-      "journal": "Cell",
-      "date": "2026-09-17",
-      "url": "https://doi.org/10.1016/j.cell.2026.08.034",
-      "doi": "10.1016/j.cell.2026.08.034",
-      "abstract": "Over 150 modifications expand the RNA alphabet, yet all known natural modifications occur on nucleobases or ribose sugars, with none identified on the phosphate backbone. In contrast, phosphorothioates (PSs), in which a non-bridging phosphate oxygen is replaced with sulfur, are central to RNA therapeutics but have never been reliably detected in natural RNAs. Here, we develop sequencing- and mass ",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Phosphate backbone epitranscriptomics: Discovery of natural RNA phosphorothioates and their writer machinery.",
-        "Over 150 modifications expand the RNA alphabet, yet all known natural modifications occur on nucleobases or ribose sugars, with none identified on the phosphate backbone.",
-        "In contrast, phosphorothioates (PSs), in which a non-bridging phosphate oxygen is replaced with sulfur, are central to RNA therapeutics but have never been reliably detected in natural RNAs."
-      ],
-      "summary_kind": "abstract"
     },
     {
       "title": "Parsing heterogeneity in autism spectrum disorder",
@@ -1324,6 +1422,44 @@
         "How the Vipr protein and a VIPR RNA (vrRNA) comprising alternating GGY and NN segments achieve precise DNA targeting is unknown."
       ],
       "summary_kind": "abstract"
+    },
+    {
+      "title": "Phosphate backbone epitranscriptomics: Discovery of natural RNA phosphorothioates and their writer machinery",
+      "authors": "Maman A, Nobe Y, Fluke KA, Weidenbach K, Harte AN, Burkhart BW, Nowak J, Mukherjee P, Choudhary DK, Kustanovich A, Nir R, Vogl K, Suazo K, Radovanović D, Matzov D, Rossmanith W, Meier JL, Shalev-Benami M, Grohmann D, Allen KD, Westhof E, Glatt S, Schmitz RA, Santangelo TJ, Taoka M, Schwartz S.",
+      "journal": "Cell",
+      "date": "2026-09-17",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.034",
+      "doi": "10.1016/j.cell.2026.08.034",
+      "abstract": "Over 150 modifications expand the RNA alphabet, yet all known natural modifications occur on nucleobases or ribose sugars, with none identified on the phosphate backbone. In contrast, phosphorothioates (PSs), in which a non-bridging phosphate oxygen is replaced with sulfur, are central to RNA therapeutics but have never been reliably detected in natural RNAs. Here, we develop sequencing- and mass ",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Focus: Phosphate backbone epitranscriptomics: Discovery of natural RNA phosphorothioates and their writer machinery.",
+        "Over 150 modifications expand the RNA alphabet, yet all known natural modifications occur on nucleobases or ribose sugars, with none identified on the phosphate backbone.",
+        "In contrast, phosphorothioates (PSs), in which a non-bridging phosphate oxygen is replaced with sulfur, are central to RNA therapeutics but have never been reliably detected in natural RNAs."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Take a risk or play it safe? Neuronal tug-of-war helps the brain decide",
+      "authors": "Naddaf M.",
+      "journal": "Nature",
+      "date": "2026-09-17",
+      "url": "https://doi.org/10.1038/d41586-026-02911-9",
+      "doi": "10.1038/d41586-026-02911-9",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Take a risk or play it safe? Neuronal tug-of-war helps the brain decide."
+      ],
+      "summary_kind": "headline"
     },
     {
       "title": "3D chromatin remodeling during domestication defines novel targets for crop improvement",
@@ -1916,24 +2052,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "'Stomach bugs' send protective immune cells rushing from gut to brain",
-      "authors": "Conroy G.",
-      "journal": "Nature",
-      "date": "2026-09-15",
-      "url": "https://doi.org/10.1038/d41586-026-02891-w",
-      "doi": "10.1038/d41586-026-02891-w",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "focus",
-      "flagship": true,
-      "summary_bullets": [
-        "'Stomach bugs' send protective immune cells rushing from gut to brain."
-      ],
-      "summary_kind": "headline"
-    },
-    {
       "title": "Single-cell-resolved genome atlas of prokaryoplankton inhabiting the ocean's interior",
       "authors": "Chang T, Pachiadaki MG, Gavelis GS, Poulton NJ, Thompson B, Mascena C, Macartney K, Brown JM, La Clair JJ, Weinheimer AR, Yokokawa T, Ruiz-Fernández P, Anstett J, Berube PM, Biller SJ, Orcutt BN, Baltar F, Burkart MD, Hallam SJ, Jürgens K, Ulloa O, Nunoura T, Sintes E, Herndl GJ, Stepanauskas R.",
       "journal": "Cell",
@@ -1972,6 +2090,24 @@
         "Human brain tissue metabolomics revealed that the creatine synthesis pathway intermediate guanidinoacetate (GAA) accumulated ∼100-fold in HGGs relative to controls, which was caused by imbalanced activities of enzymes…"
       ],
       "summary_kind": "abstract"
+    },
+    {
+      "title": "'Stomach bugs' send protective immune cells rushing from gut to brain",
+      "authors": "Conroy G.",
+      "journal": "Nature",
+      "date": "2026-09-15",
+      "url": "https://doi.org/10.1038/d41586-026-02891-w",
+      "doi": "10.1038/d41586-026-02891-w",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "focus",
+      "flagship": true,
+      "summary_bullets": [
+        "'Stomach bugs' send protective immune cells rushing from gut to brain."
+      ],
+      "summary_kind": "headline"
     },
     {
       "title": "Daily briefing: Reading for pleasure linked to big brain benefits",
@@ -2032,22 +2168,44 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Multiplexed imaging",
-      "authors": "Guo H.",
-      "journal": "Nature chemical biology",
+      "title": "Programmed ribosomal frameshifting triggers translational stress to promote viral replication",
+      "authors": "Xavier A, Kolling M, Bourke AM, Mosler T, Prieto-Garcia C, Karaulanov E, Reissland M, Tassetto M, Kim D, Klaassen K, Grikscheit K, Torbica E, Dederer V, Busam J, Kazi R, Olmer R, Pallerla SR, Mathea S, Diefenbacher ME, Zarnack K, Bojkova D, Widera M, Aviner R, Andino R, Ciesek S, Dikic I.",
+      "journal": "Cell",
       "date": "2026-09-14",
-      "url": "https://doi.org/10.1038/s41589-026-02333-8",
-      "doi": "10.1038/s41589-026-02333-8",
-      "abstract": "",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.031",
+      "doi": "10.1016/j.cell.2026.08.031",
+      "abstract": "Programmed ribosomal frameshifting (PRF) is a conserved viral strategy for expressing polyproteins from compact genomes. Although PRF is traditionally viewed as a structural mechanism, here we show that it functions as a regulatory signal that rewires host translation in favor of viral replication. A minimal SARS-CoV-2 PRF element is sufficient to activate the GCN2 arm of the integrated stress res",
       "citation_count": 0,
       "source": "journal",
-      "journal_family": "nature",
-      "topic": "spatial",
-      "flagship": false,
+      "journal_family": "cell",
+      "topic": "life-science",
+      "flagship": true,
       "summary_bullets": [
-        "Multiplexed imaging."
+        "Focus: Programmed ribosomal frameshifting triggers translational stress to promote viral replication.",
+        "Programmed ribosomal frameshifting (PRF) is a conserved viral strategy for expressing polyproteins from compact genomes.",
+        "Although PRF is traditionally viewed as a structural mechanism, here we show that it functions as a regulatory signal that rewires host translation in favor of viral replication."
       ],
-      "summary_kind": "headline"
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Copper ion-induced MYH9 polymerization executes cuproptosis",
+      "authors": "Wu LZ, Mi XY, Liu ZJ, Ding Y, Hong WB, Cai CX, Hu HJ, Ai YL, Zhao BX, Qiu DD, Ma JS, Chen XQ, You H, Lin T, Li FN, Hong XH, Chen HZ, Wu Q.",
+      "journal": "Cell",
+      "date": "2026-09-14",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.030",
+      "doi": "10.1016/j.cell.2026.08.030",
+      "abstract": "Cuproptosis is a recently identified form of copper-dependent cell death implicated in various physiological and pathological processes. However, the executive proteins involved and the role of physiological intracellular copper in cuproptosis remain unclear. Herein, we identified myosin heavy-chain 9 (MYH9) as a cuproptosis executioner. Copper binding induced MYH9 polymerization, which disrupted ",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Focus: Copper ion-induced MYH9 polymerization executes cuproptosis.",
+        "Cuproptosis is a recently identified form of copper-dependent cell death implicated in various physiological and pathological processes.",
+        "However, the executive proteins involved and the role of physiological intracellular copper in cuproptosis remain unclear."
+      ],
+      "summary_kind": "abstract"
     },
     {
       "title": "Encoded and non-genetic protein variants expand human functional proteome",
@@ -2104,162 +2262,6 @@
         "Drug firms' secret data supercharge AI protein models."
       ],
       "summary_kind": "headline"
-    },
-    {
-      "title": "Programmed ribosomal frameshifting triggers translational stress to promote viral replication",
-      "authors": "Xavier A, Kolling M, Bourke AM, Mosler T, Prieto-Garcia C, Karaulanov E, Reissland M, Tassetto M, Kim D, Klaassen K, Grikscheit K, Torbica E, Dederer V, Busam J, Kazi R, Olmer R, Pallerla SR, Mathea S, Diefenbacher ME, Zarnack K, Bojkova D, Widera M, Aviner R, Andino R, Ciesek S, Dikic I.",
-      "journal": "Cell",
-      "date": "2026-09-14",
-      "url": "https://doi.org/10.1016/j.cell.2026.08.031",
-      "doi": "10.1016/j.cell.2026.08.031",
-      "abstract": "Programmed ribosomal frameshifting (PRF) is a conserved viral strategy for expressing polyproteins from compact genomes. Although PRF is traditionally viewed as a structural mechanism, here we show that it functions as a regulatory signal that rewires host translation in favor of viral replication. A minimal SARS-CoV-2 PRF element is sufficient to activate the GCN2 arm of the integrated stress res",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Programmed ribosomal frameshifting triggers translational stress to promote viral replication.",
-        "Programmed ribosomal frameshifting (PRF) is a conserved viral strategy for expressing polyproteins from compact genomes.",
-        "Although PRF is traditionally viewed as a structural mechanism, here we show that it functions as a regulatory signal that rewires host translation in favor of viral replication."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Copper ion-induced MYH9 polymerization executes cuproptosis",
-      "authors": "Wu LZ, Mi XY, Liu ZJ, Ding Y, Hong WB, Cai CX, Hu HJ, Ai YL, Zhao BX, Qiu DD, Ma JS, Chen XQ, You H, Lin T, Li FN, Hong XH, Chen HZ, Wu Q.",
-      "journal": "Cell",
-      "date": "2026-09-14",
-      "url": "https://doi.org/10.1016/j.cell.2026.08.030",
-      "doi": "10.1016/j.cell.2026.08.030",
-      "abstract": "Cuproptosis is a recently identified form of copper-dependent cell death implicated in various physiological and pathological processes. However, the executive proteins involved and the role of physiological intracellular copper in cuproptosis remain unclear. Herein, we identified myosin heavy-chain 9 (MYH9) as a cuproptosis executioner. Copper binding induced MYH9 polymerization, which disrupted ",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Copper ion-induced MYH9 polymerization executes cuproptosis.",
-        "Cuproptosis is a recently identified form of copper-dependent cell death implicated in various physiological and pathological processes.",
-        "However, the executive proteins involved and the role of physiological intracellular copper in cuproptosis remain unclear."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Mitochondrial ATP promotes T cell differentiation through chromatin accessibility",
-      "authors": "Ng C, Fung TS, Li D, Kropp KN, Somarribas Patterson LF, Markovitz A, Weinberg DN, Jones O, Kim JY, Zhang G, Koche R, Monetti M, Tang H, He Y, Xu Z, Cai X, Yu Z, Bhagavatula G, Colgan SP, Lin YH, Li Z, Steinert EM, Klebanoff CA, Vardhana SA, Chandel NS, Wu L, Thompson CB.",
-      "journal": "Cell",
-      "date": "2026-09-11",
-      "url": "https://doi.org/10.1016/j.cell.2026.08.023",
-      "doi": "10.1016/j.cell.2026.08.023",
-      "abstract": "Immune elimination of chronic infection or cancer requires cytotoxic CD8<sup>+</sup> T cells that adopt and maintain an effector phenotype. Cytotoxic T cell function is a bioenergetically demanding process. Here, we report the ability of D-α-hydroxybutyrate (DAHB) to act as a signaling molecule that increases mitochondrial ATP production and drives the conversion of proliferating T cells into cyto",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "focus",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Mitochondrial ATP promotes T cell differentiation through chromatin accessibility.",
-        "Immune elimination of chronic infection or cancer requires cytotoxic CD8 + T cells that adopt and maintain an effector phenotype.",
-        "Cytotoxic T cell function is a bioenergetically demanding process."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Daily briefing: Skeleton teeth show evidence of the earliest known habitual drug use",
-      "authors": "Graham F.",
-      "journal": "Nature",
-      "date": "2026-09-11",
-      "url": "https://doi.org/10.1038/d41586-026-02901-x",
-      "doi": "10.1038/d41586-026-02901-x",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Daily briefing: Skeleton teeth show evidence of the earliest known habitual drug use."
-      ],
-      "summary_kind": "headline"
-    },
-    {
-      "title": "Osteoporosis affects millions: could modified cells rebuild their bones?",
-      "authors": "Dolgin E.",
-      "journal": "Nature",
-      "date": "2026-09-11",
-      "url": "https://doi.org/10.1038/d41586-026-02828-3",
-      "doi": "10.1038/d41586-026-02828-3",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Osteoporosis affects millions: could modified cells rebuild their bones?."
-      ],
-      "summary_kind": "headline"
-    },
-    {
-      "title": "Glycocalyx-edited mesenchymal stem/stromal cell therapy in advanced osteoporosis",
-      "authors": "Moraleda JM, Linares LF, García-Bernal D, Lozano-Rivas N, Ruiz-Sará J, Blanquer M, López-Lucas MD, Sánchez-Salinas D, Algueró MC, Molina-Molina MM, Ruiz-Espejo F, Peris-Serra JL, Arrabal PM, Becerra J, Kiwitt-Cárdenas J, Marras C, García-Hernández AM, Sackstein R.",
-      "journal": "Cell",
-      "date": "2026-09-11",
-      "url": "https://doi.org/10.1016/j.cell.2026.08.017",
-      "doi": "10.1016/j.cell.2026.08.017",
-      "abstract": "Mesenchymal stem/stromal cells (MSCs) are osteoregenerative; however, their therapeutic efficacy for skeletal conditions is hampered by poor bone-homing (\"osteotropism\"). In preclinical models, this deficit is correctable by MSC glycocalyx editing to enforce sialylated Lewis X (sLeX) expression, thereby programming osteotropism. We conducted a first-in-human clinical trial (ClinicalTrials.gov: NCT",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Glycocalyx-edited mesenchymal stem/stromal cell therapy in advanced osteoporosis.",
-        "Mesenchymal stem/stromal cells (MSCs) are osteoregenerative.",
-        "however, their therapeutic efficacy for skeletal conditions is hampered by poor bone-homing (\"osteotropism\")."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Metax enables accurate cross-domain taxonomic profiling of metagenomes",
-      "authors": "Deng ZL, Safaei N, McHardy AC.",
-      "journal": "Cell",
-      "date": "2026-09-11",
-      "url": "https://doi.org/10.1016/j.cell.2026.08.024",
-      "doi": "10.1016/j.cell.2026.08.024",
-      "abstract": "Taxonomic profiling is fundamental to microbiome research, yet achieving high species-level accuracy remains challenging for complex communities that span bacteria, viruses, eukaryotes, and archaea, and these limitations are exacerbated in low-biomass, host-dominated samples. We introduce Metax, a cross-domain taxonomic profiler that integrates coverage-based probabilistic modeling with an expecta",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Metax enables accurate cross-domain taxonomic profiling of metagenomes.",
-        "Taxonomic profiling is fundamental to microbiome research, yet achieving high species-level accuracy remains challenging for complex communities that span bacteria, viruses, eukaryotes, and archaea, and these limitations are…",
-        "We introduce Metax, a cross-domain taxonomic profiler that integrates coverage-based probabilistic modeling with an expecta."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Ban bets on unfinished clinical trials",
-      "authors": "Yang YT, Kesselheim AS.",
-      "journal": "Science (New York, N.Y.)",
-      "date": "2026-09-11",
-      "url": "https://doi.org/10.1126/science.ael8642",
-      "doi": "10.1126/science.ael8642",
-      "abstract": "In July, the prediction market platform Kalshi and data company AppliedXL began a pilot market listing binary, yes-or-no contracts on whether named late-stage clinical trials meet their preregistered primary end points. Kalshi lists contracts only after trial enrollment closes, reasoning that a visible price-in effect the market's odds that the trial succeeds-could sway recruitment. But closing en",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Ban bets on unfinished clinical trials.",
-        "Focus: Ban bets on unfinished clinical trials.",
-        "In July, the prediction market platform Kalshi and data company AppliedXL began a pilot market listing binary, yes-or-no contracts on whether named late-stage clinical trials meet their preregistered…"
-      ],
-      "summary_kind": "abstract"
     }
   ]
 }
