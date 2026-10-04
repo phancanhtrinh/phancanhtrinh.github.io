@@ -9,13 +9,16 @@ carousel: true
 
 > **Language note:** This article is presented in English first. [The Vietnamese version follows below.](#tieng-viet)
 
-<div id="award-memory-carousel" class="carousel slide award-memory-carousel" data-ride="carousel" data-interval="6500" aria-label="Life Sciences PhD Award Austria 2026 photo gallery">
+<div id="award-memory-carousel" class="carousel slide award-memory-carousel" data-ride="carousel" data-interval="6500" aria-label="Life Sciences PhD Award Austria and ÖGMM Publication Award 2026 photo gallery">
   <ol class="carousel-indicators">
     <li data-target="#award-memory-carousel" data-slide-to="0" class="active"></li>
     <li data-target="#award-memory-carousel" data-slide-to="1"></li>
     <li data-target="#award-memory-carousel" data-slide-to="2"></li>
     <li data-target="#award-memory-carousel" data-slide-to="3"></li>
     <li data-target="#award-memory-carousel" data-slide-to="4"></li>
+    <li data-target="#award-memory-carousel" data-slide-to="5"></li>
+    <li data-target="#award-memory-carousel" data-slide-to="6"></li>
+    <li data-target="#award-memory-carousel" data-slide-to="7"></li>
   </ol>
   <div class="carousel-inner">
     <figure class="carousel-item active" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/01-award-presentation.jpg')">
@@ -37,6 +40,18 @@ carousel: true
     <figure class="carousel-item" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/05-group.jpg')">
       <img src="/images/blog/life-sciences-phd-award-2026/05-group.jpg" loading="lazy" alt="Award recipients and representatives at the Life Sciences Awards Austria 2026 ceremony">
       <figcaption>Award recipients and representatives at the 2026 ceremony.</figcaption>
+    </figure>
+    <figure class="carousel-item" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/06-ogmm-award.jpg')">
+      <img src="/images/blog/life-sciences-phd-award-2026/06-ogmm-award.jpg" loading="lazy" alt="Trinh Phan-Canh receiving the ÖGMM Publication Award 2026 certificate">
+      <figcaption>Receiving the ÖGMM Publication Award 2026 from the Austrian Society for Medical Mycology.</figcaption>
+    </figure>
+    <figure class="carousel-item" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/07-research-presentation.jpg')">
+      <img src="/images/blog/life-sciences-phd-award-2026/07-research-presentation.jpg" loading="lazy" alt="Trinh Phan-Canh presenting his research to the audience at the ÖGMBT Annual Meeting 2026">
+      <figcaption>Sharing my PhD research at the ÖGMBT Annual Meeting 2026.</figcaption>
+    </figure>
+    <figure class="carousel-item" style="--slide-image: url('/images/blog/life-sciences-phd-award-2026/08-research-talk.jpg')">
+      <img src="/images/blog/life-sciences-phd-award-2026/08-research-talk.jpg" loading="lazy" alt="Trinh Phan-Canh speaking into a microphone during his research presentation at the ÖGMBT Annual Meeting 2026">
+      <figcaption>A moment from my research talk at the ÖGMBT Annual Meeting 2026.</figcaption>
     </figure>
   </div>
   <a class="carousel-control-prev" href="#award-memory-carousel" role="button" data-slide="prev" aria-label="Previous photo">
