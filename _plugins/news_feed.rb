@@ -3,6 +3,8 @@
 # real date, for the combined /blog/ "News" page. Runs before rendering
 # so post.excerpt/content are still handled natively via Liquid on the
 # actual Post object (stored under 'post') rather than pre-rendered here.
+require 'uri'
+
 module Jekyll
   class NewsFeedGenerator < Generator
     priority :low
@@ -26,6 +28,12 @@ module Jekyll
       (site.categories['papers'] || []).each { |p| papers_by_url[p.url] = p }
 
       mentions = site.data.dig('mediamentions', 'mentions') || []
+      mentions = unique_links(mentions)
+      # Also clean the standalone press page when building an older archive.
+      if site.data['mediamentions']
+        site.data['mediamentions']['mentions'] = mentions
+        site.data['mediamentions']['count'] = mentions.size
+      end
       mentions.each do |m|
         date = parse_date(m['date'])
         next if date.nil?
@@ -68,6 +76,7 @@ module Jekyll
         }
       end
 
+      items = unique_links(items)
       items.sort_by! { |it| it['date'] }
       items.reverse!
 
@@ -75,6 +84,34 @@ module Jekyll
     end
 
     private
+
+    def unique_links(items)
+      seen = {}
+      items.reject do |item|
+        key = canonical_url(item['url'])
+        next false if key.empty?
+        duplicate = seen.key?(key)
+        seen[key] = true
+        duplicate
+      end
+    end
+
+    def canonical_url(url)
+      uri = URI.parse(url.to_s.strip)
+      uri.fragment = nil
+      uri.scheme = uri.scheme.downcase if uri.scheme
+      uri.host = uri.host.downcase if uri.host
+      uri.path = uri.path.to_s.sub(%r{/+\z}, '')
+      if uri.query
+        params = URI.decode_www_form(uri.query).reject do |key, _|
+          key.downcase.start_with?('utm_') || %w[fbclid gclid mc_cid mc_eid].include?(key.downcase)
+        end
+        uri.query = params.empty? ? nil : URI.encode_www_form(params.sort)
+      end
+      uri.to_s
+    rescue URI::InvalidURIError, ArgumentError
+      url.to_s.strip
+    end
 
     # Matches Vietnamese-only letters/tone marks (not used by German/French/
     # English), so this never false-positives on the site's other non-English
