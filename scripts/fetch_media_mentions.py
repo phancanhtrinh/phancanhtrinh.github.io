@@ -634,13 +634,34 @@ def canonical_url(url):
                                    urllib.parse.urlencode(sorted(query)), ""))
 
 
+def is_stable_article(item):
+    """Exclude rotating homepages, press listings, and people directories."""
+    title = html.unescape(item.get("title", "")).strip().lower()
+    heading = re.split(r"\s*[|–—]\s*", title)[0].strip()
+    if heading in {"home", "homepage", "press", "presse", "news", "news & press",
+                   "people of the meduni vienna", "people of the meduni wien"}:
+        return False
+    parts = urllib.parse.urlsplit(item.get("url", ""))
+    path = parts.path.rstrip("/").lower()
+    if (not path and not parts.query) or path in {"/web", "/web/en", "/web/en/press", "/web/presse",
+                            "/web/en/about-us/news", "/web/ueber-uns/news"}:
+        return False
+    return True
+
+
 def dedupe(items):
     seen_urls = set()
     seen_titles = set()
     out = []
+    # Prefer direct article links over Google News redirects.
+    items = sorted(items, key=lambda it: "news.google.com" in it.get("url", ""))
     for it in items:
-        title = it.get("title", "").strip().lower()
+        if not is_stable_article(it):
+            continue
+        title = html.unescape(it.get("title", "")).strip().lower()
         source = it.get("source", "").strip().lower()
+        if source in {"meduni wien", "meduni vienna", "meduniwien.ac.at"}:
+            source = "meduniwien.ac.at"
         url = canonical_url(it.get("url"))
         key = (title, source) if title else None
         if (not url and not key) or (url and url in seen_urls) or (key and key in seen_titles):
