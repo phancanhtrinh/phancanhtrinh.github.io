@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T16:46:46Z",
+  "generated_at": "2026-11-08T16:57:54Z",
   "window_days": 14,
   "count": 140,
   "topic_counts": {
@@ -9,7 +9,7 @@
     "life-science": 64
   },
   "attention": {
-    "generated_at": "2026-11-07T16:46:43Z",
+    "generated_at": "2026-11-08T16:57:51Z",
     "window_days": 15,
     "momentum_days": 7,
     "altmetric_enabled": false,
@@ -41,25 +41,25 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 49.5
+        "attention_score": 49.4
       },
       {
-        "title": "SWI/SNF complexes shape 3D chromatin architecture through CTCF and cohesin",
-        "authors": "Debek S, Meydan C, Chin CR, Yu J, Durmaz C, Tsialta I, Pelzer B, Maurer C, Ou A, Laguillo-Diego A, Scourzic L, Tumuluru S, Teater M, Wu R, Darsow B, Rivas MA, Marin-Rubio JL, Stadtfeld M, Apostolou E, Mason CE, Elenitoba-Johnson KSJ, Risca VI, Melnick A, Barisic D.",
+        "title": "Tandem repeat variation shapes immune cell type-specific gene expression",
+        "authors": "Tanudisastro HA, Cuomo ASE, Weisburd B, Welland M, Spenceley E, Franklin M, Xue A, Huang HL, Bowen B, Fan J, Dong OA, Henry A, Allen PC, Wing K, Tang O, Gray M, Reis ALM, Margoliash J, Kurtas NE, Pullin JM, Lee AS, Brand H, Harper M, Bobowik K, Silk M, Miniter A, Marshall J, Bakiris V, Madala BS, Uren C, Bartie C, McCloy RA, Senabouth A, Dashnow H, Fearnley L, Martin-Trujillo A, Dolzhenko E, Qiao Z, Grieve SM, Nguyen T, Ben-David E, Chen L, Farh KK, Talkowski ME, Alexander SI, Siggs OM, Gruenschloss L, Nicholas HR, Piscionere J, Simons C, Wallace C, Gymrek M, Deveson IW, Hewitt AW, Figtree GA, de Lange KM, Powell JE, MacArthur DG.",
         "journal": "Nature",
         "date": "2026-10-28",
-        "url": "https://doi.org/10.1038/s41586-026-11197-w",
-        "doi": "10.1038/s41586-026-11197-w",
-        "abstract": "The BAF (also known as mammalian SWI/SNF) chromatin remodelling complexes are essential regulators of nucleosome positioning and transcription factor binding<sup>1,2</sup>. Loss-of-function (LOF) mutations in genes encoding components of the BAF complexes are among the most frequent across cancer types<sup>3</sup>. However, a unifying mechanism that explains their widespread disruption remains unc",
+        "url": "https://doi.org/10.1038/s41586-026-10438-2",
+        "doi": "10.1038/s41586-026-10438-2",
+        "abstract": "Tandem repeats (TRs)-highly polymorphic, repetitive sequences across the human genome-are important regulators of gene expression but remain underexplored due to challenges in accurate genotyping and analysis<sup>1</sup>. Here we generate whole-genome and single-cell RNA sequencing from more than 5.4 million blood-derived cells across 1,925 individuals in two cohorts<sup>2</sup>, and perform meta-",
         "citation_count": 0,
         "source": "journal",
         "journal_family": "nature",
         "topic": "focus",
         "flagship": true,
         "summary_bullets": [
-          "Focus: SWI/SNF complexes shape 3D chromatin architecture through CTCF and cohesin.",
-          "The BAF (also known as mammalian SWI/SNF) chromatin remodelling complexes are essential regulators of nucleosome positioning and transcription factor binding1,2.",
-          "Loss-of-function (LOF) mutations in genes encoding components of the BAF complexes are among the most frequent across cancer types3."
+          "Focus: Tandem repeat variation shapes immune cell type-specific gene expression.",
+          "Tandem repeats (TRs)-highly polymorphic, repetitive sequences across the human genome-are important regulators of gene expression but remain underexplored due to challenges in accurate genotyping and analysis1.",
+          "Here we generate whole-genome and single-cell RNA sequencing from more than 5.4 million blood-derived cells across 1,925 individuals in two cohorts2, and perform meta-analysis to characteri."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
@@ -70,7 +70,36 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 34.8
+        "attention_score": 34.6
+      },
+      {
+        "title": "Rare and common genetic variants shape single-cell immune gene expression",
+        "authors": "Cuomo ASE, Spenceley E, Tanudisastro HA, Bowen B, Henry A, Huang HL, Xue A, Zhou W, Welland MJ, Bryen SJ, Dong OA, Lee AS, Pullin JM, Wing K, Tang O, Gray MP, Franklin M, Harper M, Silk M, Bobowik K, Stuckey A, Marshall J, Bakiris V, Uren C, McCloy RA, Madala BS, Miniter A, Bartie C, Neavin DR, Qiao Z, Ben-David E, Chen L, Farh KK, Grieve SM, Nguyen T, Wallace C, Piscionere J, Siggs OM, Nicholas H, de Lange KM, Hewitt AW, Figtree GA, MacArthur DG, Powell JE.",
+        "journal": "Nature",
+        "date": "2026-10-28",
+        "url": "https://doi.org/10.1038/s41586-026-10721-2",
+        "doi": "10.1038/s41586-026-10721-2",
+        "abstract": "Understanding the genetic basis of gene expression can shed light on the regulatory mechanisms underlying complex traits and diseases<sup>1,2</sup>. Single-cell-resolved measures of RNA levels and single-cell expression quantitative trait loci have revealed genetic regulation that drives cell states and types across diverse tissues<sup>3</sup>. Here we describe phase 1 of TenK10K, which leverages ",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "focus",
+        "flagship": true,
+        "summary_bullets": [
+          "Focus: Rare and common genetic variants shape single-cell immune gene expression.",
+          "Understanding the genetic basis of gene expression can shed light on the regulatory mechanisms underlying complex traits and diseases1,2.",
+          "Single-cell-resolved measures of RNA levels and single-cell expression quantitative trait loci have revealed genetic regulation that drives cell states and types across diverse tissues3."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 1,
+        "bluesky_engagement": 0,
+        "media_mentions": 3,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 29.6
       },
       {
         "title": "Genetic variants shape single-cell chromatin accessibility and disease risk",
@@ -99,36 +128,7 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 29.8
-      },
-      {
-        "title": "Tandem repeat variation shapes immune cell type-specific gene expression",
-        "authors": "Tanudisastro HA, Cuomo ASE, Weisburd B, Welland M, Spenceley E, Franklin M, Xue A, Huang HL, Bowen B, Fan J, Dong OA, Henry A, Allen PC, Wing K, Tang O, Gray M, Reis ALM, Margoliash J, Kurtas NE, Pullin JM, Lee AS, Brand H, Harper M, Bobowik K, Silk M, Miniter A, Marshall J, Bakiris V, Madala BS, Uren C, Bartie C, McCloy RA, Senabouth A, Dashnow H, Fearnley L, Martin-Trujillo A, Dolzhenko E, Qiao Z, Grieve SM, Nguyen T, Ben-David E, Chen L, Farh KK, Talkowski ME, Alexander SI, Siggs OM, Gruenschloss L, Nicholas HR, Piscionere J, Simons C, Wallace C, Gymrek M, Deveson IW, Hewitt AW, Figtree GA, de Lange KM, Powell JE, MacArthur DG.",
-        "journal": "Nature",
-        "date": "2026-10-28",
-        "url": "https://doi.org/10.1038/s41586-026-10438-2",
-        "doi": "10.1038/s41586-026-10438-2",
-        "abstract": "Tandem repeats (TRs)-highly polymorphic, repetitive sequences across the human genome-are important regulators of gene expression but remain underexplored due to challenges in accurate genotyping and analysis<sup>1</sup>. Here we generate whole-genome and single-cell RNA sequencing from more than 5.4 million blood-derived cells across 1,925 individuals in two cohorts<sup>2</sup>, and perform meta-",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "focus",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Tandem repeat variation shapes immune cell type-specific gene expression.",
-          "Tandem repeats (TRs)-highly polymorphic, repetitive sequences across the human genome-are important regulators of gene expression but remain underexplored due to challenges in accurate genotyping and analysis1.",
-          "Here we generate whole-genome and single-cell RNA sequencing from more than 5.4 million blood-derived cells across 1,925 individuals in two cohorts2, and perform meta-analysis to characteri."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 3,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 26.8
+        "attention_score": 29.6
       },
       {
         "title": "T and B cells recognize splicing-derived neutrophil neoantigens in lupus",
@@ -157,25 +157,25 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 26.8
+        "attention_score": 26.6
       },
       {
-        "title": "Pharmacological inhibition of METTL1 as a therapy against solid and blood cancers",
-        "authors": "Yankova E, Sapetschnig A, Thomas B, Evans S, Eleftheriou M, Gozdecka M, Fischl H, Brevini T, Wilson R, Bucknell SJ, Hutchin A, Livi CM, Giotopoulos G, Asby R, Bond L, Azevedo A, Webster N, Rogan J, Russell J, Andrews B, Weisser H, Baxter J, López-Luis J, Mantica G, Tobin J, Lopez-Leon D, Pask DC, Tandon V, Fosbeary R, Sawyer S, Usluer S, Joseph N, Stamou E, Bejar MT, Malam Y, Rad R, Laurenti E, Li J, Alcolea MP, Adams DJ, Khaled WT, Sampaziotis F, Vassiliou GS, Huntly BJP, Rausch O, Tzelepis K.",
+        "title": "SWI/SNF complexes shape 3D chromatin architecture through CTCF and cohesin",
+        "authors": "Debek S, Meydan C, Chin CR, Yu J, Durmaz C, Tsialta I, Pelzer B, Maurer C, Ou A, Laguillo-Diego A, Scourzic L, Tumuluru S, Teater M, Wu R, Darsow B, Rivas MA, Marin-Rubio JL, Stadtfeld M, Apostolou E, Mason CE, Elenitoba-Johnson KSJ, Risca VI, Melnick A, Barisic D.",
         "journal": "Nature",
         "date": "2026-10-28",
-        "url": "https://doi.org/10.1038/s41586-026-11178-z",
-        "doi": "10.1038/s41586-026-11178-z",
-        "abstract": "The N7-methylguanosine (m<sup>7</sup>G) modification is one of the most prevalent tRNA modifications, mainly catalysed by the METTL1-WDR4 protein complex<sup>1-4</sup>. The m<sup>7</sup>G methyltransferase METTL1 has been linked to oncogenic transformation and the maintenance of several aggressive malignancies; however, the clinical implications of therapeutically targeting a tRNA-modifying enzyme",
+        "url": "https://doi.org/10.1038/s41586-026-11197-w",
+        "doi": "10.1038/s41586-026-11197-w",
+        "abstract": "The BAF (also known as mammalian SWI/SNF) chromatin remodelling complexes are essential regulators of nucleosome positioning and transcription factor binding<sup>1,2</sup>. Loss-of-function (LOF) mutations in genes encoding components of the BAF complexes are among the most frequent across cancer types<sup>3</sup>. However, a unifying mechanism that explains their widespread disruption remains unc",
         "citation_count": 0,
         "source": "journal",
         "journal_family": "nature",
         "topic": "focus",
         "flagship": true,
         "summary_bullets": [
-          "Focus: Pharmacological inhibition of METTL1 as a therapy against solid and blood cancers.",
-          "The N7-methylguanosine (m7G) modification is one of the most prevalent tRNA modifications, mainly catalysed by the METTL1-WDR4 protein complex1-4.",
-          "The m7G methyltransferase METTL1 has been linked to oncogenic transformation and the maintenance of several aggressive malignancies."
+          "Focus: SWI/SNF complexes shape 3D chromatin architecture through CTCF and cohesin.",
+          "The BAF (also known as mammalian SWI/SNF) chromatin remodelling complexes are essential regulators of nucleosome positioning and transcription factor binding1,2.",
+          "Loss-of-function (LOF) mutations in genes encoding components of the BAF complexes are among the most frequent across cancer types3."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
@@ -186,25 +186,25 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 26.8
+        "attention_score": 26.6
       },
       {
-        "title": "Antimicrobial peptides derived from Nemuri induce ribosomal condensation to inhibit translation",
-        "authors": "Nishinami S, Hasan M, Niwa T, Inui T, Yokoyama T, Otsuki H, Ogasawara Y, Sugai H, Otobe Y, Machida M, Abdelaziz M, Ageta-Ishihara N, Sasaki R, Ishizaki Y, Iwasaki K, Fujioka Y, Ohishi T, Kajimoto S, Nakabayashi T, Tanaka Y, Yoshitane H, Kumeta H, Sehgal A, Igarashi M, Noda NN, Toda H.",
-        "journal": "Nature communications",
+        "title": "In vivo-compatible spatial multi-omics via hydrogen peroxide-independent APEX2 labeling",
+        "authors": "Chen B, Guo H, Yan Z, Lu W, Li C, Xu S, Zhang Y, Guo H, Sun S, Yang H, Sun X, Zhao S, Shangguan Q, Chen Y, Lu L, Wu Z, Chen Y, Qin W.",
+        "journal": "Nature chemical biology",
         "date": "2026-10-29",
-        "url": "https://doi.org/10.1038/s41467-026-78960-5",
-        "doi": "10.1038/s41467-026-78960-5",
-        "abstract": "Antibiotic resistance is a global health threat requiring antimicrobials with alternative modes of action. Growing evidence indicates that bacteria organize key intracellular processes through biomolecular condensates and other forms of spatial organization, yet whether such spatial organization can be exploited as an antimicrobial target remains unclear. Here, we identify intrinsically disordered",
+        "url": "https://doi.org/10.1038/s41589-026-02356-1",
+        "doi": "10.1038/s41589-026-02356-1",
+        "abstract": "Proximity labeling (PL) technologies such as APEX2 have transformed spatial multi-omics in live cells, but their long-standing dependence on hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) disrupts redox signaling and prevents use in live animals. Here we introduce H<sub>2</sub>O<sub>2</sub>-independent APEX2 (Hi-APEX), which uses a clickable tetrazine-phenol (TP) probe, requiring no enzyme enginee",
         "citation_count": 0,
         "source": "journal",
         "journal_family": "nature",
         "topic": "spatial",
         "flagship": false,
         "summary_bullets": [
-          "Focus: Antimicrobial peptides derived from Nemuri induce ribosomal condensation to inhibit translation.",
-          "Antibiotic resistance is a global health threat requiring antimicrobials with alternative modes of action.",
-          "Growing evidence indicates that bacteria organize key intracellular processes through biomolecular condensates and other forms of spatial organization, yet whether such spatial organization can be exploited as an…"
+          "Focus: In vivo-compatible spatial multi-omics via hydrogen peroxide-independent APEX2 labeling.",
+          "Proximity labeling (PL) technologies such as APEX2 have transformed spatial multi-omics in live cells, but their long-standing dependence on hydrogen peroxide (H 2 O 2 ) disrupts redox…",
+          "Here we introduce H 2 O 2 -independent APEX2 (Hi-APEX), which uses a clickable tetrazine-phenol (TP) probe, requiring no enzyme enginee."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
@@ -215,7 +215,7 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 24.9
+        "attention_score": 24.8
       },
       {
         "title": "GALE is a tumor-intrinsic checkpoint of Vγ9Vδ2 T cell-mediated killing",
@@ -244,7 +244,7 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 22.1
+        "attention_score": 21.9
       },
       {
         "title": "BAZ2A-induced epigenetic states in cancer cells fuel palmitate accumulation in the tumor microenvironment driving CAR-T cell exhaustion",
@@ -273,28 +273,28 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 22.1
+        "attention_score": 21.9
       },
       {
-        "title": "Rare and common genetic variants shape single-cell immune gene expression",
-        "authors": "Cuomo ASE, Spenceley E, Tanudisastro HA, Bowen B, Henry A, Huang HL, Xue A, Zhou W, Welland MJ, Bryen SJ, Dong OA, Lee AS, Pullin JM, Wing K, Tang O, Gray MP, Franklin M, Harper M, Silk M, Bobowik K, Stuckey A, Marshall J, Bakiris V, Uren C, McCloy RA, Madala BS, Miniter A, Bartie C, Neavin DR, Qiao Z, Ben-David E, Chen L, Farh KK, Grieve SM, Nguyen T, Wallace C, Piscionere J, Siggs OM, Nicholas H, de Lange KM, Hewitt AW, Figtree GA, MacArthur DG, Powell JE.",
-        "journal": "Nature",
-        "date": "2026-10-28",
-        "url": "https://doi.org/10.1038/s41586-026-10721-2",
-        "doi": "10.1038/s41586-026-10721-2",
-        "abstract": "Understanding the genetic basis of gene expression can shed light on the regulatory mechanisms underlying complex traits and diseases<sup>1,2</sup>. Single-cell-resolved measures of RNA levels and single-cell expression quantitative trait loci have revealed genetic regulation that drives cell states and types across diverse tissues<sup>3</sup>. Here we describe phase 1 of TenK10K, which leverages ",
+        "title": "Stimulated protein degradation to promote mitochondrial function and neuronal survival",
+        "authors": "Chandrasekhar S, McMinimy R, Manford AG, Wehri E, Gee CL, Miller C, Bingol B, Kuriyan J, Schaletzky J, Rapé M.",
+        "journal": "Science (New York, N.Y.)",
+        "date": "2026-10-29",
+        "url": "https://doi.org/10.1126/science.aed2525",
+        "doi": "10.1126/science.aed2525",
+        "abstract": "Targeted protein degradation is a promising modality to treat cancer or inflammation, but whether it can provide a similar benefit for disorders caused by pervasive protein dysregulation is unclear. We describe stimulated protein degradation (SPD) as a strategy that leverages agonists of stress-responsive E3 ubiquitin ligases to simultaneously eliminate multiple pathogenic factors. Specifically, w",
         "citation_count": 0,
         "source": "journal",
-        "journal_family": "nature",
+        "journal_family": "science",
         "topic": "focus",
         "flagship": true,
         "summary_bullets": [
-          "Focus: Rare and common genetic variants shape single-cell immune gene expression.",
-          "Understanding the genetic basis of gene expression can shed light on the regulatory mechanisms underlying complex traits and diseases1,2.",
-          "Single-cell-resolved measures of RNA levels and single-cell expression quantitative trait loci have revealed genetic regulation that drives cell states and types across diverse tissues3."
+          "Focus: Stimulated protein degradation to promote mitochondrial function and neuronal survival.",
+          "Targeted protein degradation is a promising modality to treat cancer or inflammation, but whether it can provide a similar benefit for disorders caused by pervasive protein dysregulation is…",
+          "We describe stimulated protein degradation (SPD) as a strategy that leverages agonists of stress-responsive E3 ubiquitin ligases to simultaneously eliminate multiple pathogenic factors."
         ],
         "summary_kind": "abstract",
-        "bluesky_mentions": 1,
+        "bluesky_mentions": 0,
         "bluesky_engagement": 0,
         "media_mentions": 2,
         "altmetric_score": 0,
@@ -302,7 +302,7 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 21.8
+        "attention_score": 18.8
       }
     ]
   },
@@ -410,23 +410,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Proteome-wide discovery of novel diagnostic antigens for coccidioidomycosis",
-      "authors": "Elko, E., Ryle, L., Nelson, G. A., Sarbo, N. G., Harms, C. E., Kelley, E., Fredericks, M. N., Keim, P., Knox, K., Kala, M., Fuller, D. H., Settles, E. W., Barker, B. M., Magee, D. M., Lake, D. F., Grys, T. E., Thompson, G. R., Altin, J., Ladner, J. T., Mead, H. L.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-11-07",
-      "url": "https://doi.org/10.64898/2026.11.05.764335",
-      "doi": "10.64898/2026.11.05.764335",
-      "abstract": "Coccidioidomycosis, commonly called Valley Fever (VF), caused by Coccidioides spp., is an understudied fungal disease that accounts for a substantial fraction of pneumonias in endemic areas. Diagnosis remains challenging because the mainstay of diagnosis is serology, and current assays have modest sensitivity in early infection. Discovery of new antigens could improve serologic detection early in ",
-      "source": "preprint",
-      "topic": "life-science",
-      "summary_bullets": [
-        "Focus: Proteome-wide discovery of novel diagnostic antigens for coccidioidomycosis.",
-        "Coccidioidomycosis, commonly called Valley Fever (VF), caused by Coccidioides spp., is an understudied fungal disease that accounts for a substantial fraction of pneumonias in endemic areas.",
-        "Diagnosis remains challenging because the mainstay of diagnosis is serology, and current assays have modest sensitivity in early infection."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
       "title": "Glycolytic enzymes form membrane-less condensates in the malaria parasite Plasmodium falciparum by sensing glucose levels",
       "authors": "Ishii, R., Sakura, T., Inaoka, D. K., Tokumasu, F.",
       "journal": "bioRxiv (preprint)",
@@ -440,6 +423,23 @@
         "Focus: Glycolytic enzymes form membrane-less condensates in the malaria parasite Plasmodium falciparum by sensing glucose levels.",
         "Recent studies have shown that liquid-liquid phase separation (LLPS) in cells can regulate essential cellular events, including metabolic processes.",
         "Glycolytic bodies (G-bodies) are biomolecular condensates formed through the LLPS of glycolytic enzymes, and they accelerate glycolysis to overcome hypoxic stress in several organisms."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Sequential pathways preserve kinetochore integrity in meiosis",
+      "authors": "Hamaia, M. C., Spanos, C., Borek, W. E., Marston, A. L.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-11-07",
+      "url": "https://doi.org/10.64898/2026.11.05.764291",
+      "doi": "10.64898/2026.11.05.764291",
+      "abstract": "Kinetochores connect chromosomes to spindle microtubules, but how their integrity is maintained as they are remodelled during meiosis remains poorly understood. Here, we identify three distinct pathways linking centromeric chromatin to the outer kinetochore in budding yeast, mediated by the Ctf19 complex (Ctf19cCCAN), Mif2CENP-C and binding of Okp1CENP-Q-Ame1CENP-U to the Cse4CENP-A essential N-te",
+      "source": "preprint",
+      "topic": "life-science",
+      "summary_bullets": [
+        "Focus: Sequential pathways preserve kinetochore integrity in meiosis.",
+        "Kinetochores connect chromosomes to spindle microtubules, but how their integrity is maintained as they are remodelled during meiosis remains poorly understood.",
+        "Here, we identify three distinct pathways linking centromeric chromatin to the outer kinetochore in budding yeast, mediated by the Ctf19 complex (Ctf19cCCAN), Mif2CENP-C and binding of Okp1CENP-Q-Ame1CENP-U to…"
       ],
       "summary_kind": "abstract"
     },
@@ -801,6 +801,23 @@
       "summary_kind": "abstract"
     },
     {
+      "title": "Single-probe, high-yield spatial mapping of diverse short RNA motifs",
+      "authors": "Liang, G., Joseph, K. N., Sim, K., Kuchumov, V., Tan, Z., Xu, X., Ding, F.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-11-04",
+      "url": "https://doi.org/10.64898/2026.11.02.763225",
+      "doi": "10.64898/2026.11.02.763225",
+      "abstract": "Spatial transcriptomics has revolutionized our understanding of RNA biology. Hybridization-based methods map mRNA transcripts by tiling multiple labeled probes along each molecule to generate a visible fluorescent signal, restricting applicability to long transcripts. Short RNA motifs, consequently, can only accommodate a single probe and remain a spatially invisible dimension of RNA biology. Here",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: Single-probe, high-yield spatial mapping of diverse short RNA motifs.",
+        "Spatial transcriptomics has revolutionized our understanding of RNA biology.",
+        "Hybridization-based methods map mRNA transcripts by tiling multiple labeled probes along each molecule to generate a visible fluorescent signal, restricting applicability to long transcripts."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
       "title": "Decoding Cell-type Specific Gene Regulation with CellReg3D by Integrating DNA Large Language Models and 3D Genome Structure",
       "authors": "Wang, X., Zhang, Y., Chen, S., Imoto, S., Webb, G. I., Vasilakos, A. V., Li, F., Wang, K., Song, J.",
       "journal": "bioRxiv (preprint)",
@@ -899,23 +916,6 @@
         "Focus: Unified cell segmentation for spatial transcriptomics via transcript reassignment.",
         "High-resolution spatial transcriptomics (ST) measures gene expression as individually localized molecules on imaging-based platforms or as counts in subcellular bins on sequencing-based platforms, and both must be assigned…",
         "Existing segmentation methods focus on delineating cell boundaries, yet transcripts that diffuse beyond their cell of origin, fall where cel."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Single-probe, high-yield spatial mapping of diverse short RNA motifs",
-      "authors": "Liang, G., Joseph, K. N., Sim, K., Kuchumov, V., Tan, Z., Xu, X., Ding, F.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-11-04",
-      "url": "https://doi.org/10.64898/2026.11.02.763225",
-      "doi": "10.64898/2026.11.02.763225",
-      "abstract": "Spatial transcriptomics has revolutionized our understanding of RNA biology. Hybridization-based methods map mRNA transcripts by tiling multiple labeled probes along each molecule to generate a visible fluorescent signal, restricting applicability to long transcripts. Short RNA motifs, consequently, can only accommodate a single probe and remain a spatially invisible dimension of RNA biology. Here",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Single-probe, high-yield spatial mapping of diverse short RNA motifs.",
-        "Spatial transcriptomics has revolutionized our understanding of RNA biology.",
-        "Hybridization-based methods map mRNA transcripts by tiling multiple labeled probes along each molecule to generate a visible fluorescent signal, restricting applicability to long transcripts."
       ],
       "summary_kind": "abstract"
     },
@@ -1086,46 +1086,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Circulating FABP4 promotes obesity-associated breast cancer lung metastasis through PIP2",
-      "authors": "Liu S, Hao J, Yu J, Jiang X, Yu L, Reusch D, Xu Z, Schnicker N, Avellino A, Han X, Shilyansky J, Wang Z, Li G, Ahern C, Sauter ER, Sugg SL, Li B.",
-      "journal": "Cell reports",
-      "date": "2026-11-02",
-      "url": "https://doi.org/10.1016/j.celrep.2026.117788",
-      "doi": "10.1016/j.celrep.2026.117788",
-      "abstract": "Obesity is a well-established risk factor for increased incidence and mortality in multiple cancers, including breast cancer. However, the key molecular mechanisms linking obesity to breast cancer progression remain incompletely understood. In this study, using several high-fat diet-induced obesity models, we demonstrate that obesity promotes breast cancer lung metastasis through elevated levels o",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "focus",
-      "flagship": false,
-      "summary_bullets": [
-        "Focus: Circulating FABP4 promotes obesity-associated breast cancer lung metastasis through PIP2.",
-        "Obesity is a well-established risk factor for increased incidence and mortality in multiple cancers, including breast cancer.",
-        "However, the key molecular mechanisms linking obesity to breast cancer progression remain incompletely understood."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "A single-cell comprehensive atlas of leukemia and its microenvironment",
-      "authors": "Wang B, Kuo YA, Dasdemir E, Xiao W, Rebboah E, Tang G, Wang W, Abbas HA.",
-      "journal": "Cell reports",
-      "date": "2026-11-02",
-      "url": "https://doi.org/10.1016/j.celrep.2026.118174",
-      "doi": "10.1016/j.celrep.2026.118174",
-      "abstract": "Acute myeloid leukemia (AML) remains highly lethal, with treatment failure and relapse driven by dynamic cellular states and evolving interactions within the leukemic ecosystem. In this study, we built a comprehensive atlas of leukemia and its microenvironment (CALM) by integrating single-cell profiling from 73 AML samples and 9 healthy donors, bulk RNA sequencing (RNA-seq) from 87 newly diagnosed",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "focus",
-      "flagship": false,
-      "summary_bullets": [
-        "Focus: A single-cell comprehensive atlas of leukemia and its microenvironment.",
-        "Acute myeloid leukemia (AML) remains highly lethal, with treatment failure and relapse driven by dynamic cellular states and evolving interactions within the leukemic ecosystem.",
-        "In this study, we built a comprehensive atlas of leukemia and its microenvironment (CALM) by integrating single-cell profiling from 73 AML samples and 9 healthy donors, bulk RNA…"
-      ],
-      "summary_kind": "abstract"
-    },
-    {
       "title": "Global, regional and national burden of cervical cancer in 1990-2023 with forecasts to 2050: a Global Burden of Disease study",
       "authors": "GBD 2023 Cervical Cancer Collaborators.",
       "journal": "Nature medicine",
@@ -1184,6 +1144,64 @@
         "However, major toxicities include prolonged cytopenias, infection and secondary hematologic malignancies."
       ],
       "summary_kind": "abstract"
+    },
+    {
+      "title": "A selective TNKS2 inhibitor for tumor-restricted WNT suppression",
+      "authors": "Zimmerman J, Malone BF, Chu K, Finkin-Groner E, Sun S, Liang R, Bahadur S, Foronda M, Schatoff EM, Granowsky E, Madorsky F, Goswami S, Katti A, Leach B, Alcorn H, Tammela T, Hopkins B, Fukase Y, Khan T, Huggins DJ, Ginn J, Liverton N, Hite RK, Dow LE.",
+      "journal": "Nature chemical biology",
+      "date": "2026-11-02",
+      "url": "https://doi.org/10.1038/s41589-026-02358-z",
+      "doi": "10.1038/s41589-026-02358-z",
+      "abstract": "Hyperactive WNT signaling is a potent cancer driver but clinical translation of WNT inhibitors has been hampered by on-target toxicities. WNT signaling can be constrained through inhibition of the PARP-family enzymes tankyrase 1 (TNKS1) and TNKS2; however, existing TNKS inhibitors suppress WNT signaling in both tumor and healthy tissues. In this Article, we show that genomic loss of TNKS1 on chrom",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: A selective TNKS2 inhibitor for tumor-restricted WNT suppression.",
+        "Hyperactive WNT signaling is a potent cancer driver but clinical translation of WNT inhibitors has been hampered by on-target toxicities.",
+        "WNT signaling can be constrained through inhibition of the PARP-family enzymes tankyrase 1 (TNKS1) and TNKS2."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Peripheral neuroimmune dialogues underlying pain states",
+      "authors": "Grace PM, Schmid AB, Khoutorsky A, Cunha TM, Svensson CI.",
+      "journal": "Nature reviews. Immunology",
+      "date": "2026-11-02",
+      "url": "https://doi.org/10.1038/s41577-026-01363-6",
+      "doi": "10.1038/s41577-026-01363-6",
+      "abstract": "Pain is profoundly shaped by neuroimmune interactions within peripheral tissues. Nociceptors are specialized sensory neurons that express receptors for cytokines, lipid mediators, complement components, antibodies and microbial signals, enabling immune mediators to directly modulate neuronal excitability. In turn, nociceptors influence immune cell and stromal cell activity through the release of n",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "focus",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: Peripheral neuroimmune dialogues underlying pain states.",
+        "Pain is profoundly shaped by neuroimmune interactions within peripheral tissues.",
+        "Nociceptors are specialized sensory neurons that express receptors for cytokines, lipid mediators, complement components, antibodies and microbial signals, enabling immune mediators to directly modulate neuronal excitability."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "'A perfect scientist, a perfect mum': researchers mourn two biologists' deaths in Spanish train crash",
+      "authors": "Naddaf M.",
+      "journal": "Nature",
+      "date": "2026-11-02",
+      "url": "https://doi.org/10.1038/d41586-026-03564-4",
+      "doi": "10.1038/d41586-026-03564-4",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "'A perfect scientist, a perfect mum': researchers mourn two biologists' deaths in Spanish train crash."
+      ],
+      "summary_kind": "headline"
     },
     {
       "title": "Subsistence transition preceded population turnover in the eastern Colombian Andes",
@@ -1267,7 +1285,7 @@
     },
     {
       "title": "Fatty acid desaturation controls cellular fate decisions between senescence and ferroptosis",
-      "authors": "Kuehnemann C, Jezak ST, Mogck BA, Kura N, Tariq R, Che Y, Vaittinen M, Siokas I, Deshpande S, Guthrie C, Tan X, Aimontche E, Kahn AA, Reifsnyder P, Lee G, Majidipur A, Kung AH, Wang Q, Jurk D, Zheng T, Greenberg AS, Wang XD, Kitazawa K, Dolnikowsi G, Cheng Y, Matthan NR, Ramanthan A, Lee J, Roh D, Chen HH, Pihlajamaki J, Korstanje R, Wiley CD.",
+      "authors": "Kuehnemann C, Jezak ST, Mogck BA, Kura N, Tariq R, Che Y, Vaittinen M, Siokas I, Deshpande S, Guthrie C, Tan X, Aimontche E, Kahn AA, Reifsnyder P, Lee G, Majidipur A, Kung AH, Wang Q, Jurk D, Zheng T, Greenberg AS, Wang XD, Kitazawa K, Dolnikowski G, Cheng Y, Matthan NR, Ramanthan A, Lee J, Roh D, Chen HH, Pihlajamaki J, Korstanje R, Wiley CD.",
       "journal": "Cell",
       "date": "2026-11-02",
       "url": "https://doi.org/10.1016/j.cell.2026.09.036",
@@ -1284,24 +1302,6 @@
         "Two such responses are ferroptosis and cellular senescence, but how cells decide between these outcomes remains unclear."
       ],
       "summary_kind": "abstract"
-    },
-    {
-      "title": "'A perfect scientist, a perfect mum': researchers mourn two biologists' deaths in Spanish train crash",
-      "authors": "Naddaf M.",
-      "journal": "Nature",
-      "date": "2026-11-02",
-      "url": "https://doi.org/10.1038/d41586-026-03564-4",
-      "doi": "10.1038/d41586-026-03564-4",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "'A perfect scientist, a perfect mum': researchers mourn two biologists' deaths in Spanish train crash."
-      ],
-      "summary_kind": "headline"
     },
     {
       "title": "An integrated single-cell atlas of hypertension",
@@ -1530,6 +1530,24 @@
       "summary_kind": "abstract"
     },
     {
+      "title": "Are dinosaur fossils hogging top journals? Analysis sparks debate over 'charismatic' finds",
+      "authors": "Callaway E.",
+      "journal": "Nature",
+      "date": "2026-10-30",
+      "url": "https://doi.org/10.1038/d41586-026-03512-2",
+      "doi": "10.1038/d41586-026-03512-2",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Are dinosaur fossils hogging top journals? Analysis sparks debate over 'charismatic' finds."
+      ],
+      "summary_kind": "headline"
+    },
+    {
       "title": "Age-dependent structural evolution of a functional amyloid contributes to memory impairment in Drosophila",
       "authors": "Ou S, Guillen-Poza PA, Ng KK, Xu L, Cheng BY, Yi Y, Ho LY, Franco-Fernández A, Khaki PSS, Mukhi M, Cheung KC, Sharma R, Oroz J, Hirano Y, Hervas R.",
       "journal": "Cell",
@@ -1548,24 +1566,6 @@
         "Here, we map the age-dependent structural landscape of Orb2 amyloid, a synaptic translation regulator required for long-term memory, across the adult lifespan of Drosophila melano."
       ],
       "summary_kind": "abstract"
-    },
-    {
-      "title": "Are dinosaur fossils hogging top journals? Analysis sparks debate over 'charismatic' finds",
-      "authors": "Callaway E.",
-      "journal": "Nature",
-      "date": "2026-10-30",
-      "url": "https://doi.org/10.1038/d41586-026-03512-2",
-      "doi": "10.1038/d41586-026-03512-2",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Are dinosaur fossils hogging top journals? Analysis sparks debate over 'charismatic' finds."
-      ],
-      "summary_kind": "headline"
     },
     {
       "title": "Spatial coordination in the codevelopment of the human urogenital system during organogenesis",
@@ -1766,6 +1766,24 @@
         "Our single-cell analysis reveals that viral replication requires a supra-unitary viral genome input, significantly more than one, whi."
       ],
       "summary_kind": "abstract"
+    },
+    {
+      "title": "Daily briefing: The three red flags of suspicious journals",
+      "authors": "Smith J.",
+      "journal": "Nature",
+      "date": "2026-10-29",
+      "url": "https://doi.org/10.1038/d41586-026-03548-4",
+      "doi": "10.1038/d41586-026-03548-4",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Daily briefing: The three red flags of suspicious journals."
+      ],
+      "summary_kind": "headline"
     },
     {
       "title": "Untangling time and prematurity in brain development",
@@ -2206,24 +2224,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Daily briefing: The three red flags of suspicious journals",
-      "authors": "Smith J.",
-      "journal": "Nature",
-      "date": "2026-10-29",
-      "url": "https://doi.org/10.1038/d41586-026-03548-4",
-      "doi": "10.1038/d41586-026-03548-4",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Daily briefing: The three red flags of suspicious journals."
-      ],
-      "summary_kind": "headline"
-    },
-    {
       "title": "Multimodal spatial transcriptomics redefines cortical pathology in Huntington's disease",
       "authors": "Vazquez-Sanchez S, Arnold-Garcia O, Chillon-Marinas C, Maimon R, Cui J, McNair K, Dai Y, Jimenez NL, Child DD, Thompson LM, Lopez-Erauskin J, Bintu B, Cleveland DW.",
       "journal": "Cell",
@@ -2244,26 +2244,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "MIF-CD74 orchestrates synovial macrophage metabolic-inflammatory reprogramming by ENO2 interaction to drive osteoarthritis pathogenesis",
-      "authors": "Peng R, Yu B, Wei Y, Yao L, Xue Z, Zhang L, Liang G, Wang H, Lin Y, Pan J, Zha Z, Zheng X, Yang W, Chen B, Gui T.",
-      "journal": "Science translational medicine",
-      "date": "2026-10-28",
-      "url": "https://doi.org/10.1126/scitranslmed.adz4081",
-      "doi": "10.1126/scitranslmed.adz4081",
-      "abstract": "Synovitis is a central driver of osteoarthritis (OA) progression, yet the cellular and molecular mechanisms sustaining inflammatory circuits in the synovium remain incompletely understood. Through integrative analysis of time-resolved single-cell RNA sequencing in murine synovium and spatial transcriptomics of human OA tissues, we identified a pathogenic CD74<sup>+</sup> macrophage subset that exp",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "science",
-      "topic": "spatial",
-      "flagship": false,
-      "summary_bullets": [
-        "Focus: MIF-CD74 orchestrates synovial macrophage metabolic-inflammatory reprogramming by ENO2 interaction to drive osteoarthritis pathogenesis.",
-        "Synovitis is a central driver of osteoarthritis (OA) progression, yet the cellular and molecular mechanisms sustaining inflammatory circuits in the synovium remain incompletely understood.",
-        "Through integrative analysis of time-resolved single-cell RNA sequencing in murine synovium and spatial transcriptomics of human OA tissues, we identified a pathogenic CD74 + macrophage subset that exp."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
       "title": "A nanoscale map of the human cell surface proteome reveals spatial and functional organization",
       "authors": "Floyd BM, Schmidt EL, Till NA, Waldman BS, Yang JL, Liao P, George BM, Carette JE, Flynn RA, Bertozzi CR.",
       "journal": "Nature structural & molecular biology",
@@ -2280,6 +2260,26 @@
         "Focus: A nanoscale map of the human cell surface proteome reveals spatial and functional organization.",
         "The cell surface proteome governs processes essential for development, immunity and disease, yet its large-scale spatial organization remains uncharted.",
         "Here, we systematically map the surface proteome of human T lymphocytes and B lymphoblasts using proximity labeling of 85 antigens."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "MIF-CD74 orchestrates synovial macrophage metabolic-inflammatory reprogramming by ENO2 interaction to drive osteoarthritis pathogenesis",
+      "authors": "Peng R, Yu B, Wei Y, Yao L, Xue Z, Zhang L, Liang G, Wang H, Lin Y, Pan J, Zha Z, Zheng X, Yang W, Chen B, Gui T.",
+      "journal": "Science translational medicine",
+      "date": "2026-10-28",
+      "url": "https://doi.org/10.1126/scitranslmed.adz4081",
+      "doi": "10.1126/scitranslmed.adz4081",
+      "abstract": "Synovitis is a central driver of osteoarthritis (OA) progression, yet the cellular and molecular mechanisms sustaining inflammatory circuits in the synovium remain incompletely understood. Through integrative analysis of time-resolved single-cell RNA sequencing in murine synovium and spatial transcriptomics of human OA tissues, we identified a pathogenic CD74<sup>+</sup> macrophage subset that exp",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "science",
+      "topic": "spatial",
+      "flagship": false,
+      "summary_bullets": [
+        "Focus: MIF-CD74 orchestrates synovial macrophage metabolic-inflammatory reprogramming by ENO2 interaction to drive osteoarthritis pathogenesis.",
+        "Synovitis is a central driver of osteoarthritis (OA) progression, yet the cellular and molecular mechanisms sustaining inflammatory circuits in the synovium remain incompletely understood.",
+        "Through integrative analysis of time-resolved single-cell RNA sequencing in murine synovium and spatial transcriptomics of human OA tissues, we identified a pathogenic CD74 + macrophage subset that exp."
       ],
       "summary_kind": "abstract"
     },
@@ -2460,46 +2460,6 @@
         "Focus: Molecular underpinnings of rheumatic diseases and emerging therapeutic concepts.",
         "Inflammatory rheumatic diseases such as rheumatoid arthritis, psoriatic arthritis and systemic lupus erythematosus represent chronic inflammatory disorders that are caused by dysregulation of innate and adaptive immune responses.",
         "Here we review current advances in our understanding of the molecular underpinnings of these diseases and discuss consequences with respect to emerging targets and treatm."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Somatic DNA-repeat expansions initiate distinct yet analogous changes in Huntington's disease cortical and striatal neurons",
-      "authors": "Kashin S, Lee WS, McDonald TM, Morris K, Handsaker RE, Mello CJ, Spina L, Reed NM, de Rivera H, Jana SH, Hogan M, Berretta S, McCarroll SA.",
-      "journal": "Cell",
-      "date": "2026-10-28",
-      "url": "https://doi.org/10.1016/j.cell.2026.10.001",
-      "doi": "10.1016/j.cell.2026.10.001",
-      "abstract": "Huntington's disease (HD) affects the neocortex and striatum with different timing, severity, and gene-expression changes. These pathologies have long been proposed to involve different pathogenic mechanisms, with one brain area's degeneration leading to the other's. Striatal neurons degenerate in HD as their huntingtin (HTT) CAG-repeat tracts expand somatically beyond 150 CAGs. Here, we find that",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Somatic DNA-repeat expansions initiate distinct yet analogous changes in Huntington's disease cortical and striatal neurons.",
-        "Huntington's disease (HD) affects the neocortex and striatum with different timing, severity, and gene-expression changes.",
-        "These pathologies have long been proposed to involve different pathogenic mechanisms, with one brain area's degeneration leading to the other's."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Long-range actin-driven endosymbiont mobility in an animal-algal symbiosis",
-      "authors": "Zhong G, Toullec G, Jouneau PH, Decelle J, Prakash M.",
-      "journal": "Cell",
-      "date": "2026-10-28",
-      "url": "https://doi.org/10.1016/j.cell.2026.10.003",
-      "doi": "10.1016/j.cell.2026.10.003",
-      "abstract": "In animal-microbe symbioses, established symbionts are often thought to be confined to a niche and to lose motile appendages such as flagella. Whether this loss implies immobility within the host remains poorly understood. We report long-range, host-driven symbiont mobility in a dinoflagellate-acoel worm symbiosis. Using long-term tracking, fluorescence, and electron microscopy, we find that hundr",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "cell",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Long-range actin-driven endosymbiont mobility in an animal-algal symbiosis.",
-        "In animal-microbe symbioses, established symbionts are often thought to be confined to a niche and to lose motile appendages such as flagella.",
-        "Whether this loss implies immobility within the host remains poorly understood."
       ],
       "summary_kind": "abstract"
     },
@@ -2836,22 +2796,42 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Deep sequencing of 3,367 maize genomes uncovers substantial contribution of rare variants to agronomic traits",
-      "authors": "Huang L, Bian C, Xin B, Zhang X, Lu Q, Yue Y, Li Y, Zeng R, Liu X, Fan X, Wang T, Wang Y, Cao J, Zhang J, Wu J, Lin Z, Zhao J, Cheng W, Gao S, Chen Y, Lu Y, Yang J, Liu W, Chen Z, Sun H, Lu X, Xue J, Yang S, Liu Q, Chen J, Zhao H, Zhao H, Song W, Lai J.",
+      "title": "Somatic DNA-repeat expansions initiate distinct yet analogous changes in Huntington's disease cortical and striatal neurons",
+      "authors": "Kashin S, Lee WS, McDonald TM, Morris K, Handsaker RE, Mello CJ, Spina L, Reed NM, de Rivera H, Jana SH, Hogan M, Berretta S, McCarroll SA.",
       "journal": "Cell",
-      "date": "2026-10-27",
-      "url": "https://doi.org/10.1016/j.cell.2026.09.063",
-      "doi": "10.1016/j.cell.2026.09.063",
-      "abstract": "Rare variants are highly abundant, yet their genome-wide contributions to agronomic traits remain elusive in plants. Here, we performed deep whole-genome sequencing of 3,367 diverse elite maize inbred lines, uncovering 75.3 million variants, of which 79.2% were rare. Overall, we identified 411 independent association signals for 10 agronomic traits, including 359 attributable to globally rare vari",
+      "date": "2026-10-28",
+      "url": "https://doi.org/10.1016/j.cell.2026.10.001",
+      "doi": "10.1016/j.cell.2026.10.001",
+      "abstract": "Huntington's disease (HD) affects the neocortex and striatum with different timing, severity, and gene-expression changes. These pathologies have long been proposed to involve different pathogenic mechanisms, with one brain area's degeneration leading to the other's. Striatal neurons degenerate in HD as their huntingtin (HTT) CAG-repeat tracts expand somatically beyond 150 CAGs. Here, we find that",
       "citation_count": 0,
       "source": "journal",
       "journal_family": "cell",
       "topic": "life-science",
       "flagship": true,
       "summary_bullets": [
-        "Focus: Deep sequencing of 3,367 maize genomes uncovers substantial contribution of rare variants to agronomic traits.",
-        "Rare variants are highly abundant, yet their genome-wide contributions to agronomic traits remain elusive in plants.",
-        "Here, we performed deep whole-genome sequencing of 3,367 diverse elite maize inbred lines, uncovering 75.3 million variants, of which 79.2% were rare."
+        "Focus: Somatic DNA-repeat expansions initiate distinct yet analogous changes in Huntington's disease cortical and striatal neurons.",
+        "Huntington's disease (HD) affects the neocortex and striatum with different timing, severity, and gene-expression changes.",
+        "These pathologies have long been proposed to involve different pathogenic mechanisms, with one brain area's degeneration leading to the other's."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Long-range actin-driven endosymbiont mobility in an animal-algal symbiosis",
+      "authors": "Zhong G, Toullec G, Jouneau PH, Decelle J, Prakash M.",
+      "journal": "Cell",
+      "date": "2026-10-28",
+      "url": "https://doi.org/10.1016/j.cell.2026.10.003",
+      "doi": "10.1016/j.cell.2026.10.003",
+      "abstract": "In animal-microbe symbioses, established symbionts are often thought to be confined to a niche and to lose motile appendages such as flagella. Whether this loss implies immobility within the host remains poorly understood. We report long-range, host-driven symbiont mobility in a dinoflagellate-acoel worm symbiosis. Using long-term tracking, fluorescence, and electron microscopy, we find that hundr",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Focus: Long-range actin-driven endosymbiont mobility in an animal-algal symbiosis.",
+        "In animal-microbe symbioses, established symbionts are often thought to be confined to a niche and to lose motile appendages such as flagella.",
+        "Whether this loss implies immobility within the host remains poorly understood."
       ],
       "summary_kind": "abstract"
     },
@@ -2872,6 +2852,26 @@
         "Gene therapy that led to boy's death had limited efficacy."
       ],
       "summary_kind": "headline"
+    },
+    {
+      "title": "Deep sequencing of 3,367 maize genomes uncovers substantial contribution of rare variants to agronomic traits",
+      "authors": "Huang L, Bian C, Xin B, Zhang X, Lu Q, Yue Y, Li Y, Zeng R, Liu X, Fan X, Wang T, Wang Y, Cao J, Zhang J, Wu J, Lin Z, Zhao J, Cheng W, Gao S, Chen Y, Lu Y, Yang J, Liu W, Chen Z, Sun H, Lu X, Xue J, Yang S, Liu Q, Chen J, Zhao H, Zhao H, Song W, Lai J.",
+      "journal": "Cell",
+      "date": "2026-10-27",
+      "url": "https://doi.org/10.1016/j.cell.2026.09.063",
+      "doi": "10.1016/j.cell.2026.09.063",
+      "abstract": "Rare variants are highly abundant, yet their genome-wide contributions to agronomic traits remain elusive in plants. Here, we performed deep whole-genome sequencing of 3,367 diverse elite maize inbred lines, uncovering 75.3 million variants, of which 79.2% were rare. Overall, we identified 411 independent association signals for 10 agronomic traits, including 359 attributable to globally rare vari",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Focus: Deep sequencing of 3,367 maize genomes uncovers substantial contribution of rare variants to agronomic traits.",
+        "Rare variants are highly abundant, yet their genome-wide contributions to agronomic traits remain elusive in plants.",
+        "Here, we performed deep whole-genome sequencing of 3,367 diverse elite maize inbred lines, uncovering 75.3 million variants, of which 79.2% were rare."
+      ],
+      "summary_kind": "abstract"
     },
     {
       "title": "Finding MES: A hidden cell state in neuroblastoma",
