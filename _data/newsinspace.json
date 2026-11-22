@@ -1,48 +1,19 @@
 {
-  "generated_at": "2026-11-21T17:56:06Z",
+  "generated_at": "2026-11-22T18:21:53Z",
   "window_days": 14,
   "count": 140,
   "topic_counts": {
     "spatial": 23,
     "synthetic": 10,
-    "focus": 26,
-    "life-science": 81
+    "focus": 23,
+    "life-science": 84
   },
   "attention": {
-    "generated_at": "2026-11-21T17:56:04Z",
+    "generated_at": "2026-11-22T18:21:51Z",
     "window_days": 15,
     "momentum_days": 7,
     "altmetric_enabled": false,
     "top": [
-      {
-        "title": "Evolutionary dynamics in the years preceding acute myeloid leukaemia",
-        "authors": "Watson CJ, Poon GYP, MacGregor HAJ, Fonseca AVA, Apostolidou S, Damaskou A, Boniface C, Hackett S, Gentry-Maharaj A, Menon U, Blundell JR.",
-        "journal": "Nature",
-        "date": "2026-11-11",
-        "url": "https://doi.org/10.1038/s41586-026-11269-x",
-        "doi": "10.1038/s41586-026-11269-x",
-        "abstract": "Somatic evolution in ageing tissues underlies many cancers<sup>1,2</sup>. However, our quantitative understanding of the rules governing this pre-cancerous evolution remains incomplete. Here we exploit a unique collection of serial blood samples<sup>3</sup>, collected annually for up to a decade and beginning as early as 15 years before diagnosis of acute myeloid leukaemia, to provide a quantitati",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "focus",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Evolutionary dynamics in the years preceding acute myeloid leukaemia.",
-          "Somatic evolution in ageing tissues underlies many cancers1,2.",
-          "However, our quantitative understanding of the rules governing this pre-cancerous evolution remains incomplete."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 6,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 50.8
-      },
       {
         "title": "Epigenetic heterogeneity in breast tumours informs diagnosis and prognosis",
         "authors": "Furth N, Riemenschneider C, Arieli Y, Avni M, Povolotski MY, Yung H, Karagach S, Atrakchi O, Erez N, Salame TM, Noberini R, Durand A, Jouault G, Dassa B, Zerbib M, Oren R, Golani O, Bar-Zakai B, Mavor Y, Friedman-Eldar O, Kadar-Sfarad H, Gilron S, Givon-Madhala O, Ronel N, Abu-Rmilah F, Moshe I, Ish-Shalom S, Yosepovich A, Kaplan M, Bakalenik M, Dadiani M, Tryggvadottir R, Shatkin G, Hakobyan M, Kovacsovics A, Mackowiak SD, Arnold A, McLaughlin S, Andreishcheva E, Shinde A, Zhang J, Jones D, Nili Gal-Yam E, Geiger T, Bonaldi T, Feinberg AP, Meissner A, Vallot C, Ron G, Shema E.",
@@ -70,25 +41,54 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 42.8
+        "attention_score": 42.6
       },
       {
-        "title": "TransA-MERFISH reveals divergent post-retinal direction-selective circuits",
-        "authors": "Wang F, Zhang L, Chang S, Liu C, Hu J, Zhao M, Tsai NY, Nimkar K, Zhang S, Shadrach JL, Chen X, Kaltschmidt JA, Gan L, Yao S, Shekhar K, Feinberg EH, Duan X.",
-        "journal": "Nature",
-        "date": "2026-11-18",
-        "url": "https://doi.org/10.1038/s41586-026-11235-7",
-        "doi": "10.1038/s41586-026-11235-7",
-        "abstract": "A major goal in neuroscience is to map the transformation of information as it flows through the brain. For example, neurons at many levels of the visual hierarchy are attuned to motion direction<sup>1-5</sup>. However, links between motion-selective computations and cell types at various stages of the visual hierarchy remain unidentified. A key first step in delineating these relationships is to ",
+        "title": "A neural code for generative speech production in human Wernicke's area",
+        "authors": "Silva AB, Leonard MK, Hullett PW, Levy DF, Wang C, Xu D, Bhaya-Grossman I, Chang EF.",
+        "journal": "Science (New York, N.Y.)",
+        "date": "2026-11-19",
+        "url": "https://doi.org/10.1126/science.aef8963",
+        "doi": "10.1126/science.aef8963",
+        "abstract": "Wernicke's area in the posterior temporal lobe is classically defined by its role in speech comprehension, yet a paradox remains: Why does damage here also profoundly impair speech production? Using direct human brain recordings, cortical stimulation, and lesion analysis, we found that this region is not solely for perception. A discrete subzone within Wernicke's area, the left posterior superior ",
         "citation_count": 0,
         "source": "journal",
-        "journal_family": "nature",
+        "journal_family": "science",
+        "topic": "life-science",
+        "flagship": true,
+        "summary_bullets": [
+          "Focus: A neural code for generative speech production in human Wernicke's area.",
+          "Wernicke's area in the posterior temporal lobe is classically defined by its role in speech comprehension, yet a paradox remains: Why does damage here also profoundly impair speech…",
+          "Using direct human brain recordings, cortical stimulation, and lesion analysis, we found that this region is not solely for perception."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 1,
+        "bluesky_engagement": 1,
+        "media_mentions": 4,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 38.2
+      },
+      {
+        "title": "RNA folding drives species-dependent host mRNA partitioning in Ebola virus condensates",
+        "authors": "Fang J, Lam DC, Mah CK, Watanabe R, Tanner HM, Comi T, Cai Y, Chen CY, Te Velthuis AJW, Brangwynne CP, Yeo GW, Saphire EO.",
+        "journal": "Cell",
+        "date": "2026-11-19",
+        "url": "https://doi.org/10.1016/j.cell.2026.10.047",
+        "doi": "10.1016/j.cell.2026.10.047",
+        "abstract": "RNA viruses form membraneless condensates in host cells to drive replication, but whether these compartments regulate host RNAs remains unclear. Using multiplexed error-robust fluorescence in situ hybridization (MERFISH)-based subcellular transcriptomics, we quantified cellular mRNA recruitment into Ebola virus condensates under basal and interferon (IFN)-stimulated states. We find that, in the ba",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "cell",
         "topic": "spatial",
         "flagship": true,
         "summary_bullets": [
-          "Focus: TransA-MERFISH reveals divergent post-retinal direction-selective circuits.",
-          "A major goal in neuroscience is to map the transformation of information as it flows through the brain.",
-          "For example, neurons at many levels of the visual hierarchy are attuned to motion direction 1-5."
+          "Focus: RNA folding drives species-dependent host mRNA partitioning in Ebola virus condensates.",
+          "RNA viruses form membraneless condensates in host cells to drive replication, but whether these compartments regulate host RNAs remains unclear.",
+          "Using multiplexed error-robust fluorescence in situ hybridization (MERFISH)-based subcellular transcriptomics, we quantified cellular mRNA recruitment into Ebola virus condensates under basal and interferon (IFN)-stimulated states."
         ],
         "summary_kind": "abstract",
         "bluesky_mentions": 0,
@@ -128,36 +128,7 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 26.9
-      },
-      {
-        "title": "RNA folding drives species-dependent host mRNA partitioning in Ebola virus condensates",
-        "authors": "Fang J, Lam DC, Mah CK, Watanabe R, Tanner HM, Comi T, Cai Y, Chen CY, Te Velthuis AJW, Brangwynne CP, Yeo GW, Saphire EO.",
-        "journal": "Cell",
-        "date": "2026-11-19",
-        "url": "https://doi.org/10.1016/j.cell.2026.10.047",
-        "doi": "10.1016/j.cell.2026.10.047",
-        "abstract": "RNA viruses form membraneless condensates in host cells to drive replication, but whether these compartments regulate host RNAs remains unclear. Using multiplexed error-robust fluorescence in situ hybridization (MERFISH)-based subcellular transcriptomics, we quantified cellular mRNA recruitment into Ebola virus condensates under basal and interferon (IFN)-stimulated states. We find that, in the ba",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "cell",
-        "topic": "spatial",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: RNA folding drives species-dependent host mRNA partitioning in Ebola virus condensates.",
-          "RNA viruses form membraneless condensates in host cells to drive replication, but whether these compartments regulate host RNAs remains unclear.",
-          "Using multiplexed error-robust fluorescence in situ hybridization (MERFISH)-based subcellular transcriptomics, we quantified cellular mRNA recruitment into Ebola virus condensates under basal and interferon (IFN)-stimulated states."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 0,
-        "bluesky_engagement": 0,
-        "media_mentions": 2,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 25.9
+        "attention_score": 26.8
       },
       {
         "title": "In Other Journals",
@@ -186,7 +157,36 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 25.9
+        "attention_score": 25.8
+      },
+      {
+        "title": "TransA-MERFISH reveals divergent post-retinal direction-selective circuits",
+        "authors": "Wang F, Zhang L, Chang S, Liu C, Hu J, Zhao M, Tsai NY, Nimkar K, Zhang S, Shadrach JL, Chen X, Kaltschmidt JA, Gan L, Yao S, Shekhar K, Feinberg EH, Duan X.",
+        "journal": "Nature",
+        "date": "2026-11-18",
+        "url": "https://doi.org/10.1038/s41586-026-11235-7",
+        "doi": "10.1038/s41586-026-11235-7",
+        "abstract": "A major goal in neuroscience is to map the transformation of information as it flows through the brain. For example, neurons at many levels of the visual hierarchy are attuned to motion direction<sup>1-5</sup>. However, links between motion-selective computations and cell types at various stages of the visual hierarchy remain unidentified. A key first step in delineating these relationships is to ",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "spatial",
+        "flagship": true,
+        "summary_bullets": [
+          "Focus: TransA-MERFISH reveals divergent post-retinal direction-selective circuits.",
+          "A major goal in neuroscience is to map the transformation of information as it flows through the brain.",
+          "For example, neurons at many levels of the visual hierarchy are attuned to motion direction 1-5."
+        ],
+        "summary_kind": "abstract",
+        "bluesky_mentions": 0,
+        "bluesky_engagement": 0,
+        "media_mentions": 2,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 25.6
       },
       {
         "title": "Chinese gene-therapy researchers fired after probe into child's death",
@@ -215,36 +215,7 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 17.9
-      },
-      {
-        "title": "Mitochondrial protein import defects enhance tumour immunogenicity",
-        "authors": "Jackson TD, Palozzi JM, McGann CD, Vitale T, Choa R, Nguyen HHM, Paulo JA, Latorre-Muro P, Van Vranken JG, Ravichandran M, Zhang B, Yadav M, Gygi SP, Puigserver P.",
-        "journal": "Nature",
-        "date": "2026-11-11",
-        "url": "https://doi.org/10.1038/s41586-026-11249-1",
-        "doi": "10.1038/s41586-026-11249-1",
-        "abstract": "Tumour cells evade detection and elimination by the immune system through a suite of adaptations<sup>1</sup>, including the repression of antigen presentation, which is required for the recognition of tumour cells by CD8<sup>+</sup> T cells. Mitochondria have emerged as targets for enhancing antitumour immunity; however, the extensive mitochondrial proteome has remained largely unstudied for its a",
-        "citation_count": 0,
-        "source": "journal",
-        "journal_family": "nature",
-        "topic": "focus",
-        "flagship": true,
-        "summary_bullets": [
-          "Focus: Mitochondrial protein import defects enhance tumour immunogenicity.",
-          "Tumour cells evade detection and elimination by the immune system through a suite of adaptations1, including the repression of antigen presentation, which is required for the recognition of…",
-          "Mitochondria have emerged as targets for enhancing antitumour immunity."
-        ],
-        "summary_kind": "abstract",
-        "bluesky_mentions": 1,
-        "bluesky_engagement": 3,
-        "media_mentions": 1,
-        "altmetric_score": 0,
-        "x_mentions": 0,
-        "citation_growth": 0,
-        "x_growth": 0,
-        "altmetric_growth": 0,
-        "attention_score": 16.5
+        "attention_score": 17.8
       },
       {
         "title": "Mammalian development, recorded and decoded",
@@ -273,27 +244,25 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 14.9
+        "attention_score": 14.8
       },
       {
-        "title": "Building a cell engineering toolbox",
-        "authors": "Jiang K.",
-        "journal": "Science (New York, N.Y.)",
+        "title": "New CRISPR therapy is poised to gain first FDA approval to alter genes inside the body",
+        "authors": "Ledford H.",
+        "journal": "Nature",
         "date": "2026-11-12",
-        "url": "https://doi.org/10.1126/science.aen0898",
-        "doi": "10.1126/science.aen0898",
-        "abstract": "Biological diversity and deep learning are harnessed for discovery.",
+        "url": "https://doi.org/10.1038/d41586-026-03705-9",
+        "doi": "10.1038/d41586-026-03705-9",
+        "abstract": "",
         "citation_count": 0,
         "source": "journal",
-        "journal_family": "science",
+        "journal_family": "nature",
         "topic": "synthetic",
         "flagship": true,
         "summary_bullets": [
-          "Focus: Building a cell engineering toolbox.",
-          "Biological diversity and deep.",
-          "learning are harnessed for discovery."
+          "Novel CRISPR therapy is poised to gain first FDA approval to alter genes inside the body."
         ],
-        "summary_kind": "abstract",
+        "summary_kind": "headline",
         "bluesky_mentions": 0,
         "bluesky_engagement": 0,
         "media_mentions": 1,
@@ -302,11 +271,72 @@
         "citation_growth": 0,
         "x_growth": 0,
         "altmetric_growth": 0,
-        "attention_score": 13.9
+        "attention_score": 13.8
+      },
+      {
+        "title": "US science academy urges journals to fix errors more quickly. ",
+        "authors": "Van Noorden R.",
+        "journal": "Nature",
+        "date": "2026-11-20",
+        "url": "https://doi.org/10.1038/d41586-026-03787-5",
+        "doi": "10.1038/d41586-026-03787-5",
+        "abstract": "",
+        "citation_count": 0,
+        "source": "journal",
+        "journal_family": "nature",
+        "topic": "life-science",
+        "flagship": true,
+        "summary_bullets": [
+          "US science academy urges journals to fix errors more quickly."
+        ],
+        "summary_kind": "headline",
+        "bluesky_mentions": 1,
+        "bluesky_engagement": 0,
+        "media_mentions": 1,
+        "altmetric_score": 0,
+        "x_mentions": 0,
+        "citation_growth": 0,
+        "x_growth": 0,
+        "altmetric_growth": 0,
+        "attention_score": 12.9
       }
     ]
   },
   "papers": [
+    {
+      "title": "Remarkable Biosynthetic Diversity in the Bionectriaceae: Uncovering the genomic basis of antipathogen bioactivity of cacao fungal endophytes Clonostachys rosea and Waltergamsia zeylanica",
+      "authors": "Atencio, L. A., Castillo, H. E., Barrios-Jaen, M., Quintero, I., Martinez, A., Rodriguez, C., Gutierrez, M., Mejia, L. C.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-11-22",
+      "url": "https://doi.org/10.64898/2026.11.16.767117",
+      "doi": "10.64898/2026.11.16.767117",
+      "abstract": "Cacao (Theobroma cacao) production in tropical countries is threatened by fungal diseases caused by Moniliophthora roreri and M. perniciosa. Two cacao pod endophytes from Bionectriaceae, Clonostachys rosea TCF417 and Waltergamsia zeylanica TCF400, exhibit growth antagonism towards M. roreri; however, the genetic basis underlying the bioactivity of these strains has not been addressed. Here, we aim",
+      "source": "preprint",
+      "topic": "life-science",
+      "summary_bullets": [
+        "Focus: Remarkable Biosynthetic Diversity in the Bionectriaceae: Uncovering the genomic basis of antipathogen bioactivity of cacao fungal endophytes Clonostachys rosea and Waltergamsia zeylanica.",
+        "Cacao (Theobroma cacao) production in tropical countries is threatened by fungal diseases caused by Moniliophthora roreri and M.",
+        "Two cacao pod endophytes from Bionectriaceae, Clonostachys rosea TCF417 and Waltergamsia zeylanica TCF400, exhibit growth antagonism towards M."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Xist deletion in T cells protects against influenza-induced lung injury",
+      "authors": "Valero-Pacheco, N., Forsyth, K. S., Toothacre, N., Trudeau, R. T., Welter, E., Jiwrajka, N., Ochoa-Vidales, S., Syrett, C. M., Lim, B., Anguera, M.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-11-22",
+      "url": "https://doi.org/10.64898/2026.11.20.768059",
+      "doi": "10.64898/2026.11.20.768059",
+      "abstract": "Sex differences in antiviral immunity are well established, yet the contribution of X-Chromosome Inactivation (XCI) to T cell responses during infection is unknown. Here, we identify an unexpected role for Xist RNA in shaping T cell immunity and pulmonary injury following influenza infection. We show that the inactive X chromosome (Xi) in pulmonary CD4+ and CD8+ T cells undergoes dynamic epigeneti",
+      "source": "preprint",
+      "topic": "life-science",
+      "summary_bullets": [
+        "Focus: Xist deletion in T cells protects against influenza-induced lung injury.",
+        "Sex differences in antiviral immunity are well established, yet the contribution of X-Chromosome Inactivation (XCI) to T cell responses during infection is unknown.",
+        "Here, we identify an unexpected role for Xist RNA in shaping T cell immunity and pulmonary injury following influenza infection."
+      ],
+      "summary_kind": "abstract"
+    },
     {
       "title": "IL-15 superagonist induces robust STAT5 phosphorylation to support the differentiation and survival of tumor-relevant memory precursor effector-like CD8 T cells, enhancing long-term antitumor protection",
       "authors": "Cruz, T. D., Honigsberg, R., Markowitz, G. J., Swami, B., Singh, A., Tang, M. S., Yoffe, L., Claridge, S. E., Martomo, S. A., Rodriguez, G. E., Garcia, K. C., He, Y., Bai, Y., Patel, J., Pang, M., Ozgenel, D. O., Michael, M. M., Cubillos-Ruiz, J. R., McGraw, T. E., Elemento, O., Altorki, N. K., Mittal, V., Villena-Vargas, J.",
@@ -325,36 +355,53 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Homologs of the Major Vault Protein defend bacteria against ribotoxins",
-      "authors": "Bullen, N. P., Holiday, L. C., Nagy, T. A., Robbins, L. K., Whiteley, A. T.",
+      "title": "Deciphering the role of adenosine-related genes in regulating smooth muscle cell phenotypic switch in coronary heart disease via single-cell RNA sequencing",
+      "authors": "cao, k. k., Su, K., Wang, R., Qu, Y., Zhang, X., Xie, Z., Ma, X., Ma, H., Wang, N., Li, Z., Cui, L., Wang, X., Zhang, l.",
       "journal": "bioRxiv (preprint)",
       "date": "2026-11-21",
-      "url": "https://doi.org/10.64898/2026.11.20.768214",
-      "doi": "10.64898/2026.11.20.768214",
-      "abstract": "Bacteria use sophisticated mechanisms to defend themselves against antibiotics and bacteriophages, yet how they combat toxins deployed during interbacterial competition remains poorly understood. Bacteria use type VI secretion, bacteriocins, and contact dependent inhibition systems to deliver antibacterial toxins that inhibit growth by antagonizing essential processes. Here, we discover that Pseud",
+      "url": "https://doi.org/10.64898/2026.11.12.766320",
+      "doi": "10.64898/2026.11.12.766320",
+      "abstract": "Background: Coronary heart disease (CHD) is closely associated with dysregulated lipid metabolism, inflammation, and impaired adenosine signaling. However, the contribution of adenosine-related genes (ARGs) and their relationship with the immune microenvironment remain unclear. Methods: Public transcriptomic datasets were integrated with curated ARGs. Differential expression analysis and weighted ",
       "source": "preprint",
-      "topic": "life-science",
+      "topic": "focus",
       "summary_bullets": [
-        "Focus: Homologs of the Major Vault Protein defend bacteria against ribotoxins.",
-        "Bacteria use sophisticated mechanisms to defend themselves against antibiotics and bacteriophages, yet how they combat toxins deployed during interbacterial competition remains poorly understood.",
-        "Bacteria use type VI secretion, bacteriocins, and contact dependent inhibition systems to deliver antibacterial toxins that inhibit growth by antagonizing essential processes."
+        "Focus: Deciphering the role of adenosine-related genes in regulating smooth muscle cell phenotypic switch in coronary heart disease via single-cell RNA sequencing.",
+        "Background: Coronary heart disease (CHD) is closely associated with dysregulated lipid metabolism, inflammation, and impaired adenosine signaling.",
+        "However, the contribution of adenosine-related genes (ARGs) and their relationship with the immune microenvironment remain unclear."
       ],
       "summary_kind": "abstract"
     },
     {
-      "title": "Defining the molecular interaction between influenza hemagglutinin and MHC-II",
-      "authors": "Dadonaite, B., Dosey, A., Ahn, J. J., Yu, T. C., Sunshine, S. A., Farrell, A. G., King, N. P., Bloom, J. D.",
+      "title": "Macrophage signaling history constrains subsequent transcriptional responses to cytokine stimulation",
+      "authors": "Hochfelder, J. B., McGinn, R. A., Gunnarsson, C., Gong, D. N., Bryson, B. D.",
       "journal": "bioRxiv (preprint)",
       "date": "2026-11-21",
-      "url": "https://doi.org/10.64898/2026.07.17.738765",
-      "doi": "10.64898/2026.07.17.738765",
-      "abstract": "The hemagglutinin (HA) of some influenza viruses can bind MHC-II, but how these proteins interact is unclear. Here we demonstrate that diverse H5 HAs can use avian or human MHC-II to enter cells. We define the molecular interface by using pseudovirus deep mutational scanning to measure how mutations to both H5 HA and an avian MHC-II affect the interaction between the two proteins. We leverage iden",
+      "url": "https://doi.org/10.64898/2026.11.14.765729",
+      "doi": "10.64898/2026.11.14.765729",
+      "abstract": "Macrophages perform a wide array of distinct and crucial functions, and therefore tightly regulate their responses to external stimuli. These cells must integrate sequential signals over time to mount an appropriate response to their immunological niche. How prior cytokine stimulation shares macrophage responses to a subsequent stimulus remains poorly understood, yet has important implications for",
       "source": "preprint",
       "topic": "life-science",
       "summary_bullets": [
-        "Focus: Defining the molecular interaction between influenza hemagglutinin and MHC-II.",
-        "The hemagglutinin (HA) of some influenza viruses can bind MHC-II, but how these proteins interact is unclear.",
-        "Here we demonstrate that diverse H5 HAs can use avian or human MHC-II to enter cells."
+        "Focus: Macrophage signaling history constrains subsequent transcriptional responses to cytokine stimulation.",
+        "Macrophages perform a wide array of distinct and crucial functions, and therefore tightly regulate their responses to external stimuli.",
+        "These cells must integrate sequential signals over time to mount an appropriate response to their immunological niche."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Single-base 5mC and 5hmC profiling identifies a dynamic 5hmC-to-5mC transition at gene bodies and transcription end sites during neuronal differentiation of mouse embryonic stem cells",
+      "authors": "Evanich, D. J., Blum, L. N., Sen, S., Campbell, M. A., Williams, L., Langhorst, B. W., Ponnaluri, V. K. C., Pradhan, S.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-11-21",
+      "url": "https://doi.org/10.64898/2026.11.20.768104",
+      "doi": "10.64898/2026.11.20.768104",
+      "abstract": "5-methylcytosine (5mC) and 5-hydroxymethylcytosine (5hmC) are genome-wide epigenetic modifications involved in chromatin organization and transcriptional regulation. Although Enzymatic Methyl-seq (EM-seq) can enable the combined profiling of 5mC and 5hmC, Enzymatic 5hmC-seq (E5hmC-seq) can provide selective profiling of 5hmC at single-base resolution. In this context, we systematically validated E",
+      "source": "preprint",
+      "topic": "life-science",
+      "summary_bullets": [
+        "Focus: Single-base 5mC and 5hmC profiling identifies a dynamic 5hmC-to-5mC transition at gene bodies and transcription end sites during neuronal differentiation of mouse embryonic stem cells.",
+        "5-methylcytosine (5mC) and 5-hydroxymethylcytosine (5hmC) are genome-wide epigenetic modifications involved in chromatin organization and transcriptional regulation.",
+        "Although Enzymatic Methyl-seq (EM-seq) can enable the combined profiling of 5mC and 5hmC, Enzymatic 5hmC-seq (E5hmC-seq) can provide selective profiling of 5hmC at single-base resolution."
       ],
       "summary_kind": "abstract"
     },
@@ -682,57 +729,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "The creatine transporter SLC6A8 is an immune pressure-exposed metabolic vulnerability in acute myeloid leukemia",
-      "authors": "Apostolova, P., Gremelspacher, T., Sonrel, A., Hao-Shen, H., Cha, M., Andreis, M., Bauersachs, H. G., Martin, J. L., Sanin, D. E., Tossounidis, J., Gomez-Auli, A., Buczak, K., Braun, L. M., Curtis, J. D., O'Sullivan, D., Uhl, F. M., Mittler, G., Penter, L., Zaugg, J. B., Zeiser, R., Pearce, E. J., Buescher, J. M., Edwards-Hicks, J., Kelly, B., Pearce, E. L.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-11-20",
-      "url": "https://doi.org/10.64898/2026.11.18.767047",
-      "doi": "10.64898/2026.11.18.767047",
-      "abstract": "Chemotherapy imposes metabolic pressure that generates persisting tumor cell states, but whether these adaptations also shape immune evasion is poorly understood. Here, we identify creatine accumulation as a conserved feature of chemotherapy-persisting acute myeloid leukemia (AML) across mouse and human models. Stable-isotope tracing and genetic perturbation show that this is driven predominantly ",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: The creatine transporter SLC6A8 is an immune pressure-exposed metabolic vulnerability in acute myeloid leukemia.",
-        "Chemotherapy imposes metabolic pressure that generates persisting tumor cell states, but whether these adaptations also shape immune evasion is poorly understood.",
-        "Here, we identify creatine accumulation as a conserved feature of chemotherapy-persisting acute myeloid leukemia (AML) across mouse and human models."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "TERRA engages MDA5 to shape the immune landscape in ALT brain tumors",
-      "authors": "Pecchini, I., Bontempi, V., Isidori, C., Sorze, S., Liuzzo, A., Martinez Olmo, I., Cayuela Fuentes, M. L., Tebaldi, T. L., Abdelfattah, N. E., Yun, K., Trompouki, E., Mione, M.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-11-20",
-      "url": "https://doi.org/10.64898/2026.11.19.767868",
-      "doi": "10.64898/2026.11.19.767868",
-      "abstract": "In cancer, telomere maintenance is mediated by telomerase reactivation or by the alternative lengthening of telomere (ALT) pathway. Both mechanisms contribute to cancer cell replicative immortality, but ALT, generates telomere instability and promotes inflammation, thus contributing to cancer progression also through non-cell autonomous mechanisms. How ALT telomeres modulate inflammatory signals i",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: TERRA engages MDA5 to shape the immune landscape in ALT brain tumors.",
-        "In cancer, telomere maintenance is mediated by telomerase reactivation or by the alternative lengthening of telomere (ALT) pathway.",
-        "Both mechanisms contribute to cancer cell replicative immortality, but ALT, generates telomere instability and promotes inflammation, thus contributing to cancer progression also through non-cell autonomous mechanisms."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Targeting the YAP1/TAZ-TEAD Transcriptional Axis Reveals a Therapeutic Vulnerability in Androgen Receptor Signaling Inhibitor (ARSI)-Resistant Prostate Cancer",
-      "authors": "Mohan, V., Lamichhane, S., Jaiswal, P. K., Kang, G., Wyczechowska, D. D., Koul, S., Koul, H. K.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-11-20",
-      "url": "https://doi.org/10.64898/2026.11.19.767854",
-      "doi": "10.64898/2026.11.19.767854",
-      "abstract": "Therapeutic resistance remains a major barrier in advanced prostate cancer (PCa), particularly after prolonged treatment with second-generation androgen receptor signaling inhibitors (ARSIs) such as enzalutamide. Tumors can evade these drugs by escaping androgen receptor (AR) dependence through cellular plasticity and lineage transitions, but alternative resistance networks remain poorly understoo",
-      "source": "preprint",
-      "topic": "focus",
-      "summary_bullets": [
-        "Focus: Targeting the YAP1/TAZ-TEAD Transcriptional Axis Reveals a Therapeutic Vulnerability in Androgen Receptor Signaling Inhibitor (ARSI)-Resistant Prostate Cancer.",
-        "Therapeutic resistance remains a major barrier in advanced prostate cancer (PCa), particularly after prolonged treatment with second-generation androgen receptor signaling inhibitors (ARSIs) such as enzalutamide.",
-        "Tumors can evade these drugs by escaping androgen receptor (AR) dependence through cellular plasticity and lineage transitions, but alternative resistance networks remain poorly understoo."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
       "title": "Sleuth finds 'impossible proteins' in hundreds of research papers. ",
       "authors": "Else H.",
       "journal": "Nature",
@@ -952,6 +948,24 @@
       "summary_kind": "abstract"
     },
     {
+      "title": "What do various cancers have in common?",
+      "authors": "Kalucka JM.",
+      "journal": "Nature",
+      "date": "2026-11-19",
+      "url": "https://doi.org/10.1038/d41586-026-03379-3",
+      "doi": "10.1038/d41586-026-03379-3",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "focus",
+      "flagship": true,
+      "summary_bullets": [
+        "What do various cancers have in common?."
+      ],
+      "summary_kind": "headline"
+    },
+    {
       "title": "CD19 CAR T cell therapy alters disease-associated immune signatures in multiple sclerosis",
       "authors": "Fischbach F, Pfeffer LK, Engler JB, Neziraj T, Richter J, Sattarnezhad N, Berve K, Lecourt AC, Schlicht F, Konen FF, Sonner JK, Saary P, Willing A, Reinhardt S, Meurs N, Vieira V, Badbaran A, Berger C, Borie D, Seibel J, Fiehler J, Daumer M, Skripuletz T, Kuhle J, Ayuk F, Heesen C, Kröger N, Fehse B, Lanz TV, Pröbstel AK, Friese MA.",
       "journal": "Cell",
@@ -970,24 +984,6 @@
         "Although current immunotherapies control relapses, they have limited impact on progression, which might reflect incomplete access to or modulation of compartmentalized CNS inflammation."
       ],
       "summary_kind": "abstract"
-    },
-    {
-      "title": "What do various cancers have in common?",
-      "authors": "Kalucka JM.",
-      "journal": "Nature",
-      "date": "2026-11-19",
-      "url": "https://doi.org/10.1038/d41586-026-03379-3",
-      "doi": "10.1038/d41586-026-03379-3",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "focus",
-      "flagship": true,
-      "summary_bullets": [
-        "What do various cancers have in common?."
-      ],
-      "summary_kind": "headline"
     },
     {
       "title": "Pinpointing planned speech",
@@ -1350,6 +1346,60 @@
       "summary_kind": "abstract"
     },
     {
+      "title": "Bacteria and viruses team up to hasten the demise of algal blooms",
+      "authors": "",
+      "journal": "Nature",
+      "date": "2026-11-19",
+      "url": "https://doi.org/10.1038/d41586-026-03606-x",
+      "doi": "10.1038/d41586-026-03606-x",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Bacteria and viruses team up to hasten the demise of algal blooms."
+      ],
+      "summary_kind": "headline"
+    },
+    {
+      "title": "Sore throat? The brain has surprising control over how ill you feel",
+      "authors": "Kozlov M.",
+      "journal": "Nature",
+      "date": "2026-11-19",
+      "url": "https://doi.org/10.1038/d41586-026-03774-w",
+      "doi": "10.1038/d41586-026-03774-w",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Sore throat? The brain has surprising control over how ill you feel."
+      ],
+      "summary_kind": "headline"
+    },
+    {
+      "title": "Genome writing reveals SVA retrotransposon consequences in X-Linked Dystonia-Parkinsonism",
+      "authors": "Zhang W, Zhao Y, Prakash P, Appleby H, Barriball K, Capponi S, Jiang Q, Wudzinska A, Westerdahl J, Maza A, Mangiameli K, Vaine C, Ellis G, Rahman N, Markovic S, Mishkit O, Limberg K, Maurano M, Wadghiri Y, Kim S, Wheeler V, Timmers H, Bragg D, Liddelow S, Brosh R, Boeke J.",
+      "journal": "Cell",
+      "date": "2026-11-19",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13787558/?tool=EBI",
+      "doi": "",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "cell",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "Genome writing reveals SVA retrotransposon consequences in X-Linked Dystonia-Parkinsonism."
+      ],
+      "summary_kind": "headline"
+    },
+    {
       "title": "Genome writing reveals SVA retrotransposon consequences in X-linked dystonia-parkinsonism",
       "authors": "Zhang W, Zhao Y, Prakash P, Appleby H, Barriball K, Capponi S, Jiang Q, Wudzinska AM, Westerdahl JR, Maza AM, Mangiameli K, Vaine CA, Ellis G, Rahman N, Markovic S, Mishkit O, Limberg KC, Maurano MT, Wadghiri YZ, Kim SY, Wheeler VC, Timmers HTM, Bragg DC, Liddelow SA, Brosh R, Boeke JD.",
       "journal": "Cell",
@@ -1430,42 +1480,6 @@
       "summary_kind": "abstract"
     },
     {
-      "title": "Bacteria and viruses team up to hasten the demise of algal blooms",
-      "authors": "",
-      "journal": "Nature",
-      "date": "2026-11-19",
-      "url": "https://doi.org/10.1038/d41586-026-03606-x",
-      "doi": "10.1038/d41586-026-03606-x",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Bacteria and viruses team up to hasten the demise of algal blooms."
-      ],
-      "summary_kind": "headline"
-    },
-    {
-      "title": "Sore throat? The brain has surprising control over how ill you feel",
-      "authors": "Kozlov M.",
-      "journal": "Nature",
-      "date": "2026-11-19",
-      "url": "https://doi.org/10.1038/d41586-026-03774-w",
-      "doi": "10.1038/d41586-026-03774-w",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "Sore throat? The brain has surprising control over how ill you feel."
-      ],
-      "summary_kind": "headline"
-    },
-    {
       "title": "TransA-MERFISH reveals divergent post-retinal direction-selective circuits",
       "authors": "Wang F, Zhang L, Chang S, Liu C, Hu J, Zhao M, Tsai NY, Nimkar K, Zhang S, Shadrach JL, Chen X, Kaltschmidt JA, Gan L, Yao S, Shekhar K, Feinberg EH, Duan X.",
       "journal": "Nature",
@@ -1482,23 +1496,6 @@
         "Focus: TransA-MERFISH reveals divergent post-retinal direction-selective circuits.",
         "A major goal in neuroscience is to map the transformation of information as it flows through the brain.",
         "For example, neurons at many levels of the visual hierarchy are attuned to motion direction 1-5."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Spatial atlas of gut-draining lymph nodes reveals the developmental organization of intestinal tolerance and immunity",
-      "authors": "Lo, Y., Lakhiani, P., Yadav, A., Feather, G., C. Binoy, A., Paucar Iza, Y. A., Parisotto, Y., Hoelting, T., Shibu, G., Cabric, V., Park, T., Brown, C.",
-      "journal": "bioRxiv (preprint)",
-      "date": "2026-11-18",
-      "url": "https://doi.org/10.64898/2026.11.16.767093",
-      "doi": "10.64898/2026.11.16.767093",
-      "abstract": "Early life offers a window to establish lasting tolerance to dietary and commensal microbial antigens. How developing gut lymph nodes balance tolerance and immunity remains unclear. Using spatial transcriptomics, we map small intestine- and colon-draining nodes during weaning and adulthood, resolving rare immune and stromal populations and their niches, including Thetis cells (TCs), an antigen-pre",
-      "source": "preprint",
-      "topic": "spatial",
-      "summary_bullets": [
-        "Focus: Spatial atlas of gut-draining lymph nodes reveals the developmental organization of intestinal tolerance and immunity.",
-        "Early life offers a window to establish lasting tolerance to dietary and commensal microbial antigens.",
-        "How developing gut lymph nodes balance tolerance and immunity remains unclear."
       ],
       "summary_kind": "abstract"
     },
@@ -1533,6 +1530,23 @@
         "Focus: A near-infrared fluorescent genetically encoded calcium ion biosensor with a direct response.",
         "Near-infrared genetically encoded calcium ion (Ca2+) indicators (NIR GECIs) enable Ca2+ imaging at longer wavelengths than green or red fluorescent GECIs, providing reduced autofluorescence and phototoxicity, and improved…",
         "We have previously reported biliverdin (BV)-binding phytochrome-based NIR GECIs such as NIR-GECO2G that exhib."
+      ],
+      "summary_kind": "abstract"
+    },
+    {
+      "title": "Spatial atlas of gut-draining lymph nodes reveals the developmental organization of intestinal tolerance and immunity",
+      "authors": "Lo, Y., Lakhiani, P., Yadav, A., Feather, G., C. Binoy, A., Paucar Iza, Y. A., Parisotto, Y., Hoelting, T., Shibu, G., Cabric, V., Park, T., Brown, C.",
+      "journal": "bioRxiv (preprint)",
+      "date": "2026-11-18",
+      "url": "https://doi.org/10.64898/2026.11.16.767093",
+      "doi": "10.64898/2026.11.16.767093",
+      "abstract": "Early life offers a window to establish lasting tolerance to dietary and commensal microbial antigens. How developing gut lymph nodes balance tolerance and immunity remains unclear. Using spatial transcriptomics, we map small intestine- and colon-draining nodes during weaning and adulthood, resolving rare immune and stromal populations and their niches, including Thetis cells (TCs), an antigen-pre",
+      "source": "preprint",
+      "topic": "spatial",
+      "summary_bullets": [
+        "Focus: Spatial atlas of gut-draining lymph nodes reveals the developmental organization of intestinal tolerance and immunity.",
+        "Early life offers a window to establish lasting tolerance to dietary and commensal microbial antigens.",
+        "How developing gut lymph nodes balance tolerance and immunity remains unclear."
       ],
       "summary_kind": "abstract"
     },
@@ -2088,6 +2102,24 @@
       "summary_kind": "abstract"
     },
     {
+      "title": "'Light and sound' therapy for Alzheimer's flops in long-anticipated trial",
+      "authors": "Mullard A.",
+      "journal": "Nature",
+      "date": "2026-11-17",
+      "url": "https://doi.org/10.1038/d41586-026-03770-0",
+      "doi": "10.1038/d41586-026-03770-0",
+      "abstract": "",
+      "citation_count": 0,
+      "source": "journal",
+      "journal_family": "nature",
+      "topic": "life-science",
+      "flagship": true,
+      "summary_bullets": [
+        "'Light and sound' therapy for Alzheimer's flops in long-anticipated trial."
+      ],
+      "summary_kind": "headline"
+    },
+    {
       "title": "Paleogenomics illuminates mobility and changing lifeways in Chalcolithic Anatolia",
       "authors": "Aydoğan A, Vural KB, Kazancı DD, Sevkar A, Yüncü E, Sağlıcan E, Yorulmaz S, Güler MN, Yaka R, Doğu AK, Sarmusak E, Palmér AI, Yılmaz Y, Boz B, Erdal ÖD, Adiloğlu G, Aktürk Ş, Altınışık NE, Duru G, Hassett B, Yelozer S, Munro N, Tekin H, Itahashi Y, Yoneda M, Takaoğlu T, Özbal R, Gerritsen F, Sarı D, Erdoğu B, Steadman S, McMahon G, Öztan A, Özdoğan M, Özdoğan E, Biehl P, Rosenstock E, Anvari J, Byrnes J, Orton D, Caneva I, Palumbi G, Kartal G, Witonsky D, Lagerholm VK, Vassou D, Serpetsidaki I, Philippidis A, Carter T, Çevik Ö, Atakuman Ç, Arbuckle B, Kılınç GM, Pavlidis P, Osborne J, Novembre J, Götherström A, Nafplioti A, Raghavan M, Koptekin D, Moots HM, Özer F, Erdal YS, Somel M.",
       "journal": "Cell",
@@ -2106,24 +2138,6 @@
         "6000-3000 BCE) was characterized by drastically reduced settlement densities compared with the preceding Neolithic and the succeeding Bronze Ages, a change interpreted as population decline."
       ],
       "summary_kind": "abstract"
-    },
-    {
-      "title": "'Light and sound' therapy for Alzheimer's flops in long-anticipated trial",
-      "authors": "Mullard A.",
-      "journal": "Nature",
-      "date": "2026-11-17",
-      "url": "https://doi.org/10.1038/d41586-026-03770-0",
-      "doi": "10.1038/d41586-026-03770-0",
-      "abstract": "",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "life-science",
-      "flagship": true,
-      "summary_bullets": [
-        "'Light and sound' therapy for Alzheimer's flops in long-anticipated trial."
-      ],
-      "summary_kind": "headline"
     },
     {
       "title": "Secrets of the vampires: genomes reveal how these bats live off blood alone",
@@ -2922,26 +2936,6 @@
         "Focus: Mitochondrial protein import defects enhance tumour immunogenicity.",
         "Tumour cells evade detection and elimination by the immune system through a suite of adaptations1, including the repression of antigen presentation, which is required for the recognition of…",
         "Mitochondria have emerged as targets for enhancing antitumour immunity."
-      ],
-      "summary_kind": "abstract"
-    },
-    {
-      "title": "Evolutionary dynamics in the years preceding acute myeloid leukaemia",
-      "authors": "Watson CJ, Poon GYP, MacGregor HAJ, Fonseca AVA, Apostolidou S, Damaskou A, Boniface C, Hackett S, Gentry-Maharaj A, Menon U, Blundell JR.",
-      "journal": "Nature",
-      "date": "2026-11-11",
-      "url": "https://doi.org/10.1038/s41586-026-11269-x",
-      "doi": "10.1038/s41586-026-11269-x",
-      "abstract": "Somatic evolution in ageing tissues underlies many cancers<sup>1,2</sup>. However, our quantitative understanding of the rules governing this pre-cancerous evolution remains incomplete. Here we exploit a unique collection of serial blood samples<sup>3</sup>, collected annually for up to a decade and beginning as early as 15 years before diagnosis of acute myeloid leukaemia, to provide a quantitati",
-      "citation_count": 0,
-      "source": "journal",
-      "journal_family": "nature",
-      "topic": "focus",
-      "flagship": true,
-      "summary_bullets": [
-        "Focus: Evolutionary dynamics in the years preceding acute myeloid leukaemia.",
-        "Somatic evolution in ageing tissues underlies many cancers1,2.",
-        "However, our quantitative understanding of the rules governing this pre-cancerous evolution remains incomplete."
       ],
       "summary_kind": "abstract"
     }
